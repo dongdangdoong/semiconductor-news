@@ -2,7 +2,7 @@
 agent.py — 반도체 뉴스 수집 + Gemini 분석
 """
 
-import json, re, hashlib
+import os, json, re, hashlib
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 import feedparser
