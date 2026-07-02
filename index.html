@@ -427,7 +427,7 @@ async function loadNews() {
   document.getElementById('filterBar').style.display   = 'none';
 
   try {
-    const res  = await fetch('/api/news');
+    const res = await fetch('/data/news.json');
     if (!res.ok) throw new Error(await res.text());
     const data = await res.json();
     render(data);
