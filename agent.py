@@ -194,6 +194,8 @@ def save(raw_articles, analysis):
 # ─── 실행 ────────────────────────────────────────────────────────────────────
 
 def run(days_back=1):
+    key = os.environ.get("GEMINI_API_KEY", "")
+    print(f"API KEY 길이: {len(key)}자")
     print(f"\n{'='*50}")
     print(f"  반도체 뉴스 에이전트  {datetime.now(tz=KST):%Y-%m-%d %H:%M KST}")
     print(f"{'='*50}")
