@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-07-02T23:28:46.121805+09:00",
+  "date": "2026년 07월 02일",
+  "total": 9,
+  "briefing": "오늘의 반도체 업계 주요 동향을 확인하세요.",
+  "market_signals": {
+    "bullish": [],
+    "bearish": [],
+    "watchlist": []
+  },
+  "stories": [
+    {
+      "id": "666223dd",
+      "title_ko": "슈퍼마이크로, 엔비디아 GPU 밀수 관련 대만 당국 압수수색 부인 및 협력 강조",
+      "company": "",
+      "topic": "기타",
+      "region": "글로벌",
+      "insight": "",
+      "impact": 3,
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/desktops/servers/supermicro-denies-that-its-offices-were-raided-by-taiwanese-authorities-in-nvidia-gpu-smuggling-case-company-says-that-it-coordinated-with-the-police-and-provided-access-to-investigated-employees-workstations-and-gadgets",
+      "published": "2026-07-02 23:10",
+      "lang": "en"
+    },
+    {
+      "id": "6922e36b",
+      "title_ko": "Montech NX600 리뷰: 제트 엔진 팬을 탑재한 보급형 듀얼 타워 쿨러",
+      "company": "",
+      "topic": "기타",
+      "region": "글로벌",
+      "insight": "",
+      "impact": 3,
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/pc-components/air-cooling/montech-nx600-review",
+      "published": "2026-07-02 22:30",
+      "lang": "en"
+    },
+    {
+      "id": "bb171b93",
+      "title_ko": "인텔, 주력 데스크톱 PC 칩 가격 최대 50달러 인상",
+      "company": "Intel",
+      "topic": "기타",
+      "region": "글로벌",
+      "insight": "",
+      "impact": 3,
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-hikes-pricing-for-its-flagship-desktop-pc-chips-by-up-to-usd50-official-core-ultra-270k-plus-and-250k-plus-product-pages-now-recommend-prices-of-up-to-usd349-and-usd229-respectively",
+      "published": "2026-07-02 21:58",
+      "lang": "en"
+    },
+    {
+      "id": "fdd3a4df",
+      "title_ko": "터키, 반도체 설계 넘어 자체 생산 필요",
+      "company": "업계전반",
+      "topic": "정책규제",
+      "region": "글로벌",
+      "insight": "",
+      "impact": 3,
+      "source": "EE Times",
+      "url": "https://www.eetimes.com/turkey-needs-to-make-its-own-chips-not-just-design-them/",
+      "published": "2026-07-02 21:42",
+      "lang": "en"
+    },
+    {
+      "id": "55a0dc55",
+      "title_ko": "스타트업, 핵 마이크로리액터로 엔비디아 PC 구동 시연 및 30MW AI",
+      "company": "",
+      "topic": "기타",
+      "region": "글로벌",
+      "insight": "",
+      "impact": 3,
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/startup-activates-nuclear-microreactor-live-on-stage-to-power-an-nvidia-rtx-spark-desktop-pc-firm-working-with-nvidia-to-build-a-30mw-closed-loop-ai-factory-that-doesnt-use-local-water",
+      "published": "2026-07-02 20:58",
+      "lang": "en"
+    },
+    {
+      "id": "6d27182d",
+      "title_ko": "CyberPowerPC의 4K 지원 RTX 5070 게이밍 PC, 인텔 Core Ultra 25",
+      "company": "",
+      "topic": "기타",
+      "region": "글로벌",
+      "insight": "",
+      "impact": 3,
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd521-on-this-4k-capable-rtx-5070-gaming-pc-from-cyberpowerpc-now-just-usd1-349-huge-price-drop-for-budget-friendly-rig-with-impressive-intel-core-ultra-250kf-cpu-16gb-ddr5-and-1tb-ssd",
+      "published": "2026-07-02 20:06",
+      "lang": "en"
+    },
+    {
+      "id": "d1de97a8",
+      "title_ko": "HP, 차세대 게이밍 노트북 $1,300 할인 판매: Arrow Lake 및 RTX 5080 탑",
+      "company": "",
+      "topic": "기타",
+      "region": "글로벌",
+      "insight": "",
+      "impact": 3,
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/laptops/gaming-laptops/hp-has-slashed-usd1-300-off-this-colossal-5080-gaming-laptop-for-july-4-34-percent-discount-gets-you-32gb-of-ram-and-24-core-arrow-lake-mobile-gaming-for-usd2-499",
+      "published": "2026-07-02 20:05",
+      "lang": "en"
+    },
+    {
+      "id": "323a1fc2",
+      "title_ko": "싱가포르, 엔비디아 AI GPU 밀수 용의자 자산 압류 및 기소",
+      "company": "",
+      "topic": "기타",
+      "region": "글로벌",
+      "insight": "",
+      "impact": 3,
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/singapore-cops-seize-usd42-million-mansion-freeze-usd772k-bank-account-of-suspected-nvidia-ai-gpu-smugglers-individuals-alleged-to-have-illegally-exported-data-center-servers-to-china-charged-with-fraud-money-laundering",
+      "published": "2026-07-02 20:00",
+      "lang": "en"
+    },
+    {
+      "id": "9e3ded3b",
+      "title_ko": "DSP 채택 사례가 엣지 AI에 시사하는 세 가지",
+      "company": "업계전반",
+      "topic": "",
+      "region": "글로벌",
+      "insight": "",
+      "impact": 3,
+      "source": "Semiconductor Engineering",
+      "url": "https://semiengineering.com/three-things-dsp-adoption-can-teach-us-about-edge-ai/",
+      "published": "2026-07-02 16:06",
+      "lang": "en"
+    }
+  ]
+}
