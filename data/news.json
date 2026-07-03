@@ -1,34 +1,26 @@
 {
-  "generated_at": "2026-07-03T09:07:58.892962+09:00",
+  "generated_at": "2026-07-03T14:24:00.589726+09:00",
   "date": "2026년 07월 03일",
   "total": 3,
-  "briefing": "오늘의 반도체 업계 주요 동향을 확인하세요.",
-  "market_signals": {
-    "bullish": [],
-    "bearish": [],
-    "watchlist": []
-  },
   "stories": [
     {
-      "id": "15b5a4ef",
-      "title_ko": "‘셀 반도체’에 나스닥 약세...고용악화에 다우는 사상 최고[월",
+      "id": "3aec13f8",
+      "title_ko": "씨티 “환율 석",
+      "summary_ko": "",
       "company": "",
       "topic": "기타",
-      "region": "글로벌",
-      "insight": "",
       "impact": 3,
       "source": "매일경제",
-      "url": "https://www.mk.co.kr/news/economy/12089489",
-      "published": "2026-07-03 05:43",
+      "url": "https://www.mk.co.kr/news/economy/12089767",
+      "published": "2026-07-03 13:28",
       "lang": "ko"
     },
     {
       "id": "5e9657ec",
-      "title_ko": "엔비디아, AI 클라우드 매출 지분 확보 추진: 하드웨어 판매 외 추가 수익 모델 도입",
-      "company": "Nvidia",
+      "title_ko": "엔비디아, AI",
+      "summary_ko": "",
+      "company": "",
       "topic": "기타",
-      "region": "글로벌",
-      "insight": "",
       "impact": 3,
       "source": "Tom's Hardware",
       "url": "https://www.tomshardware.com/tech-industry/nvidia-to-take-a-cut-of-ai-cloud-revenue-on-top-of-hardware-sales",
@@ -36,16 +28,15 @@
       "lang": "en"
     },
     {
-      "id": "6922e36b",
-      "title_ko": "Montech NX600 리뷰: 제트 엔진 팬을 장착한 보급형 듀얼 타워 쿨",
+      "id": "640f07f1",
+      "title_ko": "메타, AI 컴퓨팅",
+      "summary_ko": "",
       "company": "",
       "topic": "기타",
-      "region": "글로벌",
-      "insight": "",
       "impact": 3,
       "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/pc-components/air-cooling/montech-nx600-review",
-      "published": "2026-07-02 22:30",
+      "url": "https://www.tomshardware.com/tech-industry/meta-reportedly-plans-to-rent-out-its-ai-compute",
+      "published": "2026-07-02 22:01",
       "lang": "en"
     }
   ]
