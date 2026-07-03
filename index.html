@@ -7,30 +7,28 @@
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 :root {
-  --bg:     #0d0f14;
-  --bg2:    #13161e;
-  --bg3:    #1a1e28;
-  --line:   #232736;
-  --line2:  #2e3347;
-  --txt:    #e8eaf0;
-  --txt2:   #8b90a0;
-  --txt3:   #555a6e;
-  --accent: #4f8ef7;
-  --accent2:#1d3a6e;
-  --green:  #34c77b;
-  --amber:  #f5a623;
-  --purple: #a07bf8;
-  --purple-bg:#1a1230;
-  --radius: 10px;
-  --mono:   'JetBrains Mono','Fira Mono','Consolas',monospace;
+  --bg:        #0d0f14;
+  --bg2:       #13161e;
+  --bg3:       #1a1e28;
+  --line:      #232736;
+  --line2:     #2e3347;
+  --txt:       #e8eaf0;
+  --txt2:      #8b90a0;
+  --txt3:      #555a6e;
+  --accent:    #4f8ef7;
+  --accent2:   #1d3a6e;
+  --green:     #34c77b;
+  --amber:     #f5a623;
+  --purple:    #a07bf8;
+  --purple-bg: #1a1230;
+  --radius:    10px;
+  --mono:      'JetBrains Mono','Consolas',monospace;
 }
 body {
   background: var(--bg);
   color: var(--txt);
   font-family: 'Pretendard','Apple SD Gothic Neo','Noto Sans KR',-apple-system,sans-serif;
-  font-size: 15px;
-  line-height: 1.6;
-  min-height: 100vh;
+  font-size: 15px; line-height: 1.6; min-height: 100vh;
 }
 .wrap { max-width: 860px; margin: 0 auto; padding: 0 24px; }
 
@@ -47,18 +45,17 @@ header {
 }
 .logo { display: flex; align-items: center; gap: 10px; }
 .logo-icon {
-  width: 32px; height: 32px;
-  background: var(--accent2); border-radius: 8px;
-  display: flex; align-items: center; justify-content: center;
+  width: 32px; height: 32px; background: var(--accent2);
+  border-radius: 8px; display: flex; align-items: center; justify-content: center;
 }
 .logo-icon svg { width: 18px; height: 18px; }
-.logo-text { font-size: 16px; font-weight: 600; letter-spacing: -0.3px; }
+.logo-text { font-size: 16px; font-weight: 600; letter-spacing: -.3px; }
 .logo-text span { color: var(--accent); }
-.header-meta { display: flex; align-items: center; gap: 12px; font-size: 12px; color: var(--txt3); }
-.status-dot {
+.header-right { display: flex; align-items: center; gap: 12px; }
+.gen-time { font-size: 12px; color: var(--txt3); }
+.dot {
   width: 6px; height: 6px; border-radius: 50%;
-  background: var(--green); display: inline-block;
-  box-shadow: 0 0 6px var(--green);
+  background: var(--green); box-shadow: 0 0 6px var(--green);
   animation: glow 2s ease-in-out infinite;
 }
 @keyframes glow { 0%,100%{opacity:1} 50%{opacity:.4} }
@@ -75,101 +72,93 @@ header {
   display: flex; gap: 6px; flex-wrap: wrap;
   padding: 16px 0 12px; align-items: center;
 }
-.filter-label { font-size: 11px; color: var(--txt3); margin-right: 2px; }
-.filter-chip {
-  font-size: 12px; padding: 4px 12px; border-radius: 20px;
+.filter-label { font-size: 11px; color: var(--txt3); margin-right: 4px; }
+.chip {
+  font-size: 12px; padding: 5px 14px; border-radius: 20px;
   border: 1px solid var(--line2); background: transparent;
   color: var(--txt2); cursor: pointer; transition: all .15s; white-space: nowrap;
 }
-.filter-chip:hover  { border-color: var(--accent); color: var(--accent); }
-.filter-chip.active { background: var(--accent2); border-color: var(--accent); color: var(--accent); }
+.chip:hover  { border-color: var(--accent); color: var(--accent); }
+.chip.active { background: var(--accent2); border-color: var(--accent); color: var(--accent); font-weight: 600; }
 
-/* 날짜 & 건수 */
-.date-bar {
-  display: flex; align-items: center; justify-content: space-between;
-  padding: 10px 0 14px;
-  font-size: 12px; color: var(--txt3);
-  border-bottom: 1px solid var(--line);
-  margin-bottom: 16px;
+/* 날짜·건수 바 */
+.meta-bar {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 8px 0 14px; font-size: 12px; color: var(--txt3);
+  border-bottom: 1px solid var(--line); margin-bottom: 4px;
 }
-.date-bar strong { color: var(--txt2); }
+.meta-bar b { color: var(--txt2); }
 
-/* 뉴스 카드 */
-.news-list { display: flex; flex-direction: column; gap: 2px; }
-.news-card {
-  background: var(--bg);
+/* 카드 */
+.card {
   border-bottom: 1px solid var(--line);
-  padding: 18px 0;
-  text-decoration: none;
-  display: block;
-  transition: background .15s;
+  padding: 20px 0; display: block;
+  text-decoration: none; transition: background .12s;
 }
-.news-card:hover { background: var(--bg3); border-radius: var(--radius); padding: 18px 14px; margin: 0 -14px; }
-.news-card-top { display: flex; gap: 10px; align-items: flex-start; margin-bottom: 8px; }
-.impact-badge {
-  flex-shrink: 0; width: 24px; height: 24px; border-radius: 5px;
+.card:hover {
+  background: var(--bg3); border-radius: var(--radius);
+  padding: 20px 14px; margin: 0 -14px;
+  border-bottom-color: transparent;
+}
+.card-top { display: flex; gap: 10px; align-items: flex-start; margin-bottom: 8px; }
+.badge {
+  flex-shrink: 0; width: 26px; height: 26px; border-radius: 6px;
   display: flex; align-items: center; justify-content: center;
   font-size: 10px; font-weight: 700; margin-top: 1px;
 }
-.imp5 { background: #1d2f5a; color: var(--accent); }
-.imp4 { background: #1a2e25; color: var(--green); }
-.imp3 { background: #2d2500; color: var(--amber); }
-.imp2 { background: var(--bg3); color: var(--txt2); }
-.imp1 { background: var(--bg3); color: var(--txt3); }
-.news-title {
+.i5 { background:#1d2f5a; color:var(--accent); }
+.i4 { background:#1a2e25; color:var(--green); }
+.i3 { background:#2d2500; color:var(--amber); }
+.i2 { background:var(--bg3); color:var(--txt2); }
+.i1 { background:var(--bg3); color:var(--txt3); }
+.card-title {
   font-size: 14px; font-weight: 600;
   color: var(--txt); line-height: 1.45; flex: 1;
 }
-.news-tags {
+.card-tags {
   display: flex; gap: 5px; flex-wrap: wrap;
-  margin: 6px 0 8px 34px;
+  margin: 7px 0 9px 36px;
 }
 .tag {
-  font-size: 10px; font-weight: 600; letter-spacing: .04em;
-  padding: 2px 8px; border-radius: 20px; border: 1px solid;
+  font-size: 10px; font-weight: 600; padding: 2px 8px;
+  border-radius: 20px; border: 1px solid;
 }
-.tag-company { background: var(--bg3); border-color: var(--line2); color: var(--txt2); }
-.tag-topic   { background: var(--purple-bg); border-color: #3a2a5a; color: var(--purple); }
-.news-summary {
-  font-size: 13px; color: var(--txt2); line-height: 1.7;
-  margin-left: 34px; margin-bottom: 8px;
+.tag-co    { background:var(--bg3);       border-color:var(--line2);  color:var(--txt2); }
+.tag-topic { background:var(--purple-bg); border-color:#3a2a5a;       color:var(--purple); }
+.card-summary {
+  font-size: 13px; color: var(--txt2); line-height: 1.75;
+  margin: 0 0 10px 36px;
 }
-.news-footer {
+.card-footer {
   display: flex; align-items: center; justify-content: space-between;
-  margin-left: 34px;
+  margin-left: 36px;
 }
-.news-time { font-size: 11px; color: var(--txt3); font-family: var(--mono); }
-.news-source { font-size: 11px; color: var(--txt3); }
-.news-link {
+.card-meta { font-size: 11px; color: var(--txt3); font-family: var(--mono); }
+.card-link {
   font-size: 11px; color: var(--accent); opacity: .6;
   display: flex; align-items: center; gap: 3px; transition: opacity .15s;
 }
-.news-card:hover .news-link { opacity: 1; }
+.card:hover .card-link { opacity: 1; }
 
 /* 로딩 / 빈 상태 */
 .loading {
-  display: flex; flex-direction: column;
-  align-items: center; justify-content: center;
-  padding: 80px 0; gap: 16px; color: var(--txt3);
+  display: flex; flex-direction: column; align-items: center;
+  justify-content: center; padding: 80px 0; gap: 14px; color: var(--txt3);
 }
 .spinner {
-  width: 28px; height: 28px;
+  width: 26px; height: 26px;
   border: 2px solid var(--line2); border-top-color: var(--accent);
   border-radius: 50%; animation: spin .8s linear infinite;
 }
 @keyframes spin { to { transform: rotate(360deg); } }
 .empty { text-align: center; padding: 60px 0; color: var(--txt3); font-size: 14px; }
 
-/* 푸터 */
 footer {
-  border-top: 1px solid var(--line); padding: 20px 0; margin-top: 48px;
+  border-top: 1px solid var(--line); padding: 20px 0; margin-top: 40px;
   font-size: 11px; color: var(--txt3);
   display: flex; align-items: center; justify-content: space-between;
 }
-
-@media (max-width: 600px) {
-  .header-meta .generated { display: none; }
-}
+@media(max-width:600px){ .gen-time{ display:none; } }
 </style>
 </head>
 <body>
@@ -192,14 +181,13 @@ footer {
         </div>
         <div class="logo-text"><span>반도체</span> 뉴스 브리핑</div>
       </div>
-      <div class="header-meta">
-        <span class="generated" id="genTime">로딩 중...</span>
-        <span class="status-dot"></span>
-        <button class="refresh-btn" onclick="loadNews()">
+      <div class="header-right">
+        <span class="gen-time" id="genTime">로딩 중...</span>
+        <span class="dot"></span>
+        <button class="refresh-btn" onclick="load()">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M3 12a9 9 0 0 1 15-6.7L21 8M21 3v5h-5M21 12a9 9 0 0 1-15 6.7L3 16M3 21v-5h5"/>
-          </svg>
-          새로고침
+          </svg>새로고침
         </button>
       </div>
     </div>
@@ -208,125 +196,107 @@ footer {
 
 <main class="wrap">
   <div class="filter-bar" id="filterBar" style="display:none">
-    <span class="filter-label">필터</span>
-    <button class="filter-chip active" data-t="all"      onclick="filter(this)">전체</button>
-    <button class="filter-chip"        data-t="파운드리"   onclick="filter(this)">파운드리</button>
-    <button class="filter-chip"        data-t="메모리"     onclick="filter(this)">메모리</button>
-    <button class="filter-chip"        data-t="AI칩"       onclick="filter(this)">AI 칩</button>
-    <button class="filter-chip"        data-t="장비소재"   onclick="filter(this)">장비·소재</button>
-    <button class="filter-chip"        data-t="정책규제"   onclick="filter(this)">정책·규제</button>
-    <button class="filter-chip"        data-t="투자MA"     onclick="filter(this)">투자·M&A</button>
-    <button class="filter-chip"        data-t="공급망"     onclick="filter(this)">공급망</button>
+    <span class="filter-label">분야</span>
+    <button class="chip active" data-t="all"   onclick="setFilter(this)">전체</button>
+    <button class="chip" data-t="메모리"        onclick="setFilter(this)">메모리</button>
+    <button class="chip" data-t="비메모리"      onclick="setFilter(this)">비메모리</button>
+    <button class="chip" data-t="소부장"        onclick="setFilter(this)">소부장</button>
+    <button class="chip" data-t="정책규제"      onclick="setFilter(this)">정책·규제</button>
+    <button class="chip" data-t="투자"          onclick="setFilter(this)">투자</button>
   </div>
 
-  <div class="date-bar" id="dateBar" style="display:none">
+  <div class="meta-bar" id="metaBar" style="display:none">
     <span id="dateLabel"></span>
-    <span><strong id="countLabel"></strong> 건</span>
+    <span>총 <b id="cntLabel">0</b>건</span>
   </div>
 
-  <div id="newsList">
-    <div class="loading"><div class="spinner"></div><span>뉴스 로딩 중...</span></div>
+  <div id="list">
+    <div class="loading"><div class="spinner"></div><span>뉴스 불러오는 중...</span></div>
   </div>
 </main>
 
 <footer class="wrap">
-  <span>반도체 뉴스 브리핑 — AI Powered by Gemini</span>
-  <span id="footerTime"></span>
+  <span>반도체 뉴스 브리핑 · AI Powered by Gemini</span>
+  <span>최근 24시간 기준</span>
 </footer>
 
 <script>
-let allStories = [];
-let currentTopic = 'all';
+let all = [], topic = 'all';
 
-async function loadNews() {
-  document.getElementById('newsList').innerHTML =
-    '<div class="loading"><div class="spinner"></div><span>뉴스 로딩 중...</span></div>';
+async function load() {
+  document.getElementById('list').innerHTML =
+    '<div class="loading"><div class="spinner"></div><span>뉴스 불러오는 중...</span></div>';
   document.getElementById('filterBar').style.display = 'none';
-  document.getElementById('dateBar').style.display   = 'none';
-
+  document.getElementById('metaBar').style.display   = 'none';
   try {
-    const res  = await fetch('/data/news.json');
-    if (!res.ok) throw new Error(await res.text());
-    const data = await res.json();
-    render(data);
+    const r = await fetch('/data/news.json');
+    if (!r.ok) throw new Error(r.statusText);
+    render(await r.json());
   } catch(e) {
-    document.getElementById('newsList').innerHTML =
-      `<div class="empty">데이터를 불러올 수 없습니다.<br>
-       <small style="color:var(--txt3)">${e.message}</small></div>`;
+    document.getElementById('list').innerHTML =
+      `<div class="empty">데이터를 불러올 수 없습니다.<br><small>${e.message}</small></div>`;
   }
 }
 
 function render(data) {
-  allStories = data.stories || [];
-
-  const dt  = new Date(data.generated_at);
-  const fmt = dt.toLocaleString('ko-KR',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});
-  document.getElementById('genTime').textContent    = `${fmt} 업데이트`;
-  document.getElementById('footerTime').textContent = `최근 24시간 기준`;
-  document.getElementById('dateLabel').textContent  = data.date || '';
-
+  all = data.stories || [];
+  const dt = new Date(data.generated_at);
+  document.getElementById('genTime').textContent =
+    dt.toLocaleString('ko-KR',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}) + ' 업데이트';
+  document.getElementById('dateLabel').textContent = data.date || '';
   document.getElementById('filterBar').style.display = 'flex';
-  document.getElementById('dateBar').style.display   = 'flex';
-
-  renderCards();
+  document.getElementById('metaBar').style.display   = 'flex';
+  draw();
 }
 
-function renderCards() {
-  const stories = currentTopic === 'all'
-    ? allStories
-    : allStories.filter(s => s.topic === currentTopic);
-
-  document.getElementById('countLabel').textContent = stories.length;
-
-  if (!stories.length) {
-    document.getElementById('newsList').innerHTML =
-      '<div class="empty">해당 토픽의 기사가 없습니다.</div>';
+function draw() {
+  const list = topic === 'all' ? all : all.filter(s => s.topic === topic);
+  document.getElementById('cntLabel').textContent = list.length;
+  if (!list.length) {
+    document.getElementById('list').innerHTML = '<div class="empty">해당 분야 기사가 없습니다.</div>';
     return;
   }
-
-  document.getElementById('newsList').innerHTML = '<div class="news-list">' +
-    stories.map(s => {
-      const imp    = Math.min(5, Math.max(1, s.impact || 3));
-      const impLbl = imp >= 5 ? 'H5' : imp >= 4 ? 'H4' : imp >= 3 ? 'H3' : imp >= 2 ? 'L2' : 'L1';
-      return `
-      <a class="news-card" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">
-        <div class="news-card-top">
-          <div class="impact-badge imp${imp}">${impLbl}</div>
-          <div class="news-title">${esc(s.title_ko || s.title || '')}</div>
-        </div>
-        <div class="news-tags">
-          ${s.company ? `<span class="tag tag-company">${esc(s.company)}</span>` : ''}
-          ${s.topic   ? `<span class="tag tag-topic">${esc(s.topic)}</span>`   : ''}
-        </div>
-        ${s.summary_ko ? `<div class="news-summary">${esc(s.summary_ko)}</div>` : ''}
-        <div class="news-footer">
-          <span class="news-time">${esc(s.published||'')} · ${esc(s.source||'')}</span>
-          <span class="news-link">
-            원문
-            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-              <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
-            </svg>
-          </span>
-        </div>
-      </a>`;
-    }).join('') + '</div>';
+  document.getElementById('list').innerHTML = list.map(s => {
+    const imp = Math.min(5, Math.max(1, s.impact || 3));
+    const lbl = imp >= 5 ? 'H5' : imp >= 4 ? 'H4' : imp >= 3 ? 'M3' : imp >= 2 ? 'L2' : 'L1';
+    return `
+    <a class="card" href="${x(s.url)}" target="_blank" rel="noopener">
+      <div class="card-top">
+        <div class="badge i${imp}">${lbl}</div>
+        <div class="card-title">${x(s.title_ko || s.title || '')}</div>
+      </div>
+      <div class="card-tags">
+        ${s.company && s.company !== '업계전반' ? `<span class="tag tag-co">${x(s.company)}</span>` : ''}
+        ${s.topic ? `<span class="tag tag-topic">${x(s.topic)}</span>` : ''}
+      </div>
+      ${s.summary_ko ? `<div class="card-summary">${x(s.summary_ko)}</div>` : ''}
+      <div class="card-footer">
+        <span class="card-meta">${x(s.published||'')} · ${x(s.source||'')}</span>
+        <span class="card-link">원문
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+            <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+          </svg>
+        </span>
+      </div>
+    </a>`;
+  }).join('');
 }
 
-function filter(el) {
-  document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+function setFilter(el) {
+  document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
   el.classList.add('active');
-  currentTopic = el.dataset.t;
-  renderCards();
+  topic = el.dataset.t;
+  draw();
 }
 
-function esc(s) {
+function x(s) {
   return String(s)
     .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
     .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
 }
 
-loadNews();
+load();
 </script>
 </body>
 </html>
