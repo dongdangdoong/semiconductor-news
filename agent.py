@@ -10,20 +10,36 @@ DATA_DIR = Path(__file__).parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
 OUT_FILE = DATA_DIR / "news.json"
 
+# Google News RSS — 키워드 검색 결과를 RSS로 바로 수신 (가장 안정적)
+GOOGLE_NEWS_QUERIES = [
+    "반도체",
+    "삼성전자 반도체",
+    "SK하이닉스",
+    "TSMC",
+    "NVIDIA chip",
+    "semiconductor",
+    "HBM memory",
+    "AI chip semiconductor",
+    "반도체 수출규제",
+    "파운드리",
+    "EUV ASML",
+    "Intel chip",
+]
+
+# 일반 RSS 소스 (접근 가능한 것 위주)
 RSS_SOURCES = [
-    {"name": "EE Times",                 "lang": "en", "url": "https://www.eetimes.com/feed/"},
-    {"name": "Semiconductor Engineering","lang": "en", "url": "https://semiengineering.com/feed/"},
-    {"name": "IEEE Spectrum",            "lang": "en", "url": "https://spectrum.ieee.org/feeds/feed.rss"},
-    {"name": "Tom's Hardware",           "lang": "en", "url": "https://www.tomshardware.com/feeds/all"},
-    {"name": "Reuters Technology",       "lang": "en", "url": "https://feeds.reuters.com/reuters/technologyNews"},
-    {"name": "The Verge",                "lang": "en", "url": "https://www.theverge.com/rss/index.xml"},
     {"name": "전자신문",                 "lang": "ko", "url": "https://www.etnews.com/rss/"},
-    {"name": "지디넷코리아",             "lang": "ko", "url": "https://zdnet.co.kr/rss.aspx"},
     {"name": "디일렉",                   "lang": "ko", "url": "https://www.thelec.kr/rss/"},
+    {"name": "지디넷코리아",             "lang": "ko", "url": "https://zdnet.co.kr/rss.aspx"},
     {"name": "IT조선",                   "lang": "ko", "url": "https://it.chosun.com/rss/"},
     {"name": "한국경제",                 "lang": "ko", "url": "https://www.hankyung.com/feed/it"},
     {"name": "매일경제",                 "lang": "ko", "url": "https://www.mk.co.kr/rss/30100041/"},
-    {"name": "네이버뉴스",               "lang": "ko", "url": "https://news.naver.com/main/rss/rss.naver?sid1=105"},
+    {"name": "EE Times",                 "lang": "en", "url": "https://www.eetimes.com/feed/"},
+    {"name": "Semiconductor Engineering","lang": "en", "url": "https://semiengineering.com/feed/"},
+    {"name": "Tom's Hardware",           "lang": "en", "url": "https://www.tomshardware.com/feeds/all"},
+    {"name": "Reuters Technology",       "lang": "en", "url": "https://feeds.reuters.com/reuters/technologyNews"},
+    {"name": "Ars Technica",             "lang": "en", "url": "https://feeds.arstechnica.com/arstechnica/technology-lab"},
+    {"name": "The Verge",                "lang": "en", "url": "https://www.theverge.com/rss/index.xml"},
 ]
 
 INCLUDE_KW = [
@@ -31,37 +47,66 @@ INCLUDE_KW = [
     "EUV","ASML","lithography","process node","chiplet","TSMC","Samsung","Intel",
     "NVIDIA","AMD","Qualcomm","Micron","SK Hynix","Applied Materials","Lam Research",
     "AI chip","GPU","NPU","yield","supply chain","export control","CHIPS Act",
-    "반도체","파운드리","메모리","웨이퍼","칩","낸드","디램","고대역폭",
-    "수율","공정","패키징","칩렛","노광","장비","소재",
-    "삼성전자","SK하이닉스","인텔","엔비디아","퀄컴","마이크론",
-    "수출통제","보조금","반도체법","공급망","생산능력","가동률",
+    "반도체","파운드리","메모리","웨이퍼","칩","낸드","디램","고대역폭","적층",
+    "수율","공정","패키징","칩렛","노광","장비","소재","삼성전자","SK하이닉스",
+    "인텔","엔비디아","퀄컴","마이크론","수출통제","보조금","반도체법","공급망",
+    "생산능력","가동률","전력반도체","시스템반도체","팹리스","후공정","전공정",
 ]
 
-# 주가 중심 기사 제외 키워드
 STOCK_KW = [
-    "주가","주식 상승","주식 하락","코스피","코스닥","etf","펀드","증권","시총","배당","공매도",
-    "stock price","share price","shares rose","shares fell","shares gained","shares dropped",
-    "market cap","wall street","nasdaq","nyse","trading session",
+    "주가 상승","주가 하락","주가 급등","주가 급락","주식 매수","주식 매도",
+    "shares rose","shares fell","shares gained","shares dropped",
+    "stock surged","stock plunged","trading higher","trading lower",
 ]
 
 def is_relevant(text):
     t = text.lower()
     if not any(k.lower() in t for k in INCLUDE_KW):
         return False
-    # 주가가 주 내용인 기사 제외 (주가 키워드 3개 이상이면 제외)
-    stock_hits = sum(1 for k in STOCK_KW if k.lower() in t)
-    if stock_hits >= 2:
+    if any(k.lower() in t for k in STOCK_KW):
         return False
     return True
 
 def strip_html(text):
     return re.sub(r"<[^>]+>", "", text or "").strip()
 
+def make_gnews_url(query):
+    q = urllib.parse.quote(query)
+    return f"https://news.google.com/rss/search?q={q}&hl=ko&gl=KR&ceid=KR:ko"
+
 def collect():
-    # 24시간 이내 기사만
     cutoff = datetime.now(tz=KST) - timedelta(hours=24)
     articles, seen = [], set()
 
+    # 1) Google News RSS (키워드별)
+    import urllib.parse
+    for query in GOOGLE_NEWS_QUERIES:
+        url = make_gnews_url(query)
+        try:
+            feed = feedparser.parse(url)
+            for e in feed.entries:
+                pub    = e.get("published_parsed") or e.get("updated_parsed")
+                pub_dt = datetime(*pub[:6], tzinfo=timezone.utc).astimezone(KST) if pub else datetime.now(tz=KST)
+                if pub_dt < cutoff:
+                    continue
+                title   = strip_html(e.get("title","")).strip()
+                summary = strip_html(e.get("summary","") or e.get("description",""))[:600]
+                url_    = e.get("link","")
+                lang    = "ko" if any(ord(c) > 0x3000 for c in title) else "en"
+                uid     = hashlib.md5(title[:60].encode()).hexdigest()[:8]
+                if uid in seen or not is_relevant(title + " " + summary):
+                    continue
+                seen.add(uid)
+                articles.append({
+                    "id": uid, "source": f"Google News ({query})",
+                    "lang": lang, "title": title, "content": summary,
+                    "url": url_, "published": pub_dt.strftime("%Y-%m-%d %H:%M"),
+                    "pub_dt": pub_dt,
+                })
+        except Exception as ex:
+            print(f"  [warn] GNews '{query}': {ex}")
+
+    # 2) 일반 RSS
     for src in RSS_SOURCES:
         try:
             feed = feedparser.parse(src["url"])
@@ -71,54 +116,48 @@ def collect():
                 if pub_dt < cutoff:
                     continue
                 title   = strip_html(e.get("title","")).strip()
-                # 본문 최대한 길게 확보
-                summary = strip_html(
-                    e.get("content",[{}])[0].get("value","") or
-                    e.get("summary","") or
-                    e.get("description","")
-                )[:1000]
-                url  = e.get("link","")
-                uid  = hashlib.md5(title[:60].encode()).hexdigest()[:8]
-
-                if uid in seen or not is_relevant(title + " " + summary):
+                content = ""
+                if e.get("content"):
+                    content = strip_html(e["content"][0].get("value",""))
+                if not content:
+                    content = strip_html(e.get("summary","") or e.get("description",""))
+                content = content[:600]
+                url_    = e.get("link","")
+                uid     = hashlib.md5(title[:60].encode()).hexdigest()[:8]
+                if uid in seen or not is_relevant(title + " " + content):
                     continue
                 seen.add(uid)
                 articles.append({
-                    "id":        uid,
-                    "source":    src["name"],
-                    "lang":      src["lang"],
-                    "title":     title,
-                    "summary":   summary,
-                    "url":       url,
+                    "id": uid, "source": src["name"], "lang": src["lang"],
+                    "title": title, "content": content, "url": url_,
                     "published": pub_dt.strftime("%Y-%m-%d %H:%M"),
-                    "pub_dt":    pub_dt,
+                    "pub_dt": pub_dt,
                 })
         except Exception as ex:
             print(f"  [warn] {src['name']}: {ex}")
 
-    # 중복 기사 처리: 제목 앞 20자 기준으로 묶어서 본문 긴 것 최대 2개만 유지
+    # 중복 제거: 제목 앞 15자 기준, 본문 긴 것 최대 2개
     groups = {}
     for a in articles:
-        key = re.sub(r"\s+","", a["title"])[:20]
+        key = re.sub(r"\s+","", a["title"].lower())[:15]
         groups.setdefault(key, []).append(a)
 
     deduped = []
     for key, group in groups.items():
-        group.sort(key=lambda x: len(x["summary"]), reverse=True)
-        deduped.extend(group[:2])  # 본문 긴 것 최대 2개
+        group.sort(key=lambda x: len(x["content"]), reverse=True)
+        deduped.extend(group[:2])
 
     deduped.sort(key=lambda x: x["pub_dt"], reverse=True)
-    # pub_dt는 직렬화 불가하므로 제거
     for a in deduped:
         del a["pub_dt"]
 
-    print(f"  수집 완료: {len(deduped)}건 (중복 제거 후)")
+    print(f"  수집 완료: {len(deduped)}건 (Google News + RSS 통합)")
     return deduped
 
-def gemini(prompt):
+def gemini_call(prompt, max_tokens=400):
     body = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.2, "maxOutputTokens": 300}
+        "generationConfig": {"temperature": 0.1, "maxOutputTokens": max_tokens}
     }).encode("utf-8")
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
     req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json"}, method="POST")
@@ -127,64 +166,64 @@ def gemini(prompt):
     return result["candidates"][0]["content"]["parts"][0]["text"].strip()
 
 def analyze_article(a):
-    """기사 1건 분석 — 한글 음슴체 100자 요약 + 분류"""
-    prompt = f"""반도체 산업 전문 기자로서 아래 기사를 분석하세요.
+    prompt = f"""너는 반도체 산업 전문 기자야. 아래 기사를 분석해.
 
 제목: {a['title']}
-본문: {a['summary'][:600]}
+본문: {a['content'][:400]}
 
-아래 형식으로만 답하세요:
-TITLE_KO: 한국어 제목 (영어면 자연스럽게 번역, 한국어면 그대로)
-SUMMARY: 기사 첫째~둘째 문단 핵심 내용을 한글 음슴체로 100자 내외 요약. 예시: "TSMC가 2nm 공정 수율 60%를 달성했음. 애플·엔비디아에 내년 상반기 공급 예정임."
-COMPANY: 주요 관련 기업 (없으면 업계전반)
-TOPIC: 파운드리/메모리/AI칩/장비소재/정책규제/투자MA/공급망/기타 중 하나
-IMPACT: 1~5 숫자만 (5=매우중요)"""
+반드시 아래 5줄 형식으로만 답해. 콜론(:) 뒤에 바로 내용 써:
+TITLE_KO: 영어면 한국어로 번역, 한국어면 그대로
+SUMMARY: 핵심을 한글 음슴체로 80~100자 (예: "삼성전자가 HBM4 수율을 개선했음. 엔비디아 납품 일정이 앞당겨질 전망임.")
+COMPANY: 주요 기업명 하나 (없으면 업계전반)
+TOPIC: 파운드리/메모리/AI칩/장비소재/정책규제/투자MA/공급망/기타 중 하나만
+IMPACT: 1에서 5 사이 숫자 하나만"""
 
     try:
-        raw = gemini(prompt)
+        raw = gemini_call(prompt)
         r = {}
-        for line in raw.splitlines():
+        for line in raw.strip().splitlines():
             if ":" in line:
                 k, v = line.split(":", 1)
                 r[k.strip()] = v.strip()
+
+        title_ko = r.get("TITLE_KO","").strip() or a["title"]
+        summary  = r.get("SUMMARY","").strip()  or a["content"][:100]
+        company  = r.get("COMPANY","업계전반").strip()
+        topic    = r.get("TOPIC","기타").strip()
+        impact   = int(re.search(r'\d', r.get("IMPACT","3")).group()) if re.search(r'\d', r.get("IMPACT","3")) else 3
+
         return {
-            "id":        a["id"],
-            "title_ko":  r.get("TITLE_KO", a["title"]),
-            "summary_ko":r.get("SUMMARY", ""),
-            "company":   r.get("COMPANY", ""),
-            "topic":     r.get("TOPIC", "기타"),
-            "impact":    int(r.get("IMPACT", "3")),
-            "source":    a["source"],
-            "url":       a["url"],
-            "published": a["published"],
-            "lang":      a["lang"],
+            "id": a["id"], "title_ko": title_ko, "summary_ko": summary,
+            "company": company, "topic": topic, "impact": impact,
+            "source": a["source"], "url": a["url"],
+            "published": a["published"], "lang": a["lang"],
         }
     except Exception as ex:
-        print(f"  [warn] 분석 실패 {a['id']}: {ex}")
-        return None
+        print(f"  [warn] 분석실패 {a['id']}: {ex}")
+        return {
+            "id": a["id"], "title_ko": a["title"],
+            "summary_ko": a["content"][:100],
+            "company": "업계전반", "topic": "기타", "impact": 3,
+            "source": a["source"], "url": a["url"],
+            "published": a["published"], "lang": a["lang"],
+        }
 
 def run():
     print(f"API KEY 길이: {len(GEMINI_API_KEY)}자")
     print(f"\n{'='*48}")
     print(f"  반도체 뉴스 에이전트  {datetime.now(tz=KST):%Y-%m-%d %H:%M KST}")
     print(f"{'='*48}")
-
-    print("[1/2] 뉴스 수집 중... (최근 24시간)")
+    print("[1/2] 뉴스 수집 중... (최근 24시간, Google News + RSS)")
     articles = collect()
     if not articles:
         print("  수집된 기사가 없습니다.")
         return
-
-    print(f"[2/2] Gemini 기사별 분석 중... ({len(articles)}건)")
+    print(f"[2/2] Gemini 분석 중... ({len(articles)}건)")
     stories = []
     for i, a in enumerate(articles):
         print(f"  {i+1}/{len(articles)}: {a['title'][:50]}")
-        result = analyze_article(a)
-        if result:
-            stories.append(result)
-
+        stories.append(analyze_article(a))
     stories.sort(key=lambda x: x["impact"], reverse=True)
-
     payload = {
         "generated_at": datetime.now(tz=KST).isoformat(),
         "date":         datetime.now(tz=KST).strftime("%Y년 %m월 %d일"),
