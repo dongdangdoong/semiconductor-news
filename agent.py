@@ -65,6 +65,11 @@ def is_relevant(text):
         return False
     if any(k.lower() in t for k in STOCK_KW):
         return False
+    # [단독] 제외한 [문구] 형태 제목 제외
+    brackets = re.findall(r'\[([^\]]+)\]', text)
+    for b in brackets:
+        if b.strip() != "단독":
+            return False
     return True
 
 def strip_html(text):
