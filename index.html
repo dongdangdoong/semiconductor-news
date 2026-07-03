@@ -5,72 +5,56 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>반도체 뉴스 브리핑</title>
 <style>
-/* ── 리셋 & 베이스 ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 :root {
-  --bg:       #0d0f14;
-  --bg2:      #13161e;
-  --bg3:      #1a1e28;
-  --line:     #232736;
-  --line2:    #2e3347;
-  --txt:      #e8eaf0;
-  --txt2:     #8b90a0;
-  --txt3:     #555a6e;
-  --accent:   #4f8ef7;
-  --accent2:  #1d3a6e;
-  --green:    #34c77b;
-  --green-bg: #0d2518;
-  --red:      #f0554a;
-  --red-bg:   #250d0b;
-  --amber:    #f5a623;
-  --amber-bg: #241700;
-  --purple:   #a07bf8;
+  --bg:     #0d0f14;
+  --bg2:    #13161e;
+  --bg3:    #1a1e28;
+  --line:   #232736;
+  --line2:  #2e3347;
+  --txt:    #e8eaf0;
+  --txt2:   #8b90a0;
+  --txt3:   #555a6e;
+  --accent: #4f8ef7;
+  --accent2:#1d3a6e;
+  --green:  #34c77b;
+  --amber:  #f5a623;
+  --purple: #a07bf8;
   --purple-bg:#1a1230;
-  --radius:   10px;
-  --mono:     'JetBrains Mono', 'Fira Mono', 'Consolas', monospace;
+  --radius: 10px;
+  --mono:   'JetBrains Mono','Fira Mono','Consolas',monospace;
 }
 body {
   background: var(--bg);
   color: var(--txt);
-  font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Noto Sans KR', -apple-system, sans-serif;
+  font-family: 'Pretendard','Apple SD Gothic Neo','Noto Sans KR',-apple-system,sans-serif;
   font-size: 15px;
   line-height: 1.6;
   min-height: 100vh;
 }
+.wrap { max-width: 860px; margin: 0 auto; padding: 0 24px; }
 
-/* ── 레이아웃 ── */
-.wrap     { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
-.grid     { display: grid; grid-template-columns: 1fr 300px; gap: 24px; align-items: start; }
-
-/* ── 헤더 ── */
+/* 헤더 */
 header {
   border-bottom: 1px solid var(--line);
   background: var(--bg);
   position: sticky; top: 0; z-index: 100;
   backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
 }
 .header-inner {
   display: flex; align-items: center; justify-content: space-between;
-  padding: 14px 0;
-  gap: 16px;
+  padding: 14px 0; gap: 16px;
 }
-.logo {
-  display: flex; align-items: center; gap: 10px;
-}
+.logo { display: flex; align-items: center; gap: 10px; }
 .logo-icon {
   width: 32px; height: 32px;
-  background: var(--accent2);
-  border-radius: 8px;
+  background: var(--accent2); border-radius: 8px;
   display: flex; align-items: center; justify-content: center;
 }
 .logo-icon svg { width: 18px; height: 18px; }
 .logo-text { font-size: 16px; font-weight: 600; letter-spacing: -0.3px; }
 .logo-text span { color: var(--accent); }
-.header-meta {
-  display: flex; align-items: center; gap: 16px;
-  font-size: 12px; color: var(--txt3);
-}
+.header-meta { display: flex; align-items: center; gap: 12px; font-size: 12px; color: var(--txt3); }
 .status-dot {
   width: 6px; height: 6px; border-radius: 50%;
   background: var(--green); display: inline-block;
@@ -81,97 +65,51 @@ header {
 .refresh-btn {
   display: flex; align-items: center; gap: 5px;
   padding: 5px 12px; border-radius: 6px;
-  border: 1px solid var(--line2);
-  background: transparent; color: var(--txt2);
-  font-size: 12px; cursor: pointer;
-  transition: all .15s;
+  border: 1px solid var(--line2); background: transparent;
+  color: var(--txt2); font-size: 12px; cursor: pointer; transition: all .15s;
 }
 .refresh-btn:hover { border-color: var(--accent); color: var(--accent); }
 
-/* ── 브리핑 배너 ── */
-.briefing {
-  background: linear-gradient(135deg, #0d1a35 0%, #111827 100%);
-  border: 1px solid var(--accent2);
-  border-radius: 14px;
-  padding: 24px 28px;
-  margin: 28px 0 20px;
-}
-.briefing-label {
-  font-size: 10px; font-weight: 700; letter-spacing: .12em;
-  color: var(--accent); text-transform: uppercase;
-  margin-bottom: 10px; display: flex; align-items: center; gap: 6px;
-}
-.briefing-text {
-  font-size: 15px; line-height: 1.75; color: #c5cce0;
-}
-
-/* ── 시그널 박스 ── */
-.signals {
-  display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px;
-  margin-bottom: 28px;
-}
-.signal-box {
-  border-radius: var(--radius);
-  padding: 14px 16px;
-  border: 1px solid;
-}
-.signal-box.bull  { background: var(--green-bg); border-color: #1c4a30; }
-.signal-box.bear  { background: var(--red-bg);   border-color: #4a1a17; }
-.signal-box.watch { background: var(--amber-bg); border-color: #4a3000; }
-.signal-label {
-  font-size: 10px; font-weight: 700; letter-spacing: .1em;
-  text-transform: uppercase; margin-bottom: 8px;
-}
-.bull  .signal-label { color: var(--green); }
-.bear  .signal-label { color: var(--red); }
-.watch .signal-label { color: var(--amber); }
-.signal-item {
-  font-size: 12px; color: var(--txt2); line-height: 1.5;
-  display: flex; gap: 6px; margin-bottom: 4px;
-}
-.signal-item::before { content: "·"; flex-shrink: 0; }
-
-/* ── 필터 바 ── */
+/* 필터 */
 .filter-bar {
   display: flex; gap: 6px; flex-wrap: wrap;
-  margin-bottom: 16px; align-items: center;
+  padding: 16px 0 12px; align-items: center;
 }
 .filter-label { font-size: 11px; color: var(--txt3); margin-right: 2px; }
 .filter-chip {
   font-size: 12px; padding: 4px 12px; border-radius: 20px;
   border: 1px solid var(--line2); background: transparent;
-  color: var(--txt2); cursor: pointer; transition: all .15s;
-  white-space: nowrap;
+  color: var(--txt2); cursor: pointer; transition: all .15s; white-space: nowrap;
 }
 .filter-chip:hover  { border-color: var(--accent); color: var(--accent); }
 .filter-chip.active { background: var(--accent2); border-color: var(--accent); color: var(--accent); }
 
-/* ── 뉴스 카드 ── */
-.news-list { display: flex; flex-direction: column; gap: 8px; }
+/* 날짜 & 건수 */
+.date-bar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 0 14px;
+  font-size: 12px; color: var(--txt3);
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 16px;
+}
+.date-bar strong { color: var(--txt2); }
+
+/* 뉴스 카드 */
+.news-list { display: flex; flex-direction: column; gap: 2px; }
 .news-card {
-  background: var(--bg2);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 16px 18px;
-  transition: border-color .15s, background .15s;
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
+  padding: 18px 0;
   text-decoration: none;
   display: block;
+  transition: background .15s;
 }
-.news-card:hover {
-  border-color: var(--accent2);
-  background: var(--bg3);
-}
-.news-card-top {
-  display: flex; gap: 12px; align-items: flex-start;
-  margin-bottom: 8px;
-}
+.news-card:hover { background: var(--bg3); border-radius: var(--radius); padding: 18px 14px; margin: 0 -14px; }
+.news-card-top { display: flex; gap: 10px; align-items: flex-start; margin-bottom: 8px; }
 .impact-badge {
-  flex-shrink: 0;
-  width: 26px; height: 26px;
-  border-radius: 6px;
+  flex-shrink: 0; width: 24px; height: 24px; border-radius: 5px;
   display: flex; align-items: center; justify-content: center;
-  font-size: 11px; font-weight: 700;
-  margin-top: 1px;
+  font-size: 10px; font-weight: 700; margin-top: 1px;
 }
 .imp5 { background: #1d2f5a; color: var(--accent); }
 .imp4 { background: #1a2e25; color: var(--green); }
@@ -180,72 +118,35 @@ header {
 .imp1 { background: var(--bg3); color: var(--txt3); }
 .news-title {
   font-size: 14px; font-weight: 600;
-  color: var(--txt); line-height: 1.45;
-  flex: 1;
+  color: var(--txt); line-height: 1.45; flex: 1;
 }
 .news-tags {
-  display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 8px;
-  margin-left: 38px;
+  display: flex; gap: 5px; flex-wrap: wrap;
+  margin: 6px 0 8px 34px;
 }
 .tag {
   font-size: 10px; font-weight: 600; letter-spacing: .04em;
   padding: 2px 8px; border-radius: 20px; border: 1px solid;
 }
-.tag-company { background: var(--bg3);      border-color: var(--line2); color: var(--txt2); }
-.tag-topic   { background: var(--purple-bg); border-color: #3a2a5a;    color: var(--purple); }
-.tag-region  { background: var(--bg3);       border-color: var(--line2); color: var(--txt3); }
-.tag-source  { background: var(--bg3);       border-color: var(--line2); color: var(--txt3); }
-.news-insight {
-  font-size: 13px; color: var(--txt2); line-height: 1.65;
-  margin-left: 38px; margin-bottom: 8px;
+.tag-company { background: var(--bg3); border-color: var(--line2); color: var(--txt2); }
+.tag-topic   { background: var(--purple-bg); border-color: #3a2a5a; color: var(--purple); }
+.news-summary {
+  font-size: 13px; color: var(--txt2); line-height: 1.7;
+  margin-left: 34px; margin-bottom: 8px;
 }
 .news-footer {
   display: flex; align-items: center; justify-content: space-between;
-  margin-left: 38px;
+  margin-left: 34px;
 }
 .news-time { font-size: 11px; color: var(--txt3); font-family: var(--mono); }
+.news-source { font-size: 11px; color: var(--txt3); }
 .news-link {
-  font-size: 11px; color: var(--accent); opacity: .7;
-  display: flex; align-items: center; gap: 3px;
-  transition: opacity .15s;
+  font-size: 11px; color: var(--accent); opacity: .6;
+  display: flex; align-items: center; gap: 3px; transition: opacity .15s;
 }
 .news-card:hover .news-link { opacity: 1; }
 
-/* ── 사이드바 ── */
-.sidebar { position: sticky; top: 72px; }
-.side-card {
-  background: var(--bg2);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 16px;
-  margin-bottom: 14px;
-}
-.side-title {
-  font-size: 11px; font-weight: 700; letter-spacing: .1em;
-  text-transform: uppercase; color: var(--txt3);
-  margin-bottom: 12px; padding-bottom: 8px;
-  border-bottom: 1px solid var(--line);
-}
-.stat-row {
-  display: flex; justify-content: space-between; align-items: center;
-  padding: 6px 0; border-bottom: 1px solid var(--line);
-  font-size: 12px;
-}
-.stat-row:last-child { border-bottom: none; }
-.stat-label { color: var(--txt2); }
-.stat-val   { font-weight: 600; font-family: var(--mono); }
-.stat-val.acc   { color: var(--accent); }
-.stat-val.grn   { color: var(--green); }
-.stat-val.red   { color: var(--red); }
-.stat-val.amb   { color: var(--amber); }
-.topic-row {
-  display: flex; justify-content: space-between; align-items: center;
-  padding: 5px 0; font-size: 12px;
-}
-.topic-bar-wrap { width: 80px; height: 3px; background: var(--line2); border-radius: 2px; }
-.topic-bar      { height: 100%; background: var(--accent); border-radius: 2px; }
-
-/* ── 로딩 ── */
+/* 로딩 / 빈 상태 */
 .loading {
   display: flex; flex-direction: column;
   align-items: center; justify-content: center;
@@ -253,39 +154,26 @@ header {
 }
 .spinner {
   width: 28px; height: 28px;
-  border: 2px solid var(--line2);
-  border-top-color: var(--accent);
-  border-radius: 50%;
-  animation: spin .8s linear infinite;
+  border: 2px solid var(--line2); border-top-color: var(--accent);
+  border-radius: 50%; animation: spin .8s linear infinite;
 }
 @keyframes spin { to { transform: rotate(360deg); } }
+.empty { text-align: center; padding: 60px 0; color: var(--txt3); font-size: 14px; }
 
-/* ── 빈 상태 ── */
-.empty {
-  text-align: center; padding: 60px 0;
-  color: var(--txt3); font-size: 14px;
-}
-
-/* ── 푸터 ── */
+/* 푸터 */
 footer {
-  border-top: 1px solid var(--line);
-  padding: 20px 0; margin-top: 48px;
+  border-top: 1px solid var(--line); padding: 20px 0; margin-top: 48px;
   font-size: 11px; color: var(--txt3);
   display: flex; align-items: center; justify-content: space-between;
 }
 
-/* ── 반응형 ── */
-@media (max-width: 800px) {
-  .grid    { grid-template-columns: 1fr; }
-  .sidebar { position: static; }
-  .signals { grid-template-columns: 1fr; }
+@media (max-width: 600px) {
   .header-meta .generated { display: none; }
 }
 </style>
 </head>
 <body>
 
-<!-- ── 헤더 ── -->
 <header>
   <div class="wrap">
     <div class="header-inner">
@@ -293,19 +181,13 @@ footer {
         <div class="logo-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="#4f8ef7" stroke-width="1.8">
             <rect x="4" y="4" width="16" height="16" rx="2"/>
-            <rect x="9" y="9" width="6"  height="6"  rx="1"/>
-            <line x1="4"  y1="9"  x2="2"  y2="9"/>
-            <line x1="4"  y1="12" x2="2"  y2="12"/>
-            <line x1="4"  y1="15" x2="2"  y2="15"/>
-            <line x1="20" y1="9"  x2="22" y2="9"/>
-            <line x1="20" y1="12" x2="22" y2="12"/>
-            <line x1="20" y1="15" x2="22" y2="15"/>
-            <line x1="9"  y1="4"  x2="9"  y2="2"/>
-            <line x1="12" y1="4"  x2="12" y2="2"/>
-            <line x1="15" y1="4"  x2="15" y2="2"/>
-            <line x1="9"  y1="20" x2="9"  y2="22"/>
-            <line x1="12" y1="20" x2="12" y2="22"/>
-            <line x1="15" y1="20" x2="15" y2="22"/>
+            <rect x="9" y="9" width="6" height="6" rx="1"/>
+            <line x1="4" y1="9" x2="2" y2="9"/><line x1="4" y1="12" x2="2" y2="12"/>
+            <line x1="4" y1="15" x2="2" y2="15"/><line x1="20" y1="9" x2="22" y2="9"/>
+            <line x1="20" y1="12" x2="22" y2="12"/><line x1="20" y1="15" x2="22" y2="15"/>
+            <line x1="9" y1="4" x2="9" y2="2"/><line x1="12" y1="4" x2="12" y2="2"/>
+            <line x1="15" y1="4" x2="15" y2="2"/><line x1="9" y1="20" x2="9" y2="22"/>
+            <line x1="12" y1="20" x2="12" y2="22"/><line x1="15" y1="20" x2="15" y2="22"/>
           </svg>
         </div>
         <div class="logo-text"><span>반도체</span> 뉴스 브리핑</div>
@@ -324,92 +206,31 @@ footer {
   </div>
 </header>
 
-<!-- ── 메인 ── -->
 <main class="wrap">
-
-  <!-- 브리핑 배너 -->
-  <div class="briefing" id="briefingBox" style="display:none">
-    <div class="briefing-label">
-      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
-      </svg>
-      AI 브리핑 요약
-    </div>
-    <div class="briefing-text" id="briefingText"></div>
+  <div class="filter-bar" id="filterBar" style="display:none">
+    <span class="filter-label">필터</span>
+    <button class="filter-chip active" data-t="all"      onclick="filter(this)">전체</button>
+    <button class="filter-chip"        data-t="파운드리"   onclick="filter(this)">파운드리</button>
+    <button class="filter-chip"        data-t="메모리"     onclick="filter(this)">메모리</button>
+    <button class="filter-chip"        data-t="AI칩"       onclick="filter(this)">AI 칩</button>
+    <button class="filter-chip"        data-t="장비소재"   onclick="filter(this)">장비·소재</button>
+    <button class="filter-chip"        data-t="정책규제"   onclick="filter(this)">정책·규제</button>
+    <button class="filter-chip"        data-t="투자MA"     onclick="filter(this)">투자·M&A</button>
+    <button class="filter-chip"        data-t="공급망"     onclick="filter(this)">공급망</button>
   </div>
 
-  <!-- 시그널 -->
-  <div class="signals" id="signalBox" style="display:none">
-    <div class="signal-box bull">
-      <div class="signal-label">▲ 긍정 시그널</div>
-      <div id="sigBull"></div>
-    </div>
-    <div class="signal-box bear">
-      <div class="signal-label">▼ 부정 시그널</div>
-      <div id="sigBear"></div>
-    </div>
-    <div class="signal-box watch">
-      <div class="signal-label">◉ 주목 이슈</div>
-      <div id="sigWatch"></div>
-    </div>
+  <div class="date-bar" id="dateBar" style="display:none">
+    <span id="dateLabel"></span>
+    <span><strong id="countLabel"></strong> 건</span>
   </div>
 
-  <div class="grid">
-    <!-- 뉴스 리스트 -->
-    <div>
-      <div class="filter-bar" id="filterBar" style="display:none">
-        <span class="filter-label">필터</span>
-        <button class="filter-chip active" data-t="all"     onclick="filter(this)">전체</button>
-        <button class="filter-chip"        data-t="파운드리"  onclick="filter(this)">파운드리</button>
-        <button class="filter-chip"        data-t="메모리"    onclick="filter(this)">메모리</button>
-        <button class="filter-chip"        data-t="AI칩"      onclick="filter(this)">AI 칩</button>
-        <button class="filter-chip"        data-t="장비·소재"  onclick="filter(this)">장비·소재</button>
-        <button class="filter-chip"        data-t="정책·규제"  onclick="filter(this)">정책·규제</button>
-        <button class="filter-chip"        data-t="투자·M&A"  onclick="filter(this)">투자·M&A</button>
-        <button class="filter-chip"        data-t="공급망"    onclick="filter(this)">공급망</button>
-      </div>
-      <div id="newsList">
-        <div class="loading">
-          <div class="spinner"></div>
-          <span>뉴스 로딩 중...</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- 사이드바 -->
-    <aside class="sidebar" id="sidebar" style="display:none">
-      <!-- 통계 -->
-      <div class="side-card">
-        <div class="side-title">오늘 수집 현황</div>
-        <div class="stat-row"><span class="stat-label">총 기사 수</span><span class="stat-val acc" id="totalCount">—</span></div>
-        <div class="stat-row"><span class="stat-label">영향도 High (4~5)</span><span class="stat-val grn" id="highCount">—</span></div>
-        <div class="stat-row"><span class="stat-label">한국 소스</span><span class="stat-val amb" id="koCount">—</span></div>
-        <div class="stat-row"><span class="stat-label">글로벌 소스</span><span class="stat-val" id="enCount">—</span></div>
-      </div>
-
-      <!-- 토픽 분포 -->
-      <div class="side-card">
-        <div class="side-title">토픽 분포</div>
-        <div id="topicDist"></div>
-      </div>
-
-      <!-- 지역 분포 -->
-      <div class="side-card">
-        <div class="side-title">지역 분포</div>
-        <div id="regionDist"></div>
-      </div>
-
-      <!-- 소스 목록 -->
-      <div class="side-card">
-        <div class="side-title">뉴스 소스</div>
-        <div id="sourceDist"></div>
-      </div>
-    </aside>
+  <div id="newsList">
+    <div class="loading"><div class="spinner"></div><span>뉴스 로딩 중...</span></div>
   </div>
 </main>
 
 <footer class="wrap">
-  <span>반도체 뉴스 브리핑 — AI Powered by Claude</span>
+  <span>반도체 뉴스 브리핑 — AI Powered by Gemini</span>
   <span id="footerTime"></span>
 </footer>
 
@@ -417,132 +238,81 @@ footer {
 let allStories = [];
 let currentTopic = 'all';
 
-/* ── 데이터 로드 ── */
 async function loadNews() {
   document.getElementById('newsList').innerHTML =
     '<div class="loading"><div class="spinner"></div><span>뉴스 로딩 중...</span></div>';
-  document.getElementById('briefingBox').style.display = 'none';
-  document.getElementById('signalBox').style.display   = 'none';
-  document.getElementById('sidebar').style.display     = 'none';
-  document.getElementById('filterBar').style.display   = 'none';
+  document.getElementById('filterBar').style.display = 'none';
+  document.getElementById('dateBar').style.display   = 'none';
 
   try {
-    const res = await fetch('/data/news.json');
+    const res  = await fetch('/data/news.json');
     if (!res.ok) throw new Error(await res.text());
     const data = await res.json();
     render(data);
   } catch(e) {
     document.getElementById('newsList').innerHTML =
-      `<div class="empty">데이터를 불러올 수 없습니다.<br><small style="color:var(--txt3)">${e.message}</small><br><br>
-       <small>agent.py 를 먼저 실행하세요:</small><br>
-       <code style="font-size:11px;color:var(--accent)">python agent.py</code></div>`;
+      `<div class="empty">데이터를 불러올 수 없습니다.<br>
+       <small style="color:var(--txt3)">${e.message}</small></div>`;
   }
 }
 
-/* ── 렌더링 ── */
 function render(data) {
   allStories = data.stories || [];
 
-  // 헤더 시간
-  const dt = new Date(data.generated_at);
-  const fmt = dt.toLocaleString('ko-KR', {month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});
-  document.getElementById('genTime').textContent = `${data.date || ''} · ${fmt} 업데이트`;
-  document.getElementById('footerTime').textContent = `${dt.toLocaleDateString('ko-KR')} 기준`;
+  const dt  = new Date(data.generated_at);
+  const fmt = dt.toLocaleString('ko-KR',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});
+  document.getElementById('genTime').textContent    = `${fmt} 업데이트`;
+  document.getElementById('footerTime').textContent = `최근 24시간 기준`;
+  document.getElementById('dateLabel').textContent  = data.date || '';
 
-  // 브리핑
-  if (data.briefing) {
-    document.getElementById('briefingText').textContent = data.briefing;
-    document.getElementById('briefingBox').style.display = 'block';
-  }
-
-  // 시그널
-  const ms = data.market_signals || {};
-  const sigHtml = (arr) => (arr||[]).map(s=>`<div class="signal-item">${s}</div>`).join('');
-  document.getElementById('sigBull').innerHTML  = sigHtml(ms.bullish);
-  document.getElementById('sigBear').innerHTML  = sigHtml(ms.bearish);
-  document.getElementById('sigWatch').innerHTML = sigHtml(ms.watchlist);
-  if (ms.bullish || ms.bearish || ms.watchlist) {
-    document.getElementById('signalBox').style.display = 'grid';
-  }
-
-  // 사이드바 통계
-  const hi  = allStories.filter(s => s.impact >= 4).length;
-  const ko  = allStories.filter(s => s.lang === 'ko').length;
-  const en  = allStories.filter(s => s.lang !== 'ko').length;
-  document.getElementById('totalCount').textContent = allStories.length + '건';
-  document.getElementById('highCount').textContent  = hi + '건';
-  document.getElementById('koCount').textContent    = ko + '건';
-  document.getElementById('enCount').textContent    = en + '건';
-
-  renderDist('topicDist',  countBy('topic'));
-  renderDist('regionDist', countBy('region'));
-  renderDist('sourceDist', countBy('source'));
-
-  document.getElementById('sidebar').style.display   = 'block';
   document.getElementById('filterBar').style.display = 'flex';
+  document.getElementById('dateBar').style.display   = 'flex';
 
   renderCards();
 }
 
-function countBy(key) {
-  const c = {};
-  allStories.forEach(s => { c[s[key]] = (c[s[key]] || 0) + 1; });
-  return Object.entries(c).sort((a,b) => b[1]-a[1]);
-}
-
-function renderDist(id, entries) {
-  const max = entries[0]?.[1] || 1;
-  document.getElementById(id).innerHTML = entries.map(([k,v]) => `
-    <div class="topic-row">
-      <span style="color:var(--txt2);font-size:12px;flex:1">${k}</span>
-      <span style="color:var(--txt3);font-size:11px;font-family:var(--mono);margin-right:8px">${v}</span>
-      <div class="topic-bar-wrap"><div class="topic-bar" style="width:${Math.round(v/max*100)}%"></div></div>
-    </div>`).join('');
-}
-
-/* ── 카드 렌더 ── */
 function renderCards() {
   const stories = currentTopic === 'all'
     ? allStories
     : allStories.filter(s => s.topic === currentTopic);
 
+  document.getElementById('countLabel').textContent = stories.length;
+
   if (!stories.length) {
-    document.getElementById('newsList').innerHTML = '<div class="empty">해당 토픽의 기사가 없습니다.</div>';
+    document.getElementById('newsList').innerHTML =
+      '<div class="empty">해당 토픽의 기사가 없습니다.</div>';
     return;
   }
 
-  document.getElementById('newsList').innerHTML = stories.map(s => {
-    const impCls = `imp${Math.min(5,Math.max(1,s.impact||3))}`;
-    const impLbl = ['','1','2','3','4','5'][Math.min(5,s.impact||3)];
-    const impLabel = s.impact >= 5 ? 'H5' : s.impact >= 4 ? 'H4' : s.impact >= 3 ? 'H3' : s.impact >= 2 ? 'L2' : 'L1';
-    return `
-    <a class="news-card" href="${escHtml(s.url)}" target="_blank" rel="noopener noreferrer">
-      <div class="news-card-top">
-        <div class="impact-badge ${impCls}">${impLabel}</div>
-        <div class="news-title">${escHtml(s.title_ko || s.title || '')}</div>
-      </div>
-      <div class="news-tags">
-        ${s.company  ? `<span class="tag tag-company">${escHtml(s.company)}</span>`  : ''}
-        ${s.topic    ? `<span class="tag tag-topic">${escHtml(s.topic)}</span>`      : ''}
-        ${s.region   ? `<span class="tag tag-region">${escHtml(s.region)}</span>`    : ''}
-        ${s.source   ? `<span class="tag tag-source">${escHtml(s.source)}</span>`    : ''}
-      </div>
-      ${s.insight ? `<div class="news-insight">${escHtml(s.insight)}</div>` : ''}
-      <div class="news-footer">
-        <span class="news-time">${escHtml(s.published || '')}</span>
-        <span class="news-link">
-          원문 보기
-          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-            <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
-          </svg>
-        </span>
-      </div>
-    </a>`;
-  }).join('');
+  document.getElementById('newsList').innerHTML = '<div class="news-list">' +
+    stories.map(s => {
+      const imp    = Math.min(5, Math.max(1, s.impact || 3));
+      const impLbl = imp >= 5 ? 'H5' : imp >= 4 ? 'H4' : imp >= 3 ? 'H3' : imp >= 2 ? 'L2' : 'L1';
+      return `
+      <a class="news-card" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">
+        <div class="news-card-top">
+          <div class="impact-badge imp${imp}">${impLbl}</div>
+          <div class="news-title">${esc(s.title_ko || s.title || '')}</div>
+        </div>
+        <div class="news-tags">
+          ${s.company ? `<span class="tag tag-company">${esc(s.company)}</span>` : ''}
+          ${s.topic   ? `<span class="tag tag-topic">${esc(s.topic)}</span>`   : ''}
+        </div>
+        ${s.summary_ko ? `<div class="news-summary">${esc(s.summary_ko)}</div>` : ''}
+        <div class="news-footer">
+          <span class="news-time">${esc(s.published||'')} · ${esc(s.source||'')}</span>
+          <span class="news-link">
+            원문
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+              <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+            </svg>
+          </span>
+        </div>
+      </a>`;
+    }).join('') + '</div>';
 }
 
-/* ── 필터 ── */
 function filter(el) {
   document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
   el.classList.add('active');
@@ -550,14 +320,12 @@ function filter(el) {
   renderCards();
 }
 
-/* ── 유틸 ── */
-function escHtml(s) {
+function esc(s) {
   return String(s)
     .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
     .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
 }
 
-/* ── 초기 로드 ── */
 loadNews();
 </script>
 </body>
