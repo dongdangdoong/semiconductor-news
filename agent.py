@@ -52,20 +52,29 @@ INCLUDE_KW = [
     "인텔","엔비디아","퀄컴","마이크론","수출통제","보조금","반도체법","공급망",
     "생산능력","가동률","전력반도체","시스템반도체","팹리스","후공정","전공정",
 ]
-
+# 제외할 뉴스 소스
+EXCLUDE_SOURCES = [
+    "한국방송뉴스","twig24","네이트","KBC광주방송","LG헬로비전",
+    "Vietnam.vn","스페셜경제","문화일보","영남일보","Benzinga",
+    "뉴스토마토","마켓인","굿모닝충청","녹색경제신문","AI타임스",
+    "코리아리포트","남해안신문","청년일보","프레시안","포쓰저널","마켓잉크",
+]
 STOCK_KW = [
     "주가 상승","주가 하락","주가 급등","주가 급락","주식 매수","주식 매도",
     "shares rose","shares fell","shares gained","shares dropped",
     "stock surged","stock plunged","trading higher","trading lower",
 ]
 
-def is_relevant(text):
+def is_relevant(text, source=""):
     t = text.lower()
     if not any(k.lower() in t for k in INCLUDE_KW):
         return False
     if any(k.lower() in t for k in STOCK_KW):
         return False
-    # [단독] 제외한 [문구] 형태 제목 제외
+    # 제외 소스 필터
+    if any(s.lower() in source.lower() for s in EXCLUDE_SOURCES):
+        return False
+    # [단독] 제외한 [문구] 있으면 제외
     brackets = re.findall(r'\[([^\]]+)\]', text)
     for b in brackets:
         if b.strip() != "단독":
