@@ -1,23 +1,35 @@
 {
-  "generated_at": "2026-07-03T14:35:02.225913+09:00",
+  "generated_at": "2026-07-03T14:39:51.439360+09:00",
   "date": "2026년 07월 03일",
-  "total": 335,
+  "total": 272,
   "stories": [
     {
-      "id": "6f1434a3",
-      "title_ko": "민형배, 연일 '반도체 유치' 행보…전력·용수·후보지 전방위 점검 - 뉴스핌",
-      "summary_ko": "민형배, 연일 '반도체 유치' 행보…전력·용수·후보지 전방위 점검&nbsp;&nbsp;뉴스핌",
+      "id": "d2b46ee4",
+      "title_ko": "케이던스·삼성 파운드리, AI 반도체 설계 2nm 공정·3D-IC 협력 확대 - 서울경제TV",
+      "summary_ko": "케이던스·삼성 파운드리, AI 반도체 설계 2nm 공정·3D-IC 협력 확대&nbsp;&nbsp;서울경제TV",
       "company": "업계전반",
       "topic": "기타",
       "impact": 3,
       "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBMeWxqYXVoZnMxYUtfdEM3OU5BSm9maGFLY19IS0hyT0pqX1VWeHhuN0RPMWVFOWNBUzZrZkl2VlVhTUFweUVycHBDUDJyTjlnSWI4VnlKa3l4aUtH?oc=5",
-      "published": "2026-07-03 14:29",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Ha1dPdWtMNmExbEN3U1QxMVB6N3hSVE4zb1c2RS1NRi16YTdNcWFDcVE5UlJrUk9WVFphdjlhVkVNczE5NUx0czg1X1dKSlVjTzB4LWV1RnRwa2lxUktQYXJsNzQ?oc=5",
+      "published": "2026-07-03 14:34",
+      "lang": "ko"
+    },
+    {
+      "id": "5fbdaabc",
+      "title_ko": "SK하이닉스, 하이퍼리퀴드서 비트코인·이더리움 이어 거래량 3위 - 디지털애셋",
+      "summary_ko": "SK하이닉스, 하이퍼리퀴드서 비트코인·이더리움 이어 거래량 3위&nbsp;&nbsp;디지털애셋",
+      "company": "업계전반",
+      "topic": "기타",
+      "impact": 3,
+      "source": "Google News (SK하이닉스)",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VYkE3U1RKQkk4WTlJMmk5UG5HdmJBNTF2Z21qbWdvaVF2cGxiNm54TWxhNkp6d2hETDRxT3pwMjNCUTE1MktpQ0V4czV0enlBWWhHZ0lnaHh1NmNGMVVPRktHZDZMWUgxZGx6TkQ3Y1I0UQ?oc=5",
+      "published": "2026-07-03 14:30",
       "lang": "ko"
     },
     {
       "id": "370b5e4e",
-      "title_ko": "민형배 전남광주통합특별시장,",
+      "title_ko": "민형배 전남광주통합특별시장, 한전 찾아 반도체 전력망 점검 - 한국방송뉴스",
       "summary_ko": "민형배 전남광주통합특별시장, 한전 찾아 반도체 전력망 점검&nbsp;&nbsp;한국방송뉴스",
       "company": "업계전반",
       "topic": "기타",
@@ -37,18 +49,6 @@
       "source": "Google News (반도체)",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Pczk2UTY1RC1kdlpVRUN5RldHRUFucnZpU0RXVjY4emw3MUhtX1FjQU5iQ3I3dWlHS3RjY3hxS1FJM0R3VXBMYjlVNTRyczR2Qk9kN0ZiMnFwczBHTWhfOTNEYWY?oc=5",
       "published": "2026-07-03 14:23",
-      "lang": "ko"
-    },
-    {
-      "id": "6586a160",
-      "title_ko": "[서울신문] 박재근 한양대 석좌교수, 서남권 반도체 클러스터 추진에 \"정부가 기업보다 먼저 인프라 준비해야\" 코멘트 - 뉴스H",
-      "summary_ko": "[서울신문] 박재근 한양대 석좌교수, 서남권 반도체 클러스터 추진에 \"정부가 기업보다 먼저 인프라 준비해야\" 코멘트&nbsp;&nbsp;뉴스H",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rZ095UTNsQzJ4eGtSQWVGcXVYb2VHNnAyMkNUVDZYRzJYX0lEbW5SeVNtemYzOXJna1BhRkgyX2IyV0c0NHhyYnFYUU9yX1dZOGJLOGpvb2VNMzVDQWlaZmpwSUVESlFHNVE?oc=5",
-      "published": "2026-07-03 14:11",
       "lang": "ko"
     },
     {
@@ -88,18 +88,6 @@
       "lang": "ko"
     },
     {
-      "id": "c8ae5d27",
-      "title_ko": "호남 반도체가 바꾼 李 정부 정책노선 … 과거 '脫원전·反댐' 깨고 실용주의 가나 - 뉴데일리",
-      "summary_ko": "호남 반도체가 바꾼 李 정부 정책노선 … 과거 '脫원전·反댐' 깨고 실용주의 가나&nbsp;&nbsp;뉴데일리",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBHSWFxUlc0ZWZYeEEtZ1R0TUFwT25Ba3lxa0RQclhnekl3dEM1UEtQd2c4NGE4QmpwS2p3S05fY1pqWnR0WGZSMl83aGk1WnNwZjdGdThqRm1kdVhtanNqOURscUFpNm52UjJjRzFnNlM2WmhNbkZSZWpfRdIBgAFBVV95cUxPc3dVTUVwSEJiU2luQkZpeWdsNDRKcFRGUnR5cVhuWGxtM0dUN2Y3TVB4U0FxU09veGROR3ZMdWlIWDY4ZWxpX2ZlOGN4dHdsNzE4V1hnZ3NrOUgtT056YS1QeWg5NGdDZC14X2ZHOE1id2oyMDcwSzQzcGNPNWxTRg?oc=5",
-      "published": "2026-07-03 14:06",
-      "lang": "ko"
-    },
-    {
       "id": "93dea06a",
       "title_ko": "앤트로픽 자체 AI칩 시동…삼성 2나노 손잡나 - 솔루션뉴스",
       "summary_ko": "앤트로픽 자체 AI칩 시동…삼성 2나노 손잡나&nbsp;&nbsp;솔루션뉴스",
@@ -108,18 +96,6 @@
       "impact": 3,
       "source": "Google News (파운드리)",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zVnhhM054cXBzM0tXM2dkM3FOZWg5NnlJamptTkpUTXhicFBVOG5nd0xqM3VWOU5BVGloZ0FzemlQYU5Xd2paRkhvVVRYbENxSVlabHRRek9uNTI3VlNtQVB1U3BySWk5R0dJ?oc=5",
-      "published": "2026-07-03 14:05",
-      "lang": "ko"
-    },
-    {
-      "id": "272a0c09",
-      "title_ko": "[특징주] SK하이닉스, 장중 -6%서 +10% 급반등…저가 매수에 241만원선 회복 - tokenpost.kr",
-      "summary_ko": "[특징주] SK하이닉스, 장중 -6%서 +10% 급반등…저가 매수에 241만원선 회복&nbsp;&nbsp;tokenpost.kr",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (SK하이닉스)",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1taVZGNzVZa0xwVWtXaTdaMjBJMDJ4ZGxlVHhZank2OVR1UFhMTHRMck9yOUZtV2xncFlhRHJZT01LNEpnLTR1ZE00ZmtnVVM5cjRqaDczZ9IBXEFVX3lxTE9WZ2FSaWthVkRlaE1IMHdxbVpCV21ReS1BWFNEWHdicFhSa01fb2tjRG1zYzY1N1h3aVRXWTdDeEpzYlYyREJWS3ptdzl2RTJYM05qdDVCV3M1RnIw?oc=5",
       "published": "2026-07-03 14:05",
       "lang": "ko"
     },
@@ -148,39 +124,15 @@
       "lang": "ko"
     },
     {
-      "id": "955bc6b7",
-      "title_ko": "[생생한 주식쇼 생쇼] 반도체 주도 장세 지속, 저평가 금융주 반등 주목 - 매일경제 마켓",
-      "summary_ko": "[생생한 주식쇼 생쇼] 반도체 주도 장세 지속, 저평가 금융주 반등 주목&nbsp;&nbsp;매일경제 마켓",
+      "id": "20ecef1c",
+      "title_ko": "케이던스 · 삼성 파운드리, 차세대 AI 반도체 설계 역량 강화 - 투데이에너지",
+      "summary_ko": "케이던스 · 삼성 파운드리, 차세대 AI 반도체 설계 역량 강화&nbsp;&nbsp;투데이에너지",
       "company": "업계전반",
       "topic": "기타",
       "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pc3l6ZlB3eXFIY3ZLTkptWjNKT2lFVWJXMjA3NXRfcUlMSXllSDVQLVlBZHJBTkJWN0lGaEdUN005R1RrUTQxN1MyeFJHbHd6Y3BaOWNWS0wyVWNoSUNXQw?oc=5",
-      "published": "2026-07-03 13:59",
-      "lang": "ko"
-    },
-    {
-      "id": "a79b0091",
-      "title_ko": "[생생한 주식쇼 생쇼] 반도체 차익실현 속 국가 장기 인프라 수혜주 주목 - 매일경제 마켓",
-      "summary_ko": "[생생한 주식쇼 생쇼] 반도체 차익실현 속 국가 장기 인프라 수혜주 주목&nbsp;&nbsp;매일경제 마켓",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3bGpDOGh0NGlFZ2lJbGlIRVpsUnh5eHpneE03MFJ3SjNvTFRQWGg4UEd0VktvaUh3Uk1aTk9XRl9tYmREa0tFaExEamFuU3VZSnc?oc=5",
-      "published": "2026-07-03 13:58",
-      "lang": "ko"
-    },
-    {
-      "id": "02687f30",
-      "title_ko": "[산업분석] 삼성전자·SK하이닉스, AI 전력 112.6TWh 변수 - TopStarNews",
-      "summary_ko": "[산업분석] 삼성전자·SK하이닉스, AI 전력 112.6TWh 변수&nbsp;&nbsp;TopStarNews",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (SK하이닉스)",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ReTJyLW5sQ2ZCZXhGUTR1aTJMVHVqdXJQNE1iYnZVUzhzVnNoMTB4WF9TSy0xaXBVdFprUWVibWt3SVZqNlBsT2RUdzlCSExLeXF2SG1SLTZlYnBtTzR2dFU1RUJsdGprb255T3cwRlRtQQ?oc=5",
-      "published": "2026-07-03 13:51",
+      "source": "Google News (파운드리)",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9sRmMtT08tUTE4SERqbW1rb0ZSUFVVWjQxRkxHWk13LU5wUXVFd21pc1oydmVsYTdGQWduNjZxTXVZMDRqdGJSN3RLRlF1ZDRRVzNEVWlEdHJNLU1VSmc2M1lrZTJqdFVhZHR4bA?oc=5",
+      "published": "2026-07-03 14:02",
       "lang": "ko"
     },
     {
@@ -196,51 +148,15 @@
       "lang": "ko"
     },
     {
-      "id": "5a0500ab",
-      "title_ko": "\"李대통령 인허가 밤 새워서라도\"…서남권 반도체 구축 속도 - v.daum.net",
-      "summary_ko": "\"李대통령 인허가 밤 새워서라도\"…서남권 반도체 구축 속도&nbsp;&nbsp;v.daum.net",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ucDh2Sm9peFZaX1VnbjE2eWc3RUhqeVltMmpkVmp1LXp6MEJzZ24zeTg5V1ZlcWV4b2hNVldmM0lrdmdzUnhLSERIZ1FYM0k?oc=5",
-      "published": "2026-07-03 13:50",
-      "lang": "ko"
-    },
-    {
-      "id": "b8849b32",
-      "title_ko": "[서울데이터랩]삼성전자·SK하이닉스 강세 속 거래대금 집중…건설·중소형주는 급락 혼조 - twig24.com",
-      "summary_ko": "[서울데이터랩]삼성전자·SK하이닉스 강세 속 거래대금 집중…건설·중소형주는 급락 혼조&nbsp;&nbsp;twig24.com",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (SK하이닉스)",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1pdkR1RV9VOXYxd1drYWRLcGFRRDg5TC1KMWZCbGVvLVBOUjNTN1VIQnRNZEdWWnZ2TzkybzBReFd4dzBJQ3dmYk9EMnhkZkN0a09acGtfQjR4U3pvOFAwR2c4Yw?oc=5",
-      "published": "2026-07-03 13:48",
-      "lang": "ko"
-    },
-    {
-      "id": "a1efda88",
-      "title_ko": "[직설] 역대급 실적 전망에도 경계심 커진 반도체주…정점인가 과잉반응인가 - v.daum.net",
-      "summary_ko": "[직설] 역대급 실적 전망에도 경계심 커진 반도체주…정점인가 과잉반응인가&nbsp;&nbsp;v.daum.net",
+      "id": "caf45248",
+      "title_ko": "‘아픈 손가락’ 삼성 파운드리, 앤트로픽과 손 잡나 - 매일경제TV",
+      "summary_ko": "‘아픈 손가락’ 삼성 파운드리, 앤트로픽과 손 잡나&nbsp;&nbsp;매일경제TV삼성 파운드리 행사서 공개된 미래 양산 제품 현황은&nbsp;&nbsp;디일렉삼성전자, ‘세이프 ",
       "company": "업계전반",
       "topic": "기타",
       "impact": 3,
       "source": "Google News (삼성전자 반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9pQS1mT2d6Nmd4aHJ6RUk2TzRmX2hSSTFjWXpLTjNfcFpuQmtpS3p3bzhBNGpTV1RFNFpPRkduMUhnV3I2YzVVQkd2WjItSG8?oc=5",
-      "published": "2026-07-03 13:46",
-      "lang": "ko"
-    },
-    {
-      "id": "28766195",
-      "title_ko": "SK하이닉스는 사고 삼성전자는 판다 [주",
-      "summary_ko": "SK하이닉스는 사고 삼성전자는 판다 [주식 초고수는 지금]&nbsp;&nbsp;매일경제",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (SK하이닉스)",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5NcE04ZnM5bGQzZzc4SXBTMTNhTEk0NDhqaVcxc1AtVXVhaUdfUTlQQ2hEUllRSlFnUHdfb1NmbkJTaDUwMDhRcDcyZ2VYVHFFRFE?oc=5",
-      "published": "2026-07-03 13:43",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TaDRzR3dxRnhKeGkybkp4ZmRTMDhFcVJmOTV5SVpCc1lGN3AtN2NIYjBuZzl4c0gzNG9ua3RHVkl1ME9Hd1ZKSDh2ZlE5b0Q1OTNOOTRLSjJ0VTNFTUhxdzlJZVJ0TllV?oc=5",
+      "published": "2026-07-03 13:38",
       "lang": "ko"
     },
     {
@@ -265,18 +181,6 @@
       "source": "Google News (파운드리)",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5jTUlBN3pjbUtraG8xMXc3OURfZ0xOS2VyTTdrTWJaa1ZEaWh1NGRyR2hMR1JCV1M5SnBnMGIwU1lWdXJRSC0wSWNEQkQ5SHk1c0s0?oc=5",
       "published": "2026-07-03 13:31",
-      "lang": "ko"
-    },
-    {
-      "id": "3852e222",
-      "title_ko": "김원이 \"순차적 행정으론 늦어...반도체 프로젝트, 동시다발 추진해야\"[와이드이슈] - KBC광주방송",
-      "summary_ko": "김원이 \"순차적 행정으론 늦어...반도체 프로젝트, 동시다발 추진해야\"[와이드이슈]&nbsp;&nbsp;KBC광주방송",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5UeUFGeWc4Sk5SeHJJejExU1VqVFQtSHB6NkVwdmtxbzk1bmp5TThaQlhDQWRCcmFhYWd0Ym1ReVptdlA1ZVNHam1pUE5HTGZ3UjZqVU9ta0t2Qml5WjJkbDJ3?oc=5",
-      "published": "2026-07-03 13:30",
       "lang": "ko"
     },
     {
@@ -316,18 +220,6 @@
       "lang": "ko"
     },
     {
-      "id": "1a1e1a71",
-      "title_ko": "[전혜은 시선] AI 반도체 '슈퍼사이클' 언제까지?…삼성·SK하이닉스 초대형 투자, 기회와 리스크 사이 - 위클리오늘",
-      "summary_ko": "[전혜은 시선] AI 반도체 '슈퍼사이클' 언제까지?…삼성·SK하이닉스 초대형 투자, 기회와 리스크 사이&nbsp;&nbsp;위클리오늘",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (삼성전자 반도체)",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE52MUtOZm1kN3A4bkk5MkZVMDFGTFZwMDJRTjlUaTEtV0FMd3dlT2dkR0NMc01hVlhQVDNZdEF4SUdjSGpjQVFCM0lpSGhjZnRlWV94ZUFRTmQyMjVPRVhDWGRBYVRxc3pmLTRiQk13?oc=5",
-      "published": "2026-07-03 13:25",
-      "lang": "ko"
-    },
-    {
       "id": "111d550c",
       "title_ko": "삼성·SK하이닉스·셀트리온 등 충청권 첨단산업에 392조 원 투자 - LG헬로비전",
       "summary_ko": "삼성·SK하이닉스·셀트리온 등 충청권 첨단산업에 392조 원 투자&nbsp;&nbsp;LG헬로비전",
@@ -340,18 +232,6 @@
       "lang": "ko"
     },
     {
-      "id": "99765a9b",
-      "title_ko": "[월간 ETF] HANARO K-반도체 수익률 300% 육박 '선두' - 블로터",
-      "summary_ko": "[월간 ETF] HANARO K-반도체 수익률 300% 육박 '선두'&nbsp;&nbsp;블로터",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBINEdITktKOG1IT3VEWUhkZHh3d0ljWDZPQTU2bWpCV1lyU016QlBxWFdVc2VjYVg2YzJsU2hzVl9lcUtpYjNSVDRiSF9sV2tZSDlrMEZncDl5SDBTQkVmaEZyUGNCSU520gFsQVVfeXFMT1RaTmVHZzZXT0prYmcxeTB2SC11N3NpMllMMnM2elRRUUJmVEhYOVZURVdnN2FMWmZaLTgxNFhIWDFpQktMZ3NzTERKZXd3ekZEMlVSN2w3aXRhejBaNHFUbDVfWkxpTnBrbWZ1?oc=5",
-      "published": "2026-07-03 13:20",
-      "lang": "ko"
-    },
-    {
       "id": "502d23e3",
       "title_ko": "\"300만원에서 65만원 떨어졌는데\"...애널들은 주가 420만원 간다는 SK하이닉스 - 파이낸셜뉴스",
       "summary_ko": "\"300만원에서 65만원 떨어졌는데\"...애널들은 주가 420만원 간다는 SK하이닉스&nbsp;&nbsp;파이낸셜뉴스",
@@ -360,18 +240,6 @@
       "impact": 3,
       "source": "Google News (SK하이닉스)",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QUF9LZ2hDWTNZNU9abjFFVm05T1FJM1h4MmxzRWRhSm13VldfS20tVkswWHdlUDFEWktvQjZpcTFWa1FaT2FySElnZjYyNUU5TDh0aVZMMElmZw?oc=5",
-      "published": "2026-07-03 13:18",
-      "lang": "ko"
-    },
-    {
-      "id": "a91a80d5",
-      "title_ko": "[ET특징주] 美 반도체 삭풍에도… 삼성전자·SK하이닉스 주가 반등 - 전자신문",
-      "summary_ko": "[ET특징주] 美 반도체 삭풍에도… 삼성전자·SK하이닉스 주가 반등&nbsp;&nbsp;전자신문",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1IcWYyczNibUhoRmJuc3hGWjhaZTl5THVtX1ZjRnl5aWQ3LWNrQTBObVI1bmhtS1FyUTN6Q3p4cEFaWUVDNnJ6RThVMERTdw?oc=5",
       "published": "2026-07-03 13:18",
       "lang": "ko"
     },
@@ -388,18 +256,6 @@
       "lang": "ko"
     },
     {
-      "id": "d74afafd",
-      "title_ko": "[중국 특징주] 반도체 설비기업 '화탁정과', 6년만 과창판 상장 재도전 - 뉴스핌",
-      "summary_ko": "[중국 특징주] 반도체 설비기업 '화탁정과', 6년만 과창판 상장 재도전&nbsp;&nbsp;뉴스핌",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBsM2RKTDNseDFkUTBoQ1Ztb1hwemFXQ1ZzbHY0VHNoMmZQTm9NcC1zWXpiUlR2Zm9jZVpMYlJiS1QtOW14bEt4V2ZnM21ZdGVrUEFZWVlMZDZ4Ni16?oc=5",
-      "published": "2026-07-03 13:03",
-      "lang": "ko"
-    },
-    {
       "id": "ca0ff598",
       "title_ko": "SK하이닉스, 2분기 영업익 66조 전망…\"LTA로 실적 변동성 축소\" - 아이뉴스24",
       "summary_ko": "SK하이닉스, 2분기 영업익 66조 전망…\"LTA로 실적 변동성 축소\"&nbsp;&nbsp;아이뉴스24",
@@ -409,18 +265,6 @@
       "source": "Google News (SK하이닉스)",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAyRDcwRmRjbW92aDFNcno0OFdQcjFwR2JuZEdKX3hxY011TkFabXFNd2VaekJYQ2d6MlpvQ0FQLW80WGpEcEdGSWtXdlE?oc=5",
       "published": "2026-07-03 13:02",
-      "lang": "ko"
-    },
-    {
-      "id": "5893c7fa",
-      "title_ko": "호남 ‘800조’ 반도",
-      "summary_ko": "호남 ‘800조’ 반도체 투자…어디에, 언제? [뉴스in뉴스]&nbsp;&nbsp;v.daum.net",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zb2RJWXVxNUh2MFFRc3pKaXhJYjB1ZktBSFY2dnBtSnI5ZVI0X1ZiaGlYLThkRm5lRE9MOU53TVJ2V3VGcmszdlNJUmVwQzQ?oc=5",
-      "published": "2026-07-03 12:55",
       "lang": "ko"
     },
     {
@@ -532,30 +376,6 @@
       "lang": "ko"
     },
     {
-      "id": "2098d470",
-      "title_ko": "메타쇼크·레버리지·호남반도체 ‘3대 악재’ 심상찮다[사설] - 문화일보",
-      "summary_ko": "메타쇼크·레버리지·호남반도체 ‘3대 악재’ 심상찮다[사설]&nbsp;&nbsp;문화일보",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE81WVhDbmlOVkFHN21SNzB6SGtaLWEzQjVDbXVTa2dDaEZIU2tXTHZjVkhYWkFJQnJyLTFWVGNpY2VvZ2hQTDVXVWs1dVBDWlNS?oc=5",
-      "published": "2026-07-03 12:03",
-      "lang": "ko"
-    },
-    {
-      "id": "b7726c7e",
-      "title_ko": "[이슈PICK+] 엇갈린 하반기 산업기상 전망···반도체 ‘맑음’·석유화학 ‘비’ By 투데이코리아 - Investing.com 한국어",
-      "summary_ko": "[이슈PICK+] 엇갈린 하반기 산업기상 전망···반도체 ‘맑음’·석유화학 ‘비’ By 투데이코리아&nbsp;&nbsp;Investing.com 한국어",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE14elAzVTBOSVBBY0FQV1VzU3o5ZlMwWjhxRmc0T3F0dmE2NVU3RV9DRXdyT3JFQkg5eFBTT0VKQ1ZoTTNBeTF4Q21JaVBhU3oyLTdyalNwV0xBczhQN0dmaFB1SlBhTnFnLW50S3laeXo?oc=5",
-      "published": "2026-07-03 11:58",
-      "lang": "ko"
-    },
-    {
       "id": "45806b88",
       "title_ko": "S&P500 선물, 반도체 급락 후 혼조 - 연합인포맥스",
       "summary_ko": "S&amp;P500 선물, 반도체 급락 후 혼조&nbsp;&nbsp;연합인포맥스",
@@ -664,18 +484,6 @@
       "lang": "ko"
     },
     {
-      "id": "cadd6667",
-      "title_ko": "[다음주 경제일정] 삼성전자, 2분기 잠정실적 공개…SK하이닉스 ADR 상장 - v.daum.net",
-      "summary_ko": "[다음주 경제일정] 삼성전자, 2분기 잠정실적 공개…SK하이닉스 ADR 상장&nbsp;&nbsp;v.daum.net",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (SK하이닉스)",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wM1JqZWxvNTlwaFlNLUdpdVhHVkdodG9DX1dGZTYzNVZ2c0hGMFpQcExkejFOQ3IwM0IwQklvUzRFWWNtaElSNUxuYldvdHc?oc=5",
-      "published": "2026-07-03 11:46",
-      "lang": "ko"
-    },
-    {
       "id": "6217715f",
       "title_ko": "삼성전자, 美앤트로픽과 AI 칩 생산 논의…파운드리 재도약 발판 마련 - mstoday.co.kr",
       "summary_ko": "삼성전자, 美앤트로픽과 AI 칩 생산 논의…파운드리 재도약 발판 마련&nbsp;&nbsp;mstoday.co.kr",
@@ -721,18 +529,6 @@
       "source": "Google News (반도체)",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBSVmh6SU16UEJnR1lpeHF0RE5FanBKWkJRbHE3eHdiT1BHaUlMYWY1NW13aGlqNXFLS1hZVy02cVMtR2RsOG90Q1RqeWloWUROMUhRM0tBcGVWSFg3UGJMSw?oc=5",
       "published": "2026-07-03 11:35",
-      "lang": "ko"
-    },
-    {
-      "id": "b691e754",
-      "title_ko": "[스마트센서코리아 2026 프리뷰] 이엘티센서, 반도체 공정 특화 가스센서 솔루션 집중 조명 - 헬로티",
-      "summary_ko": "[스마트센서코리아 2026 프리뷰] 이엘티센서, 반도체 공정 특화 가스센서 솔루션 집중 조명&nbsp;&nbsp;헬로티",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1QVl9rVTRTQUpTaHBENHA4Y1hzT1lPYndBMFpjNndQM2JzbWsxTExrSEJuWHdnNzlHVmRUcE1JSHhUYWhBMDYxLVI4bnIzVGlxdzVqcXAwTDBfS19QTGhJ?oc=5",
-      "published": "2026-07-03 11:34",
       "lang": "ko"
     },
     {
@@ -796,20 +592,8 @@
       "lang": "ko"
     },
     {
-      "id": "2705e994",
-      "title_ko": "[뉴스프레소] 다우 최고치 VS 나스닥 하락… 반도체株 속절없는 폭락세 - 머니투데이 - 머니투데이",
-      "summary_ko": "[뉴스프레소] 다우 최고치 VS 나스닥 하락… 반도체株 속절없는 폭락세 - 머니투데이&nbsp;&nbsp;머니투데이",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4N0FyaWs3YVpHUzFMN3F2aFV4cTBLaVVBdE9SemZtWFIzSjJ0bWliVFNRNjZBUkRabXk5NC15NEdvcWFMTzgyekxKT0R6NzRWYlpqNzZGUHYyT0tNbnhXaXRJa1RiT3FR0gFuQVVfeXFMTzlObmhDd2dLT1E1N0FEX3hzNUVFazZfZi1zR3k4OW9pVWE2OE5xTzFSYzQ4Wkc5ZV9Ca0cwdGtBanVPRmtHMzF1TnJOMXlpSG5fRkt1M2cyTzVWMlBKRzhaMGxqZGh5NDIyZmZ4bkE?oc=5",
-      "published": "2026-07-03 11:26",
-      "lang": "ko"
-    },
-    {
       "id": "5f37cc9d",
-      "title_ko": "2나노 앞세운 삼성 파운",
+      "title_ko": "2나노 앞세운 삼성 파운드리 부활 청신호 - 헤럴드경제",
       "summary_ko": "2나노 앞세운 삼성 파운드리 부활 청신호&nbsp;&nbsp;헤럴드경제",
       "company": "업계전반",
       "topic": "기타",
@@ -964,18 +748,6 @@
       "lang": "ko"
     },
     {
-      "id": "cb38d8a6",
-      "title_ko": "[리포트 브리핑]SK하이닉스, '2Q26 Preview: 소음보다 큰 숫자' 목표가 3,800,000원 - 상상인증권 - 뉴스핌",
-      "summary_ko": "[리포트 브리핑]SK하이닉스, '2Q26 Preview: 소음보다 큰 숫자' 목표가 3,800,000원 - 상상인증권&nbsp;&nbsp;뉴스핌",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (SK하이닉스)",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pS3RndzF0OTZWeHlKUkNyOVdrUXRHa0d1RU5FMWFSa2tlaE5nTHdrb3JIVV9TNDR1OEdlS3ZqRnNCNTZDLWdaQ29aakRXNWRRZkNDTkxVX0NJbFNs?oc=5",
-      "published": "2026-07-03 11:02",
-      "lang": "ko"
-    },
-    {
       "id": "92c99489",
       "title_ko": "앤트로픽, 삼성전자와 AI 칩 생산 논의…파운드리 수주 기대감 - IT조선",
       "summary_ko": "앤트로픽, 삼성전자와 AI 칩 생산 논의…파운드리 수주 기대감&nbsp;&nbsp;IT조선",
@@ -985,18 +757,6 @@
       "source": "Google News (파운드리)",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qaVdMRl9EM0huYWU0czFDdkFFWlY5YW9lbFB6X2N1WjA0NDNRN2VHYlV1dXlob29tRk5lY0hXM1VfWkdtWUtSV29ZQnV5Rk9VV0t4ZVhQU3dMbDVkeEJJUTlQOVk5SThnY3ZGNHczY2nSAXRBVV95cUxNYmZKbzFUTXAtdllCSWF4WmF6Q2F1UU9UWW1iYURFek5FY003M09CTk8wbDlBNjAxeGtDenBjX29jcUprbEhBdmFCNDlxVW9XMHAyblQzLVNXTGZVV2dWNEFwSEFEQkhHcXZDVG5zWjNZc05oaw?oc=5",
       "published": "2026-07-03 11:00",
-      "lang": "ko"
-    },
-    {
-      "id": "8506a0b0",
-      "title_ko": "“앤트로픽, 삼성과 AI칩 생산 논의”…파운드리 청신호 - 뉴스토마토",
-      "summary_ko": "“앤트로픽, 삼성과 AI칩 생산 논의”…파운드리 청신호&nbsp;&nbsp;뉴스토마토",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (삼성전자 반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9DRHNvaEhoZzlpbUw0ejFEdEJxVWc5Ni1weWxYdHY4NTJsYzZ3a2d3NVZKSTJ5SnB3Wl80T2NENy1NR3pER18ydUdBbUJ2N09ZWnhmOGZreWtwZkw1SS1sZg?oc=5",
-      "published": "2026-07-03 10:58",
       "lang": "ko"
     },
     {
@@ -1032,6 +792,18 @@
       "impact": 3,
       "source": "Google News (삼성전자 반도체)",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5hSnR2SHl4bVVmUElIZmNmcVBMSUFnTmZTZHZWRnpZMDVYMVdPRUlzMUtyQndGM1ZWUFRlN0ZFOEpEdl9oVFd4Zm5nN0hoRlRIZG1QbjVlTVZ1VFN4Ull2M2VDVDN2cWNremwxRmp5ekNyM28?oc=5",
+      "published": "2026-07-03 10:51",
+      "lang": "ko"
+    },
+    {
+      "id": "0929d409",
+      "title_ko": "반도체 업계, 美정부 개입에 “수요침체 장기화할 위험” - 국민일보",
+      "summary_ko": "반도체 업계, 美정부 개입에 “수요침체 장기화할 위험”&nbsp;&nbsp;국민일보",
+      "company": "업계전반",
+      "topic": "기타",
+      "impact": 3,
+      "source": "Google News (반도체)",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MaldSNC1rcjU4NEY4ZFVBWGZJNk9DU3RBNXQ4Q3N6NzIwUElUZHByWl9TTFk4QUpZc0Jya0lWLUthUkZBN1hwbjdFQVVYTjBsWnREcUtxOU4yYTBqckEtNF9zQWFnaWPSAWxBVV95cUxPd29HaHBva1hfQnFncVlabEVoV3JCRElkZEhMbGxQbVl4Y1NPNE5tNzBJel9xUVMxeU9RYkd2Y2dSeU5fVmF4UHp0SGRkZDQzbTBXR19nVjZTbjdVVmhmRm5wQXhqRG9vNHNzc3Y?oc=5",
       "published": "2026-07-03 10:51",
       "lang": "ko"
     },
@@ -1096,6 +868,30 @@
       "lang": "ko"
     },
     {
+      "id": "d0fca328",
+      "title_ko": "앤트로픽, 삼성과 AI칩 생산 논의…2나노 파운드리 협력설 '주목' - 이지경제",
+      "summary_ko": "앤트로픽, 삼성과 AI칩 생산 논의…2나노 파운드리 협력설 '주목'&nbsp;&nbsp;이지경제",
+      "company": "업계전반",
+      "topic": "기타",
+      "impact": 3,
+      "source": "Google News (파운드리)",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5oN2lWN01hVkNEeURscDJ0SDVuYzQ2cFExQmhhVkwxcnNCSFQyaVYyd3VLeURwb3FGcUhsbldyellNOEh2ZnhBZS1hWHpzVlhSOTdUZDhtcjZ0NmFVb1pXWEp0bFh3VnZLWGtOQXRn?oc=5",
+      "published": "2026-07-03 10:42",
+      "lang": "ko"
+    },
+    {
+      "id": "bce9aef5",
+      "title_ko": "김병수 온세미코리아 상무… 부천서 틔운 반도체 호기심, 미래 이끌 씨앗 되길 - 대한경제",
+      "summary_ko": "김병수 온세미코리아 상무… 부천서 틔운 반도체 호기심, 미래 이끌 씨앗 되길&nbsp;&nbsp;대한경제",
+      "company": "업계전반",
+      "topic": "기타",
+      "impact": 3,
+      "source": "Google News (반도체)",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53Z2tqbVlnQ3pwWGh6QWlDbVg4cVFSUnhwcE1oUTYydUpGc1JXWXQ3SlZMRXVhb20wclQ2NUpycFFHQXBiWkVfelN1bGticDU0cHdLOU14QkhrR1dBblQ2ZVVsdlpCTEF4eUJkWnBnTUZQazV0?oc=5",
+      "published": "2026-07-03 10:40",
+      "lang": "ko"
+    },
+    {
       "id": "18087988",
       "title_ko": "앤트로픽, 삼성과 AI칩 생산 협의…2나노 파운드리 반전 신호될까 - mstoday.co.kr",
       "summary_ko": "앤트로픽, 삼성과 AI칩 생산 협의…2나노 파운드리 반전 신호될까&nbsp;&nbsp;mstoday.co.kr",
@@ -1132,18 +928,6 @@
       "lang": "ko"
     },
     {
-      "id": "1b8c574d",
-      "title_ko": "[머니테크] 반도체發 훈풍, 수도권 이어 지방 부동산 시장도 분다 - 대한경제",
-      "summary_ko": "[머니테크] 반도체發 훈풍, 수도권 이어 지방 부동산 시장도 분다&nbsp;&nbsp;대한경제",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ZaUFWUEs4dHpnc01NVmszMVAzaFNmOTFBMlQ5TDk0U1drTkhlLWF2bWxCVW4wenlhZEhUdUhvTlpwS3VnT1l0Y2UzeFNNSDk1UndEblF5RGhhNjV1ZjZFQ2k5Umd3OWpzSVlkc3BIOWdtNm1o?oc=5",
-      "published": "2026-07-03 10:34",
-      "lang": "ko"
-    },
-    {
       "id": "c2f9e14e",
       "title_ko": "국힘 “노란봉투법·상법이 반도체 투자 막아…국정기조 전면 쇄신해야” - 전자신문",
       "summary_ko": "국힘 “노란봉투법·상법이 반도체 투자 막아…국정기조 전면 쇄신해야”&nbsp;&nbsp;전자신문",
@@ -1152,18 +936,6 @@
       "impact": 3,
       "source": "Google News (반도체)",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5xRFRzYkdMcmcyTmxLZnBnM0JQbnFhSDFLYzFZT3JaVEdES2ZMb29pTG1JdDNReEgtRDBYcjhMaGpralNBU0V2QUJmazJpdw?oc=5",
-      "published": "2026-07-03 10:33",
-      "lang": "ko"
-    },
-    {
-      "id": "12a15fd7",
-      "title_ko": "[증시타임] 美 반도체 숨 고르기에도 저가매수 기회? - v.daum.net",
-      "summary_ko": "[증시타임] 美 반도체 숨 고르기에도 저가매수 기회?&nbsp;&nbsp;v.daum.net",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1kV1Yxci0tNGMtQUhOb0pvOWpnZUlHeUpXRkRvRDVOQzJUdWsyNEt4UVNfSE9nQ3JBdU5DUm4wdWI2bDJFNUJKYnNSeEdmRTA?oc=5",
       "published": "2026-07-03 10:33",
       "lang": "ko"
     },
@@ -1252,18 +1024,6 @@
       "lang": "ko"
     },
     {
-      "id": "e4a4d516",
-      "title_ko": "[핫타임] 메타 쇼크 여진에 SK하이닉스 4%대 약세…반도체주 휘청 - 아주경제",
-      "summary_ko": "[핫타임] 메타 쇼크 여진에 SK하이닉스 4%대 약세…반도체주 휘청&nbsp;&nbsp;아주경제",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (SK하이닉스)",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDb0lPTl9OM3VlRi1BQ0RwVXFrT3BGcnNpWE1iRkh0QTVZaHJjeWMzeHQ3TjZRVVdjdzlGWU9NVU40b21jVkQxd2x0XzE0bW94Z3E1YkstblFIUdIBWEFVX3lxTFB2MnFEcFV5MVZkZXRZX1I2ODJXdlpJeUdfcWdhSWFLci1zWE9SVUoxNDI1RHFfWXJxQ2tfN3NOU1hKNFZ3dGZ3MFQycWpYYjhCNmYtWUV1S3g?oc=5",
-      "published": "2026-07-03 10:21",
-      "lang": "ko"
-    },
-    {
       "id": "85e30223",
       "title_ko": "반도체 업계, 공급부족 해결 위한 美정부 개입에 경계 - v.daum.net",
       "summary_ko": "반도체 업계, 공급부족 해결 위한 美정부 개입에 경계&nbsp;&nbsp;v.daum.net",
@@ -1273,18 +1033,6 @@
       "source": "Google News (반도체)",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4zLUdDbHFQNlJBU1RiUExEc0F6S2RyWWd5amVzaHc0ZUVwdEZYTml0WThjVkpsMWpfVHpqVmk1THJpbDlFcGtiR1JyQ2hiUlU?oc=5",
       "published": "2026-07-03 10:20",
-      "lang": "ko"
-    },
-    {
-      "id": "3eb6545c",
-      "title_ko": "김원이 \"800조 반도체 프로젝트, 계획보다 실행이 중요\"[와이드이슈] - KBC광주방송",
-      "summary_ko": "김원이 \"800조 반도체 프로젝트, 계획보다 실행이 중요\"[와이드이슈]&nbsp;&nbsp;KBC광주방송",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QdjhMeTEwZWZVZG9ORWVTcktPV1NDU2FQRjVwZlRmNW85QWZKaFJ4elBmT21qbmt5bmtERW1LZUdqLV9kOVlycHZMUGh4ZHdLU1RBbFpDNmJRSVhHWFpMdQ?oc=5",
-      "published": "2026-07-03 10:19",
       "lang": "ko"
     },
     {
@@ -1420,18 +1168,6 @@
       "lang": "ko"
     },
     {
-      "id": "c11eedb0",
-      "title_ko": "\"삼성전자 또 상향\"...실적 눈높이 끝없이 높아지는 이유 [종목 돋보기] - 파이낸셜뉴스",
-      "summary_ko": "\"삼성전자 또 상향\"...실적 눈높이 끝없이 높아지는 이유 [종목 돋보기]&nbsp;&nbsp;파이낸셜뉴스",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (삼성전자 반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9razJXOXNHZTZPd1d1czc2STdSdU5CWVQ5TlhodFdBaVB3MlhjdVlkdm5wbjNuQmJraWRvcDhZcnJDc3h3eFZHQXFkbW9LczhjTVNkVE5pdGJJdw?oc=5",
-      "published": "2026-07-03 09:59",
-      "lang": "ko"
-    },
-    {
       "id": "2ee53f94",
       "title_ko": "삼성 파운드리, 앤트로픽 자체 AI 칩 수주 논의…반도체 동맹 가시화 - 내외뉴스통신",
       "summary_ko": "삼성 파운드리, 앤트로픽 자체 AI 칩 수주 논의…반도체 동맹 가시화&nbsp;&nbsp;내외뉴스통신",
@@ -1441,18 +1177,6 @@
       "source": "Google News (AI chip semiconductor)",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5udy1Ic0xnSVFZTU1MMVZRUXZOd2FSa21jWlIxSUZWM2dkLTRXam83Vy0xTTV6cUY2ZGZ3VnlYOUd0QTNsTmE4Qmt4TnpEREhXT2NWZ2VYQ0VnVXhMTzRUMUlKYzVsQ05oRjN2b9IBcEFVX3lxTE0yMS1rT2ZwOHMxRVgxM3REd2t6b0xFR05sUXI1VXYyNW1HZTlTTjRUaFhWWWJiZXhFbnNLV1FmVkhVYzJvaDFHbjNaUGh4VWVyN3dHTG9tU1IyT2FDRjlCdG5seHFRc2dENWdQdXg4Q2o?oc=5",
       "published": "2026-07-03 09:59",
-      "lang": "ko"
-    },
-    {
-      "id": "9057c22c",
-      "title_ko": "코스피, 美 반도체 급락에 2%대 약세…7500선 등락[개장시황] - 뉴스1",
-      "summary_ko": "코스피, 美 반도체 급락에 2%대 약세…7500선 등락[개장시황]&nbsp;&nbsp;뉴스1",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE01OENxcXJPTGF2NkQzSHZFdkIwNmRZT1RxRXZPVG9xZkN5OUdMc1hxaVVtZ1d0Ri1VeXM4Tmg0Tjg4U0RvbVZCVUNWSGRnVEFIUHQtT1FNZmhWV095MGpR?oc=5",
-      "published": "2026-07-03 09:56",
       "lang": "ko"
     },
     {
@@ -1489,18 +1213,6 @@
       "source": "Google News (삼성전자 반도체)",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DQV8wMTdYMXlrWGlpbWJhTmFZeXVhdXpBWXNVUGNxUER4RVFxX0c0dTREUzM2NEZWdEdjNDhQM2YxUXhFV2VKVE1yUzlCQW43MlHSAVNBVV95cUxQQmJuNDRnU1FkUnpWcS0tQUdobVJCM09ZcThTdHZKMVVRZ2pkQlZmc2RfTWRxbzJSU0plSDVTSVduMGRXaHJHZi15UlJqRHNGUlJkMA?oc=5",
       "published": "2026-07-03 09:54",
-      "lang": "ko"
-    },
-    {
-      "id": "e331871c",
-      "title_ko": "[1% 초고수의 개장 선택] 'SK하이닉스' 사고 '삼성전자' 줄였다 - ebn.co.kr",
-      "summary_ko": "[1% 초고수의 개장 선택] 'SK하이닉스' 사고 '삼성전자' 줄였다&nbsp;&nbsp;ebn.co.kr",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (SK하이닉스)",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96ZkFNZG0wWEtOVFNUSWZYVy1SLVZlaWxhXzJEMDJvZ01VTS02ZDlzV1pGLWIyX1NKeXJWMXhwQzNiY20yMXAzMjRXeF9hSTQxUDR0b3Fub19DSXBPdVloZnRyT1Nmamoz?oc=5",
-      "published": "2026-07-03 09:51",
       "lang": "ko"
     },
     {
@@ -1612,18 +1324,6 @@
       "lang": "ko"
     },
     {
-      "id": "1f2a3220",
-      "title_ko": "반도체 차익실현 압력 지속… 코스피·코스닥 동반 하락 출발 [개장시황] - 한국경제",
-      "summary_ko": "반도체 차익실현 압력 지속… 코스피·코스닥 동반 하락 출발 [개장시황]&nbsp;&nbsp;한국경제",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55NHBzczdNNEFjdEZpQm8tc1NlVUJjQlhBVDVNVURmbjVkNmtfNWp1eGZiUERmdjdVNzh5ellIS1lWcVFQMWR2Z1Q5RGpxTDg1SDdEc1hURzJEUdIBVEFVX3lxTFBWNnR2Qllrb213ZVBSSWh3M3dTRjY5amNyMm0zcUhORDIzZjFxeFZpMTB6MXYzRTdRN2JsaE9KX1pBTEFlc3R0di0tWXBQZkJFUUcwbw?oc=5",
-      "published": "2026-07-03 09:37",
-      "lang": "ko"
-    },
-    {
       "id": "e214aa69",
       "title_ko": "Why is Seoul hesitating on power for Honam chips? - Korea JoongAng Daily",
       "summary_ko": "Why is Seoul hesitating on power for Honam chips?&nbsp;&nbsp;Korea JoongAng Daily",
@@ -1646,18 +1346,6 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQjJVdTRsMFE2Nm9MeWdIaUd0OVBLUWFuM2duQjhROE0wSjgyQU1hSzJYOUdOM0VSSTdGUGRMN0VxdURfSFVHQXRHVHhJOEgwRUNVYktlYlVzZ3FmNDU0WXJMb1FTZG95TTQ0M0ZTN1RIcHlPcnVfc2lQNml5dG9DUnNSdF85NEY5eDNUaU9yRzFKVVlvbFVoRTBqMndpV1FXQ2VkQ09iaEc5bkRXcFFFV3ZfUERwNkE?oc=5",
       "published": "2026-07-03 09:35",
       "lang": "en"
-    },
-    {
-      "id": "0837dbd1",
-      "title_ko": "\"앤트로픽, AI칩 생산 삼성과 협의…파운드리 대형 수주 기회\" - v.daum.net",
-      "summary_ko": "\"앤트로픽, AI칩 생산 삼성과 협의…파운드리 대형 수주 기회\"&nbsp;&nbsp;v.daum.net",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (삼성전자 반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5BRHRaZXVfZDNFUTcwNnVrOFlTZUxMMGdoU01RQy1MVnVPZ1Z1RmdHeFlwYmFoX3lCQWFyR0ZqQ2ZudG9ULUF5XzNVWUkwelE?oc=5",
-      "published": "2026-07-03 09:31",
-      "lang": "ko"
     },
     {
       "id": "f9b2f597",
@@ -1744,18 +1432,6 @@
       "lang": "ko"
     },
     {
-      "id": "2a387bba",
-      "title_ko": "“엔비디아·애플도 꼼짝 못해” 세상에서 가장 강한 ‘을’ TSMC [시총 10대 기업] - 매일경제",
-      "summary_ko": "“엔비디아·애플도 꼼짝 못해” 세상에서 가장 강한 ‘을’ TSMC [시총 10대 기업]&nbsp;&nbsp;매일경제",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (TSMC)",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1SRV9aTEpjNUJGckZoR2EyWXF5dmZRWlhDZGZSbW9rek9SamxYWXkzZkRSTTFRbzVLN1k5RGNQNzRUMzZ1XzltaXd1d2JRZjJYdHc?oc=5",
-      "published": "2026-07-03 09:29",
-      "lang": "ko"
-    },
-    {
       "id": "f7075c58",
       "title_ko": "SK하이닉스, 메모리 계층설계 역량으로 AI 반도체 리더십 강화 - 데일리한국",
       "summary_ko": "SK하이닉스, 메모리 계층설계 역량으로 AI 반도체 리더십 강화&nbsp;&nbsp;데일리한국",
@@ -1780,30 +1456,6 @@
       "lang": "en"
     },
     {
-      "id": "7ef6642b",
-      "title_ko": "[특징주] 삼성전자·SK하이닉스, 반발 매수세 유입에 '강세' - 글로벌이코노믹",
-      "summary_ko": "[특징주] 삼성전자·SK하이닉스, 반발 매수세 유입에 '강세'&nbsp;&nbsp;글로벌이코노믹",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (삼성전자 반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMjlfSnRrQ0lnVkE0c1VpNHUzeEozVjloV3lpVlZpdHpPYV9fZm9mcUtrZnhzeldqQ1NEYlM4ZDVoMEEzTEw5MTdqYkRMdGdxSmk2WDRhdWpKYjNVRU1wcVNwNk5nT2VKWXdZVF9nVjZiTl9DR1ZZUVBDLVNwWnFUNy1Gb2pjRjZN?oc=5",
-      "published": "2026-07-03 09:25",
-      "lang": "ko"
-    },
-    {
-      "id": "26ceca4f",
-      "title_ko": "\"낙폭 과했나\"…美 반도체 하락에도 '삼전닉스' 강세전환[핫종목] - v.daum.net",
-      "summary_ko": "\"낙폭 과했나\"…美 반도체 하락에도 '삼전닉스' 강세전환[핫종목]&nbsp;&nbsp;v.daum.net",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (삼성전자 반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKSmx3dHFyNkgzb2htVEUxYU5wVnZLYk9UZ2x2MFM0NS15UlFfY29iTDNIamJMODY3RVJseUZyZmRfLS1DWU9QZ2J0d3FOZ1U?oc=5",
-      "published": "2026-07-03 09:21",
-      "lang": "ko"
-    },
-    {
       "id": "f2ae4cfb",
       "title_ko": "우송대 RISE사업단, ‘2026년 AI 시스템반도체 미래인재 아이디어톤’ 개최 - 한국대학신문",
       "summary_ko": "우송대 RISE사업단, ‘2026년 AI 시스템반도체 미래인재 아이디어톤’ 개최&nbsp;&nbsp;한국대학신문",
@@ -1813,18 +1465,6 @@
       "source": "Google News (반도체)",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5QWU56VkZkS2RqbzdSYzF0TUdVVHdRd3RDV2RNMG9VVEpDOWF0X3Uxc3JkZHdDZG4zY1FISDltU3UtU0FZeHVhQTJnZ2NydUNpamtrSmVoS2luaHBXdHpyeFk5VUx5UQ?oc=5",
       "published": "2026-07-03 09:21",
-      "lang": "ko"
-    },
-    {
-      "id": "f88a6fc9",
-      "title_ko": "\"낙폭 과했나\"…美 반도체 하락에도 '삼전닉스' 강세전환[핫종목] - 뉴스1",
-      "summary_ko": "\"낙폭 과했나\"…美 반도체 하락에도 '삼전닉스' 강세전환[핫종목]&nbsp;&nbsp;뉴스1",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (semiconductor)",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5POFNJdlJhYUlLTUtHQzJsOWlDdnczRnpyTnlRVFh5RmVBdFkwN2JXaDh0RG1Yb3Y2d2dobHBIMG1za0s3WEtHRWtkb1RsVkNBWm9CYktGMEYyeFU?oc=5",
-      "published": "2026-07-03 09:19",
       "lang": "ko"
     },
     {
@@ -1840,18 +1480,6 @@
       "lang": "ko"
     },
     {
-      "id": "f650cc70",
-      "title_ko": "[원 AI] 반도체 훈풍, 제조업 전반으로 확산… - 전자신문",
-      "summary_ko": "[원 AI] 반도체 훈풍, 제조업 전반으로 확산…&nbsp;&nbsp;전자신문",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (semiconductor)",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9VZXZiNUNUSWR1aURQamlubXZvZy15U19nTld4V1A0SGVCb183MFc4VHB2cnlNN09nbFpKSmVUTWZHdVhWMXhZdnZreXpvQQ?oc=5",
-      "published": "2026-07-03 09:17",
-      "lang": "ko"
-    },
-    {
       "id": "eee01108",
       "title_ko": "美 증시 급락에 삼성전자·SK하이닉스 직격탄···‘AI 반도체 쏠림’의 균열 - 스마트비즈",
       "summary_ko": "美 증시 급락에 삼성전자·SK하이닉스 직격탄···‘AI 반도체 쏠림’의 균열&nbsp;&nbsp;스마트비즈",
@@ -1861,30 +1489,6 @@
       "source": "Google News (삼성전자 반도체)",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtZmg1VmNxNmg4ZUFHWmRNeW5NZDllYjRlY2lFaHh2eHlWNHhmb0kyY1Q2aFRTYnR3ejlEcVNDb0pfamEwWmx5anRLSTJ0emVQcWZ1NFJBMEVNZTBUdEtYV1ItS1hYTWdYd1hMUQ?oc=5",
       "published": "2026-07-03 09:15",
-      "lang": "ko"
-    },
-    {
-      "id": "8e363ec7",
-      "title_ko": "[특징주] 美 반도체 급락에도⋯삼성전자·SK하이닉스 동반 반등 - 이투데이",
-      "summary_ko": "[특징주] 美 반도체 급락에도⋯삼성전자·SK하이닉스 동반 반등&nbsp;&nbsp;이투데이",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (삼성전자 반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1iZnZueFJKam8tUVpnMC05THRNYkRaRUVlakhKdUlDQlNtQXhMa3ptRUdlQ0V6WXRsTXFfbjdtUU1ISGdLY2VNLThJeWJhVWg1TnlpSg?oc=5",
-      "published": "2026-07-03 09:14",
-      "lang": "ko"
-    },
-    {
-      "id": "3cdb4a09",
-      "title_ko": "[버핏 리포트] SK하이닉스, 메모리 공급 부족 장기화...시장 컨센서스 6% 상회 전망 - KB - 버핏연구소",
-      "summary_ko": "[버핏 리포트] SK하이닉스, 메모리 공급 부족 장기화...시장 컨센서스 6% 상회 전망 - KB&nbsp;&nbsp;버핏연구소",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (SK하이닉스)",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBzRFdFLU4yUVdTZE9UbUJ0TUwwTHl5OUFaYzF3VDl2MW9adEVDMW1mUFFXLWttWXRlalJqTlZWLW15eF80Z1FTLWM5eGQ3RndhMk5qUFBnRmdCeTVveklvUGRB?oc=5",
-      "published": "2026-07-03 09:11",
       "lang": "ko"
     },
     {
@@ -1912,15 +1516,15 @@
       "lang": "ko"
     },
     {
-      "id": "0dd039f4",
-      "title_ko": "반도체주 급락 딛고 반등…삼성전자 2%↑SK하이닉스 1%↑[핫스탁] - 뉴시스",
-      "summary_ko": "반도체주 급락 딛고 반등…삼성전자 2%↑SK하이닉스 1%↑[핫스탁]&nbsp;&nbsp;뉴시스",
+      "id": "6c546dac",
+      "title_ko": "삼전닉스 팔고 외국인들 향한 곳…일본서 105조 반도체·AI 사들였다 - v.daum.net",
+      "summary_ko": "삼전닉스 팔고 외국인들 향한 곳…일본서 105조 반도체·AI 사들였다&nbsp;&nbsp;v.daum.net",
       "company": "업계전반",
       "topic": "기타",
       "impact": 3,
-      "source": "Google News (SK하이닉스)",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBwWUdjSzVHUTVsaXl5ZE5wemtZak1GY3VtME5YLVBVTWh1c1dCMEh6RXJLVk9nbms5RDE4NTMxbGVLc3FOU2RpdV8yMmVBZUdUV19HR1ltSHEyYUJTYWlBWNIBeEFVX3lxTFA2TGNULXVpVS1vUlNyTUQ4MmlicVk1YjFJQkdwejVQWFR6ZnZ2b05uLTRiczRUUUJQRTVzWE9jck03NS1TSFZzQ0lCM0d4U2ZQVHdOeldHUXFXODBMazJld2o5UWNFUzVRN3liSUxudnFOdjZ5bHRTOQ?oc=5",
-      "published": "2026-07-03 09:07",
+      "source": "Google News (반도체)",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3UFBXVlE2OGRrbUpVTmZ3R09teUt3V0d2X0ItQUZCNjRIbGxzendQM3U3cDRiTF90OW9EX3VfUnZGdGpudWNqTW94SnhRaTg?oc=5",
+      "published": "2026-07-03 09:09",
       "lang": "ko"
     },
     {
@@ -1932,18 +1536,6 @@
       "impact": 3,
       "source": "Google News (삼성전자 반도체)",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBHQm1QVzE5NkFzVFVLUFo2Y080cGNYQUNhQVhvdE4wV1hvR252Q3JLVkpxTS1ab2dJX3MzNkdTVXVtN3h2SFVDbU5sc2VSSVlXUXJjUjViUXdHUndHQXZ2SEhkODJEQVA2TTdfZXZ3?oc=5",
-      "published": "2026-07-03 09:03",
-      "lang": "ko"
-    },
-    {
-      "id": "86caf1a1",
-      "title_ko": "\"전기 많아서 호남이라고?\"…'800조 반도체 베팅'에 숨은 핵심 [스프] - v.daum.net",
-      "summary_ko": "\"전기 많아서 호남이라고?\"…'800조 반도체 베팅'에 숨은 핵심 [스프]&nbsp;&nbsp;v.daum.net",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90SzA1Y0xSMDFTYUVNWWpZcm43dWJFQ21WZTFGR1Jra0tpUTdURWJ5RlA1aEk4RWtWYzY4WjFFNmNhZDUyNno4U1pWbTB0VUE?oc=5",
       "published": "2026-07-03 09:03",
       "lang": "ko"
     },
@@ -1996,18 +1588,6 @@
       "lang": "ko"
     },
     {
-      "id": "59c2df04",
-      "title_ko": "[테크 차이나] 中 반도체 장비 산업, '국산화 2막' 진입… “이제는 상징보다 실력 경쟁” - 전자신문",
-      "summary_ko": "[테크 차이나] 中 반도체 장비 산업, '국산화 2막' 진입… “이제는 상징보다 실력 경쟁”&nbsp;&nbsp;전자신문",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xREFDOWU5TFhHMFJjY2NGWW1jZW9ydDhtMXZxQjBWbXlHU1NTYTFKOS1Ra180b1ZaSkJJcHptZ0tGWkYxZkJyMlVhOThjQQ?oc=5",
-      "published": "2026-07-03 09:00",
-      "lang": "ko"
-    },
-    {
       "id": "407a314f",
       "title_ko": "경기도 추미애 지사, 1호 결재는 반도체…'K-반도체 혁신 대책' 본격 추진 - 메트로신문",
       "summary_ko": "경기도 추미애 지사, 1호 결재는 반도체…'K-반도체 혁신 대책' 본격 추진&nbsp;&nbsp;메트로신문",
@@ -2017,30 +1597,6 @@
       "source": "Google News (semiconductor)",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNdlFiVVh6cDd1Qko0V1Rsd01KSUxXcWRITzBfd1NqZkpWZ3ljOUdpdUV2THVmbWZBczdodWdmTEdzM1UxN2tTNW5JOWEwQlpqcnk3TTlKcnpYUmhjVzZqLQ?oc=5",
       "published": "2026-07-03 08:59",
-      "lang": "ko"
-    },
-    {
-      "id": "7be0534a",
-      "title_ko": "프리마켓서 삼성전자·SK하이닉스 상승 전환…저가 매수세 유입[특징주] - v.daum.net",
-      "summary_ko": "프리마켓서 삼성전자·SK하이닉스 상승 전환…저가 매수세 유입[특징주]&nbsp;&nbsp;v.daum.net",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (SK하이닉스)",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9HQmI1TUNiWl9idFpPWTEwVGpjR28wQjVqT1d1SEs3S2N0QTl2NFhhMFZ6aXItY0NFUGk5enQ0THBsZlFpNXhtaTltSzlkeVk?oc=5",
-      "published": "2026-07-03 08:56",
-      "lang": "ko"
-    },
-    {
-      "id": "dc1e9c5b",
-      "title_ko": "[오늘의 브릿지경제 1면] 삼성·SK하이닉스·셀트리온 등 충청에 392조 투자… 정부, 메가특구 등 전폭 지원 - 브릿지경제",
-      "summary_ko": "[오늘의 브릿지경제 1면] 삼성·SK하이닉스·셀트리온 등 충청에 392조 투자… 정부, 메가특구 등 전폭 지원&nbsp;&nbsp;브릿지경제",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (SK하이닉스)",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6a1c0eVZXdm5HVkcyZjg3LTNqNkZQeUd5ek5xWVR5aVozX1BZYi1wTEowTTlQZzVmcllHYTc1bFo0bzM5a25ZSFpQZldWd01lU0gyUTZhc1pqQQ?oc=5",
-      "published": "2026-07-03 08:56",
       "lang": "ko"
     },
     {
@@ -2128,30 +1684,6 @@
       "lang": "ko"
     },
     {
-      "id": "67e8605b",
-      "title_ko": "[굿모닝 증시]美나스닥 하락 지속…\"한국증시, 반도체 중심 변동성 확대\" - v.daum.net",
-      "summary_ko": "[굿모닝 증시]美나스닥 하락 지속…\"한국증시, 반도체 중심 변동성 확대\"&nbsp;&nbsp;v.daum.net",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAyQ1lLMmVSRDA1UENRTVZ1VjRaRWdsZHM1d2tDUWh0TFR4WmtQNDA4T2lRRV9EenpUWU1FQzRLWEhYUlh5UTRDbkpqaEQ3S2s?oc=5",
-      "published": "2026-07-03 08:32",
-      "lang": "ko"
-    },
-    {
-      "id": "08f1731e",
-      "title_ko": "[리포트 브리핑]SK하이닉스, '상승은 멈추지 않는다' 목표가 4,200,000원 - KB증권 - 뉴스핌",
-      "summary_ko": "[리포트 브리핑]SK하이닉스, '상승은 멈추지 않는다' 목표가 4,200,000원 - KB증권&nbsp;&nbsp;뉴스핌",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (SK하이닉스)",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jQzYyLWZIRlFRYmZEVG9NZ3hXalg2eVZHX1dJMXF2WnVzdlMteEdrQ1VVZ3BFd2hEenhvZWxUR2lweTV6MlNtUWxlajdUTUlXM1lQSlBhcEgzOVF4?oc=5",
-      "published": "2026-07-03 08:32",
-      "lang": "ko"
-    },
-    {
       "id": "89e837e0",
       "title_ko": "서남권 반도체 팹 하루 65만t 물 필요, 안정적 공급 가능할까 - 연합뉴스",
       "summary_ko": "서남권 반도체 팹 하루 65만t 물 필요, 안정적 공급 가능할까&nbsp;&nbsp;연합뉴스",
@@ -2200,30 +1732,6 @@
       "lang": "ko"
     },
     {
-      "id": "a2337e1f",
-      "title_ko": "[초동시각]TSMC의 나라, 삼전닉스의 나라 - v.daum.net",
-      "summary_ko": "[초동시각]TSMC의 나라, 삼전닉스의 나라&nbsp;&nbsp;v.daum.net",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (TSMC)",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9qbGhhQ2RUeGc0ZDA1UUNVbVdYaUQyTGFHNlNXR0ZOclNXUUFkcE9jZF82VGtuT3JCbTVDcUxEOUtKSlNaczFBNGd5NGFiY2s?oc=5",
-      "published": "2026-07-03 08:29",
-      "lang": "ko"
-    },
-    {
-      "id": "e4a2cb8e",
-      "title_ko": "SK하이닉스, 하반기 AI 메모리 공급 부족 전망…\"420만원 간다\"[애널리스트의 시각] - v.daum.net",
-      "summary_ko": "SK하이닉스, 하반기 AI 메모리 공급 부족 전망…\"420만원 간다\"[애널리스트의 시각]&nbsp;&nbsp;v.daum.net",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (SK하이닉스)",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE14cTZhZXgwMlJDZnFNaVNCSm56Mk1ManlQbmZhQ190RzFnQnNoZmoyaml3YXgtMDJ6SXE2SUp0U1Vaczh5YWZncjdrS0gxQ1E?oc=5",
-      "published": "2026-07-03 08:28",
-      "lang": "ko"
-    },
-    {
       "id": "c5ce028f",
       "title_ko": "애플 'CXMT 메모리' 탑재 만지작…中 반도체 생태계 진화 기폭제 되나 - ebn.co.kr",
       "summary_ko": "애플 'CXMT 메모리' 탑재 만지작…中 반도체 생태계 진화 기폭제 되나&nbsp;&nbsp;ebn.co.kr",
@@ -2268,18 +1776,6 @@
       "impact": 3,
       "source": "Google News (SK하이닉스)",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2VXQxeGV1bnJLdXhHckxxRWsyWjVLNVVPNzlsQXJIZWMzbjUwbkRhM0F0Rmt2YU5BUWpFWXBFeW42Smc2WTdKQ0R3VlRGR1lJVktzRnhXdDk3NHdrX1dKcQ?oc=5",
-      "published": "2026-07-03 08:27",
-      "lang": "ko"
-    },
-    {
-      "id": "2bc04e15",
-      "title_ko": "[초동시각]TSMC의 나라, 삼전닉스의 나라 - 네이트",
-      "summary_ko": "[초동시각]TSMC의 나라, 삼전닉스의 나라&nbsp;&nbsp;네이트",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (TSMC)",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5EMVhwZjhuaGNYZzI5cjRjQ1puZzlsN3BwcHpiWk54MFdaTW1mUmVmdkFfYVR3YkJEeDlDY2NaamoxZjAtTGhTT1lUNmEySTRCLWxr?oc=5",
       "published": "2026-07-03 08:27",
       "lang": "ko"
     },
@@ -2356,18 +1852,6 @@
       "lang": "ko"
     },
     {
-      "id": "f99a2133",
-      "title_ko": "[기업 이모저모] '젠슨 황 웨이퍼' 전시한 삼성전자 - 연합인포맥스",
-      "summary_ko": "[기업 이모저모] '젠슨 황 웨이퍼' 전시한 삼성전자&nbsp;&nbsp;연합인포맥스",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (파운드리)",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnRC1SZ2txUnYtLWdxU2lwVC1mTDFyZVR4c0RiczdnWjVpOWp5ZlJwQ0hGcm1vN2U4RVlpbElHSjNyeElNN2ZFQ2xsNjNCTEhMOXo4VUZNal9NS1VxX2llejNOTkdTMmhUM2xpLVdIcXA?oc=5",
-      "published": "2026-07-03 08:18",
-      "lang": "ko"
-    },
-    {
       "id": "eb9e5a7d",
       "title_ko": "800조 호남 반도체 프로젝트…삼성·SK, '최적 입지' 찾기 본격화 - 뉴시안",
       "summary_ko": "800조 호남 반도체 프로젝트…삼성·SK, '최적 입지' 찾기 본격화&nbsp;&nbsp;뉴시안",
@@ -2416,30 +1900,6 @@
       "lang": "ko"
     },
     {
-      "id": "1bdd4380",
-      "title_ko": "[뉴욕마켓워치] 긴축 우려 덜었지만 반도체는 또 추락…달러↓주식·채권 혼조 - 연합인포맥스",
-      "summary_ko": "[뉴욕마켓워치] 긴축 우려 덜었지만 반도체는 또 추락…달러↓주식·채권 혼조&nbsp;&nbsp;연합인포맥스",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBuZVBicTNkSmRrSG5hZ1ZrQUhJck5BbTRBX2N1OHN2N2lubVVMTFFtcFFKbGtiRjdEYlF0RXA1WTN3eEdZdE5jY3FXMkR3bzFjZUhzTFhfaEF3dTlOSHhVS1VKZVZKSjA5OUdxY0FBMWU?oc=5",
-      "published": "2026-07-03 08:03",
-      "lang": "ko"
-    },
-    {
-      "id": "c65da098",
-      "title_ko": "[모닝 리포트] \"SK하이닉스 목표가 420만원 상향, 메모리 부족 반영\" - 뉴스핌",
-      "summary_ko": "[모닝 리포트] \"SK하이닉스 목표가 420만원 상향, 메모리 부족 반영\"&nbsp;&nbsp;뉴스핌",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (SK하이닉스)",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1dG5sMTM2Njh0Yl9YN1B1SHI0ZTFaeUxMSEEtNjVmQm53ME5HeEQzVTRIS1d2REo0eXQ0c1dHLXRvUDVuMENmVm5tbWtBdU5jRzFidE8zenFFYVVL?oc=5",
-      "published": "2026-07-03 08:03",
-      "lang": "ko"
-    },
-    {
       "id": "c7b75909",
       "title_ko": "'삼전닉스'가 1000조 투자하는 HBM, 딥시크 논문 한 편의 균열 - OhmyNews",
       "summary_ko": "'삼전닉스'가 1000조 투자하는 HBM, 딥시크 논문 한 편의 균열&nbsp;&nbsp;OhmyNews",
@@ -2461,18 +1921,6 @@
       "source": "Google News (SK하이닉스)",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5Mem42QUVPeHpfQXdxUWhJVThnNVhyUEpMeEhGTV9DYlItdVJhVXV1MlpxZVYxMmpkRGNCZUFKa3Y3WjJXYXdvQVpFcU8zZlF4?oc=5",
       "published": "2026-07-03 08:01",
-      "lang": "ko"
-    },
-    {
-      "id": "a8ae82bb",
-      "title_ko": "마이클 버리 \"AI 반도체 종말의 시작\" 엔비디아 공매도 - 자본시장뉴스",
-      "summary_ko": "마이클 버리 \"AI 반도체 종말의 시작\" 엔비디아 공매도&nbsp;&nbsp;자본시장뉴스",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnUGNtYnhqNUJwZ2ZMSXlYbWF6UXA1TzR3SUlIUnZEc2s4SGI3MGpTZWVMcENTQ1MtQm9WU0NIUEh0QzNWUkc4UVRFSjludVlWUHp1TnEtS0oxNHhlZXZ6QXk4MmF0UVE?oc=5",
-      "published": "2026-07-03 08:00",
       "lang": "ko"
     },
     {
@@ -2560,39 +2008,15 @@
       "lang": "ko"
     },
     {
-      "id": "80f658ff",
-      "title_ko": "앤스로픽, 삼성전자 2나노 검토…AI 칩 생산 논의 - 아이뉴스24",
-      "summary_ko": "앤스로픽, 삼성전자 2나노 검토…AI 칩 생산 논의&nbsp;&nbsp;아이뉴스24",
+      "id": "4f412259",
+      "title_ko": "앤스로픽, 삼성전자 2나노 검토…AI 칩 생산 논의 - v.daum.net",
+      "summary_ko": "앤스로픽, 삼성전자 2나노 검토…AI 칩 생산 논의&nbsp;&nbsp;v.daum.net",
       "company": "업계전반",
       "topic": "기타",
       "impact": 3,
       "source": "Google News (삼성전자 반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1hT0wxSnhtOG1jSnBmNUt5UktZMWpXM1czMkdrbDVUTHcwY1BRRjh2V3psRWVhNWwxUl8wRE1aYVdJcU1fTkFFTlVBVGg?oc=5",
-      "published": "2026-07-03 07:31",
-      "lang": "ko"
-    },
-    {
-      "id": "ea8d0e3a",
-      "title_ko": "\"420만닉스 간다\"…반도체주 급락에도 증권가 '깜짝' 전망 [종목+] - 한국경제",
-      "summary_ko": "\"420만닉스 간다\"…반도체주 급락에도 증권가 '깜짝' 전망 [종목+]&nbsp;&nbsp;한국경제",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (SK하이닉스)",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wM05uVU9DZ3FaSmJxTWl0UGFjenZhakloOXdQOXZsSU9xSFpMMDk4VGsyVHVBYnF5NURMeHdRdDNpMm8xcHFDV2RnYTlHcEpiLTVLVHVrYkYzUdIBVEFVX3lxTE1XQS1ZUmsya3ZXTWtrZTRsS2hiQjUzU21vWVpTelE0NWxQcTY3OThJNkhUZmtvalV4Ml9WTHFLV0VWaXJDUmNKdG80Z25xWjlCaEI0Tw?oc=5",
-      "published": "2026-07-03 07:31",
-      "lang": "ko"
-    },
-    {
-      "id": "effabdb6",
-      "title_ko": "SK하이닉스(000660)밀릴때마다 물량 모아둘 기회로 보이며 이후 전망 및 대응전략. - 씽크풀 AI",
-      "summary_ko": "SK하이닉스(000660)밀릴때마다 물량 모아둘 기회로 보이며 이후 전망 및 대응전략.&nbsp;&nbsp;씽크풀 AI",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (SK하이닉스)",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9yNFpkMUROd2x5NzR5bWVCNk5BajhBLUpqTVJNZEpGNUllT1R6OGliQ0p2YXRBeHIteVNKQ1QzemVkWjlMNXBTNnFrVjg2YjBJMEtpamtrOWxORUNw?oc=5",
-      "published": "2026-07-03 07:30",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1WU0xUQVhMc2U3V2ljN1RhbzJfbHc2MV91ZDdBN2lKSE0xN3oyVVBEaVRYZ25CWmhTTUU3ZVd3di1mdldOdTlaZHdxYWsxbDg?oc=5",
+      "published": "2026-07-03 07:33",
       "lang": "ko"
     },
     {
@@ -2629,18 +2053,6 @@
       "source": "Google News (반도체)",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kcVl0dGxpMTZmb3dtc0xvaHh4dXB1WUZHM0hZbjdacGZQQW10engyZTB6bDB6blpneUhQZGREVjNOa0lnM0tKaXNwcHJ2R1dlaHc2X2FVMGl6VXM?oc=5",
       "published": "2026-07-03 07:29",
-      "lang": "ko"
-    },
-    {
-      "id": "d7c162a5",
-      "title_ko": "[증시전략] 나스닥 20% 랠리의 '착시'…반도체 몇 종목이 올렸다 - v.daum.net",
-      "summary_ko": "[증시전략] 나스닥 20% 랠리의 '착시'…반도체 몇 종목이 올렸다&nbsp;&nbsp;v.daum.net",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (삼성전자 반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE04Wm1ySjhfN2JaUkRfdjRsTTBjMjk0WnRwTnFrSHQzYWVZT05pdUdsTFNmMm1qUFZJbk95TlZQSmRpVXRnNEMtWU52Vk5yYjQ?oc=5",
-      "published": "2026-07-03 07:13",
       "lang": "ko"
     },
     {
@@ -2688,18 +2100,6 @@
       "impact": 3,
       "source": "Google News (삼성전자 반도체)",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xeVp3ZG5KaHFsdVdQSFE4ZUducDNLcDZHSEt4TGRGOGFweVY5TTQ4ZlNaYlRvRGtXMVh4RnkwZFpqRjRwTjcyQ0ZRMXU4VW9QNDMwUnFPNUdlTHBQeFdrNFRRSzRnVU9P?oc=5",
-      "published": "2026-07-03 07:00",
-      "lang": "ko"
-    },
-    {
-      "id": "e225e0f0",
-      "title_ko": "[반도체 투자 로드맵] ⑤SK, 반도체 생산에 AIDC까지…AI 수요·공급 묶는다 - fetv.co.kr",
-      "summary_ko": "[반도체 투자 로드맵] ⑤SK, 반도체 생산에 AIDC까지…AI 수요·공급 묶는다&nbsp;&nbsp;fetv.co.kr",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (삼성전자 반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE40RWZ6VG5jb2lGZXdlZjIxUUVFaGRJd2R0VHVsZHBDTTUzVjFWaFN3cG9uREpfXzluNjRsOWMta0lNa2t5VGxhRGVkOFhIQU9FX2VmdjhWSGpaUTBRTDVGNDFKanNndHAw?oc=5",
       "published": "2026-07-03 07:00",
       "lang": "ko"
     },
@@ -2800,18 +2200,6 @@
       "lang": "ko"
     },
     {
-      "id": "a65ff342",
-      "title_ko": "[분석] SK하이닉스, 7월 조정에도 목표가 상향 이어져 - 알파경제",
-      "summary_ko": "[분석] SK하이닉스, 7월 조정에도 목표가 상향 이어져&nbsp;&nbsp;알파경제",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (SK하이닉스)",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBxeTFOeHVyNG95WGY0MGg1bjFjR21La3MyekF6TU1EdmxBbjVyQlN2MFJzZG4tUVFWSDB2NXBubzJKQm56ZkUzQTJqUGdJZHRBVHpMVUpkY1kyTkhuazFndnVXd2ZRMVEtRWhJai1n?oc=5",
-      "published": "2026-07-03 06:30",
-      "lang": "ko"
-    },
-    {
       "id": "f72f0144",
       "title_ko": "앤트로픽, 삼성 파운드리에 자체 AI 칩 생산 타진…오픈AI 추격 본격화 - 네이트",
       "summary_ko": "앤트로픽, 삼성 파운드리에 자체 AI 칩 생산 타진…오픈AI 추격 본격화&nbsp;&nbsp;네이트",
@@ -2860,6 +2248,18 @@
       "lang": "ko"
     },
     {
+      "id": "2f4406aa",
+      "title_ko": "미 반도체 또 약세‥'AI 과잉 투자' 우려 이어져 - MBC 뉴스",
+      "summary_ko": "미 반도체 또 약세‥'AI 과잉 투자' 우려 이어져&nbsp;&nbsp;MBC 뉴스",
+      "company": "업계전반",
+      "topic": "기타",
+      "impact": 3,
+      "source": "Google News (반도체)",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE42WkoweWM4UVY1bGhNOHJOeFlaTExsc2Z3Smd3bWttVEZWd2t0ek5sbVM3ZUdVa1d2ZjZpYWxaU0VrOXFlVUZCLWJDS2FpVUtfSVF3VE9IVWRIWDFBOHU4c1NVVjVQdDRQWmViUDRYYUNfSjQ0Mk45aW1n?oc=5",
+      "published": "2026-07-03 06:10",
+      "lang": "ko"
+    },
+    {
       "id": "05cf1da1",
       "title_ko": "저가공세 중국 반도체…가격 경쟁 넘어 기술경쟁 성공할까 - ebn.co.kr",
       "summary_ko": "저가공세 중국 반도체…가격 경쟁 넘어 기술경쟁 성공할까&nbsp;&nbsp;ebn.co.kr",
@@ -2878,7 +2278,7 @@
       "company": "업계전반",
       "topic": "기타",
       "impact": 3,
-      "source": "Google News (반도체)",
+      "source": "Google News (삼성전자 반도체)",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9nWS16YnJxS3NCVkdRWllqMGJKU3FSaHJjWkxhaTBqenRWVnVRa2hlMWMxaE51bWJhX3FwandUU2RhekZHSXVTdXV0U1ljeEVwTFBKZUxGYUw5NDByQXpCVTJ2azBKT0E2QVFCaExMeW9Yc3QwTTJxcVJR?oc=5",
       "published": "2026-07-03 06:08",
       "lang": "ko"
@@ -2908,13 +2308,25 @@
       "lang": "ko"
     },
     {
+      "id": "d5223a3d",
+      "title_ko": "강경성 코트라 사장 \"수출 반도체 편중, 품목다변화로 극복해야\" - v.daum.net",
+      "summary_ko": "강경성 코트라 사장 \"수출 반도체 편중, 품목다변화로 극복해야\"&nbsp;&nbsp;v.daum.net",
+      "company": "업계전반",
+      "topic": "기타",
+      "impact": 3,
+      "source": "Google News (반도체)",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1teVJYaUtYRFZ0d0g4bkRHdGRoRGxmUUpGUllqNDZBNnlEaGFrUFZRRnhzWEFRdmlwQkNXSHo5V1hFaWN5c3ZMeHBsYmxEQlk?oc=5",
+      "published": "2026-07-03 06:01",
+      "lang": "ko"
+    },
+    {
       "id": "3a893251",
       "title_ko": "800조 호남반도체 '메가 투자'…삼성·SK '속도전' 깃발 꽂을 황금 입지는? - 뉴시스",
       "summary_ko": "800조 호남반도체 '메가 투자'…삼성·SK '속도전' 깃발 꽂을 황금 입지는?&nbsp;&nbsp;뉴시스",
       "company": "업계전반",
       "topic": "기타",
       "impact": 3,
-      "source": "Google News (반도체)",
+      "source": "Google News (삼성전자 반도체)",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9wSlduRV9fdGVVMnhNaFFodGI1ZHE2LU5DNkZLc3NmeFN2cXpDcy1xZWhQV0d0Q21WSGlzeG9Jb1poUFB2bTJudlkzTGhWeXNKTktNdnRXLUZoUzVuVmlfZNIBeEFVX3lxTE5sUGxfSmlteW1kU2ItY1Y2bWJSSmplcWxYdllodzZKQi1GN0VYSUhZdWluWjV1aWZrQ1QtRF9CM0pVNTNhR01YOGtqcFE0c0tudDBzTE1pR0tFemhIZDV5Sjhxd09NNEhxUTZkdXMxVE5xZkR5bzhEdA?oc=5",
       "published": "2026-07-03 06:00",
       "lang": "ko"
@@ -2944,18 +2356,6 @@
       "lang": "ko"
     },
     {
-      "id": "780405f0",
-      "title_ko": "독자 AI 반도체 개발하는 美 앤스로픽, 삼성과 협력할 수도 - v.daum.net",
-      "summary_ko": "독자 AI 반도체 개발하는 美 앤스로픽, 삼성과 협력할 수도&nbsp;&nbsp;v.daum.net",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5BOFVYOTk4dHJrdnc1OXRRNzFMd2haWV9XMTJHRHlrczNWVG9mRkpubjh2VXhqMUNGSWJNMzhHQkZUMkUyVnJSVFlOcDJZUmc?oc=5",
-      "published": "2026-07-03 05:52",
-      "lang": "ko"
-    },
-    {
       "id": "aa3b5bf8",
       "title_ko": "독자 AI 반도체 개발하는 美 앤스로픽, 삼성과 협력할 수도 - 파이낸셜뉴스",
       "summary_ko": "독자 AI 반도체 개발하는 美 앤스로픽, 삼성과 협력할 수도&nbsp;&nbsp;파이낸셜뉴스",
@@ -2980,42 +2380,6 @@
       "lang": "ko"
     },
     {
-      "id": "15b5a4ef",
-      "title_ko": "‘셀 반도체’에 나스닥 약세...고용악화에 다우는 사상 최고[월가월부]",
-      "summary_ko": "마이크론 -5%·샌디스크 -14% 6월 일자리 부진에 금리인상 우려 줄어악화된 투자심리로 반도체주가 부진을 이어가면서 뉴욕증시가 혼조세를 나타냈다. 6월 일자리 증가폭이 예상보다 ",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "매일경제",
-      "url": "https://www.mk.co.kr/news/economy/12089489",
-      "published": "2026-07-03 05:43",
-      "lang": "ko"
-    },
-    {
-      "id": "07eb94ba",
-      "title_ko": "다우 사상 최고…반도체 급락에 나스닥 하락[뉴욕 is] - v.daum.net",
-      "summary_ko": "다우 사상 최고…반도체 급락에 나스닥 하락[뉴욕 is]&nbsp;&nbsp;v.daum.net",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB4anpCU1k5ZVBTUUtjMGJROXo3cmVTdTdPek4wY092V1p3TWxYUHQ1d0pOcXhIV3gyMFZfMFNjMHRYak1wenlqeWlOcjVob2M?oc=5",
-      "published": "2026-07-03 05:37",
-      "lang": "ko"
-    },
-    {
-      "id": "14cc7570",
-      "title_ko": "반도체 이틀째 뚝…'업종 순환매' 다우 사상 최고치[뉴욕마감] - 머니투데이 - 머니투데이",
-      "summary_ko": "반도체 이틀째 뚝…'업종 순환매' 다우 사상 최고치[뉴욕마감] - 머니투데이&nbsp;&nbsp;머니투데이",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oYzVTeVYtQU1wMkx3UThzWVpoY3MxeXJjY0pjaGVKZ0dJMDEtVk1kbG1uVzJVOUxLa2ppaTNWOXZvZEI4bjRQQ0NIZWpIcUdYeDE1bFRna2hGZzFmTXJrUlFHRE5IUm1r0gFuQVVfeXFMUEpXM2VXZm15RzdEVEtYMXFuNjc3UEFaQWxOSzd4a0VGNWM0aHFIRFI0MmNSX2NMSk1zLWFoTHpWYk1SYmhVRFBKczVmYzAySl9BYTZtWThSZmlURTF1dWFLS19zRWl5M3F4LW13alE?oc=5",
-      "published": "2026-07-03 05:28",
-      "lang": "ko"
-    },
-    {
       "id": "7dbe892a",
       "title_ko": "삼성전자, 또 일 내나?...연이은 '러브콜' - v.daum.net",
       "summary_ko": "삼성전자, 또 일 내나?...연이은 '러브콜'&nbsp;&nbsp;v.daum.net",
@@ -3029,7 +2393,7 @@
     },
     {
       "id": "82f2c6f0",
-      "title_ko": "앤스로픽, 삼성전자 파운드리와",
+      "title_ko": "\"앤스로픽, 삼성전자 파운드리와 AI 칩 생산 검토\" - 네이트",
       "summary_ko": "\"앤스로픽, 삼성전자 파운드리와 AI 칩 생산 검토\"&nbsp;&nbsp;네이트",
       "company": "업계전반",
       "topic": "기타",
@@ -3076,18 +2440,6 @@
       "lang": "ko"
     },
     {
-      "id": "d2c0a4aa",
-      "title_ko": "[글로벌 비즈 브리핑] 앤트로픽, 삼성전자와 자체 칩 생산 논의...파운드리 '부활' 신호탄 外 - v.daum.net",
-      "summary_ko": "[글로벌 비즈 브리핑] 앤트로픽, 삼성전자와 자체 칩 생산 논의...파운드리 '부활' 신호탄 外&nbsp;&nbsp;v.daum.net",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (파운드리)",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE40dm0zbXNjTDFscklwZUdHbVR1QVdDaHo1VDJLT1pvMUhoUEFCRzhKa1JwUDhoR0F4WXZkd0RTMEc5c2tvME8xU2tiWU5kYlU?oc=5",
-      "published": "2026-07-03 03:42",
-      "lang": "ko"
-    },
-    {
       "id": "978b282f",
       "title_ko": "삼성, 앤트로픽 잡나…엔비디아·테슬라 이어 AI칩 협업 논의 - 머니투데이 - 머니투데이",
       "summary_ko": "삼성, 앤트로픽 잡나…엔비디아·테슬라 이어 AI칩 협업 논의 - 머니투데이&nbsp;&nbsp;머니투데이",
@@ -3109,18 +2461,6 @@
       "source": "Google News (파운드리)",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQU1Jsb0x4RzViclBZTE5VYXhwd0twOElDcUt5RUszbXJFWXJGSUUzc1NWUlB1TzJ4azZ3UU5xRlFSWTg5cUVHMDhHcGxrOFRlQWRPNGE2OWFHcjlEZnZpS2Q5eUlwNEdMaHVRQVlrMEpCd2tUODNSNUpIUnE1ZXh3dzZPTkhmQQ?oc=5",
       "published": "2026-07-03 03:05",
-      "lang": "ko"
-    },
-    {
-      "id": "3f925205",
-      "title_ko": "앤트로픽, 삼성과 AI칩 생산 논의…삼성 파운드리 '부활' 신호탄 - 연합뉴스",
-      "summary_ko": "앤트로픽, 삼성과 AI칩 생산 논의…삼성 파운드리 '부활' 신호탄&nbsp;&nbsp;연합뉴스삼성 파운드리 행사서 공개된 미래 양산 제품 현황은&nbsp;&nbsp;디일렉앤트로픽,",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (파운드리)",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBcU01dFc1eHo2b25NdzBvOWxxajloWXB6LTZIb251SEVON0t3VTlsd3N4SjJYejNUMHNoS0tRZmNYNFNKWTkyam9HQm9xczB3THJmank0S3pNY2_SAWBBVV95cUxPTS00ZEpiM08xU1JITnBSNjI3Nk1QUHNVaEthdmdQcFdaVDhoOUFrTFBzakdqeHVsa3ZrdVVjUmJ3eUg0N3BvLWpvM1pNOFE2dmZPdVVxMGRzc1FCdzU3cUY?oc=5",
-      "published": "2026-07-03 02:31",
       "lang": "ko"
     },
     {
@@ -3184,18 +2524,6 @@
       "lang": "ko"
     },
     {
-      "id": "113ff8cb",
-      "title_ko": "[사설] 호남 반도체 시동 건 정권, 원전·댐 적대 정책 결별할 각오 섰나 - 조선일보",
-      "summary_ko": "[사설] 호남 반도체 시동 건 정권, 원전·댐 적대 정책 결별할 각오 섰나&nbsp;&nbsp;조선일보",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUjFvNnIyc0tEUUlJR21KNTVMczRCdTVRUy1NMVVvclJZbTFXMGZsWmgtcnJfM0ZaNy1IOHJSLUpRX2VRTXRZQTVwbnBHd3dkZlFVMGNxTERoUDhENHh5V3JMOHRTeWowVC1hTjVOLV9BSFg2Yjc1bXVRMnZxSnF3OUEwTG5MZw?oc=5",
-      "published": "2026-07-03 00:20",
-      "lang": "ko"
-    },
-    {
       "id": "ad1499af",
       "title_ko": "HSBC, 인텔 파운드리 성장 잠재력에 목표주가 200달러로 상향 - Investing.com 한국어",
       "summary_ko": "HSBC, 인텔 파운드리 성장 잠재력에 목표주가 200달러로 상향&nbsp;&nbsp;Investing.com 한국어",
@@ -3205,18 +2533,6 @@
       "source": "Google News (파운드리)",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ob0ZCRVlmaDJzeDQ4VW4zSm56U0pfSlU0RmVMUEJMb1BOWU9hQTd3X3d3QmZQR2RVbTBNYlRrV3ZVUUVHdTZNRklndWE4cWdVZjVZUm5ycE5fSm9wMXlSWS1fenJDT3ZJWUNTTjJhMkZFX1gt?oc=5",
       "published": "2026-07-03 00:06",
-      "lang": "ko"
-    },
-    {
-      "id": "8c086d31",
-      "title_ko": "[기자의 시각] ‘천수답 반도체’란 비판 피하려면 - 조선일보",
-      "summary_ko": "[기자의 시각] ‘천수답 반도체’란 비판 피하려면&nbsp;&nbsp;조선일보",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSk9Qa2k4a1pmUVBzc3owdWtqUWxGcWF6NFZjSy1VcUFMenJnOTl3N2Y2X2JtOHRQR01XQkVYdkNFRUhzOExaN011bGJQV1BiTF9OYm45YllFcUlPdkVvTDNaYzFRM29UaVVVUjhBUjlOTVVmQVB5VzRTUlF0MEhoaWRRNkRYYURTSmR1cEdB?oc=5",
-      "published": "2026-07-02 23:37",
       "lang": "ko"
     },
     {
@@ -3484,18 +2800,6 @@
       "lang": "en"
     },
     {
-      "id": "ec551810",
-      "title_ko": "Possible AMD RX 7900 XTX engineering sample with red PCB surfaces — prototype came with no backplate & custom VBIOS but matches RX 7900 GRE specs",
-      "summary_ko": "&lt;p&gt;Hassam is a lifelong PC gamer and tech enthusiast with over five years of experience in PC ",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/pc-components/gpus/possible-amd-rx-7900-xtx-engineering-sample-with-red-pcb-surfaces-prototype-came-with-no-backplate-and-custom-vbios-but-matches-rx-7900-gre-specs",
-      "published": "2026-07-02 20:00",
-      "lang": "en"
-    },
-    {
       "id": "323a1fc2",
       "title_ko": "Singapore cops seize $42 million mansion, freeze $772k bank account of suspected Nvidia AI GPU smugglers — individuals alleged to have illegally exported data center servers to China charged with fraud, money laundering",
       "summary_ko": "&lt;p&gt;Jowi Morales is a writer and journalist covering the tech beat since 2021. However, he’s be",
@@ -3504,6 +2808,18 @@
       "impact": 3,
       "source": "Tom's Hardware",
       "url": "https://www.tomshardware.com/tech-industry/singapore-cops-seize-usd42-million-mansion-freeze-usd772k-bank-account-of-suspected-nvidia-ai-gpu-smugglers-individuals-alleged-to-have-illegally-exported-data-center-servers-to-china-charged-with-fraud-money-laundering",
+      "published": "2026-07-02 20:00",
+      "lang": "en"
+    },
+    {
+      "id": "ec551810",
+      "title_ko": "Possible AMD RX 7900 XTX engineering sample with red PCB surfaces — prototype came with no backplate & custom VBIOS but matches RX 7900 GRE specs",
+      "summary_ko": "&lt;p&gt;Hassam is a lifelong PC gamer and tech enthusiast with over five years of experience in PC ",
+      "company": "업계전반",
+      "topic": "기타",
+      "impact": 3,
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/pc-components/gpus/possible-amd-rx-7900-xtx-engineering-sample-with-red-pcb-surfaces-prototype-came-with-no-backplate-and-custom-vbios-but-matches-rx-7900-gre-specs",
       "published": "2026-07-02 20:00",
       "lang": "en"
     },
@@ -3556,18 +2872,6 @@
       "lang": "ko"
     },
     {
-      "id": "cf608932",
-      "title_ko": "반도체 추락 ‘검은 목요일’… 코스피 8000선 붕괴 - v.daum.net",
-      "summary_ko": "반도체 추락 ‘검은 목요일’… 코스피 8000선 붕괴&nbsp;&nbsp;v.daum.net코스피 7700→7300→7800…반도체 반등에 '널뛰기' - 머니투데이&nbsp;&nb",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체)",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5TSFBJSG9GdjF3dGVtWUFGTGtTcWRBU1BBRHNJSUVlN1lCUG1uSlJSeUE2bTZlY1hrN3gweGhPMTd3bkFsRmFqbTZGWHBadzg?oc=5",
-      "published": "2026-07-02 19:03",
-      "lang": "ko"
-    },
-    {
       "id": "b0d40b89",
       "title_ko": "Google testing controversial webcam-based reCAPTCHA that asks for a hand scan to prove you're human — testers beat it with a stock photo",
       "summary_ko": "&lt;p&gt;Luke is a freelance technology journalist who has been covering hardware and semiconductors",
@@ -3616,30 +2920,6 @@
       "lang": "en"
     },
     {
-      "id": "0955854d",
-      "title_ko": "[분석] 메타發 ’AI 과잉투자’ 쇼크…삼성·SK하이닉스 동반 폭락 By 알파경제 alphabiz - Investing.com 한국어",
-      "summary_ko": "[분석] 메타發 ’AI 과잉투자’ 쇼크…삼성·SK하이닉스 동반 폭락 By 알파경제 alphabiz&nbsp;&nbsp;Investing.com 한국어",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (SK하이닉스)",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Md0szUmFfMlA1aUJucDNSMno0T3J4Nm82Tlk2TGk2RXVKQm1MNW5VN05GaXk5eEFNWkItN1lqUTM1bzRhR1pNdVBmZlRpclRLam9GVDF2YjBCYzI0dlZMSi1kUERkLUYyTXZkTnZMVmw?oc=5",
-      "published": "2026-07-02 18:44",
-      "lang": "ko"
-    },
-    {
-      "id": "ecbbfc3b",
-      "title_ko": "[단독] 반도체 초과세수 5조 투입…'소버린 AI' 개발한다 - 블루밍비트",
-      "summary_ko": "[단독] 반도체 초과세수 5조 투입…'소버린 AI' 개발한다&nbsp;&nbsp;블루밍비트",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (semiconductor)",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE91bTlobmNjeVpDR3lqOTFFelZ0WktBclBzRkhCZTg1a0trSWRXU3U1NU5fazRteXp4Wi1iN0Jabkc1dldqUlp5T2x6OWVhLUh4?oc=5",
-      "published": "2026-07-02 18:40",
-      "lang": "ko"
-    },
-    {
       "id": "0616bc07",
       "title_ko": "그때는 틀리고 지금은 맞다? 호남 반도체 앞에 선 與 딜레마 - 중앙일보",
       "summary_ko": "그때는 틀리고 지금은 맞다? 호남 반도체 앞에 선 與 딜레마&nbsp;&nbsp;중앙일보",
@@ -3685,18 +2965,6 @@
       "source": "매일경제",
       "url": "https://www.mk.co.kr/news/economy/12089118",
       "published": "2026-07-02 17:49",
-      "lang": "ko"
-    },
-    {
-      "id": "50ee4fef",
-      "title_ko": "말레이·싱가포르, AI 반도체 밀수 수사…\"中 밀반출 가능성\" - 네이트",
-      "summary_ko": "말레이·싱가포르, AI 반도체 밀수 수사…\"中 밀반출 가능성\"&nbsp;&nbsp;네이트",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (반도체 수출규제)",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBYc0JJREdKdVFpb3JOUndXOHFhaGR0QTlqNUFUNGpGcC00dXJHZHVwOXk5b1h4WWZ6bnM1WFZzQ203cXdrbW9YZFNaYWVySldFZXpiM3pOeldLUWVYUGE1Rl9mV1ZaNHppb3J2Tjl1YkpFejhoYXJxMQ?oc=5",
-      "published": "2026-07-02 17:45",
       "lang": "ko"
     },
     {
@@ -3832,18 +3100,6 @@
       "lang": "ko"
     },
     {
-      "id": "79f6b7a6",
-      "title_ko": "[Tech Insight]AI 권력 이동 시작...모델→반도체·GPU 구매→칩 설계로 - 디지털투데이",
-      "summary_ko": "[Tech Insight]AI 권력 이동 시작...모델→반도체·GPU 구매→칩 설계로&nbsp;&nbsp;디지털투데이",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (AI chip semiconductor)",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4ybGljd004ZUlWZmNzVDRZMGVhdHN4dmg5U0Nvd2YtbVloVFE0bmFSZ3VKX2dhLTZCY3ZzbTlqNHZYZkJsSXhIaHAwcmx3a3h5WmFlc2gydS0xbEVmWS1tSzdkYk00NjlwQzF5YURtY2dQWXc?oc=5",
-      "published": "2026-07-02 16:56",
-      "lang": "ko"
-    },
-    {
       "id": "82538138",
       "title_ko": "삼성·SK하이닉스·셀트리온 등 충청권에 392조 원 투자 - 대한민국 정책브리핑",
       "summary_ko": "삼성·SK하이닉스·셀트리온 등 충청권에 392조 원 투자&nbsp;&nbsp;대한민국 정책브리핑",
@@ -3853,6 +3109,18 @@
       "source": "Google News (SK하이닉스)",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9wSlJTQkxYWmxzWGhERmVHcEs3bDIweFFZVVZMYmdXVjVqcW9YV0p0dUJ4ZGpkaDdIMU1Sc1NFSGpzOVNicWxMVjI2MmotMGJlRlhFTTUtX0dfUjg3cENzMlpBUXNTMDd4bXNmZw?oc=5",
       "published": "2026-07-02 16:53",
+      "lang": "ko"
+    },
+    {
+      "id": "9eda1606",
+      "title_ko": "삼성 파운드리 행사서 공개된 미래 양산 제품 현황은 - 디일렉",
+      "summary_ko": "삼성 파운드리 행사서 공개된 미래 양산 제품 현황은&nbsp;&nbsp;디일렉",
+      "company": "업계전반",
+      "topic": "기타",
+      "impact": 3,
+      "source": "Google News (파운드리)",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBrUUwtWUhURFE3bnJ0UmJ1T3FrQ2N4SkJadTVOUkw5MFp0TjhvRndPUDFiVnNpeXRlQVR2dENDSHdxd2xHN1JYTmRWeFJNVHUxbm41VS1HUlZzcm5qWWlaMzM4MXpKZw?oc=5",
+      "published": "2026-07-02 16:51",
       "lang": "ko"
     },
     {
@@ -3997,30 +3265,6 @@
       "source": "Google News (반도체)",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1TSnQzaVBrUmxrLW92V19lQ0stOGxYamFwOG5VWEJ3QVY0QW9Sb2pndXN2X1JibFRQcWpHNWctM0p5dFFValRwLWJXWFR3SjRYQnBSaUI1Q0t5Z9IBX0FVX3lxTE1RczRELWI2Y3BZX0dxbU9qMmotQmhLdTRWZEEwcVV4R0Mwd3VrS2NCMGFZOHliYVAtdFJ1RWxGQ0JWaDd1QXQwQjJfeFR3T1ZXZm85YThucHNXOV85VXl3?oc=5",
       "published": "2026-07-02 15:42",
-      "lang": "ko"
-    },
-    {
-      "id": "74a56da0",
-      "title_ko": "[속보] 삼성전자, 9% 급락 마감…SK하이닉스는 14.5% 폭락 - v.daum.net",
-      "summary_ko": "[속보] 삼성전자, 9% 급락 마감…SK하이닉스는 14.5% 폭락&nbsp;&nbsp;v.daum.net'딥시크' '터보퀀트' 이은 '메타 쇼크', 삼성전자 SK하이닉스 이번에도 ",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (SK하이닉스)",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xN1I5cV9wU0FMTHowN3cycEJFY0tNbG1pbFp1eF83SzQxZTE5Q3BkVjJYMkJkVFJVZExndl90UUdaaFluUnIzTTl2VWhPZEk?oc=5",
-      "published": "2026-07-02 15:41",
-      "lang": "ko"
-    },
-    {
-      "id": "d45f7b27",
-      "title_ko": "[단독] 채권 큰손 된 SK하이닉스…증권채 수요예측 참여 [시그널] - 서울경제",
-      "summary_ko": "[단독] 채권 큰손 된 SK하이닉스…증권채 수요예측 참여 [시그널]&nbsp;&nbsp;서울경제",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
-      "source": "Google News (SK하이닉스)",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ZTklVWnBlQ1F5YVRLQ2tnZmhFSGIyMWVTMkRCd25RUXlJaXJwTE5ROUYwNV9MWGRhbURlZmFjTEZQV0pmY0Y3SExXNjVjQXF3TXfSAVNBVV95cUxOSDkyM2JzakloalpqSU1ybjJ2YnBBSmtSM1M0LXlpRFc2RUtFa0x0SHYwY0lHZFVVdHJXT2ttTTN2YUNMQ0R3ZFVlTDRFelA4SWpDbw?oc=5",
-      "published": "2026-07-02 15:10",
       "lang": "ko"
     }
   ]
