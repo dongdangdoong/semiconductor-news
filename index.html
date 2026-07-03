@@ -263,7 +263,7 @@ function draw() {
     <a class="card" href="${x(s.url)}" target="_blank" rel="noopener">
       <div class="card-top">
         <div class="badge i${imp}">${lbl}</div>
-        <div class="card-title">${x(s.title_ko || s.title || '')}</div>
+        <div class="card-title">${x(s.title_ko || s.title || '')} <span style="font-size:11px;font-weight:400;color:var(--txt3);margin-left:6px">${timeAgo(s.published)}</span></div>
       </div>
       <div class="card-tags">
         ${s.company && s.company !== '업계전반' ? `<span class="tag tag-co">${x(s.company)}</span>` : ''}
@@ -289,7 +289,15 @@ function setFilter(el) {
   topic = el.dataset.t;
   draw();
 }
-
+function timeAgo(pub) {
+  if (!pub) return '';
+  const now  = new Date();
+  const then = new Date(pub.replace(' ', 'T') + '+09:00');
+  const diff = Math.floor((now - then) / 60000);
+  if (diff < 60)   return `${diff}분 전`;
+  if (diff < 1440) return `${Math.floor(diff/60)}시간 전`;
+  return `${Math.floor(diff/1440)}일 전`;
+}
 function x(s) {
   return String(s)
     .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
