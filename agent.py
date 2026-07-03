@@ -9,7 +9,6 @@ DATA_DIR = Path(__file__).parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
 OUT_FILE = DATA_DIR / "news.json"
 
-# ─── Google News 검색 키워드 ──────────────────────────────────────────────────
 GNEWS_QUERIES = [
     "반도체", "삼성전자 반도체", "SK하이닉스", "TSMC 파운드리",
     "엔비디아 AI칩", "HBM 메모리", "반도체 장비 소재",
@@ -17,7 +16,6 @@ GNEWS_QUERIES = [
     "NVIDIA GPU", "Intel chip", "ASML EUV",
 ]
 
-# ─── 일반 RSS ─────────────────────────────────────────────────────────────────
 RSS_SOURCES = [
     {"name": "전자신문",                 "url": "https://www.etnews.com/rss/"},
     {"name": "디일렉",                   "url": "https://www.thelec.kr/rss/"},
@@ -32,27 +30,24 @@ RSS_SOURCES = [
     {"name": "Ars Technica",             "url": "https://feeds.arstechnica.com/arstechnica/technology-lab"},
 ]
 
-# ─── 반도체 관련 키워드 (하나라도 있으면 수집) ───────────────────────────────
 INCLUDE_KW = [
     "반도체","파운드리","메모리","웨이퍼","낸드","디램","HBM","고대역폭",
     "수율","공정","패키징","칩렛","노광","장비","소재","에칭","증착",
     "삼성전자","SK하이닉스","인텔","엔비디아","퀄컴","마이크론","TSMC","ASML",
     "수출통제","보조금","반도체법","공급망","생산능력","가동률",
-    "팹리스","파운드리","후공정","전공정","전력반도체","시스템반도체",
+    "팹리스","후공정","전공정","전력반도체","시스템반도체",
     "semiconductor","chip","wafer","foundry","DRAM","NAND","HBM","EUV",
     "lithography","chiplet","packaging","yield","TSMC","Samsung","Intel",
     "NVIDIA","AMD","Qualcomm","Micron","SK Hynix","ASML","Applied Materials",
     "Lam Research","GPU","NPU","AI chip","supply chain","export control",
 ]
 
-# ─── 주가 중심 기사 제외 ─────────────────────────────────────────────────────
 STOCK_KW = [
     "주가 상승","주가 하락","주가 급등","주가 급락",
     "shares rose","shares fell","shares gained","shares dropped",
     "stock surged","stock plunged","trading higher","trading lower",
 ]
 
-# ─── 제외 출처 ────────────────────────────────────────────────────────────────
 EXCLUDE_SOURCES = [
     "한국방송뉴스","twig24","네이트","KBC","LG헬로비전","Vietnam.vn",
     "스페셜경제","문화일보","영남일보","Benzinga","뉴스토마토","마켓인",
@@ -61,27 +56,21 @@ EXCLUDE_SOURCES = [
 ]
 
 def strip_html(text):
-    """HTML 태그 및 엔티티 제거"""
     text = text or ""
     text = re.sub(r"<[^>]+>", " ", text)
-    text = text.replace("&lt;","<").replace("&gt;",">").replace("&amp;","&")
-    text = text.replace("&nbsp;"," ").replace("&#39;","'").replace("&quot;",'"')
-    text = re.sub(r"\s+", " ", text)
-    return text.strip()
+    for old, new in [("&lt;","<"),("&gt;",">"),("&amp;","&"),
+                     ("&nbsp;"," "),("&#39;","'"),("&quot;",'"')]:
+        text = text.replace(old, new)
+    return re.sub(r"\s+", " ", text).strip()
 
 def is_valid(title, source=""):
-    """수집 여부 판단"""
-    # 제외 출처
     if any(s.lower() in source.lower() for s in EXCLUDE_SOURCES):
         return False
-    # 반도체 키워드 없으면 제외
-    combined = title.lower()
+    combined = (title + " " + source).lower()
     if not any(k.lower() in combined for k in INCLUDE_KW):
         return False
-    # 주가 중심 제외
-    if any(k.lower() in combined for k in STOCK_KW):
+    if any(k.lower() in title.lower() for k in STOCK_KW):
         return False
-    # [단독] 외 [] 괄호 있으면 제외
     brackets = re.findall(r'\[([^\]]+)\]', title)
     for b in brackets:
         if b.strip() != "단독":
@@ -92,7 +81,6 @@ def collect():
     cutoff = datetime.now(tz=KST) - timedelta(hours=24)
     articles, seen = [], set()
 
-    # 1) Google News RSS
     for query in GNEWS_QUERIES:
         q = urllib.parse.quote(query)
         url = f"https://news.google.com/rss/search?q={q}&hl=ko&gl=KR&ceid=KR:ko"
@@ -122,7 +110,6 @@ def collect():
         except Exception as ex:
             print(f"  [warn] GNews '{query}': {ex}")
 
-    # 2) 일반 RSS
     for src in RSS_SOURCES:
         try:
             feed = feedparser.parse(src["url"])
@@ -154,7 +141,6 @@ def collect():
         except Exception as ex:
             print(f"  [warn] {src['name']}: {ex}")
 
-    # 중복 제거: 제목 앞 20자 기준, 본문 긴 것 최대 2개
     groups = {}
     for a in articles:
         key = re.sub(r"\s+","", a["title"].lower())[:20]
@@ -175,7 +161,7 @@ def collect():
 def gemini(prompt):
     body = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.1, "maxOutputTokens": 300}
+        "generationConfig": {"temperature": 0.1, "maxOutputTokens": 400}
     }).encode("utf-8")
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
     req = urllib.request.Request(url, data=body,
@@ -184,67 +170,94 @@ def gemini(prompt):
         r = json.loads(resp.read().decode())
     return r["candidates"][0]["content"]["parts"][0]["text"].strip()
 
-# ─── 토픽 분류 기준 ───────────────────────────────────────────────────────────
-# 필터 5개: 메모리 / 비메모리 / 소부장 / 정책규제 / 투자
-TOPIC_GUIDE = """
-- 메모리: DRAM, NAND, HBM, 낸드, 디램, 고대역폭메모리, SK하이닉스 메모리, 마이크론
-- 비메모리: 파운드리, AP, GPU, NPU, AI칩, 시스템반도체, TSMC, 팹리스, 삼성파운드리, 인텔파운드리
-- 소부장: 장비, 소재, 부품, ASML, EUV, 노광, 에칭, 증착, 포토레지스트, 웨이퍼, Applied Materials, Lam Research, KLA
-- 정책규제: 수출통제, 보조금, 반도체법, CHIPS Act, 규제, 제재, 관세, 정부, 외교
-- 투자: 투자, M&A, 인수, 합병, 공장설립, 팹건설, 펀딩, 조인트벤처
-"""
+def classify_topic(title, content):
+    """토픽 분류를 별도 호출로 분리 — 더 정확하게"""
+    text = (title + " " + content).lower()
+    # 규칙 기반 1차 분류
+    memory_kw    = ["dram","nand","hbm","낸드","디램","고대역폭","메모리","sk하이닉스","마이크론","micron","hynix"]
+    non_mem_kw   = ["파운드리","foundry","gpu","npu","ai chip","ai칩","팹리스","tsmc","시스템반도체","ap칩","엔비디아","nvidia","intel","amd","퀄컴","qualcomm","삼성파운드리"]
+    material_kw  = ["장비","소재","부품","asml","euv","노광","에칭","증착","포토레지스트","웨이퍼","applied materials","lam research","kla","도쿄일렉트론","소부장"]
+    policy_kw    = ["수출통제","보조금","반도체법","chips act","규제","제재","관세","정부","외교","export control","restriction","ban","tariff","policy"]
+    invest_kw    = ["투자","m&a","인수","합병","공장","팹","건설","펀딩","조인트","joint venture","investment","acquire","merger","factory","fab"]
+
+    scores = {
+        "메모리":   sum(1 for k in memory_kw   if k in text),
+        "비메모리": sum(1 for k in non_mem_kw   if k in text),
+        "소부장":   sum(1 for k in material_kw  if k in text),
+        "정책규제": sum(1 for k in policy_kw    if k in text),
+        "투자":     sum(1 for k in invest_kw    if k in text),
+    }
+    best = max(scores, key=scores.get)
+    if scores[best] == 0:
+        return "기타"
+    return best
 
 def analyze(a):
-    prompt = f"""너는 반도체 전문 기자야. 아래 5개 항목을 반드시 채워서 정확히 5줄로만 답해. 다른 말은 절대 하지 마.
+    # 제목 번역
+    if re.search(r'[a-zA-Z]{4,}', a["title"]) and not re.search(r'[가-힣]', a["title"]):
+        # 영어 제목이면 번역
+        title_prompt = f"아래 영어 제목을 자연스러운 한국어로 완전히 번역해. 번역문만 출력:\n{a['title']}"
+        try:
+            title_ko = gemini(title_prompt).strip()
+        except:
+            title_ko = a["title"]
+    else:
+        title_ko = a["title"]
+
+    # 요약 생성
+    summary_prompt = f"""아래 기사의 본문 첫째·둘째 문단 내용을 참고해서 한글 음슴체로 95~110자로 요약해.
+반드시 한국어로. 숫자·수치 있으면 포함. 요약문만 출력하고 다른 말 하지 마.
+예시: "삼성전자가 HBM4 수율을 80%까지 끌어올렸음. 하반기 엔비디아 납품 물량이 기존 대비 2배 이상 늘어날 전망임."
 
 제목: {a['title']}
-본문: {a['content'][:500]}
-
-토픽 분류 기준:
-{TOPIC_GUIDE}
-
-TITLE_KO: 제목 전체를 빠짐없이 번역하거나 그대로 쓸 것. 절대 줄이지 말 것. 영어면 한국어로 완전히 번역.
-SUMMARY: 본문 첫째·둘째 문단 내용만 참고해서 한글 음슴체로 90~110자 작성. 반드시 한국어 문장으로. 예시: "삼성전자가 HBM4 수율을 80%까지 끌어올렸음. 엔비디아 납품 일정이 앞당겨지며 하반기 공급 물량이 크게 늘어날 전망임."
-COMPANY: 기사에서 가장 주요한 기업명 하나만. 없으면 업계전반.
-TOPIC: 메모리/비메모리/소부장/정책규제/투자 중 하나만.
-IMPACT: 1~5 숫자 하나만."""
-
+본문: {a['content'][:500]}"""
     try:
-        raw = gemini(prompt)
-        r = {}
-        for line in raw.strip().splitlines():
-            if ":" in line:
-                k, v = line.split(":", 1)
-                r[k.strip()] = v.strip()
+        summary_ko = gemini(summary_prompt).strip()
+        # 너무 짧으면 재시도
+        if len(summary_ko) < 30:
+            summary_ko = a["content"][:100]
+    except:
+        summary_ko = a["content"][:100]
 
-        title_ko = r.get("TITLE_KO","").strip()
-        summary  = r.get("SUMMARY","").strip()
-        company  = r.get("COMPANY","업계전반").strip()
-        topic    = r.get("TOPIC","기타").strip()
-        impact_r = r.get("IMPACT","3")
-        impact   = int(re.search(r'\d', impact_r).group()) if re.search(r'\d', impact_r) else 3
+    # 토픽 분류 (규칙 기반)
+    topic = classify_topic(a["title"], a["content"])
 
-        # 파싱 실패 대비
-        if not title_ko or len(title_ko) < 2:
-            title_ko = a["title"]
-        if not summary or len(summary) < 5:
-            summary = a["content"][:100]
-        if topic not in ["메모리","비메모리","소부장","정책규제","투자"]:
-            topic = "기타"
+    # 영향도 판단
+    impact_prompt = f"""아래 반도체 기사의 산업적 중요도를 1~5로 평가해. 숫자 하나만 출력.
+5=매우중요(산업 판도 변화), 4=중요, 3=보통, 2=낮음, 1=매우낮음
+제목: {a['title']}"""
+    try:
+        impact_raw = gemini(impact_prompt).strip()
+        impact = int(re.search(r'[1-5]', impact_raw).group())
+    except:
+        impact = 3
 
-        return {
-            "id": a["id"], "title_ko": title_ko, "summary_ko": summary,
-            "company": company, "topic": topic, "impact": impact,
-            "source": a["source"], "url": a["url"], "published": a["published"],
-        }
-    except Exception as ex:
-        print(f"  [warn] 분석실패 {a['id']}: {ex}")
-        return {
-            "id": a["id"], "title_ko": a["title"],
-            "summary_ko": a["content"][:100],
-            "company": "업계전반", "topic": "기타", "impact": 3,
-            "source": a["source"], "url": a["url"], "published": a["published"],
-        }
+    # 기업명 추출
+    company_kw = {
+        "삼성전자":"삼성전자","SK하이닉스":"SK하이닉스","TSMC":"TSMC",
+        "인텔":"인텔","엔비디아":"엔비디아","AMD":"AMD","퀄컴":"퀄컴",
+        "마이크론":"마이크론","ASML":"ASML","Applied Materials":"어플라이드머티리얼즈",
+        "Lam Research":"램리서치","삼성":"삼성전자","nvidia":"엔비디아",
+        "intel":"인텔","qualcomm":"퀄컴","micron":"마이크론",
+    }
+    company = "업계전반"
+    combined = a["title"] + " " + a["content"]
+    for kw, name in company_kw.items():
+        if kw.lower() in combined.lower():
+            company = name
+            break
+
+    return {
+        "id":        a["id"],
+        "title_ko":  title_ko,
+        "summary_ko":summary_ko,
+        "company":   company,
+        "topic":     topic,
+        "impact":    impact,
+        "source":    a["source"],
+        "url":       a["url"],
+        "published": a["published"],
+    }
 
 def run():
     print(f"API KEY: {len(GEMINI_API_KEY)}자")
@@ -256,10 +269,10 @@ def run():
     if not articles:
         print("  기사 없음.")
         return
-    print(f"[2/2] Gemini 분석 중... ({len(articles)}건)")
+    print(f"[2/2] 분석 중... ({len(articles)}건)")
     stories = []
     for i, a in enumerate(articles):
-        print(f"  {i+1}/{len(articles)}: {a['title'][:45]}")
+        print(f"  {i+1}/{len(articles)}: {a['title'][:50]}")
         stories.append(analyze(a))
     stories.sort(key=lambda x: x["impact"], reverse=True)
     payload = {
