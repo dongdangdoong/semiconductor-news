@@ -108,7 +108,7 @@ def collect():
                 url_    = e.get("link","")
                 lang    = "ko" if any(ord(c) > 0x3000 for c in title) else "en"
                 uid     = hashlib.md5(title[:60].encode()).hexdigest()[:8]
-                if uid in seen or not is_relevant(title + " " + summary):
+                if uid in seen or not is_relevant(title + " " + summary, src.get("name","")):
                     continue
                 seen.add(uid)
                 articles.append({
@@ -138,7 +138,7 @@ def collect():
                 content = content[:600]
                 url_    = e.get("link","")
                 uid     = hashlib.md5(title[:60].encode()).hexdigest()[:8]
-                if uid in seen or not is_relevant(title + " " + content):
+                if uid in seen or not is_relevant(title + " " + content, src["name"]):
                     continue
                 seen.add(uid)
                 articles.append({
