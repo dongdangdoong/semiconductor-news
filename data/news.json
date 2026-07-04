@@ -1,18 +1,95 @@
 {
-  "generated_at": "2026-07-03T17:23:15.863798+09:00",
-  "date": "2026년 07월 03일",
-  "total": 21,
+  "generated_at": "2026-07-04T09:07:07.685394+09:00",
+  "date": "2026년 07월 04일",
+  "total": 19,
   "stories": [
     {
-      "id": "323a1fc2",
-      "title_ko": "Singapore cops seize $42 million mansion, freeze $772k bank account of suspected Nvidia AI GPU smugglers &mdash; individuals alleged to have illegally exported data center servers to China charged wit",
-      "summary_ko": "Tech Industry Singapore cops seize $42 million mansion, freeze $772k bank account of suspected Nvidia AI GPU smugglers &mdash; individuals alleged to have illegally exported data center servers to Chi",
+      "id": "657d7c1e",
+      "title_ko": "쇼트키 장벽",
+      "summary_ko": "Researchers from NIST, University of Maryland, and Johns Hopkins University published a technical paper titled “Effect of Exchange-Correlation Functionals on Schottky Barriers at Si/Metal Interfaces.”",
       "company": "업계전반",
+      "topic": "정책규제",
+      "impact": 4,
+      "source": "Semiconductor Engineering",
+      "url": "https://semiengineering.com/computational-strategies-for-schottky-barrier-heights-prediction-nist-u-maryland-johns-hopkins/",
+      "published": "2026-07-04 05:57"
+    },
+    {
+      "id": "36a90683",
+      "title_ko": "Probabilistic Memory Architecture That Bridges The Gap Between RNG Sampling and Memory Access (Notre Dame, Georgia Tech, Villanova)",
+      "summary_ko": "Researchers from University of Notre Dame, Georgia Institute of Technology, and Villanova University published a technical paper titled “Probabilistic Memory for Trustworthy Edge Intelligence.” Summar",
+      "company": "인텔",
       "topic": "비메모리",
       "impact": 4,
+      "source": "Semiconductor Engineering",
+      "url": "https://semiengineering.com/probabilistic-memory-architecture-that-bridges-the-gap-between-rng-sampling-and-memory-access-notre-dame-georgia-tech-villanova/",
+      "published": "2026-07-04 05:32"
+    },
+    {
+      "id": "9dfb8c60",
+      "title_ko": "LLM Agents To Refactor Software For High Level Synthesis (Carnegie Mellon, UCLA)",
+      "summary_ko": "카네기 멜론대와 UCLA 연구진이 LLM 기반",
+      "company": "업계전반",
+      "topic": "기타",
+      "impact": 3,
+      "source": "Semiconductor Engineering",
+      "url": "https://semiengineering.com/llm-agents-to-refactor-software-for-high-level-synthesis-carnegie-mellon-ucla/",
+      "published": "2026-07-04 05:40"
+    },
+    {
+      "id": "81992211",
+      "title_ko": "인텔, 공급",
+      "summary_ko": "PC Components CPUs Intel confirms price hikes on select consumer and server CPUs citing supply costs and demand &mdash; select Xeon processors now over $1,000 more expensive News By Anton Shilov Publi",
+      "company": "인텔",
+      "topic": "비메모리",
+      "impact": 3,
       "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/tech-industry/singapore-cops-seize-usd42-million-mansion-freeze-usd772k-bank-account-of-suspected-nvidia-ai-gpu-smugglers-individuals-alleged-to-have-illegally-exported-data-center-servers-to-china-charged-with-fraud-money-laundering",
-      "published": "2026-07-02 20:00"
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-confirms-price-hikes-on-select-consumer-and-server-cpus-citing-supply-costs-and-demand-select-xeon-processors-now-over-usd1-000-more-expensive",
+      "published": "2026-07-03 23:45"
+    },
+    {
+      "id": "628f7e68",
+      "title_ko": "Inside the history of DRAM price-fixing lawsuits &mdash; how HBM allocations could make a difference after two decades of failed cases",
+      "summary_ko": "PC Components RAM DRAM Inside the history of DRAM price-fixing lawsuits &mdash; how HBM allocations could make a difference after two decades of failed cases News-analysis By Luke James Published 3 Ju",
+      "company": "마이크론",
+      "topic": "메모리",
+      "impact": 3,
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/pc-components/dram/samsung-sk-hynix-and-micron-face-a-third-dram-price-fixing-lawsuit",
+      "published": "2026-07-03 23:13"
+    },
+    {
+      "id": "dbe82cdf",
+      "title_ko": "Brand new Steam Machine hit with",
+      "summary_ko": "Video Games Console Gaming Brand new Steam Machine hit with 'red line of death' GPU failure after playing No Man's Sky for just five minutes &mdash; console 'bricked itself' following update in failur",
+      "company": "업계전반",
+      "topic": "비메모리",
+      "impact": 3,
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/video-games/console-gaming/brand-new-steam-machine-hit-with-red-line-of-death-gpu-failure-after-playing-no-mans-sky-for-just-five-minutes-console-bricked-itself-following-update-in-incident-eerily-reminiscent-of-xbox-360-launch",
+      "published": "2026-07-03 22:58"
+    },
+    {
+      "id": "617cfa5c",
+      "title_ko": "SK hynix, Samsung, Micron among semiconductor industry group lobbying against government intervention on domestic memory chip supply &mdash; says move would worsen situation, suggests tax deductions o",
+      "summary_ko": "Tech Industry SK hynix, Samsung, Micron among semiconductor industry group lobbying against government intervention on domestic memory chip supply &mdash; says move would worsen situation, suggests ta",
+      "company": "마이크론",
+      "topic": "메모리",
+      "impact": 3,
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/sk-hynix-samsung-micron-among-semiconductor-industry-group-lobbying-against-government-intervention-on-domestic-memory-chip-supply-says-move-would-worsen-situation-suggests-tax-deductions-on-consumer-electronics-instead",
+      "published": "2026-07-03 22:17"
+    },
+    {
+      "id": "218fd76a",
+      "title_ko": "Intel 18A wafer-to-wafer yield issues fixed, report claims &mdash; says production up to 15,000 wafers per month at both sites",
+      "summary_ko": "Tech Industry Manufacturing Semiconductors Intel 18A wafer-to-wafer yield issues fixed, report claims &mdash; says production up to 15,000 wafers per month at both sites News By Anton Shilov Published",
+      "company": "인텔",
+      "topic": "비메모리",
+      "impact": 3,
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-18a-wafer-to-wafer-yield-issues-fixed-report-claims-says-production-up-to-15-000-wafers-per-month-at-both-sites",
+      "published": "2026-07-03 19:49"
     },
     {
       "id": "375b78f5",
@@ -26,6 +103,17 @@
       "published": "2026-07-03 16:10"
     },
     {
+      "id": "5c35c52c",
+      "title_ko": "정점식 “노란봉투·상법이 호남 반도체 발목…도끼가 제발등 찍은 것” - 매일경제",
+      "summary_ko": "매일경제 60 Maeil Business News Korea 매일경제 60 나만의 AI 비서 매일경제 60 2026년 7월 4일 (토) 경제 금융 기업 증권 부동산 테크·과학 오피니언 정치 사회 국제 문화 스포츠 M 유튜브 경제 홈 경제 정책 지표 무역 생활 경제 이슈 #청년은 일하고 싶다 #물가 비상 #삼성전자 성과급 후폭풍 #최저임금 콘텐츠 Hub 디그",
+      "company": "삼성전자",
+      "topic": "정책규제",
+      "impact": 3,
+      "source": "매일경제",
+      "url": "https://www.mk.co.kr/news/economy/12089925",
+      "published": "2026-07-03 15:52"
+    },
+    {
       "id": "1a8a5df5",
       "title_ko": "현대건설, 이산화탄소 액화공정 개발 국책과제 참여 | 연합뉴스",
       "summary_ko": "현대건설은 기후에너지환경부가 주관하는 '다중 배출원 적용 이산화탄소 전처리·액화·벙커링 허브 실증 기술개발' 국책과제에 참여한다고 3일 밝혔다. 이번 과제는 산업 현장에서 포집한 이산화탄소를 고순도로 정제해 액화한 뒤 저장·운송하는 통합 인프라 기술을 개발하는 사업이다. 현대건설은 CO₂액화 공정 설계와 전처리·액화·적하역을 연계하는 통합 엔지니어링을 담당",
@@ -37,119 +125,42 @@
       "published": "2026-07-03 09:55"
     },
     {
-      "id": "b1267049",
-      "title_ko": "Anthropic is discussing a new custom chip with Samsung | TechCrunch",
-      "summary_ko": "Anthropic is discussing a new custom chip with Samsung Lucas Ropek 11:31 AM PDT · July 2, 2026 Back in April, Reuters reported that Anthropic was toying with the idea of producing its own AI chips as ",
-      "company": "앤스로픽",
+      "id": "66f95374",
+      "title_ko": "Intel reportedly adding two new 22-core SKUs with game-boosting cache to Nova Lake-S lineup &mdash; 125W unlocked and 65W locked part rumored to be part of single-tile Core Ultra 5 tier",
+      "summary_ko": "PC Components CPUs Intel reportedly adding two new 22-core SKUs with game-boosting cache to Nova Lake-S lineup &mdash; 125W unlocked and 65W locked part rumored to be part of single-tile Core Ultra 5 ",
+      "company": "인텔",
       "topic": "비메모리",
-      "impact": 3,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
-      "published": "2026-07-03 03:31"
+      "impact": 2,
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-reportedly-adding-two-new-22-core-skus-with-game-boosting-cache-to-nova-lake-s-lineup-125w-unlocked-and-65w-locked-part-rumored-to-be-part-of-single-tile-core-ultra-5-tier",
+      "published": "2026-07-04 00:44"
     },
     {
-      "id": "fac06b13",
-      "title_ko": "SK hynix to invest $712.5 billion in South Korean operations &mdash; Cheongju NAND expansion, Yongin Semiconductor Cluster for DRAM detailed",
-      "summary_ko": "PC Components RAM DRAM SK hynix to invest $712.5 billion in South Korean operations &mdash; Cheongju NAND expansion, Yongin Semiconductor Cluster for DRAM detailed News By Anton Shilov Published 2 Jul",
+      "id": "b7596f13",
+      "title_ko": "SK hynix Plans $713B Domestic Investment",
+      "summary_ko": "South Korean memory chipmaker SK hynix has announced a mid- to long-term investment plan worth 1,100 trillion South Korean won (~$713 billion) to expand its manufacturing capacity in South Korea. To h",
       "company": "업계전반",
       "topic": "메모리",
-      "impact": 3,
-      "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/pc-components/dram/sk-hynix-to-invest-usd712-5-billion-in-south-korean-operations-cheongju-nand-expansion-yongin-semiconductor-cluster-for-dram-detailed",
-      "published": "2026-07-03 01:28"
-    },
-    {
-      "id": "5e9657ec",
-      "title_ko": "Nvidia offers to take a cut of AI cloud revenue on top of hardware sales in new optional financing vehicle &mdash; trades tokens for revenue cut",
-      "summary_ko": "Tech Industry Nvidia offers to take a cut of AI cloud revenue on top of hardware sales in new optional financing vehicle &mdash; trades tokens for revenue cut News By Luke James Published 2 July 2026 ",
-      "company": "업계전반",
-      "topic": "비메모리",
-      "impact": 3,
-      "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/tech-industry/nvidia-to-take-a-cut-of-ai-cloud-revenue-on-top-of-hardware-sales",
-      "published": "2026-07-03 00:46"
-    },
-    {
-      "id": "666223dd",
-      "title_ko": "Supermicro denies that its offices were raided by Taiwanese authorities in Nvidia GPU smuggling case &mdash; company says that it coordinated with the police and provided access to investigated employ",
-      "summary_ko": "Desktops Servers Supermicro denies that its offices were raided by Taiwanese authorities in Nvidia GPU smuggling case &mdash; company says that it coordinated with the police and provided access to in",
-      "company": "업계전반",
-      "topic": "비메모리",
-      "impact": 3,
-      "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/desktops/servers/supermicro-denies-that-its-offices-were-raided-by-taiwanese-authorities-in-nvidia-gpu-smuggling-case-company-says-that-it-coordinated-with-the-police-and-provided-access-to-investigated-employees-workstations-and-gadgets",
-      "published": "2026-07-02 23:10"
-    },
-    {
-      "id": "bb171b93",
-      "title_ko": "Intel hikes pricing for its flagship desktop PC chips by up to $50 &mdash; official Core Ultra 270K Plus and 250K Plus product pages now recommend prices of up to $349 and $229, respectively",
-      "summary_ko": "PC Components CPUs Intel hikes pricing for its flagship desktop PC chips by up to $50 &mdash; official Core Ultra 270K Plus and 250K Plus product pages now recommend prices of up to $349 and $229, res",
-      "company": "인텔",
-      "topic": "비메모리",
-      "impact": 3,
-      "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intel-hikes-pricing-for-its-flagship-desktop-pc-chips-by-up-to-usd50-official-core-ultra-270k-plus-and-250k-plus-product-pages-now-recommend-prices-of-up-to-usd349-and-usd229-respectively",
-      "published": "2026-07-02 21:58"
-    },
-    {
-      "id": "fdd3a4df",
-      "title_ko": "Turkey Needs to Make Its Own Chips, Not Just Design Them",
-      "summary_ko": "When Russia invaded Ukraine in 2022, one of the very first Western responses was not military. It was to cut the country off from advanced semiconductors. That should tell every government something s",
-      "company": "업계전반",
-      "topic": "기타",
-      "impact": 3,
+      "impact": 2,
       "source": "EE Times",
-      "url": "https://www.eetimes.com/turkey-needs-to-make-its-own-chips-not-just-design-them/",
-      "published": "2026-07-02 21:42"
+      "url": "https://www.eetimes.com/sk-hynix-plans-713b-domestic-investment/",
+      "published": "2026-07-03 22:57"
     },
     {
-      "id": "55a0dc55",
-      "title_ko": "Startup activates nuclear microreactor live on stage to power an Nvidia RTX Spark desktop PC &mdash; firm working with Nvidia to build a 30MW closed loop AI factory that doesn&rsquo;t use local water",
-      "summary_ko": "Tech Industry Data Centers Startup activates nuclear microreactor live on stage to power an Nvidia RTX Spark desktop PC &mdash; firm working with Nvidia to build a 30MW closed loop AI factory that doe",
-      "company": "업계전반",
-      "topic": "비메모리",
-      "impact": 3,
-      "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/startup-activates-nuclear-microreactor-live-on-stage-to-power-an-nvidia-rtx-spark-desktop-pc-firm-working-with-nvidia-to-build-a-30mw-closed-loop-ai-factory-that-doesnt-use-local-water",
-      "published": "2026-07-02 20:58"
-    },
-    {
-      "id": "6d27182d",
-      "title_ko": "Save $521 on this 4K-capable RTX 5070 gaming PC from CyberPowerPC, now just $1,349 &mdash; huge price drop for budget-friendly rig with impressive Intel Core Ultra 250KF CPU, 16GB DDR5, and 1TB SSD",
-      "summary_ko": "Desktops Gaming PCs Save $521 on this 4K-capable RTX 5070 gaming PC from CyberPowerPC, now just $1,349 &mdash; huge price drop for budget-friendly rig with impressive Intel Core Ultra 250KF CPU, 16GB ",
-      "company": "인텔",
-      "topic": "비메모리",
-      "impact": 3,
-      "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd521-on-this-4k-capable-rtx-5070-gaming-pc-from-cyberpowerpc-now-just-usd1-349-huge-price-drop-for-budget-friendly-rig-with-impressive-intel-core-ultra-250kf-cpu-16gb-ddr5-and-1tb-ssd",
-      "published": "2026-07-02 20:06"
-    },
-    {
-      "id": "4647e2f7",
-      "title_ko": "The best tech deals this July 4th &mdash; save on gaming desktops, laptops, GPUs, gaming chairs, monitors, and more",
-      "summary_ko": "Gift Guides and Seasonal Sales The best tech deals this July 4th &mdash; save on gaming desktops, laptops, GPUs, gaming chairs, monitors, and more Deals By Stewart Bendle Published 2 July 2026 Grab bi",
-      "company": "업계전반",
-      "topic": "비메모리",
-      "impact": 3,
-      "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/the-best-tech-deals-this-july-4th-save-on-gaming-desktops-laptops-gpus-gaming-chairs-monitors-and-more",
-      "published": "2026-07-02 19:58"
-    },
-    {
-      "id": "30ab734c",
-      "title_ko": "Intel expands production of photomasks in California: EUV and High-NA EUV in the focal point",
-      "summary_ko": "Tech Industry Manufacturing Semiconductors Intel expands production of photomasks in California: EUV and High-NA EUV in the focal point News By Anton Shilov Published 2 July 2026 More masks, more EUV ",
-      "company": "인텔",
-      "topic": "비메모리",
-      "impact": 3,
-      "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-expands-production-of-photomasks-in-california-euv-and-high-na-euv-in-the-focal-point",
-      "published": "2026-07-02 19:20"
+      "id": "78d5cb11",
+      "title_ko": "미래에셋, 1조3천억 자금조달 추진…&apos;큰 손&apos; 된 SK하이닉스 | 연합뉴스",
+      "summary_ko": "미래에셋증권이 1조원이 넘는 자금조달을 추진 중인 것으로 3일 전해졌다. 이와 관련, 미래에셋증권은 이달 6일 진행할 예정이었던 수천억원 규모의 회사채 수요예측도 연기한 것으로 알려졌다. SK하이닉스가 투자자로 나서자 자금조달 관련 계획을 수정한 것일 수 있어 보인다. 인공지능이 자동으로 줄인 '세 줄 요약' 기술을 사용합니다. 전체 내용을 이해하기 위해서",
+      "company": "SK하이닉스",
+      "topic": "투자",
+      "impact": 2,
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260703151000008",
+      "published": "2026-07-03 19:18"
     },
     {
       "id": "f5629b64",
       "title_ko": "서남충청권에 반도체, 영남권은 피지컬AI·우주…산업지도 재편 | 연합뉴스",
-      "summary_ko": "'대한민국 대도약 3대 메가프로젝트' 권",
+      "summary_ko": "'대한민국 대도약 3대 메가프로젝트'의 권역별 국민보고회가 3일 영남권을 끝으로 모두 마무리되면서 권역별 투자 규모에 관심이 쏠린다. 삼성전자와 SK하이닉스가 총 800조원을 투자해 반도체 팹 4기와 협력사·인력 생태계를 구축하기로 했다. AI 데이터센터 등을 포함하면 서남권에는 약 896조원을 투자할 예정이다. 인공지능이 자동으로 줄인 '세 줄 요약' 기",
       "company": "삼성전자",
       "topic": "투자",
       "impact": 2,
@@ -162,22 +173,11 @@
       "title_ko": "Chip Industry Week In Review",
       "summary_ko": "S. Korea goes All In on AI; new Dresden power fab; Intel expansion; GM secures memory supply; AI power management funding; mature-node foundry capacity; 300mm fab equipment; McKinsey's map of strategi",
       "company": "인텔",
-      "topic": "투자",
+      "topic": "비메모리",
       "impact": 2,
       "source": "Semiconductor Engineering",
       "url": "https://semiengineering.com/chip-industry-week-in-review-145/",
       "published": "2026-07-03 16:01"
-    },
-    {
-      "id": "5c35c52c",
-      "title_ko": "정점식 “노란봉투·상법이 호남 반도체 발목…도끼가 제발등 찍은 것” - 매일경제",
-      "summary_ko": "매일경제 60 Maeil Business News Korea 매일경제 60 나만의 AI 비서 매일경제 60 2026년 7월 3일 (금) 경제 금융 기업 증권 부동산 테크·과학 오피니언 정치 사회 국제 문화 스포츠 M 유튜브 경제 홈 경제 정책 지표 무역 생활 경제 이슈 #물가 비상 #삼성전자 성과급 후폭풍 #최저임금 #위기의 자영업 콘텐츠 Hub 디그 쉽지",
-      "company": "삼성전자",
-      "topic": "정책규제",
-      "impact": 2,
-      "source": "매일경제",
-      "url": "https://www.mk.co.kr/news/economy/12089925",
-      "published": "2026-07-03 15:52"
     },
     {
       "id": "2e398d4c",
@@ -193,7 +193,7 @@
     {
       "id": "3aec13f8",
       "title_ko": "씨티 “환율 석달 내 1500원선 회복” 전망한 근거가…“반도체 수출이 버팀목” - 매일경제",
-      "summary_ko": "매일경제 60 Maeil Business News Korea 매일경제 60 나만의 AI 비서 매일경제 60 2026년 7월 3일 (금) 경제 금융 기업 증권 부동산 테크·과학 오피니언 정치 사회 국제 문화 스포츠 M 유튜브 경제 홈 경제 정책 지표 무역 생활 경제 이슈 #물가 비상 #삼성전자 성과급 후폭풍 #최저임금 #위기의 자영업 콘텐츠 Hub 디그 쉽지",
+      "summary_ko": "매일경제 60 Maeil Business News Korea 매일경제 60 나만의 AI 비서 매일경제 60 2026년 7월 4일 (토) 경제 금융 기업 증권 부동산 테크·과학 오피니언 정치 사회 국제 문화 스포츠 M 유튜브 경제 홈 경제 정책 지표 무역 생활 경제 이슈 #청년은 일하고 싶다 #물가 비상 #삼성전자 성과급 후폭풍 #최저임금 콘텐츠 Hub 디그",
       "company": "삼성전자",
       "topic": "정책규제",
       "impact": 2,
@@ -211,28 +211,6 @@
       "source": "연합뉴스",
       "url": "https://www.yna.co.kr/view/AKR20260703073600008",
       "published": "2026-07-03 12:00"
-    },
-    {
-      "id": "ec551810",
-      "title_ko": "Possible AMD RX 7900 XTX engineering sample with red PCB surfaces &mdash; prototype came with no backplate & custom VBIOS but matches RX 7900 GRE specs",
-      "summary_ko": "PC Components GPUs Possible AMD RX 7900 XTX engineering sample with red PCB surfaces &mdash; prototype came with no backplate & custom VBIOS but matches RX 7900 GRE specs News By Hassam Nasir Publishe",
-      "company": "AMD",
-      "topic": "비메모리",
-      "impact": 2,
-      "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/pc-components/gpus/possible-amd-rx-7900-xtx-engineering-sample-with-red-pcb-surfaces-prototype-came-with-no-backplate-and-custom-vbios-but-matches-rx-7900-gre-specs",
-      "published": "2026-07-02 20:00"
-    },
-    {
-      "id": "ebeb2ac1",
-      "title_ko": "'테슬라用' 전기차 보조금 논란… 진땀나는 정부 - 매일경제",
-      "summary_ko": "매일경제 60 Maeil Business News Korea 매일경제 60 나만의 AI 비서 매일경제 60 2026년 7월 3일 (금) 경제 금융 기업 증권 부동산 테크·과학 오피니언 정치 사회 국제 문화 스포츠 M 유튜브 경제 홈 경제 정책 지표 무역 생활 경제 이슈 #물가 비상 #삼성전자 성과급 후폭풍 #최저임금 #위기의 자영업 콘텐츠 Hub 디그 쉽지",
-      "company": "삼성전자",
-      "topic": "정책규제",
-      "impact": 2,
-      "source": "매일경제",
-      "url": "https://www.mk.co.kr/news/economy/12089118",
-      "published": "2026-07-02 17:49"
     }
   ]
 }
