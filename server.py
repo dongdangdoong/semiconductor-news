@@ -1,147 +1,170 @@
-"""
-server.py — 반도체 뉴스 HTTPS 웹서버
-======================================
-실행:
-  python server.py                     # 기본 443 포트
-  python server.py --port 8443         # 포트 지정
-  python server.py --http-only         # HTTP only (개발용, 80포트)
-  python server.py --certbot           # Let's Encrypt 인증서 사용
+from flask import Flask, render_template
+import requests
+from bs4 import BeautifulSoup
+from newspaper import Article
+from urllib.parse import quote
+from datetime import datetime, timedelta
+import re
+import time
 
-도메인 없이 로컬 테스트:
-  python server.py --http-only --port 8080
+app = Flask(__name__)
 
-Let's Encrypt 사용 시 (도메인 필요):
-  pip install certbot certbot-nginx
-  certbot certonly --standalone -d yourdomain.com
-  python server.py --certbot --domain yourdomain.com
+KEYWORDS = [
+    "반도체",
+    "삼성전자 반도체",
+    "SK하이닉스",
+    "HBM",
+    "DRAM",
+    "NAND",
+    "AI 반도체",
+    "파운드리",
+    "TSMC",
+    "마이크론"
+]
 
-환경변수:
-  SSL_CERT   : cert.pem 경로 (기본: ./certs/cert.pem)
-  SSL_KEY    : key.pem  경로 (기본: ./certs/key.pem)
-  SERVER_PORT: 포트 (기본: 443)
-"""
+HEADERS = {
+    "User-Agent": "Mozilla/5.0"
+}
 
-import os, ssl, argparse, subprocess, sys
-from pathlib import Path
-from flask import Flask, send_from_directory, jsonify, abort
 
-BASE_DIR   = Path(__file__).parent
-DATA_DIR   = BASE_DIR / "data"
-CERTS_DIR  = BASE_DIR / "certs"
-STATIC_DIR = BASE_DIR / "static"
-STATIC_DIR.mkdir(exist_ok=True)
+def clean_text(text):
+    return re.sub(r"\s+", " ", text).strip()
 
-app = Flask(__name__, static_folder=str(STATIC_DIR))
 
-# ─── 라우트 ───────────────────────────────────────────────────────────────────
+def summarize_text(text, min_len=100, max_len=200):
+    text = clean_text(text)
+
+    if len(text) <= max_len:
+        return text
+
+    sentences = re.split(r"(?<=[.!?。！？다])\s+", text)
+
+    summary = ""
+    for sentence in sentences:
+        if len(summary) + len(sentence) <= max_len:
+            summary += sentence + " "
+        if len(summary) >= min_len:
+            break
+
+    summary = clean_text(summary)
+
+    if len(summary) < min_len:
+        summary = text[:max_len]
+
+    return summary[:max_len].strip()
+
+
+def parse_naver_time(time_text):
+    now = datetime.now()
+
+    if "분 전" in time_text:
+        minutes = int(re.sub(r"[^0-9]", "", time_text))
+        published = now - timedelta(minutes=minutes)
+    elif "시간 전" in time_text:
+        hours = int(re.sub(r"[^0-9]", "", time_text))
+        published = now - timedelta(hours=hours)
+    elif "일 전" in time_text:
+        days = int(re.sub(r"[^0-9]", "", time_text))
+        published = now - timedelta(days=days)
+    else:
+        published = now
+
+    diff = now - published
+
+    if diff.total_seconds() < 3600:
+        return f"{int(diff.total_seconds() // 60)}분 전"
+    elif diff.total_seconds() < 86400:
+        return f"{int(diff.total_seconds() // 3600)}시간 전"
+    else:
+        return f"{diff.days}일 전"
+
+
+def get_article_body(url):
+    try:
+        article = Article(url, language="ko")
+        article.download()
+        article.parse()
+        return clean_text(article.text)
+    except Exception:
+        return ""
+
+
+def fetch_naver_news():
+    results = []
+    seen_titles = set()
+    seen_links = set()
+
+    for keyword in KEYWORDS:
+        url = f"https://search.naver.com/search.naver?where=news&query={quote(keyword)}&sort=1"
+
+        try:
+            res = requests.get(url, headers=HEADERS, timeout=10)
+            soup = BeautifulSoup(res.text, "html.parser")
+
+            items = soup.select(".news_area")
+
+            for item in items:
+                title_tag = item.select_one("a.news_tit")
+                info_tags = item.select(".info_group .info")
+
+                if not title_tag:
+                    continue
+
+                title = title_tag.get("title", "").strip()
+                link = title_tag.get("href", "").strip()
+
+                time_text = "방금 전"
+                for info in info_tags:
+                    txt = info.get_text(strip=True)
+                    if "전" in txt:
+                        time_text = parse_naver_time(txt)
+                        break
+
+                if not title or not link:
+                    continue
+
+                if title in seen_titles or link in seen_links:
+                    continue
+
+                seen_titles.add(title)
+                seen_links.add(link)
+
+                body = get_article_body(link)
+
+                if len(body) < 120:
+                    continue
+
+                summary = summarize_text(body, 100, 200)
+
+                results.append({
+                    "keyword": keyword,
+                    "title": title,
+                    "link": link,
+                    "summary": summary,
+                    "published_ago": time_text
+                })
+
+                time.sleep(0.3)
+
+                if len(results) >= 20:
+                    return results
+
+        except Exception as e:
+            print(f"[ERROR] {keyword}: {e}")
+
+    return results
+
 
 @app.route("/")
 def index():
-    """메인 페이지 — static/index.html 서빙"""
-    return send_from_directory(str(BASE_DIR), "index.html")
-
-@app.route("/api/news")
-def api_news():
-    """뉴스 JSON API"""
-    news_file = DATA_DIR / "news.json"
-    if not news_file.exists():
-        return jsonify({"error": "데이터가 없습니다. agent.py 를 먼저 실행하세요."}), 404
-    import json
-    return app.response_class(
-        response=news_file.read_text(encoding="utf-8"),
-        status=200,
-        mimetype="application/json",
+    news_list = fetch_naver_news()
+    updated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    return render_template(
+        "index.html",
+        news_list=news_list,
+        updated_at=updated_at
     )
 
-@app.route("/api/status")
-def api_status():
-    import json
-    news_file = DATA_DIR / "news.json"
-    if news_file.exists():
-        data = json.loads(news_file.read_text(encoding="utf-8"))
-        return jsonify({"ok": True, "generated_at": data.get("generated_at"), "total": data.get("total")})
-    return jsonify({"ok": False})
-
-@app.route("/health")
-def health():
-    return "OK", 200
-
-# ─── 자가서명 인증서 생성 (openssl 필요) ─────────────────────────────────────
-
-def generate_self_signed_cert(domain: str = "localhost") -> tuple[Path, Path]:
-    cert_path = CERTS_DIR / "cert.pem"
-    key_path  = CERTS_DIR / "key.pem"
-    CERTS_DIR.mkdir(exist_ok=True)
-
-    if cert_path.exists() and key_path.exists():
-        print(f"  기존 인증서 사용: {cert_path}")
-        return cert_path, key_path
-
-    print(f"  자가서명 SSL 인증서 생성 중... (도메인: {domain})")
-    subprocess.run([
-        "openssl", "req", "-x509", "-newkey", "rsa:4096",
-        "-keyout", str(key_path),
-        "-out",    str(cert_path),
-        "-days",   "365",
-        "-nodes",
-        "-subj",   f"/CN={domain}",
-        "-addext", f"subjectAltName=DNS:{domain},IP:127.0.0.1",
-    ], check=True, capture_output=True)
-    print(f"  인증서 생성 완료: {cert_path}")
-    return cert_path, key_path
-
-def get_letsencrypt_cert(domain: str) -> tuple[Path, Path]:
-    base = Path(f"/etc/letsencrypt/live/{domain}")
-    return base / "fullchain.pem", base / "privkey.pem"
-
-# ─── 메인 ─────────────────────────────────────────────────────────────────────
-
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--port",      type=int, default=int(os.environ.get("SERVER_PORT", 443)))
-    parser.add_argument("--host",      default="0.0.0.0")
-    parser.add_argument("--domain",    default="localhost")
-    parser.add_argument("--http-only", action="store_true", help="HTTP만 사용 (개발용)")
-    parser.add_argument("--certbot",   action="store_true", help="Let's Encrypt 인증서 사용")
-    args = parser.parse_args()
-
-    print(f"\n{'='*52}")
-    print(f"  반도체 뉴스 웹서버")
-    print(f"{'='*52}")
-
-    if args.http_only:
-        port = args.port if args.port != 443 else 8080
-        print(f"  모드: HTTP (개발용)")
-        print(f"  URL : http://{args.domain}:{port}")
-        print(f"{'='*52}\n")
-        app.run(host=args.host, port=port, debug=False)
-        return
-
-    # HTTPS
-    if args.certbot:
-        cert_path, key_path = get_letsencrypt_cert(args.domain)
-        print(f"  모드: HTTPS (Let's Encrypt)")
-    else:
-        cert_path = Path(os.environ.get("SSL_CERT", str(CERTS_DIR / "cert.pem")))
-        key_path  = Path(os.environ.get("SSL_KEY",  str(CERTS_DIR / "key.pem")))
-        if not cert_path.exists():
-            cert_path, key_path = generate_self_signed_cert(args.domain)
-        print(f"  모드: HTTPS (자가서명)")
-
-    ctx = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
-    ctx.load_cert_chain(cert_path, key_path)
-
-    print(f"  URL : https://{args.domain}:{args.port}")
-    print(f"  Cert: {cert_path}")
-    print(f"{'='*52}\n")
-
-    import werkzeug.serving
-    werkzeug.serving.run_simple(
-        args.host, args.port, app,
-        ssl_context=ctx,
-        use_reloader=False,
-        threaded=True,
-    )
 
 if __name__ == "__main__":
-    main()
+    app.run(host="0.0.0.0", port=5000)
