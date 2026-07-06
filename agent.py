@@ -10,7 +10,7 @@ import os
 
 KEYWORDS = [
     "반도체",
-    "삼성전자 반도체",
+    "삼성전자",
     "SK하이닉스",
     "HBM",
     "DRAM",
@@ -19,12 +19,11 @@ KEYWORDS = [
     "파운드리",
     "TSMC",
     "마이크론"
+    "엔비디아"
 ]
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/138.0 Safari/537.36",
-    "Accept-Language": "ko-KR,ko;q=0.9",
-    "Referer": "https://search.naver.com/"
+    "User-Agent": "Mozilla/5.0"
 }
 
 
@@ -71,23 +70,22 @@ def fetch_news():
     seen_links = set()
 
     for keyword in KEYWORDS:
-        url = f"https://search.naver.com/search.naver?where=news&query={quote(keyword)}&sort=1"
+        rss_url = (
+            "https://news.google.com/rss/search?"
+            f"q={quote(keyword)}"
+            "&hl=ko&gl=KR&ceid=KR:ko"
+        )
 
         try:
-            res = requests.get(url, headers=HEADERS, timeout=10)
-            soup = BeautifulSoup(res.text, "html.parser")
+            res = requests.get(rss_url, headers=HEADERS, timeout=10)
+            soup = BeautifulSoup(res.content, "xml")
 
-            items = soup.select(".news_area")
+            items = soup.find_all("item")
 
             for item in items:
-                title_tag = item.select_one("a.news_tit")
-                info_tags = item.select(".info_group .info")
-
-                if not title_tag:
-                    continue
-
-                title = title_tag.get("title", "").strip()
-                link = title_tag.get("href", "").strip()
+                title = clean_text(item.title.text) if item.title else ""
+                link = clean_text(item.link.text) if item.link else ""
+                pub_date = clean_text(item.pubDate.text) if item.pubDate else ""
 
                 if not title or not link:
                     continue
@@ -98,15 +96,7 @@ def fetch_news():
                 seen_titles.add(title)
                 seen_links.add(link)
 
-                published_ago = "방금 전"
-                for info in info_tags:
-                    txt = info.get_text(strip=True)
-                    if "전" in txt:
-                        published_ago = txt
-                        break
-
                 body = get_article_body(link)
-
                 if len(body) < 120:
                     continue
 
@@ -117,7 +107,7 @@ def fetch_news():
                     "title": title,
                     "link": link,
                     "summary": summary,
-                    "published_ago": published_ago
+                    "published_ago": pub_date
                 })
 
                 time.sleep(0.3)
