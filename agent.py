@@ -1,8 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
-from newspaper import Article
 from urllib.parse import quote
-from datetime import datetime
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 import re
 import time
 import json
@@ -10,7 +10,7 @@ import os
 
 KEYWORDS = [
     "반도체",
-    "삼성전자",
+    "삼성전자 반도체",
     "SK하이닉스",
     "HBM",
     "DRAM",
@@ -19,7 +19,6 @@ KEYWORDS = [
     "파운드리",
     "TSMC",
     "마이크론"
-    "엔비디아"
 ]
 
 HEADERS = {
@@ -28,6 +27,7 @@ HEADERS = {
 
 
 def clean_text(text):
+    text = BeautifulSoup(text or "", "html.parser").get_text(" ")
     return re.sub(r"\s+", " ", text).strip()
 
 
@@ -38,8 +38,8 @@ def summarize_text(text, min_len=100, max_len=200):
         return text
 
     sentences = re.split(r"(?<=[.!?。！？다])\s+", text)
-
     summary = ""
+
     for sentence in sentences:
         if len(summary) + len(sentence) <= max_len:
             summary += sentence + " "
@@ -54,14 +54,24 @@ def summarize_text(text, min_len=100, max_len=200):
     return summary[:max_len].strip()
 
 
-def get_article_body(url):
+def published_ago(pub_date):
     try:
-        article = Article(url, language="ko")
-        article.download()
-        article.parse()
-        return clean_text(article.text)
+        published = parsedate_to_datetime(pub_date)
+        now = datetime.now(timezone.utc)
+        diff = now - published
+
+        minutes = int(diff.total_seconds() // 60)
+        hours = int(diff.total_seconds() // 3600)
+        days = diff.days
+
+        if minutes < 60:
+            return f"{minutes}분 전"
+        elif hours < 24:
+            return f"{hours}시간 전"
+        else:
+            return f"{days}일 전"
     except Exception:
-        return ""
+        return "시간 정보 없음"
 
 
 def fetch_news():
@@ -77,15 +87,17 @@ def fetch_news():
         )
 
         try:
-            res = requests.get(rss_url, headers=HEADERS, timeout=10)
+            res = requests.get(rss_url, headers=HEADERS, timeout=15)
             soup = BeautifulSoup(res.content, "xml")
 
             items = soup.find_all("item")
+            print(f"[{keyword}] RSS items: {len(items)}")
 
             for item in items:
-                title = clean_text(item.title.text) if item.title else ""
-                link = clean_text(item.link.text) if item.link else ""
-                pub_date = clean_text(item.pubDate.text) if item.pubDate else ""
+                title = clean_text(item.title.text if item.title else "")
+                link = clean_text(item.link.text if item.link else "")
+                description = clean_text(item.description.text if item.description else "")
+                pub_date = clean_text(item.pubDate.text if item.pubDate else "")
 
                 if not title or not link:
                     continue
@@ -96,24 +108,21 @@ def fetch_news():
                 seen_titles.add(title)
                 seen_links.add(link)
 
-                body = get_article_body(link)
-                if len(body) < 120:
-                    continue
-
-                summary = summarize_text(body, 100, 200)
+                summary_source = description if len(description) >= 50 else title
+                summary = summarize_text(summary_source, 60, 200)
 
                 results.append({
                     "keyword": keyword,
                     "title": title,
                     "link": link,
                     "summary": summary,
-                    "published_ago": pub_date
+                    "published_ago": published_ago(pub_date)
                 })
-
-                time.sleep(0.3)
 
                 if len(results) >= 20:
                     return results
+
+                time.sleep(0.1)
 
         except Exception as e:
             print(f"[ERROR] {keyword}: {e}")
