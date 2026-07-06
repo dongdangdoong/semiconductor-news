@@ -62,10 +62,6 @@
             text-decoration: none;
         }
 
-        .title a:hover {
-            text-decoration: underline;
-        }
-
         .time {
             font-size: 14px;
             color: #888;
@@ -87,7 +83,7 @@
     </div>
 
     <div class="updated">
-        마지막 업데이트: {{ updated_at }}
+        마지막 화면 갱신: {{ updated_at }}
     </div>
 
     {% for news in news_list %}
