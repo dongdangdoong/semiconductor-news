@@ -1,84 +1,73 @@
 {
-  "generated_at": "2026-07-05T09:03:45.745822+09:00",
-  "date": "2026년 07월 05일",
-  "total": 7,
+  "generated_at": "2026-07-06T09:11:27.138171+09:00",
+  "date": "2026년 07월 06일",
+  "total": 6,
   "stories": [
     {
-      "id": "d2724bc4",
-      "title_ko": "&apos;민형배 경제 공약&apos;, 반도체 투자로 재설계 불가피 | 연합뉴스",
-      "summary_ko": "삼성전자, SK하이닉스 서남권 반도체 대규모 투자",
+      "id": "c650ea2e",
+      "title_ko": "삼성전자서비스, 국가고객만족도 전자제품 AS 3년 연속 1위 | 연합뉴스",
+      "summary_ko": "삼성전자서비스가 국가고객만족도 조사에서 전자제품 AS",
       "company": "삼성전자",
-      "topic": "투자",
+      "topic": "기타",
       "impact": 3,
       "source": "연합뉴스",
-      "url": "https://www.yna.co.kr/view/AKR20260703064700054",
-      "published": "2026-07-05 08:40"
+      "url": "https://www.yna.co.kr/view/AKR20260706022700003",
+      "published": "2026-07-06 08:48"
     },
     {
-      "id": "783193ad",
-      "title_ko": "삼성전자 작년 정보보호 투자 4천억 넘겨…전자 관계사들도 증액 | 연합뉴스",
-      "summary_ko": "글로벌 AI 반도체 등 첨단 기술 경쟁이 치",
-      "company": "삼성전자",
-      "topic": "투자",
-      "impact": 3,
-      "source": "연합뉴스",
-      "url": "https://www.yna.co.kr/view/AKR20260703113300003",
-      "published": "2026-07-05 07:17"
-    },
-    {
-      "id": "a3797ec8",
-      "title_ko": "AI 붐·반도체 호황에 그늘진 청년고용…법률사무원 13개월째↓ | 연합뉴스",
-      "summary_ko": "AI 붐과 반도체 호황에도 청년 고용은 오히려",
-      "company": "업계전반",
-      "topic": "소부장",
-      "impact": 3,
-      "source": "연합뉴스",
-      "url": "https://www.yna.co.kr/view/AKR20260704038100002",
-      "published": "2026-07-05 05:47"
-    },
-    {
-      "id": "a9af9040",
-      "title_ko": "소비자들이 감당",
-      "summary_ko": "PC Components RAM Memory price surge begins to cool as consumers hit affordability limit &mdash; AI demand still keeps DRAM and NAND prices climbing through Q3 2026 News By Etiido Uko Published 4 July",
-      "company": "업계전반",
-      "topic": "메모리",
-      "impact": 3,
-      "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/pc-components/ram/memory-price-surge-begins-to-cool-as-consumers-hit-affordability-limit-ai-demand-still-keeps-dram-and-nand-prices-climbing-through-q3-2026",
-      "published": "2026-07-04 20:47"
-    },
-    {
-      "id": "4656cb67",
-      "title_ko": "Windows guru uses 19th-century Stirling Engine tech for auxiliary cooling on AMD Threadripper 3970X system &mdash; waste heat energy spins the $40 engine",
-      "summary_ko": "윈도우 전문가가 AMD 스레드리퍼 3970",
+      "id": "e2db0174",
+      "title_ko": "F1 25",
+      "summary_ko": "F1 25: 2026 시즌 에디션 GPU",
       "company": "AMD",
       "topic": "비메모리",
       "impact": 3,
       "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/pc-components/cooling/windows-guru-uses-stirling-engine-to-cool-amd-threadripper-3970x-waste-heat-energy-spins-the-engines-flywheel",
-      "published": "2026-07-04 20:30"
+      "url": "https://www.tomshardware.com/pc-components/gpus/f1-25-2026-season-edition-gpu-benchmarks-from-pole-position-to-the-back-of-the-grid",
+      "published": "2026-07-05 23:05"
     },
     {
-      "id": "05e8fdb2",
-      "title_ko": "삼성전자 감사 페스티벌 흥행…DX부문 2분기 실적 힘 보탤듯 | 연합뉴스",
-      "summary_ko": "삼성전자 DX 부문, '감사 페스티벌'로",
+      "id": "c8328f45",
+      "title_ko": "짐 켈러의",
+      "summary_ko": "짐 켈러 스타트업 '아토믹 세미'",
+      "company": "업계전반",
+      "topic": "투자",
+      "impact": 3,
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/atomic-semi-rebrands-as-fab2-and-shifts-operations-to-texas",
+      "published": "2026-07-05 22:15"
+    },
+    {
+      "id": "5ef665b0",
+      "title_ko": "삼성전자, 5억원 사내 주택자금 대출 대상 &apos;국평&apos; 이하로 제한 | 연합뉴스",
+      "summary_ko": "삼성전자가 무주택 직원 대상 사내 주택자금 대출",
+      "company": "삼성전자",
+      "topic": "정책규제",
+      "impact": 3,
+      "source": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260705041400003",
+      "published": "2026-07-05 19:21"
+    },
+    {
+      "id": "7db3bfb8",
+      "title_ko": "국제화물 99%, 인천공항에 몰려 … \"서남권 반도체 수출 인프라 시급\" - 매일경제",
+      "summary_ko": "국제화물 99%가 특정 공항에 집중돼 서",
       "company": "삼성전자",
       "topic": "기타",
-      "impact": 2,
-      "source": "연합뉴스",
-      "url": "https://www.yna.co.kr/view/AKR20260703130100003",
-      "published": "2026-07-05 05:55"
+      "impact": 3,
+      "source": "매일경제",
+      "url": "https://www.mk.co.kr/news/economy/12090684",
+      "published": "2026-07-05 17:36"
     },
     {
-      "id": "5dba2820",
-      "title_ko": "반도체 &apos;날개&apos;에도 고용 부진…고용탄성치 8년 만에 최저 전망 | 연합뉴스",
-      "summary_ko": "올해 경제 성장 대비 고용 증가를 나타내는 고용 탄성치가",
-      "company": "업계전반",
+      "id": "435c704b",
+      "title_ko": "삼성전자 무풍 에어컨 출시 10년…글로벌 누적판매 2천만대 넘어 | 연합뉴스",
+      "summary_ko": "삼성전자 무풍 에어컨이 지난달 기준 글로벌 누적 판매",
+      "company": "삼성전자",
       "topic": "기타",
-      "impact": 2,
+      "impact": 3,
       "source": "연합뉴스",
-      "url": "https://www.yna.co.kr/view/AKR20260704018500002",
-      "published": "2026-07-05 05:47"
+      "url": "https://www.yna.co.kr/view/AKR20260705011100003",
+      "published": "2026-07-05 11:00"
     }
   ]
 }
