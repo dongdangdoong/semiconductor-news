@@ -164,7 +164,121 @@ def short_link(url):
 
     except Exception:
         return url[:58] + "..." if len(url) > 58 else url
+def is_mostly_english(text):
+    text = clean_space(text)
+    if not text:
+        return False
 
+    korean_count = len(re.findall(r"[가-힣]", text))
+    english_count = len(re.findall(r"[A-Za-z]", text))
+
+    return english_count > korean_count * 1.5 and english_count >= 30
+
+
+def translate_to_korean(text):
+    text = clean_space(text)
+
+    if not text:
+        return text
+
+    if not is_mostly_english(text):
+        return text
+
+    try:
+        from deep_translator import GoogleTranslator
+
+        # 너무 긴 본문 전체 번역은 실패 가능성이 높아서 앞부분 중심 번역
+        target = text[:1800]
+        translated = GoogleTranslator(source="auto", target="ko").translate(target)
+        return clean_space(translated)
+
+    except Exception as e:
+        print(f"[WARN] translation failed: {e}")
+        return text
+
+
+def remove_question_exclamation(text):
+    text = text.replace("?", "")
+    text = text.replace("!", "")
+    text = text.replace("？", "")
+    text = text.replace("！", "")
+    return clean_space(text)
+
+
+def normalize_content_for_dedupe(text):
+    text = strip_reporter_and_source(text)
+    text = re.sub(r"[^가-힣a-zA-Z0-9 ]", " ", text)
+    text = re.sub(r"\s+", " ", text).strip().lower()
+    return text
+
+
+def content_similarity(a, b):
+    a = normalize_content_for_dedupe(a)
+    b = normalize_content_for_dedupe(b)
+
+    if not a or not b:
+        return 0
+
+    # 너무 짧은 텍스트는 제목 유사도에 가까운 비교
+    if len(a) < 120 or len(b) < 120:
+        return SequenceMatcher(None, a, b).ratio()
+
+    def shingles(text, n=5):
+        words = text.split()
+        if len(words) < n:
+            return set(words)
+        return set(tuple(words[i:i+n]) for i in range(len(words) - n + 1))
+
+    a_set = shingles(a)
+    b_set = shingles(b)
+
+    if not a_set or not b_set:
+        return 0
+
+    return len(a_set & b_set) / len(a_set | b_set)
+
+
+def dedupe_by_content_keep_two(items, threshold=0.20, max_per_group=2):
+    groups = []
+
+    for item in items:
+        placed = False
+
+        for group in groups:
+            base = group[0]
+
+            title_similar = SequenceMatcher(
+                None,
+                normalize_title(item["title"]),
+                normalize_title(base["title"])
+            ).ratio() >= 0.68
+
+            body_similar = content_similarity(
+                item.get("dedupe_text", ""),
+                base.get("dedupe_text", "")
+            ) >= threshold
+
+            if title_similar or body_similar:
+                group.append(item)
+                placed = True
+                break
+
+        if not placed:
+            groups.append([item])
+
+    selected = []
+
+    for group in groups:
+        # 같은 내용 그룹 안에서는 본문 길이가 긴 기사 우선
+        group = sorted(
+            group,
+            key=lambda x: x.get("body_len", 0),
+            reverse=True
+        )
+
+        selected.extend(group[:max_per_group])
+
+    return selected
 
 def compact_ending(sentence):
     sentence = strip_reporter_and_source(sentence)
@@ -210,28 +324,54 @@ def compact_ending(sentence):
     return clean_space(sentence)
 
 
-def make_compact_summary(text, title="", max_len=230):
+def make_compact_summary(text, title="", min_len=100, max_len=200):
     text = strip_reporter_and_source(text)
+    text = translate_to_korean(text)
 
     if not text:
         text = title
 
-    # 첫 문단/두 번째 문단 느낌을 살리기 위해 앞쪽 문장 중심 사용
-    sentences = re.split(r"(?<=[.!?。！？다])\s+", text)
-    sentences = [strip_reporter_and_source(s) for s in sentences if len(strip_reporter_and_source(s)) >= 20]
+    # 첫 문단 혹은 둘째 문단 느낌을 살리기 위해 기사 앞부분 중심 사용
+    paragraphs = re.split(r"\n+|(?<=다\.)\s+", text)
+    paragraphs = [
+        strip_reporter_and_source(p)
+        for p in paragraphs
+        if len(strip_reporter_and_source(p)) >= 25
+    ]
+
+    source = " ".join(paragraphs[:2]) if paragraphs else text
+    source = strip_reporter_and_source(source)
+
+    sentences = re.split(r"(?<=[.!?。！？다])\s+", source)
+    sentences = [
+        strip_reporter_and_source(s)
+        for s in sentences
+        if len(strip_reporter_and_source(s)) >= 20
+    ]
 
     picked = []
 
     for s in sentences:
-        picked.append(compact_ending(s))
-        if len(picked) >= 2:
+        s = compact_ending(s)
+        s = remove_question_exclamation(s)
+
+        if not s:
+            continue
+
+        picked.append(s)
+
+        if len(" ".join(picked)) >= min_len or len(picked) >= 2:
             break
 
     if not picked:
-        picked = [compact_ending(text[:max_len])]
+        picked = [compact_ending(source[:max_len])]
 
     summary = " ".join(picked)
     summary = strip_reporter_and_source(summary)
+    summary = remove_question_exclamation(summary)
+
+    # 언론사명처럼 붙는 "- XXX" 제거
+    summary = re.sub(r"\s[-–]\s[가-힣A-Za-z0-9 .·&]+$", "", summary)
 
     if len(summary) > max_len:
         summary = summary[:max_len].rstrip()
@@ -302,16 +442,14 @@ def fetch_news():
             for item in items:
                 raw_title = clean_html(item.title.text if item.title else "")
                 title = strip_source_from_title(raw_title)
+                title = translate_to_korean(title)
+                title = remove_question_exclamation(title)
 
                 google_link = clean_html(item.link.text if item.link else "")
                 description = clean_html(item.description.text if item.description else "")
                 pub_date = clean_html(item.pubDate.text if item.pubDate else "")
 
                 if not title or not google_link:
-                    continue
-
-                if is_similar_title(title, seen_titles):
-                    stats["duplicate"] += 1
                     continue
 
                 body, real_link = get_article_body(google_link)
@@ -353,7 +491,9 @@ def fetch_news():
                     "summary": summary,
                     "published_ago": published_ago(pub_date),
                     "published_raw": pub_date,
-                    "published_ts": published_datetime(pub_date).timestamp()
+                    "published_ts": published_datetime(pub_date).timestamp(),
+                    "body_len": len(clean_space(summary_source)),
+                    "dedupe_text": summary_source[:2000]
                 })
 
                 stats["added"] += 1
