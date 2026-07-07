@@ -6,7 +6,7 @@ import warnings
 import requests
 from bs4 import BeautifulSoup, MarkupResemblesLocatorWarning
 from newspaper import Article
-from urllib.parse import quote, urlparse
+from urllib.parse import quote
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from difflib import SequenceMatcher
@@ -14,16 +14,20 @@ from difflib import SequenceMatcher
 warnings.filterwarnings("ignore", category=MarkupResemblesLocatorWarning)
 
 KEYWORDS = [
-    "반도체",
-    "삼성전자 반도체",
-    "SK하이닉스",
-    "HBM",
-    "DRAM",
-    "NAND",
-    "AI 반도체",
-    "파운드리",
-    "TSMC",
-    "마이크론"
+    "반도체", "삼성전자 반도체", "SK하이닉스", "HBM",
+    "DRAM", "NAND", "AI 반도체", "파운드리",
+    "TSMC", "마이크론"
+]
+
+STOCK_KEYWORDS = [
+    "주가", "급등", "급락", "상승", "하락", "강세", "약세",
+    "신고가", "순매수", "순매도", "특징주", "장중", "마감",
+    "코스피", "코스닥", "증시", "시총", "외국인"
+]
+
+VIDEO_KEYWORDS = [
+    "영상", "동영상", "유튜브", "youtube", "youtu.be",
+    "shorts", "watch?v=", "tv.naver", "네이버tv"
 ]
 
 HEADERS = {
@@ -37,32 +41,36 @@ def clean_text(text):
     return re.sub(r"\s+", " ", text).strip()
 
 
-def summarize_text(text, min_len=100, max_len=200):
-    text = clean_text(text)
+def is_video_article(title, url, text):
+    check = f"{title} {url} {text[:500]}".lower()
+    return any(word.lower() in check for word in VIDEO_KEYWORDS)
 
-    if len(text) <= max_len:
-        return text
 
-    sentences = re.split(r"(?<=[.!?。！？다])\s+", text)
-    summary = ""
+def is_stock_news(title, text):
+    check = f"{title} {text[:500]}"
+    return any(word in check for word in STOCK_KEYWORDS)
 
-    for sentence in sentences:
-        sentence = sentence.strip()
-        if not sentence:
-            continue
 
-        if len(summary) + len(sentence) <= max_len:
-            summary += sentence + " "
+def normalize_title(title):
+    title = re.sub(r"\[[^\]]+\]|\([^\)]+\)", "", title)
+    title = re.sub(r"[^가-힣a-zA-Z0-9 ]", "", title)
+    return re.sub(r"\s+", " ", title).strip().lower()
 
-        if len(summary) >= min_len:
-            break
 
-    summary = clean_text(summary)
+def is_similar_title(title, existing_titles, threshold=0.68):
+    title_norm = normalize_title(title)
+    for old in existing_titles:
+        old_norm = normalize_title(old)
+        if SequenceMatcher(None, title_norm, old_norm).ratio() >= threshold:
+            return True
+    return False
 
-    if len(summary) < min_len:
-        summary = text[:max_len]
 
-    return summary[:max_len].strip()
+def published_datetime(pub_date):
+    try:
+        return parsedate_to_datetime(pub_date)
+    except Exception:
+        return datetime.now(timezone.utc)
 
 
 def published_ago(pub_date):
@@ -73,7 +81,6 @@ def published_ago(pub_date):
 
         minutes = int(diff.total_seconds() // 60)
         hours = int(diff.total_seconds() // 3600)
-        days = diff.days
 
         if minutes < 1:
             return "방금 전"
@@ -82,39 +89,75 @@ def published_ago(pub_date):
         elif hours < 24:
             return f"{hours}시간 전"
         else:
-            return f"{days}일 전"
+            return f"{diff.days}일 전"
     except Exception:
         return "시간 정보 없음"
 
 
-def normalize_title(title):
-    title = re.sub(r"\s+", " ", title)
-    title = re.sub(r"\[[^\]]+\]|\([^\)]+\)", "", title)
-    title = re.sub(r"[^가-힣a-zA-Z0-9 ]", "", title)
-    return title.strip().lower()
+def short_link(url):
+    url = re.sub(r"^https?://", "", url)
+    url = re.sub(r"^www\.", "", url)
+    return url[:55] + "..." if len(url) > 55 else url
 
 
-def is_similar_title(title, existing_titles, threshold=0.72):
-    title_norm = normalize_title(title)
+def make_compact_summary(text, title="", max_len=230):
+    text = clean_text(text)
 
-    for old in existing_titles:
-        old_norm = normalize_title(old)
-        ratio = SequenceMatcher(None, title_norm, old_norm).ratio()
+    paragraphs = re.split(r"\n+|(?<=다\.)\s+", text)
+    paragraphs = [clean_text(p) for p in paragraphs if len(clean_text(p)) >= 30]
 
-        if ratio >= threshold:
-            return True
+    source = " ".join(paragraphs[:2]) if paragraphs else text
+    source = clean_text(source)
 
-    return False
+    if not source:
+        source = title
+
+    source = re.sub(r"[가-힣]{2,4}\s?기자", "", source)
+    source = re.sub(r"^\[[^\]]+\]\s*", "", source)
+    source = re.sub(r"-\s?[가-힣A-Za-z0-9 .]+$", "", source)
+    source = re.sub(r"\s*-\s*[가-힣A-Za-z0-9 .]+$", "", source)
+
+    sentences = re.split(r"(?<=[.!?。！？다])\s+", source)
+
+    picked = []
+    for s in sentences:
+        s = clean_text(s)
+        if not s:
+            continue
+        picked.append(s)
+        if len(" ".join(picked)) >= 120 or len(picked) >= 2:
+            break
+
+    summary = clean_text(" ".join(picked))
+
+    if len(summary) < 80:
+        summary = source[:max_len]
+
+    replace_map = {
+        "했습니다": "진행",
+        "했다": "진행",
+        "밝혔다": "발표",
+        "전했다": "전언",
+        "설명했다": "설명",
+        "강조했다": "강조",
+        "계획이다": "계획",
+        "예정이다": "예정",
+        "전망된다": "전망",
+        "예상된다": "예상",
+        "것으로 보인다": "전망",
+        "것으로 예상된다": "예상",
+        "것으로 전망된다": "전망"
+    }
+
+    for old, new in replace_map.items():
+        summary = summary.replace(old, new)
+
+    return summary[:max_len].strip()
 
 
 def resolve_url(url):
     try:
-        response = requests.get(
-            url,
-            headers=HEADERS,
-            timeout=10,
-            allow_redirects=True
-        )
+        response = requests.get(url, headers=HEADERS, timeout=10, allow_redirects=True)
         return response.url
     except Exception:
         return url
@@ -123,14 +166,10 @@ def resolve_url(url):
 def get_article_body(url):
     try:
         real_url = resolve_url(url)
-
         article = Article(real_url, language="ko")
         article.download()
         article.parse()
-
-        body = clean_text(article.text)
-        return body, real_url
-
+        return clean_text(article.text), real_url
     except Exception:
         return "", url
 
@@ -150,9 +189,7 @@ def fetch_news():
         try:
             res = requests.get(rss_url, headers=HEADERS, timeout=15)
             soup = BeautifulSoup(res.content, "xml")
-
             items = soup.find_all("item")
-            print(f"[{keyword}] RSS items: {len(items)}")
 
             for item in items:
                 title = clean_text(item.title.text if item.title else "")
@@ -167,40 +204,46 @@ def fetch_news():
                     continue
 
                 body, real_link = get_article_body(google_link)
-
                 final_link = real_link or google_link
+                summary_source = body if len(body) >= 100 else description
 
                 if final_link in seen_links:
                     continue
 
+                if is_video_article(title, final_link, summary_source):
+                    continue
+
+                if is_stock_news(title, summary_source):
+                    continue
+
+                if len(summary_source) < 100:
+                    continue
+
+                summary = make_compact_summary(summary_source, title)
+
                 seen_links.add(final_link)
                 seen_titles.append(title)
 
-                if len(body) >= 120:
-                    summary = summarize_text(body, 100, 200)
-                elif len(description) >= 50:
-                    summary = summarize_text(description, 100, 200)
-                else:
-                    summary = summarize_text(title, 60, 200)
-
                 results.append({
-                    "keyword": keyword,
                     "title": title,
                     "link": final_link,
+                    "short_link": short_link(final_link),
                     "summary": summary,
                     "published_ago": published_ago(pub_date),
-                    "published_raw": pub_date
+                    "published_raw": pub_date,
+                    "published_ts": published_datetime(pub_date).timestamp()
                 })
 
-                print(f"Added: {title[:40]}")
-
-                time.sleep(0.3)
-
-                if len(results) >= 20:
-                    return results
+                time.sleep(0.25)
 
         except Exception as e:
             print(f"[ERROR] {keyword}: {e}")
+
+    results = sorted(results, key=lambda x: x.get("published_ts", 0), reverse=True)
+    results = results[:20]
+
+    for item in results:
+        item.pop("published_ts", None)
 
     return results
 
