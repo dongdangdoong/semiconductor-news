@@ -1,5 +1,7 @@
 flask
 requests
 beautifulsoup4
+newspaper3k
 lxml
+lxml_html_clean
 gunicorn
