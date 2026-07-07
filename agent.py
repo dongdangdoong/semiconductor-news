@@ -56,7 +56,19 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/138.0 Safari/537.36",
     "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"
 }
+SUMMARY_PRIORITY_KEYWORDS = [
+    "삼성전자", "SK하이닉스", "TSMC", "마이크론", "엔비디아", "브로드컴",
+    "HBM", "DRAM", "D램", "NAND", "낸드", "DDR", "LPDDR",
+    "파운드리", "메모리", "AI", "ASIC", "GPU", "서버",
+    "수요", "공급", "가격", "투자", "증설", "양산", "공정",
+    "2나노", "3나노", "1나노", "EUV", "패키징", "실적"
+]
 
+SUMMARY_STOPWORDS = {
+    "그리고", "하지만", "그러나", "또한", "이번", "관련", "통해", "대해",
+    "위해", "있는", "없는", "지난", "최근", "이날", "올해", "내년",
+    "기자", "뉴스", "사진", "제공", "밝혔다", "전했다", "설명했다"
+}
 
 def clean_html(text):
     text = BeautifulSoup(text or "", "html.parser").get_text(" ")
@@ -147,7 +159,20 @@ def published_ago(pub_date):
             return f"{diff.days}일 전"
     except Exception:
         return "시간 정보 없음"
+def is_within_recent_hours(pub_date, hours=24):
+    try:
+        published = parsedate_to_datetime(pub_date)
 
+        if published.tzinfo is None:
+            published = published.replace(tzinfo=timezone.utc)
+
+        now = datetime.now(timezone.utc)
+        diff_seconds = (now - published).total_seconds()
+
+        return 0 <= diff_seconds <= hours * 3600
+
+    except Exception:
+        return False
 
 def short_link(url):
     try:
@@ -324,53 +349,143 @@ def compact_ending(sentence):
     return clean_space(sentence)
 
 
+def split_sentences_for_summary(text):
+    text = strip_reporter_and_source(text)
+    text = re.sub(r"\s+", " ", text).strip()
+
+    sentences = re.split(r"(?<=[.!?。！？다])\s+", text)
+
+    cleaned = []
+    for s in sentences:
+        s = strip_reporter_and_source(s)
+        s = remove_question_exclamation(s)
+
+        if len(s) < 25:
+            continue
+
+        # 너무 긴 문장은 앞부분만 사용
+        if len(s) > 180:
+            s = s[:180].rstrip()
+
+        cleaned.append(s)
+
+    return cleaned
+
+
+def extract_summary_keywords(text, top_n=12):
+    text = strip_reporter_and_source(text)
+
+    words = re.findall(r"[가-힣A-Za-z0-9]+", text)
+    counter = {}
+
+    for word in words:
+        word = word.strip()
+
+        if len(word) < 2:
+            continue
+
+        if word in SUMMARY_STOPWORDS:
+            continue
+
+        counter[word] = counter.get(word, 0) + 1
+
+    ranked = sorted(counter.items(), key=lambda x: x[1], reverse=True)
+
+    return [word for word, _ in ranked[:top_n]]
+
+
+def score_summary_sentence(sentence, keywords, index):
+    score = 0
+    lower_sentence = sentence.lower()
+
+    for keyword in keywords:
+        if keyword.lower() in lower_sentence:
+            score += 2
+
+    for keyword in SUMMARY_PRIORITY_KEYWORDS:
+        if keyword.lower() in lower_sentence:
+            score += 3
+
+    # 숫자, 기간, 금액, 비율이 있는 문장은 정보성이 높음
+    if re.search(r"\d", sentence):
+        score += 2
+
+    if any(unit in sentence for unit in ["조", "억", "%", "달러", "원", "년", "분기", "월", "나노"]):
+        score += 2
+
+    # 너무 짧거나 너무 긴 문장 감점
+    if 45 <= len(sentence) <= 150:
+        score += 2
+    elif len(sentence) < 35:
+        score -= 1
+    elif len(sentence) > 170:
+        score -= 1
+
+    # 앞 문단에 약간 가중치만 부여. 단, 첫째/둘째 문단 고정 요약은 아님
+    score += max(0, 2 - index * 0.08)
+
+    return score
+
+
 def make_compact_summary(text, title="", min_len=100, max_len=200):
+    # headline은 요약에 사용하지 않음. 본문/description만 사용
     text = strip_reporter_and_source(text)
     text = translate_to_korean(text)
 
     if not text:
-        text = title
+        return ""
 
-    # 첫 문단 혹은 둘째 문단 느낌을 살리기 위해 기사 앞부분 중심 사용
-    paragraphs = re.split(r"\n+|(?<=다\.)\s+", text)
-    paragraphs = [
-        strip_reporter_and_source(p)
-        for p in paragraphs
-        if len(strip_reporter_and_source(p)) >= 25
-    ]
+    sentences = split_sentences_for_summary(text)
 
-    source = " ".join(paragraphs[:2]) if paragraphs else text
-    source = strip_reporter_and_source(source)
+    if not sentences:
+        summary = text[:max_len].rstrip()
+        summary = compact_ending(summary)
+        summary = remove_question_exclamation(summary)
+        return summary
 
-    sentences = re.split(r"(?<=[.!?。！？다])\s+", source)
-    sentences = [
-        strip_reporter_and_source(s)
-        for s in sentences
-        if len(strip_reporter_and_source(s)) >= 20
-    ]
+    keywords = extract_summary_keywords(text)
+
+    ranked = []
+    for idx, sentence in enumerate(sentences[:35]):
+        ranked.append((idx, sentence, score_summary_sentence(sentence, keywords, idx)))
+
+    ranked = sorted(ranked, key=lambda x: x[2], reverse=True)
 
     picked = []
 
-    for s in sentences:
-        s = compact_ending(s)
-        s = remove_question_exclamation(s)
+    for idx, sentence, _ in ranked:
+        sentence = compact_ending(sentence)
+        sentence = remove_question_exclamation(sentence)
 
-        if not s:
+        if not sentence:
             continue
 
-        picked.append(s)
+        # 거의 같은 문장 반복 방지
+        duplicate = False
+        for _, old_sentence in picked:
+            if SequenceMatcher(None, normalize_content_for_dedupe(sentence), normalize_content_for_dedupe(old_sentence)).ratio() >= 0.72:
+                duplicate = True
+                break
 
-        if len(" ".join(picked)) >= min_len or len(picked) >= 2:
+        if duplicate:
+            continue
+
+        picked.append((idx, sentence))
+
+        joined = " ".join([s for _, s in sorted(picked, key=lambda x: x[0])])
+        if len(joined) >= min_len or len(picked) >= 2:
             break
 
-    if not picked:
-        picked = [compact_ending(source[:max_len])]
+    picked = sorted(picked, key=lambda x: x[0])
+    summary = " ".join([s for _, s in picked])
 
-    summary = " ".join(picked)
+    if not summary:
+        summary = compact_ending(text[:max_len])
+
     summary = strip_reporter_and_source(summary)
     summary = remove_question_exclamation(summary)
 
-    # 언론사명처럼 붙는 "- XXX" 제거
+    # 요약문 끝의 "- 언론사" 제거
     summary = re.sub(r"\s[-–]\s[가-힣A-Za-z0-9 .·&]+$", "", summary)
 
     if len(summary) > max_len:
@@ -448,6 +563,10 @@ def fetch_news():
                 google_link = clean_html(item.link.text if item.link else "")
                 description = clean_html(item.description.text if item.description else "")
                 pub_date = clean_html(item.pubDate.text if item.pubDate else "")
+                
+                if not is_within_recent_hours(pub_date, 24):
+                    stats["old"] = stats.get("old", 0) + 1
+                    continue
 
                 if not title or not google_link:
                     continue
@@ -479,7 +598,7 @@ def fetch_news():
                     stats["stock"] += 1
                     continue
 
-                summary = make_compact_summary(summary_source, title)
+                summary = make_compact_summary(summary_source)
 
                 seen_links.add(final_link)
                 seen_titles.append(title)
