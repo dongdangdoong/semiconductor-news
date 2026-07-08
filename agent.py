@@ -76,7 +76,19 @@ SEMICON_KEYWORDS = [
     "NAND", "낸드", "메모리", "파운드리", "TSMC", "마이크론",
     "AI 반도체", "AI칩", "AI 칩", "칩", "웨이퍼", "EUV", "패키징",
     "2나노", "3나노", "1나노", "팹", "공정", "양산", "DDR", "LPDDR",
-    "낸드플래시", "서버", "GPU", "ASIC"
+    "낸드플래시", "서버", "GPU", "ASIC", "SSD", "기업용 SSD"
+]
+
+HARD_SEMICON_KEYWORDS = [
+    "반도체", "HBM", "DRAM", "D램", "NAND", "낸드", "메모리",
+    "파운드리", "TSMC", "마이크론", "웨이퍼", "EUV", "패키징",
+    "나노", "공정", "팹", "양산", "AI 반도체", "AI칩", "AI 칩",
+    "NPU", "GPU", "ASIC", "DDR", "LPDDR", "SSD", "기업용 SSD",
+    "낸드플래시", "HBM4", "HBM3E", "CXL", "AP", "엑시노스"
+]
+
+COMPANY_KEYWORDS = [
+    "삼성전자", "SK하이닉스", "엔비디아", "브로드컴", "TSMC", "마이크론"
 ]
 
 DIRECT_SOURCE_URLS = [
@@ -184,10 +196,7 @@ def clean_space(text):
 def strip_source_from_title(title):
     title = clean_html(title)
 
-    # Google News 제목 뒤의 " - 언론사" 제거
     title = re.sub(r"\s[-–]\s[^-–]{2,50}$", "", title)
-
-    # 말머리 제거
     title = re.sub(r"^\[[^\]]+\]\s*", "", title)
     title = re.sub(r"^\([^\)]+\)\s*", "", title)
 
@@ -320,7 +329,6 @@ def translate_to_korean(text):
     try:
         from deep_translator import GoogleTranslator
 
-        # 너무 긴 본문 전체 번역은 실패 가능성이 높아서 앞부분 중심 번역
         target = text[:1800]
         translated = GoogleTranslator(source="auto", target="ko").translate(target)
         return clean_space(translated)
@@ -352,7 +360,6 @@ def content_similarity(a, b):
     if not a or not b:
         return 0
 
-    # 너무 짧은 텍스트는 제목 유사도에 가까운 비교
     if len(a) < 120 or len(b) < 120:
         return SequenceMatcher(None, a, b).ratio()
 
@@ -402,7 +409,6 @@ def dedupe_by_content_keep_two(items, threshold=0.20, max_per_group=2):
     selected = []
 
     for group in groups:
-        # 같은 내용 그룹 안에서는 본문 길이가 긴 기사 우선
         group = sorted(
             group,
             key=lambda x: x.get("body_len", 0),
@@ -472,7 +478,6 @@ def split_sentences_for_summary(text):
         if len(s) < 25:
             continue
 
-        # 너무 긴 문장은 앞부분만 사용
         if len(s) > 180:
             s = s[:180].rstrip()
 
@@ -515,14 +520,12 @@ def score_summary_sentence(sentence, keywords, index):
         if keyword.lower() in lower_sentence:
             score += 3
 
-    # 숫자, 기간, 금액, 비율이 있는 문장은 정보성이 높음
     if re.search(r"\d", sentence):
         score += 2
 
     if any(unit in sentence for unit in ["조", "억", "%", "달러", "원", "년", "분기", "월", "나노"]):
         score += 2
 
-    # 너무 짧거나 너무 긴 문장 감점
     if 45 <= len(sentence) <= 150:
         score += 2
     elif len(sentence) < 35:
@@ -530,14 +533,12 @@ def score_summary_sentence(sentence, keywords, index):
     elif len(sentence) > 170:
         score -= 1
 
-    # 앞 문장에 약간 가중치만 부여. 단, 첫째/둘째 문단 고정 요약은 아님
     score += max(0, 2 - index * 0.08)
 
     return score
 
 
 def make_compact_summary(text, title="", min_len=100, max_len=200):
-    # headline은 요약에 사용하지 않음. 본문/description만 사용
     text = strip_reporter_and_source(text)
     text = translate_to_korean(text)
 
@@ -569,7 +570,6 @@ def make_compact_summary(text, title="", min_len=100, max_len=200):
         if not sentence:
             continue
 
-        # 거의 같은 문장 반복 방지
         duplicate = False
         for _, old_sentence in picked:
             if SequenceMatcher(
@@ -598,13 +598,114 @@ def make_compact_summary(text, title="", min_len=100, max_len=200):
     summary = strip_reporter_and_source(summary)
     summary = remove_question_exclamation(summary)
 
-    # 요약문 끝의 "- 언론사" 제거
     summary = re.sub(r"\s[-–]\s[가-힣A-Za-z0-9 .·&]+$", "", summary)
 
     if len(summary) > max_len:
         summary = summary[:max_len].rstrip()
 
     return summary
+
+
+def clean_direct_title(source_name, anchor_tag):
+    title_candidates = []
+
+    title_attr = clean_space(anchor_tag.get("title", ""))
+    if title_attr:
+        title_candidates.append(title_attr)
+
+    aria_label = clean_space(anchor_tag.get("aria-label", ""))
+    if aria_label:
+        title_candidates.append(aria_label)
+
+    img = anchor_tag.select_one("img")
+    if img:
+        alt = clean_space(img.get("alt", ""))
+        if alt:
+            title_candidates.append(alt)
+
+    for selector in [
+        "h1", "h2", "h3", "h4",
+        "strong", "b",
+        ".title", ".tit", ".headline", ".subject", ".news_tit", ".txt"
+    ]:
+        node = anchor_tag.select_one(selector)
+        if node:
+            txt = clean_space(node.get_text(" "))
+            if txt:
+                title_candidates.append(txt)
+
+    strings = [clean_space(s) for s in anchor_tag.stripped_strings]
+    strings = [s for s in strings if len(s) >= 8]
+
+    if strings:
+        # 지디넷·이데일리·한겨레 등에서 a 태그 안에 제목+요약이 같이 들어오는 경우가 있어
+        # 가장 제목처럼 보이는 짧은 문자열을 우선 사용
+        strings_sorted = sorted(strings, key=lambda x: (len(x) > 90, len(x)))
+        title_candidates.extend(strings_sorted)
+
+    raw_text = clean_space(anchor_tag.get_text(" "))
+    if raw_text:
+        title_candidates.append(raw_text)
+
+    cleaned_candidates = []
+
+    for candidate in title_candidates:
+        candidate = strip_source_from_title(candidate)
+        candidate = remove_question_exclamation(candidate)
+        candidate = re.sub(r"\s+", " ", candidate).strip()
+
+        # 제목 뒤에 본문 첫 문장이 붙는 경우를 완화
+        # 너무 긴 경우 첫 문장/첫 절 중심으로 자름
+        if len(candidate) > 95:
+            split_parts = re.split(r"(?<=다)\s+|(?<=요)\s+|(?<=음)\s+|(?<=다\.)\s+|[｜|]", candidate)
+            split_parts = [clean_space(p) for p in split_parts if len(clean_space(p)) >= 8]
+            if split_parts:
+                candidate = split_parts[0]
+
+        # 너무 짧거나 메뉴성 문구 제거
+        if len(candidate) < 8:
+            continue
+
+        bad_title_words = [
+            "로그인", "회원가입", "구독", "검색", "메뉴", "전체기사",
+            "많이 본 뉴스", "관련기사", "공유", "댓글", "이전", "다음"
+        ]
+
+        if any(bad in candidate for bad in bad_title_words):
+            continue
+
+        cleaned_candidates.append(candidate)
+
+    if not cleaned_candidates:
+        return ""
+
+    # 너무 긴 후보보다 헤드라인 길이에 가까운 후보 우선
+    cleaned_candidates = sorted(
+        cleaned_candidates,
+        key=lambda x: (
+            len(x) > 90,
+            len(x) < 12,
+            abs(len(x) - 42)
+        )
+    )
+
+    return cleaned_candidates[0]
+
+
+def normalize_article_title(title, fallback_title=""):
+    title = title or fallback_title or ""
+    title = strip_source_from_title(title)
+    title = translate_to_korean(title)
+    title = remove_question_exclamation(title)
+    title = clean_space(title)
+
+    if len(title) > 95:
+        split_parts = re.split(r"(?<=다)\s+|(?<=요)\s+|(?<=음)\s+|[｜|]", title)
+        split_parts = [clean_space(p) for p in split_parts if len(clean_space(p)) >= 8]
+        if split_parts:
+            title = split_parts[0]
+
+    return title
 
 
 def resolve_url(url):
@@ -633,10 +734,12 @@ def get_article_body(url):
         body = re.sub(r"\n{2,}", "\n", body)
         body = strip_reporter_and_source(body)
 
-        return body, real_url
+        article_title = normalize_article_title(article.title or "")
+
+        return body, real_url, article_title
 
     except Exception:
-        return "", url
+        return "", url, ""
 
 
 def looks_like_article_url(url):
@@ -667,7 +770,6 @@ def looks_like_article_url(url):
     if any(good in full for good in good_patterns):
         return True
 
-    # 숫자형 기사 ID가 포함된 URL은 기사일 가능성이 높음
     if re.search(r"\d{5,}", url):
         return True
 
@@ -675,11 +777,26 @@ def looks_like_article_url(url):
 
 
 def is_semicon_related(title, url="", text=""):
-    check = f"{title} {url} {text[:700]}".lower()
+    check_title = f"{title}".lower()
+    check_body = f"{text[:1000]}".lower()
+    check_all = f"{title} {text[:1000]}".lower()
 
-    for keyword in SEMICON_KEYWORDS:
-        if keyword.lower() in check:
+    # 1) 제목에 직접 반도체 키워드가 있으면 통과
+    for keyword in HARD_SEMICON_KEYWORDS:
+        if keyword.lower() in check_title:
             return True
+
+    # 2) 본문 앞부분에 직접 반도체 키워드가 있으면 통과
+    for keyword in HARD_SEMICON_KEYWORDS:
+        if keyword.lower() in check_body:
+            return True
+
+    # 3) 회사명만으로는 부족. 회사명 + 반도체 맥락 단어가 같이 있을 때만 통과
+    has_company = any(company.lower() in check_all for company in COMPANY_KEYWORDS)
+    has_context = any(keyword.lower() in check_all for keyword in HARD_SEMICON_KEYWORDS)
+
+    if has_company and has_context:
+        return True
 
     return False
 
@@ -707,7 +824,7 @@ def collect_direct_source_candidates(max_per_source=10):
                     if source_count >= max_per_source:
                         break
 
-                    title = clean_space(a.get_text(" ") or a.get("title", ""))
+                    title = clean_direct_title(source_name, a)
                     href = a.get("href", "")
 
                     if not href:
@@ -724,11 +841,9 @@ def collect_direct_source_candidates(max_per_source=10):
                     if len(title) < 8:
                         continue
 
-                    title = strip_source_from_title(title)
-                    title = translate_to_korean(title)
-                    title = remove_question_exclamation(title)
-
-                    if not is_semicon_related(title, article_url):
+                    # 후보 단계에서는 URL을 판단에 넣지 않고 제목만 봄
+                    # URL의 electronics, industry 등으로 인한 오탐 방지
+                    if not is_semicon_related(title, "", ""):
                         continue
 
                     seen.add(article_url)
@@ -799,21 +914,22 @@ def fetch_news():
                 if not title or not google_link:
                     continue
 
-                body, real_link = get_article_body(google_link)
+                body, real_link, article_title = get_article_body(google_link)
                 final_link = real_link or google_link
+
+                if article_title and len(article_title) >= 8:
+                    title = article_title
 
                 if final_link in seen_links:
                     stats["duplicate"] += 1
                     continue
 
-                # 본문 추출 실패 시 RSS 설명문으로 대체
                 if len(clean_space(body)) >= 100:
                     summary_source = body
                 else:
                     summary_source = description
                     stats["body_fallback"] += 1
 
-                # 그래도 100자 미만이면 제외
                 if len(clean_space(summary_source)) < 100:
                     stats["too_short"] += 1
                     continue
@@ -867,8 +983,14 @@ def fetch_news():
                 stats["duplicate"] += 1
                 continue
 
-            body, real_link = get_article_body(final_link)
+            body, real_link, article_title = get_article_body(final_link)
             final_link = real_link or final_link
+
+            # 목록 페이지 제목에 본문 일부가 섞이는 경우 기사 페이지의 실제 제목으로 교체
+            if article_title and len(article_title) >= 8:
+                title = article_title
+            else:
+                title = normalize_article_title(title)
 
             if final_link in seen_links:
                 stats["duplicate"] += 1
@@ -894,17 +1016,17 @@ def fetch_news():
             seen_links.add(final_link)
             seen_titles.append(title)
 
-            # 직접 크롤링은 언론사별 발행시간 selector가 없으므로 현재 시각으로 처리
-            now_ts = datetime.now(timezone.utc).timestamp()
+            # 직접 크롤링은 발행시간을 정확히 못 잡으므로 Google RSS 최신 기사보다 뒤로 배치
+            direct_ts = datetime.now(timezone.utc).timestamp() - 23 * 3600
 
             results.append({
                 "title": title,
                 "link": final_link,
                 "short_link": short_link(final_link),
                 "summary": summary,
-                "published_ago": "방금 전",
+                "published_ago": "24시간 내",
                 "published_raw": "",
-                "published_ts": now_ts,
+                "published_ts": direct_ts,
                 "body_len": len(clean_space(body)),
                 "dedupe_text": body[:2000]
             })
@@ -924,7 +1046,7 @@ def fetch_news():
     # 최신순 정렬
     results = sorted(results, key=lambda x: x.get("published_ts", 0), reverse=True)
 
-    # 최종 30개
+    # 최종 30개 유지
     results = results[:30]
 
     for item in results:
