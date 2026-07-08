@@ -815,7 +815,6 @@ def looks_like_article_url(url):
 
 
 def is_semicon_related(title, url="", text=""):
-    def is_semicon_related(title, url="", text=""):
     title_text = clean_space(title)
     body_text = clean_space(text[:1200])
 
@@ -838,14 +837,12 @@ def is_semicon_related(title, url="", text=""):
         if keyword.lower() in check_all
     ]
 
-    # 1) 제목에 강한 반도체 키워드가 있으면 우선 통과
-    # 예: HBM, 파운드리, DRAM, NAND, AI 반도체, 반도체 등
+    # 1) 제목에 강한 반도체 키워드가 있으면 통과
     if hard_hits_title:
         return True
 
     # 2) 타 산업 키워드가 있고, 본문 반도체 키워드가 약하면 제외
-    # 예: LG엔솔 ESS, 로봇 자동화, JBL 스피커 등
-    if non_semicon_hits and len(hard_hits_body) < 2:
+    if non_semicon_hits and len(set(hard_hits_body)) < 2:
         return False
 
     # 3) 본문 앞부분에 강한 반도체 키워드가 2개 이상 있으면 통과
@@ -853,7 +850,6 @@ def is_semicon_related(title, url="", text=""):
         return True
 
     # 4) 회사명만으로는 통과 불가
-    # 삼성전자/SK하이닉스/엔비디아 등이 있어도 반도체 맥락이 같이 있어야 함
     has_company = any(company.lower() in check_all for company in COMPANY_KEYWORDS)
     has_semicon_context = len(set(hard_hits_body)) >= 1
 
