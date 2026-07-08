@@ -225,7 +225,37 @@ def is_stock_news(title, text):
     check = f"{title} {text[:800]}"
     return any(word in check for word in STOCK_KEYWORDS)
 
+def is_bad_extracted_title(title):
+    title = clean_space(title)
 
+    if not title:
+        return True
+
+    bad_titles = [
+        "Google 뉴스",
+        "Google News",
+        "뉴스",
+        "IT세상을 바꾸는 힘 지디넷코리아",
+        "지디넷코리아",
+        "ZDNet Korea",
+        "한겨레",
+        "이데일리",
+        "매일경제",
+        "한국경제"
+    ]
+
+    if title in bad_titles:
+        return True
+
+    if len(title) < 8:
+        return True
+
+    # 사이트명/슬로건처럼 보이는 제목 제거
+    if len(title) <= 20 and any(word in title for word in ["뉴스", "코리아", "신문", "일보"]):
+        return True
+
+    return False
+    
 def normalize_title(title):
     title = strip_source_from_title(title)
     title = re.sub(r"\[[^\]]+\]|\([^\)]+\)", "", title)
@@ -917,7 +947,7 @@ def fetch_news():
                 body, real_link, article_title = get_article_body(google_link)
                 final_link = real_link or google_link
 
-                if article_title and len(article_title) >= 8:
+                if article_title and not is_bad_extracted_title(article_title):
                     title = article_title
 
                 if final_link in seen_links:
@@ -987,7 +1017,7 @@ def fetch_news():
             final_link = real_link or final_link
 
             # 목록 페이지 제목에 본문 일부가 섞이는 경우 기사 페이지의 실제 제목으로 교체
-            if article_title and len(article_title) >= 8:
+            if article_title and not is_bad_extracted_title(article_title):
                 title = article_title
             else:
                 title = normalize_article_title(title)
@@ -1024,7 +1054,7 @@ def fetch_news():
                 "link": final_link,
                 "short_link": short_link(final_link),
                 "summary": summary,
-                "published_ago": "24시간 내",
+                "published_ago": "23시간 전",
                 "published_raw": "",
                 "published_ts": direct_ts,
                 "body_len": len(clean_space(body)),
