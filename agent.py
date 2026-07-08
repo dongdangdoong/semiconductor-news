@@ -86,7 +86,15 @@ HARD_SEMICON_KEYWORDS = [
     "NPU", "GPU", "ASIC", "DDR", "LPDDR", "SSD", "기업용 SSD",
     "낸드플래시", "HBM4", "HBM3E", "CXL", "AP", "엑시노스"
 ]
-
+NON_SEMICON_INDUSTRY_KEYWORDS = [
+    "배터리", "이차전지", "2차전지", "ESS", "LFP", "양극재", "음극재",
+    "LG엔솔", "LG에너지솔루션", "전기차", "완성차", "GM", "테슬라",
+    "로봇", "로보틱스", "나우로보틱스", "스마트팩토리",
+    "화장품", "뷰티", "K-뷰티", "AHC", "APR",
+    "스피커", "블루투스", "JBL", "하만",
+    "바이오", "제약", "헬스케어",
+    "축구", "야구", "월드컵", "감독", "선수"
+]
 COMPANY_KEYWORDS = [
     "삼성전자", "SK하이닉스", "엔비디아", "브로드컴", "TSMC", "마이크론"
 ]
@@ -807,25 +815,49 @@ def looks_like_article_url(url):
 
 
 def is_semicon_related(title, url="", text=""):
-    check_title = f"{title}".lower()
-    check_body = f"{text[:1000]}".lower()
-    check_all = f"{title} {text[:1000]}".lower()
+    def is_semicon_related(title, url="", text=""):
+    title_text = clean_space(title)
+    body_text = clean_space(text[:1200])
 
-    # 1) 제목에 직접 반도체 키워드가 있으면 통과
-    for keyword in HARD_SEMICON_KEYWORDS:
-        if keyword.lower() in check_title:
-            return True
+    check_title = title_text.lower()
+    check_body = body_text.lower()
+    check_all = f"{title_text} {body_text}".lower()
 
-    # 2) 본문 앞부분에 직접 반도체 키워드가 있으면 통과
-    for keyword in HARD_SEMICON_KEYWORDS:
-        if keyword.lower() in check_body:
-            return True
+    hard_hits_title = [
+        keyword for keyword in HARD_SEMICON_KEYWORDS
+        if keyword.lower() in check_title
+    ]
 
-    # 3) 회사명만으로는 부족. 회사명 + 반도체 맥락 단어가 같이 있을 때만 통과
+    hard_hits_body = [
+        keyword for keyword in HARD_SEMICON_KEYWORDS
+        if keyword.lower() in check_body
+    ]
+
+    non_semicon_hits = [
+        keyword for keyword in NON_SEMICON_INDUSTRY_KEYWORDS
+        if keyword.lower() in check_all
+    ]
+
+    # 1) 제목에 강한 반도체 키워드가 있으면 우선 통과
+    # 예: HBM, 파운드리, DRAM, NAND, AI 반도체, 반도체 등
+    if hard_hits_title:
+        return True
+
+    # 2) 타 산업 키워드가 있고, 본문 반도체 키워드가 약하면 제외
+    # 예: LG엔솔 ESS, 로봇 자동화, JBL 스피커 등
+    if non_semicon_hits and len(hard_hits_body) < 2:
+        return False
+
+    # 3) 본문 앞부분에 강한 반도체 키워드가 2개 이상 있으면 통과
+    if len(set(hard_hits_body)) >= 2:
+        return True
+
+    # 4) 회사명만으로는 통과 불가
+    # 삼성전자/SK하이닉스/엔비디아 등이 있어도 반도체 맥락이 같이 있어야 함
     has_company = any(company.lower() in check_all for company in COMPANY_KEYWORDS)
-    has_context = any(keyword.lower() in check_all for keyword in HARD_SEMICON_KEYWORDS)
+    has_semicon_context = len(set(hard_hits_body)) >= 1
 
-    if has_company and has_context:
+    if has_company and has_semicon_context and not non_semicon_hits:
         return True
 
     return False
@@ -871,6 +903,10 @@ def collect_direct_source_candidates(max_per_source=10):
                     if len(title) < 8:
                         continue
 
+                    # 직접 크롤링 후보 단계에서는 제목에 강한 반도체 키워드가 없으면 제외
+                    if not any(keyword.lower() in title.lower() for keyword in HARD_SEMICON_KEYWORDS):
+                        continue
+                        
                     # 후보 단계에서는 URL을 판단에 넣지 않고 제목만 봄
                     # URL의 electronics, industry 등으로 인한 오탐 방지
                     if not is_semicon_related(title, "", ""):
