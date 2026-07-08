@@ -6,7 +6,7 @@ import warnings
 import requests
 from bs4 import BeautifulSoup, MarkupResemblesLocatorWarning
 from newspaper import Article
-from urllib.parse import quote, urlparse
+from urllib.parse import quote, urlparse, urljoin
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from difflib import SequenceMatcher
@@ -49,13 +49,14 @@ STOCK_KEYWORDS = [
 VIDEO_KEYWORDS = [
     "영상", "동영상", "유튜브", "youtube", "youtu.be",
     "shorts", "watch?v=", "tv.naver", "네이버tv",
-    "뉴스 영상", "라이브", "shorts"
+    "뉴스 영상", "라이브"
 ]
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/138.0 Safari/537.36",
     "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"
 }
+
 SUMMARY_PRIORITY_KEYWORDS = [
     "삼성전자", "SK하이닉스", "TSMC", "마이크론", "엔비디아", "브로드컴",
     "HBM", "DRAM", "D램", "NAND", "낸드", "DDR", "LPDDR",
@@ -69,6 +70,107 @@ SUMMARY_STOPWORDS = {
     "위해", "있는", "없는", "지난", "최근", "이날", "올해", "내년",
     "기자", "뉴스", "사진", "제공", "밝혔다", "전했다", "설명했다"
 }
+
+SEMICON_KEYWORDS = [
+    "반도체", "삼성전자", "SK하이닉스", "HBM", "DRAM", "D램",
+    "NAND", "낸드", "메모리", "파운드리", "TSMC", "마이크론",
+    "AI 반도체", "AI칩", "AI 칩", "칩", "웨이퍼", "EUV", "패키징",
+    "2나노", "3나노", "1나노", "팹", "공정", "양산", "DDR", "LPDDR",
+    "낸드플래시", "서버", "GPU", "ASIC"
+]
+
+DIRECT_SOURCE_URLS = [
+    {
+        "name": "한국경제",
+        "urls": [
+            "https://www.hankyung.com/industry/semicon",
+            "https://www.hankyung.com/industry/semicon-electronics"
+        ]
+    },
+    {
+        "name": "뉴스1",
+        "urls": [
+            "https://www.news1.kr/it-science/mobile",
+            "https://www.news1.kr/it-science/general-it",
+            "https://www.news1.kr/industry/electronics"
+        ]
+    },
+    {
+        "name": "매일경제",
+        "urls": [
+            "https://www.mk.co.kr/news/business/semiconductors-electronics"
+        ]
+    },
+    {
+        "name": "머니투데이",
+        "urls": [
+            "https://www.mt.co.kr/industry?page=1"
+        ]
+    },
+    {
+        "name": "아시아경제",
+        "urls": [
+            "https://www.asiae.co.kr/list/enterprise-CEO",
+            "https://www.asiae.co.kr/list/IT"
+        ]
+    },
+    {
+        "name": "조선비즈",
+        "urls": [
+            "https://biz.chosun.com/it-science/ict/"
+        ]
+    },
+    {
+        "name": "연합뉴스",
+        "urls": [
+            "https://www.yna.co.kr/industry/electronics?site=footer_industry_depth02",
+            "https://www.yna.co.kr/industry/technology-science"
+        ]
+    },
+    {
+        "name": "디지털타임스",
+        "urls": [
+            "https://www.dt.co.kr/industry/general"
+        ]
+    },
+    {
+        "name": "디지털데일리",
+        "urls": [
+            "https://www.ddaily.co.kr/semiconductor"
+        ]
+    },
+    {
+        "name": "한겨레",
+        "urls": [
+            "https://www.hani.co.kr/arti/economy/it"
+        ]
+    },
+    {
+        "name": "지디넷코리아",
+        "urls": [
+            "https://zdnet.co.kr/newskey/?lstcode=%EB%B0%98%EB%8F%84%EC%B2%B4"
+        ]
+    },
+    {
+        "name": "전자신문",
+        "urls": [
+            "https://www.etnews.com/news/section.html?id1=10"
+        ]
+    },
+    {
+        "name": "뉴시스",
+        "urls": [
+            "https://www.newsis.com/business/list/?cid=13000&scid=10414"
+        ]
+    },
+    {
+        "name": "이데일리",
+        "urls": [
+            "https://www.edaily.co.kr/articles/business/electronics"
+        ]
+    }
+]
+
 
 def clean_html(text):
     text = BeautifulSoup(text or "", "html.parser").get_text(" ")
@@ -157,8 +259,11 @@ def published_ago(pub_date):
             return f"{hours}시간 전"
         else:
             return f"{diff.days}일 전"
+
     except Exception:
         return "시간 정보 없음"
+
+
 def is_within_recent_hours(pub_date, hours=24):
     try:
         published = parsedate_to_datetime(pub_date)
@@ -173,6 +278,7 @@ def is_within_recent_hours(pub_date, hours=24):
 
     except Exception:
         return False
+
 
 def short_link(url):
     try:
@@ -189,6 +295,8 @@ def short_link(url):
 
     except Exception:
         return url[:58] + "..." if len(url) > 58 else url
+
+
 def is_mostly_english(text):
     text = clean_space(text)
     if not text:
@@ -304,6 +412,7 @@ def dedupe_by_content_keep_two(items, threshold=0.20, max_per_group=2):
         selected.extend(group[:max_per_group])
 
     return selected
+
 
 def compact_ending(sentence):
     sentence = strip_reporter_and_source(sentence)
@@ -421,7 +530,7 @@ def score_summary_sentence(sentence, keywords, index):
     elif len(sentence) > 170:
         score -= 1
 
-    # 앞 문단에 약간 가중치만 부여. 단, 첫째/둘째 문단 고정 요약은 아님
+    # 앞 문장에 약간 가중치만 부여. 단, 첫째/둘째 문단 고정 요약은 아님
     score += max(0, 2 - index * 0.08)
 
     return score
@@ -463,7 +572,11 @@ def make_compact_summary(text, title="", min_len=100, max_len=200):
         # 거의 같은 문장 반복 방지
         duplicate = False
         for _, old_sentence in picked:
-            if SequenceMatcher(None, normalize_content_for_dedupe(sentence), normalize_content_for_dedupe(old_sentence)).ratio() >= 0.72:
+            if SequenceMatcher(
+                None,
+                normalize_content_for_dedupe(sentence),
+                normalize_content_for_dedupe(old_sentence)
+            ).ratio() >= 0.72:
                 duplicate = True
                 break
 
@@ -526,6 +639,117 @@ def get_article_body(url):
         return "", url
 
 
+def looks_like_article_url(url):
+    if not url:
+        return False
+
+    parsed = urlparse(url)
+    path = parsed.path.lower()
+    query = parsed.query.lower()
+    full = f"{path}?{query}"
+
+    bad_patterns = [
+        "login", "member", "subscribe", "newsletter", "event",
+        "advertise", "company", "privacy", "terms", "search",
+        "photo", "video", "tv", "youtube", "recruit", "rss",
+        "facebook", "twitter", "instagram"
+    ]
+
+    if any(bad in full for bad in bad_patterns):
+        return False
+
+    good_patterns = [
+        "news", "article", "view", "read", "mnews",
+        "biz", "it", "industry", "semiconductor",
+        "electronics", "arti", "business"
+    ]
+
+    if any(good in full for good in good_patterns):
+        return True
+
+    # 숫자형 기사 ID가 포함된 URL은 기사일 가능성이 높음
+    if re.search(r"\d{5,}", url):
+        return True
+
+    return False
+
+
+def is_semicon_related(title, url="", text=""):
+    check = f"{title} {url} {text[:700]}".lower()
+
+    for keyword in SEMICON_KEYWORDS:
+        if keyword.lower() in check:
+            return True
+
+    return False
+
+
+def collect_direct_source_candidates(max_per_source=10):
+    candidates = []
+    seen = set()
+
+    for source in DIRECT_SOURCE_URLS:
+        source_name = source["name"]
+        source_count = 0
+
+        for list_url in source["urls"]:
+            if source_count >= max_per_source:
+                break
+
+            try:
+                res = requests.get(list_url, headers=HEADERS, timeout=12)
+                res.encoding = res.apparent_encoding or res.encoding
+
+                soup = BeautifulSoup(res.text, "html.parser")
+                links = soup.select("a")
+
+                for a in links:
+                    if source_count >= max_per_source:
+                        break
+
+                    title = clean_space(a.get_text(" ") or a.get("title", ""))
+                    href = a.get("href", "")
+
+                    if not href:
+                        continue
+
+                    article_url = urljoin(list_url, href)
+
+                    if article_url in seen:
+                        continue
+
+                    if not looks_like_article_url(article_url):
+                        continue
+
+                    if len(title) < 8:
+                        continue
+
+                    title = strip_source_from_title(title)
+                    title = translate_to_korean(title)
+                    title = remove_question_exclamation(title)
+
+                    if not is_semicon_related(title, article_url):
+                        continue
+
+                    seen.add(article_url)
+                    source_count += 1
+
+                    candidates.append({
+                        "source": source_name,
+                        "title": title,
+                        "link": article_url
+                    })
+
+                print(f"[DIRECT] {source_name}: collected {source_count}")
+
+                time.sleep(0.1)
+
+            except Exception as e:
+                print(f"[DIRECT ERROR] {source_name} {list_url}: {e}")
+
+    return candidates
+
+
 def fetch_news():
     results = []
     seen_links = set()
@@ -537,9 +761,13 @@ def fetch_news():
         "video": 0,
         "stock": 0,
         "too_short": 0,
-        "body_fallback": 0
+        "body_fallback": 0,
+        "old": 0,
+        "direct_candidates": 0,
+        "direct_added": 0
     }
 
+    # 1차 소스: Google News RSS
     for keyword in KEYWORDS:
         rss_url = (
             "https://news.google.com/rss/search?"
@@ -563,9 +791,9 @@ def fetch_news():
                 google_link = clean_html(item.link.text if item.link else "")
                 description = clean_html(item.description.text if item.description else "")
                 pub_date = clean_html(item.pubDate.text if item.pubDate else "")
-                
+
                 if not is_within_recent_hours(pub_date, 24):
-                    stats["old"] = stats.get("old", 0) + 1
+                    stats["old"] += 1
                     continue
 
                 if not title or not google_link:
@@ -598,6 +826,9 @@ def fetch_news():
                     stats["stock"] += 1
                     continue
 
+                if not is_semicon_related(title, final_link, summary_source):
+                    continue
+
                 summary = make_compact_summary(summary_source)
 
                 seen_links.add(final_link)
@@ -623,11 +854,83 @@ def fetch_news():
         except Exception as e:
             print(f"[ERROR] {keyword}: {e}")
 
+    # 2차 소스: 언론사 직접 크롤링 보조 소스
+    direct_candidates = collect_direct_source_candidates(max_per_source=10)
+    stats["direct_candidates"] = len(direct_candidates)
+
+    for candidate in direct_candidates:
+        try:
+            title = candidate["title"]
+            final_link = candidate["link"]
+
+            if final_link in seen_links:
+                stats["duplicate"] += 1
+                continue
+
+            body, real_link = get_article_body(final_link)
+            final_link = real_link or final_link
+
+            if final_link in seen_links:
+                stats["duplicate"] += 1
+                continue
+
+            if len(clean_space(body)) < 100:
+                stats["too_short"] += 1
+                continue
+
+            if is_video_article(title, final_link, body):
+                stats["video"] += 1
+                continue
+
+            if is_stock_news(title, body):
+                stats["stock"] += 1
+                continue
+
+            if not is_semicon_related(title, final_link, body):
+                continue
+
+            summary = make_compact_summary(body)
+
+            seen_links.add(final_link)
+            seen_titles.append(title)
+
+            # 직접 크롤링은 언론사별 발행시간 selector가 없으므로 현재 시각으로 처리
+            now_ts = datetime.now(timezone.utc).timestamp()
+
+            results.append({
+                "title": title,
+                "link": final_link,
+                "short_link": short_link(final_link),
+                "summary": summary,
+                "published_ago": "방금 전",
+                "published_raw": "",
+                "published_ts": now_ts,
+                "body_len": len(clean_space(body)),
+                "dedupe_text": body[:2000]
+            })
+
+            stats["added"] += 1
+            stats["direct_added"] += 1
+            print(f"[DIRECT Added] {candidate['source']}: {title[:45]}")
+
+            time.sleep(0.15)
+
+        except Exception as e:
+            print(f"[DIRECT PROCESS ERROR] {candidate.get('source', '')}: {e}")
+
+    # 내용 유사 기사 그룹은 최대 2개만 유지
+    results = dedupe_by_content_keep_two(results, threshold=0.20, max_per_group=2)
+
+    # 최신순 정렬
     results = sorted(results, key=lambda x: x.get("published_ts", 0), reverse=True)
-    results = results[:20]
+
+    # 최종 30개
+    results = results[:30]
 
     for item in results:
         item.pop("published_ts", None)
+        item.pop("body_len", None)
+        item.pop("dedupe_text", None)
 
     print("Stats:", stats)
 
