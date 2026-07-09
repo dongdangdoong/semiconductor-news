@@ -24,7 +24,6 @@ def index():
         updated_at=updated_at
     ))
 
-    # 브라우저 캐시 방지: 새로고침 시 updated_at이 실제로 갱신되도록 설정
     response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
     response.headers["Pragma"] = "no-cache"
     response.headers["Expires"] = "0"
