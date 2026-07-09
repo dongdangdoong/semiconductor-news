@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup, MarkupResemblesLocatorWarning
 from newspaper import Article
 from urllib.parse import quote, urlparse, urljoin
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 from difflib import SequenceMatcher
 
@@ -191,6 +191,15 @@ DIRECT_SOURCE_URLS = [
     }
 ]
 
+SOURCE_NOISE_WORDS = [
+    "한국경제", "한경", "뉴스1", "매일경제", "머니투데이", "아시아경제",
+    "조선비즈", "연합뉴스", "디지털타임스", "디지털데일리", "한겨레",
+    "지디넷코리아", "ZDNet Korea", "전자신문", "뉴시스", "이데일리",
+    "구글뉴스", "Google 뉴스", "Google News", "네이버뉴스", "네이버 뉴스",
+    "Reuters", "Bloomberg", "CNBC", "Financial Times", "Nikkei Asia"
+]
+
+KST = timezone(timedelta(hours=9))
 
 def clean_html(text):
     text = BeautifulSoup(text or "", "html.parser").get_text(" ")
@@ -214,12 +223,19 @@ def strip_source_from_title(title):
 def strip_reporter_and_source(text):
     text = text or ""
 
-    text = re.sub(r"[가-힣]{2,4}\s?기자", "", text)
-    text = re.sub(r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+", "", text)
-    text = re.sub(r"^\[[^\]]+\]\s*", "", text)
-    text = re.sub(r"\s[-–]\s[가-힣A-Za-z0-9 .·&]+$", "", text)
-    text = re.sub(r"무단 전재.*?금지", "", text)
-    text = re.sub(r"저작권자.*?금지", "", text)
+    text = re.sub(r"[가-힣]{2,4}\s?기자", " ", text)
+    text = re.sub(r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+", " ", text)
+    text = re.sub(r"^\[[^\]]+\]\s*", " ", text)
+
+    for source in SOURCE_NOISE_WORDS:
+        text = text.replace(source, " ")
+
+    text = re.sub(r"https?://\S+", " ", text)
+    text = re.sub(r"\b[a-zA-Z0-9.-]+\.(com|net|co\.kr|kr|org|news)\b", " ", text)
+    text = re.sub(r"\s[-–]\s[가-힣A-Za-z0-9 .·&]+$", " ", text)
+    text = re.sub(r"무단 전재.*?금지", " ", text)
+    text = re.sub(r"저작권자.*?금지", " ", text)
+    text = re.sub(r"재판매 및 DB 금지", " ", text)
 
     return clean_space(text)
 
@@ -282,49 +298,82 @@ def is_similar_title(title, existing_titles, threshold=0.68):
     return False
 
 
-def published_datetime(pub_date):
+def ensure_utc(dt):
+    if dt is None:
+        return None
+
+    if dt.tzinfo is None:
+        return dt.replace(tzinfo=timezone.utc)
+
+    return dt.astimezone(timezone.utc)
+
+
+def parse_datetime_safe(value):
+    if value is None:
+        return None
+
+    if isinstance(value, datetime):
+        return ensure_utc(value)
+
+    value = clean_space(str(value))
+    if not value:
+        return None
+
     try:
-        return parsedate_to_datetime(pub_date)
+        return ensure_utc(parsedate_to_datetime(value))
     except Exception:
-        return datetime.now(timezone.utc)
+        pass
+
+    try:
+        return ensure_utc(datetime.fromisoformat(value.replace("Z", "+00:00")))
+    except Exception:
+        return None
+
+
+def published_datetime(pub_date):
+    dt = parse_datetime_safe(pub_date)
+    return dt or datetime.now(timezone.utc)
+
+
+def published_ago_from_datetime(published):
+    published = ensure_utc(published)
+
+    if published is None:
+        return "시간 정보 없음"
+
+    now = datetime.now(timezone.utc)
+    seconds = int((now - published).total_seconds())
+
+    if seconds < 0:
+        seconds = 0
+
+    minutes = seconds // 60
+    hours = seconds // 3600
+
+    if minutes < 1:
+        return "방금 전"
+    elif minutes < 60:
+        return f"{minutes}분 전"
+    elif hours < 24:
+        return f"{hours}시간 전"
+    else:
+        return f"{seconds // 86400}일 전"
 
 
 def published_ago(pub_date):
-    try:
-        published = parsedate_to_datetime(pub_date)
-        now = datetime.now(timezone.utc)
-        diff = now - published
-
-        minutes = int(diff.total_seconds() // 60)
-        hours = int(diff.total_seconds() // 3600)
-
-        if minutes < 1:
-            return "방금 전"
-        elif minutes < 60:
-            return f"{minutes}분 전"
-        elif hours < 24:
-            return f"{hours}시간 전"
-        else:
-            return f"{diff.days}일 전"
-
-    except Exception:
-        return "시간 정보 없음"
+    return published_ago_from_datetime(parse_datetime_safe(pub_date))
 
 
 def is_within_recent_hours(pub_date, hours=24):
-    try:
-        published = parsedate_to_datetime(pub_date)
+    dt = parse_datetime_safe(pub_date)
 
-        if published.tzinfo is None:
-            published = published.replace(tzinfo=timezone.utc)
-
-        now = datetime.now(timezone.utc)
-        diff_seconds = (now - published).total_seconds()
-
-        return 0 <= diff_seconds <= hours * 3600
-
-    except Exception:
+    if dt is None:
         return False
+
+    now = datetime.now(timezone.utc)
+    diff_seconds = (now - dt).total_seconds()
+
+    return 0 <= diff_seconds <= hours * 3600
 
 
 def short_link(url):
@@ -389,6 +438,41 @@ def normalize_content_for_dedupe(text):
     text = re.sub(r"[^가-힣a-zA-Z0-9 ]", " ", text)
     text = re.sub(r"\s+", " ", text).strip().lower()
     return text
+
+
+def remove_title_overlap(text, title):
+    text = text or ""
+    title = strip_source_from_title(title or "")
+
+    if not title:
+        return clean_space(text)
+
+    candidates = [
+        title,
+        title.replace("…", ""),
+        title.replace("...", ""),
+        re.sub(r"[^가-힣A-Za-z0-9 ]", " ", title)
+    ]
+
+    for candidate in candidates:
+        candidate = clean_space(candidate)
+        if candidate:
+            text = text.replace(candidate, " ")
+
+    return clean_space(text)
+
+
+def sentence_is_too_similar_to_title(sentence, title, threshold=0.52):
+    if not title:
+        return False
+
+    s = normalize_content_for_dedupe(sentence)
+    t = normalize_content_for_dedupe(title)
+
+    if not s or not t:
+        return False
+
+    return SequenceMatcher(None, s, t).ratio() >= threshold
 
 
 def content_similarity(a, b):
@@ -577,7 +661,9 @@ def score_summary_sentence(sentence, keywords, index):
 
 
 def make_compact_summary(text, title="", min_len=100, max_len=200):
+    # 제목은 요약 재료로 사용하지 않고, 제목과 비슷한 문장 제거용으로만 사용
     text = strip_reporter_and_source(text)
+    text = remove_title_overlap(text, title)
     text = translate_to_korean(text)
 
     if not text:
@@ -585,16 +671,31 @@ def make_compact_summary(text, title="", min_len=100, max_len=200):
 
     sentences = split_sentences_for_summary(text)
 
-    if not sentences:
-        summary = text[:max_len].rstrip()
-        summary = compact_ending(summary)
-        summary = remove_question_exclamation(summary)
-        return summary
+    cleaned_sentences = []
+    for s in sentences:
+        s = strip_reporter_and_source(s)
+        s = remove_title_overlap(s, title)
+        s = remove_question_exclamation(s)
+
+        if len(s) < 25:
+            continue
+
+        if sentence_is_too_similar_to_title(s, title):
+            continue
+
+        cleaned_sentences.append(s)
+
+    if not cleaned_sentences:
+        fallback = strip_reporter_and_source(text[:max_len])
+        fallback = remove_title_overlap(fallback, title)
+        fallback = compact_ending(fallback)
+        fallback = remove_question_exclamation(fallback)
+        return fallback[:max_len].rstrip()
 
     keywords = extract_summary_keywords(text)
 
     ranked = []
-    for idx, sentence in enumerate(sentences[:35]):
+    for idx, sentence in enumerate(cleaned_sentences[:40]):
         ranked.append((idx, sentence, score_summary_sentence(sentence, keywords, idx)))
 
     ranked = sorted(ranked, key=lambda x: x[2], reverse=True)
@@ -603,6 +704,8 @@ def make_compact_summary(text, title="", min_len=100, max_len=200):
 
     for idx, sentence, _ in ranked:
         sentence = compact_ending(sentence)
+        sentence = strip_reporter_and_source(sentence)
+        sentence = remove_title_overlap(sentence, title)
         sentence = remove_question_exclamation(sentence)
 
         if not sentence:
@@ -634,9 +737,10 @@ def make_compact_summary(text, title="", min_len=100, max_len=200):
         summary = compact_ending(text[:max_len])
 
     summary = strip_reporter_and_source(summary)
+    summary = remove_title_overlap(summary, title)
     summary = remove_question_exclamation(summary)
-
     summary = re.sub(r"\s[-–]\s[가-힣A-Za-z0-9 .·&]+$", "", summary)
+    summary = clean_space(summary)
 
     if len(summary) > max_len:
         summary = summary[:max_len].rstrip()
@@ -779,6 +883,54 @@ def get_article_body(url):
     except Exception:
         return "", url, ""
 
+
+
+
+def get_article_published_datetime(url):
+    try:
+        res = requests.get(url, headers=HEADERS, timeout=10, allow_redirects=True)
+        res.encoding = res.apparent_encoding or res.encoding
+        soup = BeautifulSoup(res.text, "html.parser")
+
+        meta_selectors = [
+            ("property", "article:published_time"),
+            ("property", "og:article:published_time"),
+            ("name", "article:published_time"),
+            ("name", "pubdate"),
+            ("name", "publishdate"),
+            ("name", "date"),
+            ("itemprop", "datePublished"),
+        ]
+
+        for attr, value in meta_selectors:
+            tag = soup.find("meta", attrs={attr: value})
+            if tag:
+                dt = parse_datetime_safe(tag.get("content", ""))
+                if dt:
+                    return dt
+
+        time_tag = soup.find("time")
+        if time_tag:
+            dt = parse_datetime_safe(time_tag.get("datetime") or time_tag.get_text(" "))
+            if dt:
+                return dt
+
+        text = soup.get_text(" ")
+        patterns = [
+            r"(?:입력|등록|최초입력|승인|게재)\s*(\d{4})[.\-/](\d{1,2})[.\-/](\d{1,2})\s+(\d{1,2}):(\d{2})",
+            r"(\d{4})[.\-/](\d{1,2})[.\-/](\d{1,2})\s+(\d{1,2}):(\d{2})",
+        ]
+
+        for pattern in patterns:
+            match = re.search(pattern, text)
+            if match:
+                y, m, d, hh, mm = map(int, match.groups())
+                return datetime(y, m, d, hh, mm, tzinfo=KST).astimezone(timezone.utc)
+
+        return None
+
+    except Exception:
+        return None
 
 def looks_like_article_url(url):
     if not url:
@@ -967,6 +1119,8 @@ def fetch_news():
 
                 google_link = clean_html(item.link.text if item.link else "")
                 description = clean_html(item.description.text if item.description else "")
+                description = strip_reporter_and_source(description)
+                description = remove_title_overlap(description, title)
                 pub_date = clean_html(item.pubDate.text if item.pubDate else "")
 
                 if not is_within_recent_hours(pub_date, 24):
@@ -1007,19 +1161,22 @@ def fetch_news():
                 if not is_semicon_related(title, final_link, summary_source):
                     continue
 
-                summary = make_compact_summary(summary_source)
+                summary = make_compact_summary(summary_source, title=title)
 
                 seen_links.add(final_link)
                 seen_titles.append(title)
+
+                published_dt = published_datetime(pub_date)
 
                 results.append({
                     "title": title,
                     "link": final_link,
                     "short_link": short_link(final_link),
                     "summary": summary,
-                    "published_ago": published_ago(pub_date),
+                    "published_ago": published_ago_from_datetime(published_dt),
+                    "published_at": published_dt.isoformat(),
                     "published_raw": pub_date,
-                    "published_ts": published_datetime(pub_date).timestamp(),
+                    "published_ts": published_dt.timestamp(),
                     "body_len": len(clean_space(summary_source)),
                     "dedupe_text": summary_source[:2000]
                 })
@@ -1048,7 +1205,6 @@ def fetch_news():
             body, real_link, article_title = get_article_body(final_link)
             final_link = real_link or final_link
 
-            # 목록 페이지 제목에 본문 일부가 섞이는 경우 기사 페이지의 실제 제목으로 교체
             if article_title and not is_bad_extracted_title(article_title):
                 title = article_title
             else:
@@ -1073,21 +1229,32 @@ def fetch_news():
             if not is_semicon_related(title, final_link, body):
                 continue
 
-            summary = make_compact_summary(body)
+            direct_dt = get_article_published_datetime(final_link)
+
+            if direct_dt is None:
+                stats["unknown_time"] = stats.get("unknown_time", 0) + 1
+                continue
+
+            if not is_within_recent_hours(direct_dt.isoformat(), 24):
+                stats["old"] += 1
+                continue
+
+            direct_ts = direct_dt.timestamp()
+            direct_ago = published_ago_from_datetime(direct_dt)
+
+            summary = make_compact_summary(body, title=title)
 
             seen_links.add(final_link)
             seen_titles.append(title)
-
-            # 직접 크롤링은 발행시간을 정확히 못 잡으므로 Google RSS 최신 기사보다 뒤로 배치
-            direct_ts = datetime.now(timezone.utc).timestamp() - 23 * 3600
 
             results.append({
                 "title": title,
                 "link": final_link,
                 "short_link": short_link(final_link),
                 "summary": summary,
-                "published_ago": "23시간 전",
-                "published_raw": "",
+                "published_ago": direct_ago,
+                "published_at": direct_dt.isoformat(),
+                "published_raw": direct_dt.isoformat(),
                 "published_ts": direct_ts,
                 "body_len": len(clean_space(body)),
                 "dedupe_text": body[:2000]
