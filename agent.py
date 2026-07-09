@@ -1174,7 +1174,7 @@ def fetch_news():
         except Exception as e:
             print(f"[ERROR] {keyword}: {e}")
 
-    # 2차 소스: 언론사 직접 크롤링 보조 소스
+        # 2차 소스: 언론사 직접 크롤링 보조 소스
     direct_candidates = collect_direct_source_candidates(max_per_source=10)
     stats["direct_candidates"] = len(direct_candidates)
 
@@ -1215,12 +1215,7 @@ def fetch_news():
             if not is_semicon_related(title, final_link, body):
                 continue
 
-            summary = make_compact_summary(body, title=title)
-
-            seen_links.add(final_link)
-            seen_titles.append(title)
-
-            # 직접 크롤링은 발행시간을 정확히 못 잡으므로 Google RSS 최신 기사보다 뒤로 배치
+            # 직접 크롤링 기사도 발행시간을 추출해 24시간 내 기사만 유지
             direct_dt = get_article_published_datetime(final_link)
 
             if direct_dt is None:
@@ -1231,8 +1226,13 @@ def fetch_news():
                 stats["old"] += 1
                 continue
 
-direct_ts = direct_dt.timestamp()
-direct_ago = published_ago_from_datetime(direct_dt)
+            direct_ts = direct_dt.timestamp()
+            direct_ago = published_ago_from_datetime(direct_dt)
+
+            summary = make_compact_summary(body, title=title)
+
+            seen_links.add(final_link)
+            seen_titles.append(title)
 
             results.append({
                 "title": title,
