@@ -1,10 +1,73 @@
 [
   {
+    "title": "AI 메모리 새 해법 찾는 반도체 업계...\"HBM만이 답 아니다\"",
+    "link": "https://zdnet.co.kr/view/?no=20260709161628",
+    "short_link": "zdnet.co.kr/view",
+    "summary": "(사진= ) HBM은 여러 개의 D램 다이를 수직으로 적층한 뒤 GPU나 AI 가속기와 연결하는 구조여서 제조 공정이 복잡하고 생산 단가가 높다 퀄컴은 지난 6월 말 인베스터 데이에서 추론용 AI 가속기 'AI250'에 HBM 대신 LPDDR6 메모리를 활용하는 '고대역폭 연산(HBC)' 구조를 적용할 것이언급",
+    "published_ago": "5분 전",
+    "published_at": "2026-07-09T07:52:48+00:00",
+    "published_raw": "2026-07-09T07:52:48+00:00"
+  },
+  {
+    "title": "반도체 산단, 광주 군공항 부지 등 일대 토허구역 지정(상보)",
+    "link": "https://www.edaily.co.kr/News/Read?newsId=04851126645512880&mediaCodeNo=257",
+    "short_link": "edaily.co.kr/News/Read",
+    "summary": "호남 반도체 첨단국가산단 사업 예정지인 광주 군공항 부지 등 그 일대가 토지거래허가구역(토허구역)으로 지정된다.국토교통부와 전남광주통합특별시는 9일 중앙도시계획위원회 심의를 거쳐 광주 군공항 부지와 인근 지역을 토허구역으로 지정하게 됐다고 발표.토허구역으로 지정된 곳은 364.19㎢ 규모로 광주 광산구, 동구, 서구,",
+    "published_ago": "14분 전",
+    "published_at": "2026-07-09T07:44:45+00:00",
+    "published_raw": "2026-07-09T07:44:45+00:00"
+  },
+  {
+    "title": "\"서남권 반도체 클러스터, 입지보다 전력 검증 먼저 해야\"",
+    "link": "https://www.edaily.co.kr/News/Read?newsId=04824886645512880&mediaCodeNo=257",
+    "short_link": "edaily.co.kr/News/Read",
+    "summary": "안 과장은 “용인을 제1 생산거점, 서남권을 제2 생산거점으로 육성하고 충청권에는 후공정과 패키징, 대경권과 동남권에는 소재·부품·장비와 차세대 반도체 산업을 집중 지원해 전국으로 반도체 생태계를 확산할 계획”이언급.그는 이어 “서남권을 포함한 반도체 클러스터에는 전력과 용수 등 기반시설을 적기에 공급하고, 클러스",
+    "published_ago": "25분 전",
+    "published_at": "2026-07-09T07:33:27+00:00",
+    "published_raw": "2026-07-09T07:33:27+00:00"
+  },
+  {
+    "title": "삼성전자, 소부장 협력사 기술력 끌어올릴 '패턴 웨이퍼' 확대…“상생 강화”",
+    "link": "https://n.news.naver.com/mnews/article/030/0003446332",
+    "short_link": "n.news.naver.com/mnews/article/030/0003446332",
+    "summary": "사안에 밝은 소부장 기업 대표는 “삼성전자가 소부장 협력사들과 함께 성장하기 위해 패턴 웨이퍼 지원을 강화한다는 방침을 전달진행”며 “지금까지 보안 이슈로 한정적이었던 패턴 웨이퍼 제공 물량을 늘리고 공정 범위도 확대한다는 계획”이라고 전언",
+    "published_ago": "25분 전",
+    "published_at": "2026-07-09T07:31:11+00:00",
+    "published_raw": "2026-07-09T07:31:11+00:00"
+  },
+  {
+    "title": "삼성전자, 소부장 협력사 기술력 끌어올릴 '패턴 웨이퍼' 확대…“상생 강화”",
+    "link": "https://www.etnews.com/20260709000252",
+    "short_link": "etnews.com/20260709000252",
+    "summary": "사안에 밝은 소부장 기업 대표는 “삼성전자가 소부장 협력사들과 함께 성장하기 위해 패턴 웨이퍼 지원을 강화한다는 방침을 전달진행”며 “지금까지 보안 이슈로 한정적이었던 패턴 웨이퍼 제공 물량을 늘리고 공정 범위도 확대한다는 계획”이라고 전언",
+    "published_ago": "28분 전",
+    "published_at": "2026-07-09T07:30:00+00:00",
+    "published_raw": "2026-07-09T07:30:00+00:00"
+  },
+  {
+    "title": "\"삼전닉스 꿈꾼다\"…인천반도체고 설명회 열기 '후끈'",
+    "link": "https://www.yna.co.kr/view/AKR20260709160900065?section=industry/electronics",
+    "short_link": "yna.co.kr/view/AKR20260709160900065",
+    "summary": "이미지 확대 인천반도체고 실습장비 살펴보는 학생들 [촬영 강종구] 인천 유일의 전자 분야 도제학교이기도 한 이 학교에서는 3학년 학생들이 이틀은 학교에서 배우고 사흘은 기업에서 실무 교육을 받으며 반도체 인재로서의 역량을 키워가고 있다",
+    "published_ago": "37분 전",
+    "published_at": "2026-07-09T07:19:01+00:00",
+    "published_raw": "2026-07-09T07:19:01+00:00"
+  },
+  {
+    "title": "\"삼전닉스 꿈꾼다\"…인천반도체고 설명회 열기 '후끈'",
+    "link": "https://n.news.naver.com/mnews/article/001/0016185949",
+    "short_link": "n.news.naver.com/mnews/article/001/0016185949",
+    "summary": "두배 많은 130여명 참석 (인천= ) = \"정문 현수막 봐서 알겠지만 3학년 학생 중 일부는 벌써 세계적인 반도체 후공정 전문 기업에 취업했어요.\" 9일 오후 인천반도체고 강당 인천 유일의 전자 분야 도제학교이기도 한 이 학교에서는 3학년 학생들이 이틀은 학교에서 배우고 사흘은 기업에서 실무 교육을 받으며 반도체 인재로서의 역량을 키워가고 있다",
+    "published_ago": "37분 전",
+    "published_at": "2026-07-09T07:19:01+00:00",
+    "published_raw": "2026-07-09T07:19:01+00:00"
+  },
+  {
     "title": "추경호 대구시장 \"AI·반도체 육성 멈출 수 없다\"",
     "link": "https://www.yna.co.kr/view/AKR20260709157000053?section=industry/electronics",
     "short_link": "yna.co.kr/view/AKR20260709157000053",
     "summary": "구독 구독중 이전 다음 지역 의원들과 첫 예산정책협의회…현안 추진 의지 재확인 내년 국비 9조5천629억원 확보 목표…\"원팀 이뤄 공동 대응\" 이미지 확대 [대구시 제공 추경호 대구시장은 대구경북신공항과 행정통합, 2차 공공기관 이전, AI·반도체 산업 육성 등 주요 현안 추진 의지를 재확인진행",
-    "published_ago": "6분 전",
+    "published_ago": "47분 전",
     "published_at": "2026-07-09T07:09:53+00:00",
     "published_raw": "2026-07-09T07:09:53+00:00"
   },
@@ -13,16 +76,25 @@
     "link": "https://www.ddaily.co.kr/page/view/2026070915584351148",
     "short_link": "ddaily.co.kr/page/view/2026070915584351148",
     "summary": "이 자리에서 허 이사는 TI가 전 세계 전기차 시장 1, 2위 기업 및 글로벌 산업 자동화 업계에 조달해 온 트랙션 인버터와 정밀 모터 제어 자산을 로보틱스 플랫폼에 전격 융합하고, 500나노초(ns)급 초저지연 연산을 수행하는 차세대 싱글 마이크로컨트롤러유닛(MCU) 및 싱글 페어 이더넷(SPE) 아키텍처 가동 전략을",
-    "published_ago": "17분 전",
+    "published_ago": "58분 전",
     "published_at": "2026-07-09T06:59:00+00:00",
     "published_raw": "2026-07-09T06:59:00+00:00"
+  },
+  {
+    "title": "TSMC 쫓는 삼성·인텔, 기술적 리스크에도 승부수로 차별화 시도",
+    "link": "https://n.news.naver.com/mnews/article/366/0001178057",
+    "short_link": "n.news.naver.com/mnews/article/366/0001178057",
+    "summary": "9일 반도체 업계에 따르면 인텔은 차세대 14A2 공정에서 전면과 후면을 함께 활용하는 전력 공급 구조를 검토하고 있는 것으로 전해졌 업계 최초로 GAA를 3나노 공정에 양산 적용했고, 오는 2027년 양산 예정인 2나노 강화 공정 ‘SF2Z’에는 후면 전력공급(BSPDN) 기술을 적용할 계획",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-09T06:55:07+00:00",
+    "published_raw": "2026-07-09T06:55:07+00:00"
   },
   {
     "title": "마이크론, 포드·GM과 '미래 전장' 동맹…삼성·SK엔 부담",
     "link": "https://www.edaily.co.kr/News/Read?newsId=04634646645512880&mediaCodeNo=257",
     "short_link": "edaily.co.kr/News/Read",
     "summary": "삼성전자가 저전력 D램(LPDDR)과 유니버설 플래시 스토리지(UFS) 등을 앞세워 고성장 시장인 중국 전기차 및 부품 공급망을 대거 흡수한 결과다.마이크론은 미국 완성차 기업과 동맹을 통해 안방인 북미 시장에서 장기 공급망의 빗장을 걸어 잠그겠다는 계산이다",
-    "published_ago": "26분 전",
+    "published_ago": "1시간 전",
     "published_at": "2026-07-09T06:51:49+00:00",
     "published_raw": "2026-07-09T06:51:49+00:00"
   },
@@ -31,16 +103,25 @@
     "link": "https://www.newsis.com/view/NISX20260709_0003702631",
     "short_link": "newsis.com/view/NISX20260709_0003702631",
     "summary": "= 삼성전자가 7일 연결 기준 올해 2분기 잠정 실적으로 매출 171조원, 영업이익 89조4000억원을 발표진행 매출은 전년 2분기(74조5700억원) 대비 129.31% 늘었고, 영업이익은 같은 기간 4조6800억원에서 1810.26% 급증진행",
-    "published_ago": "41분 전",
+    "published_ago": "1시간 전",
     "published_at": "2026-07-09T06:36:26+00:00",
     "published_raw": "2026-07-09T06:36:26+00:00"
+  },
+  {
+    "title": "CXMT, 43억달러 IPO 본격화…중국 D램 추격 속도",
+    "link": "https://n.news.naver.com/mnews/article/030/0003446271",
+    "short_link": "n.news.naver.com/mnews/article/030/0003446271",
+    "summary": "중국 최대 D램 업체 창신메모리테크놀로지(CXMT)가 상장 절차에 본격 돌입진행 CXMT는 삼성전자, SK하이닉스, 마이크론에 이은 세계 4위권 D램 업체로 꼽힌다",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-09T06:30:15+00:00",
+    "published_raw": "2026-07-09T06:30:15+00:00"
   },
   {
     "title": "CXMT, 43억달러 IPO 본격화…중국 D램 추격 속도",
     "link": "https://www.etnews.com/20260709000339",
     "short_link": "etnews.com/20260709000339",
     "summary": "중국 최대 D램 업체 창신메모리테크놀로지(CXMT)가 상장 절차에 본격 돌입진행 CXMT는 삼성전자, SK하이닉스, 마이크론에 이은 세계 4위권 D램 업체로 꼽힌다",
-    "published_ago": "48분 전",
+    "published_ago": "1시간 전",
     "published_at": "2026-07-09T06:29:24+00:00",
     "published_raw": "2026-07-09T06:29:24+00:00"
   },
@@ -49,25 +130,34 @@
     "link": "https://zdnet.co.kr/view/?no=20260709151150",
     "short_link": "zdnet.co.kr/view",
     "summary": "글로벌 반도체 기업 로옴(ROHM) 주식회사는 자사 제4세대 SiC MOSFET를 탑재한 상면 방열 면실장 패키지 ‘TSC3PAK(14.00×18.58×3.50mm)’을 개발진행고 9일 발표",
-    "published_ago": "59분 전",
+    "published_ago": "1시간 전",
     "published_at": "2026-07-09T06:17:37+00:00",
     "published_raw": "2026-07-09T06:17:37+00:00"
   },
   {
-    "title": "KAIST, 2차원 반도체 모색 자동화 기술 구현...차세대 반도체 개발 가속 기대돼",
-    "link": "https://n.news.naver.com/mnews/article/030/0003446238",
-    "short_link": "n.news.naver.com/mnews/article/030/0003446238",
-    "summary": "한국과학기술원(KAIST·총장 배충식)이 반도체 선별과 소자 제작을 자동화진행 다만 용액공정으로 만든 2차원 반도체는 작은 반도체 조각(플레이크) 위치·크기·두께가 모두 달라 연구자가 현미경으로 원하는 시료를 하나씩 찾아야 진행",
+    "title": "GlobalWafers는 칩 사이클이 회복되면서 웨이퍼 수요가 개선되고 있다고 말합니다.",
+    "link": "https://www.digitimes.com/news/a20260708PD220/globalwafers-wafer-demand-revenue-recovery.html",
+    "short_link": "digitimes.com/news/a20260708PD220/globalwafers-wafer-deman...",
+    "summary": "GlobalWafers는 고급 및 성숙 노드 전반에 걸쳐 반도체 수요가 개선됨에 따라 2분기 매출이 반등진행고 보고했 회사 측은 강력한 AI 관련 수요와 높은 활용도가 최근 실적을 뒷받침발표",
     "published_ago": "1시간 전",
-    "published_at": "2026-07-09T05:58:12+00:00",
-    "published_raw": "2026-07-09T05:58:12+00:00"
+    "published_at": "2026-07-09T05:54:48+00:00",
+    "published_raw": "Thu, 9 Jul 2026 05:54:48 GMT"
+  },
+  {
+    "title": "삼성, 갤럭시 S27에서 엑시노스 2700 사용 확대",
+    "link": "https://www.digitimes.com/news/a20260709PD233/samsung-galaxy-exynos-snapdragon-ap.html",
+    "short_link": "digitimes.com/news/a20260709PD233/samsung-galaxy-exynos-sn...",
+    "summary": "삼성전자는 2027년 출시 예정인 갤럭시 S27 플래그십 시리즈 전반에 자체 모바일 애플리케이션 프로세서인 엑시노스 2700을 확대 적용할 예정인 것으로 알려졌다 와 KBench는 업계 소식통을 인용해 삼성전자가 대부분의 시장에서 대부분의 갤럭시 S27 표준, 플러스, 프로 모델에 엑시노스 2700을 탑재하고, 미국 시장에서는 퀄컴 스냅드래곤 칩을 사용할",
+    "published_ago": "2시간 전",
+    "published_at": "2026-07-09T05:44:26+00:00",
+    "published_raw": "Thu, 9 Jul 2026 05:44:26 GMT"
   },
   {
     "title": "\"AI·반도체 강국 韓, 전력 DC 전환 최적지\"",
     "link": "https://www.asiae.co.kr/article/enterprise-CEO/2026070909335430896",
     "short_link": "asiae.co.kr/article/enterprise-CEO/2026070909335430896",
     "summary": "빈센조 살메리 슈나이더 일렉트릭 부사장 AI 데이터센터 확산에 AC 독주 깨져 반도체·배터리·로봇 등 모두 'DC 기반' DC 표준 없어, 글로벌 연대로 푼다 슈나이더 일렉트릭에 따르면 AI 데이터센터에 DC 시스템을 도입하면 필요 전력을 최소 5% 줄일 수 있다",
-    "published_ago": "1시간 전",
+    "published_ago": "2시간 전",
     "published_at": "2026-07-09T05:24:39+00:00",
     "published_raw": "2026-07-09T05:24:39+00:00"
   },
@@ -76,18 +166,81 @@
     "link": "https://www.newsis.com/view/NISX20260709_0003702403",
     "short_link": "newsis.com/view/NISX20260709_0003702403",
     "summary": "= 이재명 대통령과 이재용(오른쪽) 삼성전자 회장, 최태원 SK 회장이 29일 청와대 영빈관에서 열린 ‘대한민국 대도약 3대 메가프로젝트 국민보고회'에서 기념촬영을 하고 있다",
-    "published_ago": "1시간 전",
+    "published_ago": "2시간 전",
     "published_at": "2026-07-09T05:22:24+00:00",
     "published_raw": "2026-07-09T05:22:24+00:00"
+  },
+  {
+    "title": "SK하이닉스, 나스닥 ADR 상장으로 AI 인프라 역할 노린다",
+    "link": "https://www.digitimes.com/news/a20260709PD225/sk-hynix-sk-group-nasdaq-chairman-infrastructure.html",
+    "short_link": "digitimes.com/news/a20260709PD225/sk-hynix-sk-group-nasdaq...",
+    "summary": "최태원 SK그룹 회장이 SK하이닉스의 미국예탁증서(ADR) 나스닥 상장을 위해 미국을 방문하고, 뉴욕에서 열리는 기념식에 직접 참석할 예정인 것으로 알려졌다 이번 행보는 단순히 자본시장 행사를 넘어 SK하이닉스가 전통적인 메모리 업체에서 AI 인프라 핵심 기업으로 거듭나려는 노력에 있어 중요한 순간으로 평가받고 있다",
+    "published_ago": "3시간 전",
+    "published_at": "2026-07-09T04:10:45+00:00",
+    "published_raw": "Thu, 9 Jul 2026 04:10:45 GMT"
+  },
+  {
+    "title": "AI 수요로 인해 TSMC, 삼성이 파운드리 가격 인상 - Rapidus는 2nm 가격을 낮추는 것을 목표로 함",
+    "link": "https://www.digitimes.com/news/a20260709VL213/tsmc-samsung-demand-2nm-rapidus.html",
+    "short_link": "digitimes.com/news/a20260709VL213/tsmc-samsung-demand-2nm-...",
+    "summary": "AI 칩에 대한 수요 증가로 인해 파운드리 가격 책정 방식이 바뀌면서 TSMC와 삼성전자가 더 많은 영향력을 발휘할 수 있게 되면서 Rapidus와 같은 신규 진입업체는 비용 면에서 신중하게 경쟁하게 되었",
+    "published_ago": "3시간 전",
+    "published_at": "2026-07-09T04:06:55+00:00",
+    "published_raw": "Thu, 9 Jul 2026 04:06:55 GMT"
+  },
+  {
+    "title": "삼성디스플레이, AI 스마트 글래스에 초점을 맞추면서 더 저렴한 Apple XR 패널 폐기",
+    "link": "https://www.digitimes.com/news/a20260709VL211/apple-display-panel-xr-sdc.html",
+    "short_link": "digitimes.com/news/a20260709VL211/apple-display-panel-xr-s...",
+    "summary": "디스플레이 프로그램의 조용한 죽음은 어떤 제품 출시보다 Apple이 어디로 향하고 있는지에 대해 더 많은 것을 말해줍니다",
+    "published_ago": "3시간 전",
+    "published_at": "2026-07-09T03:59:25+00:00",
+    "published_raw": "Thu, 9 Jul 2026 03:59:25 GMT"
+  },
+  {
+    "title": "엔비디아, AI 칩 생태계가 협업으로 전환함에 따라 제휴 전략 확대",
+    "link": "https://www.digitimes.com/news/a20260709VL205/nvidia-ai-chip-infrastructure-hardware-ai-inference.html",
+    "short_link": "digitimes.com/news/a20260709VL205/nvidia-ai-chip-infrastru...",
+    "summary": "The Information에 따르면 Nvidia는 신흥 AI 칩 개발자와의 파트너십을 점점 더 많이 수용하고 있으며, 이는 하드웨어만으로 경쟁하는 것에서 이기종 AI 인프라를 활성화하는 것으로 더 넓은 변화를 예고하고 있",
+    "published_ago": "4시간 전",
+    "published_at": "2026-07-09T03:27:56+00:00",
+    "published_raw": "Thu, 9 Jul 2026 03:27:56 GMT"
+  },
+  {
+    "title": "삼성·SK하이닉스, 차세대 HBM 하이브리드 본딩 타임라인 재검토",
+    "link": "https://www.digitimes.com/news/a20260709VL209/samsung-sk-hynix-hbm-hbm4-technology.html",
+    "short_link": "digitimes.com/news/a20260709VL209/samsung-sk-hynix-hbm-hbm...",
+    "summary": "ZDNetKOREA가 인용한 업계 소식통에 따르면 이 기술의 장기적인 관련성은 그대로 유지되지만 단기적으로는 사례가 약해지고 있다고 합니다",
+    "published_ago": "4시간 전",
+    "published_at": "2026-07-09T03:11:56+00:00",
+    "published_raw": "Thu, 9 Jul 2026 03:11:56 GMT"
+  },
+  {
+    "title": "Analog Devices, Empower Semiconductor 인수 및 AI 전력 시장 진출",
+    "link": "https://www.digitimes.com/news/a20260709VL208/analog-devices-market-acquisition-infrastructure-technology.html",
+    "short_link": "digitimes.com/news/a20260709VL208/analog-devices-market-ac...",
+    "summary": "이는 그리드 인프라에서 핵심 컴퓨팅 시스템에 이르기까지 전체 AI 생태계를 포괄하는 포괄적인 전력 파트너로서 회사의 역할을 강화하기 위한 조치라고 합니다",
+    "published_ago": "4시간 전",
+    "published_at": "2026-07-09T02:59:22+00:00",
+    "published_raw": "Thu, 9 Jul 2026 02:59:22 GMT"
   },
   {
     "title": "애플, 브로드컴과 45조원 반도체 동맹…미국 생산 확대",
     "link": "https://zdnet.co.kr/view/?no=20260709114229",
     "short_link": "zdnet.co.kr/view",
     "summary": "애플이 미국산 칩 생산 확대를 위해 브로드컴과 300억 달러(약 45조원) 규모 맞춤형 반도체(ASIC) 계약을 체결진행고 월스트리트저널이 8일(현지시간) 보도진행 향후 5년 동안 계속될 이번 계약을 통해 애플은 미국산 칩 150억개 이상 생산할 계획",
-    "published_ago": "4시간 전",
+    "published_ago": "5시간 전",
     "published_at": "2026-07-09T02:44:21+00:00",
     "published_raw": "2026-07-09T02:44:21+00:00"
+  },
+  {
+    "title": "Foxconn은 IC 설계, SiC 및 고급 패키징을 포괄하는 통합 반도체 생태계를 구축합니다.",
+    "link": "https://www.digitimes.com/news/a20260709PD214/foxconn-ic-design-packaging-sic-young-liu.html",
+    "short_link": "digitimes.com/news/a20260709PD214/foxconn-ic-design-packag...",
+    "summary": "Foxconn의 Young Liu 회장은 최근 그룹의 IC 설계 자회사 중 하나가 이르면 2026년에 대만 혁신 위원회에 상장할 가능성이 있는 대만 상장을 준비하고 있다고 밝혔 Liu는 회사를 밝히지 않았지만 업계 관찰자들은 가장 유력한 후보가 Socle Technology Corp(Socle)일 것으로 믿고 있",
+    "published_ago": "5시간 전",
+    "published_at": "2026-07-09T02:18:16+00:00",
+    "published_raw": "Thu, 9 Jul 2026 02:18:16 GMT"
   },
   {
     "title": "정부-전남광주특별시, 반도체 부지 조성 '실행 협의' 착수",
@@ -99,93 +252,21 @@
     "published_raw": "2026-07-09T02:09:56+00:00"
   },
   {
+    "title": "Apple의 300억 달러 규모의 Broadcom 거래 확장은 미국 칩 전략과 국내 제조에 대한 더 큰 베팅을 의미합니다.",
+    "link": "https://www.digitimes.com/news/a20260709VL200/apple-broadcom-silicon-design-manufacturing-production.html",
+    "short_link": "digitimes.com/news/a20260709VL200/apple-broadcom-silicon-d...",
+    "summary": "향후 몇 년 동안 Broadcom에 300억 달러 이상을 투자하기로 한 Apple의 결정은 단일 조달 계약을 훨씬 뛰어넘는 의미를 담고 있 잠재적으로 iPhone 제조업체가 맞춤형 실리콘 설계에 접근하는 방식과 중요한 칩 생산을 미국 내에서 어느 정도까지 고정시킬 의향이 있는지에 대한 재편이 가능합니다",
+    "published_ago": "5시간 전",
+    "published_at": "2026-07-09T02:01:12+00:00",
+    "published_raw": "Thu, 9 Jul 2026 02:01:12 GMT"
+  },
+  {
     "title": "반도체 프로젝트 지원…전남광주특별시 산업지원단 출범",
     "link": "https://www.yna.co.kr/view/AKR20260709086500054?section=industry/electronics",
     "short_link": "yna.co.kr/view/AKR20260709086500054",
     "summary": "지원단은 반도체 산단 건립 관련 행정절차를 총괄하는 조직으로, 반도체 심의·자문기구인 '전남광주반도체전략위원회'가 사업의 비전과 전략을 수립하면 지원단은 이를 구체화하고 사업 집행을 총괄하게 된다",
-    "published_ago": "5시간 전",
+    "published_ago": "6시간 전",
     "published_at": "2026-07-09T01:56:39+00:00",
     "published_raw": "2026-07-09T01:56:39+00:00"
-  },
-  {
-    "title": "SK하이닉스 ADR 공모에 7배 청약…AI 반도체 열기 재확인",
-    "link": "https://www.newsis.com/view/NISX20260709_0003701785",
-    "short_link": "newsis.com/view/NISX20260709_0003701785",
-    "summary": "SK하이닉스의 미국주식예탁증서(ADR) 공모에 글로벌 투자자 자금이 대거 몰렸다 인공지능(AI) 반도체 수요 확대에 대한 기대가 이어지면서 고대역폭메모리(HBM) 강자인 SK하이닉스에 투자자 관심이 집중된 것으로 풀이된다",
-    "published_ago": "6시간 전",
-    "published_at": "2026-07-09T00:33:06+00:00",
-    "published_raw": "2026-07-09T00:33:06+00:00"
-  },
-  {
-    "title": "애플, 브로드컴과 300억 달러 규모 부품 계약 연장… 미국 반도체 자립 가속화",
-    "link": "https://www.ddaily.co.kr/page/view/2026070909032633999",
-    "short_link": "ddaily.co.kr/page/view/2026070909032633999",
-    "summary": "애플이 자사 기기의 무선 통신 성능을 고도화하고 인공지능 인프라의 안정성을 확보하기 위해 미국 반도체 기업 브로드컴과 300억 달러(약 41조4000억원) 규모의 차세대 주문형반도체 및 무선 통신 부품 공급 계약을 전격 연장진행",
-    "published_ago": "7시간 전",
-    "published_at": "2026-07-09T00:03:00+00:00",
-    "published_raw": "2026-07-09T00:03:00+00:00"
-  },
-  {
-    "title": "로봇 관절에 전장 DNA 심는다…삼현, 휴머노이드 액추에이터 양산 승부수",
-    "link": "https://www.ddaily.co.kr/page/view/2026070818231689447",
-    "short_link": "ddaily.co.kr/page/view/2026070818231689447",
-    "summary": "이날 발표에 나선 박기원 삼현 대표는 위와 같이 말하며, 전장 부품에서 축적한 양산 경험을 바탕으로 휴머노이드 액추에이터 시장을 공략하겠다는 의지를 드러냈다 박 대표는 “액추에이터 브랜드는 ‘AI가 생각하고 판단하면 액슬론이 움직인다’는 의미를 담았다”며 “30년 이상 쌓은 자동차용 헤리티지가 액슬론에 녹아 있다”고 말진행",
-    "published_ago": "10시간 전",
-    "published_at": "2026-07-08T21:00:00+00:00",
-    "published_raw": "2026-07-08T21:00:00+00:00"
-  },
-  {
-    "title": "구미 반도체업계, 정부에 \"테스트베드 인프라 구축\" 촉구(종합)",
-    "link": "https://www.yna.co.kr/view/AKR20260708158451053?section=industry/electronics",
-    "short_link": "yna.co.kr/view/AKR20260708158451053",
-    "summary": "이미지 확대 2026년 구미 반도체산업 기업협의회 정기총회 개최 (구미= ) 2026년 구미 반도체산업 기업협의회 정기총회 및 사업설명회가 8일 경북 구미시 호텔금오산에서 열리고 있다",
-    "published_ago": "20시간 전",
-    "published_at": "2026-07-08T10:27:54+00:00",
-    "published_raw": "2026-07-08T10:27:54+00:00"
-  },
-  {
-    "title": "이재용, 삼성 파운드리 수장과 선밸리행…AI칩 추가 성과 나올까",
-    "link": "https://www.edaily.co.kr/News/Read?newsId=04775686645512552&mediaCodeNo=257",
-    "short_link": "edaily.co.kr/News/Read",
-    "summary": "AMD와도 2나노(㎚) 공정을 활용해 차세대 중앙처리장치(CPU) 관련 협력할 것으로 알려졌다.재계에서는 이 회장이 이번 출장 기간 선밸리 콘퍼런스뿐 아니라 미국 현지 주요 고객사들과 만나 고대역폭메모리(HBM) 등 메모리 반도체 분야 협력 확대에도 나설 것으로 보고 있다.이 회장이 선밸리 콘퍼런스를 시작으로 이번 출장",
-    "published_ago": "22시간 전",
-    "published_at": "2026-07-08T08:34:05+00:00",
-    "published_raw": "2026-07-08T08:34:05+00:00"
-  },
-  {
-    "title": "경북 구미 반도체 기업들 '상생'으로 경쟁력 높인다",
-    "link": "https://www.yna.co.kr/view/AKR20260708158400053?section=industry/electronics",
-    "short_link": "yna.co.kr/view/AKR20260708158400053",
-    "summary": "구미 반도체산업 기업협의회가 8일 호텔금오산에서 정기총회 및 사업설명회를 개최진행 반도체 기업협의회는 지난 2023년 경북·구미 반도체 특화단지 추진을 계기로 창립돼 현재 원익큐엔씨, KEC, SK실트론, LG이노텍 등 구미 지역 105개 기업이 참여하고 있다",
-    "published_ago": "22시간 전",
-    "published_at": "2026-07-08T08:25:49+00:00",
-    "published_raw": "2026-07-08T08:25:49+00:00"
-  },
-  {
-    "title": "이재용 삼성전자 회장, 한진만 파운드리 사장과 美선밸리行 \"빅딜 따낼까\"",
-    "link": "https://www.newsis.com/view/NISX20260708_0003701129",
-    "short_link": "newsis.com/view/NISX20260708_0003701129",
-    "summary": "= 이재용 삼성전자 회장이 7일 서울 강서구 김포국제공항 비즈니스센터로 출국하고 있다 이 회장은 '억만장자들의 여름캠프'로 불리는 미국 '선밸리 콘퍼런스'에 2년 연속 참석할 예정",
-    "published_ago": "22시간 전",
-    "published_at": "2026-07-08T08:22:25+00:00",
-    "published_raw": "2026-07-08T08:22:25+00:00"
-  },
-  {
-    "title": "“AI 거물들 다 모였다”…이재용, 선밸리 참석해 ‘반도체 세일즈’ 시작",
-    "link": "https://www.mk.co.kr/news/business/12093509",
-    "short_link": "mk.co.kr/news/business/12093509",
-    "summary": "지난해 테슬라와 약 22조7000억원 규모의 파운드리 공급 계약을 체결한 데 이어 엔비디아 자율주행칩과 그록(Groq)의 AI 칩 생산에도 협력하고 있다 재계는 이 회장이 이번 미국 출장에서 주요 고객사들과 잇달아 만나 파운드리뿐 아니라 고대역폭메모리(HBM) 등 메모리 반도체 협력 방안도 논의할 것으로 보고 있다",
-    "published_ago": "23시간 전",
-    "published_at": "2026-07-08T07:30:23+00:00",
-    "published_raw": "2026-07-08T07:30:23+00:00"
-  },
-  {
-    "title": "이재용, 파운드리 사장과 美 ‘선밸리’ 참석... 빅테크 거물들 만난다",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZEFEeURaRGFKWldKRFJsdmpDaGVWM3VDSXNRQkpvT2NNSVV3NDlVMkhOc0djdmdiLThWblUwUUl1d09JVUtWSFVrS1dzWXM4S3NCNTJHLTlYRElpVWRPNk95SHdzTFNCUjFWQzlSNFhUUGpsY0Y2dTZ3dGZKcy1iYzU0MG50MzRmUzktbGNOYw?oc=5&hl=ko&gl=KR&ceid=KR:ko",
-    "short_link": "news.google.com/rss/articles/CBMijwFBVV95cUxOZEFEeURaRGFKW...",
-    "summary": "이재용, 파운드리 사업부장과 선밸리 참석…빅테크 수주 주목 선글라스 낀 이재용, 선밸리서 ‘파운드리 세일즈’ 에너지경제신문 삼성전자 회장 이재용 미국 '선밸리 콘퍼런스' 참석, 파운드리 사업부장 동행 비즈니스포스트 이재용 삼성전자 회장, 한진만 파운드리 사장과 美선밸리行 \"빅딜 따낼까\" 삼성 이재용, '美 억만장자 여름캠",
-    "published_ago": "23시간 전",
-    "published_at": "2026-07-08T07:25:07+00:00",
-    "published_raw": "Wed, 08 Jul 2026 07:25:07 GMT"
   }
 ]
