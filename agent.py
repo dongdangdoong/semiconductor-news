@@ -1238,27 +1238,33 @@ def fetch_news():
 
             if len(clean_space(body)) < 100:
                 stats["too_short"] += 1
+                print(f"[DIRECT SKIP too_short] {candidate['source']} (body={len(clean_space(body))}자): {title[:40]}")
                 continue
 
             if is_video_article(title, final_link, body):
                 stats["video"] += 1
+                print(f"[DIRECT SKIP video] {candidate['source']}: {title[:40]}")
                 continue
 
             if is_stock_news(title, body):
                 stats["stock"] += 1
+                print(f"[DIRECT SKIP stock] {candidate['source']}: {title[:40]}")
                 continue
 
             if not is_semicon_related(title, final_link, body):
+                print(f"[DIRECT SKIP not_semicon] {candidate['source']}: {title[:40]}")
                 continue
 
             direct_dt = get_article_published_datetime(final_link)
 
             if direct_dt is None:
                 stats["unknown_time"] = stats.get("unknown_time", 0) + 1
+                print(f"[DIRECT SKIP unknown_time] {candidate['source']}: {title[:40]} ({final_link})")
                 continue
 
             if not is_within_recent_hours(direct_dt.isoformat(), 24):
                 stats["old"] += 1
+                print(f"[DIRECT SKIP old] {candidate['source']} ({direct_dt.isoformat()}): {title[:40]}")
                 continue
 
             direct_ts = direct_dt.timestamp()
