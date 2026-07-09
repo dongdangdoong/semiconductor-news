@@ -889,8 +889,13 @@ def get_article_body(url):
     try:
         real_url = resolve_url(url)
 
+        # newspaper 자체 다운로더는 일부 사이트(DigiTimes 등)에서 차단/빈 응답이 옴
+        # 목록 페이지 크롤링에 이미 성공한 HEADERS로 직접 받아서 넘겨준다
+        res = requests.get(real_url, headers=HEADERS, timeout=12)
+        res.encoding = res.apparent_encoding or res.encoding
+
         article = Article(real_url, language="ko")
-        article.download()
+        article.set_html(res.text)
         article.parse()
 
         body = article.text or ""
@@ -937,6 +942,17 @@ def get_article_published_datetime(url):
             if dt:
                 return dt
 
+        # 네이버 등 일부 사이트는 <time> 대신 data-date-time 속성을 사용
+        # 이 값은 타임존 정보가 없는 한국시간(KST)이므로 명시적으로 KST로 해석해야 함
+        datetime_attr_tag = soup.find(attrs={"data-date-time": True})
+        if datetime_attr_tag:
+            raw = datetime_attr_tag.get("data-date-time", "")
+            m = re.match(r"(\d{4})-(\d{1,2})-(\d{1,2})[ T](\d{1,2}):(\d{2})(?::(\d{2}))?", raw)
+            if m:
+                y, mo, d, hh, mi, se = m.groups()
+                se = int(se) if se else 0
+                return datetime(int(y), int(mo), int(d), int(hh), int(mi), se, tzinfo=KST).astimezone(timezone.utc)
+
         text = soup.get_text(" ")
         patterns = [
             r"(?:입력|등록|최초입력|승인|게재)\s*(\d{4})[.\-/](\d{1,2})[.\-/](\d{1,2})\s+(\d{1,2}):(\d{2})",
@@ -948,6 +964,18 @@ def get_article_published_datetime(url):
             if match:
                 y, m, d, hh, mm = map(int, match.groups())
                 return datetime(y, m, d, hh, mm, tzinfo=KST).astimezone(timezone.utc)
+
+        # 오전/오후 형식 (네이버 등): "입력 2026.07.09. 오전 10:23"
+        ampm_pattern = r"(?:입력|등록|최초입력|승인|게재)?\s*(\d{4})[.\-/](\d{1,2})[.\-/](\d{1,2})\.?\s*(오전|오후)\s*(\d{1,2}):(\d{2})"
+        match = re.search(ampm_pattern, text)
+        if match:
+            y, m, d, ampm, hh, mm = match.groups()
+            y, m, d, hh, mm = int(y), int(m), int(d), int(hh), int(mm)
+            if ampm == "오후" and hh != 12:
+                hh += 12
+            if ampm == "오전" and hh == 12:
+                hh = 0
+            return datetime(y, m, d, hh, mm, tzinfo=KST).astimezone(timezone.utc)
 
         return None
 
