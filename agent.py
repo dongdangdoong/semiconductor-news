@@ -84,7 +84,10 @@ HARD_SEMICON_KEYWORDS = [
     "파운드리", "TSMC", "마이크론", "웨이퍼", "EUV", "패키징",
     "나노", "공정", "팹", "양산", "AI 반도체", "AI칩", "AI 칩",
     "NPU", "GPU", "ASIC", "DDR", "LPDDR", "SSD", "기업용 SSD",
-    "낸드플래시", "HBM4", "HBM3E", "CXL", "AP", "엑시노스"
+    "낸드플래시", "HBM4", "HBM3E", "CXL", "AP", "엑시노스",
+    # 영문 소스(DigiTimes, Reuters 등) 제목 매칭용
+    "semiconductor", "semiconductors", "chipmaker", "chipmakers",
+    "foundry", "foundries", "wafer", "fab"
 ]
 NON_SEMICON_INDUSTRY_KEYWORDS = [
     "배터리", "이차전지", "2차전지", "ESS", "LFP", "양극재", "음극재",
@@ -100,6 +103,24 @@ COMPANY_KEYWORDS = [
 ]
 
 DIRECT_SOURCE_URLS = [
+    {
+        "name": "네이버 IT/과학",
+        "urls": [
+            "https://news.naver.com/section/105"
+        ]
+    },
+    {
+        "name": "DigiTimes",
+        "urls": [
+            "https://www.digitimes.com/topic/semiconductors/"
+        ]
+    },
+    {
+        "name": "Reuters",
+        "urls": [
+            "https://www.reuters.com/technology/semiconductors/"
+        ]
+    },
     {
         "name": "한국경제",
         "urls": [
@@ -196,7 +217,8 @@ SOURCE_NOISE_WORDS = [
     "조선비즈", "연합뉴스", "디지털타임스", "디지털데일리", "한겨레",
     "지디넷코리아", "ZDNet Korea", "전자신문", "뉴시스", "이데일리",
     "구글뉴스", "Google 뉴스", "Google News", "네이버뉴스", "네이버 뉴스",
-    "Reuters", "Bloomberg", "CNBC", "Financial Times", "Nikkei Asia"
+    "Reuters", "Bloomberg", "CNBC", "Financial Times", "Nikkei Asia",
+    "DigiTimes", "디지타임스", "디지타임즈"
 ]
 
 KST = timezone(timedelta(hours=9))
