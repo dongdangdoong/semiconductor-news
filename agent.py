@@ -36,7 +36,15 @@ KEYWORDS = [
     "AI 칩",
     "파운드리",
     "TSMC",
-    "마이크론"
+    "마이크론",
+    # Reuters는 직접 크롤링이 막혀있어 Google 뉴스 site: 검색으로 우회
+    "site:reuters.com semiconductor",
+    "site:reuters.com chip"
+]
+
+# DigiTimes는 사이트 자체가 크롤링을 막고 있지만 공식 RSS는 열려있어 이걸로 수집
+ENGLISH_RSS_SOURCES = [
+    {"name": "DigiTimes", "url": "https://www.digitimes.com/rss/daily.xml"}
 ]
 
 STOCK_KEYWORDS = [
@@ -107,18 +115,6 @@ DIRECT_SOURCE_URLS = [
         "name": "네이버 IT/과학",
         "urls": [
             "https://news.naver.com/section/105"
-        ]
-    },
-    {
-        "name": "DigiTimes",
-        "urls": [
-            "https://www.digitimes.com/topic/semiconductors/"
-        ]
-    },
-    {
-        "name": "Reuters",
-        "urls": [
-            "https://www.reuters.com/technology/semiconductors/"
         ]
     },
     {
@@ -893,9 +889,30 @@ def get_article_body(url):
         # 목록 페이지 크롤링에 이미 성공한 HEADERS로 직접 받아서 넘겨준다
         res = requests.get(real_url, headers=HEADERS, timeout=12)
         res.encoding = res.apparent_encoding or res.encoding
+        html = res.text
+
+        # 네이버 뉴스는 newspaper의 일반 추출 알고리즘이 본문 대신
+        # "AI 요약봇" 안내 박스(모든 기사에서 길이가 똑같음)를 잘못 집어내는 경우가 있어
+        # 실제 본문 컨테이너(#dic_area / #newsct_article)를 직접 지정해서 추출한다
+        if "naver.com" in urlparse(real_url).netloc:
+            soup = BeautifulSoup(html, "html.parser")
+            content_div = soup.select_one("#dic_area") or soup.select_one("#newsct_article")
+
+            if content_div:
+                for junk in content_div.select("script, style, .end_photo_org, .ab_sub_bx, .media_end_summary"):
+                    junk.decompose()
+
+                body = clean_space(content_div.get_text(" "))
+                body = strip_reporter_and_source(body)
+
+                title_meta = soup.find("meta", attrs={"property": "og:title"})
+                raw_title = title_meta.get("content") if title_meta else ""
+                article_title = normalize_article_title(raw_title or "")
+
+                return body, real_url, article_title
 
         article = Article(real_url, language="ko")
-        article.set_html(res.text)
+        article.set_html(html)
         article.parse()
 
         body = article.text or ""
@@ -1238,6 +1255,105 @@ def fetch_news():
 
         except Exception as e:
             print(f"[ERROR] {keyword}: {e}")
+
+    # 1.5차 소스: 영문 RSS (DigiTimes 등 — 사이트 직접 크롤링은 막혀있어 공식 RSS 이용)
+    for source in ENGLISH_RSS_SOURCES:
+        source_name = source["name"]
+        try:
+            res = requests.get(source["url"], headers=HEADERS, timeout=15)
+            soup = BeautifulSoup(res.content, "xml")
+            items = soup.find_all("item")
+
+            print(f"[{source_name} RSS] items: {len(items)}")
+            source_added = 0
+
+            for item in items:
+                raw_title = clean_html(item.title.text if item.title else "")
+                description = clean_html(item.description.text if item.description else "")
+                pub_date = clean_html(item.pubDate.text if item.pubDate else "")
+                link = clean_html(item.link.text if item.link else "")
+
+                if not link or not raw_title:
+                    continue
+
+                if not is_within_recent_hours(pub_date, 24):
+                    stats["old"] += 1
+                    continue
+
+                # 번역 전에 원문(영문) 기준으로 반도체 키워드 매칭
+                check_text = f"{raw_title} {description}".lower()
+                if not any(keyword.lower() in check_text for keyword in HARD_SEMICON_KEYWORDS):
+                    continue
+
+                if link in seen_links:
+                    stats["duplicate"] += 1
+                    continue
+
+                title = translate_to_korean(raw_title)
+                title = remove_question_exclamation(title)
+
+                body, real_link, article_title = get_article_body(link)
+                final_link = real_link or link
+
+                if article_title and not is_bad_extracted_title(article_title):
+                    title = translate_to_korean(article_title) if is_mostly_english(article_title) else article_title
+
+                if final_link in seen_links:
+                    stats["duplicate"] += 1
+                    continue
+
+                if len(clean_space(body)) >= 100:
+                    summary_source = body
+                else:
+                    summary_source = translate_to_korean(description)
+                    stats["body_fallback"] += 1
+
+                if len(clean_space(summary_source)) < 100:
+                    stats["too_short"] += 1
+                    print(f"[{source_name} SKIP too_short] (body={len(clean_space(summary_source))}자): {title[:40]}")
+                    continue
+
+                if is_video_article(title, final_link, summary_source):
+                    stats["video"] += 1
+                    continue
+
+                if is_stock_news(title, summary_source):
+                    stats["stock"] += 1
+                    continue
+
+                if not is_semicon_related(title, final_link, summary_source):
+                    continue
+
+                summary = make_compact_summary(summary_source, title=title)
+
+                seen_links.add(final_link)
+                seen_titles.append(title)
+
+                published_dt = published_datetime(pub_date)
+
+                results.append({
+                    "title": title,
+                    "link": final_link,
+                    "short_link": short_link(final_link),
+                    "summary": summary,
+                    "published_ago": published_ago_from_datetime(published_dt),
+                    "published_at": published_dt.isoformat(),
+                    "published_raw": pub_date,
+                    "published_ts": published_dt.timestamp(),
+                    "body_len": len(clean_space(summary_source)),
+                    "dedupe_text": summary_source[:2000]
+                })
+
+                stats["added"] += 1
+                source_added += 1
+                print(f"[{source_name} Added] {title[:45]}")
+
+                time.sleep(0.15)
+
+            print(f"[{source_name} RSS] added: {source_added}")
+
+        except Exception as e:
+            print(f"[{source_name} RSS ERROR]: {e}")
 
     # 2차 소스: 언론사 직접 크롤링 보조 소스
     direct_candidates = collect_direct_source_candidates(max_per_source=10)
