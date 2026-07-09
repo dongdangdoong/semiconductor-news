@@ -1,26 +1,42 @@
 [
   {
-    "title": "中딥시크, 자체 AI칩 개발 나서… 하드웨어 경쟁 본격화",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByN0E4RU5STDBOQ2FlSWJYLVh0Wnl0YmdyT2thZDdfTFJiZk1sUHNJd2NWNm1FeFR2Wm9OR0hXODFJMmJEX3VfT1FLOVVPbUV4TTNGNGNpalFoY0FkZXpuR3p3cWI5OTNHbURBNGxyY9IBZkFVX3lxTFBka1BjTFlFaDJSZ20xeHpudzJtckJuaDZFOHc4cGFsSDVVbmhhV3NLMDlwYWZKM19CSlFHQlhWREFibHptbEUxZHZKM2lOeWZ0NHFJSUNmTHdqQ19oc2NnWnh2Z1dJdw?oc=5&hl=ko&gl=KR&ceid=KR:ko",
-    "short_link": "news.google.com/rss/articles/CBMib0FVX3lxTFByN0E4RU5STDBOQ...",
-    "summary": "中딥시크, 자체 AI칩 개발 나서… 하드웨어 경쟁 본격화 동아일보 중국 AI 칩 '脫엔비디아'…화웨이, 엔비디아 제쳤다 매일경제 마켓 \"중국, 엔비디아 H200 AI칩 제한적 구매 허용 추진\"…AI 육성에 선회 이데일리",
-    "published_ago": "8시간 전",
-    "published_raw": "Wed, 08 Jul 2026 15:30:00 GMT"
+    "title": "SK하이닉스 ADR 제공, 강력한 글로벌 수요 끌어내며 AI 칩 성장에 대한 투자자 신뢰 강화",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXZVZJUHBaeEQyeWV6SlQ5b1h3czNjVjhnRVpIc0ZsVkVjQjVXV3JPWVZmWkdVQ2RIZjRfdzl2d1lZVHRGcFNZM1dpUEFKSDZYWWUzNk8zQ2JRQUtYc2d2OHdrYTFFeVBEZ1F3dTlBSHg?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMicEFVX3lxTFBXZVZJUHBaeEQye...",
+    "summary": "SK하이닉스 ADR 제공, 강력한 글로벌 수요 끌어내며 AI 칩 성장에 대한 투자자 신뢰 강화 Korea IT Times",
+    "published_ago": "1시간 전",
+    "published_raw": "Thu, 09 Jul 2026 01:01:12 GMT"
+  },
+  {
+    "title": "\"애플, 중국 CXMT D램 테스트 착수\"…공급망 다변화 시동",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iUkxzeHNuSDhfc0pNbjBQS3VPUmw4TnB3TjY4Rk9sZWhrb0ZrX185UmNCWV8tTERpM3lKc0ZfSXBSYlZSNTZabEFnTWpvZG9lTlpKZi1R?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMiVkFVX3lxTE5iUkxzeHNuSDhfc...",
+    "summary": "\"애플, 중국 CXMT D램 테스트 착수\"…공급망 다변화 시동 지디넷코리아 \"애플, 美 안보위협기업인 中 CXMT D램 칩 테스트 나서\" 한국경제 애플, '제재 대상' 中 D램까지 테스트…삼성·SK 압박카드 될까 뉴시스 애플, 中 판매 기기에 CXMT D램 탑재 검토 연합인포맥스 \"애플, 美 안보 논란 속 中 CXMT D",
+    "published_ago": "2시간 전",
+    "published_raw": "Wed, 08 Jul 2026 23:43:36 GMT"
+  },
+  {
+    "title": "속도내는 中 반도체 자립… 딥시크·즈푸도 AI 칩 개발 뛰어들어",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRDR5QjhKNDZFREdRekpSVktKMnB6MUJ5Q3B2V2FyVGpQcmtULXRpRmdJYklqMzhMUHNCWXJ0dEhaSkJCY2dIYTZxT2xSMmtTOUUtQ1dqZG9IdEx2WF8yWkQxemg3NVV2dEIwQ1JNcEVmQlZSSTRNTDRwOF8zRWVWaHJfVQ?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMigwFBVV95cUxQRDR5QjhKNDZFR...",
+    "summary": "속도내는 中 반도체 자립… 딥시크·즈푸도 AI 칩 개발 뛰어들어 조선일보 中 딥시크, 자체 AI칩 개발 나서…美 수출 제한에 ‘하드웨어 경쟁’ 본격화 동아일보 중국 AI 칩 '脫엔비디아'…화웨이, 엔비디아 제쳤다",
+    "published_ago": "10시간 전",
+    "published_raw": "Wed, 08 Jul 2026 15:48:00 GMT"
   },
   {
     "title": "좋은 추론 소프트웨어가 뒷받침되면, 아직 엔비디아에 밀리는 신생 칩들도 실사용 시장에서 경쟁력을 확보할 여지가",
     "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9jcnVWZm96c2dmQ0dzYzJUeTVnYnU5NXNLN3NUTVJqVFZWbU9yRC1adHVyY3NtOGJrZTBJRGx5OXk?oc=5&hl=ko&gl=KR&ceid=KR:ko",
     "short_link": "news.google.com/rss/articles/CBMiQEFVX3lxTE9jcnVWZm96c2dmQ...",
     "summary": "좋은 추론 소프트웨어가 뒷받침되면, 아직 엔비디아에 밀리는 신생 칩들도 실사용 시장에서 경쟁력을 확보할 여지가 AI넷",
-    "published_ago": "11시간 전",
+    "published_ago": "13시간 전",
     "published_raw": "Wed, 08 Jul 2026 12:26:02 GMT"
   },
   {
     "title": "이재용, 파운드리 사장과 美 ‘선밸리’ 참석... 빅테크 거물들 만난다",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZEFEeURaRGFKWldKRFJsdmpDaGVWM3VDSXNRQkpvT2NNSVV3NDlVMkhOc0djdmdiLThWblUwUUl1d09JVUtWSFVrS1dzWXM4S3NCNTJHLTlYRElpVWRPNk95SHdzTFNCUjFWQzlSNFhUUGpsY0Y2dTZ3dGZKcy1iYzU0MG50MzRmUzktbGNOYw?oc=5&hl=ko&gl=KR&ceid=KR:ko",
     "short_link": "news.google.com/rss/articles/CBMijwFBVV95cUxOZEFEeURaRGFKW...",
-    "summary": "조선일보 이재용 회장, '선밸리'에 한진만 파운드리 사장 동행…빅테크 수주 노린다 지디넷코리아 이재용, 파운드리 사업부장과 선밸리 참석…빅테크 수주 주목 연합뉴스",
-    "published_ago": "16시간 전",
+    "summary": "지디넷코리아 “1년 중 가장 바쁜 출장” 이재용, 파운드리 수장과 글로벌 재계모임 동행…애플·아마존·오픈AI 연쇄 회동 주목 v.daum.net 이재용, 파운드리 사업부장과 선밸리 참석…빅테크 수주 주목 연합뉴스 선글라스 낀 이재용, 선밸리서 ‘파운드리 세일즈’ 에너지경제신문 삼성전자 회장 이재용 미국 '선밸리 콘퍼런스'",
+    "published_ago": "18시간 전",
     "published_raw": "Wed, 08 Jul 2026 07:25:07 GMT"
   },
   {
@@ -64,10 +80,34 @@
     "published_raw": ""
   },
   {
-    "title": "나노코리아 2026",
-    "link": "https://www.etnews.com/20260708000392",
-    "short_link": "etnews.com/20260708000392",
-    "summary": "제24회 국제 나노기술융합전시회(나노코리아 2026)가 8일 경기 고양시 킨텍스에서 열렸다 참관객이 한국나노기술원의 반도체 인재 육성 프로그램 '나노스쿨'에서 실습하는 반도체 웨이퍼를 살펴보고 있다",
+    "title": "SK하이닉스 ADR 공모에 7배 청약…AI 반도체 열기 재확인",
+    "link": "https://www.newsis.com/view/NISX20260709_0003701785",
+    "short_link": "newsis.com/view/NISX20260709_0003701785",
+    "summary": "SK하이닉스의 미국주식예탁증서(ADR) 공모에 글로벌 투자자 자금이 대거 몰렸다 인공지능(AI) 반도체 수요 확대에 대한 기대가 이어지면서 고대역폭메모리(HBM) 강자인 SK하이닉스에 투자자 관심이 집중된 것으로 풀이된다",
+    "published_ago": "23시간 전",
+    "published_raw": ""
+  },
+  {
+    "title": "'반도체 소부장 주권' 더 높여가야",
+    "link": "https://www.etnews.com/20260705000050",
+    "short_link": "etnews.com/20260705000050",
+    "summary": "본지 취재를 종합하면 메모리 반도체 글로벌 패권을 쥔 삼성전자, SK하이닉스 두 회사가 중국 의존도를 높게 유지해왔던 소재·부품·장비(소부장) 공급망에 중대한 변화를 주기 시작한 것으로 파악됐다",
+    "published_ago": "23시간 전",
+    "published_raw": ""
+  },
+  {
+    "title": "반도체 장비 '빅4' 용인행…원삼에 기술지원 전진기지",
+    "link": "https://www.etnews.com/20260707000015",
+    "short_link": "etnews.com/20260707000015",
+    "summary": "세계적인 반도체 장비기업 어플라이드 머티어리얼즈가 경기 용인시 반도체클러스터에 장비 운용과 유지보수를 담당할 기술지원 시설을 건립한다 어플라이드 머티어리얼즈는 이 시설을 기반으로 용인 반도체클러스터 입주 기업에 장비 기술과 유지보수 서비스를 제공할 방침이다",
+    "published_ago": "23시간 전",
+    "published_raw": ""
+  },
+  {
+    "title": "나노코리아 기조강연 하는 박상엽 LG CNS CTO",
+    "link": "https://www.etnews.com/20260708000407",
+    "short_link": "etnews.com/20260708000407",
+    "summary": "제24회 국제 나노기술융합전시회(나노코리아 2026)가 8일 경기 고양시 킨텍스에서 열렸다 박상엽 LG CNS CTO가 '피지컬 AI가 여는 첨단 산업 현장의 미래'를 주제로 기조강연을 하고 있다",
     "published_ago": "23시간 전",
     "published_raw": ""
   },
@@ -176,14 +216,6 @@
     "published_raw": ""
   },
   {
-    "title": "로봇 관절에 전장 DNA 심는다…삼현, 휴머노이드 액추에이터 양산 승부수",
-    "link": "https://www.ddaily.co.kr/page/view/2026070818231689447",
-    "short_link": "ddaily.co.kr/page/view/2026070818231689447",
-    "summary": "이날 발표에 나선 박기원 삼현 대표는 위와 같이 말하며, 전장 부품에서 축적한 양산 경험을 바탕으로 휴머노이드 액추에이터 시장을 공략하겠다는 의지를 드러냈다 박 대표는 “액추에이터 브랜드는 ‘AI가 생각하고 판단하면 액슬론이 움직인다’는 의미를 담았다”며 “30년 이상 쌓은 자동차용 헤리티지가 액슬론에 녹아 있다”고 말진행",
-    "published_ago": "23시간 전",
-    "published_raw": ""
-  },
-  {
     "title": "AI 서버 독립 노리는 애플, 브로드컴 손잡고 독자 반도체 생태계 강화",
     "link": "https://www.ddaily.co.kr/page/view/2026070708332481023",
     "short_link": "ddaily.co.kr/page/view/2026070708332481023",
@@ -204,38 +236,6 @@
     "link": "https://www.ddaily.co.kr/page/view/2026070714352649682",
     "short_link": "ddaily.co.kr/page/view/2026070714352649682",
     "summary": "기사 원문 : \"[AI 토큰 청구서⑥完] AI 비용 모델, '많이 쓰기'에서 '잘 골라 쓰기'로\" () 삼성의 '중국산 패널' 딜레마 메모리·AP 가격이 치솟으면서 스마트폰 제조원가가 마진을 위협하자 삼성전자가 준플래그십 '갤럭시S26 FE'에 중국 BOE 패널 혼용을 검토 중이라고 합니다",
-    "published_ago": "23시간 전",
-    "published_raw": ""
-  },
-  {
-    "title": "삼성전자, PCIe 6.0 eSSD 'PM1763' 양산…데이터 전송속도 2배 향상",
-    "link": "https://www.ddaily.co.kr/page/view/2026070813234896419",
-    "short_link": "ddaily.co.kr/page/view/2026070813234896419",
-    "summary": "최장석 삼성전자 메모리사업부 상품기획팀 상무는 \"PM1763은 업계 최고 수준의 성능을 기반으로 글로벌 고객사의 차세대 AI 플랫폼 요구사항을 충족하고 제품 검증도 완료진행\"며 \"AI 모델 운영 효율을 높이는 핵심 스토리지 솔루션이 될 것\"이라고 말진행",
-    "published_ago": "23시간 전",
-    "published_raw": ""
-  },
-  {
-    "title": "HBM 승부수 띄운 마이크론…국내 후공정 장비 수요 커진다 [반도체레이다]",
-    "link": "https://www.ddaily.co.kr/page/view/2026070814344086757",
-    "short_link": "ddaily.co.kr/page/view/2026070814344086757",
-    "summary": "미국 마이크론이 글로벌 주요 거점을 중심으로 한 D램과 고대역폭메모리(HBM) 투자를 확대하면서 국내 반도체 소재·부품·장비(소부장) 생태계에도 기대감이 높아지고 있다 범용 D램 가격 조정 국면을 지나 AI 서버용 선단 D램과 HBM 수요가 빠르게 늘면서 공급 여력이 빠듯해지고 있다",
-    "published_ago": "23시간 전",
-    "published_raw": ""
-  },
-  {
-    "title": "광주 반도체 공장 건립 '패스트트랙'…10→5년으로 줄인다",
-    "link": "https://www.yna.co.kr/view/AKR20260708106100054?section=industry/electronics",
-    "short_link": "yna.co.kr/view/AKR20260708106100054",
-    "summary": "구독 구독중 이전 다음 인허가·보상·전력·용수·건축 동시에…환경영향평가 축소 투자 지원·원스톱 체계 구축…주민 수용성 확보 관건 이미지 확대 공사 중인 용인 반도체 클러스터 [연합뉴스 자료사진] (전남광주=연합뉴스) = 전남광주통합특별시가 각종 인허가부터 보상, 부지 조성, 건축 공사까지 모든 절차를 동시에 진행하는 '패",
-    "published_ago": "23시간 전",
-    "published_raw": ""
-  },
-  {
-    "title": "전남광주시의회, 반도체 상설특위 추진…'전남 쏠림' 또 논란(종합)",
-    "link": "https://www.yna.co.kr/view/AKR20260708074151054?section=industry/electronics",
-    "short_link": "yna.co.kr/view/AKR20260708074151054",
-    "summary": "광주 지역구 한 의원은 \"반도체 산단 입지가 광주 군공항 부지로 정해졌는데도 의회 반도체 특위가 전남권 중심으로 꾸려지면 엇박자가 날 수 있다\"며 \"광주권 의원이 맡은 미래산업위원회의 역할이 약화할 수 있다는 점도 우려된다\"고 말진행",
     "published_ago": "23시간 전",
     "published_raw": ""
   }
