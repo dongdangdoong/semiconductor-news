@@ -238,5 +238,59 @@
     "summary": "삼성전자가 저전력 D램(LPDDR)과 유니버설 플래시 스토리지(UFS) 등을 앞세워 고성장 시장인 중국 전기차 및 부품 공급망을 대거 흡수한 결과다.마이크론은 미국 완성차 기업과 동맹을 통해 안방인 북미 시장에서 장기 공급망의 빗장을 걸어 잠그겠다는 계산",
     "source": "rule_based",
     "cached_at": 1783657271.135911
+  },
+  "https://www.digitimes.com/news/a20260710VL213/samsung-sk-hynix-micron-hbm4-manufacturing.html": {
+    "title": "",
+    "summary": "삼성전자, SK하이닉스, 마이크론 테크놀로지는 HBM4의 로직 베이스 다이에 대해 서로 다른 제조 경로를 택하여 고급 메모리 성능, 수율 및 공급을 둘러싼 경쟁에서 새로운 전선을 열었",
+    "source": "rule_based",
+    "cached_at": 1783658851.768589
+  },
+  "https://www.digitimes.com/news/a20260710VL214/apple-sales-smartwatch-2026-data.html": {
+    "title": "",
+    "summary": "Counterpoint Research에 따르면 엣지 AI 기능을 갖춘 스마트워치의 출하량은 2026년 1분기에 70% 증가했으며, Apple이 압도적으로 선두를 달리고 있 건강에 초점을 맞춘 사용자가 AI 발전을 통해 더 깊은 통찰력에 접근하고 브랜드가 스마트폰 판매 부진을 상쇄하기 위해 웨어러블에 의존함에 따라 이 시장은 급성장하고 있",
+    "source": "rule_based",
+    "cached_at": 1783658854.03493
+  },
+  "https://www.digitimes.com/news/a20260708PD219/glass-substrate-production-demand-equipment-packaging.html": {
+    "title": "",
+    "summary": "빠른 유리 기판 채택으로 인해 아시아와 미국 전역에서 장비 공급이 긴축되고 투자 계획이 진전되고 있다고 밝혔 글로벌 칩 제조업체의 경우 이러한 변화로 인해 차세대 패키징 용량이 가속화되고 공급업체 지출이 재편되며 고급 공정 도구를 예상보다",
+    "source": "rule_based",
+    "cached_at": 1783658882.050183
+  },
+  "https://www.mk.co.kr/news/business/12095298": {
+    "title": "",
+    "summary": "그는 “세레브라스는 100% S램으로 구성돼 어 D램에 관심이 없다고 생각할 수 있겠지만 그렇지 않다”면서 “한국 메모리 업체들과 첨단 메모리칩 개발을 위해 협력하고 싶다”고 설명",
+    "source": "rule_based",
+    "cached_at": 1783658956.624149
+  },
+  "https://www.etnews.com/20260710000063": {
+    "title": "",
+    "summary": "글로벌 광학솔루션 기업 독일 자이스가 반도체 사업부의 첫 글로벌 협업·연구개발(R&D) 거점을 한국에 마련 총 350㎡ 규모로 서플러스 글로벌 반도체 장비 클러스터 내에 마련된 센터는 자이스 반도체 최신 포토마스크 솔루션과 고정밀 계측 및 검사 솔루션 등을 갖췄다",
+    "source": "rule_based",
+    "cached_at": 1783659155.863787
+  },
+  "https://www.etnews.com/20260709000420": {
+    "title": "",
+    "summary": "삼성전자가 차세대 AI 반도체 격전지로 주목받는 PC용 고성능 AI 칩 개발에 나섰다 가이아는 4나노(1나노는 10억분의 1m) 공정으로 제작되며, 연산 기능을 메모리에 근접 배치한 '메모리 중심 AI 가속기'로 확인",
+    "source": "rule_based",
+    "cached_at": 1783659158.56996
+  },
+  "https://www.etnews.com/20260709000276": {
+    "title": "",
+    "summary": "인공지능(AI) 데이터센터에서 그래픽처리장치(GPU) 간 초고속·초저지연 데이터 이동이 새로운 병목으로 부상하면서 기존 실리콘 포토닉스의 물리적 한계를 넘어서는 차세대 기술로 '플라즈모닉스(Plasmonics)'가 급부상",
+    "source": "rule_based",
+    "cached_at": 1783659164.162738
+  },
+  "https://www.etnews.com/20260709000252": {
+    "title": "",
+    "summary": "사안에 밝은 소부장 기업 대표는 “삼성전자가 소부장 협력사들과 함께 성장하기 위해 패턴 웨이퍼 지원을 강화한다는 방침을 전달했다”며 “지금까지 보안 이슈로 한정적이었던 패턴 웨이퍼 제공 물량을 늘리고 공정 범위도 확대한다는 계획”이라고 전언",
+    "source": "rule_based",
+    "cached_at": 1783659167.109967
+  },
+  "https://www.etnews.com/20260709000339": {
+    "title": "",
+    "summary": "중국 최대 D램 업체 창신메모리테크놀로지(CXMT)가 상장 절차에 본격 돌입 CXMT는 삼성전자, SK하이닉스, 마이크론에 이은 세계 4위권 D램 업체로 꼽힌다",
+    "source": "rule_based",
+    "cached_at": 1783659172.83471
   }
 }

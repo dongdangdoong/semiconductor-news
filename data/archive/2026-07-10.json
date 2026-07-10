@@ -1,5 +1,23 @@
 [
   {
+    "title": "줄리 최 세레브라스 CMO “엔비디아 GPU보다 15배 빨라...엔지니어 시간은 무엇보다 중요”",
+    "link": "https://www.mk.co.kr/news/business/12095298",
+    "short_link": "mk.co.kr/news/business/12095298",
+    "summary": "그는 “세레브라스는 100% S램으로 구성돼 어 D램에 관심이 없다고 생각할 수 있겠지만 그렇지 않다”면서 “한국 메모리 업체들과 첨단 메모리칩 개발을 위해 협력하고 싶다”고 설명",
+    "published_ago": "26분 전",
+    "published_at": "2026-07-10T04:23:14+00:00",
+    "published_raw": "2026-07-10T04:23:14+00:00"
+  },
+  {
+    "title": "Apple, 건강 기능이 주목을 받으면서 엣지 AI 스마트워치 판매가 70% 급증",
+    "link": "https://www.digitimes.com/news/a20260710VL214/apple-sales-smartwatch-2026-data.html",
+    "short_link": "digitimes.com/news/a20260710VL214/apple-sales-smartwatch-2...",
+    "summary": "Counterpoint Research에 따르면 엣지 AI 기능을 갖춘 스마트워치의 출하량은 2026년 1분기에 70% 증가했으며, Apple이 압도적으로 선두를 달리고 있 건강에 초점을 맞춘 사용자가 AI 발전을 통해 더 깊은 통찰력에 접근하고 브랜드가 스마트폰 판매 부진을 상쇄하기 위해 웨어러블에 의존함에 따라 이 시장은 급성장하고 있",
+    "published_ago": "38분 전",
+    "published_at": "2026-07-10T04:08:44+00:00",
+    "published_raw": "Fri, 10 Jul 2026 04:08:44 GMT"
+  },
+  {
     "title": "GlobalWafers-Micron 거래로 미국 반도체 국산화가 칩 팹을 넘어 확장되었습니다.",
     "link": "https://www.digitimes.com/news/a20260710PD206/globalwafers-micron-semiconductors-localization-capacity-equipment.html",
     "short_link": "digitimes.com/news/a20260710PD206/globalwafers-micron-semi...",
@@ -19,6 +37,15 @@
   },
   {
     "title": "메타, 자체 AI칩 9월 양산…인프라 자립 승부수",
+    "link": "https://n.news.naver.com/mnews/article/092/0002430057",
+    "short_link": "n.news.naver.com/mnews/article/092/0002430057",
+    "summary": "메타, 자체 AI 칩 '아이리스(Iris",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-10T02:57:11+00:00",
+    "published_raw": "2026-07-10T02:57:11+00:00"
+  },
+  {
+    "title": "메타, 자체 AI칩 9월 양산…인프라 자립 승부수",
     "link": "https://zdnet.co.kr/view/?no=20260710111028",
     "short_link": "zdnet.co.kr/view",
     "summary": "데이터센터 컴퓨팅 용량을 내년까지 두 배로 확대하는 동시에 자체 반도체와 클라우드 인프라를 결합해 엔비디아 의존도를 낮추고 AI 서비스 경쟁력을 강화한다는 구상 자체 설계 칩을 활용해 막대한 AI 컴퓨팅 비용을 절감하는 동시에 엔비디아와 AMD 등 외부 그래픽처리장치(GPU) 공급업체에 대한 의존도를 낮추는 움직임으로 풀이",
@@ -31,7 +58,7 @@
     "link": "https://www.dt.co.kr/article/12072208",
     "short_link": "dt.co.kr/article/12072208",
     "summary": "용인에 첨단 패키징·포토마스크 거점 구축 AI 반도체 시대 고객 밀착 지원 강화 “독일의 기술을 한국의 스피드로 제공하는 것이 이번 혁신센터의 목표.” 글로벌 광학솔루션 기업 자이스(ZEISS)는 AI 반도체 시대를 맞아 세계 반도체 핵심 생산 거점인 한국에 자사 반도체 사업부의 첫 글로벌 혁신센터를 열고 국내 고객",
-    "published_ago": "1시간 전",
+    "published_ago": "2시간 전",
     "published_at": "2026-07-10T02:39:19+00:00",
     "published_raw": "2026-07-10T02:39:19+00:00"
   },
@@ -40,7 +67,7 @@
     "link": "https://www.asiae.co.kr/article/IT/2026070916405086653",
     "short_link": "asiae.co.kr/article/IT/2026070916405086653",
     "summary": "AI 반도체 및 HBM 시장 급성장에",
-    "published_ago": "1시간 전",
+    "published_ago": "2시간 전",
     "published_at": "2026-07-10T02:21:08+00:00",
     "published_raw": "2026-07-10T02:21:08+00:00"
   },
@@ -49,7 +76,7 @@
     "link": "https://www.digitimes.com/news/a20260710PD215/csp-asic-cables-demand-growth-2026.html",
     "short_link": "digitimes.com/news/a20260710PD215/csp-asic-cables-demand-g...",
     "summary": "클라우드 서비스 제공업체(CSP)가 계속해서 자본 지출을 늘리면서 데이터 센터 내 고속 상호 연결에 대한 수요가 가속화되고 있 여러 연구 기관에서는 선도적인 CSP가 2026년에도 높은 두 자릿수 자본 지출 성장을 유지할 것으로 예상하고 있으며, 그 증가의 약 절반은 데이터 센터 확장에 따른 것",
-    "published_ago": "1시간 전",
+    "published_ago": "2시간 전",
     "published_at": "2026-07-10T02:19:01+00:00",
     "published_raw": "Fri, 10 Jul 2026 02:19:01 GMT"
   },
@@ -76,7 +103,7 @@
     "link": "https://www.yna.co.kr/view/AKR20260710062400051?section=industry/electronics",
     "short_link": "yna.co.kr/view/AKR20260710062400051",
     "summary": "양 기관은 협약을 계기로 반도체 산업 협력기업에 대한 금융지원을 확대하고, 이들 기업이 성장 과정에 필요한 자금을 안정적으로 조달할 수 있도록 협력체계를 강화해 나갈 예정 김종호 기보 이사장은 \"이번 협약을 통해 국내 반도체 산업 생태계의 경쟁력 강화를 위한 실질적인 금융지원 체계가 마련됐다\"며 \"기보는 앞으로도 반도체 협력기업의 성장과 산업 전반의 균형",
-    "published_ago": "2시간 전",
+    "published_ago": "3시간 전",
     "published_at": "2026-07-10T01:48:55+00:00",
     "published_raw": "2026-07-10T01:48:55+00:00"
   },
@@ -85,7 +112,7 @@
     "link": "https://n.news.naver.com/mnews/ranking/article/050/0000108377?ntype=RANKING",
     "short_link": "n.news.naver.com/mnews/ranking/article/050/0000108377",
     "summary": "하워드 러트닉 미국 상무장관이 삼성전자와 SK하이닉스를 향해 미국 내 메모리 반도체 생산 역량을 확대하라는 의견을 피력한 확인 9일(현지 시간) 블룸버그 통신 등에 따르면 러트닉 장관은 뉴욕주 클레이에서 열린 마이크론의 1000억달러 규모 첨단 메모리 반도체 공장 콘크리트 타설 행사에 참석해 “미국 반도체 공급망 강화를 위해 삼성전자, SK하이닉스와 협의가",
-    "published_ago": "2시간 전",
+    "published_ago": "3시간 전",
     "published_at": "2026-07-10T01:39:10+00:00",
     "published_raw": "2026-07-10T01:39:10+00:00"
   },
@@ -94,7 +121,7 @@
     "link": "https://n.news.naver.com/mnews/article/023/0003986861",
     "short_link": "n.news.naver.com/mnews/article/023/0003986861",
     "summary": "반도체 업계 관계자는 “삼성전자가 미국에 파운드리 팹, SK하이닉스가 패키징 팹을 짓기로 한 것은 미국 고객사 가까운 곳에 위치하겠다는 전략적 선택도 있었다”며 “인건비가 비싸고 메모리 생산 공급망도 없는 미국에 메모리 팹을 짓기는 쉽지 않다”고",
-    "published_ago": "2시간 전",
+    "published_ago": "3시간 전",
     "published_at": "2026-07-10T01:38:16+00:00",
     "published_raw": "2026-07-10T01:38:16+00:00"
   },
@@ -103,7 +130,7 @@
     "link": "https://n.news.naver.com/mnews/article/366/0001178204",
     "short_link": "n.news.naver.com/mnews/article/366/0001178204",
     "summary": "메타는 앞서 지난 3월 ‘아이리스’라는 코드명으로 알려진 MTIA 400을 포함한 자체 AI 칩 4종을 공개 메타는 삼성전자의 메모리 반도체, 샌디스크의 플래시 스토리지, 스미토모전기의 광섬유 장비 부문과 장기 공급 계약을 체결 발표",
-    "published_ago": "2시간 전",
+    "published_ago": "3시간 전",
     "published_at": "2026-07-10T01:23:08+00:00",
     "published_raw": "2026-07-10T01:23:08+00:00"
   },
@@ -115,6 +142,15 @@
     "published_ago": "3시간 전",
     "published_at": "2026-07-10T01:15:08+00:00",
     "published_raw": "2026-07-10T01:15:08+00:00"
+  },
+  {
+    "title": "자이스, 용인 반도체 이노베이션 센터 개소…“韓 고객사 협력 강화”",
+    "link": "https://www.etnews.com/20260710000063",
+    "short_link": "etnews.com/20260710000063",
+    "summary": "글로벌 광학솔루션 기업 독일 자이스가 반도체 사업부의 첫 글로벌 협업·연구개발(R&D) 거점을 한국에 마련 총 350㎡ 규모로 서플러스 글로벌 반도체 장비 클러스터 내에 마련된 센터는 자이스 반도체 최신 포토마스크 솔루션과 고정밀 계측 및 검사 솔루션 등을 갖췄다",
+    "published_ago": "3시간 전",
+    "published_at": "2026-07-10T01:13:32+00:00",
+    "published_raw": "2026-07-10T01:13:32+00:00"
   },
   {
     "title": "美, 삼성·SK하이닉스에 메모리 공장 압박…러트닉 “현지 생산 논의”",
@@ -130,16 +166,25 @@
     "link": "https://www.digitimes.com/news/a20260709VL220/mitsubishi-chemical-gan-substrate-capacity-demand.html",
     "short_link": "digitimes.com/news/a20260709VL220/mitsubishi-chemical-gan-...",
     "summary": "Mitsubishi Chemical과 Japan Steel Works는 EV, 인버터 및 데이터 센터 전력 시스템에 사용되는 차세대 전력 반도체의 수요 증가를 포착하기 위해 질화갈륨(GaN) 기판의 새로운 생산 능력 확장을 준비하고 있",
-    "published_ago": "3시간 전",
+    "published_ago": "4시간 전",
     "published_at": "2026-07-10T00:46:46+00:00",
     "published_raw": "Fri, 10 Jul 2026 00:46:46 GMT"
+  },
+  {
+    "title": "이앤알엔지니어링, 유리기판 파일럿 생산을 27년 하반기로 앞당긴다",
+    "link": "https://www.digitimes.com/news/a20260708PD219/glass-substrate-production-demand-equipment-packaging.html",
+    "short_link": "digitimes.com/news/a20260708PD219/glass-substrate-producti...",
+    "summary": "빠른 유리 기판 채택으로 인해 아시아와 미국 전역에서 장비 공급이 긴축되고 투자 계획이 진전되고 있다고 밝혔 글로벌 칩 제조업체의 경우 이러한 변화로 인해 차세대 패키징 용량이 가속화되고 공급업체 지출이 재편되며 고급 공정 도구를 예상보다",
+    "published_ago": "4시간 전",
+    "published_at": "2026-07-10T00:45:21+00:00",
+    "published_raw": "Fri, 10 Jul 2026 00:45:21 GMT"
   },
   {
     "title": "Ennostar의 Global Communication Semiconductors 지분 매각으로 2분기 실적 개선 가능",
     "link": "https://www.digitimes.com/news/a20260708PD232/ennostar-profit-revenue-earnings-chip-supply.html",
     "short_link": "digitimes.com/news/a20260708PD232/ennostar-profit-revenue-...",
     "summary": "Ennostar, Global Communication Semiconductors(G",
-    "published_ago": "3시간 전",
+    "published_ago": "4시간 전",
     "published_at": "2026-07-10T00:43:50+00:00",
     "published_raw": "Fri, 10 Jul 2026 00:43:50 GMT"
   },
@@ -148,7 +193,7 @@
     "link": "https://www.digitimes.com/news/a20260708VL213/electronics-semiconductors-manufacturing.html",
     "short_link": "digitimes.com/news/a20260708VL213/electronics-semiconducto...",
     "summary": "수년 동안 인도의 전자제품 제조는 우타르프라데시주 그레이터 노 주변의 휴대전화 조립 공장과 벵갈루루에서 iPhone이 처음 생산된 타밀나두주와 카르나타카주 전역의 광범위한 전자제품 및 EMS 기지 등 소수의 주에 집중되어 있었",
-    "published_ago": "3시간 전",
+    "published_ago": "4시간 전",
     "published_at": "2026-07-10T00:39:30+00:00",
     "published_raw": "Fri, 10 Jul 2026 00:39:30 GMT"
   },
@@ -211,7 +256,7 @@
     "link": "https://www.digitimes.com/news/a20260709VL222/kioxia-nand-sandisk-technology-shipping.html",
     "short_link": "digitimes.com/news/a20260709VL222/kioxia-nand-sandisk-tech...",
     "summary": "Kioxia와 SanDisk는 332단 BiCS10 NAND 샘플 배송을 시작했으며, 오타 히로오 CEO가 회사를 NAND 업계의 선두로 다시 끌어올리기 위해 노력함에 따라 일본 메모리 제조업체에 구체적인 기술 이정표를 제공했",
-    "published_ago": "8시간 전",
+    "published_ago": "9시간 전",
     "published_at": "2026-07-09T19:48:00+00:00",
     "published_raw": "Thu, 9 Jul 2026 19:48:00 GMT"
   },
@@ -220,7 +265,7 @@
     "link": "https://www.digitimes.com/news/a20260709VL203/lg-innotek-plant-ic-substrate-investment-production.html",
     "short_link": "digitimes.com/news/a20260709VL203/lg-innotek-plant-ic-subs...",
     "summary": "LG이노텍이 AI 서버와 고급 모바일 기기에 사용되는 첨단 패키징 제품의 생산능력 확대를 위해 베트남에 새로운 반도체 기판 제조시설을 추진",
-    "published_ago": "9시간 전",
+    "published_ago": "10시간 전",
     "published_at": "2026-07-09T18:48:00+00:00",
     "published_raw": "Thu, 9 Jul 2026 18:48:00 GMT"
   },
@@ -229,7 +274,7 @@
     "link": "https://www.digitimes.com/news/a20260709VL202/industrial-electronics-supply-chain-region-packaging.html",
     "short_link": "digitimes.com/news/a20260709VL202/industrial-electronics-s...",
     "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:379;109-487\"현대 역사의 대부분 동안 인도 북동부(아삼이 본거지를 둔 8개 주)는 인도 산업 경제의 가장자리에 자리해 있었",
-    "published_ago": "9시간 전",
+    "published_ago": "10시간 전",
     "published_at": "2026-07-09T18:47:00+00:00",
     "published_raw": "Thu, 9 Jul 2026 18:47:00 GMT"
   },
