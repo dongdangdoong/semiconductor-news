@@ -736,6 +736,7 @@ GEMINI_ENDPOINT = f"https://generativelanguage.googleapis.com/v1beta/models/{GEM
 
 GEMINI_MIN_INTERVAL_SECONDS = 4.5  # 무료 티어 분당 15회 제한(4초 간격) + 여유분
 _last_gemini_call_at = [0.0]
+GEMINI_QUOTA_EXHAUSTED = [False]  # 이번 실행(run) 동안 일일 쿼터 소진이 감지되면 True
 
 
 def wait_for_gemini_rate_limit():
@@ -816,6 +817,9 @@ def summarize_with_gemini(literal_title, body):
     )
 
     try:
+        if GEMINI_QUOTA_EXHAUSTED[0]:
+            return None, None
+
         res = None
         max_attempts = 3
 
@@ -835,6 +839,13 @@ def summarize_with_gemini(literal_title, body):
 
             if res.status_code == 200:
                 break
+
+            if res.status_code == 429 and "quota" in res.text.lower():
+                # 분당 제한이 아니라 일일 쿼터 소진 — 재시도해도 소용없으므로
+                # 이번 실행 동안은 더 이상 Gemini를 호출하지 않고 바로 폴백으로 전환
+                print(f"[Gemini] 일일 쿼터 소진 감지 — 이번 실행은 남은 기사 전부 규칙기반으로 폴백")
+                GEMINI_QUOTA_EXHAUSTED[0] = True
+                return None, None
 
             if res.status_code in (429, 503) and attempt < max_attempts:
                 backoff = 8 * attempt
@@ -907,8 +918,8 @@ def summarize_article(link, title, body_text, translate_title=False):
     30분마다 도는 크론 특성상 같은 기사를 반복 요약하지 않도록 링크 기준 캐시를 우선 사용한다.
     translate_title=True면 해외 기사 원제목 대신 Gemini가 새로 쓴 한국어 헤드라인을 사용한다."""
     cached = SUMMARY_CACHE.get(link)
-    # rule_based로 폴백됐던 캐시는 신뢰하지 않고 매번 Gemini로 재시도 (예전엔 72시간 동안 나쁜 버전이 고정됐음)
-    # gemini인데 요약이 비정상적으로 짧으면(과거 토큰 한도 버그로 잘린 캐시) 그것도 재시도
+
+    # gemini로 정상 생성된(80자 이상) 캐시는 그대로 신뢰
     cached_is_valid = (
         cached
         and cached.get("summary")
@@ -920,7 +931,20 @@ def summarize_article(link, title, body_text, translate_title=False):
         final_title = cached.get("title") if (translate_title and cached.get("title")) else title
         return final_title, cached["summary"]
 
-    gemini_title, summary = summarize_with_gemini(title, body_text)
+    # rule_based로 폴백됐던 캐시는 재시도 대상이지만, 30분마다 매번 재시도하면 쿼터를 낭비하므로
+    # 최소 2시간 냉각시간을 두고, 그 사이엔 캐시된 규칙기반 요약을 그대로 사용
+    if cached and cached.get("summary") and cached.get("source") == "rule_based":
+        cached_at = cached.get("cached_at", 0)
+        if time.time() - cached_at < 2 * 3600:
+            final_title = title
+            return final_title, cached["summary"]
+
+    if GEMINI_QUOTA_EXHAUSTED[0]:
+        # 이번 실행에서 이미 일일 쿼터 소진이 확인됐으면 호출 자체를 시도하지 않고 바로 폴백
+        gemini_title, summary = None, None
+    else:
+        gemini_title, summary = summarize_with_gemini(title, body_text)
+
     source = "gemini" if summary else None
 
     if not summary:
