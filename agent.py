@@ -219,6 +219,8 @@ SOURCE_NOISE_WORDS = [
 
 KST = timezone(timedelta(hours=9))
 
+SUMMARY_CACHE = {}
+
 def clean_html(text):
     text = BeautifulSoup(text or "", "html.parser").get_text(" ")
     return re.sub(r"\s+", " ", text).strip()
@@ -728,6 +730,124 @@ def score_summary_sentence(sentence, keywords, index):
     return score
 
 
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
+GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_ENDPOINT = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
+
+SUMMARY_CACHE_PATH = os.path.join("data", "summary_cache.json")
+SUMMARY_CACHE_MAX_AGE_HOURS = 72  # 이 시간이 지난 캐시 항목은 다음 실행 때 정리됨
+
+
+def load_summary_cache():
+    try:
+        with open(SUMMARY_CACHE_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def prune_summary_cache(cache):
+    now_ts = datetime.now(timezone.utc).timestamp()
+    pruned = {}
+
+    for link, entry in cache.items():
+        cached_at = entry.get("cached_at", 0)
+        if now_ts - cached_at <= SUMMARY_CACHE_MAX_AGE_HOURS * 3600:
+            pruned[link] = entry
+
+    return pruned
+
+
+def save_summary_cache(cache):
+    try:
+        os.makedirs("data", exist_ok=True)
+        with open(SUMMARY_CACHE_PATH, "w", encoding="utf-8") as f:
+            json.dump(cache, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"[WARN] summary cache 저장 실패: {e}")
+
+
+def summarize_with_gemini(title, body):
+    if not GEMINI_API_KEY:
+        return None
+
+    prompt = (
+        "다음은 반도체 관련 뉴스 기사입니다. 이 기사를 한국어로 요약해주세요.\n\n"
+        "규칙:\n"
+        "- 100~200자 내외\n"
+        "- 개조식 문체로 작성. 문장을 '~다', '~했음', '~습니다' 같은 서술형 종결어미가 아니라 "
+        "'~확대', '~발표', '~전망'처럼 명사(단어)로 끝맺을 것\n"
+        "- 기사에 나온 핵심 사실(수치, 기업명, 제품명 등)을 최대한 구체적으로 포함\n"
+        "- 기사에 없는 내용을 추측하거나 과장하지 말 것\n"
+        "- 따옴표, 마크다운 기호, 줄바꿈 없이 순수 텍스트 한 문단으로만 출력\n\n"
+        f"제목: {title}\n\n"
+        f"본문:\n{body[:3500]}"
+    )
+
+    try:
+        res = requests.post(
+            GEMINI_ENDPOINT,
+            params={"key": GEMINI_API_KEY},
+            json={
+                "contents": [{"parts": [{"text": prompt}]}],
+                "generationConfig": {"temperature": 0.3, "maxOutputTokens": 300}
+            },
+            timeout=20
+        )
+
+        if res.status_code != 200:
+            print(f"[Gemini] HTTP {res.status_code}: {res.text[:200]}")
+            return None
+
+        data = res.json()
+        candidates = data.get("candidates", [])
+        if not candidates:
+            return None
+
+        parts = candidates[0].get("content", {}).get("parts", [])
+        if not parts:
+            return None
+
+        summary = clean_space(parts[0].get("text", ""))
+        summary = summary.strip("\"'“”‘’ \n")
+        summary = re.sub(r"^요약\s*[:：]\s*", "", summary)
+
+        if not summary or len(summary) < 20:
+            return None
+
+        if len(summary) > 220:
+            summary = summary[:220].rstrip()
+
+        return summary
+
+    except Exception as e:
+        print(f"[Gemini ERROR] {e}")
+        return None
+
+
+def summarize_article(link, title, body_text):
+    """캐시 → Gemini → 규칙기반 순으로 요약을 생성한다.
+    30분마다 도는 크론 특성상 같은 기사를 반복 요약하지 않도록 링크 기준 캐시를 우선 사용한다."""
+    cached = SUMMARY_CACHE.get(link)
+    if cached and cached.get("summary"):
+        return cached["summary"]
+
+    summary = summarize_with_gemini(title, body_text)
+    source = "gemini"
+
+    if not summary:
+        summary = make_compact_summary(body_text, title=title)
+        source = "rule_based"
+
+    SUMMARY_CACHE[link] = {
+        "summary": summary,
+        "source": source,
+        "cached_at": datetime.now(timezone.utc).timestamp()
+    }
+
+    return summary
+
+
 def make_compact_summary(text, title="", min_len=100, max_len=200):
     # 제목은 요약 재료로 사용하지 않고, 제목과 비슷한 문장 제거용으로만 사용
     text = strip_reporter_and_source(text)
@@ -1197,6 +1317,9 @@ def collect_direct_source_candidates(max_per_source=10):
 
 
 def fetch_news():
+    global SUMMARY_CACHE
+    SUMMARY_CACHE = prune_summary_cache(load_summary_cache())
+
     results = []
     seen_links = set()
     seen_titles = []
@@ -1278,7 +1401,7 @@ def fetch_news():
                 if not is_semicon_related(title, final_link, summary_source):
                     continue
 
-                summary = make_compact_summary(summary_source, title=title)
+                summary = summarize_article(final_link, title, summary_source)
 
                 seen_links.add(final_link)
                 seen_titles.append(title)
@@ -1342,23 +1465,18 @@ def fetch_news():
                 title = translate_to_korean(raw_title)
                 title = remove_question_exclamation(title)
 
-                body, real_link, article_title = get_article_body(link)
-                final_link = real_link or link
-
-                if article_title and not is_bad_extracted_title(article_title):
-                    title = translate_to_korean(article_title) if is_mostly_english(article_title) else article_title
+                # DigiTimes 기사 본문은 대부분 유료 구독 전용이라 페이지를 긁으면
+                # 페이월 UI 조각(마크다운 속성 등)이 본문으로 잘못 들어오는 문제가 있었음.
+                # 그래서 페이지를 따로 가져오지 않고 RSS가 제공하는 요약(teaser)을 그대로 사용한다.
+                final_link = link
+                summary_source = translate_to_korean(description)
+                stats["body_fallback"] += 1
 
                 if final_link in seen_links:
                     stats["duplicate"] += 1
                     continue
 
-                if len(clean_space(body)) >= 100:
-                    summary_source = body
-                else:
-                    summary_source = translate_to_korean(description)
-                    stats["body_fallback"] += 1
-
-                if len(clean_space(summary_source)) < 100:
+                if len(clean_space(summary_source)) < 80:
                     stats["too_short"] += 1
                     print(f"[{source_name} SKIP too_short] (body={len(clean_space(summary_source))}자): {title[:40]}")
                     continue
@@ -1374,7 +1492,7 @@ def fetch_news():
                 if not is_semicon_related(title, final_link, summary_source):
                     continue
 
-                summary = make_compact_summary(summary_source, title=title)
+                summary = summarize_article(final_link, title, summary_source)
 
                 seen_links.add(final_link)
                 seen_titles.append(title)
@@ -1464,7 +1582,7 @@ def fetch_news():
             direct_ts = direct_dt.timestamp()
             direct_ago = published_ago_from_datetime(direct_dt)
 
-            summary = make_compact_summary(body, title=title)
+            summary = summarize_article(final_link, title, body)
 
             seen_links.add(final_link)
             seen_titles.append(title)
@@ -1506,7 +1624,77 @@ def fetch_news():
 
     print("Stats:", stats)
 
+    save_summary_cache(SUMMARY_CACHE)
+
     return results
+
+
+ARCHIVE_DIR = os.path.join("data", "archive")
+ARCHIVE_INDEX_PATH = os.path.join(ARCHIVE_DIR, "index.json")
+
+
+def update_archive(news_items):
+    """기사를 발행일(KST 기준) 별로 나눠서 data/archive/YYYY-MM-DD.json에 누적 저장한다.
+    30분마다 도는 크론이라, 같은 날짜 파일은 기존 내용과 링크 기준으로 합쳐서(중복 제거) 계속 쌓는다."""
+    os.makedirs(ARCHIVE_DIR, exist_ok=True)
+
+    by_date = {}
+    for item in news_items:
+        published_at = item.get("published_at")
+        dt = parse_datetime_safe(published_at) if published_at else None
+        if dt is None:
+            dt = datetime.now(timezone.utc)
+
+        date_key = dt.astimezone(KST).strftime("%Y-%m-%d")
+        by_date.setdefault(date_key, []).append(item)
+
+    for date_key, items in by_date.items():
+        day_path = os.path.join(ARCHIVE_DIR, f"{date_key}.json")
+
+        existing = []
+        if os.path.exists(day_path):
+            try:
+                with open(day_path, "r", encoding="utf-8") as f:
+                    existing = json.load(f)
+            except Exception:
+                existing = []
+
+        merged = {item["link"]: item for item in existing}
+        for item in items:
+            merged[item["link"]] = item
+
+        merged_list = sorted(
+            merged.values(),
+            key=lambda x: x.get("published_at", ""),
+            reverse=True
+        )
+
+        with open(day_path, "w", encoding="utf-8") as f:
+            json.dump(merged_list, f, ensure_ascii=False, indent=2)
+
+    # 인덱스 갱신 (archive 디렉터리 안의 날짜 파일들을 스캔해서 목록 생성)
+    dates = []
+    for filename in os.listdir(ARCHIVE_DIR):
+        if not filename.endswith(".json") or filename == "index.json":
+            continue
+
+        date_key = filename[:-5]
+        day_path = os.path.join(ARCHIVE_DIR, filename)
+
+        try:
+            with open(day_path, "r", encoding="utf-8") as f:
+                count = len(json.load(f))
+        except Exception:
+            count = 0
+
+        dates.append({"date": date_key, "count": count})
+
+    dates = sorted(dates, key=lambda x: x["date"], reverse=True)
+
+    with open(ARCHIVE_INDEX_PATH, "w", encoding="utf-8") as f:
+        json.dump(dates, f, ensure_ascii=False, indent=2)
+
+    print(f"[ARCHIVE] {len(by_date)}개 날짜 갱신, 전체 {len(dates)}일치 보관 중")
 
 
 if __name__ == "__main__":
@@ -1518,3 +1706,5 @@ if __name__ == "__main__":
         json.dump(news, f, ensure_ascii=False, indent=2)
 
     print(f"Saved {len(news)} articles to data/news.json")
+
+    update_archive(news)
