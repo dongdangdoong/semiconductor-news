@@ -25,12 +25,14 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run news collector
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python agent.py
 
       - name: Commit updated news
         run: |
           git config user.name "actions-user"
           git config user.email "actions@github.com"
-          git add data/news.json
+          git add data/news.json data/archive data/summary_cache.json
           git commit -m "뉴스 업데이트 $(date +'%Y-%m-%d %H:%M')" || echo "No changes to commit"
           git push
