@@ -292,5 +292,23 @@
     "summary": "중국 최대 D램 업체 창신메모리테크놀로지(CXMT)가 상장 절차에 본격 돌입 CXMT는 삼성전자, SK하이닉스, 마이크론에 이은 세계 4위권 D램 업체로 꼽힌다",
     "source": "rule_based",
     "cached_at": 1783659172.83471
+  },
+  "https://www.digitimes.com/news/a20260710PD226/tsmc-cowos-2027-packaging-capacity.html": {
+    "title": "",
+    "summary": "장비 제조업체는 TSMC가 주문 할당을 확정하기를 여전히 기다리고 있는데, 이는 리드 타임이 최소 7~9개월이기 때문에 가격 인하 경쟁과 배송 지연에 대한 두려움을 키우고 있",
+    "source": "rule_based",
+    "cached_at": 1783659977.625599
+  },
+  "https://n.news.naver.com/mnews/ranking/article/092/0002430057?ntype=RANKING": {
+    "title": "",
+    "summary": "데이터센터 컴퓨팅 용량을 내년까지 두 배로 확대하는 동시에 자체 반도체와 클라우드 인프라를 결합해 엔비디아 의존도를 낮추고 AI 서비스 경쟁력을 강화한다는 구상 자체 설계 칩을 활용해 막대한 AI 컴퓨팅 비용을 절감하는 동시에 엔비디아와 AMD 등 외부 그래픽처리장치(GPU) 공급업체에 대한 의존도를 낮추는 움직임으로 풀이",
+    "source": "rule_based",
+    "cached_at": 1783660094.623837
+  },
+  "https://www.edaily.co.kr/News/Read?newsId=03896646645513208&mediaCodeNo=257": {
+    "title": "",
+    "summary": "중국 AI 반도체 산업이 정부 육성 정책과 인공지능(AI) 인프라 투자 확대를 바탕으로 빠르게 성장하는 가운데, KB자산운용이 관련 핵심 기업에 투자하는 상장지수펀드(ETF)에 주목할 필요가 있다고 강조.KB자산운용은 10일 ‘RISE 차이나AI반도체TOP4Plus ETF’를 중국 AI 반도체 밸류체인 성장에 투자할",
+    "source": "rule_based",
+    "cached_at": 1783660325.746895
   }
 }
