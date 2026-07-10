@@ -907,9 +907,13 @@ def summarize_article(link, title, body_text, translate_title=False):
     30분마다 도는 크론 특성상 같은 기사를 반복 요약하지 않도록 링크 기준 캐시를 우선 사용한다.
     translate_title=True면 해외 기사 원제목 대신 Gemini가 새로 쓴 한국어 헤드라인을 사용한다."""
     cached = SUMMARY_CACHE.get(link)
-    # source가 gemini인데 요약이 비정상적으로 짧으면(과거 토큰 한도 버그로 잘린 캐시) 신뢰하지 않고 재생성
-    cached_is_valid = cached and cached.get("summary") and not (
-        cached.get("source") == "gemini" and len(cached.get("summary", "")) < 80
+    # rule_based로 폴백됐던 캐시는 신뢰하지 않고 매번 Gemini로 재시도 (예전엔 72시간 동안 나쁜 버전이 고정됐음)
+    # gemini인데 요약이 비정상적으로 짧으면(과거 토큰 한도 버그로 잘린 캐시) 그것도 재시도
+    cached_is_valid = (
+        cached
+        and cached.get("summary")
+        and cached.get("source") == "gemini"
+        and len(cached.get("summary", "")) >= 80
     )
 
     if cached_is_valid:
@@ -1018,7 +1022,18 @@ def make_compact_summary(text, title="", min_len=100, max_len=200):
     summary = clean_space(summary)
 
     if len(summary) > max_len:
-        summary = summary[:max_len].rstrip()
+        window = summary[:max_len]
+
+        # 문장부호(. ! ?) 기준으로 안전하게 자를 수 있는 지점을 우선 찾음
+        cut = max(window.rfind("다."), window.rfind("음."), window.rfind("함."), window.rfind(". "))
+        if cut == -1 or cut < max_len * 0.5:
+            # 문장부호가 없거나 너무 앞쪽이면 마지막 공백(단어 경계)에서 자름
+            cut = window.rfind(" ")
+
+        if cut == -1 or cut < max_len * 0.5:
+            cut = max_len
+
+        summary = summary[:cut + 1].rstrip()
 
     return summary
 
