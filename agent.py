@@ -767,21 +767,43 @@ def save_summary_cache(cache):
         print(f"[WARN] summary cache 저장 실패: {e}")
 
 
-def summarize_with_gemini(title, body):
+def extract_numbers(text):
+    return set(re.findall(r"\d+(?:\.\d+)?", text or ""))
+
+
+def summarize_with_gemini(literal_title, body):
     if not GEMINI_API_KEY:
-        return None
+        return None, None
 
     prompt = (
-        "다음은 반도체 관련 뉴스 기사입니다. 이 기사를 한국어로 요약해주세요.\n\n"
-        "규칙:\n"
-        "- 100~200자 내외\n"
+        "다음은 반도체 관련 뉴스 기사입니다. 한국 경제지 뉴스 헤드라인 및 기사 요약 스타일로 "
+        "'제목'과 '요약' 두 가지를 작성해주세요.\n\n"
+        "['제목' 작성 규칙 — 매우 중요]\n"
+        "- 아래 '원문 제목(직역)'에 담긴 사실관계만 사용해서 자연스러운 한국어 헤드라인으로 다듬을 것\n"
+        "- 본문에 있더라도 원문 제목에 없는 새로운 사실·수치·기업명을 제목에 추가하지 말 것 "
+        "(제목은 번역/윤문만 하고, 본문 내용을 가져와 새로 작성하지 말 것)\n"
+        "- 원문 제목에 숫자가 있으면 반드시 그 숫자를 그대로 유지할 것\n"
+        "- 실제 한국 경제 뉴스 헤드라인처럼 짧고 간결하게 작성 (예: 25~40자)\n"
+        "- 조사(은/는/이/가/을/를)는 꼭 필요한 경우가 아니면 생략\n"
+        "- 서술형 종결어미('~다', '~했다') 대신 명사(단어)로 끝맺을 것\n"
+        "- 번역투가 아니라 한국 기자가 직접 쓴 것처럼 자연스럽게 작성\n\n"
+        "['요약' 작성 규칙]\n"
+        "- 100~200자 내외, 본문 전체를 참고해서 작성\n"
         "- 개조식 문체로 작성. 문장을 '~다', '~했음', '~습니다' 같은 서술형 종결어미가 아니라 "
         "'~확대', '~발표', '~전망'처럼 명사(단어)로 끝맺을 것\n"
         "- 기사에 나온 핵심 사실(수치, 기업명, 제품명 등)을 최대한 구체적으로 포함\n"
         "- 기사에 없는 내용을 추측하거나 과장하지 말 것\n"
-        "- 따옴표, 마크다운 기호, 줄바꿈 없이 순수 텍스트 한 문단으로만 출력\n\n"
-        f"제목: {title}\n\n"
-        f"본문:\n{body[:3500]}"
+        "- 번역투가 아니라 한국 기자가 직접 쓴 기사처럼 자연스럽게 작성\n\n"
+        "[예시]\n"
+        "원문 제목(직역): 삼성전자, 3나노 파운드리에서 새로운 고객사를 확보하다\n"
+        "제목: 삼성전자, 3나노 파운드리 신규 고객사 확보\n"
+        "요약: 삼성전자가 3나노 공정 파운드리 사업에서 신규 고객사를 확보했다고 발표. "
+        "이번 계약으로 시스템반도체 부문 매출 확대 전망. TSMC와의 파운드리 경쟁 심화 예상.\n\n"
+        "[출력 형식 — 아래 두 줄만 정확히 이 형식으로 출력, 다른 말이나 마크다운 기호 금지]\n"
+        "제목: <헤드라인>\n"
+        "요약: <요약문>\n\n"
+        f"원문 제목(직역): {literal_title}\n\n"
+        f"본문(요약 작성에만 참고):\n{body[:3500]}"
     )
 
     try:
@@ -790,62 +812,86 @@ def summarize_with_gemini(title, body):
             params={"key": GEMINI_API_KEY},
             json={
                 "contents": [{"parts": [{"text": prompt}]}],
-                "generationConfig": {"temperature": 0.3, "maxOutputTokens": 300}
+                "generationConfig": {"temperature": 0.3, "maxOutputTokens": 400}
             },
             timeout=20
         )
 
         if res.status_code != 200:
             print(f"[Gemini] HTTP {res.status_code}: {res.text[:200]}")
-            return None
+            return None, None
 
         data = res.json()
         candidates = data.get("candidates", [])
         if not candidates:
-            return None
+            return None, None
 
         parts = candidates[0].get("content", {}).get("parts", [])
         if not parts:
-            return None
+            return None, None
 
-        summary = clean_space(parts[0].get("text", ""))
+        raw_text = parts[0].get("text", "")
+
+        title_match = re.search(r"제목\s*[:：]\s*(.+)", raw_text)
+        summary_match = re.search(r"요약\s*[:：]\s*(.+(?:\n.+)*)", raw_text)
+
+        new_title = clean_space(title_match.group(1)) if title_match else ""
+        new_title = new_title.strip("\"'“”‘’ \n")
+
+        summary = clean_space(summary_match.group(1)) if summary_match else ""
         summary = summary.strip("\"'“”‘’ \n")
-        summary = re.sub(r"^요약\s*[:：]\s*", "", summary)
 
         if not summary or len(summary) < 20:
-            return None
+            return None, None
 
         if len(summary) > 220:
             summary = summary[:220].rstrip()
 
-        return summary
+        if new_title and len(new_title) > 60:
+            new_title = new_title[:60].rstrip()
+
+        # 안전장치: 원문 제목에 있던 숫자(수치)가 새 제목에서 빠지거나 바뀌었으면
+        # 사실관계 왜곡 가능성이 있다고 보고 새 제목을 버리고 직역 제목을 그대로 사용
+        if new_title:
+            original_numbers = extract_numbers(literal_title)
+            new_numbers = extract_numbers(new_title)
+            if original_numbers and not original_numbers.issubset(new_numbers):
+                print(f"[Gemini] 제목 숫자 불일치로 직역 제목 유지: '{literal_title}' → '{new_title}' 거부")
+                new_title = None
+
+        return (new_title or None), summary
 
     except Exception as e:
         print(f"[Gemini ERROR] {e}")
-        return None
+        return None, None
 
 
-def summarize_article(link, title, body_text):
-    """캐시 → Gemini → 규칙기반 순으로 요약을 생성한다.
-    30분마다 도는 크론 특성상 같은 기사를 반복 요약하지 않도록 링크 기준 캐시를 우선 사용한다."""
+def summarize_article(link, title, body_text, translate_title=False):
+    """캐시 → Gemini → 규칙기반 순으로 (제목, 요약)을 생성한다.
+    30분마다 도는 크론 특성상 같은 기사를 반복 요약하지 않도록 링크 기준 캐시를 우선 사용한다.
+    translate_title=True면 해외 기사 원제목 대신 Gemini가 새로 쓴 한국어 헤드라인을 사용한다."""
     cached = SUMMARY_CACHE.get(link)
     if cached and cached.get("summary"):
-        return cached["summary"]
+        final_title = cached.get("title") if (translate_title and cached.get("title")) else title
+        return final_title, cached["summary"]
 
-    summary = summarize_with_gemini(title, body_text)
-    source = "gemini"
+    gemini_title, summary = summarize_with_gemini(title, body_text)
+    source = "gemini" if summary else None
 
     if not summary:
         summary = make_compact_summary(body_text, title=title)
         source = "rule_based"
 
+    final_title = gemini_title if (translate_title and gemini_title) else title
+
     SUMMARY_CACHE[link] = {
+        "title": gemini_title or "",
         "summary": summary,
         "source": source,
         "cached_at": datetime.now(timezone.utc).timestamp()
     }
 
-    return summary
+    return final_title, summary
 
 
 def make_compact_summary(text, title="", min_len=100, max_len=200):
@@ -1354,6 +1400,7 @@ def fetch_news():
             for item in items:
                 raw_title = clean_html(item.title.text if item.title else "")
                 title = strip_source_from_title(raw_title)
+                title_was_foreign = is_mostly_english(title)
                 title = translate_to_korean(title)
                 title = remove_question_exclamation(title)
 
@@ -1401,7 +1448,7 @@ def fetch_news():
                 if not is_semicon_related(title, final_link, summary_source):
                     continue
 
-                summary = summarize_article(final_link, title, summary_source)
+                title, summary = summarize_article(final_link, title, summary_source, translate_title=title_was_foreign)
 
                 seen_links.add(final_link)
                 seen_titles.append(title)
@@ -1492,7 +1539,7 @@ def fetch_news():
                 if not is_semicon_related(title, final_link, summary_source):
                     continue
 
-                summary = summarize_article(final_link, title, summary_source)
+                title, summary = summarize_article(final_link, title, summary_source, translate_title=True)
 
                 seen_links.add(final_link)
                 seen_titles.append(title)
@@ -1582,7 +1629,7 @@ def fetch_news():
             direct_ts = direct_dt.timestamp()
             direct_ago = published_ago_from_datetime(direct_dt)
 
-            summary = summarize_article(final_link, title, body)
+            title, summary = summarize_article(final_link, title, body, translate_title=False)
 
             seen_links.add(final_link)
             seen_titles.append(title)
