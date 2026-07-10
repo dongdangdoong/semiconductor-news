@@ -37,6 +37,19 @@
       font-size: 14px;
     }
 
+    .archive-link {
+      display: inline-block;
+      margin-top: 10px;
+      color: #2563eb;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .archive-link:hover {
+      text-decoration: underline;
+    }
+
     .news-card {
       background: #fff;
       border: 1px solid #e5e7eb;
@@ -110,6 +123,7 @@
     <header class="header">
       <h1>반도체 뉴스 클리핑</h1>
       <div class="updated-at">마지막 화면 갱신: {{ updated_at }}</div>
+      <a class="archive-link" href="/archive">지난 뉴스 보기 →</a>
     </header>
 
     {% if news_list %}
