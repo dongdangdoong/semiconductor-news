@@ -827,7 +827,7 @@ def summarize_with_gemini(literal_title, body):
                 params={"key": GEMINI_API_KEY},
                 json={
                     "contents": [{"parts": [{"text": prompt}]}],
-                    "generationConfig": {"temperature": 0.3, "maxOutputTokens": 400}
+                    "generationConfig": {"temperature": 0.3, "maxOutputTokens": 1000}
                 },
                 timeout=20
             )
@@ -853,6 +853,11 @@ def summarize_with_gemini(literal_title, body):
         if not candidates:
             return None, None
 
+        finish_reason = candidates[0].get("finishReason", "")
+        if finish_reason == "MAX_TOKENS":
+            print(f"[Gemini] 응답이 토큰 한도로 잘림(MAX_TOKENS) — 폴백 처리: {literal_title[:40]}")
+            return None, None
+
         parts = candidates[0].get("content", {}).get("parts", [])
         if not parts:
             return None, None
@@ -870,7 +875,9 @@ def summarize_with_gemini(literal_title, body):
         summary = clean_space(summary_match.group(1)) if summary_match else ""
         summary = summary.strip("\"'“”‘’ \n")
 
-        if not summary or len(summary) < 20:
+        # 100~200자를 요청했으므로, 훨씬 짧게 나온 건 응답이 잘렸거나 형식이 깨졌다는 신호로 보고 폐기
+        if not summary or len(summary) < 80:
+            print(f"[Gemini] 요약이 비정상적으로 짧음({len(summary)}자) — 폴백 처리: {literal_title[:40]}")
             return None, None
 
         if len(summary) > 220:
@@ -900,7 +907,12 @@ def summarize_article(link, title, body_text, translate_title=False):
     30분마다 도는 크론 특성상 같은 기사를 반복 요약하지 않도록 링크 기준 캐시를 우선 사용한다.
     translate_title=True면 해외 기사 원제목 대신 Gemini가 새로 쓴 한국어 헤드라인을 사용한다."""
     cached = SUMMARY_CACHE.get(link)
-    if cached and cached.get("summary"):
+    # source가 gemini인데 요약이 비정상적으로 짧으면(과거 토큰 한도 버그로 잘린 캐시) 신뢰하지 않고 재생성
+    cached_is_valid = cached and cached.get("summary") and not (
+        cached.get("source") == "gemini" and len(cached.get("summary", "")) < 80
+    )
+
+    if cached_is_valid:
         final_title = cached.get("title") if (translate_title and cached.get("title")) else title
         return final_title, cached["summary"]
 
