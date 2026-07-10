@@ -734,6 +734,15 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 GEMINI_MODEL = "gemini-2.5-flash"
 GEMINI_ENDPOINT = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 
+GEMINI_MIN_INTERVAL_SECONDS = 4.5  # 무료 티어 분당 15회 제한(4초 간격) + 여유분
+_last_gemini_call_at = [0.0]
+
+
+def wait_for_gemini_rate_limit():
+    elapsed = time.time() - _last_gemini_call_at[0]
+    if elapsed < GEMINI_MIN_INTERVAL_SECONDS:
+        time.sleep(GEMINI_MIN_INTERVAL_SECONDS - elapsed)
+
 SUMMARY_CACHE_PATH = os.path.join("data", "summary_cache.json")
 SUMMARY_CACHE_MAX_AGE_HOURS = 72  # 이 시간이 지난 캐시 항목은 다음 실행 때 정리됨
 
@@ -807,18 +816,36 @@ def summarize_with_gemini(literal_title, body):
     )
 
     try:
-        res = requests.post(
-            GEMINI_ENDPOINT,
-            params={"key": GEMINI_API_KEY},
-            json={
-                "contents": [{"parts": [{"text": prompt}]}],
-                "generationConfig": {"temperature": 0.3, "maxOutputTokens": 400}
-            },
-            timeout=20
-        )
+        res = None
+        max_attempts = 3
+
+        for attempt in range(1, max_attempts + 1):
+            wait_for_gemini_rate_limit()
+
+            res = requests.post(
+                GEMINI_ENDPOINT,
+                params={"key": GEMINI_API_KEY},
+                json={
+                    "contents": [{"parts": [{"text": prompt}]}],
+                    "generationConfig": {"temperature": 0.3, "maxOutputTokens": 400}
+                },
+                timeout=20
+            )
+            _last_gemini_call_at[0] = time.time()
+
+            if res.status_code == 200:
+                break
+
+            if res.status_code in (429, 503) and attempt < max_attempts:
+                backoff = 8 * attempt
+                print(f"[Gemini] HTTP {res.status_code} (시도 {attempt}/{max_attempts}) — {backoff}초 대기 후 재시도")
+                time.sleep(backoff)
+                continue
+
+            print(f"[Gemini] HTTP {res.status_code}: {res.text[:200]}")
+            return None, None
 
         if res.status_code != 200:
-            print(f"[Gemini] HTTP {res.status_code}: {res.text[:200]}")
             return None, None
 
         data = res.json()
@@ -831,6 +858,8 @@ def summarize_with_gemini(literal_title, body):
             return None, None
 
         raw_text = parts[0].get("text", "")
+        raw_text = re.sub(r"```[a-zA-Z]*\n?", "", raw_text)
+        raw_text = raw_text.replace("**", "").replace("`", "")
 
         title_match = re.search(r"제목\s*[:：]\s*(.+)", raw_text)
         summary_match = re.search(r"요약\s*[:：]\s*(.+(?:\n.+)*)", raw_text)
