@@ -1,8 +1,9 @@
 {
   "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YanNUS2F0TE1mbksxMTNrYlEtNjFUVFY0cUhwT3M0TzE4NTFlTXZaTUFTeUJlRmxYTEVIRUVUcXFiQTBUSVY5b3FmUnd2aTlhbUVwdExvaHNlV2lLTXpMZmJZVnRMMXdtNkE?oc=5&hl=ko&gl=KR&ceid=KR:ko": {
-    "summary": "애플, 중국산 메모리 사용으로 삼성, SK",
-    "source": "gemini",
-    "cached_at": 1783656727.503818
+    "title": "",
+    "summary": "애플, 중국산 메모리로 삼성·SK하이닉스·마이크론 압박…결국 관건은 백악관에",
+    "source": "rule_based",
+    "cached_at": 1783661038.986508
   },
   "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vTWtZcDlEOVFFX0VadXB6Z0haenhia0ZaZU14VkJoTENTSEo4dTVtRVdCOVJKTklvcG5kVEJCdEZyM0RaTWcxVi1rcS1rVWh2azBsWVlOVlUwSGPSAWBBVV95cUxOSXJWNWY2Q3RXUGtGQ01ZT1NBVDZsYldzNFU5aEc3VU5MS01GeUIybG5odENJRkRxUGNUNzhONHdLZHVGdUFPbWJNbWluRUg3RXVZT1V5X2lFNVZKcHZfUzU?oc=5&hl=ko&gl=KR&ceid=KR:ko": {
     "summary": "마이크론, SK하이닉스 미국 상장 하루",
@@ -10,9 +11,10 @@
     "cached_at": 1783656817.553328
   },
   "https://www.digitimes.com/news/a20260710PD206/globalwafers-micron-semiconductors-localization-capacity-equipment.html": {
-    "summary": "GlobalWafers와 Micron, AI, HPC,",
-    "source": "gemini",
-    "cached_at": 1783656855.87797
+    "title": "",
+    "summary": "GlobalWafers와 Micron은 인공 지능(AI), 고성능 컴퓨팅(HPC), 데이터 센터 및 고급 메모리 수요가 반도체 소싱을 어떻게 재편하고 있는지를 강조하는 움직임으로 미화 5억 달러의 전략적 재정 지원과 함께 10년 공급 계약을 체결했",
+    "source": "rule_based",
+    "cached_at": 1783661197.105959
   },
   "https://www.digitimes.com/news/a20260710PD215/csp-asic-cables-demand-growth-2026.html": {
     "summary": "클라우드 서비스 제공업체(CSP)가 계속해서 자본 지출을 늘리면서 데이터 센터 내 고속 상호 연결에 대한 수요가 가속화되고 있 여러 연구 기관에서는 선도적인 CSP가 2026년에도 높은 두 자릿수 자본 지출 성장을 유지할 것으로 예상하고 있으며, 그 증가의 약 절반은 데이터 센터 확장에 따른 것",
@@ -30,9 +32,10 @@
     "cached_at": 1783656887.943012
   },
   "https://www.digitimes.com/news/a20260708PD232/ennostar-profit-revenue-earnings-chip-supply.html": {
-    "summary": "Ennostar, Global Communication Semiconductors(G",
-    "source": "gemini",
-    "cached_at": 1783656899.84079
+    "title": "",
+    "summary": "Global Communication Semiconductors 주식을 매각하여 Ennostar가 계획한 이익은 대만 회사가 2분기에 이익을 회복하는 데 도움이 될 수 있으며, 이는 더 넓은 반도체 주기를 추적하는 투자자에게 중요한 발전",
+    "source": "rule_based",
+    "cached_at": 1783661225.997248
   },
   "https://www.digitimes.com/news/a20260708VL213/electronics-semiconductors-manufacturing.html": {
     "summary": "수년 동안 인도의 전자제품 제조는 우타르프라데시주 그레이터 노 주변의 휴대전화 조립 공장과 벵갈루루에서 iPhone이 처음 생산된 타밀나두주와 카르나타카주 전역의 광범위한 전자제품 및 EMS 기지 등 소수의 주에 집중되어 있었",
@@ -70,9 +73,10 @@
     "cached_at": 1783656969.711513
   },
   "https://n.news.naver.com/mnews/article/092/0002430057": {
-    "summary": "메타, 자체 AI 칩 '아이리스(Iris",
-    "source": "gemini",
-    "cached_at": 1783656974.636263
+    "title": "",
+    "summary": "데이터센터 컴퓨팅 용량을 내년까지 두 배로 확대하는 동시에 자체 반도체와 클라우드 인프라를 결합해 엔비디아 의존도를 낮추고 AI 서비스 경쟁력을 강화한다는 구상 자체 설계 칩을 활용해 막대한 AI 컴퓨팅 비용을 절감하는 동시에 엔비디아와 AMD 등 외부 그래픽처리장치(GPU) 공급업체에 대한 의존도를 낮추는 움직임으로 풀이",
+    "source": "rule_based",
+    "cached_at": 1783661306.947149
   },
   "https://n.news.naver.com/mnews/article/023/0003986861": {
     "summary": "반도체 업계 관계자는 “삼성전자가 미국에 파운드리 팹, SK하이닉스가 패키징 팹을 짓기로 한 것은 미국 고객사 가까운 곳에 위치하겠다는 전략적 선택도 있었다”며 “인건비가 비싸고 메모리 생산 공급망도 없는 미국에 메모리 팹을 짓기는 쉽지 않다”고",
@@ -310,5 +314,17 @@
     "summary": "중국 AI 반도체 산업이 정부 육성 정책과 인공지능(AI) 인프라 투자 확대를 바탕으로 빠르게 성장하는 가운데, KB자산운용이 관련 핵심 기업에 투자하는 상장지수펀드(ETF)에 주목할 필요가 있다고 강조.KB자산운용은 10일 ‘RISE 차이나AI반도체TOP4Plus ETF’를 중국 AI 반도체 밸류체인 성장에 투자할",
     "source": "rule_based",
     "cached_at": 1783660325.746895
+  },
+  "https://www.etnews.com/20260710000195": {
+    "title": "",
+    "summary": "한국PCB반도체패키징산업협회(KPCA)와 전남대학교 광주전남반도체공동연구소, 국립 인천대학교 RISE사업단이 전남대학교 첨단캠퍼스에서 반도체 패키징 분야 교육·연구·산학협력 기반 강화를 위한 업무협약(MOU)을 체결고 10일 발표",
+    "source": "rule_based",
+    "cached_at": 1783661520.155432
+  },
+  "https://www.edaily.co.kr/News/Read?newsId=03942566645513208&mediaCodeNo=257": {
+    "title": "",
+    "summary": "아이씨에이치(368600)는 피지컬 AI(Physical AI) 로봇 프로젝트에 적용되는 고기능 폴리우레탄(PU) 폼이 고객사 품질평가(Qual)를 완료하고 양산 공급을 확정했다고 10일 발표.회사는 해당 소재가 반복 구동과 충격·진동 환경에 노출되는 피지컬 AI 로봇에 필요한 경량성, 복원력, 진동 흡수 성능, 반복",
+    "source": "rule_based",
+    "cached_at": 1783661587.10647
   }
 }
