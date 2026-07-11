@@ -1,10 +1,28 @@
 [
   {
+    "title": "미국 대부분 지역에 \"살인 폭염\"경보…\"열 돔\"현상 전국 확산--AP",
+    "link": "https://www.newsis.com/view/NISX20260712_0003705468",
+    "short_link": "newsis.com/view/NISX20260712_0003705468",
+    "summary": "엘니뇨 현상으로 1950년 후 최대 폭염위기 1주일 이상 지속 야간에도 37도 이상 고온",
+    "published_ago": "27분 전",
+    "published_at": "2026-07-11T23:20:24+00:00",
+    "published_raw": "2026-07-11T23:20:24+00:00"
+  },
+  {
+    "title": "클라우드 시대 역설…24시간 GPU 돌리자니 다시 ‘소유’가 답",
+    "link": "https://n.news.naver.com/mnews/article/138/0002233897",
+    "short_link": "n.news.naver.com/mnews/article/138/0002233897",
+    "summary": "이재한 카카오엔터프라이즈 사업부문장은 “이번 설문조사를 통해 상시 GPU를 활용하는 기업은 비용에 대한 우려로 온프레미스 방식을 선호한다는 점을 확인했다”며 “클라우드의 유연성과 온프레미스의 비용 효율성을 결합한 하이브리드 GPUaaS가 가장 현실적인 대안이 될 것”이 언급",
+    "published_ago": "44분 전",
+    "published_at": "2026-07-11T22:59:08+00:00",
+    "published_raw": "2026-07-11T22:59:08+00:00"
+  },
+  {
     "title": "“CXL로 AI 추론 병목 해소”…‘넥스트 HBM’ 속도내는 삼성",
     "link": "https://n.news.naver.com/mnews/article/016/0002669003",
     "short_link": "n.news.naver.com/mnews/article/016/0002669003",
     "summary": "삼성전자는 엔비디아 RTX 프로 6000 블랙웰 기반 GPU(그래픽처리장치) 서버와 삼성전자의 CMM-D 모듈을 기반으로 1TB(테라바이트) 규모 CXL 메모리 풀을 구성해 AI 추론 환경을 평가",
-    "published_ago": "36분 전",
+    "published_ago": "1시간 전",
     "published_at": "2026-07-11T22:01:08+00:00",
     "published_raw": "2026-07-11T22:01:08+00:00"
   },
@@ -13,16 +31,25 @@
     "link": "https://www.mt.co.kr/industry/2026/07/12/2026071013154596007",
     "short_link": "mt.co.kr/industry/2026/07/12/2026071013154596007",
     "summary": "반도체 업계 관계자는 \"미국 정부 입장에서는 패키징뿐 아니라 AI 메모리 공급망 전체를 미국 안에 구축하는 것이 목표\"라며 \"SK하이닉스도 기존 인디애나 투자를 확대하는 방안은 물론 고객사 수요와 보조금, 투자 효율성이 맞는다면 중장기적으로 추가 투자도 충분히 선택지에 들어갈 수 있다\" 언급",
-    "published_ago": "1시간 전",
+    "published_ago": "2시간 전",
     "published_at": "2026-07-11T21:21:37+00:00",
     "published_raw": "2026-07-11T21:21:37+00:00"
+  },
+  {
+    "title": "'반도체 투사' 이상일 용인시장 \"뚝심으로 韓 미래 책임진다\"",
+    "link": "https://n.news.naver.com/mnews/ranking/article/293/0000087514?ntype=RANKING",
+    "short_link": "n.news.naver.com/mnews/ranking/article/293/0000087514",
+    "summary": "현재 용인시는 삼성전자와 SK하이닉스, 글로벌 소부장(소재·부품·장비) 기업들과 함께 한국의 미래 먹거리인 반도체 산업을 이끌어갈 준비에 박차를 가 1조원 투입하는 트리니티랩, 자본·기술 수직계열화 이상일 시장이 재임 첫날 서명한 '용인 르네상스 2.0 종합 계획'은 삼성전자 및 SK하이닉스라는 글로벌 반도체 기업을 중심으로 용인시를 세계 반도체의 메카로",
+    "published_ago": "2시간 전",
+    "published_at": "2026-07-11T21:00:07+00:00",
+    "published_raw": "2026-07-11T21:00:07+00:00"
   },
   {
     "title": "中 BOE, OLED 넘어 AI 반도체 기술까지 넘본다",
     "link": "https://www.dt.co.kr/article/12072319",
     "short_link": "dt.co.kr/article/12072319",
     "summary": "마이크로LED, 광인터커넥트, 글라스 코어 기판 등 차세대 디스플레이와 반도체 후공정 영역으로 기술 투자를 확대하며 삼성디스플레이와 LG디스플레이가 주도해온 고부가 시장에 도전장을 내밀고",
-    "published_ago": "1시간 전",
+    "published_ago": "2시간 전",
     "published_at": "2026-07-11T21:00:00+00:00",
     "published_raw": "2026-07-11T21:00:00+00:00"
   },
@@ -31,7 +58,16 @@
     "link": "https://www.mt.co.kr/industry/2026/07/12/2026071205415186037",
     "short_link": "mt.co.kr/industry/2026/07/12/2026071205415186037",
     "summary": "(용인= ) = 29일 청와대에서 열린 국가 미래 먹거리 발굴을 위한 3대 메가 프로젝트 보고회에서 삼성전자와 SK하이닉스가 AI 수요에 대응하기 위한 반도체 생산능력을 확보하기 위해 광주·전남 등 서남권에 약 800조 원을 투자, 제2 반도체 클러스터를 조성하는 내용의 투자 계획을 발표",
-    "published_ago": "1시간 전",
+    "published_ago": "2시간 전",
+    "published_at": "2026-07-11T20:45:59+00:00",
+    "published_raw": "2026-07-11T20:45:59+00:00"
+  },
+  {
+    "title": "삼성전자, '용인 1호팹' 양산 2년 더 빨리…SK, 미국 신규 투자",
+    "link": "https://n.news.naver.com/mnews/ranking/article/008/0005384609?ntype=RANKING",
+    "short_link": "n.news.naver.com/mnews/ranking/article/008/0005384609",
+    "summary": "삼성전자가 추진 중인 용인 반도체 클러스터(복합 산업단지)에 들어설 1호 팹(공장)의 완공 일정이 2년 앞당겨진다 신규 호남 반도체 단지 조성을 위한 정부의 총력지원이 이뤄지는 가운데 SK하이닉스는 미국에 신규 생산시설 구축을 검토",
+    "published_ago": "2시간 전",
     "published_at": "2026-07-11T20:45:59+00:00",
     "published_raw": "2026-07-11T20:45:59+00:00"
   },
@@ -40,7 +76,7 @@
     "link": "https://www.yna.co.kr/view/AKR20260711010600003?section=industry/electronics",
     "short_link": "yna.co.kr/view/AKR20260711010600003",
     "summary": "AI 인프라 구축으로 인한 수급 불균형이 이어지면서 세계 메모리 시장의 90% 이상을 책임지는 주요 메모리 3사 '삼성전자·SK하이닉스·마이크론'은 앞다퉈 설비 투자를 확대하며 시장 리더십을 둘러싼 경쟁을 벌이고",
-    "published_ago": "2시간 전",
+    "published_ago": "3시간 전",
     "published_at": "2026-07-11T20:31:20+00:00",
     "published_raw": "2026-07-11T20:31:20+00:00"
   },
@@ -49,43 +85,25 @@
     "link": "https://www.yna.co.kr/view/AKR20260710130100003?section=industry/electronics",
     "short_link": "yna.co.kr/view/AKR20260710130100003",
     "summary": "구독 구독중 이전 다음 정부 국가산단 조기 조성 기조 호응…전력·용수 구축 관건 \"팹 가동 앞당겨지면 AI 반도체 수요에 보다 정부가 추진 중인 3기가와트(GW) 규모 액화천연가스(LNG) 발전소 조기 착공과 2·3단계 전력 공급 일정 단축, 단계별 용수 공급 조기화 등이 계획대로 추진될 경우 첫 번째 팹의 2029년 가동 가능성도 한층 높아질 것이라는",
-    "published_ago": "2시간 전",
+    "published_ago": "3시간 전",
     "published_at": "2026-07-11T20:31:10+00:00",
     "published_raw": "2026-07-11T20:31:10+00:00"
   },
   {
-    "title": "삼성전자 용인 반도체 공장 1∼2년 당긴다…2029년 첫 가동",
-    "link": "https://n.news.naver.com/mnews/ranking/article/001/0016189084?ntype=RANKING",
-    "short_link": "n.news.naver.com/mnews/ranking/article/001/0016189084",
-    "summary": "정부 국가산단 조기 조성 기조 호응…전력·용수 구축 관건 \"팹 가동 앞당겨지면 AI 반도체 수요에 보다 정부가 추진 중인 3기가와트(GW) 규모 액화천연가스(LNG) 발전소 조기 착공과 2·3단계 전력 공급 일정 단축, 단계별 용수 공급 조기화 등이 계획대로 추진될 경우 첫 번째 팹의 2029년 가동 가능성도 한층 높아질 것이라는 관측",
-    "published_ago": "2시간 전",
-    "published_at": "2026-07-11T20:31:10+00:00",
-    "published_raw": "2026-07-11T20:31:10+00:00"
-  },
-  {
-    "title": "퓨리오사에이아이-시스원, 'K-NPU 테크웨이브' 14일 개최…국산 NPU 공공 도입 전략 논의",
-    "link": "https://n.news.naver.com/mnews/article/138/0002233894",
-    "short_link": "n.news.naver.com/mnews/article/138/0002233894",
-    "summary": "퓨리오사에이아이(FuriosaAI)와 공식 총판사 시스원(SysOne)이 오는 14일 오후 2시 서울 중구 더 플라자 호텔에서 '2026 K-NPU 테크 웨이브'를 개최 국산 NPU 'RNGD'를 중심으로 AI 주권과 공공 AI 인프라 전환 전략을 논의하고자 마련",
-    "published_ago": "9시간 전",
-    "published_at": "2026-07-11T12:57:07+00:00",
-    "published_raw": "2026-07-11T12:57:07+00:00"
-  },
-  {
-    "title": "딥엑스, 에브넷과 APAC 공략…유럽 유통망 성과 아시아로 확대",
-    "link": "https://n.news.naver.com/mnews/article/031/0001041451",
-    "short_link": "n.news.naver.com/mnews/article/031/0001041451",
-    "summary": "김녹원 딥엑스 대표는 \"피지컬 AI 시장에서는 반도체 성능뿐 아니라 실제 제품 적용과 양산을 지원하는 소프트웨어, 기술 지원, 공급망이 함께 갖춰져야 한다\"며 \"유럽에서 확보한 고객 발굴과 기술검증 경험을 아시아 시장으로 확장해 사업 성과를 이어가겠다\" 언급",
+    "title": "호남 반도체 800조 베팅, 성공 조건은",
+    "link": "https://n.news.naver.com/mnews/ranking/article/024/0000106815?ntype=RANKING",
+    "short_link": "n.news.naver.com/mnews/ranking/article/024/0000106815",
+    "summary": "정부는 삼성전자와 SK하이닉스가 광주 일대에 총 800조원을 투자해 메모리 반도체 팹 4기를 짓는 구상을 제시 박재근 교수는 “첫 번째 성공 조건은 용인 반도체 클러스터가 계획대로 가동되는 것”이라며 “용인의 팹이 정상 가동되고 생산과 매출, 이익이 생겨야 이후 호남 지역 대규모 투자도 가능하다” 언급",
     "published_ago": "11시간 전",
-    "published_at": "2026-07-11T10:42:10+00:00",
-    "published_raw": "2026-07-11T10:42:10+00:00"
+    "published_at": "2026-07-11T12:01:10+00:00",
+    "published_raw": "2026-07-11T12:01:10+00:00"
   },
   {
     "title": "최태원 SK 회장 \"반도체, 과거 사이클 벗어나 구조적 변화…공급 확대 총력\"",
     "link": "https://zdnet.co.kr/view/?no=20260711160825",
     "short_link": "zdnet.co.kr/view",
     "summary": "10일 오전(현지시간) 미국 뉴욕 나스닥 마켓사이트에서 열린 '오프닝 벨' 행사에서 최태원 SK그룹 회장, 곽노정 SK하이닉스 CEO, 고승범 SK하이닉스 사외이사 겸 이사회 의장이 타종을 하며 나스닥 ADR 거래 개시를 알리고 있다.(사진=SK하이닉스) 최 회장은 AI 시대 반도체 업황에 대해 \"구조적인 변화는 이미 일",
-    "published_ago": "15시간 전",
+    "published_ago": "16시간 전",
     "published_at": "2026-07-11T07:20:53+00:00",
     "published_raw": "2026-07-11T07:20:53+00:00"
   },
@@ -94,7 +112,7 @@
     "link": "https://www.hankyung.com/article/2026071069186",
     "short_link": "hankyung.com/article/2026071069186",
     "summary": "그는 \"삼성전자 파운드리는 2나노 공정 수주를 이미 확보한 상황\"이라며 \"테슬라는 AI6 업그레이드 버전인 AI6.5를 추가했고 TSMC에 위탁생산할 것으로 알려져 있다\"고 발표..또한 \"미국 정보기술(IT) 매체 디인포메이션에서는 구글이 생산 병목을 피하기 위해 메인 프로세서는 TSMC, 고대역폭메모리(HBM)를 연결하",
-    "published_ago": "17시간 전",
+    "published_ago": "18시간 전",
     "published_at": "2026-07-11T04:51:39+00:00",
     "published_raw": "2026-07-11T04:51:39+00:00"
   },
@@ -102,8 +120,8 @@
     "title": "기록적인 칩 이익으로 인해 삼성 내부 격차가 벌어지고 있습니다.",
     "link": "https://www.digitimes.com/news/a20260709PD247/samsung-business-electronics-2026-operating-profit.html",
     "short_link": "digitimes.com/news/a20260709PD247/samsung-business-electro...",
-    "summary": "삼성전자의 2026년 2분기 잠정 결과는 AI 서버 수요에 따른 반도체 이익 급증으로 전체 수익이 증가하고 있는 반면, TV, 가전제품, 기타 최종 장치 사업은 여전히 ​​압박을 받고 있다는 점에서 회사 내부의 급격한 분열을 다시 한 번 강조합니다",
-    "published_ago": "18시간 전",
+    "summary": "삼성전자의 2026년 2분기 잠정 결과는 AI 서버 수요에 따른 반도체 이익 급증으로 전체 실적이 향상되고 있는 반면, TV, 가전제품, 기타 최종 장치 사업은 여전히 ​​압박을 받고 있다는 점에서 회사 내부의 급격한 분열을 다시 한 번 강조합니다",
+    "published_ago": "19시간 전",
     "published_at": "2026-07-11T03:44:37+00:00",
     "published_raw": "Sat, 11 Jul 2026 03:44:37 GMT"
   },
@@ -112,7 +130,7 @@
     "link": "https://www.digitimes.com/news/a20260708PD229/materials-ai-chip-growth-copper-demand.html",
     "short_link": "digitimes.com/news/a20260708PD229/materials-ai-chip-growth...",
     "summary": "생성적 AI가 고성능 컴퓨팅(HPC)에 대한 수요의 급속한 성장을 촉진함에 따라 반도체 산업은 공정 경쟁에서 재료 경쟁으로 전환하고 있 Geckos 회장 Shen Tsung-huan은 칩 제조가 2nm 및 더욱 발전된 노드로 이동함에 따라 AI 컴퓨팅 성능의 향상은 더 이상 단순한 칩 설계 문제가 아니라 재료의 열 전도성 및 고주파 신호 전송 기능에 의해",
-    "published_ago": "18시간 전",
+    "published_ago": "19시간 전",
     "published_at": "2026-07-11T03:43:29+00:00",
     "published_raw": "Sat, 11 Jul 2026 03:43:29 GMT"
   },
@@ -121,7 +139,7 @@
     "link": "https://www.digitimes.com/news/a20260708VL214/samsung-cxl-production-amd-intel.html",
     "short_link": "digitimes.com/news/a20260708VL214/samsung-cxl-production-a...",
     "summary": "삼성전자는 Intel과 AMD의 차세대 서버 프로세서 출시가 지연된 후 CXL 3.1 메모리 모듈의 대량 생산을 연기했으며, 이는 AI 인프라 채택이 개별 구성 요소가 아닌 플랫폼 준비 상태에 점점 더 의존하고 있음을 강조합니다",
-    "published_ago": "18시간 전",
+    "published_ago": "19시간 전",
     "published_at": "2026-07-11T03:43:00+00:00",
     "published_raw": "Sat, 11 Jul 2026 03:43:00 GMT"
   },
@@ -130,7 +148,7 @@
     "link": "https://www.digitimes.com/news/a20260710PD247/germany-quantum-startup-chips-policy-taiwan.html",
     "short_link": "digitimes.com/news/a20260710PD247/germany-quantum-startup-...",
     "summary": "유럽 ​​칩법(European Chips Act)의 지원을 받아 독일의 양자 스타트업인 QuantumDiamonds는 총 9,100만 유로(약 1억 410만 달러)에 달하는 자금 조달 라운드를 완료했",
-    "published_ago": "18시간 전",
+    "published_ago": "20시간 전",
     "published_at": "2026-07-11T03:42:32+00:00",
     "published_raw": "Sat, 11 Jul 2026 03:42:32 GMT"
   },
@@ -139,25 +157,16 @@
     "link": "https://www.digitimes.com/news/a20260710PD217/south-korea-npu-startup-development.html",
     "short_link": "digitimes.com/news/a20260710PD217/south-korea-npu-startup-...",
     "summary": "AI 반도체 스타트업 모빌린트(Mobilint)가 AI 붐이 클라우드 컴퓨팅에서 로봇, 자율주행차, 드론으로 확산되면서 엣지 디바이스용 신경처리장치(NPU)로 물리 AI 분야에서 주목받고",
-    "published_ago": "18시간 전",
+    "published_ago": "20시간 전",
     "published_at": "2026-07-11T03:41:28+00:00",
     "published_raw": "Sat, 11 Jul 2026 03:41:28 GMT"
-  },
-  {
-    "title": "“한국 메모리 칩 업체의 역사적인 데뷔, 주식 시장 흔들어”-WSJ",
-    "link": "https://www.newsis.com/view/NISX20260711_0003705213",
-    "short_link": "newsis.com/view/NISX20260711_0003705213",
-    "summary": "“투자자들, 인공지능(AI) 관련 투자 관심 회복에도 도움” 평가 “AI 인프라 붐에 대한 수요가 아직 끝나지 않았다는 신호” [서울= ] = 최태원 SK그룹 회장, 곽노정 SK하이닉스 CEO, 고승범 SK하이닉스 사외이사 겸 이사회 의장 등이 10일(현지 시간) 오전 미국 뉴욕 나스닥 마켓사이트에서 열린 나스닥 '오프닝",
-    "published_ago": "19시간 전",
-    "published_at": "2026-07-11T03:21:30+00:00",
-    "published_raw": "2026-07-11T03:21:30+00:00"
   },
   {
     "title": "최태원 \"美 반도체 추가 투자 검토\"…SK하이닉스, 메모리 공장도 열어뒀다",
     "link": "https://www.edaily.co.kr/News/Read?newsId=01928646645513536&mediaCodeNo=257",
     "short_link": "edaily.co.kr/News/Read",
     "summary": "현재 미국 인디애나주에서 첨단 반도체 패키징 공장을 건설 중인 SK하이닉스가 향후 메모리 생산공장까지 투자 범위를 확대할 수 있다는 뜻을 밝히면서 미국 중심의 인공지능(AI) 반도체 공급망 재편 움직임에 대응할지 관심이 쏠린다.최 회장은 10일(현지시간) 미국 뉴욕에서 열린 SK하이닉스 주식예탁증서(ADR) 나스닥 상장",
-    "published_ago": "21시간 전",
+    "published_ago": "22시간 전",
     "published_at": "2026-07-11T01:43:52+00:00",
     "published_raw": "2026-07-11T01:43:52+00:00"
   },
@@ -166,7 +175,7 @@
     "link": "https://www.dt.co.kr/article/12072297",
     "short_link": "dt.co.kr/article/12072297",
     "summary": "IPO로 6.5조 조달 계획…中 1위 아닌 ‘세계 4위’로 소개 AI 열풍, 후발주자 성장 최적의 기회 제공 애들도 中 메모리 사용 검토…향후 경쟁 주목 중국이 수조원에 이르는 공격 투자로 삼성전자와 SK하이닉스가 과점하고 있는 D램 시장에서 존재감을 키우겠다고 선언",
-    "published_ago": "21시간 전",
+    "published_ago": "22시간 전",
     "published_at": "2026-07-11T01:12:41+00:00",
     "published_raw": "2026-07-11T01:12:41+00:00"
   },
@@ -175,7 +184,7 @@
     "link": "https://www.yna.co.kr/view/AKR20260711021700003?section=industry/electronics",
     "short_link": "yna.co.kr/view/AKR20260711021700003",
     "summary": "구독 구독중 이전 다음 최태원 \"메모리 생산공장도 가능\"…러트닉 압박 직후 투자 확대 시사 AI 공급망 재편…수백조원 대미 투자 가능성 (서울= ) = 미국 정부의 대미 투자 압박이 거세지는 가운데 미국 나스닥 상장에 성공한 SK하이닉스[000660]가 미국 내 반도체 생산시설 투자 가능성을 공식적으로 열어뒀다",
-    "published_ago": "21시간 전",
+    "published_ago": "22시간 전",
     "published_at": "2026-07-11T01:06:36+00:00",
     "published_raw": "2026-07-11T01:06:36+00:00"
   },
@@ -184,53 +193,26 @@
     "link": "https://www.yna.co.kr/view/AKR20260710096300003?section=industry/electronics",
     "short_link": "yna.co.kr/view/AKR20260710096300003",
     "summary": "구독 구독중 이전 다음 HBM 대신 범용 D램 승부수…메모리 호황 타고 추격 발판 마련 (서울= ) = 기업공개(IPO)를 추진 중인 세계 4위 D램 업체인 중국 CXMT(창신메모리)가 삼성전자와 SK하이닉스 등 글로벌 선두 업체와 격차가 여전한 가운데, 차세대 D램 개발과 생산 확대를 통한 추격 전략을 공식화",
-    "published_ago": "22시간 전",
+    "published_ago": "23시간 전",
     "published_at": "2026-07-11T00:35:00+00:00",
     "published_raw": "2026-07-11T00:35:00+00:00"
+  },
+  {
+    "title": "SK하이닉스, HBM 이후 '메모리 연산' 기술 검증",
+    "link": "https://www.etnews.com/20260710000052",
+    "short_link": "etnews.com/20260710000052",
+    "summary": "SK하이닉스가 미국 반도체 스타트업 테트라멤과 메모리 안에서 직접 연산하는 차세대 인공지능(AI) 반도체 기술을 검증 이번에 구현한 멤리스터 기반 인메모리컴퓨팅(IMC) 시스템온칩(SoC)은 고대역폭메모리(HBM) 이후 AI 반도체 전력 효율을 높일 기술로서 주목",
+    "published_ago": "23시간 전",
+    "published_at": "2026-07-11T00:00:00+00:00",
+    "published_raw": "2026-07-11T00:00:00+00:00"
   },
   {
     "title": "美나스닥 입성 SK하이닉스…40조원 실탄 장전 '외국기업 사상 최대 규모'[반도체 슈퍼 투톱②]",
     "link": "https://www.newsis.com/view/NISX20260710_0003704737",
     "short_link": "newsis.com/view/NISX20260710_0003704737",
     "summary": "10일 오전(현지시간) 미국 뉴욕 나스닥 마켓사이트에서 열린 '오프닝 벨' 행사에서 최태원 SK그룹 회장, 곽노정 SK하이닉스 CEO, 고승범 SK하이닉스 사외이사 겸 이사회 의장이 타종을 하며 나스닥 ADR 거래 개시를 알리고",
-    "published_ago": "22시간 전",
+    "published_ago": "23시간 전",
     "published_at": "2026-07-11T00:00:00+00:00",
     "published_raw": "2026-07-11T00:00:00+00:00"
-  },
-  {
-    "title": "Apple, 자체 공급업체인 Foxconn과 Luxshare가 경쟁 기기 뒤에 줄을 서자 OpenAI를 고소",
-    "link": "https://www.digitimes.com/news/a20260711VL200/apple-openai-foxconn-luxshare-hardware.html",
-    "short_link": "digitimes.com/news/a20260711VL200/apple-openai-foxconn-lux...",
-    "summary": "OpenAI를 영업비밀 절도 혐의로 고소하기로 한 Apple의 결정은 기술 분야에서 가장 영향력 있는 두 회사 간의 파트너십을 악화시키는 것 이상의 의미를 갖 점점 늘어나는 아시아 공급업체 명단이 이미 서비스를 제공하기 시작한 노력이며, AI 개발자가 면밀히 관찰되는 초기 공모에 접근하는 순간에 출시됩니다",
-    "published_ago": "23시간 전",
-    "published_at": "2026-07-10T23:01:50+00:00",
-    "published_raw": "Fri, 10 Jul 2026 23:01:50 GMT"
-  },
-  {
-    "title": "하루 1조 번 삼성전자...파운드리·성과보상·투자부담 숙제 남았다",
-    "link": "https://n.news.naver.com/mnews/ranking/article/243/0000100309?ntype=RANKING",
-    "short_link": "n.news.naver.com/mnews/ranking/article/243/0000100309",
-    "summary": "삼성전자가 HBM 수요를 맞추기 위해 한정된 생산 라인을 HBM 중심으로 급격히 전환하자, 역설적으로 기존 시장의 주류였던 범용 D램과 낸드플래시의 생산 능력이 축소되는 현상이 발생",
-    "published_ago": "23시간 전",
-    "published_at": "2026-07-10T23:01:11+00:00",
-    "published_raw": "2026-07-10T23:01:11+00:00"
-  },
-  {
-    "title": "백화점 아래 반도체 요람…카이스트 사이언스 허브 4주년",
-    "link": "https://www.yna.co.kr/view/AKR20260710104500061?section=industry/electronics",
-    "short_link": "yna.co.kr/view/AKR20260710104500061",
-    "summary": "구독 구독중 이전 다음 화성시·KAIST·롯데 협력…4년간 실무 인재 678명 배출, 68% 취업 성공 공유 오피스서 '유니콘 기업' 탄생도…IT 스타트업 무게중심 동탄 이동 (화성= ) = 지난 9일 경기도 화성시 동탄구 오산동 롯데백화점 동탄점 지하 3층 'KAIST-화성시 사이언스 허브'",
-    "published_ago": "23시간 전",
-    "published_at": "2026-07-10T23:01:01+00:00",
-    "published_raw": "2026-07-10T23:01:01+00:00"
-  },
-  {
-    "title": "\"삼전·하이닉스도 똑같은 처지\" 미국에 돈 쏟아부은 TSMC 한숨 쉬는 이유[대만칩통신]",
-    "link": "https://www.asiae.co.kr/article/enterprise-CEO/2026071011283595553",
-    "short_link": "asiae.co.kr/article/enterprise-CEO/2026071011283595553",
-    "summary": "2030년 기술 인력 최대 15.7만명 부족 TSMC·삼성 美 공장 구인난 우려 확산 처우 격차·낮은 업계 유입률 원인 지목 세계 최대 파운드리(반도체 위탁생산) 업체 TSMC의 한숨이 깊어지고",
-    "published_ago": "23시간 전",
-    "published_at": "2026-07-10T23:00:00+00:00",
-    "published_raw": "2026-07-10T23:00:00+00:00"
   }
 ]

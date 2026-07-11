@@ -1,10 +1,28 @@
 [
   {
+    "title": "미국 대부분 지역에 \"살인 폭염\"경보…\"열 돔\"현상 전국 확산--AP",
+    "link": "https://www.newsis.com/view/NISX20260712_0003705468",
+    "short_link": "newsis.com/view/NISX20260712_0003705468",
+    "summary": "엘니뇨 현상으로 1950년 후 최대 폭염위기 1주일 이상 지속 야간에도 37도 이상 고온",
+    "published_ago": "27분 전",
+    "published_at": "2026-07-11T23:20:24+00:00",
+    "published_raw": "2026-07-11T23:20:24+00:00"
+  },
+  {
+    "title": "클라우드 시대 역설…24시간 GPU 돌리자니 다시 ‘소유’가 답",
+    "link": "https://n.news.naver.com/mnews/article/138/0002233897",
+    "short_link": "n.news.naver.com/mnews/article/138/0002233897",
+    "summary": "이재한 카카오엔터프라이즈 사업부문장은 “이번 설문조사를 통해 상시 GPU를 활용하는 기업은 비용에 대한 우려로 온프레미스 방식을 선호한다는 점을 확인했다”며 “클라우드의 유연성과 온프레미스의 비용 효율성을 결합한 하이브리드 GPUaaS가 가장 현실적인 대안이 될 것”이 언급",
+    "published_ago": "44분 전",
+    "published_at": "2026-07-11T22:59:08+00:00",
+    "published_raw": "2026-07-11T22:59:08+00:00"
+  },
+  {
     "title": "“CXL로 AI 추론 병목 해소”…‘넥스트 HBM’ 속도내는 삼성",
     "link": "https://n.news.naver.com/mnews/article/016/0002669003",
     "short_link": "n.news.naver.com/mnews/article/016/0002669003",
     "summary": "삼성전자는 엔비디아 RTX 프로 6000 블랙웰 기반 GPU(그래픽처리장치) 서버와 삼성전자의 CMM-D 모듈을 기반으로 1TB(테라바이트) 규모 CXL 메모리 풀을 구성해 AI 추론 환경을 평가",
-    "published_ago": "36분 전",
+    "published_ago": "1시간 전",
     "published_at": "2026-07-11T22:01:08+00:00",
     "published_raw": "2026-07-11T22:01:08+00:00"
   },
@@ -13,16 +31,25 @@
     "link": "https://www.mt.co.kr/industry/2026/07/12/2026071013154596007",
     "short_link": "mt.co.kr/industry/2026/07/12/2026071013154596007",
     "summary": "반도체 업계 관계자는 \"미국 정부 입장에서는 패키징뿐 아니라 AI 메모리 공급망 전체를 미국 안에 구축하는 것이 목표\"라며 \"SK하이닉스도 기존 인디애나 투자를 확대하는 방안은 물론 고객사 수요와 보조금, 투자 효율성이 맞는다면 중장기적으로 추가 투자도 충분히 선택지에 들어갈 수 있다\" 언급",
-    "published_ago": "1시간 전",
+    "published_ago": "2시간 전",
     "published_at": "2026-07-11T21:21:37+00:00",
     "published_raw": "2026-07-11T21:21:37+00:00"
+  },
+  {
+    "title": "'반도체 투사' 이상일 용인시장 \"뚝심으로 韓 미래 책임진다\"",
+    "link": "https://n.news.naver.com/mnews/ranking/article/293/0000087514?ntype=RANKING",
+    "short_link": "n.news.naver.com/mnews/ranking/article/293/0000087514",
+    "summary": "현재 용인시는 삼성전자와 SK하이닉스, 글로벌 소부장(소재·부품·장비) 기업들과 함께 한국의 미래 먹거리인 반도체 산업을 이끌어갈 준비에 박차를 가 1조원 투입하는 트리니티랩, 자본·기술 수직계열화 이상일 시장이 재임 첫날 서명한 '용인 르네상스 2.0 종합 계획'은 삼성전자 및 SK하이닉스라는 글로벌 반도체 기업을 중심으로 용인시를 세계 반도체의 메카로",
+    "published_ago": "2시간 전",
+    "published_at": "2026-07-11T21:00:07+00:00",
+    "published_raw": "2026-07-11T21:00:07+00:00"
   },
   {
     "title": "中 BOE, OLED 넘어 AI 반도체 기술까지 넘본다",
     "link": "https://www.dt.co.kr/article/12072319",
     "short_link": "dt.co.kr/article/12072319",
     "summary": "마이크로LED, 광인터커넥트, 글라스 코어 기판 등 차세대 디스플레이와 반도체 후공정 영역으로 기술 투자를 확대하며 삼성디스플레이와 LG디스플레이가 주도해온 고부가 시장에 도전장을 내밀고",
-    "published_ago": "1시간 전",
+    "published_ago": "2시간 전",
     "published_at": "2026-07-11T21:00:00+00:00",
     "published_raw": "2026-07-11T21:00:00+00:00"
   },
@@ -31,7 +58,16 @@
     "link": "https://www.mt.co.kr/industry/2026/07/12/2026071205415186037",
     "short_link": "mt.co.kr/industry/2026/07/12/2026071205415186037",
     "summary": "(용인= ) = 29일 청와대에서 열린 국가 미래 먹거리 발굴을 위한 3대 메가 프로젝트 보고회에서 삼성전자와 SK하이닉스가 AI 수요에 대응하기 위한 반도체 생산능력을 확보하기 위해 광주·전남 등 서남권에 약 800조 원을 투자, 제2 반도체 클러스터를 조성하는 내용의 투자 계획을 발표",
-    "published_ago": "1시간 전",
+    "published_ago": "2시간 전",
+    "published_at": "2026-07-11T20:45:59+00:00",
+    "published_raw": "2026-07-11T20:45:59+00:00"
+  },
+  {
+    "title": "삼성전자, '용인 1호팹' 양산 2년 더 빨리…SK, 미국 신규 투자",
+    "link": "https://n.news.naver.com/mnews/ranking/article/008/0005384609?ntype=RANKING",
+    "short_link": "n.news.naver.com/mnews/ranking/article/008/0005384609",
+    "summary": "삼성전자가 추진 중인 용인 반도체 클러스터(복합 산업단지)에 들어설 1호 팹(공장)의 완공 일정이 2년 앞당겨진다 신규 호남 반도체 단지 조성을 위한 정부의 총력지원이 이뤄지는 가운데 SK하이닉스는 미국에 신규 생산시설 구축을 검토",
+    "published_ago": "2시간 전",
     "published_at": "2026-07-11T20:45:59+00:00",
     "published_raw": "2026-07-11T20:45:59+00:00"
   },
@@ -40,7 +76,7 @@
     "link": "https://www.yna.co.kr/view/AKR20260711010600003?section=industry/electronics",
     "short_link": "yna.co.kr/view/AKR20260711010600003",
     "summary": "AI 인프라 구축으로 인한 수급 불균형이 이어지면서 세계 메모리 시장의 90% 이상을 책임지는 주요 메모리 3사 '삼성전자·SK하이닉스·마이크론'은 앞다퉈 설비 투자를 확대하며 시장 리더십을 둘러싼 경쟁을 벌이고",
-    "published_ago": "2시간 전",
+    "published_ago": "3시간 전",
     "published_at": "2026-07-11T20:31:20+00:00",
     "published_raw": "2026-07-11T20:31:20+00:00"
   },
@@ -49,7 +85,7 @@
     "link": "https://www.yna.co.kr/view/AKR20260710130100003?section=industry/electronics",
     "short_link": "yna.co.kr/view/AKR20260710130100003",
     "summary": "구독 구독중 이전 다음 정부 국가산단 조기 조성 기조 호응…전력·용수 구축 관건 \"팹 가동 앞당겨지면 AI 반도체 수요에 보다 정부가 추진 중인 3기가와트(GW) 규모 액화천연가스(LNG) 발전소 조기 착공과 2·3단계 전력 공급 일정 단축, 단계별 용수 공급 조기화 등이 계획대로 추진될 경우 첫 번째 팹의 2029년 가동 가능성도 한층 높아질 것이라는",
-    "published_ago": "2시간 전",
+    "published_ago": "3시간 전",
     "published_at": "2026-07-11T20:31:10+00:00",
     "published_raw": "2026-07-11T20:31:10+00:00"
   },
