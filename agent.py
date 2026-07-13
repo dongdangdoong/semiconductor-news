@@ -566,6 +566,7 @@ def dedupe_by_content_keep_two(items, threshold=0.20, max_per_group=2):
 
 def compact_ending(sentence):
     sentence = strip_reporter_and_source(sentence)
+    sentence = sentence.strip().rstrip(".")
 
     # "~라고 13일 밝혔다" 처럼 날짜가 중간에 낀 흔한 기사체 패턴 (날짜 숫자가 매번 달라서
     # 아래 고정 문자열 치환표로는 못 잡음 — 정규식으로 먼저 처리)
@@ -615,6 +616,8 @@ def compact_ending(sentence):
         ("것으로 전망된다", " 전망"),
         ("진행하고 있다", " 진행 중"),
         ("이어지고 있다", " 지속"),
+        ("이어갔다", " 지속"),
+        ("이어졌다", " 지속"),
         ("나타나고 있다", " 확인"),
         ("확대하고 있다", " 확대"),
         ("늘리고 있다", " 확대"),
@@ -643,10 +646,12 @@ def compact_ending(sentence):
         ("입니다", "")
     ]
 
+    # 표 안의 패턴은 문장 '끝'에 있을 때만 치환한다 (blind replace를 쓰면 중첩 인용문
+    # — "A라고 밝혔다"면서 "B라고도 말했다" 같은 — 의 중간이 잘못 치환되는 문제가 있었음)
     for old, new in replacements:
-        sentence = sentence.replace(old, new)
+        if sentence.endswith(old):
+            sentence = sentence[: -len(old)] + new
 
-    sentence = sentence.rstrip(".")
     sentence = clean_space(sentence)
 
     # 위 표에서 못 잡은 문장은 문장 끝 종결어미만 잘라내서
@@ -655,7 +660,9 @@ def compact_ending(sentence):
         "하고 있다", "되고 있다", "해야 한다", "할 예정이다",
         "했다", "한다", "됐다", "된다", "였다", "이었다", "이다",
         "있다", "없다", "왔다", "낸다", "온다", "든다",
-        "늘렸다", "줄였다", "커졌다", "작아졌다", "높였다", "낮췄다"
+        "갔다", "졌다", "쳤다", "겼다", "렸다", "혔다", "났다", "찼다",
+        "늘렸다", "줄였다", "커졌다", "작아졌다", "높였다", "낮췄다",
+        "나섰다", "밝혀졌다"
     ]
     for ending in sorted(generic_endings, key=len, reverse=True):
         if sentence.endswith(ending):
