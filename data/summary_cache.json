@@ -1128,9 +1128,9 @@
   },
   "https://www.edaily.co.kr/News/Read?newsId=02109046645513864&mediaCodeNo=257": {
     "title": "",
-    "summary": "3조원 이상을 성과급으로 지급하면 미래 경쟁력 확보를 위한 투자 여력이 줄어들 수 있다는 우려가 나온다.한편 현대차 노조는 지난해에도 사흘간 부분파업을 벌여 약 3000억원의 생산 손실이 발생한 확인",
+    "summary": "현대자동차 노동조합이 오는 13일부터 사흘간 부분파업을 예고한 가운데 올해 임금협상의 핵심 쟁점인 ‘순이익 30% 성과급’을 둘러싼 노사 간 이견을 좁히기는 쉽지 않을 전망 한편 현대차 노조는 지난해에도 사흘간 부분파업을 벌여 약 3000억원의 생산 손실이 발생한 확인",
     "source": "rule_based",
-    "cached_at": 1783882438.965478
+    "cached_at": 1783905574.834365
   },
   "https://www.edaily.co.kr/News/Read?newsId=02118886645513864&mediaCodeNo=257": {
     "title": "",
@@ -1190,7 +1190,7 @@
     "title": "",
     "summary": "삼성전자와 SK하이닉스가 총 800조원을 투자하는 서남권 반도체 팹(Fab·생산공장) 4기 건설 입지로 광주 군공항 부지가 최종 확정된 가운데 7일 오후 전남광주 남구 상공에서 바라본 광주 군공항 부지(중앙)의 모습",
     "source": "rule_based",
-    "cached_at": 1783896124.125794
+    "cached_at": 1783905505.097357
   },
   "https://n.news.naver.com/mnews/article/031/0001041552": {
     "title": "",
@@ -1212,9 +1212,9 @@
   },
   "https://www.newsis.com/view/NISX20260710_0003704795": {
     "title": "",
-    "summary": "= 몽골을 국빈 방문한 이재명 대통령이 10일(현지 시간) 울란바타르 한 호텔에서 열린 동포 오찬 간담회에서 인사말을",
+    "summary": "몽골을 국빈 방문한 이재명 대통령이 10일(현지 시간) 울란바타르 한 호텔에서 열린 동포 오찬 간담회에서 인사말을",
     "source": "rule_based",
-    "cached_at": 1783896138.438247
+    "cached_at": 1783905520.147274
   },
   "https://n.news.naver.com/mnews/article/008/0005384887": {
     "title": "",
@@ -1239,5 +1239,113 @@
     "summary": "韓세입구조 특정 산업·소수 기업 의존도 높아 올해 반도체 슈퍼사이클에 법인세·증권거래세 가파르게 증가 미래먹거리인 새로운 전략산업 투자 육성해야 임광현 국세청장이 반도체 특수로 인한 추가세수를 3대 메가 프로젝트 지원 등 국가의 장기적 경쟁력 강화에 사용하고자 하는 '미래대응기금' 조성방안은 꼭 필요한 정책이라고 12일",
     "source": "rule_based",
     "cached_at": 1783899876.148432
+  },
+  "https://www.digitimes.com/news/a20260713PD201/king-yuan-testing-plant-investment-manufacturing.html": {
+    "title": "",
+    "summary": "King Yuan Electronics(KYEC)는 미국이 국내 칩 제조 확대를 계속 추진함에 따라 7월 10일 최대 14억 달러(약 NT$449억)의 미국 공장 투자를 승인했 반도체 테스트 회사는 이 프로젝트가 자사의 최대 해외 확장이 될 것이며 백엔드 패키징 및 테스트 용량에서 미국 내 격차가 커지는 것을 해결하는 것이 목표라고 말했",
+    "source": "rule_based",
+    "cached_at": 1783905230.883263
+  },
+  "https://www.digitimes.com/news/a20260710PD225/revenue-superalloy-aluminum-certification-2026.html": {
+    "title": "",
+    "summary": "SuperAlloy Industrial은 6월 연결 매출이 NT$7억 4,900만(미화 2,336만 달러)로 5월보다 45% 증가한 NT$19억 8천만 달러를 기록했으며, 2026년 상반기 매출은 6",
+    "source": "rule_based",
+    "cached_at": 1783905240.337344
+  },
+  "https://www.digitimes.com/news/a20260710VL210/hbm-packaging-hbm4-bandwidth-equipment.html": {
+    "title": "",
+    "summary": "AI 메모리 경쟁이 적층 용량에서 패키징 밀도, 열 제어, AI 가속기와의 긴밀한 통합으로 전환됨에 따라 SK하이닉스는 차세대 고대역폭 메모리(HBM)를 위한 하이브리드 본딩 기술을 준비하기 위해 일찍 움직이고 있",
+    "source": "rule_based",
+    "cached_at": 1783905252.002275
+  },
+  "https://www.digitimes.com/news/a20260710PD234/cpu-arm-infrastructure-demand-ceo.html": {
+    "title": "",
+    "summary": "GPU는 지난 2년 동안 AI 인프라 논의를 주도해 왔으며 LLM(대형 언어 모델) 훈련 및 추론 클러스터부터 HBM(고대역폭 메모리), 고급 패키징 및 수냉식 서버 랙에 이르기까지 모든 것을 지원했",
+    "source": "rule_based",
+    "cached_at": 1783905259.177973
+  },
+  "https://www.digitimes.com/news/a20260709PD200/ma-tek-testing-revenue-cpo-demand.html": {
+    "title": "",
+    "summary": "반도체 테스트 회사인 MA-tek(Materials Analysis Technology)은 2026년 6월 매출이 5월보다 2026년 2분기 매출은 NT$16억4천만으로 단일 분기 사상 최고치를 기록했으며, 2026년 상반기 매출은 총 NT$30억7천만으로 2025년 같은 기간보다",
+    "source": "rule_based",
+    "cached_at": 1783905268.38796
+  },
+  "https://www.digitimes.com/news/a20260710PD218/tesla-spacex-intel-talent-elon-musk.html": {
+    "title": "",
+    "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:149;116-264\"Tesla와 SpaceX는 합병 추측이 현실화되기 전에 이미 Terafab에서 칩, 인재 및 제조를 중심으로 수렴하고 있",
+    "source": "rule_based",
+    "cached_at": 1783905272.117562
+  },
+  "https://n.news.naver.com/mnews/article/016/0002669272": {
+    "title": "",
+    "summary": "우리나라가 요르단 연구용원자로(JRTR)의 고품질 전력반도체 소재 생산을 위한 핵심 시설 구축 사업을 수주, 다시 한번 원자력기술 우수성을 증명 한국원자력연구원은 ㈜미래와도전(FNC)과 공동으로 요르단 원자력위원회가 운영하는 요르단 연구용원자로(JRTR)의 ‘중성자변환도핑(NTD) 시설 구축 사업’의 우선협상대상자로 선정됐 언급",
+    "source": "rule_based",
+    "cached_at": 1783905303.688996
+  },
+  "https://n.news.naver.com/mnews/article/366/0001178682": {
+    "title": "",
+    "summary": "올 하반기쯤 고객들에게 디지털 트윈 기반 로봇 학습 플랫폼을 설명하고, 내년부터 본격적으로 사업화하려 한다.” ―엔비디아의 피지컬AI용 3D 가상 설계 플랫폼인 ‘옴니버스’를 활용해 SK하이닉스 반도체 공장을 디지털 트윈으로 구현",
+    "source": "rule_based",
+    "cached_at": 1783905305.907469
+  },
+  "https://n.news.naver.com/mnews/article/016/0002669243": {
+    "title": "",
+    "summary": "연구팀은 기존처럼 금속 전극을 반도체 위에 붙이는 대신, 하나의 2차원 소재 안에서 준금속(금속처럼 전기가 잘 흐르는 성질)과 반도체 영역을 연속적으로 구현 원자층 두께의 2차원 소재인 백금 다이셀레나이드 하나의 박막 안에서 준금속 영역과 반도체 영역을 연속적으로 구현",
+    "source": "rule_based",
+    "cached_at": 1783905307.178772
+  },
+  "https://n.news.naver.com/mnews/article/018/0006328797": {
+    "title": "",
+    "summary": "홍승범 KAIST 교수는 “2차원 반도체 계면에서 전류가 흐르는 모습을 나노미터 수준에서 직접 확인한 세계 최초 사례”라며 “단일체 계면이 전류 흐름을 방해하지 않는다는 점을 입증한 만큼 다양한 차세대 반도체의 접촉 저항 문제를 해결하는 핵심 원천기술로 활용될 것”이 언급",
+    "source": "rule_based",
+    "cached_at": 1783905309.063632
+  },
+  "https://n.news.naver.com/mnews/ranking/article/293/0000087535?ntype=RANKING": {
+    "title": "",
+    "summary": "삼성은 GAA, TSMC는 핀펫…갈린 3나노 전략 12일 반도체업계에 따르면 삼성전자 파운드리사업부의 장기 부진은 3나노 선단공정의 양산 안정화 지연과 맞물려 있다는 평가가 많다 삼성전자는 기존 FinFET 구조의 미세화 한계를 넘기 위해 3나노 공정에 차세대 트랜지스터 구조를 먼저 적용",
+    "source": "rule_based",
+    "cached_at": 1783905311.822531
+  },
+  "https://www.mk.co.kr/news/economy/12096743": {
+    "title": "",
+    "summary": "한은은 “AI 기술 확산 속도와 범위, 수익성 등을 둘러싼 불확실성이 있다”면서도 “JP모건, 골드만삭스, 모건스탠리 등 주요 IB들은 대체로 글로벌 반도체 경기가 적어도 내년까지 호조를 이어갈 것으로 전망한다”고 전언",
+    "source": "rule_based",
+    "cached_at": 1783905333.665546
+  },
+  "https://www.mk.co.kr/news/business/12096715": {
+    "title": "",
+    "summary": "한은은 “AI 기술 확산 속도와 수익성 등을 둘러싼 불확실성은 있지만 JP모건, 골드만삭스, 모건스탠리 등 주요 IB들은 글로벌 반도체 경기가 적어도 내년까지 호조를 이어갈 것으로 보고 있다”고 전언",
+    "source": "rule_based",
+    "cached_at": 1783905335.745994
+  },
+  "https://www.asiae.co.kr/article/IT/2026071309193053428": {
+    "title": "",
+    "summary": "관세청, 7월 1~10일 수출입 현황 수출 298억달러·수입 235억달러 반도체 수출 193% 늘며 '역대 최대' 이달 들어 10일까지 전체 수출과 반도체 수출이 모두 역대 최대치를 기록하며 호조세를 이어갔다",
+    "source": "rule_based",
+    "cached_at": 1783905359.176935
+  },
+  "https://www.yna.co.kr/view/AKR20260713038800008?section=industry/electronics": {
+    "title": "",
+    "summary": "이 ETF는 글로벌 고대역폭메모리 시장을 주도하고 있는 SK하이닉스와 삼성전자, 그리고 핵심 장비 공급사인 한미반도체 등 3개 종목에 전체 비중의 약 80%를 압축 투자",
+    "source": "rule_based",
+    "cached_at": 1783905367.258101
+  },
+  "https://www.etnews.com/20260713000079": {
+    "title": "",
+    "summary": "이노웰(대표 채명필)은 망고부스트와 협력해 AI 데이터센터용 네트워크 인터페이스 카드(NIC)를 개발하고 양산 체제 구축에 돌입했 언급 이노웰은 신제품이 AI 워크로드 환경에서 요구되는 초고속·초저지연 데이터 처리에 대응하기 위한 것이라며 망고부스트 네트워크 처리 기술과 이노웰 시스템 설계·하드웨어 구현 역량을 결합했다고 덧붙임",
+    "source": "rule_based",
+    "cached_at": 1783905485.623673
+  },
+  "https://www.edaily.co.kr/News/Read?newsId=02810966645514192&mediaCodeNo=257": {
+    "title": "",
+    "summary": "조달당국이 물품구매 입찰에서 페이퍼컴퍼니의 무분별한 시장 진입을 차단하기 위한 조치에 나섰다 페이퍼컴퍼니(paper company)는 물품공급 입찰 또는 계약이행 과정에서 실질적 이행 능력을 갖추지 못한 채 낙찰만을 목적으로 설립된 업체를 말",
+    "source": "rule_based",
+    "cached_at": 1783905528.069577
+  },
+  "https://pharm.edaily.co.kr/News/Read?newsId=02725686645514192": {
+    "title": "",
+    "summary": "인공지능(AI) 반도체와 고대역폭메모리(HBM) 확산으로 차세대 패키징 핵심 소재인 유리기판이 주목받고 있는 가운데, 생산 수율을 좌우하는 미세 결함을 비파괴 방식으로 3차원(3D) 분석할 수 있는 전용 계측 장비가 국내에서 처음 공개",
+    "source": "rule_based",
+    "cached_at": 1783905593.481136
   }
 }

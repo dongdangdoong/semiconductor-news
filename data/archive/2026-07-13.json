@@ -1,10 +1,163 @@
 [
   {
+    "title": "페이퍼컴퍼니 등 불공정 조달업체 뿌리 뽑는다",
+    "link": "https://www.edaily.co.kr/News/Read?newsId=02810966645514192&mediaCodeNo=257",
+    "short_link": "edaily.co.kr/News/Read",
+    "summary": "조달당국이 물품구매 입찰에서 페이퍼컴퍼니의 무분별한 시장 진입을 차단하기 위한 조치에 나섰다 페이퍼컴퍼니(paper company)는 물품공급 입찰 또는 계약이행 과정에서 실질적 이행 능력을 갖추지 못한 채 낙찰만을 목적으로 설립된 업체를 말",
+    "published_ago": "14분 전",
+    "published_at": "2026-07-13T01:04:26+00:00",
+    "published_raw": "2026-07-13T01:04:26+00:00"
+  },
+  {
+    "title": "이노웰, 망고부스트와 AI 데이터센터용 NIC 양산",
+    "link": "https://www.etnews.com/20260713000079",
+    "short_link": "etnews.com/20260713000079",
+    "summary": "이노웰(대표 채명필)은 망고부스트와 협력해 AI 데이터센터용 네트워크 인터페이스 카드(NIC)를 개발하고 양산 체제 구축에 돌입했 언급 이노웰은 신제품이 AI 워크로드 환경에서 요구되는 초고속·초저지연 데이터 처리에 대응하기 위한 것이라며 망고부스트 네트워크 처리 기술과 이노웰 시스템 설계·하드웨어 구현 역량을 결합했다고 덧붙임",
+    "published_ago": "24분 전",
+    "published_at": "2026-07-13T00:53:22+00:00",
+    "published_raw": "2026-07-13T00:53:22+00:00"
+  },
+  {
+    "title": "토모큐브, 반도체 핵심 소재 유리기판 결함 분석 장비 출시",
+    "link": "https://pharm.edaily.co.kr/News/Read?newsId=02725686645514192",
+    "short_link": "pharm.edaily.co.kr/News/Read",
+    "summary": "인공지능(AI) 반도체와 고대역폭메모리(HBM) 확산으로 차세대 패키징 핵심 소재인 유리기판이 주목받고 있는 가운데, 생산 수율을 좌우하는 미세 결함을 비파괴 방식으로 3차원(3D) 분석할 수 있는 전용 계측 장비가 국내에서 처음 공개",
+    "published_ago": "31분 전",
+    "published_at": "2026-07-13T00:48:00+00:00",
+    "published_raw": "2026-07-13T00:48:00+00:00"
+  },
+  {
+    "title": "한투운용 \"ACE AI반도체TOP3+ ETF, 소부장 수익률 1위\"",
+    "link": "https://www.yna.co.kr/view/AKR20260713038800008?section=industry/electronics",
+    "short_link": "yna.co.kr/view/AKR20260713038800008",
+    "summary": "이 ETF는 글로벌 고대역폭메모리 시장을 주도하고 있는 SK하이닉스와 삼성전자, 그리고 핵심 장비 공급사인 한미반도체 등 3개 종목에 전체 비중의 약 80%를 압축 투자",
+    "published_ago": "47분 전",
+    "published_at": "2026-07-13T00:28:50+00:00",
+    "published_raw": "2026-07-13T00:28:50+00:00"
+  },
+  {
+    "title": "‘반도체 고점론’ 머쓱하게 만든 한은 “내년까지 공급 부족 지속”",
+    "link": "https://www.mk.co.kr/news/economy/12096743",
+    "short_link": "mk.co.kr/news/economy/12096743",
+    "summary": "한은은 “AI 기술 확산 속도와 범위, 수익성 등을 둘러싼 불확실성이 있다”면서도 “JP모건, 골드만삭스, 모건스탠리 등 주요 IB들은 대체로 글로벌 반도체 경기가 적어도 내년까지 호조를 이어갈 것으로 전망한다”고 전언",
+    "published_ago": "53분 전",
+    "published_at": "2026-07-13T00:22:23+00:00",
+    "published_raw": "2026-07-13T00:22:23+00:00"
+  },
+  {
+    "title": "이달 10일까지 수출 53.9%↑…\"전체·반도체 모두 역대 최대\"",
+    "link": "https://www.asiae.co.kr/article/IT/2026071309193053428",
+    "short_link": "asiae.co.kr/article/IT/2026071309193053428",
+    "summary": "관세청, 7월 1~10일 수출입 현황 수출 298억달러·수입 235억달러 반도체 수출 193% 늘며 '역대 최대' 이달 들어 10일까지 전체 수출과 반도체 수출이 모두 역대 최대치를 기록하며 호조세를 이어갔다",
+    "published_ago": "56분 전",
+    "published_at": "2026-07-13T00:19:30+00:00",
+    "published_raw": "2026-07-13T00:19:30+00:00"
+  },
+  {
+    "title": "KYEC, 칩 테스트 역량 확장을 위해 14억 달러 규모의 미국 공장 승인",
+    "link": "https://www.digitimes.com/news/a20260713PD201/king-yuan-testing-plant-investment-manufacturing.html",
+    "short_link": "digitimes.com/news/a20260713PD201/king-yuan-testing-plant-...",
+    "summary": "King Yuan Electronics(KYEC)는 미국이 국내 칩 제조 확대를 계속 추진함에 따라 7월 10일 최대 14억 달러(약 NT$449억)의 미국 공장 투자를 승인했 반도체 테스트 회사는 이 프로젝트가 자사의 최대 해외 확장이 될 것이며 백엔드 패키징 및 테스트 용량에서 미국 내 격차가 커지는 것을 해결하는 것이 목표라고 말했",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-13T00:06:58+00:00",
+    "published_raw": "Mon, 13 Jul 2026 00:06:58 GMT"
+  },
+  {
+    "title": "요르단 수출 韓 ‘연구용원자로’…전력반도체 소재 생산 맡는다",
+    "link": "https://n.news.naver.com/mnews/article/016/0002669272",
+    "short_link": "n.news.naver.com/mnews/article/016/0002669272",
+    "summary": "우리나라가 요르단 연구용원자로(JRTR)의 고품질 전력반도체 소재 생산을 위한 핵심 시설 구축 사업을 수주, 다시 한번 원자력기술 우수성을 증명 한국원자력연구원은 ㈜미래와도전(FNC)과 공동으로 요르단 원자력위원회가 운영하는 요르단 연구용원자로(JRTR)의 ‘중성자변환도핑(NTD) 시설 구축 사업’의 우선협상대상자로 선정됐 언급",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-13T00:06:08+00:00",
+    "published_raw": "2026-07-13T00:06:08+00:00"
+  },
+  {
+    "title": "조익환 SK텔레콤 피지컬AI 부사장 “3년 내 AI B2B 매출 10% 이상 목표… 반도체·자동차·조선서 피지컬AI 수요 클 것”",
+    "link": "https://n.news.naver.com/mnews/article/366/0001178682",
+    "short_link": "n.news.naver.com/mnews/article/366/0001178682",
+    "summary": "올 하반기쯤 고객들에게 디지털 트윈 기반 로봇 학습 플랫폼을 설명하고, 내년부터 본격적으로 사업화하려 한다.” ―엔비디아의 피지컬AI용 3D 가상 설계 플랫폼인 ‘옴니버스’를 활용해 SK하이닉스 반도체 공장을 디지털 트윈으로 구현",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-13T00:01:10+00:00",
+    "published_raw": "2026-07-13T00:01:10+00:00"
+  },
+  {
+    "title": "반도체 고점론 내년까지 문제 없다는 한은…“AI 덕에 슈퍼사이클 더 간다”",
+    "link": "https://www.mk.co.kr/news/business/12096715",
+    "short_link": "mk.co.kr/news/business/12096715",
+    "summary": "한은은 “AI 기술 확산 속도와 수익성 등을 둘러싼 불확실성은 있지만 JP모건, 골드만삭스, 모건스탠리 등 주요 IB들은 글로벌 반도체 경기가 적어도 내년까지 호조를 이어갈 것으로 보고 있다”고 전언",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-12T23:57:04+00:00",
+    "published_raw": "2026-07-12T23:57:04+00:00"
+  },
+  {
+    "title": "재활용 알루미늄 및 반도체 인증 진행으로 SuperAlloy 매출 증가",
+    "link": "https://www.digitimes.com/news/a20260710PD225/revenue-superalloy-aluminum-certification-2026.html",
+    "short_link": "digitimes.com/news/a20260710PD225/revenue-superalloy-alumi...",
+    "summary": "SuperAlloy Industrial은 6월 연결 매출이 NT$7억 4,900만(미화 2,336만 달러)로 5월보다 45% 증가한 NT$19억 8천만 달러를 기록했으며, 2026년 상반기 매출은 6",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-12T23:53:25+00:00",
+    "published_raw": "Sun, 12 Jul 2026 23:53:25 GMT"
+  },
+  {
+    "title": "SK하이닉스 하이브리드 본딩 추진, HBM 패키징 경쟁의 다음 단계 신호탄",
+    "link": "https://www.digitimes.com/news/a20260710VL210/hbm-packaging-hbm4-bandwidth-equipment.html",
+    "short_link": "digitimes.com/news/a20260710VL210/hbm-packaging-hbm4-bandw...",
+    "summary": "AI 메모리 경쟁이 적층 용량에서 패키징 밀도, 열 제어, AI 가속기와의 긴밀한 통합으로 전환됨에 따라 SK하이닉스는 차세대 고대역폭 메모리(HBM)를 위한 하이브리드 본딩 기술을 준비하기 위해 일찍 움직이고 있",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-12T23:51:02+00:00",
+    "published_raw": "Sun, 12 Jul 2026 23:51:02 GMT"
+  },
+  {
+    "title": "Arm CEO: 인프라가 GPU 이상으로 전환됨에 따라 CPU 수요를 촉진하는 AI 에이전트",
+    "link": "https://www.digitimes.com/news/a20260710PD234/cpu-arm-infrastructure-demand-ceo.html",
+    "short_link": "digitimes.com/news/a20260710PD234/cpu-arm-infrastructure-d...",
+    "summary": "GPU는 지난 2년 동안 AI 인프라 논의를 주도해 왔으며 LLM(대형 언어 모델) 훈련 및 추론 클러스터부터 HBM(고대역폭 메모리), 고급 패키징 및 수냉식 서버 랙에 이르기까지 모든 것을 지원했",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-12T23:49:57+00:00",
+    "published_raw": "Sun, 12 Jul 2026 23:49:57 GMT"
+  },
+  {
+    "title": "MA-tek은 AI 칩 테스트 수요 증가와 CPO 복잡성으로 인해 6월 매출 기록을 달성했습니다.",
+    "link": "https://www.digitimes.com/news/a20260709PD200/ma-tek-testing-revenue-cpo-demand.html",
+    "short_link": "digitimes.com/news/a20260709PD200/ma-tek-testing-revenue-c...",
+    "summary": "반도체 테스트 회사인 MA-tek(Materials Analysis Technology)은 2026년 6월 매출이 5월보다 2026년 2분기 매출은 NT$16억4천만으로 단일 분기 사상 최고치를 기록했으며, 2026년 상반기 매출은 총 NT$30억7천만으로 2025년 같은 기간보다",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-12T23:46:58+00:00",
+    "published_raw": "Sun, 12 Jul 2026 23:46:58 GMT"
+  },
+  {
+    "title": "머스크, 테슬라 웨이퍼 팹 야망을 위해 인텔과 스페이스X 인재 모아",
+    "link": "https://www.digitimes.com/news/a20260710PD218/tesla-spacex-intel-talent-elon-musk.html",
+    "short_link": "digitimes.com/news/a20260710PD218/tesla-spacex-intel-talen...",
+    "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:149;116-264\"Tesla와 SpaceX는 합병 추측이 현실화되기 전에 이미 Terafab에서 칩, 인재 및 제조를 중심으로 수렴하고 있",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-12T23:45:59+00:00",
+    "published_raw": "Sun, 12 Jul 2026 23:45:59 GMT"
+  },
+  {
+    "title": "KAIST, 차세대 반도체 ‘전기 병목현상’ 해결",
+    "link": "https://n.news.naver.com/mnews/article/016/0002669243",
+    "short_link": "n.news.naver.com/mnews/article/016/0002669243",
+    "summary": "연구팀은 기존처럼 금속 전극을 반도체 위에 붙이는 대신, 하나의 2차원 소재 안에서 준금속(금속처럼 전기가 잘 흐르는 성질)과 반도체 영역을 연속적으로 구현 원자층 두께의 2차원 소재인 백금 다이셀레나이드 하나의 박막 안에서 준금속 영역과 반도체 영역을 연속적으로 구현",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-12T23:39:11+00:00",
+    "published_raw": "2026-07-12T23:39:11+00:00"
+  },
+  {
+    "title": "KAIST, 반도체 ‘전기 병목’ 해결 실마리 찾았다…AI 칩 전력 손실 줄인다",
+    "link": "https://n.news.naver.com/mnews/article/018/0006328797",
+    "short_link": "n.news.naver.com/mnews/article/018/0006328797",
+    "summary": "홍승범 KAIST 교수는 “2차원 반도체 계면에서 전류가 흐르는 모습을 나노미터 수준에서 직접 확인한 세계 최초 사례”라며 “단일체 계면이 전류 흐름을 방해하지 않는다는 점을 입증한 만큼 다양한 차세대 반도체의 접촉 저항 문제를 해결하는 핵심 원천기술로 활용될 것”이 언급",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-12T23:20:13+00:00",
+    "published_raw": "2026-07-12T23:20:13+00:00"
+  },
+  {
     "title": "아이폰18 일반 모델, 삼성·하이닉스 대신 중국 D램 쓰나 [IT썰]",
     "link": "https://n.news.naver.com/mnews/article/008/0005384887",
     "short_link": "n.news.naver.com/mnews/article/008/0005384887",
     "summary": "딩자오수마는 \"삼성전자와 SK하이닉스는 수년간 애플에 메모리를 공급하며 차세대 A20 프로 칩 개발 과정에서도 협업을 이어왔다\"며 \"아이폰18 프로 시리즈에 CXMT D램이 채택될 가능성은 거의 없다\"고 주장",
-    "published_ago": "22분 전",
+    "published_ago": "1시간 전",
     "published_at": "2026-07-12T23:20:00+00:00",
     "published_raw": "2026-07-12T23:20:00+00:00"
   },
@@ -13,7 +166,7 @@
     "link": "https://www.mt.co.kr/industry/2026/07/13/2026071220075642496",
     "short_link": "mt.co.kr/industry/2026/07/13/2026071220075642496",
     "summary": "삼성전자, '용인 1호팹' 양산 2년 더 빨리…SK, 미국 신규 투자 (용인= ) = 29일 청와대에서 열린 국가 미래 먹거리 발굴을 위한 3대 메가 프로젝트 보고회에서 삼성전자와 SK하이닉스가 AI 수요에 대응하기 위한 반도체 생산능력을 확보하기 위해 광주·전남 등 서남권에 약 800조 원을 투자, 제2 반도체 클러스터",
-    "published_ago": "44분 전",
+    "published_ago": "2시간 전",
     "published_at": "2026-07-12T23:00:00+00:00",
     "published_raw": "2026-07-12T23:00:00+00:00"
   },
@@ -22,7 +175,7 @@
     "link": "https://www.asiae.co.kr/article/IT/2026071307564267633",
     "short_link": "asiae.co.kr/article/IT/2026071307564267633",
     "summary": "韓세입구조 특정 산업·소수 기업 의존도 높아 올해 반도체 슈퍼사이클에 법인세·증권거래세 가파르게 증가 미래먹거리인 새로운 전략산업 투자 육성해야 임광현 국세청장이 반도체 특수로 인한 추가세수를 3대 메가 프로젝트 지원 등 국가의 장기적 경쟁력 강화에 사용하고자 하는 '미래대응기금' 조성방안은 꼭 필요한 정책이라고 12일",
-    "published_ago": "47분 전",
+    "published_ago": "2시간 전",
     "published_at": "2026-07-12T22:56:42+00:00",
     "published_raw": "2026-07-12T22:56:42+00:00"
   },
@@ -40,7 +193,7 @@
     "link": "https://www.hankyung.com/article/2026071304697",
     "short_link": "hankyung.com/article/2026071304697",
     "summary": "인공지능(AI) 인프라 투자로 수요가 빠르게 늘고 있지만 공급 확대에는 시간이 걸리는 만큼 글로벌 반도체 경기의 확장세가 상당 기간 이어질 것으로 판단했다.13일 에 따르면 한은은 박성훈 국민의힘 의원에게 제출한 서면 답변에서 현재 반도체 시장을 공급 우위 국면으로 진단",
-    "published_ago": "2시간 전",
+    "published_ago": "4시간 전",
     "published_at": "2026-07-12T21:09:27+00:00",
     "published_raw": "2026-07-12T21:09:27+00:00"
   },
@@ -49,7 +202,7 @@
     "link": "https://www.newsis.com/view/NISX20260712_0003705835",
     "short_link": "newsis.com/view/NISX20260712_0003705835",
     "summary": "삼성전자와 SK하이닉스가 총 800조원을 투자하는 서남권 반도체 팹(Fab·생산공장) 4기 건설 입지로 광주 군공항 부지가 최종 확정된 가운데 7일 오후 전남광주 남구 상공에서 바라본 광주 군공항 부지(중앙)의 모습",
-    "published_ago": "3시간 전",
+    "published_ago": "5시간 전",
     "published_at": "2026-07-12T20:03:44+00:00",
     "published_raw": "2026-07-12T20:03:44+00:00"
   },
