@@ -1431,7 +1431,7 @@
     "title": "",
     "summary": "13일 업계에 따르면 퓨리오사AI는 내년까지 2세대 LLM 추론 특화 칩 '레니게이드(RNGD)'의 생산 물량을 4만~5만장까지 대폭 확대 추론 기능 특화로 설계된 퓨리오사AI의 레니게이드는 200W 수준의 전력으로 해외 고성능 GPU와 비슷한 성능을",
     "source": "rule_based",
-    "cached_at": 1783976090.020633
+    "cached_at": 1783986581.253924
   },
   "https://www.newsis.com/view/NISX20260713_0003707513": {
     "title": "",
@@ -1492,5 +1492,17 @@
     "summary": "TSMC, 지난달 매출 4427억대만달러 한 달 만에 월간 매출액 신기록 '경신' 사진=REUTERS· 세계 최대 파운드리(반도체 수탁생산) 업체 TSMC가 인공지능(AI) 반도체 수요에 힘입어 월간 최대 매출 기록을 달성",
     "source": "rule_based",
     "cached_at": 1783979269.254796
+  },
+  "https://n.news.naver.com/mnews/article/009/0005707011": {
+    "title": "",
+    "summary": "쿤도잘라 애널리스트는 “AI 반도체 시장은 여전히 공급이 수요를 따라가지 못하고 있다”며 “TSMC의 3나노(N3) 공정은 올해 주요 AI GPU와 CPU 생산에 사용되면서 사실상 생산능력이 모두 예약된 상태”라고 설명",
+    "source": "rule_based",
+    "cached_at": 1783986306.145437
+  },
+  "https://n.news.naver.com/mnews/ranking/article/584/0000038482?ntype=RANKING": {
+    "title": "",
+    "summary": "■ 울산과학기술원(UNIST)은 한승열 인공지능대학원 교수팀이 대형언어모델(LLM)을 활용해 여러 인공지능(AI) 에이전트 간 통신 규칙을 자동으로 설계·개선하는 ‘LMAC’ 기술을 개발했 언급",
+    "source": "rule_based",
+    "cached_at": 1783986319.28132
   }
 }
