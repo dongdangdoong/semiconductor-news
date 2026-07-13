@@ -149,12 +149,6 @@
     "source": "rule_based",
     "cached_at": 1783744634.533625
   },
-  "https://n.news.naver.com/mnews/article/001/0016188127": {
-    "title": "",
-    "summary": "친구와 함께 이곳을 찾았다는 중학교 3학년 최혜림(15)양은 \"음성에서는 충북반도체고가 삼성전자나 SK하이닉스 같은 대기업 취업이 잘되는 학교로 유명하다\"며 \"반드시 입학하고 싶어서 면접을 중심으로 준비하고 있다\"고 미소를 지었다",
-    "source": "rule_based",
-    "cached_at": 1783713658.34863
-  },
   "https://www.yna.co.kr/view/AKR20260710139500064?section=industry/electronics": {
     "title": "",
     "summary": "구독 구독중 이전 다음 내년 96명 신입생 모집에 강당 1층 340석 좌석과 보조좌석 만석 이미지 확대 인파 가득한 충북반도체고 입시설명회 [촬영 박건영] (음성= ) = \"대학도 좋지만 삼성전자나 SK하이닉스에 취업하면 더 바랄 게 없죠.\" 10일 2027학년도 입학설명회가 열린 충북 음성군 반도체고등학교",
@@ -251,12 +245,6 @@
     "source": "rule_based",
     "cached_at": 1783753902.528442
   },
-  "https://www.edaily.co.kr/News/Read?newsId=01095526645513536&mediaCodeNo=257": {
-    "title": "",
-    "summary": "청와대는 중국이 반도체 생산 과정에 필수적인 헬륨의 수출을 금지한 것과 관련해 “우리 반도체 업계에 미치는 영향은 없다”고 발표..청와대 관계자는 10일(현지 시각) “중동 전쟁 이후 대부분 미국으로 수입선을 다변화했고, 중국으로부터의 수입도 매우 미미하다”고 발표..홍콩 사우스차이나모닝포스트(SCMP) 등에 따르면 중국",
-    "source": "rule_based",
-    "cached_at": 1783713956.071225
-  },
   "https://www.edaily.co.kr/News/Read?newsId=06363206645513208&mediaCodeNo=257": {
     "title": "",
     "summary": "미국에서 적절한 입지를 찾는다면 왜 미국에 투자하지 않겠느냐” 언급..다만 현재 진행 중인 미국 투자 계획은 인디애나주 웨스트라피엣에 건설 중인 약 40억달러 규모의 AI 메모리 첨단 패키징 공장이 유일하다",
@@ -281,23 +269,11 @@
     "source": "rule_based",
     "cached_at": 1783774410.661868
   },
-  "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWGVReWRlRmJZU09zS01oYVBzYlBVXzJtN2dfWmROY2lRWVFBSFBRRmp4WE44M2U3YVFTNkxSRzF0a2ljUGZhUU0ySkFaZjFYbmhkZ1pLaVV6Q0pZdHdILWpFdV94N0s5eUx0ZWRyZGlQVmJXeTJVc3pOclA4empCcWliMA?oc=5&hl=ko&gl=KR&ceid=KR:ko": {
-    "title": "",
-    "summary": "인베스트조선 KB증권 \"SK하이닉스 ADR 상장, TSMC 사례처럼 재평가 기대\" 파이낸셜뉴스 \"SK하이닉스 ADR 상장…TSMC 사례처럼 밸류 재평가 기회\"-KB [사설] SK하이닉스 나스닥 상장, TSMC 모델을 따라가야",
-    "source": "rule_based",
-    "cached_at": 1783713545.455211
-  },
   "https://www.dt.co.kr/article/12072291": {
     "title": "",
     "summary": "수요·공급 차 너무 커…“사이클 옛날같지 않을 것” 로이터, 하이닉스 ADR 공모가 21% 상회 예상 최태원 SK그룹 회장이 인공지능(AI) 시대를 맞아 반도체 산업도 구조적인 변혁기에 직면했다고 진단",
     "source": "rule_based",
     "cached_at": 1783793946.083984
-  },
-  "https://www.edaily.co.kr/News/Read?newsId=01272646645513536&mediaCodeNo=257": {
-    "title": "",
-    "summary": "그는 “HBM도 늘어나고 다른 저장기술도 계속 발전하겠지만 저장해야 하는 메모리 총량 자체가 증가하는 흐름을 막기는 어렵다”며 “AGI 시대가 올 때까지 이 흐름은 상당 기간 이어질 가능성이 높다” 언급..최 회장은 AI 시대의 가장 큰 과제는 폭증하는 메모리 수요를 얼마나 빠르게 공급으로 연결하느냐에 달려 있다고 강조",
-    "source": "rule_based",
-    "cached_at": 1783713944.479619
   },
   "https://n.news.naver.com/mnews/hotissue/article/092/0002430108?type=series&cid=2003678": {
     "title": "",
@@ -1581,7 +1557,7 @@
     "title": "",
     "summary": "13일 업계에 따르면 퓨리오사AI는 내년까지 2세대 LLM 추론 특화 칩 '레니게이드(RNGD)'의 생산 물량을 4만~5만장까지 대폭 확대 추론 기능 특화로 설계된 퓨리오사AI의 레니게이드는 200W 수준의 전력으로 해외 고성능 GPU와 비슷한 성능을",
     "source": "rule_based",
-    "cached_at": 1783960128.804406
+    "cached_at": 1783976090.020633
   },
   "https://www.newsis.com/view/NISX20260713_0003707513": {
     "title": "",
