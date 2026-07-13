@@ -1,19 +1,37 @@
 [
   {
-    "title": "현대차證, '공정거래 자율준수의 날' 개최…준법경영 실천 의지 다져",
-    "link": "https://www.edaily.co.kr/News/Read?newsId=02873286645514192&mediaCodeNo=257",
+    "title": "원콜, 위베어소프트 APINEX 기반 오픈 API 플랫폼 구축",
+    "link": "https://www.edaily.co.kr/News/Read?newsId=02922486645514192&mediaCodeNo=257",
     "short_link": "edaily.co.kr/News/Read",
-    "summary": "현대차증권은 지난 9일 서울 여의도 본사에서 ‘2026년 공정거래 자율준수의 날’ 행사를 열고 공정거래 자율준수 프로그램(CP) 실천 의지를 다졌 언급 이번 행사는 임직원들이 공정거래 자율준수 프로그램의 취지를 되새기고 공정하고 투명한 거래 질서 확립에 대한 실천 의지를 다지기 위해 마련",
-    "published_ago": "14분 전",
-    "published_at": "2026-07-13T01:15:34+00:00",
-    "published_raw": "2026-07-13T01:15:34+00:00"
+    "summary": "장영휘 위베어소프트 대표는 “실시간·대량 데이터 처리가 필수인 화물 운송 서비스에서 APINEX가 채택된 것은 제품 성능과 신뢰성을 입증한 사례”라며 “앞으로도 물류·모빌리티를 비롯해 데이터 연동 수요가 큰 산업 전반으로 레퍼런스를 확대해 나가겠다”고 발표",
+    "published_ago": "17분 전",
+    "published_at": "2026-07-13T01:28:13+00:00",
+    "published_raw": "2026-07-13T01:28:13+00:00"
+  },
+  {
+    "title": "이노웰·망고부스트, AI 데이터센터용 차세대 고속 NIC 카드 양산 본격화",
+    "link": "https://www.etnews.com/20260713000113",
+    "short_link": "etnews.com/20260713000113",
+    "summary": "이노웰은 x86 기반 시스템 설계와 고속 인터페이스 구현, 반도체 테스트 솔루션 분야에서 축적된 기술력을 바탕으로 차세대 데이터센터 및 인공지능(AI) 인프라 시장을 공략하고 있는 기술 중심 기업",
+    "published_ago": "27분 전",
+    "published_at": "2026-07-13T01:16:58+00:00",
+    "published_raw": "2026-07-13T01:16:58+00:00"
+  },
+  {
+    "title": "한미반도체, 2분기 최대 실적 전망…로직·낸드·기판 확대",
+    "link": "https://n.news.naver.com/mnews/article/031/0001041618",
+    "short_link": "n.news.naver.com/mnews/article/031/0001041618",
+    "summary": "5D) 패키징 외주화인 CoWoS 확대에 따른 반도체 후공정(OSAT) 업체향 로직용 TC 본더 공급과 고대역폭플래시(HBF)용 TC 본더 초도 출하가 새로운 성장 동력으로 작용할 것으로 내다봤다",
+    "published_ago": "24분 전",
+    "published_at": "2026-07-13T01:16:08+00:00",
+    "published_raw": "2026-07-13T01:16:08+00:00"
   },
   {
     "title": "이노웰, 망고부스트와 AI 데이터센터용 NIC 양산",
     "link": "https://www.etnews.com/20260713000079",
     "short_link": "etnews.com/20260713000079",
     "summary": "이노웰(대표 채명필)은 망고부스트와 협력해 AI 데이터센터용 네트워크 인터페이스 카드(NIC)를 개발하고 양산 체제 구축에 돌입했 언급 이노웰은 신제품이 AI 워크로드 환경에서 요구되는 초고속·초저지연 데이터 처리에 대응하기 위한 것이라며 망고부스트 네트워크 처리 기술과 이노웰 시스템 설계·하드웨어 구현 역량을 결합했다고 덧붙임",
-    "published_ago": "35분 전",
+    "published_ago": "51분 전",
     "published_at": "2026-07-13T00:53:22+00:00",
     "published_raw": "2026-07-13T00:53:22+00:00"
   },
@@ -22,16 +40,25 @@
     "link": "https://pharm.edaily.co.kr/News/Read?newsId=02725686645514192",
     "short_link": "pharm.edaily.co.kr/News/Read",
     "summary": "인공지능(AI) 반도체와 고대역폭메모리(HBM) 확산으로 차세대 패키징 핵심 소재인 유리기판이 주목받고 있는 가운데, 생산 수율을 좌우하는 미세 결함을 비파괴 방식으로 3차원(3D) 분석할 수 있는 전용 계측 장비가 국내에서 처음 공개",
-    "published_ago": "43분 전",
+    "published_ago": "58분 전",
     "published_at": "2026-07-13T00:48:00+00:00",
     "published_raw": "2026-07-13T00:48:00+00:00"
+  },
+  {
+    "title": "\"日구마모토, TSMC 왔지만 지역경제 화색 아직…산업 집적 관건\"",
+    "link": "https://n.news.naver.com/mnews/article/001/0016190294",
+    "short_link": "n.news.naver.com/mnews/article/001/0016190294",
+    "summary": "일본 반도체 산업이 1990년대 들어 글로벌 경쟁력을 잃기 시작하면서 구마모토의 반도체 산업도 함께 쇠퇴했다가 2021년 세계 최대 반도체 위탁 생산(파운드리) 기업 TSMC가 일본 현지 공장 건립을 결정하고 분위기가 반전",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-13T00:31:44+00:00",
+    "published_raw": "2026-07-13T00:31:44+00:00"
   },
   {
     "title": "한투운용 \"ACE AI반도체TOP3+ ETF, 소부장 수익률 1위\"",
     "link": "https://www.yna.co.kr/view/AKR20260713038800008?section=industry/electronics",
     "short_link": "yna.co.kr/view/AKR20260713038800008",
     "summary": "이 ETF는 글로벌 고대역폭메모리 시장을 주도하고 있는 SK하이닉스와 삼성전자, 그리고 핵심 장비 공급사인 한미반도체 등 3개 종목에 전체 비중의 약 80%를 압축 투자",
-    "published_ago": "57분 전",
+    "published_ago": "1시간 전",
     "published_at": "2026-07-13T00:28:50+00:00",
     "published_raw": "2026-07-13T00:28:50+00:00"
   },
@@ -130,9 +157,18 @@
     "link": "https://n.news.naver.com/mnews/article/016/0002669243",
     "short_link": "n.news.naver.com/mnews/article/016/0002669243",
     "summary": "연구팀은 기존처럼 금속 전극을 반도체 위에 붙이는 대신, 하나의 2차원 소재 안에서 준금속(금속처럼 전기가 잘 흐르는 성질)과 반도체 영역을 연속적으로 구현 원자층 두께의 2차원 소재인 백금 다이셀레나이드 하나의 박막 안에서 준금속 영역과 반도체 영역을 연속적으로 구현",
-    "published_ago": "1시간 전",
+    "published_ago": "2시간 전",
     "published_at": "2026-07-12T23:39:11+00:00",
     "published_raw": "2026-07-12T23:39:11+00:00"
+  },
+  {
+    "title": "2차원 반도체 소자 '전기 병목' 해결 실마리",
+    "link": "https://n.news.naver.com/mnews/article/277/0005788845",
+    "short_link": "n.news.naver.com/mnews/article/277/0005788845",
+    "summary": "연구는 2차원 소재를 이용한 차세대 반도체 소자의 접촉 저항을 획기적으로 줄일 수 있는 원천기술로, 향후 인공지능(AI) 반도체·초저전력 반도체·차세대 로직 반도체 등 미래 반도체 기술 개발과정에서 다양하게 활용될 수 있을 것으로 기대",
+    "published_ago": "2시간 전",
+    "published_at": "2026-07-12T23:29:38+00:00",
+    "published_raw": "2026-07-12T23:29:38+00:00"
   },
   {
     "title": "KAIST, 반도체 ‘전기 병목’ 해결 실마리 찾았다…AI 칩 전력 손실 줄인다",
@@ -247,7 +283,7 @@
     "link": "https://www.newsis.com/view/NISX20260712_0003705766",
     "short_link": "newsis.com/view/NISX20260712_0003705766",
     "summary": "삼성전자와 SK하이닉스가 총 800조원을 투자하는 서남권 반도체 팹(Fab·생산공장) 4기 건설 입지로 광주 군공항 부지가 최종 확정된 가운데 7일 오후 전남광주 남구 상공에서 바라본 광주 군공항 부지(중앙)의 모습",
-    "published_ago": "17시간 전",
+    "published_ago": "18시간 전",
     "published_at": "2026-07-12T07:31:52+00:00",
     "published_raw": "2026-07-12T07:31:52+00:00"
   },
@@ -274,7 +310,7 @@
     "link": "https://www.newsis.com/view/NISX20260712_0003705624",
     "short_link": "newsis.com/view/NISX20260712_0003705624",
     "summary": "호남권 반도체 클러스터가 광주 군공항 부지에 조성 .광주 군공항 지역은 250만평 규모의 부지 확보가 가능하고 공항 특성상 이미 평탄화가 완료돼",
-    "published_ago": "21시간 전",
+    "published_ago": "22시간 전",
     "published_at": "2026-07-12T03:34:24+00:00",
     "published_raw": "2026-07-12T03:34:24+00:00"
   },
@@ -286,5 +322,14 @@
     "published_ago": "22시간 전",
     "published_at": "2026-07-12T03:00:11+00:00",
     "published_raw": "2026-07-12T03:00:11+00:00"
+  },
+  {
+    "title": "파크시스템스, AFM 넘어 WLI 계측 고도화…첨단패키징 수요 대응",
+    "link": "https://www.etnews.com/20260710000061",
+    "short_link": "etnews.com/20260710000061",
+    "summary": "나노 단위 정밀 측정에 강한 AFM 경쟁력을 유지하면서, 넓은 영역을 빠르게 측정할 수 있는 광학 계측 기술까지 확보해 첨단 패키징 시장 대응력을 높이겠다는 전략 고대역폭메모리(HBM), 하이브리드 본딩, 2.5D·3D 패키징 등 차세대 반도체 패키징 공정에서는 웨이퍼와 패키지 표면의 단차, 거칠기, 결함 등을 더 빠르고 정밀하게 측정",
+    "published_ago": "22시간 전",
+    "published_at": "2026-07-12T03:00:00+00:00",
+    "published_raw": "2026-07-12T03:00:00+00:00"
   }
 ]
