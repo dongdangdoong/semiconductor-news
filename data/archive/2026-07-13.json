@@ -1,5 +1,239 @@
 [
   {
+    "title": "두원공과대학교 반도체부트캠프 사업단, AI 융합 교육과정 운영",
+    "link": "https://www.dt.co.kr/article/12072670",
+    "short_link": "dt.co.kr/article/12072670",
+    "summary": "두원공과대학교(이하 두원공대) 반도체부트캠프 사업단(이하 사업단)이 4차년도 사업을 맞아 두원공대의 ‘AX by Design’ 이라는 교육 혁신 전략을 바탕으로 ‘AI 융합 교육 과정‘을 본격 운영",
+    "published_ago": "14분 전",
+    "published_at": "2026-07-13T07:56:13+00:00",
+    "published_raw": "2026-07-13T07:56:13+00:00"
+  },
+  {
+    "title": "美\"메모리 전공정도 미국에\"…삼성·SK 투자 셈법 꼬이나",
+    "link": "https://n.news.naver.com/mnews/ranking/article/648/0000048864?ntype=RANKING",
+    "short_link": "n.news.naver.com/mnews/ranking/article/648/0000048864",
+    "summary": "이종환 상명대 시스템반도체공학과 교수는 \"미국은 반도체 제조 기반이 충분하지 않은 상황에서 파운드리에 이어 메모리 생산능력까지 확보하려는 것\"이라며 \"최근 HBM 공급 부족이 심화한 만큼 미국 정부와 빅테크 입장에서는 안정적인 AI 메모리 공급망을 자국 내에 구축하려는 요구가 더 거세질 수밖에 없다\"라고 말했",
+    "published_ago": "25분 전",
+    "published_at": "2026-07-13T07:42:10+00:00",
+    "published_raw": "2026-07-13T07:42:10+00:00"
+  },
+  {
+    "title": "메가존클라우드·서울 AI 허브, 서울 AI 기업 100곳 GPU 인프라 지원",
+    "link": "https://www.ddaily.co.kr/page/view/2026071316233356104",
+    "short_link": "ddaily.co.kr/page/view/2026071316233356104",
+    "summary": "메가존클라우드는 서울 우면동 서울 AI 허브에서 ‘AI 산업 생태계 활성화 및 AI 기업 성장 지원을 위한 업무협약’을 체결했 언급 양측은 서울 소재 AI 기업을 대상으로 고성능컴퓨팅(HPC)과 그래픽처리장치(GPU), 멀티클라우드 기반 AI 인프라를 제공하고 기술 컨설팅과 교육 프로그램을 운영할 계획",
+    "published_ago": "31분 전",
+    "published_at": "2026-07-13T07:40:00+00:00",
+    "published_raw": "2026-07-13T07:40:00+00:00"
+  },
+  {
+    "title": "삼성, 테슬라 AI5 칩 양산 준비 돌입…이재용·머스크 동맹 결실",
+    "link": "https://www.dt.co.kr/article/12072658",
+    "short_link": "dt.co.kr/article/12072658",
+    "summary": "AI5는 미국 텍사스주 테일러 공장에서 삼성전자의 2나노 공정을 적용해 생산될 예정인 것으로 전해 삼성전자는 현재 테슬라 기존 AI4 반도체를 7나노 공정으로 평택 파운드리 라인에서 양산",
+    "published_ago": "35분 전",
+    "published_at": "2026-07-13T07:34:29+00:00",
+    "published_raw": "2026-07-13T07:34:29+00:00"
+  },
+  {
+    "title": "트럼프 행정부는 관세를 인하하는 대가로 애플에게 인텔로부터 칩을 조달하라고 촉구한 것으로 알려졌다.",
+    "link": "https://www.digitimes.com/news/a20260713VL218/intel-apple-chips-tsmc-government.html",
+    "short_link": "digitimes.com/news/a20260713VL218/intel-apple-chips-tsmc-g...",
+    "summary": "애플이 칩 제조를 위해 인텔과 협력하기로 합의함으로써 도널드 트럼프 미국 대통령이 부과한 관세를 100% 피할 수 있었다는 보도가 나왔 Apple은 칩 공급업체 확장으로 이익을 얻을 수 있지만, 이번 에피소드에서는 미국이 반도체 산업을 재확보하려는 과정에서 Intel 정부의 지원이 얼마나 강력한지 보여줍니다",
+    "published_ago": "35분 전",
+    "published_at": "2026-07-13T07:28:21+00:00",
+    "published_raw": "Mon, 13 Jul 2026 07:28:21 GMT"
+  },
+  {
+    "title": "삼성전자 노조 “조합원 84% 광주 팹 반대… 노사정 협의해야”",
+    "link": "https://n.news.naver.com/mnews/article/366/0001178838",
+    "short_link": "n.news.naver.com/mnews/article/366/0001178838",
+    "summary": "삼성전자 최대 노조인 삼성그룹 초기업노동조합 삼성전자지부(초기업 노조)가 삼성전자의 광주 반도체 팹(공장) 2기 건설 계획을 2027년 교섭 의제로 다루겠다고 발표 노조는 전영현 삼성전자 대표이사(부회장) 겸 DS(반도체)부문장이 전력 공급 계획의 보완 필요성을 언급한 점도 근거로 들었다",
+    "published_ago": "43분 전",
+    "published_at": "2026-07-13T07:24:12+00:00",
+    "published_raw": "2026-07-13T07:24:12+00:00"
+  },
+  {
+    "title": "코오롱인더, 반도체·디스플레이 소재 사업부 매각…IMM PE와 MOU",
+    "link": "https://www.dt.co.kr/article/12072654",
+    "short_link": "dt.co.kr/article/12072654",
+    "summary": "“핵심 역량 집중 ‘장기 발전 계획’ 일환” 코오롱인더스트리는 기능소재 및 이미지 소재 사업 매각을 위해 우선협상대상자인 IMM프라이빗에쿼티(IMM PE)와 업무협약(MOU)을 체결했 언급",
+    "published_ago": "49분 전",
+    "published_at": "2026-07-13T07:21:10+00:00",
+    "published_raw": "2026-07-13T07:21:10+00:00"
+  },
+  {
+    "title": "산업장관 \"차세대 반도체에…규제개선 등 정부 역할 중요\"",
+    "link": "https://www.newsis.com/view/NISX20260713_0003707127",
+    "short_link": "newsis.com/view/NISX20260713_0003707127",
+    "summary": "김정관 산업통상부 장관이 13일 청와대에서 열린 2026년 국가재정전략회의에서 3대메가프로젝트 지원방안에 대해 발표 왼쪽부터 최휘영 문화체육관광부 장관, 김 장관, 김성환 기후에너지환경부 장관",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-13T07:10:24+00:00",
+    "published_raw": "2026-07-13T07:10:24+00:00"
+  },
+  {
+    "title": "SK텔레콤, 제조 공정에 AI 첫 투입",
+    "link": "https://n.news.naver.com/mnews/article/015/0005309346",
+    "short_link": "n.news.naver.com/mnews/article/015/0005309346",
+    "summary": "SK텔레콤은 철강 제조업체 KG스틸, 자동차 부품 제조업체 코넥과 ‘제조 특화 AI 에이전트’ 현장 실증을 위한 업무협약(MOU)을 맺었다고 최근 발표 SK텔레콤은 지난 4월부터 두 기업이 보유한 공정 오류 및 사고 분석 보고서, 장비 매뉴얼, 운영 로그 등 제조 데이터를 확보해 AI 에이전트 데모 버전을 개발",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-13T07:07:13+00:00",
+    "published_raw": "2026-07-13T07:07:13+00:00"
+  },
+  {
+    "title": "TSMC, 2분기 매출 36% 증가…AI 반도체 성장세 확인",
+    "link": "https://n.news.naver.com/mnews/article/031/0001041755",
+    "short_link": "n.news.naver.com/mnews/article/031/0001041755",
+    "summary": "세계 최대 파운드리(반도체 위탁생산) 기업 TSMC가 시장 예상치를 웃도는 2분기(4~6월) 실적을 기록 업계에서는 TSMC의 호실적이 AI 반도체 생산 확대가 이어지고 있다는 신호인 만큼, 고대역폭메모리(HBM)를 공급하는 SK하이닉스와 삼성전자에도 긍정적인 영향을 줄 것으로 보고",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-13T07:03:06+00:00",
+    "published_raw": "2026-07-13T07:03:06+00:00"
+  },
+  {
+    "title": "퓨리오사AI, NPU 내년 '4만장' 2배 증산…엔비디아 독점에 도전",
+    "link": "https://n.news.naver.com/mnews/article/030/0003447207",
+    "short_link": "n.news.naver.com/mnews/article/030/0003447207",
+    "summary": "13일 업계에 따르면 퓨리오사AI는 내년까지 2세대 LLM 추론 특화 칩 '레니게이드(RNGD)'의 생산 물량을 4만~5만장까지 대폭 확대 추론 기능 특화로 설계된 퓨리오사AI의 레니게이드는 200W 수준의 전력으로 해외 고성능 GPU와 비슷한 성능을",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-13T07:01:27+00:00",
+    "published_raw": "2026-07-13T07:01:27+00:00"
+  },
+  {
+    "title": "삼성전자 노조 \"호남 반도체, 노사정 대화 필요…조합원 84%가 프로젝트 반대\"",
+    "link": "https://www.newsis.com/view/NISX20260713_0003706580",
+    "short_link": "newsis.com/view/NISX20260713_0003706580",
+    "summary": "삼성전자는 7일 올해 2분기 잠정실적 공시를 통해 매출액 171조원, 영업이익 89조4000억원을 달성했다고 발표 31% 늘었고, 영업이익은 같은 기간 4조6800억원에서 1810",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-13T06:57:11+00:00",
+    "published_raw": "2026-07-13T06:57:11+00:00"
+  },
+  {
+    "title": "성과급 6억 이끌어낸 삼성전자 노조 “조합원 84%가 호남 반도체 반대”⋯노란봉투법 시행으로 내년 교섭 의제 될 듯",
+    "link": "https://n.news.naver.com/mnews/ranking/article/087/0001204796?ntype=RANKING",
+    "short_link": "n.news.naver.com/mnews/ranking/article/087/0001204796",
+    "summary": "6억원대 성과급 지급 등 삼성전자 노사 임금협상안 합의를 이끌어 냈던 삼성그룹 초기업노동조합 삼성전자지부(이하 초기업노조)가 13일 “조합원 대상 설문조사 결과 호남 반도체 메가 프로젝트에 반대한다는 응답이 84%에 달했다”고 발표",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-13T06:38:06+00:00",
+    "published_raw": "2026-07-13T06:38:06+00:00"
+  },
+  {
+    "title": "산업장관 \"반도체는 국가 생존 전쟁…경쟁국 이상 재정 지원\"",
+    "link": "https://www.yna.co.kr/view/AKR20260713115800003?section=industry/electronics",
+    "short_link": "yna.co.kr/view/AKR20260713115800003",
+    "summary": "구독 구독중 이전 다음 957조 민간 투자 뒷받침…인프라·소부장·차세대 R&D 전방위 지원 '점유율 1%' AI 로봇 시장 판도 바꾼다…데이터 팩토리 구축·정부 구매 추진 이미지 확대 김정관 장관, 3대 메가프로젝트 지원방안 발표 = 김정관 산업통상부 장관이 13일 청와대에서 이재명 대통령 주재로 열린",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-13T06:33:30+00:00",
+    "published_raw": "2026-07-13T06:33:30+00:00"
+  },
+  {
+    "title": "인텔, TSMC에 맞서 1.4nm 추진으로 듀얼 사이드 전력 확보",
+    "link": "https://www.digitimes.com/news/a20260713PD220/intel-1.4nm-tsmc-samsung-technology.html",
+    "short_link": "digitimes.com/news/a20260713PD220/intel-1.4nm-tsmc-samsung...",
+    "summary": "인텔은 칩의 양쪽에서 전력을 전달할 수 있는 하이브리드 아키텍처를 평가하면서 차세대 1 4nm 공정인 14A2에 대한 새로운 기술 로드맵을 준비하고 있는 것으로 알려졌",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-13T06:29:14+00:00",
+    "published_raw": "Mon, 13 Jul 2026 06:29:14 GMT"
+  },
+  {
+    "title": "AI 수요가 지속적으로 성장을 촉진함에 따라 TSMC 2026년 6월 매출이 68% 급증",
+    "link": "https://www.digitimes.com/news/a20260713VL213/tsmc-revenue-growth-demand-2026.html",
+    "short_link": "digitimes.com/news/a20260713VL213/tsmc-revenue-growth-dema...",
+    "summary": "TSMC는 AI 애플리케이션에 사용되는 고급 칩에 대한 지속적인 수요를 강조하면서 또 한 달 동안 강력한 매출 성장을 보고했 회사의 6월 매출 보고서에 따르면, 6월 연결 매출은 NT$4,426억8천만(약 미화 138억 달러)에 이르렀으며, 이는 전월 대비 6",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-13T06:28:25+00:00",
+    "published_raw": "Mon, 13 Jul 2026 06:28:25 GMT"
+  },
+  {
+    "title": "코오롱인더, 반도체사업부 매각..IMM PE와 MOU 체결",
+    "link": "https://www.mt.co.kr/industry/2026/07/13/2026071315004170204",
+    "short_link": "mt.co.kr/industry/2026/07/13/2026071315004170204",
+    "summary": "이번 MOU 체결에 따라 코오롱인더스트리는 스페셜티 사업본부 산하의 OC(오버코트), 유기발광다이오드(OLED) 봉지재 및 DFR(드라이필름) 사업 및 관련 지분의 양도거래를 추진 코오롱인더스트리는 양도 거래 대금을 재무구조 개선, 신사업 투자 등 회사 경쟁력 강화를 위해 활용한다는 계획",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-13T06:10:40+00:00",
+    "published_raw": "2026-07-13T06:10:40+00:00"
+  },
+  {
+    "title": "삼성전자·연세대 동맹 확장…AX반도체 인재 더 키운다",
+    "link": "https://www.dt.co.kr/article/12072629",
+    "short_link": "dt.co.kr/article/12072629",
+    "summary": "과기부 ‘AX대학원’ 국책사업에 연세대 선정 AX반도체연구협력센터 공동연구개발 참여 시스템반도체공학과 개설 후 인재기반 확장 삼성전자가 연세대와 메모리반도체에 이어 인공지능(AI)반도체 인재 육성을 위한 산학협력에 나선다",
+    "published_ago": "2시간 전",
+    "published_at": "2026-07-13T06:09:24+00:00",
+    "published_raw": "2026-07-13T06:09:24+00:00"
+  },
+  {
+    "title": "“반도체로 번 세금, 미래에 쏟는다”…李대통령, ‘미래대응기금’ 신설",
+    "link": "https://www.dt.co.kr/article/12072622",
+    "short_link": "dt.co.kr/article/12072622",
+    "summary": "이재명 대통령은 13일 청와대에서 국가재정전략회의를 주재하고 “AI 혁명이 촉발한 반도체 대호황에 힘입어 전례 없는 추가 세수가 발생할 것으로 예상된다”며 “이 대규모 추가 세수를 미래 대응을 위한 전략적 투자 재원으로 활용할 것”이라고 발표",
+    "published_ago": "2시간 전",
+    "published_at": "2026-07-13T05:53:00+00:00",
+    "published_raw": "2026-07-13T05:53:00+00:00"
+  },
+  {
+    "title": "삼성 노조 “조합원 84%, 호남 반도체 반대…노사정 협의하자” 재차 주장",
+    "link": "https://www.mk.co.kr/news/business/12097114",
+    "short_link": "mk.co.kr/news/business/12097114",
+    "summary": "전환배치·근로조건 고려해 반대 “사측도 부담스러워 부정적 입장 52시간 해제도 노동자 뜻에 반해” 사진 확대 최승호 삼성그룹 초기업노동조합 삼성전자지부(초기업노조) 위원장 [공동 취재] 삼성전자 최대 노동조합인 삼성그룹 초기업노조 삼성전자지부(초기업노조)가 사측의 호남 반도체 프로젝트에 조합원 대다수가 반대하고 있다며",
+    "published_ago": "2시간 전",
+    "published_at": "2026-07-13T05:46:11+00:00",
+    "published_raw": "2026-07-13T05:46:11+00:00"
+  },
+  {
+    "title": "삼성전자 노조 \"조합원 84%가 호남반도체 반대\"…내년 교섭요구",
+    "link": "https://www.yna.co.kr/view/AKR20260713098000003?section=industry/electronics",
+    "short_link": "yna.co.kr/view/AKR20260713098000003",
+    "summary": "구독 구독중 이전 다음 \"메가프로젝트도 노란봉투법상 교섭 대상\" = 삼성전자 최대 노조인 삼성그룹 초기업노동조합 삼성전자지부(이하 초기업노조)가 정부가 추진 중인 호남 반도체 메가프로젝트를 2027년 교섭 의제로 다루겠다고 발표",
+    "published_ago": "2시간 전",
+    "published_at": "2026-07-13T05:21:16+00:00",
+    "published_raw": "2026-07-13T05:21:16+00:00"
+  },
+  {
+    "title": "삼성전자 노조 \"조합원 84% 호남 반도체 반대, 속도 아닌 신뢰 필요\"",
+    "link": "https://www.mt.co.kr/industry/2026/07/13/2026071313590252707",
+    "short_link": "mt.co.kr/industry/2026/07/13/2026071313590252707",
+    "summary": "초기업노조는 이날 입장문을 내고 \"조합이 주말 간 조합원 대상으로 실시한 조사에서 전환배치와 근로조건, 처우 등을 고려할 때 호남 반도체 프로젝트에 반대한다는 응답이 84%에 달했다\"며 \"지금 필요한 것은 속도가 아니라 신뢰를 만드는 과정\"이라고",
+    "published_ago": "2시간 전",
+    "published_at": "2026-07-13T05:13:38+00:00",
+    "published_raw": "2026-07-13T05:13:38+00:00"
+  },
+  {
+    "title": "삼성전자, 테슬라 'AI5' 양산 임박…美 테일러 공장 가동 속도",
+    "link": "https://www.asiae.co.kr/article/enterprise-CEO/2026071314023594058",
+    "short_link": "asiae.co.kr/article/enterprise-CEO/2026071314023594058",
+    "summary": "2㎚ 공정 도입 및 시제품 양산 단계 진입 내년 파운드리 흑자 전환 기대 삼성전자가 테슬라의 차세대 인공지능(AI) 반도체인 'AI5'의 대량 생산을 위한 준비를 시작 이재용 삼성전자 회장은 한진만 파운드리사업부 사장과 함께 글로벌 비즈니스 미팅인 선밸리 콘퍼런스에 참석해 주요 거래처들과 AI 반도체 및 위탁생산 협력 방안을 논의한 것으로 전해",
+    "published_ago": "3시간 전",
+    "published_at": "2026-07-13T05:02:35+00:00",
+    "published_raw": "2026-07-13T05:02:35+00:00"
+  },
+  {
+    "title": "삼성, 테슬라 차세대 'AI5' 양산 채비…파운드리 청신호",
+    "link": "https://www.edaily.co.kr/News/Read?newsId=03532566645514192&mediaCodeNo=257",
+    "short_link": "edaily.co.kr/News/Read",
+    "summary": "13일 업계에 따르면 삼성전자 반도체 위탁생산(파운드리) 사업부 내부 관계자는 최근 사회관계망서비스(SNS) 링크드인에 “테슬라-삼성 AI5 칩이 테이프아웃(시제품 양산)을 완료했다”며 “AI5는 미국 텍사스주 테일러 공장에서 삼성의 2나노 공정을 적용해 생산될 예정",
+    "published_ago": "3시간 전",
+    "published_at": "2026-07-13T04:55:52+00:00",
+    "published_raw": "2026-07-13T04:55:52+00:00"
+  },
+  {
+    "title": "치아이 과학단지 2단계, 첨단 포장 허브 착공",
+    "link": "https://www.digitimes.com/news/a20260713PD221/taiwan-advanced-packaging-industrial-development-tsmc.html",
+    "short_link": "digitimes.com/news/a20260713PD221/taiwan-advanced-packagin...",
+    "summary": "Chiayi Science Park의 2단계는 약 90헥타르 규모의 부지에 공식 착공되었으며, TSMC는 첨단 패키징을 중심으로 한 산업 클러스터 개발을 주도하고 있 이번 확장은 고성능 컴퓨팅 칩과 고급 패키징 기술에 대한 전 세계적으로 급증하는 수요를 충족하기 위한 것",
+    "published_ago": "3시간 전",
+    "published_at": "2026-07-13T04:47:42+00:00",
+    "published_raw": "Mon, 13 Jul 2026 04:47:42 GMT"
+  },
+  {
+    "title": "Meta, MediaTek, TSMC, AI 칩을 밀어 Google에 도전",
+    "link": "https://www.digitimes.com/news/a20260713PD214/meta-google-chips-mediatek-tsmc.html",
+    "short_link": "digitimes.com/news/a20260713PD214/meta-google-chips-mediat...",
+    "summary": "반도체 업계 관계자는 메타의 클라우드 AI 칩 조달 규모가 4대 클라우드 서비스 제공업체 중 구글이나 아마존 AWS를 곧 따라잡을 수 있다 언급 Qualcomm과 Broadcom은 주요 파트너이자 수혜자로 남을 것으로 예상되며 Arm도 참여하고 MediaTek은 대만 IC 설계 하우스 중 확실한 파트너로 설명됩니다",
+    "published_ago": "3시간 전",
+    "published_at": "2026-07-13T04:39:20+00:00",
+    "published_raw": "Mon, 13 Jul 2026 04:39:20 GMT"
+  },
+  {
     "title": "순방 끝낸 李대통령, 반도체 세수 투자방안 논의",
     "link": "https://www.asiae.co.kr/article/2026071308221158813",
     "short_link": "asiae.co.kr/article/2026071308221158813",
@@ -13,7 +247,7 @@
     "link": "https://www.mk.co.kr/news/business/12097019",
     "short_link": "mk.co.kr/news/business/12097019",
     "summary": "13일 에 따르면 김정곤 삼성전자 파운드리 수석엔지니어는 링크드인에 “테슬라-삼성 AI5 칩이 테이프아웃을 완료했다”며 “AI5는 미국 텍사스주 테일러 공장에서 삼성의 2나노 공정을 적용해 생산될 예정이며 머지않아 테슬라 최신 제품에 탑재될 것”이 언급",
-    "published_ago": "48분 전",
+    "published_ago": "3시간 전",
     "published_at": "2026-07-13T04:08:58+00:00",
     "published_raw": "2026-07-13T04:08:58+00:00"
   },
@@ -22,16 +256,25 @@
     "link": "https://www.digitimes.com/news/a20260713VL209/huawei-dram-fab-12-inch-manufacturing.html",
     "short_link": "digitimes.com/news/a20260713VL209/huawei-dram-fab-12-inch-...",
     "summary": "화웨이는 중국 DRAM 제조업체인 Shenzhen Shengweixu Technology(SwaySure) 및 중국 정부와 협력하여 선전에 국영 12인치 메모리 제조 공장을 건설하고 있는 것으로 알려졌",
-    "published_ago": "1시간 전",
+    "published_ago": "4시간 전",
     "published_at": "2026-07-13T03:50:17+00:00",
     "published_raw": "Mon, 13 Jul 2026 03:50:17 GMT"
+  },
+  {
+    "title": "삼성전자 노조 \"호남 반도체 프로젝트, 조합원 84% 반대\"",
+    "link": "https://www.edaily.co.kr/News/Read?newsId=03371846645514192&mediaCodeNo=257",
+    "short_link": "edaily.co.kr/News/Read",
+    "summary": "삼성전자 최대 노조인 초기업노조 삼성전자지부가 “(지난) 주말 간 조합원 대상으로 실시한 조사에서 전환배치와 근로조건, 처우 등을 고려할 때 ‘호남 반도체 프로젝트’에 반대한다는 응답이 84%에 달했다”고 13일 발표",
+    "published_ago": "4시간 전",
+    "published_at": "2026-07-13T03:48:52+00:00",
+    "published_raw": "2026-07-13T03:48:52+00:00"
   },
   {
     "title": "Applied Materials India, 글로벌 칩 장비 개발에서 더 큰 역할 기대",
     "link": "https://www.digitimes.com/news/a20260712VL200/applied-materials-india-semiconductors-equipment-development.html",
     "short_link": "digitimes.com/news/a20260712VL200/applied-materials-india-...",
     "summary": "Applied Materials India는 미국에 본사를 둔 칩 제조 장비 공급업체가 벵갈루루에서 R&D 및 검증 기반을 확장함에 따라 선별된 반도체 장비 제품 이니셔티브에 대한 더 광범위한 소유권을 인수할 준비를 하고 있",
-    "published_ago": "1시간 전",
+    "published_ago": "4시간 전",
     "published_at": "2026-07-13T03:47:44+00:00",
     "published_raw": "Mon, 13 Jul 2026 03:47:44 GMT"
   },
@@ -45,11 +288,20 @@
     "published_raw": "2026-07-13T03:46:48+00:00"
   },
   {
+    "title": "삼전 노조 “호남 반도체, 84%가 반대…내년 교섭 의제로 다룰 것”",
+    "link": "https://n.news.naver.com/mnews/ranking/article/020/0003733465?ntype=RANKING",
+    "short_link": "n.news.naver.com/mnews/ranking/article/020/0003733465",
+    "summary": "삼성전자 최대 노동조합인 초기업노조 삼성전자지부가 호남 반도체 투자 계획을 내년도 임금·단체협약 교섭 의제로 다루겠다고 13일 선언 초기업노조는 이날 입장문을 내고 “노란봉투법에 따라 조합원의 근로조건에 영향을 주는 사업상 결정도 교섭 대상에 포함된다”며 “이에 따라 호남 반도체 프로젝트를 2027년 교섭 의제로 다루고자 한다”고 발표",
+    "published_ago": "4시간 전",
+    "published_at": "2026-07-13T03:12:14+00:00",
+    "published_raw": "2026-07-13T03:12:14+00:00"
+  },
+  {
     "title": "인피니언, TSMC에 수요 전망 변화에 따라 두 번째 드레스덴 팹 건설 고려 촉구",
     "link": "https://www.digitimes.com/news/a20260713PD204/tsmc-infineon-fab-demand-europe.html",
     "short_link": "digitimes.com/news/a20260713PD204/tsmc-infineon-fab-demand...",
     "summary": "드레스덴에서 TSMC의 추가 확장을 위한 Infineon의 추진은 고급 칩 제조에서 유럽의 역할을 재편하고 전 세계 자동차 제조업체, 산업 회사 및 장치 제조업체의 공급망을 통해 파급력을 미칠 수 있",
-    "published_ago": "1시간 전",
+    "published_ago": "5시간 전",
     "published_at": "2026-07-13T03:03:46+00:00",
     "published_raw": "Mon, 13 Jul 2026 03:03:46 GMT"
   },
@@ -76,7 +328,7 @@
     "link": "https://www.hankyung.com/article/2026071315327",
     "short_link": "hankyung.com/article/2026071315327",
     "summary": "노조, 노사정 협의체 구성 재차 요구 \"전환배치·처우 우려에 반대 84%… 2027년 단체교섭 의제로 다룰 것\" 최승호 삼성그룹 초기업노동조합 삼성전자지부 위원장 / 사진= 삼성전자 노동조합이 정부가 추진하는 '호남 반도체 메가 프로젝트'에 대해 조합원 84%가 반대한다는 자체 조사 결과를 공개",
-    "published_ago": "2시간 전",
+    "published_ago": "5시간 전",
     "published_at": "2026-07-13T02:51:17+00:00",
     "published_raw": "2026-07-13T02:51:17+00:00"
   },
@@ -94,7 +346,7 @@
     "link": "https://www.newsis.com/view/NISX20260713_0003706106",
     "short_link": "newsis.com/view/NISX20260713_0003706106",
     "summary": "삼성전자가 7일 연결 기준 올해 2분기 잠정 실적으로 매출 171조원, 영업이익 89조4000억원을 발표 매출은 전년 2분기(74조5700억원) 대비 129",
-    "published_ago": "2시간 전",
+    "published_ago": "5시간 전",
     "published_at": "2026-07-13T02:21:48+00:00",
     "published_raw": "2026-07-13T02:21:48+00:00"
   },
@@ -103,7 +355,7 @@
     "link": "https://n.news.naver.com/mnews/ranking/article/374/0000521330?ntype=RANKING",
     "short_link": "n.news.naver.com/mnews/ranking/article/374/0000521330",
     "summary": "초기업노조는 오늘(13일) 성명을 내고 \"개정 노동조합법(노란봉투법)에 따라 조합원 근로조건에 영향을 미치는 사업상 결정도 교섭 대상이 된다\"며 \"호남 반도체 프로젝트를 2027년 교섭에서 다루겠다\"고 밝혔",
-    "published_ago": "2시간 전",
+    "published_ago": "5시간 전",
     "published_at": "2026-07-13T02:20:14+00:00",
     "published_raw": "2026-07-13T02:20:14+00:00"
   },
@@ -139,7 +391,7 @@
     "link": "https://www.dt.co.kr/article/12072566",
     "short_link": "dt.co.kr/article/12072566",
     "summary": "이어 “사측 또한 두 차례에 걸친 조합과의 미팅에서 ‘경영진도 부담스러워한다’며 이번 프로젝트에 대한 부정적인 입장을 밝힌 바 있다”며 “일할 사람도, 투자할 회사도 확신하지 못하는 계획이라면 지금 필요한 것은 속도가 아니라 신뢰를 만드는 과정”이라고 강조",
-    "published_ago": "2시간 전",
+    "published_ago": "6시간 전",
     "published_at": "2026-07-13T02:05:42+00:00",
     "published_raw": "2026-07-13T02:05:42+00:00"
   },
@@ -157,7 +409,7 @@
     "link": "https://zdnet.co.kr/view/?no=20260713100700",
     "short_link": "zdnet.co.kr/view",
     "summary": "반도체 장비업체 한 관계자는 \"삼성전자와 SK하이닉스가 D램과 낸드에 대한 최선단 공정 전환투자를 적극 진행하고 있어, 메모리 테스터 업계도 수주가 확대되고 있다\"며 \"내년에도 신규 공장이 지어지는 만큼 수혜가 지속될 것으로 본다\"고 설명",
-    "published_ago": "2시간 전",
+    "published_ago": "6시간 전",
     "published_at": "2026-07-13T02:00:34+00:00",
     "published_raw": "2026-07-13T02:00:34+00:00"
   },
@@ -175,7 +427,7 @@
     "link": "https://www.yna.co.kr/view/AKR20260713067000063?section=industry/electronics",
     "short_link": "yna.co.kr/view/AKR20260713067000063",
     "summary": "한국과학기술원은 신소재공학과 홍승범·강기범 교수팀이 차세대 반도체 소자로 주목받는 2차원 소재에서 전기가 막힘없이 흐르는 새로운 구조를 구현했 언급 이어 같은 소재 안에서 두 영역이 자연스럽게 이어지도록 만들어 전류가 경계에서 막히지 않고 흐를 수 있음을 입증",
-    "published_ago": "2시간 전",
+    "published_ago": "6시간 전",
     "published_at": "2026-07-13T02:00:18+00:00",
     "published_raw": "2026-07-13T02:00:18+00:00"
   },
@@ -184,7 +436,7 @@
     "link": "https://www.asiae.co.kr/article/enterprise-CEO/2026071309434271447",
     "short_link": "asiae.co.kr/article/enterprise-CEO/2026071309434271447",
     "summary": "최태원 \"사이클 과거와 다르다\" 美 반도체, AI 수백억 투자 시사 이재용도 美 향해 세일즈 행보 업계 \"수요는 계속, 3년 뒤 고비\" 최태원 SK그룹 회장이 미국 뉴욕에서 메모리 반도체 고점론과 인공지능(AI) 거품론을 정면으로 반박",
-    "published_ago": "3시간 전",
+    "published_ago": "6시간 전",
     "published_at": "2026-07-13T01:53:16+00:00",
     "published_raw": "2026-07-13T01:53:16+00:00"
   },
@@ -193,7 +445,7 @@
     "link": "https://www.yna.co.kr/view/AKR20260713062900003?section=industry/electronics",
     "short_link": "yna.co.kr/view/AKR20260713062900003",
     "summary": "] 13일 업계에 따르면 삼성전자 파운드리사업부 내부 관계자는 최근 사회관계망서비스(SNS) 링크드인에 \"테슬라-삼성 AI5 칩이 '테이프아웃'(Tape-Out·시제품 양산)을 완료했다\"며 \"AI5는 미국 텍사스주 테일러 공장에서 삼성의 2나노 공정을 적용해 생산될 예정이며 머지않아 테슬라 최신 제품에 탑재될 것\"이라고",
-    "published_ago": "3시간 전",
+    "published_ago": "6시간 전",
     "published_at": "2026-07-13T01:48:23+00:00",
     "published_raw": "2026-07-13T01:48:23+00:00"
   },
@@ -210,8 +462,8 @@
     "title": "요르단에 수출한 연구용원자로로 반도체 소재까지 생산한다",
     "link": "https://www.yna.co.kr/view/AKR20260713060300063?section=industry/electronics",
     "short_link": "yna.co.kr/view/AKR20260713060300063",
-    "summary": "한국원자력연구원이 2010년 수출한 요르단 연구용원자로의 고품질 전력반도체 소재 생산을 위한 핵심 시설 구축 사업을 수주 NTD 기술은 반도체 기판이 될 고순도 실리콘 소재에 중성자를 내리쬐 실리콘 원자 중 일부를 인으로 바꾸는 핵변환 기술로, 고품질 전력반도체 생산을 위한 핵심 기술",
-    "published_ago": "3시간 전",
+    "summary": "구독 구독중 이전 다음 원자력연 컨소시엄, 요르단 NTD 시설 구축 우선협상대상자 선정 이미지 확대 요르단 연구용원자로(JRTR) 전경 [한국원자력연구원 제공 ] (대전＝ ) = 한국원자력연구원(이하 원자력연)이 2010년 수출한 요르단 연구용원자로(JRTR)의 고품질 전력반도체 소재 생산을 위한 핵심 시설 구축 사업을 수주",
+    "published_ago": "6시간 전",
     "published_at": "2026-07-13T01:42:48+00:00",
     "published_raw": "2026-07-13T01:42:48+00:00"
   },
@@ -292,7 +544,7 @@
     "link": "https://www.yna.co.kr/view/AKR20260713038800008?section=industry/electronics",
     "short_link": "yna.co.kr/view/AKR20260713038800008",
     "summary": "이 ETF는 글로벌 고대역폭메모리 시장을 주도하고 있는 SK하이닉스와 삼성전자, 그리고 핵심 장비 공급사인 한미반도체 등 3개 종목에 전체 비중의 약 80%를 압축 투자",
-    "published_ago": "4시간 전",
+    "published_ago": "7시간 전",
     "published_at": "2026-07-13T00:28:50+00:00",
     "published_raw": "2026-07-13T00:28:50+00:00"
   },
@@ -301,7 +553,7 @@
     "link": "https://www.mk.co.kr/news/economy/12096743",
     "short_link": "mk.co.kr/news/economy/12096743",
     "summary": "한은은 “AI 기술 확산 속도와 범위, 수익성 등을 둘러싼 불확실성이 있다”면서도 “JP모건, 골드만삭스, 모건스탠리 등 주요 IB들은 대체로 글로벌 반도체 경기가 적어도 내년까지 호조를 이어갈 것으로 전망한다”고 전언",
-    "published_ago": "4시간 전",
+    "published_ago": "7시간 전",
     "published_at": "2026-07-13T00:22:23+00:00",
     "published_raw": "2026-07-13T00:22:23+00:00"
   },
@@ -319,7 +571,7 @@
     "link": "https://www.digitimes.com/news/a20260713PD201/king-yuan-testing-plant-investment-manufacturing.html",
     "short_link": "digitimes.com/news/a20260713PD201/king-yuan-testing-plant-...",
     "summary": "King Yuan Electronics(KYEC)는 미국이 국내 칩 제조 확대를 계속 추진함에 따라 7월 10일 최대 14억 달러(약 NT$449억)의 미국 공장 투자를 승인했 반도체 테스트 회사는 이 프로젝트가 자사의 최대 해외 확장이 될 것이며 백엔드 패키징 및 테스트 용량에서 미국 내 격차가 커지는 것을 해결하는 것이 목표라고 말했",
-    "published_ago": "4시간 전",
+    "published_ago": "7시간 전",
     "published_at": "2026-07-13T00:06:58+00:00",
     "published_raw": "Mon, 13 Jul 2026 00:06:58 GMT"
   },
@@ -346,7 +598,7 @@
     "link": "https://www.mk.co.kr/news/business/12096715",
     "short_link": "mk.co.kr/news/business/12096715",
     "summary": "한은은 “AI 기술 확산 속도와 수익성 등을 둘러싼 불확실성은 있지만 JP모건, 골드만삭스, 모건스탠리 등 주요 IB들은 글로벌 반도체 경기가 적어도 내년까지 호조를 이어갈 것으로 보고 있다”고 전언",
-    "published_ago": "5시간 전",
+    "published_ago": "8시간 전",
     "published_at": "2026-07-12T23:57:04+00:00",
     "published_raw": "2026-07-12T23:57:04+00:00"
   },
@@ -354,8 +606,8 @@
     "title": "재활용 알루미늄 및 반도체 인증 진행으로 SuperAlloy 매출 증가",
     "link": "https://www.digitimes.com/news/a20260710PD225/revenue-superalloy-aluminum-certification-2026.html",
     "short_link": "digitimes.com/news/a20260710PD225/revenue-superalloy-alumi...",
-    "summary": "SuperAlloy Industrial은 6월 연결 매출이 NT$7억 4,900만(미화 2,336만 달러)로 5월보다 45% 증가한 NT$19억 8,000만 달러를 기록했으며, 2026년 상반기 매출은 6",
-    "published_ago": "5시간 전",
+    "summary": "SuperAlloy Industrial은 6월 연결 매출이 NT$7억 4,900만(미화 2,336만 달러)로 5월보다 45% 증가한 NT$19억 8천만 달러를 기록했으며, 2026년 상반기 매출은 6",
+    "published_ago": "8시간 전",
     "published_at": "2026-07-12T23:53:25+00:00",
     "published_raw": "Sun, 12 Jul 2026 23:53:25 GMT"
   },
@@ -369,11 +621,11 @@
     "published_raw": "2026-07-12T23:52:10+00:00"
   },
   {
-    "title": "SK하이닉스 하이브리드 본딩 추진, HBM 패키징 경쟁의 다음 단계 신호탄",
+    "title": "SK 하이닉스 하이브리드 본딩 푸시 신호, HBM 패키징 경쟁의 다음 단계",
     "link": "https://www.digitimes.com/news/a20260710VL210/hbm-packaging-hbm4-bandwidth-equipment.html",
     "short_link": "digitimes.com/news/a20260710VL210/hbm-packaging-hbm4-bandw...",
     "summary": "AI 메모리 경쟁이 적층 용량에서 패키징 밀도, 열 제어, AI 가속기와의 긴밀한 통합으로 전환됨에 따라 SK하이닉스는 차세대 고대역폭 메모리(HBM)를 위한 하이브리드 본딩 기술을 준비하기 위해 일찍 움직이고 있",
-    "published_ago": "5시간 전",
+    "published_ago": "8시간 전",
     "published_at": "2026-07-12T23:51:02+00:00",
     "published_raw": "Sun, 12 Jul 2026 23:51:02 GMT"
   },
@@ -382,7 +634,7 @@
     "link": "https://www.digitimes.com/news/a20260710PD234/cpu-arm-infrastructure-demand-ceo.html",
     "short_link": "digitimes.com/news/a20260710PD234/cpu-arm-infrastructure-d...",
     "summary": "GPU는 지난 2년 동안 AI 인프라 논의를 주도해 왔으며 LLM(대형 언어 모델) 훈련 및 추론 클러스터부터 HBM(고대역폭 메모리), 고급 패키징 및 수냉식 서버 랙에 이르기까지 모든 것을 지원했",
-    "published_ago": "5시간 전",
+    "published_ago": "8시간 전",
     "published_at": "2026-07-12T23:49:57+00:00",
     "published_raw": "Sun, 12 Jul 2026 23:49:57 GMT"
   },
@@ -391,7 +643,7 @@
     "link": "https://www.digitimes.com/news/a20260709PD200/ma-tek-testing-revenue-cpo-demand.html",
     "short_link": "digitimes.com/news/a20260709PD200/ma-tek-testing-revenue-c...",
     "summary": "반도체 테스트 회사인 MA-tek(Materials Analysis Technology)은 2026년 6월 매출이 5월보다 2026년 2분기 매출은 NT$16억4천만으로 단일 분기 사상 최고치를 기록했으며, 2026년 상반기 매출은 총 NT$30억7천만으로 2025년 같은 기간보다",
-    "published_ago": "5시간 전",
+    "published_ago": "8시간 전",
     "published_at": "2026-07-12T23:46:58+00:00",
     "published_raw": "Sun, 12 Jul 2026 23:46:58 GMT"
   },
@@ -400,7 +652,7 @@
     "link": "https://www.digitimes.com/news/a20260710PD218/tesla-spacex-intel-talent-elon-musk.html",
     "short_link": "digitimes.com/news/a20260710PD218/tesla-spacex-intel-talen...",
     "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:149;116-264\"Tesla와 SpaceX는 합병 추측이 현실화되기 전에 이미 Terafab에서 칩, 인재 및 제조를 중심으로 수렴하고 있",
-    "published_ago": "5시간 전",
+    "published_ago": "8시간 전",
     "published_at": "2026-07-12T23:45:59+00:00",
     "published_raw": "Sun, 12 Jul 2026 23:45:59 GMT"
   },
@@ -445,7 +697,7 @@
     "link": "https://www.mt.co.kr/industry/2026/07/13/2026071220075642496",
     "short_link": "mt.co.kr/industry/2026/07/13/2026071220075642496",
     "summary": "삼성전자, '용인 1호팹' 양산 2년 더 빨리…SK, 미국 신규 투자 = 29일 청와대에서 열린 국가 미래 먹거리 발굴을 위한 3대 메가 프로젝트 보고회에서 삼성전자와 SK하이닉스가 AI 수요에 대응하기 위한 반도체 생산능력을 확보하기 위해 광주·전남 등 서남권에 약 800조 원을 투자, 제2 반도체 클러스터를 조성하는",
-    "published_ago": "5시간 전",
+    "published_ago": "9시간 전",
     "published_at": "2026-07-12T23:00:00+00:00",
     "published_raw": "2026-07-12T23:00:00+00:00"
   },
@@ -463,7 +715,7 @@
     "link": "https://www.newsis.com/view/NISX20260710_0003704795",
     "short_link": "newsis.com/view/NISX20260710_0003704795",
     "summary": "몽골을 국빈 방문한 이재명 대통령이 10일(현지 시간) 울란바타르 한 호텔에서 열린 동포 오찬 간담회에서 인사말을",
-    "published_ago": "7시간 전",
+    "published_ago": "10시간 전",
     "published_at": "2026-07-12T21:30:00+00:00",
     "published_raw": "2026-07-12T21:30:00+00:00"
   },
@@ -472,7 +724,7 @@
     "link": "https://www.hankyung.com/article/2026071304697",
     "short_link": "hankyung.com/article/2026071304697",
     "summary": "인공지능(AI) 인프라 투자로 수요가 빠르게 늘고 있지만 공급 확대에는 시간이 걸리는 만큼 글로벌 반도체 경기의 확장세가 상당 기간 이어질 것으로 판단 한은은 \"AI 인프라 투자로 반도체 수요가 크게 증가한 데 비해 공급 확대 속도는 더디다\"고 발표",
-    "published_ago": "7시간 전",
+    "published_ago": "10시간 전",
     "published_at": "2026-07-12T21:09:27+00:00",
     "published_raw": "2026-07-12T21:09:27+00:00"
   },
@@ -481,7 +733,7 @@
     "link": "https://www.newsis.com/view/NISX20260712_0003705835",
     "short_link": "newsis.com/view/NISX20260712_0003705835",
     "summary": "삼성전자와 SK하이닉스가 총 800조원을 투자하는 서남권 반도체 팹(Fab·생산공장) 4기 건설 입지로 광주 군공항 부지가 최종 확정된 가운데 7일 오후 전남광주 남구 상공에서 바라본 광주 군공항 부지(중앙)의 모습",
-    "published_ago": "8시간 전",
+    "published_ago": "12시간 전",
     "published_at": "2026-07-12T20:03:44+00:00",
     "published_raw": "2026-07-12T20:03:44+00:00"
   },
@@ -508,7 +760,7 @@
     "link": "https://n.news.naver.com/mnews/ranking/article/640/0000091071?ntype=RANKING",
     "short_link": "n.news.naver.com/mnews/ranking/article/640/0000091071",
     "summary": "애플, 샤오미 등 경쟁사들이 상쇄 없이 메모리 가격이 급등하면서 동요하는 가운데, 삼성전자는 세계 최대 메모리 칩 공급업체로서 쿠션이 내장된 스마트폰에 대해 좀 더 신중한 가격 전략을 채택",
-    "published_ago": "8시간 전",
+    "published_ago": "12시간 전",
     "published_at": "2026-07-12T20:00:00+00:00",
     "published_raw": "2026-07-12T20:00:00+00:00"
   },
