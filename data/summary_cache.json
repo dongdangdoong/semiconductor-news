@@ -1,58 +1,4 @@
 {
-  "https://www.digitimes.com/news/a20260710PD206/globalwafers-micron-semiconductors-localization-capacity-equipment.html": {
-    "title": "",
-    "summary": "GlobalWafers와 Micron은 인공 지능(AI), 고성능 컴퓨팅(HPC), 데이터 센터 및 고급 메모리 수요가 반도체 소싱을 어떻게 재편하고 있는지를 강조하는 움직임으로 미화 5억 달러의 전략적 재정 지원과 함께 10년 공급 계약을 체결했",
-    "source": "rule_based",
-    "cached_at": 1783732867.732311
-  },
-  "https://www.yna.co.kr/view/AKR20260710062400051?section=industry/electronics": {
-    "title": "",
-    "summary": "협약에 따라 기보는 하나은행의 보증료 지원금을 기반으로 1천억원 규모 보증료 지원 협약보증을 공급하고, 보증료 감면 혜택을 제공 김종호 기보 이사장은 \"이번 협약을 통해 국내 반도체 산업 생태계의 경쟁력 강화를 위한 실질적인 금융지원 체계가 마련됐다\"며 \"기보는 앞으로도 반도체 협력기업의 성장과 산업 전반의 균형 있는 발전을 위해 유관기관과의 협력을",
-    "source": "rule_based",
-    "cached_at": 1783733006.837848
-  },
-  "https://www.yna.co.kr/view/AKR20260710066500017?section=industry/technology-science": {
-    "title": "",
-    "summary": "구독 구독중 이전 다음 유럽 PoC 성과 아시아로 확대…피지컬AI 시장 공략 이미지 확대 '임베디드 월드 2026' 딥엑스 부스 지난 3월 독일 뉘른베르크에서 열린 세계 최대 임베디드 전자 기술 전시회 '임베디드 월드 2026'에 마련된 딥엑스 전시 부스",
-    "source": "rule_based",
-    "cached_at": 1783733032.546904
-  },
-  "https://www.dt.co.kr/article/12072208": {
-    "title": "",
-    "summary": "용인에 첨단 패키징·포토마스크 거점 구축 AI 반도체 시대 고객 밀착 지원 강화 “독일의 기술을 한국의 스피드로 제공하는 것이 이번 혁신센터의 목표..” 글로벌 광학솔루션 기업 자이스(ZEISS)는 AI 반도체 시대를 맞아 세계 반도체 핵심 생산 거점인 한국에 자사 반도체 사업부의 첫 글로벌 혁신센터를 열고 국내 고객",
-    "source": "rule_based",
-    "cached_at": 1783733045.779132
-  },
-  "https://zdnet.co.kr/view/?no=20260710111028": {
-    "title": "",
-    "summary": "데이터센터 컴퓨팅 용량을 내년까지 두 배로 확대하는 동시에 자체 반도체와 클라우드 인프라를 결합해 엔비디아 의존도를 낮추고 AI 서비스 경쟁력을 강화한다는 구상 자체 설계 칩을 활용해 막대한 AI 컴퓨팅 비용을 절감하는 동시에 엔비디아와 AMD 등 외부 그래픽처리장치(GPU) 공급업체에 대한 의존도를 낮추는 움직임으로 풀이",
-    "source": "rule_based",
-    "cached_at": 1783733110.661859
-  },
-  "https://www.digitimes.com/news/a20260710VL213/samsung-sk-hynix-micron-hbm4-manufacturing.html": {
-    "title": "",
-    "summary": "삼성전자, SK하이닉스, 마이크론 테크놀로지는 HBM4의 로직 베이스 다이에 대해 서로 다른 제조 경로를 택하여 고급 메모리 성능, 수율 및 공급을 둘러싼 경쟁에서 새로운 전선을 열었",
-    "source": "rule_based",
-    "cached_at": 1783732866.298398
-  },
-  "https://www.digitimes.com/news/a20260710VL214/apple-sales-smartwatch-2026-data.html": {
-    "title": "",
-    "summary": "Counterpoint Research에 따르면 엣지 AI 기능을 갖춘 스마트워치의 출하량은 2026년 1분기에 70% 증가했으며, Apple이 압도적으로 선두를 달리고 있 건강에 초점을 맞춘 사용자가 AI 발전을 통해 더 깊은 통찰력에 접근하고 브랜드가 스마트폰 판매 부진을 상쇄하기 위해 웨어러블에 의존함에 따라 이 시장은 급성장하고 있",
-    "source": "rule_based",
-    "cached_at": 1783732866.712485
-  },
-  "https://www.mk.co.kr/news/business/12095298": {
-    "title": "",
-    "summary": "그는 “세레브라스는 100% S램으로 구성돼 어 D램에 관심이 없다고 생각할 수 있겠지만 그렇지 않다”면서 “한국 메모리 업체들과 첨단 메모리칩 개발을 위해 협력하고 싶다”고 설명",
-    "source": "rule_based",
-    "cached_at": 1783732969.645583
-  },
-  "https://www.digitimes.com/news/a20260710PD226/tsmc-cowos-2027-packaging-capacity.html": {
-    "title": "",
-    "summary": "장비 제조업체는 TSMC가 주문 할당을 확정하기를 여전히 기다리고 있는데, 이는 리드 타임이 최소 7~9개월이기 때문에 가격 인하 경쟁과 배송 지연에 대한 두려움을 키우고 있",
-    "source": "rule_based",
-    "cached_at": 1783732865.165511
-  },
   "https://www.edaily.co.kr/News/Read?newsId=03896646645513208&mediaCodeNo=257": {
     "title": "",
     "summary": "중국 AI 반도체 산업이 정부 육성 정책과 인공지능(AI) 인프라 투자 확대를 바탕으로 빠르게 성장하는 가운데, KB자산운용이 관련 핵심 기업에 투자하는 상장지수펀드(ETF)에 주목할 필요가 있다고 강조..KB자산운용은 10일 ‘RISE 차이나AI반도체TOP4Plus ETF’를 중국 AI 반도체 밸류체인 성장에 투자할",
@@ -184,12 +130,6 @@
     "summary": "= 삼성전자가 7일 연결 기준 올해 2분기 잠정 실적으로 매출 171조원, 영업이익 89조4000억원을 발표 매출은 전년 2분기(74조5700억원) 대비 129.31% 늘었고, 영업이익은 같은 기간 4조6800억원에서 1810.26% 급증",
     "source": "rule_based",
     "cached_at": 1783802543.333427
-  },
-  "https://n.news.naver.com/mnews/article/001/0016188470": {
-    "title": "",
-    "summary": "빅테크 자체 칩 개발 경쟁 갈수록 치열 양상 (서울= ) = AI 반도체 시장이 엔비디아 그래픽처리장치(GPU)에서 맞춤형 칩 XPU(확장형 처리장치)로 이동하고 있다는 분석이 나",
-    "source": "rule_based",
-    "cached_at": 1783732933.062584
   },
   "https://www.yna.co.kr/view/AKR20260710152800017?section=industry/electronics": {
     "title": "",
@@ -1209,7 +1149,7 @@
     "title": "",
     "summary": "전환배치·근로조건 고려해 반대 “사측도 부담스러워 부정적 입장 52시간 해제도 노동자 뜻에 반해” 사진 확대 최승호 삼성그룹 초기업노동조합 삼성전자지부(초기업노조) 위원장 [공동 취재] 삼성전자 최대 노동조합인 삼성그룹 초기업노조 삼성전자지부(초기업노조)가 사측의 호남 반도체 프로젝트에 조합원 대다수가 반대하고 있다며",
     "source": "rule_based",
-    "cached_at": 1783991808.151573
+    "cached_at": 1784003132.100446
   },
   "https://www.mt.co.kr/industry/2026/07/13/2026071315004170204": {
     "title": "",
@@ -1233,13 +1173,13 @@
     "title": "",
     "summary": "구독 구독중 이전 다음 957조 민간 투자 뒷받침…인프라·소부장·차세대 R&D 전방위 지원 '점유율 1%' AI 로봇 시장 판도 바꾼다…데이터 팩토리 구축·정부 구매 추진 이미지 확대 김정관 장관, 3대 메가프로젝트 지원방안 발표 = 김정관 산업통상부 장관이 13일 청와대에서 이재명 대통령 주재로 열린",
     "source": "rule_based",
-    "cached_at": 1783991850.219063
+    "cached_at": 1784003167.92673
   },
   "https://www.yna.co.kr/view/AKR20260713098000003?section=industry/electronics": {
     "title": "",
     "summary": "삼성전자 최대 노조인 삼성그룹 초기업노동조합 삼성전자지부가 정부가 추진 중인 호남 반도체 메가프로젝트를 2027년 교섭 의제로 다루겠다고 발표 초기업노조는 13일 입장문을 내고 \"조합원 대상 설문조사 결과 호남 반도체 메가프로젝트에 반대한다는 응답이 84%에 달했다\"며 이같이 발표",
     "source": "rule_based",
-    "cached_at": 1783991861.517022
+    "cached_at": 1784003176.259655
   },
   "https://www.dt.co.kr/article/12072658": {
     "title": "",
@@ -1281,13 +1221,13 @@
     "title": "",
     "summary": "김정관 산업통상부 장관이 13일 청와대에서 열린 2026년 국가재정전략회의에서 3대메가프로젝트 지원방안에 대해 발표 왼쪽부터 최휘영 문화체육관광부 장관, 김 장관, 김성환 기후에너지환경부 장관",
     "source": "rule_based",
-    "cached_at": 1783992032.539991
+    "cached_at": 1784003331.716214
   },
   "https://www.edaily.co.kr/News/Read?newsId=03532566645514192&mediaCodeNo=257": {
     "title": "",
     "summary": "13일 업계에 따르면 삼성전자 반도체 위탁생산(파운드리) 사업부 내부 관계자는 최근 사회관계망서비스(SNS) 링크드인에 “테슬라-삼성 AI5 칩이 테이프아웃(시제품 양산)을 완료했다”며 “AI5는 미국 텍사스주 테일러 공장에서 삼성의 2나노 공정을 적용해 생산될 예정",
     "source": "rule_based",
-    "cached_at": 1783992059.711805
+    "cached_at": 1784003355.62119
   },
   "https://www.digitimes.com/news/a20260713VL221/samsung-interposer-packaging-tsmc-capacity.html": {
     "title": "",
@@ -1351,9 +1291,9 @@
   },
   "https://www.hankyung.com/article/2026071325201": {
     "title": "",
-    "summary": "김성후 엑사이엔씨 대표 반도체 팹 1곳 건설 때 1조 매출 삼성 P5 클린룸 절반 수주 예상 최근 SK에도 후발주자로 진입 AI 데이터센터 실링 신사업 추진 ◇삼성 평택 공장 수주 물꼬 이미지 크게보기 ◇데이터센터, 신사업으로 추진 “반도체 슈퍼사이클 영향으로 올해 실적이 2배 이상 늘어날 것",
+    "summary": "◇삼성 평택 공장 수주 물꼬 이미지 크게보기 ◇데이터센터, 신사업으로 추진 “반도체 슈퍼사이클 영향으로 올해 실적이 2배 이상 늘어날 것입니다.”김성후 엑사이엔씨 대표(사진)는 13일 서울 구로동 본사에서 한 인터뷰에서 “삼성전자와 SK하이닉스의 반도체 공장 건설이 본격화하면서 회사 매출이 2030년 조(兆) 단위로",
     "source": "rule_based",
-    "cached_at": 1783991781.717815
+    "cached_at": 1784003110.203784
   },
   "https://www.hankyung.com/article/2026071325161": {
     "title": "",
@@ -1365,7 +1305,7 @@
     "title": "",
     "summary": "전남광주통합특별시는 13일 무안청사에서 국고 확보 태스크포스 회의를 열고 정부 예산안 확보 방안을 논의 통합특별시는 기획예산처 소관 부서를 직접 방문해 사업 필요성과 정책 효과를 설명할 계획",
     "source": "rule_based",
-    "cached_at": 1783991841.499125
+    "cached_at": 1784003157.41524
   },
   "https://www.yna.co.kr/view/AKR20260713147400054?section=industry/technology-science": {
     "title": "",
@@ -1377,7 +1317,7 @@
     "title": "",
     "summary": "\"84% 반대… 대책·신뢰 안 보여\" 정부에 노사정 협의체 구성 제안 노봉법 쟁의요건, 재계경고 현실로 노조 장벽에 산업 혁신 막힐 수도 정부의 중재로 올해 수억원대 성과급을 받게 된 삼성전자 반도체 노조가 이번엔 조합원 84%가 반대한다는 이유로 호남 반도체 클러스터 '노사정 협의체'를 구성할 것을 요구",
     "source": "rule_based",
-    "cached_at": 1783991884.663189
+    "cached_at": 1784003188.397276
   },
   "https://www.dt.co.kr/article/12072712": {
     "title": "",
@@ -1389,7 +1329,7 @@
     "title": "",
     "summary": "석·박사 요람 IDEC의 비명…EDA 툴 유료화에 TSMC 공정 막혀 13일 반도체 학계·업계에 따르면 IDEC의 올해 사업 예산은 전년비 40% 급감 IDEC은 예산 부족을 이유로 기존에 연간 70개 규모로 지원했던 TSMC 공정 활용 다중프로젝트웨이퍼(MPW) 지원 사업을 올해 전면 중단",
     "source": "rule_based",
-    "cached_at": 1783991938.625045
+    "cached_at": 1784003269.905655
   },
   "https://zdnet.co.kr/view/?no=20260713165618": {
     "title": "",
@@ -1419,7 +1359,7 @@
     "title": "",
     "summary": "삼성전자가 7일 연결 기준 올해 2분기 잠정 실적으로 매출 171조원, 영업이익 89조4000억원을 발표 매출은 전년 2분기(74조5700억원) 대비 129",
     "source": "rule_based",
-    "cached_at": 1783992023.472428
+    "cached_at": 1784003324.048063
   },
   "https://n.news.naver.com/mnews/ranking/article/024/0000106841?ntype=RANKING": {
     "title": "",
@@ -1443,7 +1383,7 @@
     "title": "",
     "summary": "김 의원은 “현행법상 손자회사가 증손회사에 대해 지분 100%를 보유해야 해 투자금을 전액 부담해야 한다”며 “서남권 반도체 클러스터와 충북 청주 팹 등을 고려하면 수백조원에서 수천조원 규모의 자금을 단독으로 마련해야 하는 등 부담이 크다”고 설명",
     "source": "rule_based",
-    "cached_at": 1783992051.860345
+    "cached_at": 1784003345.148506
   },
   "https://www.edaily.co.kr/News/Read?newsId=05461206645514192&mediaCodeNo=257": {
     "title": "",
@@ -1473,7 +1413,7 @@
     "title": "",
     "summary": "TSMC, 지난달 매출 4427억대만달러 한 달 만에 월간 매출액 신기록 '경신' 사진=REUTERS· 세계 최대 파운드리(반도체 수탁생산) 업체 TSMC가 인공지능(AI) 반도체 수요에 힘입어 월간 최대 매출 기록을 달성",
     "source": "rule_based",
-    "cached_at": 1783991793.73952
+    "cached_at": 1784003123.053678
   },
   "https://n.news.naver.com/mnews/article/009/0005707011": {
     "title": "",
@@ -1497,49 +1437,49 @@
     "title": "",
     "summary": "Liying은 AI 칩에 대한 강력한 수요가 반도체 활용률을 높게 유지함에 따라 매출이 2026년 2분기에 NT$1억 800만이라는 분기별 기록을 달성했으며 처음으로 NT$1억(미화 311만 달러)을 넘어섰다고 말했",
     "source": "rule_based",
-    "cached_at": 1783991678.844502
+    "cached_at": 1784003047.689452
   },
   "https://www.digitimes.com/news/a20260714PD210/revenue-automation-demand-2026-equipment.html": {
     "title": "",
     "summary": "대만의 자동화 공급업체는 글로벌 파운드리 및 고급 패키징 확장과 관련된 하위 시스템 통합, 장비 및 로봇 공학에 대한 주문 증가가 성장을 주도했다고 밝혔",
     "source": "rule_based",
-    "cached_at": 1783991682.965273
+    "cached_at": 1784003048.322679
   },
   "https://www.digitimes.com/news/a20260714PD205/revenue-2026-packaging-pcb-demand.html": {
     "title": "",
     "summary": "PCB 및 반도체 장비 제조업체는 파운드리, 아웃소싱 반도체 조립 및 테스트, IC 기판, 고급 다층 보드 고객이 자본 지출을 늘리면서 전망이 여전히 긍정적이라고 말했",
     "source": "rule_based",
-    "cached_at": 1783991685.398306
+    "cached_at": 1784003048.685057
   },
   "https://www.digitimes.com/news/a20260714PD204/king-yuan-revenue-demand-2026-sales.html": {
     "title": "",
     "summary": "Gudeng Precision Industrial Electronics는 첨단 노드 제조가 가속화됨에 따라 EUV 마스크 캐리어와 12인치 웨이퍼 캐리어에 대한 수요 증가에 힘입어 기록적인 6월 매출과 2026년 2분기 최고 분기 매출을 기록했",
     "source": "rule_based",
-    "cached_at": 1783991688.343736
+    "cached_at": 1784003049.103916
   },
   "https://www.digitimes.com/news/a20260714PD203/revenue-ist-2026-demand-ai-chip.html": {
     "title": "",
     "summary": "iST(Integrated Service Technology Inc.)는 2026년 6월 연결 수익이 약 NT$4억 2,600만(미화 1,324만 달러)라고 보고했는데, 이는 5월보다",
     "source": "rule_based",
-    "cached_at": 1783991690.75802
+    "cached_at": 1784003049.449818
   },
   "https://www.digitimes.com/news/a20260714PD201/trusval-revenue-demand-expansion-capacity.html": {
     "title": "",
     "summary": "Trusval Technology는 글로벌 AI 인프라 구축과 반도체 제조업체의 고급 프로세스 및 고급 패키징 용량의 지속적인 확장과 관련된 수요에 힘입어 2026년 2분기와 상반기에 기록적인 매출을 기록했",
     "source": "rule_based",
-    "cached_at": 1783991693.308258
+    "cached_at": 1784003049.809674
   },
   "https://www.digitimes.com/news/a20260713VL217/shanghai-euv-silicon-semiconductors-materials.html": {
     "title": "",
     "summary": "Shanghai AtomIC Technology는 실험실 연구에서 엔지니어링 검증, 소규모 배치 테이프아웃 및 초기 산업화로의 전환을 의미하는 세계 최초의 2차원 반도체용 8인치 파일럿 라인을 출시했",
     "source": "rule_based",
-    "cached_at": 1783991705.891253
+    "cached_at": 1784003050.999331
   },
   "https://www.digitimes.com/news/a20260713VL223/samsung-hbm-optics-siph-packaging-chips.html": {
     "title": "",
     "summary": "삼성전자는 AI 데이터센터가 직면하고 있는 전력 소비 증가와 데이터 전송 병목 현상을 해결하기 위해 고대역폭 메모리(HBM), 로직 칩, 실리콘 포토닉스(SiPh)를 결합한 첨단 패키징 기술을 개발하고 있",
     "source": "rule_based",
-    "cached_at": 1783991707.939172
+    "cached_at": 1784003051.334355
   },
   "https://n.news.naver.com/mnews/hotissue/article/138/0002234088?type=series&cid=2000113": {
     "title": "",
@@ -1569,24 +1509,144 @@
     "title": "",
     "summary": "TSMC가 엔비디아 등 인공지능(AI) 반도체 고객사들의 주문 폭주로 인한 공급 병목 현상을 해소하기 위해 대만 남부 자이과학단지(Chiayi Science Park)에 차세대 첨단 반도체 패키징 공장 2개를 추가로 건설하기로 확정",
     "source": "rule_based",
-    "cached_at": 1783991893.359702
+    "cached_at": 1784003203.432323
   },
   "https://www.ddaily.co.kr/page/view/2026071409161481780": {
     "title": "",
     "summary": "인텔의 이번 투자는 렉스립 기지의 생산 능력을 확장하는 다음 단계로, 글로벌 인공지능(AI) 및 고성능 컴퓨팅 수요에 대응해 인텔 3 공정을 기반으로 한 '인텔 제온 6' 및 차세대 제온 프로세서 생산을 확대하기 위해 마련",
     "source": "rule_based",
-    "cached_at": 1783991897.53839
+    "cached_at": 1784003207.778658
   },
   "https://zdnet.co.kr/view/?no=20260714084807": {
     "title": "",
     "summary": "지난 6월 말 첫 양산 발주를 확보한 지 약 2주 만에 추가 수주다 이번 계약금액 13억 원은 자람테크놀로지의 2025년 매출(106억원) 대비 12",
     "source": "rule_based",
-    "cached_at": 1783991931.626203
+    "cached_at": 1784003263.124451
   },
   "https://www.edaily.co.kr/News/Read?newsId=03198006645514520&mediaCodeNo=257": {
     "title": "",
     "summary": "인공지능(AI) 열풍이 메모리 반도체를 싹쓸이하면서 아이패드, 맥북, 닌텐도 스위치 등 전자기기 가격이 줄줄이 오르고 애플은 아직 아이폰 가격을 올리지 않았지만, 마이크 하워드 테크인사이츠 메모리 담당 부사장은 애플이 수익성을 유지하려면 스마트폰 가격을 250~300달러(약 37만~45만원) 올려야 할 것으로 추산",
     "source": "rule_based",
     "cached_at": 1783992112.236013
+  },
+  "https://news.google.com/rss/articles/CBMicEFVX3lxTE9pTjFUUGxkMkFRU0RENGlXT0tIRU5PcENKV3pnb3hLaWUxd0lGZWhoNWNaQnY1MVJLSW9rWlRJTzZTQ3F1bHJQMUZOZi1hZks2YklpYnpHSVR4bGJTNjlTNEtyREtGcWh4SFpEYVR2MGY?oc=5&hl=ko&gl=KR&ceid=KR:ko": {
+    "title": "",
+    "summary": "삼성전자, 테슬라 차세대 AI 칩 생산 준비…파운드리 성장 전망 높여",
+    "source": "rule_based",
+    "cached_at": 1784002980.610447
+  },
+  "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8wTTBYSlRIRVNuN2hidnd3a0FYWmZFeC1QeWtiNy16WmNXMXFhSUlka3pwQkNfZHZjOWJKYXFvNkYyd2hGNzFnbHR4aDFqQQ?oc=5&hl=ko&gl=KR&ceid=KR:ko": {
+    "title": "",
+    "summary": "삼성 파운드리, 테슬라 AI5 양산 임박…美 테일러 팹 연말 가동 전망 아시아투데이 삼성전자, 앤트로픽 AI칩 파운드리 수주…테슬라·엔비디아 이어 연속 낭보 뉴스웍스 삼성 파운드리, 테슬라 AI5칩 양산준비 끝 …\"테일러팹 연내 가동\" 삼성 파운드리, 테슬라 AI5 ‘테이프아웃’ 완료⋯ 2나노 양산 초읽기 브릿지경제",
+    "source": "rule_based",
+    "cached_at": 1784002983.986293
+  },
+  "https://www.digitimes.com/news/a20260714PR203/packaging-demand-profit-2026-investment.html": {
+    "title": "",
+    "summary": "중국의 반도체 패키징 및 테스트 회사인 Tianshui Huatian Technology는 7월 14일 선전 증권 거래소에 제출한 전망에 따르면 2026년 상반기 주주 귀속 순이익이 7억 5천만 위안(약 1억 1062만 달러)에서 8억 5천만 위안으로 전년 동기 2억 2천 6백만 위안보다",
+    "source": "rule_based",
+    "cached_at": 1784003021.959995
+  },
+  "https://www.digitimes.com/news/a20260713PD222/intel-donald-trump-tsmc-dram-taiwan.html": {
+    "title": "",
+    "summary": "도널드 트럼프 미국 대통령은 최근 대만의 TSMC가 애리조나 팹 프로젝트 규모를 두 배로 늘릴 것이라고 밝혀 임기 만료 전에 세계 반도체 시장에서 미국 점유율을 50%까지 끌어올리겠다는 목표에 다시 관심을 불러일으켰다",
+    "source": "rule_based",
+    "cached_at": 1784003026.645616
+  },
+  "https://www.digitimes.com/news/a20260714VL210/apple-supplier-infrastructure-manufacturing-supply-chain.html": {
+    "title": "",
+    "summary": "Apple 공급업체인 Lingyi iTech는 구조 조정 과정을 통해 파산한 광섬유 제조업체 Futong Group Communication Technology(Futong Jiashan)의 자산과 운영에 대한 통제권을 인수하기 위해 최대 40억 위안(미화 5억 8990만 달러)을 투자할 계획을 발표하면서 AI 인프라로",
+    "source": "rule_based",
+    "cached_at": 1784003027.008768
+  },
+  "https://www.digitimes.com/news/a20260714VL208/taiwan-revenue-silicon-tsmc-growth.html": {
+    "title": "",
+    "summary": "대만의 실리콘 파운드리 산업은 2026년 6월 총 수익이 151억 3,120만 달러에 달하는 강력한 성과를 기록했는데, 이는 5월보다 이는 해당 부문이 AI 및 고급 노드 칩 수요에 지속적으로 참여하고 있음을 강조합니다",
+    "source": "rule_based",
+    "cached_at": 1784003029.94486
+  },
+  "https://www.digitimes.com/news/a20260713PD227/intel-hbm-dram-2030-patent.html": {
+    "title": "",
+    "summary": "인텔은 2030년경 상용화를 목표로 고대역폭 메모리(HBM)의 지배력에 도전하기 위한 새로운 메모리 아키텍처를 개발하고 있 그 길은 생태계 장벽과 호환성 장애물로 가득 차 있지만, 인텔의 Z-앵글 메모리(ZAM)와 크로스 배치 메모리(XBM)의 병행 개발은 AI 컴퓨팅과 스토리지에 동시에 투자하면서 DRAM 시장에 재진입하겠다는 의지를 강조합니다",
+    "source": "rule_based",
+    "cached_at": 1784003031.573381
+  },
+  "https://www.digitimes.com/news/a20260714PD214/demand-abf-substrate-2028-market-chip-supply.html": {
+    "title": "",
+    "summary": "AI 붐은 칩 공급망에서 중요하지만 종종 간과되는 부분을 강화하고 있으며, 전 세계 독자들은 더 높은 비용, 지연된 용량 및 고급 프로세서에 대한 고르지 못한 액세스를 통해 그 효과를 느낄 가능성이 높",
+    "source": "rule_based",
+    "cached_at": 1784003033.669451
+  },
+  "https://www.digitimes.com/news/a20260714PD218/gigadevice-memory-chips-capacity-demand-growth.html": {
+    "title": "",
+    "summary": "AI 컴퓨팅 수요는 글로벌 메모리 시장의 성장을 계속 촉진하고 있지만, 업계의 관심은 단기적인 가격 변동을 넘어서고 있 용량 확장 속도, AI 기반 수요의 지속 가능성, 새로운 AI 애플리케이션이 상업적 규모를 달성할 수 있는지 여부 등 장기적인 변수에 점점 더 초점이 맞춰지고 있",
+    "source": "rule_based",
+    "cached_at": 1784003044.573236
+  },
+  "https://www.digitimes.com/news/a20260714PD200/innolux-panel-packaging-revenue-2026.html": {
+    "title": "",
+    "summary": "대만 패널 제조업체인 Innolux는 2026년 6월 미감사 연결 매출이 NT$217억(약 6억7540만 달러)에 달했다고 보고했는데, 이는 전월 대비 5 2026년 상반기 누적 수익은 NT$1,302억 3천만에 달해 전년 대비 16",
+    "source": "rule_based",
+    "cached_at": 1784003046.889467
+  },
+  "https://n.news.naver.com/mnews/article/138/0002234134": {
+    "title": "",
+    "summary": "글로벌 전사적자원관리(ERP) 기업 SAP가 ERP를 단순한 기록·관리 시스템에서 인공지능(AI) 에이전트가 업무를 감지하고 판단해 실행하는 플랫폼으로 전환 SAP가 말하는 자율형 기업은 AI 에이전트가 비즈니스 프로세스와 데이터, 거버넌스 안에 내재돼 반복 업무를 처리하고, 사람은 최종 판단과 전략적 의사결정에 집중하는 운영 모델",
+    "source": "rule_based",
+    "cached_at": 1784003094.365356
+  },
+  "https://n.news.naver.com/mnews/article/001/0016193124": {
+    "title": "",
+    "summary": "환경평가권 특별시 이양…\"평가용역 기간, 조직 확대 검토\" = 전남광주통합특별시가 광주 군공항 부지에 들어설 호남권 반도체 클러스터의 신속한 착공을 추진하고 있지만, 광주권 환경영향평가 협의 업무는 별도 전담조직 없이 기존 담당자 1명이 맡아 '속도전'에 걸맞지 않다는 지적",
+    "source": "rule_based",
+    "cached_at": 1784003096.747054
+  },
+  "https://n.news.naver.com/mnews/article/092/0002430443": {
+    "title": "",
+    "summary": "한미반도체의 이번 실적 성장은 AI 시장 확대에 따라 전세계 반도체 기업들이 생산시설 투자를 늘리면서 고대역폭메모리(HBM)용 TC 본더와 MSVP(마이크로 쏘 & 비전 플레이스먼트, Micro SAW & Vision Placement) 장비가 수요가 빠르게 증가한 영향",
+    "source": "rule_based",
+    "cached_at": 1784003101.532288
+  },
+  "https://www.mt.co.kr/industry/2026/07/14/2026071410551434360": {
+    "title": "",
+    "summary": "AI 시장 성장으로 글로벌 반도체 업체들의 생산시설 투자가 확대되면서 HBM(고대역폭메모리)용 TC(열압착)본더와 MSVP(Micro SAW & Vision Placement) 장비 수요가 급증한 것이 실적을 견인",
+    "source": "rule_based",
+    "cached_at": 1784003135.699126
+  },
+  "https://www.yna.co.kr/view/AKR20260714081500054?section=industry/electronics": {
+    "title": "",
+    "summary": "이미지 확대 간판 바뀐 전남광주통합특별시청 광주청사 [ 자료사진] 반면 광주권은 별도의 TF 없이 기존 담당자 1명이 환경영향평가 협의 업무를 함께 맡고 광주청사 관계자는 \"사업자의 환경영향평가 용역 기간이 최소 1년 이상 걸리는 만큼 그사이 조직을 구성하고 충분히 준비할 수 있다\"며 \"현재 인력 때문에 문제가 생기지는 않을 것\"이라고 설명",
+    "source": "rule_based",
+    "cached_at": 1784003148.624446
+  },
+  "https://www.yna.co.kr/view/AKR20260714066300017?section=industry/technology-science": {
+    "title": "",
+    "summary": "SAP는 AI가 단순히 질문에 답하는 데 그치지 않고 업무 상황을 이해해 다음 행동을 제시하고 실행하는 것을 자율형 기업의 핵심으로 보고 기업 데이터와 업무 애플리케이션, AI 에이전트를 유기적으로 연결한다는 계획 SAP는 앞으로 국내 기업의 재무와 구매, 생산, 공급망 등 주요 업무에 AI 에이전트를 적용해 자율형 기업 전환을 지원할 예정",
+    "source": "rule_based",
+    "cached_at": 1784003181.844158
+  },
+  "https://www.dt.co.kr/article/12072801": {
+    "title": "",
+    "summary": "이번 실적 성장은 인공지능(AI)시장 확대에 따라 전세계 반도체 기업들이 생산시설 투자를 늘리면서 HBM(고대역폭메모리)용 TC 본더와 MSVP(마이크로 쏘 & 비전 플레이스먼트, Micro SAW & Vision Placement) 장비가 수요가 빠르게 증가한 영향",
+    "source": "rule_based",
+    "cached_at": 1784003192.430443
+  },
+  "https://www.ddaily.co.kr/page/view/2026071411214300568": {
+    "title": "",
+    "summary": "글로벌 메모리 업체들이 HBM4 양산을 시작하면서 관련 장비 공급이 증가했으며, 연말부터 HBM4E 양산 준비가 본격화되면서 12단·16단 대응 차세대 TC 본더 수요도 확대될 것으로 내다봤다",
+    "source": "rule_based",
+    "cached_at": 1784003199.214666
+  },
+  "https://www.ddaily.co.kr/page/view/2026071412554077089": {
+    "title": "",
+    "summary": "글로벌 전사적자원관리(ERP) 기업 SAP가 ERP를 단순한 기록·관리 시스템에서 인공지능(AI) 에이전트가 업무를 감지하고 판단해 실행하는 플랫폼으로 전환 SAP가 말하는 자율형 기업은 AI 에이전트가 비즈니스 프로세스와 데이터, 거버넌스 안에 내재돼 반복 업무를 처리하고, 사람은 최종 판단과 전략적 의사결정에 집중하는 운영 모델",
+    "source": "rule_based",
+    "cached_at": 1784003230.483386
+  },
+  "https://zdnet.co.kr/view/?no=20260714105543": {
+    "title": "",
+    "summary": "한미반도체의 이번 실적 성장은 AI 시장 확대에 따라 전세계 반도체 기업들이 생산시설 투자를 늘리면서 고대역폭메모리(HBM)용 TC 본더와 MSVP(마이크로 쏘 & 비전 플레이스먼트, Micro SAW & Vision Placement) 장비가 수요가 빠르게 증가한 영향",
+    "source": "rule_based",
+    "cached_at": 1784003245.395382
   }
 }
