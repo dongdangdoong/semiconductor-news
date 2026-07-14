@@ -5,12 +5,6 @@
     "source": "rule_based",
     "cached_at": 1783813638.559564
   },
-  "https://www.newsis.com/view/NISX20260710_0003704737": {
-    "title": "",
-    "summary": "10일 오전(현지시간) 미국 뉴욕 나스닥 마켓사이트에서 열린 '오프닝 벨' 행사에서 최태원 SK그룹 회장, 곽노정 SK하이닉스 CEO, 고승범 SK하이닉스 사외이사 겸 이사회 의장이 타종을 하며 나스닥 ADR 거래 개시를 알리고",
-    "source": "rule_based",
-    "cached_at": 1783809827.130745
-  },
   "https://www.digitimes.com/news/a20260709PD247/samsung-business-electronics-2026-operating-profit.html": {
     "title": "",
     "summary": "삼성전자의 2026년 2분기 잠정 결과는 AI 서버 수요에 따른 반도체 이익 급증으로 전체 실적이 향상되고 있는 반면, TV, 가전제품, 기타 최종 장치 사업은 여전히 ​​압박을 받고 있다는 점에서 회사 내부의 급격한 분열을 다시 한 번 강조합니다",
@@ -40,12 +34,6 @@
     "summary": "AI 반도체 스타트업 모빌린트(Mobilint)가 AI 붐이 클라우드 컴퓨팅에서 로봇, 자율주행차, 드론으로 확산되면서 엣지 디바이스용 신경처리장치(NPU)로 물리 AI 분야에서 주목받고",
     "source": "rule_based",
     "cached_at": 1783813359.929424
-  },
-  "https://www.newsis.com/view/NISX20260711_0003705213": {
-    "title": "",
-    "summary": "“투자자들, 인공지능(AI) 관련 투자 관심 회복에도 도움” 평가 “AI 인프라 붐에 대한 수요가 아직 끝나지 않았다는 신호” [서울= ] = 최태원 SK그룹 회장, 곽노정 SK하이닉스 CEO, 고승범 SK하이닉스 사외이사 겸 이사회 의장 등이 10일(현지 시간) 오전 미국 뉴욕 나스닥 마켓사이트에서 열린 나스닥 '오프닝",
-    "source": "rule_based",
-    "cached_at": 1783809824.032816
   },
   "https://www.edaily.co.kr/News/Read?newsId=01928646645513536&mediaCodeNo=257": {
     "title": "",
@@ -1179,13 +1167,13 @@
     "title": "",
     "summary": "TSMC가 엔비디아 등 인공지능(AI) 반도체 고객사들의 주문 폭주로 인한 공급 병목 현상을 해소하기 위해 대만 남부 자이과학단지(Chiayi Science Park)에 차세대 첨단 반도체 패키징 공장 2개를 추가로 건설하기로 확정",
     "source": "rule_based",
-    "cached_at": 1783991768.429887
+    "cached_at": 1784072657.226025
   },
   "https://n.news.naver.com/mnews/hotissue/article/138/0002234085?type=series&cid=2000113": {
     "title": "",
     "summary": "인텔의 이번 투자는 렉스립 기지의 생산 능력을 확장하는 다음 단계로, 글로벌 인공지능(AI) 및 고성능 컴퓨팅 수요에 대응해 인텔 3 공정을 기반으로 한 '인텔 제온 6' 및 차세대 제온 프로세서 생산을 확대하기 위해 마련",
     "source": "rule_based",
-    "cached_at": 1783991770.207768
+    "cached_at": 1784072658.566092
   },
   "https://n.news.naver.com/mnews/article/138/0002234088": {
     "title": "",
@@ -1353,7 +1341,7 @@
     "title": "",
     "summary": "현재 최첨단 반도체 생산 시장이 대만 TSMC와 삼성전자, 인텔 중심의 '3강 체제'로 재편되는 흐름을 보이고 있는 상황에서, 미국 정부의 막대한 자본과 정치력을 등에 업은 인텔이 공격적 투자로 제조 경쟁력을 끌어올릴 경우 첨단 공정 고객 확보 경쟁이 한층 격화될 가능성이 크기 때문",
     "source": "rule_based",
-    "cached_at": 1784011006.880324
+    "cached_at": 1784072651.061825
   },
   "https://n.news.naver.com/mnews/article/092/0002430488": {
     "title": "",
@@ -1479,7 +1467,7 @@
     "title": "",
     "summary": "자금난에 매각했다가 올해 프리미엄 주고 재매입 미국 반도체업체 인텔이 아일랜드 렉슬립 반도체 공장 '팹 34'에 50억유로(약 8조4800억원)를 투자한다고 13일(현지시간) 발표",
     "source": "rule_based",
-    "cached_at": 1784057023.119493
+    "cached_at": 1784072698.759128
   },
   "https://www.yna.co.kr/view/AKR20260714133700017?section=industry/electronics": {
     "title": "",
@@ -1612,5 +1600,11 @@
     "summary": "최수진 바텐더가 9일 서울 강남구 그랜드 머큐어 임피리얼 팰리스 서울 강남 호텔의 '더 바'에서 와 인터뷰에 앞서 김승수 바텐더와 함께 포즈를 취",
     "source": "rule_based",
     "cached_at": 1784069519.885706
+  },
+  "https://n.news.naver.com/mnews/hotissue/article/138/0002234189?type=series&cid=2000113": {
+    "title": "",
+    "summary": "◆ 퓨리오사AI \"엔비디아 대비 토큰 효율 70% 우위… 차세대 10배 스케일업\" 공공 시장의 양산 퀘스천에 대응해 퓨리오사AI는 TSMC 5나노미터(㎚) 공정 기반으로 양산 중인 2세대 NPU '레니게이드(Renegade)'의 고성능·초저전력 지표를 전면에 내세웠다",
+    "source": "rule_based",
+    "cached_at": 1784072655.735334
   }
 }
