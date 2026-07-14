@@ -1,10 +1,145 @@
 [
   {
-    "title": "TSMC, 6월 매출 68% 급증…AI 반도체 수요에 역대급 성장",
+    "title": "AI 칩 수요가 반도체 서비스를 증가시키면서 Liying은 NT$1억을 돌파했습니다.",
+    "link": "https://www.digitimes.com/news/a20260713PD230/revenue-demand-2026-capacity-2025.html",
+    "short_link": "digitimes.com/news/a20260713PD230/revenue-demand-2026-capa...",
+    "summary": "Liying은 AI 칩에 대한 강력한 수요가 반도체 활용률을 높게 유지함에 따라 매출이 2026년 2분기에 NT$1억 800만이라는 분기별 기록을 달성했으며 처음으로 NT$1억(미화 311만 달러)을 넘어섰다고 말했",
+    "published_ago": "33분 전",
+    "published_at": "2026-07-14T00:41:17+00:00",
+    "published_raw": "Tue, 14 Jul 2026 00:41:17 GMT"
+  },
+  {
+    "title": "아이폰값 45만원 오르나…AI가 부른 '메모리 대란'",
+    "link": "https://www.edaily.co.kr/News/Read?newsId=03198006645514520&mediaCodeNo=257",
+    "short_link": "edaily.co.kr/News/Read",
+    "summary": "인공지능(AI) 열풍이 메모리 반도체를 싹쓸이하면서 아이패드, 맥북, 닌텐도 스위치 등 전자기기 가격이 줄줄이 오르고 애플은 아직 아이폰 가격을 올리지 않았지만, 마이크 하워드 테크인사이츠 메모리 담당 부사장은 애플이 수익성을 유지하려면 스마트폰 가격을 250~300달러(약 37만~45만원) 올려야 할 것으로 추산",
+    "published_ago": "46분 전",
+    "published_at": "2026-07-14T00:35:35+00:00",
+    "published_raw": "2026-07-14T00:35:35+00:00"
+  },
+  {
+    "title": "Aurotek, 반도체 자동화 수요 부문에서 기록적인 상반기 매출 기록",
+    "link": "https://www.digitimes.com/news/a20260714PD210/revenue-automation-demand-2026-equipment.html",
+    "short_link": "digitimes.com/news/a20260714PD210/revenue-automation-deman...",
+    "summary": "대만의 자동화 공급업체는 글로벌 파운드리 및 고급 패키징 확장과 관련된 하위 시스템 통합, 장비 및 로봇 공학에 대한 주문 증가가 성장을 주도했다고 밝혔",
+    "published_ago": "44분 전",
+    "published_at": "2026-07-14T00:30:25+00:00",
+    "published_raw": "Tue, 14 Jul 2026 00:30:25 GMT"
+  },
+  {
+    "title": "엔비디아 물량 쏟아지자 팹 증설 속도전…TSMC, 대만 자이에 AI 반도체 패키징 공장 2개 추가",
+    "link": "https://n.news.naver.com/mnews/hotissue/article/138/0002234088?type=series&cid=2000113",
+    "short_link": "n.news.naver.com/mnews/hotissue/article/138/0002234088",
+    "summary": "TSMC가 엔비디아 등 인공지능(AI) 반도체 고객사들의 주문 폭주로 인한 공급 병목 현상을 해소하기 위해 대만 남부 자이과학단지(Chiayi Science Park)에 차세대 첨단 반도체 패키징 공장 2개를 추가로 건설하기로 확정",
+    "published_ago": "54분 전",
+    "published_at": "2026-07-14T00:22:08+00:00",
+    "published_raw": "2026-07-14T00:22:08+00:00"
+  },
+  {
+    "title": "엔비디아 물량 쏟아지자 팹 증설 속도전…TSMC, 대만 자이에 AI 반도체 패키징 공장 2개 추가",
+    "link": "https://n.news.naver.com/mnews/article/138/0002234088",
+    "short_link": "n.news.naver.com/mnews/article/138/0002234088",
+    "summary": "TSMC가 엔비디아 등 인공지능(AI) 반도체 고객사들의 주문 폭주로 인한 공급 병목 현상을 해소하기 위해 대만 남부 자이과학단지(Chiayi Science Park)에 차세대 첨단 반도체 패키징 공장 2개를 추가로 건설하기로 확정",
+    "published_ago": "54분 전",
+    "published_at": "2026-07-14T00:22:08+00:00",
+    "published_raw": "2026-07-14T00:22:08+00:00"
+  },
+  {
+    "title": "C Sun은 고급 패키징 및 PCB 수요가 2026년 매출을 견인할 것으로 보고 있습니다.",
+    "link": "https://www.digitimes.com/news/a20260714PD205/revenue-2026-packaging-pcb-demand.html",
+    "short_link": "digitimes.com/news/a20260714PD205/revenue-2026-packaging-p...",
+    "summary": "PCB 및 반도체 장비 제조업체는 파운드리, 아웃소싱 반도체 조립 및 테스트, IC 기판, 고급 다층 보드 고객이 자본 지출을 늘리면서 전망이 여전히 긍정적이라고 말했",
+    "published_ago": "55분 전",
+    "published_at": "2026-07-14T00:19:21+00:00",
+    "published_raw": "Tue, 14 Jul 2026 00:19:21 GMT"
+  },
+  {
+    "title": "인텔, 아일랜드에 50억 유로 투자 발표… 반도체 공급망·생산 능전 확대",
+    "link": "https://n.news.naver.com/mnews/hotissue/article/138/0002234085?type=series&cid=2000113",
+    "short_link": "n.news.naver.com/mnews/hotissue/article/138/0002234085",
+    "summary": "인텔의 이번 투자는 렉스립 기지의 생산 능력을 확장하는 다음 단계로, 글로벌 인공지능(AI) 및 고성능 컴퓨팅 수요에 대응해 인텔 3 공정을 기반으로 한 '인텔 제온 6' 및 차세대 제온 프로세서 생산을 확대하기 위해 마련",
+    "published_ago": "59분 전",
+    "published_at": "2026-07-14T00:17:06+00:00",
+    "published_raw": "2026-07-14T00:17:06+00:00"
+  },
+  {
+    "title": "인텔, 아일랜드에 50억 유로 투자 발표… 반도체 공급망·생산 능전 확대",
+    "link": "https://www.ddaily.co.kr/page/view/2026071409161481780",
+    "short_link": "ddaily.co.kr/page/view/2026071409161481780",
+    "summary": "인텔의 이번 투자는 렉스립 기지의 생산 능력을 확장하는 다음 단계로, 글로벌 인공지능(AI) 및 고성능 컴퓨팅 수요에 대응해 인텔 3 공정을 기반으로 한 '인텔 제온 6' 및 차세대 제온 프로세서 생산을 확대하기 위해 마련",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-14T00:16:00+00:00",
+    "published_raw": "2026-07-14T00:16:00+00:00"
+  },
+  {
+    "title": "Gudeng Precision Industrial, 고급 반도체 캐리어 수요로 사상 최대 2분기 매출 달성",
+    "link": "https://www.digitimes.com/news/a20260714PD204/king-yuan-revenue-demand-2026-sales.html",
+    "short_link": "digitimes.com/news/a20260714PD204/king-yuan-revenue-demand...",
+    "summary": "Gudeng Precision Industrial Electronics는 첨단 노드 제조가 가속화됨에 따라 EUV 마스크 캐리어와 12인치 웨이퍼 캐리어에 대한 수요 증가에 힘입어 기록적인 6월 매출과 2026년 2분기 최고 분기 매출을 기록했",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-14T00:10:08+00:00",
+    "published_raw": "Tue, 14 Jul 2026 00:10:08 GMT"
+  },
+  {
+    "title": "AI 칩 검증 수요 강화로 iST 6월 매출 증가",
+    "link": "https://www.digitimes.com/news/a20260714PD203/revenue-ist-2026-demand-ai-chip.html",
+    "short_link": "digitimes.com/news/a20260714PD203/revenue-ist-2026-demand-...",
+    "summary": "iST(Integrated Service Technology Inc.)는 2026년 6월 연결 수익이 약 NT$4억 2,600만(미화 1,324만 달러)라고 보고했는데, 이는 5월보다",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-14T00:08:38+00:00",
+    "published_raw": "Tue, 14 Jul 2026 00:08:38 GMT"
+  },
+  {
+    "title": "자람테크놀로지, XGS-PON 반도체 13억원 수주…\"상용화 궤도\"",
+    "link": "https://zdnet.co.kr/view/?no=20260714084807",
+    "short_link": "zdnet.co.kr/view",
+    "summary": "지난 6월 말 첫 양산 발주를 확보한 지 약 2주 만에 추가 수주다 이번 계약금액 13억 원은 자람테크놀로지의 2025년 매출(106억원) 대비 12",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-14T00:06:07+00:00",
+    "published_raw": "2026-07-14T00:06:07+00:00"
+  },
+  {
+    "title": "Trusval은 AI 공장 수요로 인해 주문이 2027년으로 늘어나면서 상반기 매출 기록을 세웠습니다.",
+    "link": "https://www.digitimes.com/news/a20260714PD201/trusval-revenue-demand-expansion-capacity.html",
+    "short_link": "digitimes.com/news/a20260714PD201/trusval-revenue-demand-e...",
+    "summary": "Trusval Technology는 글로벌 AI 인프라 구축과 반도체 제조업체의 고급 프로세스 및 고급 패키징 용량의 지속적인 확장과 관련된 수요에 힘입어 2026년 2분기와 상반기에 기록적인 매출을 기록했",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-14T00:04:58+00:00",
+    "published_raw": "Tue, 14 Jul 2026 00:04:58 GMT"
+  },
+  {
+    "title": "인텔 “GPU·CPU·NPU 함께 작동하는 ‘이기종 컴퓨팅’이 차세대 AI 핵심”",
+    "link": "https://n.news.naver.com/mnews/article/016/0002669805",
+    "short_link": "n.news.naver.com/mnews/article/016/0002669805",
+    "summary": "산토쉬 비스와나탄 인텔 아시아·태평양지역 및 일본(APJ) 총괄 부사장은 지난 13일 헤럴드경제와 인터뷰에서 “과거 학습이 중심이던 AI 시대에는 GPU가 핵심 역할이었으나, 추론이 더욱 중요한 에이전트 AI 시대로 접어들면서 인프라 상황도 달라졌다”며 이같이 발표",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-14T00:01:15+00:00",
+    "published_raw": "2026-07-14T00:01:15+00:00"
+  },
+  {
+    "title": "중국, EUV 제한을 우회하기 위해 최초의 8인치 2D 칩 라인 출시",
+    "link": "https://www.digitimes.com/news/a20260713VL217/shanghai-euv-silicon-semiconductors-materials.html",
+    "short_link": "digitimes.com/news/a20260713VL217/shanghai-euv-silicon-sem...",
+    "summary": "Shanghai AtomIC Technology는 실험실 연구에서 엔지니어링 검증, 소규모 배치 테이프아웃 및 초기 산업화로의 전환을 의미하는 세계 최초의 2차원 반도체용 8인치 파일럿 라인을 출시했",
+    "published_ago": "2시간 전",
+    "published_at": "2026-07-13T23:03:26+00:00",
+    "published_raw": "Mon, 13 Jul 2026 23:03:26 GMT"
+  },
+  {
+    "title": "삼성전자, 패키징 분야에 HBM, 로직, 광학 기술 결합",
+    "link": "https://www.digitimes.com/news/a20260713VL223/samsung-hbm-optics-siph-packaging-chips.html",
+    "short_link": "digitimes.com/news/a20260713VL223/samsung-hbm-optics-siph-...",
+    "summary": "삼성전자는 AI 데이터센터가 직면하고 있는 전력 소비 증가와 데이터 전송 병목 현상을 해결하기 위해 고대역폭 메모리(HBM), 로직 칩, 실리콘 포토닉스(SiPh)를 결합한 첨단 패키징 기술을 개발하고 있",
+    "published_ago": "2시간 전",
+    "published_at": "2026-07-13T23:02:43+00:00",
+    "published_raw": "Mon, 13 Jul 2026 23:02:43 GMT"
+  },
+  {
+    "title": "“6월에만 20조 벌었습니다”…TSMC 6월 매출, 비수기 뚫고 역대급",
     "link": "https://n.news.naver.com/mnews/article/009/0005707011",
     "short_link": "n.news.naver.com/mnews/article/009/0005707011",
     "summary": "쿤도잘라 애널리스트는 “AI 반도체 시장은 여전히 공급이 수요를 따라가지 못하고 있다”며 “TSMC의 3나노(N3) 공정은 올해 주요 AI GPU와 CPU 생산에 사용되면서 사실상 생산능력이 모두 예약된 상태”라고 설명",
-    "published_ago": "1시간 전",
+    "published_ago": "2시간 전",
     "published_at": "2026-07-13T22:28:10+00:00",
     "published_raw": "2026-07-13T22:28:10+00:00"
   },
@@ -13,7 +148,7 @@
     "link": "https://www.hankyung.com/article/202607132253g",
     "short_link": "hankyung.com/article/202607132253g",
     "summary": "TSMC, 지난달 매출 4427억대만달러 한 달 만에 월간 매출액 신기록 '경신' 사진=REUTERS· 세계 최대 파운드리(반도체 수탁생산) 업체 TSMC가 인공지능(AI) 반도체 수요에 힘입어 월간 최대 매출 기록을 달성",
-    "published_ago": "2시간 전",
+    "published_ago": "4시간 전",
     "published_at": "2026-07-13T21:00:01+00:00",
     "published_raw": "2026-07-13T21:00:01+00:00"
   },
