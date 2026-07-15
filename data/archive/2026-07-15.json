@@ -1,12 +1,93 @@
 [
   {
-    "title": "“후회 안 해요” 삼전 반도체 떠난 최수진 바텐더의 ‘피어오름’[피플]",
+    "title": "\"후회 안 해요\"…삼전 반도체 떠난 최수진 바텐더의 '피어 오름'[피플]",
     "link": "https://www.newsis.com/view/NISX20260714_0003709007",
     "short_link": "newsis.com/view/NISX20260714_0003709007",
     "summary": "최수진 바텐더가 9일 서울 강남구 그랜드 머큐어 임피리얼 팰리스 서울 강남 호텔의 '더 바'에서 와 인터뷰에 앞서 김승수 바텐더와 함께 포즈를 취",
-    "published_ago": "2분 전",
-    "published_at": "2026-07-14T23:44:50+00:00",
-    "published_raw": "2026-07-14T23:44:50+00:00"
+    "published_ago": "24분 전",
+    "published_at": "2026-07-15T00:53:22+00:00",
+    "published_raw": "2026-07-15T00:53:22+00:00"
+  },
+  {
+    "title": "중국의 Orient Computing, HBM의 제약을 우회하도록 설계된 14nm AI 칩 공개",
+    "link": "https://www.digitimes.com/news/a20260714VL211/shanghai-hbm-14nm-ai-chip-performance.html",
+    "short_link": "digitimes.com/news/a20260714VL211/shanghai-hbm-14nm-ai-chi...",
+    "summary": "Shanghai Orient Computing Core Technology는 Sohu와 ICsmart가 보도한 대로 고급 프로세스 노드와 고대역폭 메모리에 대한 의존도를 줄이기 위해 소프트웨어 정의 컴퓨팅과 3D 스택형 근접 메모리 아키텍처를 사용하는 14나노미터 AI 가속기인 DF1000을 출시했",
+    "published_ago": "22분 전",
+    "published_at": "2026-07-15T00:48:55+00:00",
+    "published_raw": "Wed, 15 Jul 2026 00:48:55 GMT"
+  },
+  {
+    "title": "한미반도체 곽동신 회장 “마라톤 선수처럼 매년 기록 경신할 것”",
+    "link": "https://www.mk.co.kr/news/business/12098918",
+    "short_link": "mk.co.kr/news/business/12098918",
+    "summary": "곽 회장은 “지속적인 AI 반도체 시장 수요 증가로 한미반도체 장비의 쇼티지(공급 부족) 현상이 나타날 것으로 예상된다”라며 “최근 글로벌 메모리 기업들이 고대역폭메모리(HBM) 시설투자 확대 계획을 잇따라 발표하고, 팹 가동을 앞당겨 TC 본더 수요가 급증한 데다, 파운드리 기업들까지 투자를 대폭 늘리고 있는",
+    "published_ago": "28분 전",
+    "published_at": "2026-07-15T00:45:12+00:00",
+    "published_raw": "2026-07-15T00:45:12+00:00"
+  },
+  {
+    "title": "QBit Semiconductor 6월 매출은 SoC 및 ASIC 수요 증가로 사상 최대치를 기록했습니다.",
+    "link": "https://www.digitimes.com/news/a20260713PD225/revenue-asic-soc-2026-ic-design.html",
+    "short_link": "digitimes.com/news/a20260713PD225/revenue-asic-soc-2026-ic...",
+    "summary": "QBit Semiconductor는 2026년 6월 연결 수익이 NT$1억 3200만(US$410만)으로 전월 대비 108 대만에 본사를 둔 IC 설계 회사는 2026년 상반기 매출이 NT$3억 2천만에 도달했다고 밝혔",
+    "published_ago": "26분 전",
+    "published_at": "2026-07-15T00:45:07+00:00",
+    "published_raw": "Wed, 15 Jul 2026 00:45:07 GMT"
+  },
+  {
+    "title": "CXMT의 미화 43억 달러 IPO로 글로벌 메모리 거대 기업에 대한 중국의 HBM 도전이 강화되었습니다.",
+    "link": "https://www.digitimes.com/news/a20260713VL220/cxmt-hbm-samsung-ipo-micron.html",
+    "short_link": "digitimes.com/news/a20260713VL220/cxmt-hbm-samsung-ipo-mic...",
+    "summary": "CXMT는 2026년 중국 최대 칩 부문 IPO를 준비하고 있으며 DRAM 및 HBM 용량을 확장하고 수직적 통합을 심화하며 AI 수요 증가와 미국 수출 통제 강화 하에서 삼성전자, SK하이닉스, 마이크론 테크놀로지에 도전하기 위해 최대 43억 달러를 모색하고 있",
+    "published_ago": "28분 전",
+    "published_at": "2026-07-15T00:43:32+00:00",
+    "published_raw": "Wed, 15 Jul 2026 00:43:32 GMT"
+  },
+  {
+    "title": "Jensen Huang은 주권적인 AI 개발이 핵무기를 능가한다고 말했습니다.",
+    "link": "https://www.digitimes.com/news/a20260714PD228/ai-infrastructure-gpu-jensen-huang-tsmc.html",
+    "short_link": "digitimes.com/news/a20260714PD228/ai-infrastructure-gpu-je...",
+    "summary": "기술 산업의 관심이 미국 거대 기술 기업과 TSMC에 집중됨에 따라 주권 AI는 더 나은 마진을 추구하는 AI 인프라 제공업체, 공급망 플레이어 및 컴퓨팅 임대 사업자에게 빠르게 성장하는 블루오션으로 부상했",
+    "published_ago": "31분 전",
+    "published_at": "2026-07-15T00:40:57+00:00",
+    "published_raw": "Wed, 15 Jul 2026 00:40:57 GMT"
+  },
+  {
+    "title": "美, 엔비디아 H200 중국 출하 공식 확인…국내 AI 메모리 업계 ‘수혜 기대’",
+    "link": "https://www.dt.co.kr/article/12072986",
+    "short_link": "dt.co.kr/article/12072986",
+    "summary": "미국 상무부 “H200 중국 출하 시작…물량은 아직 제한적” 미국 정부가 엔비디아의 인공지능(AI) 가속기 H200의 중국 출하가 시작됐다고 공식 확인하면서 국내 메모리 업계에 대한 기대감이 커지고",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-15T00:13:29+00:00",
+    "published_raw": "2026-07-15T00:13:29+00:00"
+  },
+  {
+    "title": "가온전선, SK하이닉스 용인 클러스터에 배전케이블 공급…반도체 전력시장 공략",
+    "link": "https://www.dt.co.kr/article/12072984",
+    "short_link": "dt.co.kr/article/12072984",
+    "summary": "기존 이천·청주 공장에 이어 용인 클러스터까지 공급을 확대하며 국내 반도체 생산시설 전력망 구축 사업 기반을 넓힌다는 전략 이번 공급으로 가온전선은 기존 SK하이닉스 이천·청주 공장에 이어 용인 클러스터까지 공급 실적을 확보하게",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-15T00:02:44+00:00",
+    "published_raw": "2026-07-15T00:02:44+00:00"
+  },
+  {
+    "title": "산업장관 \"반도체 이익, 미래 대비 투자에 우선 투입해야\"",
+    "link": "https://www.yna.co.kr/view/AKR20260714184700003?section=industry/electronics",
+    "short_link": "yna.co.kr/view/AKR20260714184700003",
+    "summary": "구독 구독중 이전 다음 AI시대 선도 위해 재투자 강조…사회적 재분배론과 온도차 이미지 확대 답변하는 김정관 장관 = 김정관 산업통상부 장관이 20일 청와대에서 열린 국무회의 겸 비상경제점검회의에서 이재명 대통령 질문에 답",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-15T00:00:01+00:00",
+    "published_raw": "2026-07-15T00:00:01+00:00"
+  },
+  {
+    "title": "美 SK온·현대차 합작공장, 전기차 배터리 양산 시작",
+    "link": "https://www.edaily.co.kr/News/Read?newsId=03001206645514848&mediaCodeNo=257",
+    "short_link": "edaily.co.kr/News/Read",
+    "summary": "앞서 현대차그룹은 지난 2023년 4월 HSBMA에서 생산된 배터리 셀을 현대모비스가 배터리 팩으로 제작해 미국에서 생산하는 현대차, 기아, 제네시스 전기차에 전량 공급할 예정이라고 발표한 바",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-14T23:59:17+00:00",
+    "published_raw": "2026-07-14T23:59:17+00:00"
   },
   {
     "title": "반도체에 기댄 ‘3% 성장 목표’…온기 확산 위해 K자 양극화 풀어야",
@@ -31,7 +112,7 @@
     "link": "https://www.mt.co.kr/industry/2026/07/15/2026071419383447290",
     "short_link": "mt.co.kr/industry/2026/07/15/2026071419383447290",
     "summary": "2025년 차량용 D램 시장 점유율/그래픽=이지혜 IT(정보기술)기기와 AI(인공지능) 서버에 이어 자동차가 메모리반도체(이하 메모리)의 핵심 수요처로 부상 시장확대가 본격화하면서 차량용 메모리 시장 주도권을 둘러싼 '메모리 3사'(삼성전자·SK하이닉스·마이크론테크놀로지)간 경쟁도 한층 치열해질 전망",
-    "published_ago": "4시간 전",
+    "published_ago": "5시간 전",
     "published_at": "2026-07-14T19:17:00+00:00",
     "published_raw": "2026-07-14T19:17:00+00:00"
   },
