@@ -89,12 +89,6 @@
     "source": "rule_based",
     "cached_at": 1783918976.807154
   },
-  "https://www.edaily.co.kr/News/Read?newsId=02118886645513864&mediaCodeNo=257": {
-    "title": "",
-    "summary": "그는 “미국은 가장 큰 시장이고 주요 고객들도 대부분 이곳에 있다”며 “고객들은 공급망 안정성을 원하고 있고 미국에 생산시설을 갖춰주기를 희망하는 목소리가 많다” 언급..이를테면 현재 SK하이닉스 고대역폭메모리(HBM)의 직접 수출지는 주로 대만",
-    "source": "rule_based",
-    "cached_at": 1783886817.078793
-  },
   "https://n.news.naver.com/mnews/article/009/0005706315": {
     "title": "",
     "summary": "광주과학기술원(GIST)이 세계적인 반도체 회사들과 구축한 네트워크가 증거..” 임기철 GIST 총장은 매경과 인터뷰 내내 광주 반도체 팹이 ‘천금같은 기회’라고 강조 2023년 취임 직후부터 반도체 생태계를 구성하기 위한 준비를 해온 임 총장은 엔비디아와 Arm, 내셔널인스트루먼트 등 세계적인 반도체 회사들과 협력 생태계를 구축",
@@ -1383,7 +1377,7 @@
     "title": "",
     "summary": "최수진 바텐더가 9일 서울 강남구 그랜드 머큐어 임피리얼 팰리스 서울 강남 호텔의 '더 바'에서 와 인터뷰에 앞서 김승수 바텐더와 함께 포즈를 취",
     "source": "rule_based",
-    "cached_at": 1784142046.990325
+    "cached_at": 1784149646.632973
   },
   "https://n.news.naver.com/mnews/hotissue/article/138/0002234189?type=series&cid=2000113": {
     "title": "",
@@ -1539,7 +1533,7 @@
     "title": "",
     "summary": "기업공개(IPO)를 앞둔 세계 4위 D램 업체 중국 창신메모리테크놀로지(CXMT)가 글로벌 메모리 반도체 투톱인 삼성전자·SK하이닉스와 비교해 뒤지지 않는 최신 D램 경쟁력을 갖췄다고 자평",
     "source": "rule_based",
-    "cached_at": 1784089652.259129
+    "cached_at": 1784149373.824872
   },
   "https://n.news.naver.com/mnews/article/009/0005707695": {
     "title": "",
@@ -1659,7 +1653,7 @@
     "title": "",
     "summary": "] = 전남광주통합특별시의회가 정부의 최대 20조원의 재정 인센티브 지원을 촉구하면서 민형배 특별시장의 통합지원금 반도체 산업 투입 구상에는 제동을 걸었다 전남권 시의원들이 20조원 규모의 통합 인센티브를 반도체 산업 투자에 집중적으로 활용하는 데에 사실상 반대 목소리를 낸 것으로 풀이",
     "source": "rule_based",
-    "cached_at": 1784141907.917706
+    "cached_at": 1784149452.479286
   },
   "https://www.yna.co.kr/view/AKR20260715115700001?section=industry/electronics": {
     "title": "",
@@ -1707,7 +1701,7 @@
     "title": "",
     "summary": "아모텍 관계자는 “AI 시장 확대와 함께 고성능 GPU 및 초고속 광네트워크 투자 증가로 초고주파 제품과 고압 MLCC 기술 경쟁력이 부각되고 있다”며 “하반기 양산을 계기로 AI 데이터센터와 글로벌 전장 시장을 아우르는 핵심 부품 공급사로 자리매김하겠다” 언급",
     "source": "rule_based",
-    "cached_at": 1784114450.998293
+    "cached_at": 1784149715.588417
   },
   "https://www.digitimes.com/news/a20260715VL229/asml-intel-foundry-euv-production.html": {
     "title": "",
@@ -1779,7 +1773,7 @@
     "title": "",
     "summary": "이와 함께 글로벌 반도체 장비업체인 도쿄일렉트론코리아도 조만간 조합원 모집에 나서는 등 노조 설립을 추진하는 확인 그동안 반도체 업계의 노조 활동은 삼성전자와 SK하이닉스 등 제조사를 중심으로 이뤄졌지만, 최근에는 장비업체로 조직화 움직임이 이어지는 양상",
     "source": "rule_based",
-    "cached_at": 1784141893.900371
+    "cached_at": 1784149432.590669
   },
   "https://www.yna.co.kr/view/AKR20260715132300053?section=industry/electronics": {
     "title": "",
@@ -1821,7 +1815,7 @@
     "title": "",
     "summary": "김장호 시장은 15일 구미 들과 만나 “서남권에 대규모 메모리 반도체 팹 공장 투자가 발표됐지만, 진행 과정에서 걸림돌이 생기면 언제든지 다시 구미로 올 수 있다고 생각한다”며 “구미는 고품질의 전기와 하루 100만톤 규모의 낙동강 용수(여유 70만톤), 평당 1000원에 공급 가능한 산업 부지 등 인프라를 모두 갖추고",
     "source": "rule_based",
-    "cached_at": 1784142019.963889
+    "cached_at": 1784149617.699488
   },
   "https://www.digitimes.com/news/a20260715PR200/jcet-profit-demand-earnings-infrastructure.html": {
     "title": "JCET, AI 칩 수요로 상반기 이익 증가 예상",
@@ -1869,7 +1863,7 @@
     "title": "",
     "summary": "경기도는 15일 추미애 지사 주재로 '제2차 반도체 초격차 전략회의'를 열고 삼성전자 등 앵커기업 투자 지원, 기반시설 확충, 소재·부품·장비(소부장) 생태계 강화, 거버넌스 정비 등 4개 과제를 점검",
     "source": "rule_based",
-    "cached_at": 1784142016.772781
+    "cached_at": 1784149614.884188
   },
   "https://www.edaily.co.kr/News/Read?newsId=06235286645514848&mediaCodeNo=257": {
     "title": "",
@@ -1911,19 +1905,19 @@
     "title": "",
     "summary": "2026 테크 오픈 콜라보레이션에서 김영식 SK에코플랜트 사장(왼쪽에서 7번째), 공동주최 기관 관계자, 수상기업 대표 등이 기념촬영을 하는 모습",
     "source": "rule_based",
-    "cached_at": 1784142033.569309
+    "cached_at": 1784149637.090174
   },
   "https://www.newsis.com/view/NISX20260715_0003710814": {
     "title": "",
     "summary": "(왼쪽부터) 양영구 성균관대 국방 우주 반도체 공동 R＆D 센터장, 곽종우 한화시스템 기반연구소장, 이혁재 서울대 국방우주반도체 공동연구사업단 센터장이 15일 기념 촬영하는 모습",
     "source": "rule_based",
-    "cached_at": 1784142037.097907
+    "cached_at": 1784149639.048478
   },
   "https://www.newsis.com/view/NISX20260715_0003709850": {
     "title": "",
     "summary": "가온전선은 최근 SK하이닉스 용인 반도체 클러스터에 수백억원 규모의 배전 케이블을 공급했 언급 가온전선은 국내 배전 케이블 시장에서 쌓은 공급 경험과 LS전선과의 협업을 바탕으로 국내외 반도체 전력 인프라 시장 공략을 강화한다는 방침",
     "source": "rule_based",
-    "cached_at": 1784142043.187495
+    "cached_at": 1784149643.377999
   },
   "https://www.newsis.com/view/NISX20260714_0003709120": {
     "title": "",
@@ -1948,5 +1942,23 @@
     "summary": "세계 최대 파운드리(반도체 위탁생산) 업체인 TSMC가 16일 2분기 확정 실적을 발표 이미 월별 실적을 공개한 TSMC는 앞서 제시했던 2분기 매출 전망치 상단을 넘어선 전망",
     "source": "rule_based",
     "cached_at": 1784146285.738482
+  },
+  "https://www.edaily.co.kr/News/Read?newsId=01669526645515176&mediaCodeNo=257": {
+    "title": "",
+    "summary": "구글·애플 등 미국 빅테크들이 삼성전자·SK하이닉스 등 공급사에 요구한 RE100(재생에너지 100%) 시한이 불과 3~4년 앞으로 다가왔기 때문 SK하이닉스 역시 2030년 RE100 달성률 33%를 목표로 하고 있지만 국내에선 재생에너지 발전량 자체가 부족한 탓에 구매할 청정전력 자체가 부족해 어려움을 겪는 확인",
+    "source": "rule_based",
+    "cached_at": 1784149657.749044
+  },
+  "https://www.edaily.co.kr/News/Read?newsId=01666246645515176&mediaCodeNo=257": {
+    "title": "",
+    "summary": "호남 반도체 클러스터 조성 계획이 선언에 머물지 않고 대만 TSMC 가오슝 클러스터가 보여준 단기 초고속 가동의 기적으로 이어지려면, 전력과 용수 측면에서 반드시 세 가지 과제를 해결",
+    "source": "rule_based",
+    "cached_at": 1784149666.899406
+  },
+  "https://www.edaily.co.kr/News/Read?newsId=01662966645515176&mediaCodeNo=257": {
+    "title": "",
+    "summary": "호남 반도체 공장(팹)을 중심으로 한 3대 메가 프로젝트 발표 이후 이 초대형 프로젝트에 필요한 대규모 전력·용수를 어떻게 공급할 것인지가 핵심 과제로 떠오르고 현재 진행 중인 용인 반도체 팹 10기에 필요한 전력 15GW까지 포함하면 주요 반도체·AI 전력수요는 40GW에 육박",
+    "source": "rule_based",
+    "cached_at": 1784149723.019658
   }
 }
