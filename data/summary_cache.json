@@ -23,23 +23,11 @@
     "source": "rule_based",
     "cached_at": 1783882144.629284
   },
-  "https://www.dt.co.kr/article/12072319": {
-    "title": "",
-    "summary": "마이크로LED, 광인터커넥트, 글라스 코어 기판 등 차세대 디스플레이와 반도체 후공정 영역으로 기술 투자를 확대하며 삼성디스플레이와 LG디스플레이가 주도해온 고부가 시장에 도전장을 내밀고",
-    "source": "rule_based",
-    "cached_at": 1783841376.2254
-  },
   "https://www.yna.co.kr/view/AKR20260710112900054?section=industry/electronics": {
     "title": "",
     "summary": "구독 구독중 이전 다음 '직주락' 복합도시안 수정 불가피…산업용지 확정 뒤 재설계 이미지 확대 광주 군 공항 부지에 호남권 반도체 클러스터 조성 [ 자료사진] (전남광주= ) = 호남권 반도체 클러스터 입지가 광주 군공항으로 확정되면서 백만평숲과 주거·상업·문화시설 등을 담은 기존 군공항 종전부지 개발구상이 전면 재검토된",
     "source": "rule_based",
     "cached_at": 1783899884.465685
-  },
-  "https://www.dt.co.kr/article/12072347": {
-    "title": "",
-    "summary": "전력·용수 인프라 조기 구축 땐 AI 반도체 생산도 앞당겨 삼성전자가 용인 반도체 국가산업단지에 들어설 첫 번째 반도체 생산공장(팹)의 가동 시점을 당초 계획보다 정부가 추진하는 3기가와트(GW) 규모 액화천연가스(LNG) 발전소 조기 착공과 전력 공급 일정 단축, 단계별 용수 공급 계획이 차질 없이 추진될 경우 첫 번째 팹의 2029년 가동 가능성도",
-    "source": "rule_based",
-    "cached_at": 1783841366.176805
   },
   "https://www.etnews.com/20260712000039": {
     "title": "",
@@ -65,12 +53,6 @@
     "source": "rule_based",
     "cached_at": 1783848404.594138
   },
-  "https://n.news.naver.com/mnews/article/138/0002233918": {
-    "title": "",
-    "summary": "◆ 구글코리아, AI 포 비즈니스 2026 개최=에이전트 AI 시대 기업 업무 혁신을 주제로 오는 14일 서울 신라호텔 에메랄드 홀에서 구글코리아가 주최하는 'AI 포 비즈니스 2026'가 열린다",
-    "source": "rule_based",
-    "cached_at": 1783841199.254933
-  },
   "https://www.yna.co.kr/view/AKR20260710169900017?section=industry/electronics": {
     "title": "",
     "summary": "구독 구독중 이전 다음 이미지 확대 과학기술정보통신부 [과학기술정보통신부 제공] (서울= ) = 과학기술정보통신부는 13∼14일 부산에서 '2026년 반도체 사업 성과교류회'를 연다고 12일 발표",
@@ -88,12 +70,6 @@
     "summary": "◆ 구글코리아, AI 포 비즈니스 2026 개최=에이전트 AI 시대 기업 업무 혁신을 주제로 오는 14일 서울 신라호텔 에메랄드 홀에서 구글코리아가 주최하는 'AI 포 비즈니스 2026'가 열린다",
     "source": "rule_based",
     "cached_at": 1783899938.3361
-  },
-  "https://www.newsis.com/view/NISX20260710_0003704173": {
-    "title": "",
-    "summary": "호남권 반도체 클러스터가 광주 군공항 부지에 조성 .광주 군공항 지역은 250만평 규모의 부지 확보가 가능하고 공항 특성상 이미 평탄화가 완료돼",
-    "source": "rule_based",
-    "cached_at": 1783841503.069659
   },
   "https://www.newsis.com/view/NISX20260712_0003705624": {
     "title": "",
@@ -124,12 +100,6 @@
     "summary": "12일 반도체업계에 따르면 삼성전자는 용인 국가산단 1호 팹의 가동 목표를 2029년으로 잡고 사업 일정을 조율 중인 확인 한편 반도체업계에서는 삼성전자의 용인 1호 팹 가동 시점이 앞당겨질 경우 급증하는 인공지능(AI) 반도체 수요 대응과 국내 소부장 생태계 구축에도 속도가 붙을 것으로 보고",
     "source": "rule_based",
     "cached_at": 1783899934.894639
-  },
-  "https://www.etnews.com/20260712000073": {
-    "title": "",
-    "summary": "세 기관은 △첨단 반도체 패키징 분야 전문인재 양성을 위한 교육과정(비교과, 단기, 재직자 교육 등) 공동 기획 및 운영 △반도체 공정·패키징·소재·장비·설계·테스트·신뢰성 평가 등 첨단 반도체패키징 기술 관련 교육·연구 프로그램 공동 개발 △학생 및 재직자 실무역량 강화를 위한 현장 중심 교육, 실습, 세미나, 워크숍",
-    "source": "rule_based",
-    "cached_at": 1783841474.861848
   },
   "https://www.newsis.com/view/NISX20260712_0003705766": {
     "title": "",
@@ -1485,7 +1455,7 @@
     "title": "",
     "summary": "최수진 바텐더가 9일 서울 강남구 그랜드 머큐어 임피리얼 팰리스 서울 강남 호텔의 '더 바'에서 와 인터뷰에 앞서 김승수 바텐더와 함께 포즈를 취",
     "source": "rule_based",
-    "cached_at": 1784097954.828485
+    "cached_at": 1784106838.572247
   },
   "https://n.news.naver.com/mnews/hotissue/article/138/0002234189?type=series&cid=2000113": {
     "title": "",
@@ -1497,37 +1467,37 @@
     "title": "",
     "summary": "Tower Semiconductor는 인공 지능 구축을 통해 데이터 센터가 전기가 아닌 빛으로 데이터를 이동하게 될 것이라는 데 약 30억 달러를 베팅하고 있으며 도쿄의 지원을 받아 일본에 베팅을 고정하고 있",
     "source": "rule_based",
-    "cached_at": 1784097634.198934
+    "cached_at": 1784106507.698109
   },
   "https://www.digitimes.com/news/a20260714VL211/shanghai-hbm-14nm-ai-chip-performance.html": {
     "title": "",
     "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:288;114-401\"Shanghai Orient Computing Core Technology는 emSohu/em 및 emICsmart/em이 보고한 바와 같이 소프트웨어 정의 컴퓨팅 및 3D 스택 근접 메모리 아키텍처를 사용하여 고급 프로세스 노드 및",
     "source": "rule_based",
-    "cached_at": 1784097641.397523
+    "cached_at": 1784106508.682867
   },
   "https://www.digitimes.com/news/a20260714VL204/government-capacity-electricity-demand-lges.html": {
     "title": "",
     "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:234;92-325\"한국은 2030년까지 남서부의 새로운 반도체 클러스터에 전력 ​​공급 계획을 가속화하고 있으며, 칩 팹과 AI 데이터 센터가 전력 수요를 추가함에 따라 국내 에너지 저장 시장을 잠재적으로 확장할 수 있",
     "source": "rule_based",
-    "cached_at": 1784097642.789005
+    "cached_at": 1784106509.116037
   },
   "https://www.digitimes.com/news/a20260713PD225/revenue-asic-soc-2026-ic-design.html": {
     "title": "",
     "summary": "QBit Semiconductor는 2026년 6월 연결 수익이 NT$1억 3200만(US$410만)으로 전월 대비 108 대만에 본사를 둔 IC 설계 회사는 2026년 상반기 매출이 NT$3억 2천만에 도달했다고 밝혔",
     "source": "rule_based",
-    "cached_at": 1784097644.969456
+    "cached_at": 1784106509.559567
   },
   "https://www.digitimes.com/news/a20260713VL220/cxmt-hbm-samsung-ipo-micron.html": {
     "title": "",
-    "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:270;105-374\"CXMT는 2026년 중국 최대 칩 부문 IPO를 준비하고 있으며, DRAM 및 HBM 용량을 확장하고 수직적 통합을 심화하며 AI 수요 증가와 미국 수출 통제 강화 하에서 삼성전자, SK하이닉스, 마이크론 테크놀로지에 도전하기 위해",
+    "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:270;105-374\"CXMT는 2026년 중국 최대 칩 부문 IPO를 준비하고 있으며, DRAM 및 HBM 용량을 확장하고 수직적 통합을 심화하며 AI 수요 증가와 미국 수출 통제 강화 하에서 삼성전자, SK 하이닉스, 마이크론 테크놀로지에 도전하기 위해",
     "source": "rule_based",
-    "cached_at": 1784097650.291076
+    "cached_at": 1784106511.500977
   },
   "https://www.digitimes.com/news/a20260714PD228/ai-infrastructure-gpu-jensen-huang-tsmc.html": {
     "title": "",
     "summary": "기술 산업의 관심이 미국 거대 기술 기업과 TSMC에 집중됨에 따라 주권 AI는 더 나은 마진을 추구하는 AI 인프라 제공업체, 공급망 플레이어 및 컴퓨팅 임대 사업자에게 빠르게 성장하는 블루오션으로 부상했",
     "source": "rule_based",
-    "cached_at": 1784097656.358097
+    "cached_at": 1784106513.628523
   },
   "https://n.news.naver.com/mnews/article/015/0005310019": {
     "title": "",
@@ -1539,19 +1509,19 @@
     "title": "",
     "summary": "곽 회장은 “지속적인 AI 반도체 시장 수요 증가로 한미반도체 장비의 쇼티지(공급 부족) 현상이 나타날 것으로 예상된다”라며 “최근 글로벌 메모리 기업들이 고대역폭메모리(HBM) 시설투자 확대 계획을 잇따라 발표하고, 팹 가동을 앞당겨 TC 본더 수요가 급증한 데다, 파운드리 기업들까지 투자를 대폭 늘리고 있는",
     "source": "rule_based",
-    "cached_at": 1784097725.619202
+    "cached_at": 1784106587.716252
   },
   "https://www.yna.co.kr/view/AKR20260714184700003?section=industry/electronics": {
     "title": "",
     "summary": "구독 구독중 이전 다음 AI시대 선도 위해 재투자 강조…사회적 재분배론과 온도차 이미지 확대 답변하는 김정관 장관 = 김정관 산업통상부 장관이 20일 청와대에서 열린 국무회의 겸 비상경제점검회의에서 이재명 대통령 질문에 답",
     "source": "rule_based",
-    "cached_at": 1784097801.664198
+    "cached_at": 1784106695.459626
   },
   "https://www.dt.co.kr/article/12072986": {
     "title": "",
     "summary": "미국 상무부 “H200 중국 출하 시작…물량은 아직 제한적” 미국 정부가 엔비디아의 인공지능(AI) 가속기 H200의 중국 출하가 시작됐다고 공식 확인하면서 국내 메모리 업계에 대한 기대감이 커지고",
     "source": "rule_based",
-    "cached_at": 1784097823.605553
+    "cached_at": 1784106707.04212
   },
   "https://www.dt.co.kr/article/12072984": {
     "title": "",
@@ -1569,55 +1539,55 @@
     "title": "",
     "summary": "앞서 현대차그룹은 지난 2023년 4월 HSBMA에서 생산된 배터리 셀을 현대모비스가 배터리 팩으로 제작해 미국에서 생산하는 현대차, 기아, 제네시스 전기차에 전량 공급할 예정이라고 발표한 바",
     "source": "rule_based",
-    "cached_at": 1784097971.172845
+    "cached_at": 1784106857.333557
   },
   "https://www.digitimes.com/news/a20260715VL218/ic-manufacturing-equipment-investment-sales-2026.html": {
     "title": "",
     "summary": "업계 협회 SEMI의 상반기 전망에 따르면, 2026년 전세계 반도체 제조 장비 매출은 전년 대비 23 AI가 칩 산업의 투자 환경을 재편함에 따라 이러한 성장은 앞으로도 계속될 것으로 예상됩니다",
     "source": "rule_based",
-    "cached_at": 1784097598.308358
+    "cached_at": 1784106493.367872
   },
   "https://www.digitimes.com/news/a20260715VL217/sk-hynix-equipment-fab-dram-cleanroom.html": {
     "title": "",
-    "summary": "반도체 및 장비 업계 소식통을 인용해 에 따르면 SK하이닉스는 용인 Y1 팹의 1단계 첨단 DRAM 제조 장비에 대한 주문을 주요 공급업체에 시작했으며, 초기 설치를 통해 월 약 20,000장의 웨이퍼 생산을 지원할 것으로 예상됩니다",
+    "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:324;126-449\"SK하이닉스는 용인 Y1 팹 1단계의 첨단 DRAM 제조 장비를 주요 공급업체에 주문하기 시작했으며, 반도체 및 장비 업계 소식통을 인용해 em /em에 따르면 초기 설치로 월 약 20,000장의 웨이퍼 생산을 지원할 것으로 예상됩니다",
     "source": "rule_based",
-    "cached_at": 1784097600.827424
+    "cached_at": 1784106494.888556
   },
   "https://www.digitimes.com/news/a20260715VL202/openai-apple-speaker-google-amazon.html": {
     "title": "",
     "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:275;132-406\"OpenAI의 첫 번째 소비자 장치는 집 중앙에 대한 직접 입찰로 형성되고 있 이는 ChatGPT 제조업체가 상장을 준비하는 동시에 Apple, Amazon 및 Alphabet의 Google과 맞서게 하는 움직임",
     "source": "rule_based",
-    "cached_at": 1784097602.717259
+    "cached_at": 1784106495.303341
   },
   "https://www.digitimes.com/news/a20260715VL214/samsung-sk-hynix-nand-flash-design-talent-poaching-legal.html": {
     "title": "",
     "summary": "전직 낸드플래시 설계 직원 2명이 2027년 4월 30일까지 경쟁사인 SK하이닉스나 그 계열사에 근무하는 것을 금지해 달라는 삼성전자의 요청을 한국 법원이 부분적으로 받아들였다고 가 보도했",
     "source": "rule_based",
-    "cached_at": 1784097611.497112
+    "cached_at": 1784106498.133634
   },
   "https://www.digitimes.com/news/a20260715VL207/china-smartphone-market-huawei-apple-idc.html": {
     "title": "",
     "summary": "중국 스마트폰 시장은 기기에 대한 선호도 상실보다는 휴대폰 내부 부품 가격에 따라 재편되고 있으며, 2026년 2분기에는 그 변화 보상이 나타났 7월 14일 발표된 IDC의 Quarterly Mobile Phone Tracker에 따르면 출하량은 약 6,600만 대로 전년 대비 4",
     "source": "rule_based",
-    "cached_at": 1784097612.585053
+    "cached_at": 1784106498.564587
   },
   "https://www.digitimes.com/news/a20260715VL213/startup-chips-qualcomm-development-acquisition.html": {
     "title": "",
     "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:285;136-420\"Qualcomm이 인수한 연결성 칩 전문업체인 AlphaWave의 전 임원이 설립한 반도체 스타트업인 TYLSemi는 기업이 개방형 칩렛 기반 접근 방식을 통해 맞춤형 AI 칩을 개발할 수 있도록 지원하기 위해 초기 단계 자금",
     "source": "rule_based",
-    "cached_at": 1784097614.262533
+    "cached_at": 1784106499.026525
   },
   "https://www.digitimes.com/news/a20260715VL212/apple-iphone-ai-silicon-valley-startup.html": {
     "title": "",
     "summary": "이는 클라우드 컴퓨팅에 대한 의존도를 줄이면서 성능을 향상시킬 수 있는 조치",
     "source": "rule_based",
-    "cached_at": 1784097620.755027
+    "cached_at": 1784106502.544932
   },
   "https://www.digitimes.com/news/a20260714VL215/intel-processor-performance-manufacturing-design.html": {
     "title": "",
     "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:472;114-585\"인텔은 지구 대기권 밖에서도 생존할 수 있도록 설계된 위성 및 기타 시스템용 최첨단 18A 제조 공정을 활용하는 우주 등급 프로세서인 Starfire를 공개했",
     "source": "rule_based",
-    "cached_at": 1784097631.584823
+    "cached_at": 1784106505.131952
   },
   "https://n.news.naver.com/mnews/hotissue/article/001/0016194295?type=series&cid=2003062": {
     "title": "",
@@ -1653,13 +1623,13 @@
     "title": "",
     "summary": "15일 열린 '국방 반도체 기술 워크숍'에서 주요 관계자들이 기념촬영을 하고 있다/사진제공=한화시스템 한화시스템(65,800원 ▲3,200 +5 한화시스템은 확보된 기술을 내재화해 올해부터 2028년까지 순차적으로 위성 단말에 해당 반도체를 적용한 뒤 2028년 이후에는 저궤도 위성 통신 탑재체와 차세대 통신 기지국 분야로 적용 범위를 확대할 계획",
     "source": "rule_based",
-    "cached_at": 1784097730.218631
+    "cached_at": 1784106591.554336
   },
   "https://www.mt.co.kr/industry/2026/07/15/2026071509024174708": {
     "title": "",
     "summary": "롯데케미칼 충남 대산공장 /사진 제공=롯데케미칼 공정거래위원회가 석유화학(이하 석화) 사업재편 일환으로 추진 중인 '대산 1호 프로젝트' 관련 기업결합건의 심의 절차에 들어 공정위는 대산 1호 프로젝트 관련 기업결합건에 대한 심사보고서를 위원회에 제출하며 심의 절차가 개시됐 언급",
     "source": "rule_based",
-    "cached_at": 1784097731.758731
+    "cached_at": 1784106592.562098
   },
   "https://www.asiae.co.kr/article/2026071509473253637": {
     "title": "",
@@ -1671,13 +1641,13 @@
     "title": "",
     "summary": "반도체 초격차 외치는 정부 한국 주력 반도체 메모리 연구 개발 지원은 '뒷전' 부담은 삼성·SK하이닉스 '몫' 김정호 교수 \"중국, 추격 막기 위한 투자 필요\" 정부가 반도체 초격차를 하반기 경제 성장전략의 핵심으로 내세웠지만, 고대역폭메모리(HBM) 이후 차세대 메모리 연구개발(R&D) 지원은 2032년까지",
     "source": "rule_based",
-    "cached_at": 1784097745.832225
+    "cached_at": 1784106606.56805
   },
   "https://www.asiae.co.kr/article/2026071509595242981": {
     "title": "",
     "summary": "여기에 인공지능(AI)은 청년층 일자리부터 빠르게 대체하고 있고, 정년 연장 논의까지 본격화하면서 노동시장 진입과 이동은 더욱 어려워질 가능성이 크다 성장의 과실이 일부 산업과 계층에 집중되고 경제 전반으로 이어지지 않는 구조가 고착되면 양극화는 더욱 심화될 수밖에",
     "source": "rule_based",
-    "cached_at": 1784097767.338602
+    "cached_at": 1784106634.283967
   },
   "https://www.asiae.co.kr/article/IT/2026071511255079421": {
     "title": "",
@@ -1689,31 +1659,31 @@
     "title": "",
     "summary": "한화시스템은 15일 서울대·성균관대와 국방 반도체 기술 워크숍을 열고 레이더, 탐색기, 합성개구레이더 위성 및 위성·전술통신, 고출력 마이크로파용 반도체 칩 개발을 위한 세부 계약을 체결 발표",
     "source": "rule_based",
-    "cached_at": 1784097789.3428
+    "cached_at": 1784106684.739764
   },
   "https://www.yna.co.kr/view/AKR20260714184751003?section=industry/electronics": {
     "title": "",
     "summary": "구독 구독중 구독 구독중 이전 다음 김정관 장관, AI시대 선도 위한 재투자 강조…사회적 재분배론과 온도차 이미지 확대 답변하는 김정관 장관 = 김정관 산업통상부 장관이 20일 청와대에서 열린 국무회의 겸 비상경제점검회의에서 이재명 대통령 질문에 답",
     "source": "rule_based",
-    "cached_at": 1784097793.203395
+    "cached_at": 1784106687.881303
   },
   "https://www.digitimes.com/news/a20260715VL225/asml-sales-demand-2026-dutch.html": {
     "title": "",
     "summary": "네덜란드의 리소그래피 대기업 ASML은 고급 로직 및 메모리 칩에 대한 AI 중심 수요가 계속되는 가운데 고객이 용량 확장 계획을 가속화함에 따라 2026년 2분기 총 순매출이 93억 유로로 자체 지침을 초과했다고 보고했",
     "source": "rule_based",
-    "cached_at": 1784097589.756827
+    "cached_at": 1784106487.832841
   },
   "https://www.digitimes.com/news/a20260715VL224/samsung-hbm4-production-nvidia.html": {
     "title": "",
-    "summary": "AI 칩 제조업체의 HBM 수익은 지금까지 유료 평가 샘플에 국한",
+    "summary": "AI 칩 제조업체의 HBM 수익은 지금까지 유료 평가 샘플에 국한되어 있었",
     "source": "rule_based",
-    "cached_at": 1784097594.395828
+    "cached_at": 1784106492.462161
   },
   "https://www.digitimes.com/news/a20260715PD210/nvidia-jensen-huang-gaming-sega-tsmc.html": {
     "title": "",
     "summary": "엔비디아 CEO 젠슨 황(Jensen Huang)은 엔비디아 지포스 재팬(Nvidia GeForce Japan)과 게임 회사 세가(Sega)의 파트너십 30주년을 기념하는 7월 15일 도쿄 아키하바라 지구에서 열리는 행사에 참석할 예정",
     "source": "rule_based",
-    "cached_at": 1784097596.351398
+    "cached_at": 1784106492.910889
   },
   "https://n.news.naver.com/mnews/article/020/0003734120": {
     "title": "",
@@ -1761,13 +1731,13 @@
     "title": "",
     "summary": "] = 전남광주통합특별시의회가 정부의 최대 20조원의 재정 인센티브 지원을 촉구하면서 민형배 특별시장의 통합지원금 반도체 산업 투입 구상에는 제동을 걸었다 전남권 시의원들이 20조원 규모의 통합 인센티브를 반도체 산업 투자에 집중적으로 활용하는 데에 사실상 반대 목소리를 낸 것으로 풀이",
     "source": "rule_based",
-    "cached_at": 1784097779.403249
+    "cached_at": 1784106675.735074
   },
   "https://www.yna.co.kr/view/AKR20260715115700001?section=industry/electronics": {
     "title": "",
     "summary": "반도체 국가산단의 전력·용수 공급 방안 등에 대한 토론회가 16일과 20일 국회의원회관에서 진행된다고 국무총리 소속 사회대개혁위가 15일 발표",
     "source": "rule_based",
-    "cached_at": 1784097783.100623
+    "cached_at": 1784106679.296177
   },
   "https://www.yna.co.kr/view/AKR20260715088300065?section=industry/technology-science": {
     "title": "",
@@ -1785,13 +1755,13 @@
     "title": "",
     "summary": "크리스토프 푸케 ASML 최고경영자(CEO)는 \"AI로 촉발된 로직 및 메모리반도체 수요 증가로 고객사들이 생산능력 확대를 위한 투자를 가속화하고 있다\"며 \"이는 ASML의 제품 주문으로 이어져 당사의 장기적 수요 가시성을 강화하고 있다\" 언급",
     "source": "rule_based",
-    "cached_at": 1784097873.044477
+    "cached_at": 1784106762.36
   },
   "https://zdnet.co.kr/view/?no=20260715143214": {
     "title": "",
     "summary": "한화시스템은 15일 양 대학과 ‘국방 반도체 기술 워크숍’을 열고 레이다와 탐색기, 합성개구레이다(SAR) 위성, 위성·전술통신, 고출력 마이크로파(HPM)용 반도체 칩 개발 계약을 체결 발표",
     "source": "rule_based",
-    "cached_at": 1784097880.801491
+    "cached_at": 1784106768.119209
   },
   "https://www.etnews.com/20260715000264": {
     "title": "",
@@ -1810,5 +1780,119 @@
     "summary": "아모텍 관계자는 “AI 시장 확대와 함께 고성능 GPU 및 초고속 광네트워크 투자 증가로 초고주파 제품과 고압 MLCC 기술 경쟁력이 부각되고 있다”며 “하반기 양산을 계기로 AI 데이터센터와 글로벌 전장 시장을 아우르는 핵심 부품 공급사로 자리매김하겠다” 언급",
     "source": "rule_based",
     "cached_at": 1784098007.784356
+  },
+  "https://www.digitimes.com/news/a20260715VL229/asml-intel-foundry-euv-production.html": {
+    "title": "",
+    "summary": "ASML은 7월 15일 Intel Foundry가 High-NA EUV 리소그래피를 사용하여 제조된 대용량 로직 제품을 출시한 업계 최초의 회사가 되었음을 확인했으며, 이는 네덜란드 장비 제조업체의 가장 진보된 리소그래피 기술의 상업적 준비에 중요한 이정표를 세웠",
+    "source": "rule_based",
+    "cached_at": 1784106439.01506
+  },
+  "https://www.digitimes.com/news/a20260715VL220/sk-siltron-production-wafer-300mm-plant.html": {
+    "title": "",
+    "summary": "SK실트론이 첨단 메모리 칩 제조에 사용되는 300mm 실리콘 웨이퍼 공급을 늘리면서 2조3000억원(약 15억4000만달러) 규모의 한국 구미 웨이퍼 공장 증설을 시작으로 대량 생산과 고객 출하를 시작했다고 가 보도",
+    "source": "rule_based",
+    "cached_at": 1784106448.528015
+  },
+  "https://www.digitimes.com/news/a20260715PR202/tongfu-profit-demand-2026-infrastructure.html": {
+    "title": "",
+    "summary": "회사는 가동률 향상, 중저가 제품 판매 증가, 투자 수익 등을 예상 증가의 주요 동인으로 꼽았",
+    "source": "rule_based",
+    "cached_at": 1784106458.254324
+  },
+  "https://www.digitimes.com/news/a20260715PD222/psmc-management-revenue-demand-2027.html": {
+    "title": "",
+    "summary": "메모리, 전원 관리 칩, 고급 패키징에 대한 AI 중심 수요로 인해 파운드리 시장의 수급이 지속적으로 긴축되고 있 흑자로 전환했고, 세후 순이익은 NT$32억9100만(EPS는 NT$0",
+    "source": "rule_based",
+    "cached_at": 1784106468.376153
+  },
+  "https://www.digitimes.com/news/a20260714PD232/apple-macbook-shipments-sales-2026.html": {
+    "title": "",
+    "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:347;134-480\"애플의 맥북 네오(MacBook Neo)가 2026년 2분기 회사 노트북 브랜드 출하량을 전년 동기 대비 10% 이상 늘리는 등 활발한 판매를 보이고 있지만, 공급 부족이 주요 리스크로 떠오르고",
+    "source": "rule_based",
+    "cached_at": 1784106478.090796
+  },
+  "https://n.news.naver.com/mnews/article/014/0005548582": {
+    "title": "",
+    "summary": "인공지능(AI) 기술이 급격히 확산되는 가운데, 연산의 핵심 브레인 역할을 하는 그래픽처리장치(GPU)는 국가 경쟁력을 좌우하는 핵심 자원이 그러나 장기화되는 글로벌 공급난과 치솟는 장비 가격으로 인해 한정된 예산 안에서 자원을 극대화해 사용하는 '인프라 최적화 기술'이 공공과 민간을 막론하고 생존의 필수 조건으로 부상",
+    "source": "rule_based",
+    "cached_at": 1784106547.390849
+  },
+  "https://n.news.naver.com/mnews/article/001/0016197013": {
+    "title": "",
+    "summary": "삼성전자와 SK하이닉스 등 반도체 제조사를 중심으로 이뤄졌던 노조 설립 움직임이 장비업계로 확산하는 분위기다 그동안 반도체 업계의 노조 활동은 삼성전자와 SK하이닉스 등 제조사를 중심으로 이뤄졌지만, 최근에는 장비업체로 조직화 움직임이 이어지는 양상",
+    "source": "rule_based",
+    "cached_at": 1784106550.461191
+  },
+  "https://n.news.naver.com/mnews/article/138/0002234321": {
+    "title": "",
+    "summary": "이번 양산 개시는 그동안 차세대 미세 공정의 최대 화두였던 하이 NA EUV 기술의 현장 신뢰성과 대량 양산성(High-volume readiness)을 실제 반도체 제조 환경에서 직접 검증해 냈다는 점에서 의미가 깊다",
+    "source": "rule_based",
+    "cached_at": 1784106551.648292
+  },
+  "https://n.news.naver.com/mnews/ranking/article/008/0005386605?ntype=RANKING": {
+    "title": "",
+    "summary": "검찰이 삼성전자와 SK하이닉스에 반도체 부품을 공급하는 중국의 몬타지 테크놀로지 등 글로벌 반도체 기업 3곳을 압수수색 이들은 반도체 MIC 시장을 과점하는 사업자로 주 고객사가 삼성전자와 SK하이닉스, 미국 마이크론 등 글로벌 메모리 반도체 업체들",
+    "source": "rule_based",
+    "cached_at": 1784106554.945537
+  },
+  "https://www.asiae.co.kr/article/2026071517571951776": {
+    "title": "",
+    "summary": "창립 18주년 맞아 브랜드 정체성 정립 NH농협캐피탈은 15일 서울 여의도 원센티널(NH농협캐피탈타워)에서 'NCAP(엔캡) Day 2026' 행사를 열고 신규 브랜드 NCAP을 출범 발표",
+    "source": "rule_based",
+    "cached_at": 1784106600.341377
+  },
+  "https://www.yna.co.kr/view/AKR20260715163500004?section=industry/electronics": {
+    "title": "",
+    "summary": "검찰이 글로벌 반도체 부품 업체들의 국내 담합 정황을 포착하고 강제 수사에 이들 업체는 삼성전자 등에 반도체 부품을 공급하면서 가격을 짬짜미한 혐의를 받는다",
+    "source": "rule_based",
+    "cached_at": 1784106652.462662
+  },
+  "https://www.yna.co.kr/view/AKR20260715157600003?section=industry/electronics": {
+    "title": "",
+    "summary": "이와 함께 글로벌 반도체 장비업체인 도쿄일렉트론코리아도 조만간 조합원 모집에 나서는 등 노조 설립을 추진하는 확인 그동안 반도체 업계의 노조 활동은 삼성전자와 SK하이닉스 등 제조사를 중심으로 이뤄졌지만, 최근에는 장비업체로 조직화 움직임이 이어지는 양상",
+    "source": "rule_based",
+    "cached_at": 1784106658.923042
+  },
+  "https://www.yna.co.kr/view/AKR20260715132300053?section=industry/electronics": {
+    "title": "",
+    "summary": "경북 구미시가 정부의 제조 AX 혁신거점 육성과 삼성전자 등의 대규모 투자에 맞춰 AI·반도체 전문인력 양성에 속도를 반도체 인재 양성을 위해서는 구미상공회의소, SK실트론과 함께 3년째 운영 중인 '반도체스쿨' 사업비를 올해 9천만원으로 확대해 지역 10개 고등학교 학생 2천명을 대상으로 반도체 제조공정 체험 등 현장 중심 교육을 실시",
+    "source": "rule_based",
+    "cached_at": 1784106670.462011
+  },
+  "https://www.dt.co.kr/article/12073115": {
+    "title": "",
+    "summary": "레이다·위성통신·HPM 핵심 칩 공동개발 한화시스템이 서울대·성균관대와 손잡고 해외 의존도가 높은 국방 반도체의 독자 기술 확보에 나선다 한화시스템은 15일 서울대, 성균관대와 ‘국방 반도체 기술 워크숍’을 개최하고 레이다, 탐색기, 합성개구레이더(SAR) 위성, 위성·전술통신, HPM용 반도체 칩 개발을 위한 세부 계약을 체결",
+    "source": "rule_based",
+    "cached_at": 1784106701.05207
+  },
+  "https://www.ddaily.co.kr/page/view/2026071516401787717": {
+    "title": "",
+    "summary": "이번 양산 개시는 그동안 차세대 미세 공정의 최대 화두였던 하이 NA EUV 기술의 현장 신뢰성과 대량 양산성(High-volume readiness)을 실제 반도체 제조 환경에서 직접 검증해 냈다는 점에서 의미가 깊다",
+    "source": "rule_based",
+    "cached_at": 1784106711.73898
+  },
+  "https://www.ddaily.co.kr/page/view/2026071514581499214": {
+    "title": "",
+    "summary": "글로벌 반도체 노광장비 독점 기업인 네덜란드 ASML이 인공지능(AI) 반도체 투자 활성화에 힘입어 지난 2분기 시장 가이던스를 웃도는 어닝 서프라이즈를 기록 현재 연 65대 규모인 low NA EUV(극자외선) 장비 생산 능력을 오는 2027년까지 30% 확대하고 2028년 추가로 30% 더 늘리는 방안을 검토",
+    "source": "rule_based",
+    "cached_at": 1784106715.699502
+  },
+  "https://www.ddaily.co.kr/page/view/2026071514074221265": {
+    "title": "",
+    "summary": "회사 관계자는 \"전기차 확산과 차량 내 디스플레이 탑재 확대에 따라 차량용 DDI 수요가 구조적으로 증가하고 있다\"며 \"1분기 양산 개시 이후 공급을 지속하고 있는 만큼 하반기 물량 확대와 함께 관련 매출이 본격적으로 실적에 반영될 것으로 기대한다\" 언급",
+    "source": "rule_based",
+    "cached_at": 1784106719.378818
+  },
+  "https://www.hani.co.kr/arti/economy/it/1268385.html": {
+    "title": "",
+    "summary": "업스테이지와 퓨리오사에이아이(AI), 다음 운영사 에이엑스지(AXZ) 대표들은 15일 오전 경기 성남시 판교 에이엑스지 사옥에서 열린 대담을 통해 3사 기술을 결합한 다음의 ‘인공지능 요약’ 서비스를 소개",
+    "source": "rule_based",
+    "cached_at": 1784106748.740718
+  },
+  "https://www.etnews.com/20260715000353": {
+    "title": "",
+    "summary": "김장호 시장은 15일 구미 들과 만나 “서남권에 대규모 메모리 반도체 팹 공장 투자가 발표됐지만, 진행 과정에서 걸림돌이 생기면 언제든지 다시 구미로 올 수 있다고 생각한다”며 “구미는 고품질의 전기와 하루 100만톤 규모의 낙동강 용수(여유 70만톤), 평당 1000원에 공급 가능한 산업 부지 등 인프라를 모두 갖추고",
+    "source": "rule_based",
+    "cached_at": 1784106817.195236
   }
 }
