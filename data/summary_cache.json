@@ -413,12 +413,6 @@
     "source": "rule_based",
     "cached_at": 1784031260.845318
   },
-  "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9EbUlGSTNlS0Q5aDJaT1hpU3RaZnJzbGhTdThpcTFhVHNzR21WdllXVkdJcGxDQVNsZEhmN2pNc01vQWZNUzl6b1J0ZGY5Tzg?oc=5&hl=ko&gl=KR&ceid=KR:ko": {
-    "title": "",
-    "summary": "공격적 투자 진행하는 마이크론…‘메모리 넘버 3’ 지킬 수 있을까 나우뉴스 [EBN 오늘(12일) 이슈 종합] 메모리 슈퍼사이클에 3000조원 베팅…삼성·하이닉스·마이크론 '증설 전쟁' 등",
-    "source": "rule_based",
-    "cached_at": 1783966727.025417
-  },
   "https://n.news.naver.com/mnews/article/031/0001041878": {
     "title": "",
     "summary": "인텔이 인공지능(AI) 반도체 수요 증가에 대응하기 위해 유럽 핵심 생산기지인 아일랜드 공장에 50억유로(약 57억달러)를 투자 로이터통신은 \"이번 투자는 급증하는 AI와 고성능 컴퓨팅(HPC) 수요에 대응해 유럽 생산거점을 강화하려는 전략\"이라며 \"인텔이 AI 시대 제조 경쟁력 회복에 속도를 내고 있다\"고 평가",
@@ -2158,5 +2152,11 @@
     "summary": "한국어 \"중국 CXMT 상장이 삼성전자 SK하이닉스 D램 점유율 위협\", 최대 98억 달러 조달 비즈니스포스트 [중국 D램 CXMT 해부] ⑦3대 투자노선, A주 테마주 탐색전 본격화 뉴스핌",
     "source": "rule_based",
     "cached_at": 1784223988.157459
+  },
+  "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZnZENUdyUkp4dE8tYWtpQnBQWFVXSjlwdmtxZldxS1c4cVBzUDZZTExsV0JNVlNTYnBPdklnV25FS0xkcHdLVThzMHN1QTN5Q0w3eXhzRDFNQXhGWWxQbUh4OUdna0pfRXp5Nk5ORmNwLW5sbURNUzJaYmg1YlFXU1RoWQ?oc=5&hl=ko&gl=KR&ceid=KR:ko": {
+    "title": "",
+    "summary": "조선일보 식지않는 성과급 갈등 … 삼성전자 파운드리 80% \"2년내 이직 의향\" 뉴데일리 삼성 파운드리 직원 10명 중 8명 “2년 내 이직 고려”…성과급 격차에 커지는 불만 \"2년 내 떠나겠다\", 삼성전자 파운드리 10명 중 8명 이직 의향 밝혀 비즈니스포스트 삼성 초기업 노조 “파운드리 직원 10명 중 8명, 2년",
+    "source": "rule_based",
+    "cached_at": 1784228084.466513
   }
 }
