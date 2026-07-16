@@ -1,5 +1,95 @@
 [
   {
+    "title": "대학 연구실서 '반도체 공정' 실습…\"삼성이 지원\"",
+    "link": "https://www.asiae.co.kr/article/2026071610203734574",
+    "short_link": "asiae.co.kr/article/2026071610203734574",
+    "summary": "KAIST는 국내 대학 연구실에서 삼성전자의 '14나노 FinFET(Fin Field Effect Transistor, 핀 전계효과 트랜지스터)' 공정을 활용한 반도체 칩을 설계·제작 및 성능 검증을 할 수 있게 됐 언급",
+    "published_ago": "1분 전",
+    "published_at": "2026-07-16T01:20:37+00:00",
+    "published_raw": "2026-07-16T01:20:37+00:00"
+  },
+  {
+    "title": "포인트엔지니어링, 日요코오와 HBM MEMS 핀 사업 협력",
+    "link": "https://zdnet.co.kr/view/?no=20260716094523",
+    "short_link": "zdnet.co.kr/view",
+    "summary": "관련기사 파트너십은 포인트엔지니어링의 HBM MEMS 핀을 공급받아 글로벌 HBM 제조사에 공급하려는 요코오의 전략과, MEMS 핀(Pin) 사업을 글로벌 시장으로 확장하려는 포인트엔지니어링의 합의의 결과다",
+    "published_ago": "6분 전",
+    "published_at": "2026-07-16T01:18:29+00:00",
+    "published_raw": "2026-07-16T01:18:29+00:00"
+  },
+  {
+    "title": "산업장관 \"반도체 말고는 어려워…AI·지방·생태계가 승부처\"",
+    "link": "https://www.yna.co.kr/view/AKR20260716055000003?section=industry/electronics",
+    "short_link": "yna.co.kr/view/AKR20260716055000003",
+    "summary": "구독 구독중 이전 다음 \"AI 시대 지방 일으키지 않으면 경제 미래 없어\" \"제조AI 우리나라가 가장 유리…청년세대도 보듬어야\" 이미지 확대 대한상의 제주포럼서 강연중인 김정관 산업통상부 장관 [대한상의 제공",
+    "published_ago": "26분 전",
+    "published_at": "2026-07-16T00:56:29+00:00",
+    "published_raw": "2026-07-16T00:56:29+00:00"
+  },
+  {
+    "title": "산업장관 \"반도체 말고는 어려워…AI·지방·생태계가 승부처\"",
+    "link": "https://www.yna.co.kr/view/AKR20260716055000003?section=industry/technology-science",
+    "short_link": "yna.co.kr/view/AKR20260716055000003",
+    "summary": "구독 구독중 이전 다음 \"AI 시대 지방 일으키지 않으면 경제 미래 없어\" \"제조AI 우리나라가 가장 유리…청년세대도 보듬어야\" 이미지 확대 대한상의 제주포럼서 강연중인 김정관 산업통상부 장관 [대한상의 제공",
+    "published_ago": "27분 전",
+    "published_at": "2026-07-16T00:56:29+00:00",
+    "published_raw": "2026-07-16T00:56:29+00:00"
+  },
+  {
+    "title": "김정관 산업장관 \"AI·지방·생태계가 韓경제 승부처…반도체 투자 속도 내야\"",
+    "link": "https://www.asiae.co.kr/article/IT/2026071609401012188",
+    "short_link": "asiae.co.kr/article/IT/2026071609401012188",
+    "summary": "\"韓경제 0% 성장률 직전, 반전 갈림길\" 제조 데이터 활용·반도체 투자 강조 수도권 투자 한계, 지방은 성장 승부수 김정관 산업통상부 장관이 인공지능(AI) 전환과 지방 중심 성장, 산업 생태계 구축을 한국 경제의 미래를 좌우할 핵심 승부처로 제시",
+    "published_ago": "42분 전",
+    "published_at": "2026-07-16T00:40:11+00:00",
+    "published_raw": "2026-07-16T00:40:11+00:00"
+  },
+  {
+    "title": "GS파워, AI 공정안전관리 우수사례 발표…\"위험성평가 3분\"",
+    "link": "https://www.mt.co.kr/industry/2026/07/16/2026071609095453805",
+    "short_link": "mt.co.kr/industry/2026/07/16/2026071609095453805",
+    "summary": "GS파워 관계자가 지난 15일 '2026년 하반기 공정안전관리(PSM) 이행상태 평가(점검) 사업 설명회'에서 AI를 활용한 공정안전관리(PSM) 운영 우수사례를 발표하고 있다./사진=GS파워 GS파워는 지난 15일 고용노동부 중부지방노동청 수도권 중대산업사고 예방센터 주관으로 열린 '2026년 하반기",
+    "published_ago": "57분 전",
+    "published_at": "2026-07-16T00:24:54+00:00",
+    "published_raw": "2026-07-16T00:24:54+00:00"
+  },
+  {
+    "title": "중국 최대 AI 컴퓨팅 판매자, GPU 없이 등장",
+    "link": "https://www.digitimes.com/news/a20260715VL223/beijing-capacity-infrastructure-hardware.html",
+    "short_link": "digitimes.com/news/a20260715VL223/beijing-capacity-infrast...",
+    "summary": "Beijing Approach AI Technology Co.(Approaching AI)는 자사가 소유하지 않은 컴퓨팅 인프라에서 주로 생성된 AI 토큰을 판매하여 6개월 만에 10억 위안 이상을 모금했",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-15T23:48:48+00:00",
+    "published_raw": "Wed, 15 Jul 2026 23:48:48 GMT"
+  },
+  {
+    "title": "\"애플, AI 칩 제조업체 인수 검토 중\"",
+    "link": "https://n.news.naver.com/mnews/article/092/0002430713",
+    "short_link": "n.news.naver.com/mnews/article/092/0002430713",
+    "summary": "애플이 인공지능(AI) 서버용 반도체 역량 강화를 위해 AI 칩 제조 업체 인수를 추진하고 있다고 IT매체 디인포메이션이 15일(현지시간) 보도 결국 애플은 새로운 시리의 일부 AI 연산을 구글 클라우드 내 엔비디아 GPU에서 처리하는 방식을 선택한 확인",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-15T23:46:14+00:00",
+    "published_raw": "2026-07-15T23:46:14+00:00"
+  },
+  {
+    "title": "칼럼: K반도체에서 AI 강국으로 —한국이 차세대 칩 도약을 이루는 방법",
+    "link": "https://www.digitimes.com/news/a20260714PD226/policy-data-manufacturing-investment-packaging.html",
+    "short_link": "digitimes.com/news/a20260714PD226/policy-data-manufacturin...",
+    "summary": "이재명 한국 대통령은 2026년 6월 말 인공지능과 반도체 분야에서 한국의 글로벌 리더십을 강화하기 위해 고안된 야심찬 국가 전략인 AI와 반도체를 위한 3대 메가 프로젝트를 공개했",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-15T23:44:41+00:00",
+    "published_raw": "Wed, 15 Jul 2026 23:44:41 GMT"
+  },
+  {
+    "title": "AI 수요 중심의 메모리 위기로 인해 스마트 자동차가 노출됨",
+    "link": "https://www.digitimes.com/news/a20260715PD208/demand-dram-data-automakers-nand.html",
+    "short_link": "digitimes.com/news/a20260715PD208/demand-dram-data-automak...",
+    "summary": "AI 중심 수요는 DRAM과 NAND 플래시 용량이 데이터 센터로 전환되면서 글로벌 메모리 공급을 긴축하고 스마트폰, PC, 차량을 밀어내고 있 스마트 자동차는 가장 큰 타격을 입은 자동차 중 하나이며, 스마트 자동차 채택이 빠르게 증가하고 있는 중국에서는 자동차 제조업체가 더 심각한 부족, 더 비싼 부품 및 마진 압박에 직면해 있",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-15T23:41:21+00:00",
+    "published_raw": "Wed, 15 Jul 2026 23:41:21 GMT"
+  },
+  {
     "title": "허지웅, 김영훈 저격 \"반도체 초과이윤 왜 이익만 나누려 하나\"",
     "link": "https://www.edaily.co.kr/News/Read?newsId=02902806645515176&mediaCodeNo=257",
     "short_link": "edaily.co.kr/News/Read",
@@ -49,8 +139,17 @@
     "link": "https://n.news.naver.com/mnews/article/023/0003987900",
     "short_link": "n.news.naver.com/mnews/article/023/0003987900",
     "summary": "66위안, 예상치 2배 중국 대표 메모리 반도체 업체이자, D램 분야 세계 4위 업체인 창신메모리테크놀로지(CXMT)의 상하이 과창판(科創板) 상장에 예상을 크게 뛰어넘는 글로벌 기관 투자자들의 관심이 쏟아",
-    "published_ago": "7시간 전",
+    "published_ago": "9시간 전",
     "published_at": "2026-07-15T15:56:12+00:00",
     "published_raw": "2026-07-15T15:56:12+00:00"
+  },
+  {
+    "title": "中 CXMT 14조 조달할듯… D램 지각변동 신호탄",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YZFA0Wjlxa2NLa1pDT2JqV0g2Z1NtWGt0STVhN0hRell6elU4aTNGNWtTSFN1UlhGa3BNTzdQdFNVc0haNWJWaW5zSkRJRkxRd3UxeWN0VkxTWmM5OGpjSGprdXlsUXU0MmMxRFJsa0dVdldvbGfSAWZBVV95cUxPdWkzc215M1hMSzdMbVBiS29MZENfZ1FFUmRGMTdia01CSk8xbHZpaklfN0Z4Z1Zma3FFNVcxdV92cjNOd2dQb2UxZ1k3Mm1fV040SDgzN3FTXzdyd2w3WW1mRDE5Y1E?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMidkFVX3lxTE1YZFA0Wjlxa2NLa...",
+    "summary": "동아일보 \"중국 CXMT 상장이 삼성전자 SK하이닉스 D램 점유율 위협\", 최대 98억 달러 조달 비즈니스포스트 [중국 D램 CXMT 해부] ④메모리 3강 체제, 본격적 도전장 내밀다",
+    "published_ago": "9시간 전",
+    "published_at": "2026-07-15T15:30:00+00:00",
+    "published_raw": "Wed, 15 Jul 2026 15:30:00 GMT"
   }
 ]
