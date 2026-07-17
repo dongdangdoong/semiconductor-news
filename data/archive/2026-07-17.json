@@ -1,10 +1,145 @@
 [
   {
+    "title": "Tata의 인도 칩 데뷔는 28nm 공약보다 보잘것없는 시작인 90nm에 의존할 것으로 알려졌습니다.",
+    "link": "https://www.digitimes.com/news/a20260717VL209/tata-group-28nm-90nm-wafer-fab-technology.html",
+    "short_link": "digitimes.com/news/a20260717VL209/tata-group-28nm-90nm-waf...",
+    "summary": "인도 최초의 대규모 웨이퍼 팹은 Tata 그룹이 공개적으로 선전한 28nm 노드가 아닌 수십 년 된 90nm 기술로 생산을 시작할 것 이는 뉴델리가 새로운 수십억 달러를 투입함에도 불구하고 칩 산업을 처음부터 구축하기 위해 국가가 여전히 얼마나 멀리 가야 하는지를 강조하는 단계",
+    "published_ago": "34분 전",
+    "published_at": "2026-07-17T03:59:51+00:00",
+    "published_raw": "Fri, 17 Jul 2026 03:59:51 GMT"
+  },
+  {
+    "title": "SK그룹 회장, SK하이닉스에 '서비스형 메모리' 모델 제시",
+    "link": "https://www.digitimes.com/news/a20260716VL226/sk-group-sk-hynix-chairman-infrastructure-manufacturing.html",
+    "short_link": "digitimes.com/news/a20260716VL226/sk-group-sk-hynix-chairm...",
+    "summary": "최태원 SK그룹 회장은 SK하이닉스가 칩 제조와 판매를 넘어 고부가가치 사업을 구축해야 한다며 '서비스형 메모리(Memory as a Service)' 모델을 제시",
+    "published_ago": "39분 전",
+    "published_at": "2026-07-17T03:55:10+00:00",
+    "published_raw": "Fri, 17 Jul 2026 03:55:10 GMT"
+  },
+  {
+    "title": "독점: 주문이 2027년 말까지 연장됨에 따라 PC 브랜드들은 CXMT 메모리 확보를 서두르고 있는 것으로 알려졌습니다.",
+    "link": "https://www.digitimes.com/news/a20260717PD219/cxmt-ipo-pc-dram.html",
+    "short_link": "digitimes.com/news/a20260717PD219/cxmt-ipo-pc-dram.html",
+    "summary": "중국 D램 제조사 창신메모리테크놀로지(CXMT)의 기업공개(IPO)가 막바지 단계에 접어들며 시장의 주목이 쏠리고",
+    "published_ago": "47분 전",
+    "published_at": "2026-07-17T03:47:02+00:00",
+    "published_raw": "Fri, 17 Jul 2026 03:47:02 GMT"
+  },
+  {
+    "title": "TSMC는 MediaTek의 압력이 완화됨에 따라 EMIB 완화를 환영합니다.",
+    "link": "https://www.digitimes.com/news/a20260717PD213/tsmc-packaging-mediatek-intel-technology.html",
+    "short_link": "digitimes.com/news/a20260717PD213/tsmc-packaging-mediatek-...",
+    "summary": "p class=\"P1\" data-sourcepos=\"7:1-7:337;154-490\"TSMC 회장 C Wei는 7월 16일에 더 많은 경쟁업체가 고객 요구 사항을 충족하는 고급 포장 솔루션을 제공할 수 있다면 공급망 유연성이 추가된 것을 환영한다고 말했",
+    "published_ago": "59분 전",
+    "published_at": "2026-07-17T03:35:52+00:00",
+    "published_raw": "Fri, 17 Jul 2026 03:35:52 GMT"
+  },
+  {
+    "title": "TSMC는 대만 칩 설계자가 생산 이전을 기다리면서 미국 제조를 촉진합니다.",
+    "link": "https://www.digitimes.com/news/a20260717PD217/tsmc-production-manufacturing-taiwan-ic-design.html",
+    "short_link": "digitimes.com/news/a20260717PD217/tsmc-production-manufact...",
+    "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:274;122-395\"TSMC 회장 C Wei는 7월 16일에 회사가 미국에 1,000억 달러를 추가로 투자하여 주요 미국 고객의 지속적인 강력한 수요를 지원하기 위해 여러 2nm 이상의 고급 로직 웨이퍼 팹과 고급 패키징 공장에 자금을 지원할 것이라고 공식 발표했",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-17T03:20:19+00:00",
+    "published_raw": "Fri, 17 Jul 2026 03:20:19 GMT"
+  },
+  {
+    "title": "TSMC의 1000억 달러 베팅: AI 성장, 미국의 압력, 앞서가기 위한 비용",
+    "link": "https://www.digitimes.com/news/a20260717PD210/tsmc-manufacturing-ai-usa-cost-growth.html",
+    "short_link": "digitimes.com/news/a20260717PD210/tsmc-manufacturing-ai-us...",
+    "summary": "TSMC(Taiwan Semiconductor Manufacturing Company)는 2026년 2분기 기록적인 실적을 발표하고, 시장 기대치를 뛰어넘는 3분기 매출 가이던스를 발표했으며, 연간 미국 달러 매출 성장 전망을 40% 이상으로 상향 조정했",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-17T02:47:02+00:00",
+    "published_raw": "Fri, 17 Jul 2026 02:47:02 GMT"
+  },
+  {
+    "title": "최태원 \"SK하이닉스 주식 그냥 갖고 있어라…메모리 수요 기하급수적 증가세\"",
+    "link": "https://www.newsis.com/view/NISX20260717_0003713231",
+    "short_link": "newsis.com/view/NISX20260717_0003713231",
+    "summary": "최태원 회장은 17일 오전 대한상의 제주포럼이 열린 제주신라호텔에서 권석준 성균관대 교수와 'AI가 가져올 미래와 의 성장 담론'을 주제로 대담을 가",
+    "published_ago": "2시간 전",
+    "published_at": "2026-07-17T02:39:55+00:00",
+    "published_raw": "2026-07-17T02:39:55+00:00"
+  },
+  {
+    "title": "Noetra가 멀티모달 AI 프로젝트를 시작하고 27,500개의 Nvidia Rubin GPU 인프라를 계획함에 따라 일본은 주권 AI 야망을 강화합니다.",
+    "link": "https://www.digitimes.com/news/a20260717PR204/japan-ai-development-infrastructure.html",
+    "short_link": "digitimes.com/news/a20260717PR204/japan-ai-development-inf...",
+    "summary": "Noetra는 일본에서 개발한 다중 모드 기반 모델을 위한 본격적인 R&D를 시작했 이 프로젝트는 국가가 고급 AI 인프라 및 데이터를 구축하고 제어하는 ​​방법에 대한 의미를 포함하여 일본의 주권 AI 추진을 강조합니다",
+    "published_ago": "2시간 전",
+    "published_at": "2026-07-17T02:29:41+00:00",
+    "published_raw": "Fri, 17 Jul 2026 02:29:41 GMT"
+  },
+  {
+    "title": "대만, TSMC의 미국 확장을 지지하는 동시에 국내에서 첨단 칩 리더십을 재확인",
+    "link": "https://www.digitimes.com/news/a20260717PD214/tsmc-taiwan-investment-expansion-government.html",
+    "short_link": "digitimes.com/news/a20260717PD214/tsmc-taiwan-investment-e...",
+    "summary": "TSMC는 7월 16일 미국 투자에 1000억 달러를 추가해 총 2650억 달러에 이를 것이 언급 대만의 Executive Yuan은 글로벌 시장 수요를 충족하기 위해 미국에서 확장하는 기업을 존중하는 동시에 대만에서 칩 제조업체의 지속적인 팹 확장을 지지한다고 말했",
+    "published_ago": "2시간 전",
+    "published_at": "2026-07-17T01:46:04+00:00",
+    "published_raw": "Fri, 17 Jul 2026 01:46:04 GMT"
+  },
+  {
+    "title": "삼성 노조까지 시비거는 '호남 반도체 팹'",
+    "link": "https://n.news.naver.com/mnews/article/138/0002234515",
+    "short_link": "n.news.naver.com/mnews/article/138/0002234515",
+    "summary": "조합원 설문조사 결과 84%가 호남 팹 투자를 반대했다며 이를 내년도 단체협약 교섭 의제로 삼겠다고 공언한 것 강성 투쟁을 벌이던 삼성전자 노조마저 친노동 정책을 펴는 정부를 향해 \"이건 잘못됐다\"라며 호남 팹 계획에 반기를 드는 상황은 일반인의 시각에선 다소 생뚱맞다",
+    "published_ago": "3시간 전",
+    "published_at": "2026-07-17T01:35:07+00:00",
+    "published_raw": "2026-07-17T01:35:07+00:00"
+  },
+  {
+    "title": "삼성 노조까지 시비거는 '호남 반도체 팹'",
+    "link": "https://www.ddaily.co.kr/page/view/2026071513432464565",
+    "short_link": "ddaily.co.kr/page/view/2026071513432464565",
+    "summary": "조합원 설문조사 결과 84%가 호남 팹 투자를 반대했다며 이를 내년도 단체협약 교섭 의제로 삼겠다고 공언한 것 강성 투쟁을 벌이던 삼성전자 노조마저 친노동 정책을 펴는 정부를 향해 \"이건 잘못됐다\"라며 호남 팹 계획에 반기를 드는 상황은 일반인의 시각에선 다소 생뚱맞다",
+    "published_ago": "3시간 전",
+    "published_at": "2026-07-17T01:34:00+00:00",
+    "published_raw": "2026-07-17T01:34:00+00:00"
+  },
+  {
+    "title": "TSMC, '1.4나노' 성능·수율 모두 잡았다…차세대 공정 선점 시동",
+    "link": "https://n.news.naver.com/mnews/article/092/0002430901",
+    "short_link": "n.news.naver.com/mnews/article/092/0002430901",
+    "summary": "오는 2028년 양산 예정인 공정의 샘플 칩이 목표 성능의 90%에 도달했고, 주요 부품 수율도 안정화 단계에 접어든 확인 4나노에 해당하는 A14는 TSMC가 2027년 시생산에 돌입해, 2028년부터 본격 양산 예정인 차세대 공정",
+    "published_ago": "3시간 전",
+    "published_at": "2026-07-17T01:31:12+00:00",
+    "published_raw": "2026-07-17T01:31:12+00:00"
+  },
+  {
+    "title": "TSMC, '1.4나노' 성능·수율 모두 잡았다…차세대 공정 선점 시동",
+    "link": "https://zdnet.co.kr/view/?no=20260716184600",
+    "short_link": "zdnet.co.kr/view",
+    "summary": "오는 2028년 양산 예정인 공정의 샘플 칩이 목표 성능의 90%에 도달했고, 주요 부품 수율도 안정화 단계에 접어든 확인 4나노에 해당하는 A14는 TSMC가 2027년 시생산에 돌입해, 2028년부터 본격 양산 예정인 차세대 공정",
+    "published_ago": "3시간 전",
+    "published_at": "2026-07-17T01:30:01+00:00",
+    "published_raw": "2026-07-17T01:30:01+00:00"
+  },
+  {
+    "title": "한국 법안에 따라 SK하이닉스는 새로운 팹에 외부 투자자를 유치할 수 있습니다.",
+    "link": "https://www.digitimes.com/news/a20260716VL224/sk-hynix-investment-government-fab-subsidiary.html",
+    "short_link": "digitimes.com/news/a20260716VL224/sk-hynix-investment-gove...",
+    "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:277;118-394\"한국 국회의원이 일반 지주회사의 손자회사가 합작 투자하는 반도체 벤처 지분을 현재 100%에서 요구하는 지주회사 규정에서 최소 50% 이상 보유하도록 허용하는 법안을 발의했",
+    "published_ago": "4시간 전",
+    "published_at": "2026-07-17T00:01:55+00:00",
+    "published_raw": "Fri, 17 Jul 2026 00:01:55 GMT"
+  },
+  {
+    "title": "TSMC가 아키텍처 전반에 걸쳐 이익을 얻음에 따라 AI 데이터 센터의 CPU 수요가 반등합니다.",
+    "link": "https://www.digitimes.com/news/a20260716PD236/tsmc-taiwan-cpu-demand-data.html",
+    "short_link": "digitimes.com/news/a20260716PD236/tsmc-taiwan-cpu-demand-d...",
+    "summary": "p class=\"P1\" data-start=\"143\" data-end=\"388\"대만반도체제조회사(TSMC)가 7월 16일 2026년 2분기 실적 컨퍼런스를 개최했 Wei는 AI 수요의 최신 발전에 대해 논의하면서 시장이 계속해서 빠른 속도로 발전하고 있다고 말했",
+    "published_ago": "4시간 전",
+    "published_at": "2026-07-17T00:01:27+00:00",
+    "published_raw": "Fri, 17 Jul 2026 00:01:27 GMT"
+  },
+  {
     "title": "Apple과 자동차 제조업체가 공급 부족에 직면함에 따라 메모리 공급업체는 가격을 인상합니다.",
     "link": "https://www.digitimes.com/news/a20260716PD204/apple-automakers-capacity-price-demand.html",
     "short_link": "digitimes.com/news/a20260716PD204/apple-automakers-capacit...",
-    "summary": "AI 기반 비축과 사전 용량 예약으로 가전제품 및 자동차 고객에 대한 공급이 부족해지면서 메모리 공급업체는 가격 결정력을 다시 얻었 업계 소식통에 따르면 공급업체가 더 높은 가격을 요구하고 생산 능력을 다른 곳에 할당함에 따라 Apple이 이제 사실상 최후의 주요 방어선이 되었다고 합니다",
-    "published_ago": "1시간 전",
+    "summary": "AI 기반 비축과 사전 용량 예약으로 가전제품 및 자동차 고객에 대한 공급이 부족해지면서 메모리 공급업체는 가격 결정력을 다시 얻었 업계 소식통에 따르면 공급업체가 더 높은 가격을 요구하고 다른 곳에 생산 능력을 할당함에 따라 Apple이 이제 사실상 최후의 주요 방어선이 되었다고 합니다",
+    "published_ago": "4시간 전",
     "published_at": "2026-07-16T23:54:48+00:00",
     "published_raw": "Thu, 16 Jul 2026 23:54:48 GMT"
   },
@@ -13,7 +148,7 @@
     "link": "https://n.news.naver.com/mnews/article/016/0002671485",
     "short_link": "n.news.naver.com/mnews/article/016/0002671485",
     "summary": "송태중 삼성전자 파운드리사업부 상무는 지난해 10월 유로파 칩 출시 당시 “악셀레라 AI의 획기적인 아키텍처를 경쟁력 있는 5나노 공정 기술로 제조함으로써 차세대 엣지AI 애플리케이션 구현을 돕고 있다”며 “이번 협력은 한국 반도체의 우수한 기술력이 어떻게 유럽의 AI 혁신을 뒷받침하는지 보여준다”고 발표",
-    "published_ago": "2시간 전",
+    "published_ago": "6시간 전",
     "published_at": "2026-07-16T22:31:06+00:00",
     "published_raw": "2026-07-16T22:31:06+00:00"
   },
@@ -22,7 +157,7 @@
     "link": "https://n.news.naver.com/mnews/ranking/article/037/0000038519?ntype=RANKING",
     "short_link": "n.news.naver.com/mnews/ranking/article/037/0000038519",
     "summary": "전문가 “기술적 선제공격 날린 셈… 하이브리드 본딩 신기술 주목” 2001년 세계 낸드플래시 메모리 시장 1위 기업 일본 도시바가 삼성전자 문을 두드 이에 따라 AI 빅테크의 메모리 수요도 기존 HBM을 넘어 D램과 낸드플래시로까지 번지고",
-    "published_ago": "3시간 전",
+    "published_ago": "6시간 전",
     "published_at": "2026-07-16T22:02:11+00:00",
     "published_raw": "2026-07-16T22:02:11+00:00"
   }
