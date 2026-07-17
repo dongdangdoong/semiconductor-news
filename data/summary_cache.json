@@ -1,39 +1,9 @@
 {
-  "https://www.hankyung.com/article/2026071325201": {
-    "title": "",
-    "summary": "◇삼성 평택 공장 수주 물꼬 이미지 크게보기 ◇데이터센터, 신사업으로 추진 “반도체 슈퍼사이클 영향으로 올해 실적이 2배 이상 늘어날 것입니다.”김성후 엑사이엔씨 대표(사진)는 13일 서울 구로동 본사에서 한 인터뷰에서 “삼성전자와 SK하이닉스의 반도체 공장 건설이 본격화하면서 회사 매출이 2030년 조(兆) 단위로",
-    "source": "rule_based",
-    "cached_at": 1784011017.046017
-  },
-  "https://www.yna.co.kr/view/AKR20260713147400054?section=industry/electronics": {
-    "title": "",
-    "summary": "전남광주통합특별시는 13일 무안청사에서 국고 확보 태스크포스 회의를 열고 정부 예산안 확보 방안을 논의 통합특별시는 기획예산처 소관 부서를 직접 방문해 사업 필요성과 정책 효과를 설명할 계획",
-    "source": "rule_based",
-    "cached_at": 1784011055.970036
-  },
   "https://www.dt.co.kr/article/12072719": {
     "title": "",
     "summary": "\"84% 반대… 대책·신뢰 안 보여\" 정부에 노사정 협의체 구성 제안 노봉법 쟁의요건, 재계경고 현실로 노조 장벽에 산업 혁신 막힐 수도 정부의 중재로 올해 수억원대 성과급을 받게 된 삼성전자 반도체 노조가 이번엔 조합원 84%가 반대한다는 이유로 호남 반도체 클러스터 '노사정 협의체'를 구성할 것을 요구",
     "source": "rule_based",
     "cached_at": 1784019963.375441
-  },
-  "https://zdnet.co.kr/view/?no=20260713151019": {
-    "title": "",
-    "summary": "석·박사 요람 IDEC의 비명…EDA 툴 유료화에 TSMC 공정 막혀 13일 반도체 학계·업계에 따르면 IDEC의 올해 사업 예산은 전년비 40% 급감 IDEC은 예산 부족을 이유로 기존에 연간 70개 규모로 지원했던 TSMC 공정 활용 다중프로젝트웨이퍼(MPW) 지원 사업을 올해 전면 중단",
-    "source": "rule_based",
-    "cached_at": 1784011135.496838
-  },
-  "https://www.etnews.com/20260713000364": {
-    "title": "",
-    "summary": "삼성전자가 테슬라의 차세대 인공지능(AI) 반도체 'AI5' 칩 생산을 위한 최종 준비 단계인 테이프아웃(Tape-Out)을 완료 현재 삼성은 AI4를 평택 공장에서 7나노 공정으로 양산 중이며, AI5와 AI6은 테일러 공장 2나노 라인이 주력 생산 기지가 될 전망",
-    "source": "rule_based",
-    "cached_at": 1784011172.749044
-  },
-  "https://www.etnews.com/20260713000265": {
-    "title": "",
-    "summary": "13일 업계에 따르면 퓨리오사AI는 내년까지 2세대 LLM 추론 특화 칩 '레니게이드(RNGD)'의 생산 물량을 4만~5만장까지 대폭 확대 추론 기능 특화로 설계된 퓨리오사AI의 레니게이드는 200W 수준의 전력으로 해외 고성능 GPU와 비슷한 성능을",
-    "source": "rule_based",
-    "cached_at": 1784011168.976317
   },
   "https://www.newsis.com/view/NISX20260713_0003707513": {
     "title": "",
@@ -137,18 +107,6 @@
     "source": "rule_based",
     "cached_at": 1784066043.296077
   },
-  "https://news.google.com/rss/articles/CBMicEFVX3lxTE9pTjFUUGxkMkFRU0RENGlXT0tIRU5PcENKV3pnb3hLaWUxd0lGZWhoNWNaQnY1MVJLSW9rWlRJTzZTQ3F1bHJQMUZOZi1hZks2YklpYnpHSVR4bGJTNjlTNEtyREtGcWh4SFpEYVR2MGY?oc=5&hl=ko&gl=KR&ceid=KR:ko": {
-    "title": "",
-    "summary": "삼성전자, 테슬라 차세대 AI 칩 생산 준비…파운드리 성장 전망 높여",
-    "source": "rule_based",
-    "cached_at": 1784010891.718856
-  },
-  "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8wTTBYSlRIRVNuN2hidnd3a0FYWmZFeC1QeWtiNy16WmNXMXFhSUlka3pwQkNfZHZjOWJKYXFvNkYyd2hGNzFnbHR4aDFqQQ?oc=5&hl=ko&gl=KR&ceid=KR:ko": {
-    "title": "",
-    "summary": "에너지경제신문 삼성 파운드리, 테슬라 AI5칩 양산준비 끝 …\"테일러팹 연내 가동\" 삼성 파운드리 반등 키 쥔 테슬라 AI5…테일러 2나노 시험대 글로벌이코노믹 삼성전자, 테슬라 인공지능 반도체 'AI5' 양산 초읽기",
-    "source": "rule_based",
-    "cached_at": 1784010893.60497
-  },
   "https://www.digitimes.com/news/a20260714PR203/packaging-demand-profit-2026-investment.html": {
     "title": "",
     "summary": "중국의 반도체 패키징 및 테스트 회사인 Tianshui Huatian Technology는 7월 14일 선전 증권 거래소에 제출한 전망에 따르면 2026년 상반기 주주 귀속 순이익이 7억 5천만 위안(약 1억 1062만 달러)에서 8억 5천만 위안으로 전년 동기 2억 2천 6백만 위안보다",
@@ -233,35 +191,11 @@
     "source": "rule_based",
     "cached_at": 1784078163.24223
   },
-  "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2UFI3Nktaajh0M1FmWEZZMms1MEtKWU5YNy1sNm5aeWxmUXR4R01SR3RBOG10NFU4ZFVsZXVra0VvRXpET0taVVhjYXJBR1o3N3VMYnFMazhLQQ?oc=5&hl=ko&gl=KR&ceid=KR:ko": {
-    "title": "",
-    "summary": "ETF도 질주 조선일보 SK하이닉스, ‘200만원 벽’ 마저 깨졌다…반도체 역대급 호황인데 도대체 왜 폭락",
-    "source": "rule_based",
-    "cached_at": 1784010701.089132
-  },
   "https://n.news.naver.com/mnews/article/469/0000942198": {
     "title": "",
     "summary": "현재 최첨단 반도체 생산 시장이 대만 TSMC와 삼성전자, 인텔 중심의 '3강 체제'로 재편되는 흐름을 보이고 있는 상황에서, 미국 정부의 막대한 자본과 정치력을 등에 업은 인텔이 공격적 투자로 제조 경쟁력을 끌어올릴 경우 첨단 공정 고객 확보 경쟁이 한층 격화될 가능성이 크기 때문",
     "source": "rule_based",
     "cached_at": 1784072651.061825
-  },
-  "https://n.news.naver.com/mnews/article/092/0002430488": {
-    "title": "",
-    "summary": "2032년까지 HBM 이후의 고성능 저전력 메모리 개발 지원에 2000억원, 2031년까지 데이터센터용 NPU 개발에 7000억원, 2030년까지 미래차와 로봇 등에 특화된 NPU 개발에 1조 3000억원의 R&D 투자에 나선다",
-    "source": "rule_based",
-    "cached_at": 1784011008.65079
-  },
-  "https://n.news.naver.com/mnews/ranking/article/214/0001511557?ntype=RANKING": {
-    "title": "",
-    "summary": "서울고법 행정7부는 오늘 쿠팡이 공정위를 상대로 제기한 동일인 변경 지정 처분 등 취소 소송 관련 집행정지 신청을 인용했 김범석 의장에 대한 총수 지정 효력과, 자료 제출 요청 효력은 각각 본안 판결 30일 이후까지 정지됩니다",
-    "source": "rule_based",
-    "cached_at": 1784011012.813365
-  },
-  "https://n.news.naver.com/mnews/ranking/article/123/0002386506?ntype=RANKING": {
-    "title": "",
-    "summary": "차세대 D램 설계부터 GPU와 AI 가속기를 연결하는 로직 다이 설계, 다층 적층 구조의 신뢰성 검증, 패키지 개발, 고객 기술 지원까지 양산과 제품 공급에 필요한 핵심 분야의 인력을 동시에 강화",
-    "source": "rule_based",
-    "cached_at": 1784011013.931737
   },
   "https://n.news.naver.com/mnews/ranking/article/310/0000138312?ntype=RANKING": {
     "title": "",
@@ -287,18 +221,6 @@
     "source": "rule_based",
     "cached_at": 1784065965.866777
   },
-  "https://www.dt.co.kr/article/12072856": {
-    "title": "",
-    "summary": "0%…수출 증가율은 40% 호황 꺾이면 투자·세수까지 흔들릴 우려 이재명 정부가 잠재성장률 3%, 수출 세계 4강, 1인당 국민소득 5만달러를 내건 ‘3·4·5 경제 대도약’ 승부수를 띄웠다",
-    "source": "rule_based",
-    "cached_at": 1784011072.258175
-  },
-  "https://zdnet.co.kr/view/?no=20260714142942": {
-    "title": "",
-    "summary": "딥엑스는 울트라리틱스 욜로(YOLO), 패들패들(PaddlePaddle), 라즈베리 파이 등 글로벌 3대 인프라와 자사 NPU 기술을 연동해 ‘오픈 피지컬 AI 생태계’를 본격 가속화한 언급",
-    "source": "rule_based",
-    "cached_at": 1784011112.889879
-  },
   "https://zdnet.co.kr/view/?no=20260714112534": {
     "title": "",
     "summary": "2032년까지 HBM 이후의 고성능 저전력 메모리 개발 지원에 2000억원, 2031년까지 데이터센터용 NPU 개발에 7000억원, 2030년까지 미래차와 로봇 등에 특화된 NPU 개발에 1조 3000억원의 R&D 투자에 나선다",
@@ -316,12 +238,6 @@
     "summary": "대한항공, 고유가에도 반도체 특수에 2Q 화물 매출 46% 증가 중동 정세 불안에 반도체 물류 선제 대응으로 위기 돌파 [서울= ] 대한항공 B777-300ER",
     "source": "rule_based",
     "cached_at": 1784097950.120572
-  },
-  "https://pharm.edaily.co.kr/News/Read?newsId=04359126645514520": {
-    "title": "",
-    "summary": "“현재 공개된 특허를 기반으로 설명하자면 삼성바이오에피스가 ALT-B4를 대체할 신규 물질을 확보했다고 보기는 어렵다 미국 특허심판원(PTAB)은 지난 5월 할로자임이 알테오젠의 재조합 히알루로니다제 제조방법 특허를 상대로 청구한 특허무효심판(IPR)에 대해 심리 개시를 기각한 바",
-    "source": "rule_based",
-    "cached_at": 1784011249.488846
   },
   "https://www.digitimes.com/news/a20260714PR204/rambus-ddr5-chipset-ai-server-data-center.html": {
     "title": "램버스, 차세대 AI 서버용 DDR5 9600 칩셋 공개",
@@ -1611,13 +1527,13 @@
     "title": "",
     "summary": "호남 반도체 산업단지가 2030년 가동되도록 1단계 전력 공급선을 2029년 말까지 구축하기로 관계기관들은 선을 땅에 묻는 지중화 등으로 2029년 말까지 호남 반도체 산단에 전력을 공급할 1단계 공급 선로를 구축하기로",
     "source": "rule_based",
-    "cached_at": 1784263044.561432
+    "cached_at": 1784272421.36442
   },
   "https://www.yna.co.kr/view/AKR20260716103351003?section=industry/electronics": {
     "title": "",
     "summary": "구독 구독중 이전 다음 \"2030년 AI 데이터센터 100GW 규모로 확대…수천조원 규모 반도체 시장\" 에이블리 강석훈 대표 \"10대들 많이 이용…5∼10년 뒤 쿠팡과 경쟁\" 이미지 확대 백준호 퓨리오사AI 대표가 16일 제주도 롯데호텔에서 열린 '2026 협 경영자 제주하계포럼'에 참석해 'AI 인프라 패권전쟁, 이미",
     "source": "rule_based",
-    "cached_at": 1784263048.64991
+    "cached_at": 1784272426.038493
   },
   "https://www.yna.co.kr/view/AKR20260716155000061?section=industry/electronics": {
     "title": "",
@@ -1629,13 +1545,13 @@
     "title": "",
     "summary": "구독 구독중 이전 다음 3천여명 모여 해양산업 전략 논의…피지컬 AI 전시도 눈길 이미지 확대 'AI 시대, 해양의 미래', 제7회 인천국제해양포럼 개막 = 15일 인천 연수구 송도컨벤시아에서 열린 제7회 인천국제해양포럼 개막식에서 김재홍 상무(왼쪽부터), 남영희 인천시 글로벌도시 정무부시장, 황종우 해양수산부 장관",
     "source": "rule_based",
-    "cached_at": 1784263100.144844
+    "cached_at": 1784272486.094527
   },
   "https://www.yna.co.kr/view/AKR20260716103351003?section=industry/technology-science": {
     "title": "",
     "summary": "구독 구독중 이전 다음 \"2030년 AI 데이터센터 100GW 규모로 확대…수천조원 규모 반도체 시장\" 에이블리 강석훈 대표 \"10대들 많이 이용…5∼10년 뒤 쿠팡과 경쟁\" 이미지 확대 백준호 퓨리오사AI 대표가 16일 제주도 롯데호텔에서 열린 '2026 협 경영자 제주하계포럼'에 참석해 'AI 인프라 패권전쟁, 이미",
     "source": "rule_based",
-    "cached_at": 1784263103.516832
+    "cached_at": 1784272490.603198
   },
   "https://www.dt.co.kr/article/12073263": {
     "title": "",
@@ -1647,19 +1563,19 @@
     "title": "",
     "summary": "김성환 기후에너지환경부 장관(가운데)이 16일 전남광주통합특별시청에서 열린 ‘호남권 반도체 산단 전력공급 방안회의’에서 모두발언을 관련기사 김동철 한국전력 사장, 민형배 전남광주통합특별시장, 김성환 기후에너지환경부 장관, 임문영 국회의원(왼쪽 다섯 번째부터)이 전남광주통합특별시청에서 열린 ‘호남권 반도체 산단 전력공급 방안회의’에서 기념촬영을",
     "source": "rule_based",
-    "cached_at": 1784263156.200544
+    "cached_at": 1784272553.684352
   },
   "https://zdnet.co.kr/view/?no=20260716150631": {
     "title": "",
     "summary": "대만 주요 파운드리 TSMC가 AI 수요 확대에 힘입어 올 2분기 역대 최대 실적을 경신 2나노 공정은 현재 상용화된 파운드리 공정 중 가장 고도화된 공정으로, 지난해 4분기부터 양산에 돌입",
     "source": "rule_based",
-    "cached_at": 1784263162.953256
+    "cached_at": 1784272561.804047
   },
   "https://www.edaily.co.kr/News/Read?newsId=04936406645515176&mediaCodeNo=257": {
     "title": "",
     "summary": "SK키파운드리는 실리콘카바이드(SiC) 전력반도체 자회사 SK파워텍과 차세대 전력반도체 설계 전문 기업 루트세미콘이 개발한 차세대 고효율 전력반도체가 수율 80%를 돌파했 언급 SK파워텍과 루트세미콘은 4월 6일 ‘SiC 모스펫(MOSFET) 파운드리 제품 개발 계약’을 체결하고 본격적인 공동 개발에 착수",
     "source": "rule_based",
-    "cached_at": 1784263265.39073
+    "cached_at": 1784272651.350548
   },
   "https://www.edaily.co.kr/News/Read?newsId=04759286645515176&mediaCodeNo=257": {
     "title": "",
@@ -1701,7 +1617,7 @@
     "title": "",
     "summary": "이같은 전망은 AI 반도체를 위한 TSMC 3나노미터(㎚) 이하 첨단 공정 기술 수요가 강하고, TSMC 첨단 패키징 주도권도 견조하기 때문 앞서 TSMC는 지난해 3월 미국 전공정 공장과 패키징 공장, 연구개발(R&D)센터 등 건립을 위해 총 1650억달러(약 243조8000억원)를 투자하겠다고 밝힌 바",
     "source": "rule_based",
-    "cached_at": 1784263215.781011
+    "cached_at": 1784272608.119178
   },
   "https://www.newsis.com/view/NISX20260716_0003712790": {
     "title": "",
@@ -1743,19 +1659,19 @@
     "title": "",
     "summary": "전문가 “기술적 선제공격 날린 셈… 하이브리드 본딩 신기술 주목” 2001년 세계 낸드플래시 메모리 시장 1위 기업 일본 도시바가 삼성전자 문을 두드 이에 따라 AI 빅테크의 메모리 수요도 기존 HBM을 넘어 D램과 낸드플래시로까지 번지고",
     "source": "rule_based",
-    "cached_at": 1784262981.39875
+    "cached_at": 1784272311.449949
   },
   "https://www.digitimes.com/news/a20260716PD236/tsmc-taiwan-cpu-demand-data.html": {
     "title": "",
     "summary": "p class=\"P1\" data-start=\"143\" data-end=\"388\"대만반도체제조회사(TSMC)가 7월 16일 2026년 2분기 실적 컨퍼런스를 개최했 Wei는 AI 수요의 최신 발전에 대해 논의하면서 시장이 계속해서 빠른 속도로 발전하고 있다고 말했",
     "source": "rule_based",
-    "cached_at": 1784262923.814303
+    "cached_at": 1784272268.74507
   },
   "https://www.digitimes.com/news/a20260716PD204/apple-automakers-capacity-price-demand.html": {
     "title": "",
     "summary": "AI 기반 비축과 사전 용량 예약으로 가전제품 및 자동차 고객에 대한 공급이 부족해지면서 메모리 공급업체는 가격 결정력을 다시 얻었 업계 소식통에 따르면 공급업체가 더 높은 가격을 요구하고 다른 곳에 생산 능력을 할당함에 따라 Apple이 이제 사실상 최후의 주요 방어선이 되었다고 합니다",
     "source": "rule_based",
-    "cached_at": 1784262937.539349
+    "cached_at": 1784272270.474956
   },
   "https://www.asiae.co.kr/article/2026071612145657645": {
     "title": "",
@@ -1767,90 +1683,132 @@
     "title": "",
     "summary": "인도 최초의 대규모 웨이퍼 팹은 Tata 그룹이 공개적으로 선전한 28nm 노드가 아닌 수십 년 된 90nm 기술로 생산을 시작할 것 이는 뉴델리가 새로운 수십억 달러를 투입함에도 불구하고 칩 산업을 처음부터 구축하기 위해 국가가 여전히 얼마나 멀리 가야 하는지를 강조하는 단계",
     "source": "rule_based",
-    "cached_at": 1784262881.855322
+    "cached_at": 1784272241.214243
   },
   "https://www.digitimes.com/news/a20260716VL226/sk-group-sk-hynix-chairman-infrastructure-manufacturing.html": {
     "title": "",
     "summary": "최태원 SK그룹 회장은 SK하이닉스가 칩 제조와 판매를 넘어 고부가가치 사업을 구축해야 한다며 '서비스형 메모리(Memory as a Service)' 모델을 제시",
     "source": "rule_based",
-    "cached_at": 1784262891.03541
+    "cached_at": 1784272250.852282
   },
   "https://www.digitimes.com/news/a20260717PD219/cxmt-ipo-pc-dram.html": {
     "title": "",
     "summary": "중국 D램 제조사 창신메모리테크놀로지(CXMT)의 기업공개(IPO)가 막바지 단계에 접어들며 시장의 주목이 쏠리고",
     "source": "rule_based",
-    "cached_at": 1784262900.562795
+    "cached_at": 1784272260.656507
   },
   "https://www.digitimes.com/news/a20260717PD213/tsmc-packaging-mediatek-intel-technology.html": {
     "title": "",
     "summary": "p class=\"P1\" data-sourcepos=\"7:1-7:337;154-490\"TSMC 회장 C Wei는 7월 16일에 더 많은 경쟁업체가 고객 요구 사항을 충족하는 고급 포장 솔루션을 제공할 수 있다면 공급망 유연성이 추가된 것을 환영한다고 말했",
     "source": "rule_based",
-    "cached_at": 1784262905.187652
+    "cached_at": 1784272265.286434
   },
   "https://www.digitimes.com/news/a20260717PD217/tsmc-production-manufacturing-taiwan-ic-design.html": {
     "title": "",
     "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:274;122-395\"TSMC 회장 C Wei는 7월 16일에 회사가 미국에 1,000억 달러를 추가로 투자하여 주요 미국 고객의 지속적인 강력한 수요를 지원하기 위해 여러 2nm 이상의 고급 로직 웨이퍼 팹과 고급 패키징 공장에 자금을 지원할 것이라고 공식 발표했",
     "source": "rule_based",
-    "cached_at": 1784262907.217358
+    "cached_at": 1784272265.623693
   },
   "https://www.digitimes.com/news/a20260717PD210/tsmc-manufacturing-ai-usa-cost-growth.html": {
     "title": "",
     "summary": "TSMC(Taiwan Semiconductor Manufacturing Company)는 2026년 2분기 기록적인 실적을 발표하고, 시장 기대치를 뛰어넘는 3분기 매출 가이던스를 발표했으며, 연간 미국 달러 매출 성장 전망을 40% 이상으로 상향 조정했",
     "source": "rule_based",
-    "cached_at": 1784262907.596802
+    "cached_at": 1784272265.943107
   },
   "https://www.digitimes.com/news/a20260717PR204/japan-ai-development-infrastructure.html": {
     "title": "",
     "summary": "Noetra는 일본에서 개발한 다중 모드 기반 모델을 위한 본격적인 R&D를 시작했 이 프로젝트는 국가가 고급 AI 인프라 및 데이터를 구축하고 제어하는 ​​방법에 대한 의미를 포함하여 일본의 주권 AI 추진을 강조합니다",
     "source": "rule_based",
-    "cached_at": 1784262907.931028
+    "cached_at": 1784272266.282539
   },
   "https://www.digitimes.com/news/a20260717PD211/hbm-hybrid-bonding-equipment-efficiency-materials-transmission.html": {
     "title": "",
     "summary": "고대역폭 메모리(HBM) 스택에 더 많은 레이어가 추가됨에 따라 칩 간 결합 정확도 및 신호 전송 효율성에 대한 요구 사항이 더욱 까다로워지고 있",
     "source": "rule_based",
-    "cached_at": 1784262909.391704
+    "cached_at": 1784272266.620838
   },
   "https://www.digitimes.com/news/a20260717PD214/tsmc-taiwan-investment-expansion-government.html": {
     "title": "",
     "summary": "TSMC는 7월 16일 미국 투자에 1000억 달러를 추가해 총 2650억 달러에 이를 것이 언급 대만의 Executive Yuan은 글로벌 시장 수요를 충족하기 위해 미국에서 확장하는 기업을 존중하는 동시에 대만에서 칩 제조업체의 지속적인 팹 확장을 지지한다고 말했",
     "source": "rule_based",
-    "cached_at": 1784262913.88015
+    "cached_at": 1784272267.12538
   },
   "https://www.digitimes.com/news/a20260716VL224/sk-hynix-investment-government-fab-subsidiary.html": {
     "title": "",
     "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:277;118-394\"한국 국회의원이 일반 지주회사의 손자회사가 합작 투자하는 반도체 벤처 지분을 현재 100%에서 요구하는 지주회사 규정에서 최소 50% 이상 보유하도록 허용하는 법안을 발의했",
     "source": "rule_based",
-    "cached_at": 1784262922.005272
+    "cached_at": 1784272268.411478
   },
   "https://n.news.naver.com/mnews/article/138/0002234515": {
     "title": "",
     "summary": "조합원 설문조사 결과 84%가 호남 팹 투자를 반대했다며 이를 내년도 단체협약 교섭 의제로 삼겠다고 공언한 것 강성 투쟁을 벌이던 삼성전자 노조마저 친노동 정책을 펴는 정부를 향해 \"이건 잘못됐다\"라며 호남 팹 계획에 반기를 드는 상황은 일반인의 시각에선 다소 생뚱맞다",
     "source": "rule_based",
-    "cached_at": 1784262970.22644
+    "cached_at": 1784272306.156309
   },
   "https://n.news.naver.com/mnews/article/092/0002430901": {
     "title": "",
     "summary": "오는 2028년 양산 예정인 공정의 샘플 칩이 목표 성능의 90%에 도달했고, 주요 부품 수율도 안정화 단계에 접어든 확인 4나노에 해당하는 A14는 TSMC가 2027년 시생산에 돌입해, 2028년부터 본격 양산 예정인 차세대 공정",
     "source": "rule_based",
-    "cached_at": 1784262971.511294
+    "cached_at": 1784272307.741888
   },
   "https://www.ddaily.co.kr/page/view/2026071513432464565": {
     "title": "",
     "summary": "조합원 설문조사 결과 84%가 호남 팹 투자를 반대했다며 이를 내년도 단체협약 교섭 의제로 삼겠다고 공언한 것 강성 투쟁을 벌이던 삼성전자 노조마저 친노동 정책을 펴는 정부를 향해 \"이건 잘못됐다\"라며 호남 팹 계획에 반기를 드는 상황은 일반인의 시각에선 다소 생뚱맞다",
     "source": "rule_based",
-    "cached_at": 1784263107.625995
+    "cached_at": 1784272497.223391
   },
   "https://zdnet.co.kr/view/?no=20260716184600": {
     "title": "",
     "summary": "오는 2028년 양산 예정인 공정의 샘플 칩이 목표 성능의 90%에 도달했고, 주요 부품 수율도 안정화 단계에 접어든 확인 4나노에 해당하는 A14는 TSMC가 2027년 시생산에 돌입해, 2028년부터 본격 양산 예정인 차세대 공정",
     "source": "rule_based",
-    "cached_at": 1784263149.686172
+    "cached_at": 1784272546.547754
   },
   "https://www.newsis.com/view/NISX20260717_0003713231": {
     "title": "",
     "summary": "최태원 회장은 17일 오전 대한상의 제주포럼이 열린 제주신라호텔에서 권석준 성균관대 교수와 'AI가 가져올 미래와 의 성장 담론'을 주제로 대담을 가",
     "source": "rule_based",
-    "cached_at": 1784263240.962836
+    "cached_at": 1784272627.569087
+  },
+  "https://www.digitimes.com/news/a20260717VL203/cxmt-ipo-dram-hbm-manufacturing-ymtc.html": {
+    "title": "",
+    "summary": "ChangXin Memory Technologies(CXMT)는 ​​7월 16일 STAR Market IPO 청약을 개시하여 2026년 중국 최대 A주 상장 중 하나를 시작하고 기술 획득 및 제조 검증부터 대량 생산 및 자본 시장 인정에 이르기까지 중국 최초의 완전한 DRAM 여정을 기록했",
+    "source": "rule_based",
+    "cached_at": 1784272210.950462
+  },
+  "https://www.digitimes.com/news/a20260716PD241/tsmc-advanced-process-production-capacity-taiwan.html": {
+    "title": "",
+    "summary": "TSMC는 7월 16일 실적 발표에서 A14 공정 기술이 계획대로 발전하고 있으며 리스크 생산은 2027년으로 설정되고 대량 생산은 2028년에 시작될 예정이라고 밝혔",
+    "source": "rule_based",
+    "cached_at": 1784272220.578164
+  },
+  "https://www.digitimes.com/news/a20260717VL207/cxmt-dram-ipo-manufacturing-samsung.html": {
+    "title": "",
+    "summary": "ChangXin Memory Technologies(CXMT)의 STAR Market IPO는 중국 최대 반도체 상장 중 하나 그 이상",
+    "source": "rule_based",
+    "cached_at": 1784272230.163674
+  },
+  "https://n.news.naver.com/mnews/article/031/0001042942": {
+    "title": "",
+    "summary": "미국 메모리 반도체 기업 마이크론이 현대모비스와 퀄컴, 삼성전자 자회사 하만 등과 차량용 AI 플랫폼에 탑재되는 메모리·스토리지 장기 공급 계약을 체결 업계에서는 AI 서버에 이어 소프트웨어 중심 차량(SDV)과 ADAS 확산으로 차량용 메모리 수요가 빠르게 증가하면서 장기 공급 계약도 늘어나는 추세라고 보고",
+    "source": "rule_based",
+    "cached_at": 1784272304.78453
+  },
+  "https://n.news.naver.com/mnews/ranking/article/665/0000007762?ntype=RANKING": {
+    "title": "",
+    "summary": "글로벌 투자은행(IB) 번스타인이 최근 \"삼성전자가 HBM4 성능과 생산능력을 기반으로 점유율을 빠르게 확대할 것\"이라고 전망하면서 삼성전자와 SK하이닉스의 'HBM 경쟁'에 시장의 관심이 쏠리고",
+    "source": "rule_based",
+    "cached_at": 1784272308.995998
+  },
+  "https://www.asiae.co.kr/article/2026071715532164230": {
+    "title": "",
+    "summary": "CXMT·YMTC 겨냥 애플 구매 움직임 동맹 공급망 차단 미국 의회 의원들이 인공지능(AI) 인프라 핵심 부품을 중국에 의존해서는 안 된다며 트럼프 행정부에 중국 메모리 반도체 업체 창신메모리(CXMT)와 양쯔메모리(YMTC) 제품 구매를 금지하라고 촉구",
+    "source": "rule_based",
+    "cached_at": 1784272365.269793
+  },
+  "https://zdnet.co.kr/view/?no=20260717134610": {
+    "title": "",
+    "summary": "경제 전문 매체 블룸버그 통신은 타타 일렉트로닉스가 서부 구자라트주 돌레라에 건설 중인 인도 최초의 대규모 팹(fab)에서 90nm(나노미터, 10억분의 1m) 공정 기술을 기반으로 칩 생산을 준비하고 있다고 16일(현지시간) 보도",
+    "source": "rule_based",
+    "cached_at": 1784272540.514327
   }
 }
