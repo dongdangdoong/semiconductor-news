@@ -1539,19 +1539,19 @@
     "title": "",
     "summary": "전문가 “기술적 선제공격 날린 셈… 하이브리드 본딩 신기술 주목” 2001년 세계 낸드플래시 메모리 시장 1위 기업 일본 도시바가 삼성전자 문을 두드 이에 따라 AI 빅테크의 메모리 수요도 기존 HBM을 넘어 D램과 낸드플래시로까지 번지고",
     "source": "rule_based",
-    "cached_at": 1784311320.386143
+    "cached_at": 1784321170.395389
   },
   "https://www.digitimes.com/news/a20260716PD236/tsmc-taiwan-cpu-demand-data.html": {
     "title": "",
     "summary": "p class=\"P1\" data-start=\"143\" data-end=\"388\"대만반도체제조회사(TSMC)가 7월 16일 2026년 2분기 실적 컨퍼런스를 개최했 Wei는 AI 수요의 최신 발전에 대해 논의하면서 시장이 계속해서 빠른 속도로 발전하고 있다고 말했",
     "source": "rule_based",
-    "cached_at": 1784311277.797795
+    "cached_at": 1784321131.647139
   },
   "https://www.digitimes.com/news/a20260716PD204/apple-automakers-capacity-price-demand.html": {
     "title": "",
     "summary": "AI 기반 비축과 사전 용량 예약으로 가전제품 및 자동차 고객에 대한 공급이 부족해지면서 메모리 공급업체는 가격 결정력을 다시 얻었 업계 소식통에 따르면 공급업체가 더 높은 가격을 요구하고 생산 능력을 다른 곳에 할당함에 따라 Apple이 이제 사실상 최후의 주요 방어선이 되었다고 합니다",
     "source": "rule_based",
-    "cached_at": 1784311280.317171
+    "cached_at": 1784321134.177427
   },
   "https://www.asiae.co.kr/article/2026071612145657645": {
     "title": "",
@@ -1563,61 +1563,61 @@
     "title": "",
     "summary": "인도 최초의 대규모 웨이퍼 팹은 Tata 그룹이 공개적으로 선전한 28nm 노드가 아닌 수십 년 된 90nm 기술로 생산을 시작할 것 이는 뉴델리가 새로운 수십억 달러를 투입함에도 불구하고 칩 산업을 처음부터 구축하기 위해 국가가 여전히 얼마나 멀리 가야 하는지를 강조하는 단계",
     "source": "rule_based",
-    "cached_at": 1784311270.795678
+    "cached_at": 1784321124.747132
   },
   "https://www.digitimes.com/news/a20260716VL226/sk-group-sk-hynix-chairman-infrastructure-manufacturing.html": {
     "title": "",
     "summary": "최태원 SK그룹 회장은 SK하이닉스가 칩 제조와 판매를 넘어 고부가가치 사업을 구축해야 한다며 '서비스형 메모리(Memory as a Service)' 모델을 제시",
     "source": "rule_based",
-    "cached_at": 1784311271.270753
+    "cached_at": 1784321125.234972
   },
   "https://www.digitimes.com/news/a20260717PD219/cxmt-ipo-pc-dram.html": {
     "title": "",
     "summary": "중국 D램 제조사 창신메모리테크놀로지(CXMT)의 기업공개(IPO)가 막바지 단계에 접어들며 시장의 주목이 쏠리고",
     "source": "rule_based",
-    "cached_at": 1784311271.769426
+    "cached_at": 1784321125.716317
   },
   "https://www.digitimes.com/news/a20260717PD213/tsmc-packaging-mediatek-intel-technology.html": {
     "title": "",
     "summary": "p class=\"P1\" data-sourcepos=\"7:1-7:337;154-490\"TSMC 회장 C Wei는 7월 16일에 더 많은 경쟁업체가 고객 요구 사항을 충족하는 고급 포장 솔루션을 제공할 수 있다면 공급망 유연성이 추가된 것을 환영한다고 말했",
     "source": "rule_based",
-    "cached_at": 1784311272.625925
+    "cached_at": 1784321126.538358
   },
   "https://www.digitimes.com/news/a20260717PD217/tsmc-production-manufacturing-taiwan-ic-design.html": {
     "title": "",
     "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:274;122-395\"TSMC 회장 C Wei는 7월 16일에 회사가 미국에 1,000억 달러를 추가로 투자하여 주요 미국 고객의 지속적인 강력한 수요를 지원하기 위해 여러 2nm 이상의 고급 로직 웨이퍼 팹과 고급 패키징 공장에 자금을 지원할 것이라고 공식 발표했",
     "source": "rule_based",
-    "cached_at": 1784311273.092686
+    "cached_at": 1784321127.029591
   },
   "https://www.digitimes.com/news/a20260717PD210/tsmc-manufacturing-ai-usa-cost-growth.html": {
     "title": "",
     "summary": "TSMC(Taiwan Semiconductor Manufacturing Company)는 2026년 2분기 기록적인 실적을 발표하고, 시장 기대치를 뛰어넘는 3분기 매출 가이던스를 발표했으며, 연간 미국 달러 매출 성장 전망을 40% 이상으로 상향 조정했",
     "source": "rule_based",
-    "cached_at": 1784311273.615638
+    "cached_at": 1784321127.551996
   },
   "https://www.digitimes.com/news/a20260717PR204/japan-ai-development-infrastructure.html": {
     "title": "",
     "summary": "Noetra는 일본에서 개발한 다중 모드 기반 모델을 위한 본격적인 R&D를 시작했 이 프로젝트는 국가가 고급 AI 인프라 및 데이터를 구축하고 제어하는 ​​방법에 대한 의미를 포함하여 일본의 주권 AI 추진을 강조합니다",
     "source": "rule_based",
-    "cached_at": 1784311274.108055
+    "cached_at": 1784321128.011476
   },
   "https://www.digitimes.com/news/a20260717PD211/hbm-hybrid-bonding-equipment-efficiency-materials-transmission.html": {
     "title": "",
     "summary": "고대역폭 메모리(HBM) 스택에 더 많은 레이어가 추가됨에 따라 칩 간 결합 정확도 및 신호 전송 효율성에 대한 요구 사항이 더욱 까다로워지고 있",
     "source": "rule_based",
-    "cached_at": 1784311274.602039
+    "cached_at": 1784321128.532727
   },
   "https://www.digitimes.com/news/a20260717PD214/tsmc-taiwan-investment-expansion-government.html": {
     "title": "",
     "summary": "TSMC는 7월 16일 미국 투자에 1000억 달러를 추가해 총 2650억 달러에 이를 것이 언급 대만의 Executive Yuan은 글로벌 시장 수요를 충족하기 위해 미국에서 확장하는 기업을 존중하는 동시에 대만에서 칩 제조업체의 지속적인 팹 확장을 지지한다고 말했",
     "source": "rule_based",
-    "cached_at": 1784311275.38582
+    "cached_at": 1784321129.294496
   },
   "https://www.digitimes.com/news/a20260716VL224/sk-hynix-investment-government-fab-subsidiary.html": {
     "title": "",
     "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:277;118-394\"한국 국회의원이 일반 지주회사의 손자회사가 합작 투자하는 반도체 벤처 지분을 현재 100%에서 요구하는 지주회사 규정에서 최소 50% 이상 보유하도록 허용하는 법안을 발의했",
     "source": "rule_based",
-    "cached_at": 1784311277.310222
+    "cached_at": 1784321131.122736
   },
   "https://n.news.naver.com/mnews/article/138/0002234515": {
     "title": "",
@@ -1635,37 +1635,37 @@
     "title": "",
     "summary": "조합원 설문조사 결과 84%가 호남 팹 투자를 반대했다며 이를 내년도 단체협약 교섭 의제로 삼겠다고 공언한 것 강성 투쟁을 벌이던 삼성전자 노조마저 친노동 정책을 펴는 정부를 향해 \"이건 잘못됐다\"라며 호남 팹 계획에 반기를 드는 상황은 일반인의 시각에선 다소 생뚱맞다",
     "source": "rule_based",
-    "cached_at": 1784311447.167709
+    "cached_at": 1784321290.345399
   },
   "https://zdnet.co.kr/view/?no=20260716184600": {
     "title": "",
     "summary": "오는 2028년 양산 예정인 공정의 샘플 칩이 목표 성능의 90%에 도달했고, 주요 부품 수율도 안정화 단계에 접어든 확인 4나노에 해당하는 A14는 TSMC가 2027년 시생산에 돌입해, 2028년부터 본격 양산 예정인 차세대 공정",
     "source": "rule_based",
-    "cached_at": 1784311491.482702
+    "cached_at": 1784321334.435813
   },
   "https://www.newsis.com/view/NISX20260717_0003713231": {
     "title": "",
     "summary": "최태원 회장은 17일 오전 대한상의 제주포럼이 열린 제주신라호텔에서 권석준 성균관대 교수와 'AI가 가져올 미래와 의 성장 담론'을 주제로 대담을 가",
     "source": "rule_based",
-    "cached_at": 1784311614.784957
+    "cached_at": 1784321408.305011
   },
   "https://www.digitimes.com/news/a20260717VL203/cxmt-ipo-dram-hbm-manufacturing-ymtc.html": {
     "title": "",
     "summary": "ChangXin Memory Technologies(CXMT)는 ​​7월 16일 STAR Market IPO 청약을 개시하여 2026년 중국 최대 A주 상장 중 하나를 시작하고 기술 획득 및 제조 검증부터 대량 생산 및 자본 시장 인정에 이르기까지 중국 최초의 완전한 DRAM 여정을 기록했",
     "source": "rule_based",
-    "cached_at": 1784311267.322789
+    "cached_at": 1784321120.967218
   },
   "https://www.digitimes.com/news/a20260716PD241/tsmc-advanced-process-production-capacity-taiwan.html": {
     "title": "",
     "summary": "TSMC는 7월 16일 실적 발표에서 A14 공정 기술이 계획대로 발전하고 있으며 리스크 생산은 2027년으로 설정되고 대량 생산은 2028년에 시작될 예정이라고 밝혔",
     "source": "rule_based",
-    "cached_at": 1784311268.440539
+    "cached_at": 1784321122.524138
   },
   "https://www.digitimes.com/news/a20260717VL207/cxmt-dram-ipo-manufacturing-samsung.html": {
     "title": "",
     "summary": "ChangXin Memory Technologies(CXMT)의 STAR Market IPO는 중국 최대 반도체 상장 중 하나 그 이상",
     "source": "rule_based",
-    "cached_at": 1784311268.937224
+    "cached_at": 1784321122.978377
   },
   "https://n.news.naver.com/mnews/article/031/0001042942": {
     "title": "",
@@ -1677,7 +1677,7 @@
     "title": "",
     "summary": "글로벌 투자은행(IB) 번스타인이 최근 \"삼성전자가 HBM4 성능과 생산능력을 기반으로 점유율을 빠르게 확대할 것\"이라고 전망하면서 삼성전자와 SK하이닉스의 'HBM 경쟁'에 시장의 관심이 쏠리고",
     "source": "rule_based",
-    "cached_at": 1784311318.614329
+    "cached_at": 1784321168.950404
   },
   "https://www.asiae.co.kr/article/2026071715532164230": {
     "title": "",
@@ -1689,49 +1689,49 @@
     "title": "",
     "summary": "경제 전문 매체 블룸버그 통신은 타타 일렉트로닉스가 서부 구자라트주 돌레라에 건설 중인 인도 최초의 대규모 팹(fab)에서 90nm(나노미터, 10억분의 1m) 공정 기술을 기반으로 칩 생산을 준비하고 있다고 16일(현지시간) 보도",
     "source": "rule_based",
-    "cached_at": 1784311484.656293
+    "cached_at": 1784321327.209934
   },
   "https://www.digitimes.com/news/a20260717PD220/tsmc-taiwan-capacity-cowos-earnings.html": {
     "title": "",
     "summary": "7월 16일 실적 컨퍼런스에서 TSMC(Taiwan Semiconductor Manufacturing Company)는 AI 수요에 대해 낙관적인 전망을 제시했 Wei는 TSMC의 CoWoS 용량이 여전히 \"매우 부족\"하며 고객이 백엔드 제조 병목 현상을 완화하는 데 도움이 되는 추가적인 고급 패키징 솔루션의 출현을 환영한다고 말했",
     "source": "rule_based",
-    "cached_at": 1784311250.963861
+    "cached_at": 1784321105.225531
   },
   "https://www.digitimes.com/news/a20260716PD220/technology-taiwan-government-2nm-rapidus.html": {
     "title": "",
     "summary": "대만 엑스포 재팬(Taiwan Expo Japan)에서 열린 대만-일본 AI 기술 포럼에는 정부, 산업계, 학계 및 연구 대표자들이 모여 AI 애플리케이션, 반도체 공급망, 스마트 제조 및 혁신에 대해 논의했",
     "source": "rule_based",
-    "cached_at": 1784311261.201997
+    "cached_at": 1784321114.938638
   },
   "https://www.digitimes.com/news/a20260717PD222/foplp-broadcom-packaging-powertech-ai-asic.html": {
     "title": "",
     "summary": "Powertech Technology는 이사회가 총 4억 달러에 달하는 투자 계획으로 패널 레벨 고급 패키징(PLP) 제조 역량을 구축하기 위해 싱가포르에서 Broadcom과 합작 투자를 승인한 후 패널 레벨 패키징(FOLPP) 전략을 심화하고 있",
     "source": "rule_based",
-    "cached_at": 1784311265.977114
+    "cached_at": 1784321119.618862
   },
   "https://www.digitimes.com/news/a20260717PD215/tsmc-pmic-capacity-expansion.html": {
     "title": "",
     "summary": "Wei는 7월 16일 회사 수익 보고에서 성숙한 노드 확장이 제한될 것이며 향후 용량 추가는 주로 일본과 독일의 해외 팹과 대만의 일부 제품에 초점을 맞출 것이라고 말했 이 발언은 성숙 노드 공급이 타이트한 가운데 대만 PMIC 제조업체와 기타 아날로그 칩 공급업체의 우려를 완화시켰",
     "source": "rule_based",
-    "cached_at": 1784311266.459935
+    "cached_at": 1784321120.121802
   },
   "https://n.news.naver.com/mnews/article/023/0003988179": {
     "title": "",
     "summary": "UAE, 위험한 규제국서 최상위 신뢰 국 격상<BR>미국 AI 인프라에 1900조원 투자 약속<BR>이란 전쟁 도운 대가 분석도 미국 정부가 인공지능(AI) 첨단 기술 수출 통제의 핵심 기준을 기존의 ‘국가 안보’에서 ‘실리와 군사적 기여’로 전격 선회",
     "source": "rule_based",
-    "cached_at": 1784311313.358113
+    "cached_at": 1784321164.343114
   },
   "https://n.news.naver.com/mnews/article/092/0002430911": {
     "title": "",
     "summary": "경제 전문 매체 블룸버그 통신은 타타 일렉트로닉스가 서부 구자라트주 돌레라에 건설 중인 인도 최초의 대규모 팹(fab)에서 90nm(나노미터, 10억분의 1m) 공정 기술을 기반으로 칩 생산을 준비하고 있다고 16일(현지시간) 보도",
     "source": "rule_based",
-    "cached_at": 1784311314.846996
+    "cached_at": 1784321165.853152
   },
   "https://www.hankyung.com/article/2026071711911": {
     "title": "",
     "summary": "공급 부족 심화에 물량 선점 미국 메모리 반도체 제조사인 마이크론테크놀로지가 현대모비스 및 하만과 차량용 반도체 장기 공급 계약을 맺었다 세계 정보기술(IT) 시장에서 메모리 공급 부족 문제가 심화하자 자율주행·인공지능(AI) 고도화에 들어간 자동차업체들이 물량 선점에 나선 것으로 풀이",
     "source": "rule_based",
-    "cached_at": 1784311346.719472
+    "cached_at": 1784321190.86966
   },
   "https://n.news.naver.com/mnews/article/003/0014072980": {
     "title": "",
