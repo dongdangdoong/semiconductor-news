@@ -1,22 +1,4 @@
 {
-  "https://n.news.naver.com/mnews/hotissue/article/138/0002234088?type=series&cid=2000113": {
-    "title": "",
-    "summary": "TSMC가 엔비디아 등 인공지능(AI) 반도체 고객사들의 주문 폭주로 인한 공급 병목 현상을 해소하기 위해 대만 남부 자이과학단지(Chiayi Science Park)에 차세대 첨단 반도체 패키징 공장 2개를 추가로 건설하기로 확정",
-    "source": "rule_based",
-    "cached_at": 1784072657.226025
-  },
-  "https://n.news.naver.com/mnews/hotissue/article/138/0002234085?type=series&cid=2000113": {
-    "title": "",
-    "summary": "인텔의 이번 투자는 렉스립 기지의 생산 능력을 확장하는 다음 단계로, 글로벌 인공지능(AI) 및 고성능 컴퓨팅 수요에 대응해 인텔 3 공정을 기반으로 한 '인텔 제온 6' 및 차세대 제온 프로세서 생산을 확대하기 위해 마련",
-    "source": "rule_based",
-    "cached_at": 1784072658.566092
-  },
-  "https://www.digitimes.com/news/a20260714PR203/packaging-demand-profit-2026-investment.html": {
-    "title": "",
-    "summary": "중국의 반도체 패키징 및 테스트 회사인 Tianshui Huatian Technology는 7월 14일 선전 증권 거래소에 제출한 전망에 따르면 2026년 상반기 주주 귀속 순이익이 7억 5천만 위안(약 1억 1062만 달러)에서 8억 5천만 위안으로 전년 동기 2억 2천 6백만 위안보다",
-    "source": "rule_based",
-    "cached_at": 1784077933.51427
-  },
   "https://www.yna.co.kr/view/AKR20260714081500054?section=industry/electronics": {
     "title": "",
     "summary": "이미지 확대 간판 바뀐 전남광주통합특별시청 광주청사 [ 자료사진] 반면 광주권은 별도의 TF 없이 기존 담당자 1명이 환경영향평가 협의 업무를 함께 맡고 광주청사 관계자는 \"사업자의 환경영향평가 용역 기간이 최소 1년 이상 걸리는 만큼 그사이 조직을 구성하고 충분히 준비할 수 있다\"며 \"현재 인력 때문에 문제가 생기지는 않을 것\"이라고 설명",
@@ -47,12 +29,6 @@
     "source": "rule_based",
     "cached_at": 1784078163.24223
   },
-  "https://n.news.naver.com/mnews/article/469/0000942198": {
-    "title": "",
-    "summary": "현재 최첨단 반도체 생산 시장이 대만 TSMC와 삼성전자, 인텔 중심의 '3강 체제'로 재편되는 흐름을 보이고 있는 상황에서, 미국 정부의 막대한 자본과 정치력을 등에 업은 인텔이 공격적 투자로 제조 경쟁력을 끌어올릴 경우 첨단 공정 고객 확보 경쟁이 한층 격화될 가능성이 크기 때문",
-    "source": "rule_based",
-    "cached_at": 1784072651.061825
-  },
   "https://www.yna.co.kr/view/AKR20260714107100063?section=industry/electronics": {
     "title": "",
     "summary": "한국기술교육대는 교육부 '반도체 특성화대학 지원사업'을 기반으로 운영 중인 반도체 융합 전공이 대기업과 글로벌기업 취업 성과를 내며 전문인력 양성의 대표 모델로 자리 잡고 있 언급",
@@ -82,12 +58,6 @@
     "summary": "실적 개선은 AI 시장 성장에 따라 글로벌 메모리 업체들의 생산시설 투자가 확대되면서 고대역폭메모리(HBM)용 TC본더와 마이크로 쏘 앤드 비전 플레이스먼트(MSVP) 장비 판매가 늘어난 영향으로 분석",
     "source": "rule_based",
     "cached_at": 1784078007.159455
-  },
-  "https://www.asiae.co.kr/article/enterprise-CEO/2026071417241513011": {
-    "title": "",
-    "summary": "자금난에 매각했다가 올해 프리미엄 주고 재매입 미국 반도체업체 인텔이 아일랜드 렉슬립 반도체 공장 '팹 34'에 50억유로(약 8조4800억원)를 투자한다고 13일(현지시간) 발표",
-    "source": "rule_based",
-    "cached_at": 1784072698.759128
   },
   "https://www.yna.co.kr/view/AKR20260714133700017?section=industry/electronics": {
     "title": "",
@@ -148,12 +118,6 @@
     "summary": "최수진 바텐더가 9일 서울 강남구 그랜드 머큐어 임피리얼 팰리스 서울 강남 호텔의 '더 바'에서 와 인터뷰에 앞서 김승수 바텐더와 함께 포즈를 취",
     "source": "rule_based",
     "cached_at": 1784159640.337151
-  },
-  "https://n.news.naver.com/mnews/hotissue/article/138/0002234189?type=series&cid=2000113": {
-    "title": "",
-    "summary": "◆ 퓨리오사AI \"엔비디아 대비 토큰 효율 70% 우위… 차세대 10배 스케일업\" 공공 시장의 양산 퀘스천에 대응해 퓨리오사AI는 TSMC 5나노미터(㎚) 공정 기반으로 양산 중인 2세대 NPU '레니게이드(Renegade)'의 고성능·초저전력 지표를 전면에 내세웠다",
-    "source": "rule_based",
-    "cached_at": 1784072655.735334
   },
   "https://www.digitimes.com/news/a20260715VL201/tower-semiconductor-copper-data-photonics-silicon.html": {
     "title": "",
@@ -1593,24 +1557,36 @@
     "title": "",
     "summary": "18일 업계에 따르면 한미반도체는 테크인사이츠의 '2026년 글로벌 반도체 공급업체 시상식'에서 특화 장비 공급업체 부문 우수 고객 서비스 기업 7곳에 포함 한미반도체는 인공지능(AI) 반도체 수요 급증으로 글로벌 메모리 반도체 기업들의 필수 장비가 된 TC본더 시장에서 매출 기준 70%를 웃도는 점유율로 세계 1위를 지키고",
     "source": "rule_based",
-    "cached_at": 1784327950.375977
+    "cached_at": 1784337379.540349
   },
   "https://n.news.naver.com/mnews/ranking/article/469/0000942875?ntype=RANKING": {
     "title": "",
     "summary": "16일 한국지역난방공사 관계자는 \"반도체 폐열을 히트펌프로 회수해 삼성전자 기숙사 등에 공급하는 시설 설계용역이 거의 막바지 단계\"라며 \"올 하반기 착공해 내년 하반기 준공이 목표\" 언급",
     "source": "rule_based",
-    "cached_at": 1784327955.029149
+    "cached_at": 1784337380.866142
   },
   "https://www.mt.co.kr/industry/2026/07/18/2026071609070429095": {
     "title": "",
     "summary": "김 교수 역시 \"반도체 팹과 데이터센터처럼 24시간 가동되는 수요가 늘면 밤 시간대 전력을 공급할 수단이 필요하다\"며 \"해상풍력은 밤에도 발전할 수 있어 태양광을 보완하는 전원으로 가치가 있다\"고 덧붙임",
     "source": "rule_based",
-    "cached_at": 1784327988.564204
+    "cached_at": 1784337411.865106
   },
   "https://www.yna.co.kr/view/AKR20260716171100003?section=industry/electronics": {
     "title": "",
     "summary": "한미반도체가 글로벌 반도체 조사 시장조사기관이 주관하는 고객 만족도 조사에서 국내 반도체 장비기업 중 유일하게 우수 기업으로 선정 한미반도체는 폼팩터, 브룩스인스트루먼트, EV그룹, VAT, 카시야마, 호리바 등 다른 6개 장비기업과 함께 우수 기업 명단에 이름을 올",
     "source": "rule_based",
-    "cached_at": 1784328013.461798
+    "cached_at": 1784337441.298135
+  },
+  "https://n.news.naver.com/mnews/article/011/0004642639": {
+    "title": "",
+    "summary": "삼성전자가 자사 제품 구매 고객에게 구매 금액의 20%를 온누리상품권으로 돌려주는 ‘감사 페스티벌’이 예상을 크게 웃도는 흥행을 기록 삼성전자는 지난달 8일부터 이달 5일까지 스마트폰과 TV 등 가전을 구매한 고객에게 구매 금액의 20%를 디지털 온누리상품권으로 환급해주는 감사 페스티벌을 진행",
+    "source": "rule_based",
+    "cached_at": 1784337373.66507
+  },
+  "https://n.news.naver.com/mnews/article/031/0001042974": {
+    "title": "",
+    "summary": "반도체 공장은 착공부터 양산까지 통상 2~3년이 걸리는 만큼 지금 증설에 나서야 2028~2030년 AI 메모리 수요에 대응할 수 CXMT는 중국 정부의 지원과 공격적인 증설, 저렴한 가격을 바탕으로 글로벌 D램 시장에서 존재감을 키우며 삼성전자와 SK하이닉스, 마이크론을 바짝 추격",
+    "source": "rule_based",
+    "cached_at": 1784337378.280954
   }
 }
