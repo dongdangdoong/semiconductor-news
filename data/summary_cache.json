@@ -59,12 +59,6 @@
     "source": "rule_based",
     "cached_at": 1784155940.745683
   },
-  "https://www.dt.co.kr/article/12072984": {
-    "title": "",
-    "summary": "기존 이천·청주 공장에 이어 용인 클러스터까지 공급을 확대하며 국내 반도체 생산시설 전력망 구축 사업 기반을 넓힌다는 전략 이번 공급으로 가온전선은 기존 SK하이닉스 이천·청주 공장에 이어 용인 클러스터까지 공급 실적을 확보하게",
-    "source": "rule_based",
-    "cached_at": 1784152897.75953
-  },
   "https://www.edaily.co.kr/News/Read?newsId=03001206645514848&mediaCodeNo=257": {
     "title": "",
     "summary": "앞서 현대차그룹은 지난 2023년 4월 HSBMA에서 생산된 배터리 셀을 현대모비스가 배터리 팩으로 제작해 미국에서 생산하는 현대차, 기아, 제네시스 전기차에 전량 공급할 예정이라고 발표한 바",
@@ -1263,37 +1257,37 @@
     "title": "",
     "summary": "최근 팟캐스트에서 DIGITIMES의 분석가 Luke Lin은 칩 업계의 두 가지 주요 업데이트를 검토했 하나는 Intel의 아일랜드 팹 확장과 한국의 칩 제조업체들이 국내에서 메모리 용량을 확장함에 따라 삼성전자와 SK 하이닉스에 대한 미국의 조사가 증가하고 있다는 것",
     "source": "rule_based",
-    "cached_at": 1784403553.550663
+    "cached_at": 1784414203.413677
   },
   "https://www.digitimes.com/news/a20260715PD216/technology-government.html": {
     "title": "",
     "summary": "이전에 논의된 두 가지 반도체 전략과 최근 도입된 보다 광범위한 K-Moonshot 계획을 포함한 한국의 기술 정책은 산업통상자원부(MOTIE), 청와대, 과학기술정보통신부(MSIT) 등 다양한 정부 기관에서 입안되었",
     "source": "rule_based",
-    "cached_at": 1784403554.095839
+    "cached_at": 1784414208.047352
   },
   "https://www.digitimes.com/news/a20260714PD217/equipment-lg-samsung-packaging-competition.html": {
     "title": "",
     "summary": "나노기술은 반도체, 제조, 가전제품에 이르기까지 경쟁이 확대되면서 AI 시대의 핵심 원동력으로 점점 더 주목받고 있 대한민국 고양에서 열린 나노코리아 2026에서 삼성전자는 통합 반도체 솔루션을 다시 한 번 강조했고, LG그룹은 가전제품을 넘어 반도체 장비 및 소재 분야의 전개를 선보였",
     "source": "rule_based",
-    "cached_at": 1784403554.550941
+    "cached_at": 1784414208.38264
   },
   "https://www.digitimes.com/news/a20260714VL220/tcl-production-csot-monitor-panel-panel.html": {
     "title": "",
     "summary": "5 라인에서 27인치 잉크젯 인쇄 OLED 모니터 패널 생산을 시작하여 중국 디스플레이 제조업체가 더 큰 광저우 공장이 가동되기 전에 소비자 OLED 모니터에 대한 초기 발판을 마련했다고 합니다",
     "source": "rule_based",
-    "cached_at": 1784403554.901161
+    "cached_at": 1784414208.715527
   },
   "https://www.digitimes.com/news/a20260714VL219/packaging-glass-substrate-hbm-production-jntc.html": {
     "title": "",
     "summary": "AI 가속기와 HBM(고대역폭 메모리) 패키지가 더 크고 복잡해짐에 따라 기판 기술은 고급 패키징에서 새로운 제약이 되고 있 유기 기판은 여전히 ​​널리 사용되고 있지만, 고밀도 인터커넥트에 대한 수요 증가, 신호 손실 감소, 치수 안정성 향상으로 인해 유리 기판의 상업적 채택이 더욱 가까워지고 있",
     "source": "rule_based",
-    "cached_at": 1784403555.25243
+    "cached_at": 1784414209.030139
   },
   "https://www.digitimes.com/news/a20260717PD207/competition-semiconductors-worldwide-efficiency-policy.html": {
     "title": "",
     "summary": "중국의 반도체 및 공작 기계 산업이 빠르게 성장함에 따라 글로벌 공급업체는 더욱 치열한 경쟁에 직면해 있으며 이는 전 세계 고객, 가격 및 기술 선택에 영향을 미칩니다 독일의 Trumpf는 칩의 혁신과 공작 기계의 효율성으로 대응하는 동시에 무역 및 정책 위험이 변화하는 가운데 유연성을 유지하려고 노력하고 있다고 밝혔",
     "source": "rule_based",
-    "cached_at": 1784403555.829933
+    "cached_at": 1784414209.564882
   },
   "https://www.dt.co.kr/article/12073345": {
     "title": "",
@@ -1342,5 +1336,17 @@
     "summary": "구독 구독중 이전 다음 2나노 모바일 칩 '엑시노스 2600', 갤Z 플립8 일부 모델 탑재 DS부문 시스템LSI 실적개선 기대…삼성D·삼성전기도 부품 공급 = 삼성전자[005930]가 이번 주 공개 예정인 8세대 폴더블 스마트폰 '갤럭시 Z 시리즈'를 올해 하반기 실적 반등의 기회로 삼는다",
     "source": "rule_based",
     "cached_at": 1784410901.980029
+  },
+  "https://n.news.naver.com/mnews/article/003/0014073790": {
+    "title": "",
+    "summary": "美, AI 모델도 전략자산으로 묶었다…언제든 차단 가능 미국 정부는 지난 6월 미국의 대표적 AI 기업 앤트로픽의 최신 AI 모델인 '미토스5'와 '페이블5'를 출시 사흘 만에 차단 비록 통제는 6월 말 해제됐지만, 고성능 AI 모델도 반도체처럼 정부가 마음대로 막을 수 있는 무기가 될 수 있다는 전례를 남",
+    "source": "rule_based",
+    "cached_at": 1784414262.599504
+  },
+  "https://www.ddaily.co.kr/page/view/2026071613325666245": {
+    "title": "",
+    "summary": "< >가 모두의AI의 허와 실을 전문가 및 업계관계자 목소리를 통해 들어봤다.<편집자> [ ] 정부가 ‘모두의AI’ 사업에 투입하는 엔비디아 B200 그래픽처리장치(GPU) 512장을 두고 업계에서는 다양한 의견이 교차",
+    "source": "rule_based",
+    "cached_at": 1784414399.048762
   }
 }
