@@ -305,12 +305,6 @@
     "source": "rule_based",
     "cached_at": 1784176792.791065
   },
-  "https://www.digitimes.com/news/a20260715PR200/jcet-profit-demand-earnings-infrastructure.html": {
-    "title": "JCET, AI 칩 수요로 상반기 이익 증가 예상",
-    "summary": "중국 JCET, 인공지능(AI) 인프라 관련 글로벌 수요 증가에 힘입어 상반기 실적 개선 전망. 칩 패키징 및 테스트 분야의 지속적인 성장세 반영. 아시아, 미국, 유럽 전반의 기술 지출 확대가 반도체 활동 증대 견인.",
-    "source": "gemini",
-    "cached_at": 1784126105.083288
-  },
   "https://n.news.naver.com/mnews/article/001/0016197166": {
     "title": "",
     "summary": "의회 업무보고서 인력·용수·전력 등 의원들 질의 봇물 = 전남광주통합특별시의회가 광주 군공항 부지에 추진되는 반도체 클러스터 투자계획을 집중 점검 강광석 의원은 반도체 산업 성장으로 증가하는 국가 세수를 국민과 공유하는 '반도체 국민배당제' 도입 필요성을 제기하고 \"필수인력 약 5천명에 비해 30명에 불과한 지역 계약학과 정원을 대폭 확대해야 한다\"고 촉구",
@@ -353,29 +347,11 @@
     "source": "rule_based",
     "cached_at": 1784176789.63827
   },
-  "https://n.news.naver.com/mnews/article/029/0003037318": {
-    "title": "",
-    "summary": "중국 반도체 제조업체 창신메모리테크놀로지(CXMT)가 미국 마이크론을 제치고 삼성전자, SK하이닉스와 함께 올 연말 '톱3'에 진입할 수도 있다는 분석이 나 업계에서는 폭발적인 인공지능(AI) 수요 때문에 2030년까지 D램 공급부족이 계속될 것으로 보고",
-    "source": "rule_based",
-    "cached_at": 1784126191.293935
-  },
   "https://n.news.naver.com/mnews/article/031/0001042559": {
     "title": "",
     "summary": "나가 찬드라세카란 인텔 파운드리 총괄은 \"이번 성과는 High NA EUV를 첨단 반도체 양산에 적용할 수 있음을 보여준 사례\"라며 \"생산성을 높이는 동시에 차세대 공정 개발도 이어갈 것\"이 언급",
     "source": "rule_based",
     "cached_at": 1784155828.051216
-  },
-  "https://www.edaily.co.kr/News/Read?newsId=06592806645514848&mediaCodeNo=257": {
-    "title": "",
-    "summary": "경주를 대표하는 전통빵 브랜드 ‘이상복명과’가 생산능력 확대를 위해 60억원을 투자해 신규 공장을 건립 최정민 ㈜상복명과원 대표이사는 “경주시와 투자협약을 체결하게 돼 뜻깊게 생각한다”며 “신규 공장 투자를 통해 생산능력과 품질 경쟁력을 한층 높여 이상복명과를 대한민국을 대표하는 K-제과 브랜드로 성장시키겠다” 언급",
-    "source": "rule_based",
-    "cached_at": 1784126490.86062
-  },
-  "https://www.edaily.co.kr/News/Read?newsId=06576406645514848&mediaCodeNo=257": {
-    "title": "",
-    "summary": "주낙영 경주시장이 민선 9기 시정 비전으로 ‘포스트 APEC 시대’를 선포하며 세계 10대 관광도시와 K-원자력 혁신클러스터 구축을 양대 축으로 한 미래 성장전략을 제시 이번 청사진은 단순한 도시 개발을 넘어 APEC 이후 국제도시 브랜드를 확립하고, 관광과 첨단산업을 함께 육성해 경주의 미래 성장 기반을 구축하는 데 초점이 맞춰졌다는 평가다",
-    "source": "rule_based",
-    "cached_at": 1784126499.724543
   },
   "https://n.news.naver.com/mnews/article/023/0003987900": {
     "title": "",
@@ -1317,13 +1293,13 @@
     "title": "",
     "summary": "김 교수 역시 \"반도체 팹과 데이터센터처럼 24시간 가동되는 수요가 늘면 밤 시간대 전력을 공급할 수단이 필요하다\"며 \"해상풍력은 밤에도 발전할 수 있어 태양광을 보완하는 전원으로 가치가 있다\"고 덧붙임",
     "source": "rule_based",
-    "cached_at": 1784378820.86562
+    "cached_at": 1784388598.948499
   },
   "https://www.yna.co.kr/view/AKR20260716171100003?section=industry/electronics": {
     "title": "",
     "summary": "한미반도체가 글로벌 반도체 조사 시장조사기관이 주관하는 고객 만족도 조사에서 국내 반도체 장비기업 중 유일하게 우수 기업으로 선정 한미반도체는 폼팩터, 브룩스인스트루먼트, EV그룹, VAT, 카시야마, 호리바 등 다른 6개 장비기업과 함께 우수 기업 명단에 이름을 올",
     "source": "rule_based",
-    "cached_at": 1784378834.963472
+    "cached_at": 1784388672.653614
   },
   "https://n.news.naver.com/mnews/article/011/0004642639": {
     "title": "",
@@ -1347,37 +1323,37 @@
     "title": "",
     "summary": "최근 팟캐스트에서 DIGITIMES의 분석가 Luke Lin은 칩 업계의 두 가지 주요 업데이트를 검토했 하나는 Intel의 아일랜드 팹 확장과 한국의 칩 제조업체들이 국내에서 메모리 용량을 확장함에 따라 삼성전자와 SK 하이닉스에 대한 미국의 조사가 증가하고 있다는 것",
     "source": "rule_based",
-    "cached_at": 1784378653.605329
+    "cached_at": 1784388496.132761
   },
   "https://www.digitimes.com/news/a20260715PD216/technology-government.html": {
     "title": "",
     "summary": "이전에 논의된 두 가지 반도체 전략과 최근 도입된 보다 광범위한 K-Moonshot 계획을 포함한 한국의 기술 정책은 산업통상자원부(MOTIE), 청와대, 과학기술정보통신부(MSIT) 등 다양한 정부 기관에서 입안되었",
     "source": "rule_based",
-    "cached_at": 1784378662.997451
+    "cached_at": 1784388506.150735
   },
   "https://www.digitimes.com/news/a20260714PD217/equipment-lg-samsung-packaging-competition.html": {
     "title": "",
     "summary": "나노기술은 반도체, 제조, 가전제품에 이르기까지 경쟁이 확대되면서 AI 시대의 핵심 원동력으로 점점 더 주목받고 있 대한민국 고양에서 열린 나노코리아 2026에서 삼성전자는 통합 반도체 솔루션을 다시 한 번 강조했고, LG그룹은 가전제품을 넘어 반도체 장비 및 소재 분야의 전개를 선보였",
     "source": "rule_based",
-    "cached_at": 1784378672.588628
+    "cached_at": 1784388510.780403
   },
   "https://www.digitimes.com/news/a20260714VL220/tcl-production-csot-monitor-panel-panel.html": {
     "title": "",
     "summary": "5 라인에서 27인치 잉크젯 인쇄 OLED 모니터 패널 생산을 시작하여 중국 디스플레이 제조업체가 더 큰 광저우 공장이 가동되기 전에 소비자 OLED 모니터에 대한 초기 발판을 마련했다고 합니다",
     "source": "rule_based",
-    "cached_at": 1784378681.594036
+    "cached_at": 1784388511.137047
   },
   "https://www.digitimes.com/news/a20260714VL219/packaging-glass-substrate-hbm-production-jntc.html": {
     "title": "",
     "summary": "AI 가속기와 HBM(고대역폭 메모리) 패키지가 더 크고 복잡해짐에 따라 기판 기술은 고급 패키징에서 새로운 제약이 되고 있 유기 기판은 여전히 ​​널리 사용되고 있지만, 고밀도 인터커넥트에 대한 수요 증가, 신호 손실 감소, 치수 안정성 향상으로 인해 유리 기판의 상업적 채택이 더욱 가까워지고 있",
     "source": "rule_based",
-    "cached_at": 1784378690.880133
+    "cached_at": 1784388511.503119
   },
   "https://www.digitimes.com/news/a20260717PD207/competition-semiconductors-worldwide-efficiency-policy.html": {
     "title": "",
     "summary": "중국의 반도체 및 공작 기계 산업이 빠르게 성장함에 따라 글로벌 공급업체는 더욱 치열한 경쟁에 직면해 있으며 이는 전 세계 고객, 가격 및 기술 선택에 영향을 미칩니다 독일의 Trumpf는 칩의 혁신과 공작 기계의 효율성으로 대응하는 동시에 무역 및 정책 위험이 변화하는 가운데 유연성을 유지하려고 노력하고 있다고 밝혔",
     "source": "rule_based",
-    "cached_at": 1784378700.303068
+    "cached_at": 1784388512.081415
   },
   "https://www.dt.co.kr/article/12073345": {
     "title": "",
@@ -1401,6 +1377,6 @@
     "title": "",
     "summary": "권명준 유안타증권 애널리스트는 “빅테크의 공급망 다변화 필요성이 대두되고 있다”며 “대체 파운드리로 선택받으려면, 2·3나노 첨단 공정 생산능력과 안정적인 수율, 충분한 생산능력을 갖춰야",
     "source": "rule_based",
-    "cached_at": 1784378811.443848
+    "cached_at": 1784388597.718754
   }
 }
