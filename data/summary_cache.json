@@ -5,66 +5,6 @@
     "source": "rule_based",
     "cached_at": 1784159640.337151
   },
-  "https://www.digitimes.com/news/a20260715VL201/tower-semiconductor-copper-data-photonics-silicon.html": {
-    "title": "",
-    "summary": "Tower Semiconductor는 인공 지능 구축을 통해 데이터 센터가 전기가 아닌 빛으로 데이터를 이동하게 될 것이라는 데 약 30억 달러를 베팅하고 있으며 도쿄의 지원을 받아 일본에 베팅을 고정하고 있",
-    "source": "rule_based",
-    "cached_at": 1784155797.014337
-  },
-  "https://www.digitimes.com/news/a20260714VL211/shanghai-hbm-14nm-ai-chip-performance.html": {
-    "title": "",
-    "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:288;114-401\"Shanghai Orient Computing Core Technology는 emSohu/em 및 emICsmart/em이 보고한 바와 같이 소프트웨어 정의 컴퓨팅 및 3D 스택 근접 메모리 아키텍처를 사용하여 고급 프로세스 노드 및",
-    "source": "rule_based",
-    "cached_at": 1784155798.094675
-  },
-  "https://www.digitimes.com/news/a20260714VL204/government-capacity-electricity-demand-lges.html": {
-    "title": "",
-    "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:234;92-325\"한국은 2030년까지 남서부의 새로운 반도체 클러스터에 전력 ​​공급 계획을 가속화하고 있으며, 칩 팹과 AI 데이터 센터가 전력 수요를 추가함에 따라 국내 에너지 저장 시장을 잠재적으로 확장할 수 있",
-    "source": "rule_based",
-    "cached_at": 1784155798.506938
-  },
-  "https://www.digitimes.com/news/a20260713PD225/revenue-asic-soc-2026-ic-design.html": {
-    "title": "",
-    "summary": "QBit Semiconductor는 2026년 6월 연결 수익이 NT$1억 3200만(US$410만)으로 전월 대비 108 대만에 본사를 둔 IC 설계 회사는 2026년 상반기 매출이 NT$3억 2천만에 도달했다고 밝혔",
-    "source": "rule_based",
-    "cached_at": 1784155798.942123
-  },
-  "https://www.digitimes.com/news/a20260713VL220/cxmt-hbm-samsung-ipo-micron.html": {
-    "title": "",
-    "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:270;105-374\"CXMT는 2026년 중국 최대 칩 부문 IPO를 준비하고 있으며, DRAM 및 HBM 용량을 확장하고 수직적 통합을 심화하며 AI 수요 증가와 미국 수출 통제 강화 하에서 삼성전자, SK 하이닉스, 마이크론 테크놀로지에 도전하기 위해",
-    "source": "rule_based",
-    "cached_at": 1784155799.672962
-  },
-  "https://www.digitimes.com/news/a20260714PD228/ai-infrastructure-gpu-jensen-huang-tsmc.html": {
-    "title": "",
-    "summary": "기술 산업의 관심이 미국 거대 기술 기업과 TSMC에 집중됨에 따라 주권 AI는 더 나은 마진을 추구하는 AI 인프라 제공업체, 공급망 플레이어 및 컴퓨팅 임대 사업자에게 빠르게 성장하는 블루오션으로 부상했",
-    "source": "rule_based",
-    "cached_at": 1784155800.650279
-  },
-  "https://www.mk.co.kr/news/business/12098918": {
-    "title": "",
-    "summary": "곽 회장은 “지속적인 AI 반도체 시장 수요 증가로 한미반도체 장비의 쇼티지(공급 부족) 현상이 나타날 것으로 예상된다”라며 “최근 글로벌 메모리 기업들이 고대역폭메모리(HBM) 시설투자 확대 계획을 잇따라 발표하고, 팹 가동을 앞당겨 TC 본더 수요가 급증한 데다, 파운드리 기업들까지 투자를 대폭 늘리고 있는",
-    "source": "rule_based",
-    "cached_at": 1784155857.786327
-  },
-  "https://www.yna.co.kr/view/AKR20260714184700003?section=industry/electronics": {
-    "title": "",
-    "summary": "구독 구독중 이전 다음 AI시대 선도 위해 재투자 강조…사회적 재분배론과 온도차 이미지 확대 답변하는 김정관 장관 = 김정관 산업통상부 장관이 20일 청와대에서 열린 국무회의 겸 비상경제점검회의에서 이재명 대통령 질문에 답",
-    "source": "rule_based",
-    "cached_at": 1784155924.547496
-  },
-  "https://www.dt.co.kr/article/12072986": {
-    "title": "",
-    "summary": "미국 상무부 \"H200 중국 출하 시작…물량은 아직 제한적\" 미국 정부가 엔비디아의 인공지능(AI) 가속기 H200의 중국 출하가 시작됐다고 공식 확인하면서 국내 메모리 업계의 기대감이 커지고",
-    "source": "rule_based",
-    "cached_at": 1784155940.745683
-  },
-  "https://www.edaily.co.kr/News/Read?newsId=03001206645514848&mediaCodeNo=257": {
-    "title": "",
-    "summary": "앞서 현대차그룹은 지난 2023년 4월 HSBMA에서 생산된 배터리 셀을 현대모비스가 배터리 팩으로 제작해 미국에서 생산하는 현대차, 기아, 제네시스 전기차에 전량 공급할 예정이라고 발표한 바",
-    "source": "rule_based",
-    "cached_at": 1784156076.881477
-  },
   "https://www.digitimes.com/news/a20260715VL218/ic-manufacturing-equipment-investment-sales-2026.html": {
     "title": "",
     "summary": "업계 협회 SEMI의 상반기 전망에 따르면, 2026년 전세계 반도체 제조 장비 매출은 전년 대비 23 AI가 칩 산업의 투자 환경을 재편함에 따라 이러한 성장은 앞으로도 계속될 것으로 예상됩니다",
@@ -83,59 +23,17 @@
     "source": "rule_based",
     "cached_at": 1784164859.466364
   },
-  "https://www.digitimes.com/news/a20260715VL214/samsung-sk-hynix-nand-flash-design-talent-poaching-legal.html": {
-    "title": "",
-    "summary": "전직 낸드플래시 설계 직원 2명이 2027년 4월 30일까지 경쟁사인 SK하이닉스나 그 계열사에 근무하는 것을 금지해 달라는 삼성전자의 요청을 한국 법원이 부분적으로 받아들였다고 가 보도했",
-    "source": "rule_based",
-    "cached_at": 1784155791.959293
-  },
-  "https://www.digitimes.com/news/a20260715VL207/china-smartphone-market-huawei-apple-idc.html": {
-    "title": "",
-    "summary": "중국 스마트폰 시장은 기기에 대한 선호도 상실보다는 휴대폰 내부 부품 가격에 따라 재편되고 있으며, 2026년 2분기에는 그 변화 보상이 나타났 7월 14일 발표된 IDC의 Quarterly Mobile Phone Tracker에 따르면 출하량은 약 6,600만 대로 전년 동기 대비 4",
-    "source": "rule_based",
-    "cached_at": 1784155792.37482
-  },
-  "https://www.digitimes.com/news/a20260715VL213/startup-chips-qualcomm-development-acquisition.html": {
-    "title": "",
-    "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:285;136-420\"Qualcomm이 인수한 연결성 칩 전문업체인 AlphaWave의 전 임원이 설립한 반도체 스타트업인 TYLSemi는 기업이 개방형 칩렛 기반 접근 방식을 통해 맞춤형 AI 칩을 개발할 수 있도록 지원하기 위해 초기 단계 자금",
-    "source": "rule_based",
-    "cached_at": 1784155792.821224
-  },
-  "https://www.digitimes.com/news/a20260715VL212/apple-iphone-ai-silicon-valley-startup.html": {
-    "title": "",
-    "summary": "이는 클라우드 컴퓨팅에 대한 의존도를 줄이면서 성능을 향상시킬 수 있는 조치",
-    "source": "rule_based",
-    "cached_at": 1784155794.699467
-  },
-  "https://www.digitimes.com/news/a20260714VL215/intel-processor-performance-manufacturing-design.html": {
-    "title": "",
-    "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:472;114-585\"인텔은 지구 대기권 밖에서도 생존할 수 있도록 설계된 위성 및 기타 시스템용 최첨단 18A 제조 공정을 활용하는 우주 등급 프로세서인 Starfire를 공개했",
-    "source": "rule_based",
-    "cached_at": 1784155796.315232
-  },
   "https://www.asiae.co.kr/article/2026071509473253637": {
     "title": "",
     "summary": "반도체 초격차 외치는 정부 한국 주력 반도체 메모리 연구 개발 지원은 '뒷전' 부담은 삼성·SK하이닉스 '몫' 김정호 교수 \"중국, 추격 막기 위한 투자 필요\" 정부가 반도체 초격차를 하반기 경제 성장전략의 핵심으로 내세웠지만, 고대역폭메모리(HBM) 이후 차세대 메모리 연구개발(R&D) 지원은 2032년까지",
     "source": "rule_based",
     "cached_at": 1784164944.21809
   },
-  "https://www.asiae.co.kr/article/enterprise-CEO/2026071509473253637": {
-    "title": "",
-    "summary": "반도체 초격차 외치는 정부 한국 주력 반도체 메모리 연구 개발 지원은 '뒷전' 부담은 삼성·SK하이닉스 '몫' 김정호 교수 \"중국, 추격 막기 위한 투자 필요\" 정부가 반도체 초격차를 하반기 경제 성장전략의 핵심으로 내세웠지만, 고대역폭메모리(HBM) 이후 차세대 메모리 연구개발(R&D) 지원은 2032년까지",
-    "source": "rule_based",
-    "cached_at": 1784155868.094758
-  },
   "https://www.asiae.co.kr/article/2026071509595242981": {
     "title": "",
     "summary": "여기에 인공지능(AI)은 청년층 일자리부터 빠르게 대체하고 있고, 정년 연장 논의까지 본격화하면서 노동시장 진입과 이동은 더욱 어려워질 가능성이 크다 성장의 과실이 일부 산업과 계층에 집중되고 경제 전반으로 이어지지 않는 구조가 고착되면 양극화는 더욱 심화될 수밖에",
     "source": "rule_based",
     "cached_at": 1784164957.845777
-  },
-  "https://www.asiae.co.kr/article/IT/2026071511255079421": {
-    "title": "",
-    "summary": "레이다·위성통신용 핵심 칩 공동 개발 착수 설계부터 사업화까지 반도체 밸류체인 구축 한화시스템은 서울대·성균관대와 '국방 반도체 기술 워크숍'을 열고 레이다, 탐색기, 합성개구레이더(SAR) 위성 및 위성·전술통신, 고출력 마이크로파(HPM)용 반도체 칩 개발을 위한 세부 계약을 체결했 언급",
-    "source": "rule_based",
-    "cached_at": 1784155889.300816
   },
   "https://www.yna.co.kr/view/AKR20260715085400003?section=industry/electronics": {
     "title": "",
@@ -191,12 +89,6 @@
     "source": "rule_based",
     "cached_at": 1784176736.170581
   },
-  "https://zdnet.co.kr/view/?no=20260715143214": {
-    "title": "",
-    "summary": "한화시스템은 15일 양 대학과 ‘국방 반도체 기술 워크숍’을 열고 레이다와 탐색기, 합성개구레이다(SAR) 위성, 위성·전술통신, 고출력 마이크로파(HPM)용 반도체 칩 개발 계약을 체결 발표",
-    "source": "rule_based",
-    "cached_at": 1784155993.549057
-  },
   "https://www.digitimes.com/news/a20260715VL229/asml-intel-foundry-euv-production.html": {
     "title": "",
     "summary": "ASML은 7월 15일 Intel Foundry가 High-NA EUV 리소그래피를 사용하여 제조된 대용량 로직 제품을 출시한 업계 최초의 회사가 되었음을 확인했으며, 이는 네덜란드 장비 제조업체의 가장 진보된 리소그래피 기술의 상업적 준비에 중요한 이정표를 세웠",
@@ -244,12 +136,6 @@
     "summary": "경북 구미시가 정부의 제조 AX 혁신거점 육성과 삼성전자 등의 대규모 투자에 맞춰 AI·반도체 전문인력 양성에 속도를 반도체 인재 양성을 위해서는 구미상공회의소, SK실트론과 함께 3년째 운영 중인 '반도체스쿨' 사업비를 올해 9천만원으로 확대해 지역 10개 고등학교 학생 2천명을 대상으로 반도체 제조공정 체험 등 현장 중심 교육을 실시",
     "source": "rule_based",
     "cached_at": 1784176622.543994
-  },
-  "https://www.dt.co.kr/article/12073115": {
-    "title": "",
-    "summary": "레이다·위성통신·HPM 핵심 칩 공동개발 한화시스템이 서울대·성균관대와 손잡고 해외 의존도가 높은 국방 반도체의 독자 기술 확보에 나선다 한화시스템은 15일 서울대, 성균관대와 '국방 반도체 기술 워크숍'을 개최하고 레이다, 탐색기, 합성개구레이더(SAR) 위성, 위성·전술통신, HPM용 반도체 칩 개발을 위한 세부 계약을 체결",
-    "source": "rule_based",
-    "cached_at": 1784155938.185094
   },
   "https://www.ddaily.co.kr/page/view/2026071516401787717": {
     "title": "",
@@ -316,12 +202,6 @@
     "summary": "경기도는 15일 추미애 지사 주재로 '제2차 반도체 초격차 전략회의'를 열고 삼성전자 등 앵커기업 투자 지원, 기반시설 확충, 소재·부품·장비(소부장) 생태계 강화, 거버넌스 정비 등 4개 과제를 점검",
     "source": "rule_based",
     "cached_at": 1784176789.63827
-  },
-  "https://n.news.naver.com/mnews/article/031/0001042559": {
-    "title": "",
-    "summary": "나가 찬드라세카란 인텔 파운드리 총괄은 \"이번 성과는 High NA EUV를 첨단 반도체 양산에 적용할 수 있음을 보여준 사례\"라며 \"생산성을 높이는 동시에 차세대 공정 개발도 이어갈 것\"이 언급",
-    "source": "rule_based",
-    "cached_at": 1784155828.051216
   },
   "https://n.news.naver.com/mnews/article/023/0003987900": {
     "title": "",
@@ -1305,19 +1185,19 @@
     "title": "",
     "summary": "하이닉스는 D램 회로를 사람 머리카락 굵기의 1000분의 1 수준인 150나노미터(㎚·1나노는 10억분의 1m)까지 미세화한 공정을 양산에 안착시켰고, 고속 데이터 처리용 DDR D램에서도 세계 최고 수준의 기술력을 갖춘 회사로 평가받았다",
     "source": "rule_based",
-    "cached_at": 1784378770.905528
+    "cached_at": 1784418091.137217
   },
   "https://www.mk.co.kr/news/business/12101369": {
     "title": "",
     "summary": "권명준 유안타증권 애널리스트는 “빅테크의 공급망 다변화 필요성이 대두되고 있다”며 “대체 파운드리로 선택받으려면, 2·3나노 첨단 공정 생산능력과 안정적인 수율, 충분한 생산능력을 갖춰야",
     "source": "rule_based",
-    "cached_at": 1784407105.592715
+    "cached_at": 1784418119.26524
   },
   "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeVI0dzhCLU1Bd0FWMHdPQzRkcldQLVFZaUVxQ2RtRmE5UGhGYXhaRHBLeWtRZzlBRjhQbnVwZmhMaGZxY09tbUJhU1FMYU55dGw3VC01NzlQZDNtc011aFhoeEhZclNzVUtLTnJHUWJ4Y2RxOVA0SEdUbWZ3Y1RBczJUN0lQbXF2?oc=5&hl=ko&gl=KR&ceid=KR:ko": {
     "title": "",
     "summary": "글로벌이코노믹 [비즈차이나] AI 호황 올라탄 中 창신메모리… 역대급 몸값으로 ‘반도체 굴기’ 시험 - Chosunbiz ‘中 D램 공룡’ CXMT 상장 임박…‘최대 IPO’ 도전장 [투자360]",
     "source": "rule_based",
-    "cached_at": 1784406987.559902
+    "cached_at": 1784418029.517957
   },
   "https://n.news.naver.com/mnews/article/001/0016201481": {
     "title": "",
@@ -1335,7 +1215,7 @@
     "title": "",
     "summary": "구독 구독중 이전 다음 2나노 모바일 칩 '엑시노스 2600', 갤Z 플립8 일부 모델 탑재 DS부문 시스템LSI 실적개선 기대…삼성D·삼성전기도 부품 공급 = 삼성전자[005930]가 이번 주 공개 예정인 8세대 폴더블 스마트폰 '갤럭시 Z 시리즈'를 올해 하반기 실적 반등의 기회로 삼는다",
     "source": "rule_based",
-    "cached_at": 1784410901.980029
+    "cached_at": 1784418175.390345
   },
   "https://n.news.naver.com/mnews/article/003/0014073790": {
     "title": "",
@@ -1348,5 +1228,11 @@
     "summary": "< >가 모두의AI의 허와 실을 전문가 및 업계관계자 목소리를 통해 들어봤다.<편집자> [ ] 정부가 ‘모두의AI’ 사업에 투입하는 엔비디아 B200 그래픽처리장치(GPU) 512장을 두고 업계에서는 다양한 의견이 교차",
     "source": "rule_based",
     "cached_at": 1784414399.048762
+  },
+  "https://www.mt.co.kr/industry/2026/07/19/2026071823054125244": {
+    "title": "",
+    "summary": "김 교수 역시 \"반도체 팹과 데이터센터처럼 24시간 가동되는 수요가 늘면 밤 시간대 전력을 공급할 수단이 필요하다\"며 \"해상풍력은 밤에도 발전할 수 있어 태양광을 보완하는 전원으로 가치가 있다\"고 덧붙임",
+    "source": "rule_based",
+    "cached_at": 1784418122.256358
   }
 }
