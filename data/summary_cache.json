@@ -119,12 +119,6 @@
     "source": "rule_based",
     "cached_at": 1784155796.315232
   },
-  "https://n.news.naver.com/mnews/article/277/0005790314": {
-    "title": "",
-    "summary": "백준호 퓨리오사AI 대표는 \"다음의 AI 오버뷰를 위한 솔라 모델 구동에 24개 정도의 레니게이드 NPU 칩이 투입돼 하루 5억개 정도의 토큰을 처리하고 있다\"면서 \"하드웨어와 소프트웨어를 함께 설계해 엔비디아의 H200 GPU보다",
-    "source": "rule_based",
-    "cached_at": 1784145977.632058
-  },
   "https://n.news.naver.com/mnews/article/016/0002670588": {
     "title": "",
     "summary": "기업공개(IPO)를 앞둔 세계 4위 D램 업체 중국 창신메모리테크놀로지(CXMT)가 글로벌 메모리 반도체 투톱인 삼성전자·SK하이닉스와 비교해 뒤지지 않는 최신 D램 경쟁력을 갖췄다고 자평",
@@ -304,12 +298,6 @@
     "summary": "김장호 시장은 15일 구미 들과 만나 “서남권에 대규모 메모리 반도체 팹 공장 투자가 발표됐지만, 진행 과정에서 걸림돌이 생기면 언제든지 다시 구미로 올 수 있다고 생각한다”며 “구미는 고품질의 전기와 하루 100만톤 규모의 낙동강 용수(여유 70만톤), 평당 1000원에 공급 가능한 산업 부지 등 인프라를 모두 갖추고",
     "source": "rule_based",
     "cached_at": 1784176792.791065
-  },
-  "https://n.news.naver.com/mnews/article/001/0016197166": {
-    "title": "",
-    "summary": "의회 업무보고서 인력·용수·전력 등 의원들 질의 봇물 = 전남광주통합특별시의회가 광주 군공항 부지에 추진되는 반도체 클러스터 투자계획을 집중 점검 강광석 의원은 반도체 산업 성장으로 증가하는 국가 세수를 국민과 공유하는 '반도체 국민배당제' 도입 필요성을 제기하고 \"필수인력 약 5천명에 비해 30명에 불과한 지역 계약학과 정원을 대폭 확대해야 한다\"고 촉구",
-    "source": "rule_based",
-    "cached_at": 1784145987.574458
   },
   "https://www.hankyung.com/article/2026071577451": {
     "title": "",
@@ -1275,13 +1263,13 @@
     "title": "",
     "summary": "김 교수 역시 \"반도체 팹과 데이터센터처럼 24시간 가동되는 수요가 늘면 밤 시간대 전력을 공급할 수단이 필요하다\"며 \"해상풍력은 밤에도 발전할 수 있어 태양광을 보완하는 전원으로 가치가 있다\"고 덧붙임",
     "source": "rule_based",
-    "cached_at": 1784398645.198084
+    "cached_at": 1784407107.360425
   },
   "https://www.yna.co.kr/view/AKR20260716171100003?section=industry/electronics": {
     "title": "",
     "summary": "한미반도체가 글로벌 반도체 조사 시장조사기관이 주관하는 고객 만족도 조사에서 국내 반도체 장비기업 중 유일하게 우수 기업으로 선정 한미반도체는 폼팩터, 브룩스인스트루먼트, EV그룹, VAT, 카시야마, 호리바 등 다른 6개 장비기업과 함께 우수 기업 명단에 이름을 올",
     "source": "rule_based",
-    "cached_at": 1784398671.770002
+    "cached_at": 1784407130.934797
   },
   "https://n.news.naver.com/mnews/article/011/0004642639": {
     "title": "",
@@ -1347,7 +1335,7 @@
     "title": "",
     "summary": "파편화된 개인들을 잇는 새 싱글 '모여라' 발매 기념 인터뷰 [서울= ] 비공정 강흠(보컬·기타), 류경선(기타), 정환규(베이스·신시사이저), 서민광(드럼)과 함께 국내 밴드로는 드물게 엔지니어(박상규)가 멤버로 포함된 이 팀은 그 어느 밴드 조직보다",
     "source": "rule_based",
-    "cached_at": 1784392290.339344
+    "cached_at": 1784407270.298785
   },
   "https://n.news.naver.com/mnews/hotissue/article/015/0005311228?type=series&cid=2003107": {
     "title": "",
@@ -1359,12 +1347,12 @@
     "title": "",
     "summary": "권명준 유안타증권 애널리스트는 “빅테크의 공급망 다변화 필요성이 대두되고 있다”며 “대체 파운드리로 선택받으려면, 2·3나노 첨단 공정 생산능력과 안정적인 수율, 충분한 생산능력을 갖춰야",
     "source": "rule_based",
-    "cached_at": 1784398643.643492
+    "cached_at": 1784407105.592715
   },
   "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeVI0dzhCLU1Bd0FWMHdPQzRkcldQLVFZaUVxQ2RtRmE5UGhGYXhaRHBLeWtRZzlBRjhQbnVwZmhMaGZxY09tbUJhU1FMYU55dGw3VC01NzlQZDNtc011aFhoeEhZclNzVUtLTnJHUWJ4Y2RxOVA0SEdUbWZ3Y1RBczJUN0lQbXF2?oc=5&hl=ko&gl=KR&ceid=KR:ko": {
     "title": "",
     "summary": "글로벌이코노믹 [비즈차이나] AI 호황 올라탄 中 창신메모리… 역대급 몸값으로 ‘반도체 굴기’ 시험 - Chosunbiz ‘中 D램 공룡’ CXMT 상장 임박…‘최대 IPO’ 도전장 [투자360]",
     "source": "rule_based",
-    "cached_at": 1784398525.353858
+    "cached_at": 1784406987.559902
   }
 }
