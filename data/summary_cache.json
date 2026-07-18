@@ -119,12 +119,6 @@
     "source": "rule_based",
     "cached_at": 1784155796.315232
   },
-  "https://n.news.naver.com/mnews/article/016/0002670588": {
-    "title": "",
-    "summary": "기업공개(IPO)를 앞둔 세계 4위 D램 업체 중국 창신메모리테크놀로지(CXMT)가 글로벌 메모리 반도체 투톱인 삼성전자·SK하이닉스와 비교해 뒤지지 않는 최신 D램 경쟁력을 갖췄다고 자평",
-    "source": "rule_based",
-    "cached_at": 1784149373.824872
-  },
   "https://www.asiae.co.kr/article/2026071509473253637": {
     "title": "",
     "summary": "반도체 초격차 외치는 정부 한국 주력 반도체 메모리 연구 개발 지원은 '뒷전' 부담은 삼성·SK하이닉스 '몫' 김정호 교수 \"중국, 추격 막기 위한 투자 필요\" 정부가 반도체 초격차를 하반기 경제 성장전략의 핵심으로 내세웠지만, 고대역폭메모리(HBM) 이후 차세대 메모리 연구개발(R&D) 지원은 2032년까지",
@@ -208,12 +202,6 @@
     "summary": "한화시스템은 15일 양 대학과 ‘국방 반도체 기술 워크숍’을 열고 레이다와 탐색기, 합성개구레이다(SAR) 위성, 위성·전술통신, 고출력 마이크로파(HPM)용 반도체 칩 개발 계약을 체결 발표",
     "source": "rule_based",
     "cached_at": 1784155993.549057
-  },
-  "https://www.edaily.co.kr/News/Read?newsId=02922486645514848&mediaCodeNo=257": {
-    "title": "",
-    "summary": "아모텍 관계자는 “AI 시장 확대와 함께 고성능 GPU 및 초고속 광네트워크 투자 증가로 초고주파 제품과 고압 MLCC 기술 경쟁력이 부각되고 있다”며 “하반기 양산을 계기로 AI 데이터센터와 글로벌 전장 시장을 아우르는 핵심 부품 공급사로 자리매김하겠다” 언급",
-    "source": "rule_based",
-    "cached_at": 1784149715.588417
   },
   "https://www.digitimes.com/news/a20260715VL229/asml-intel-foundry-euv-production.html": {
     "title": "",
@@ -370,24 +358,6 @@
     "summary": "세계 최대 파운드리(반도체 위탁생산) 업체인 TSMC가 16일 2분기 확정 실적을 발표 이미 월별 실적을 공개한 TSMC는 앞서 제시했던 2분기 매출 전망치 상단을 넘어선 전망",
     "source": "rule_based",
     "cached_at": 1784224506.028084
-  },
-  "https://www.edaily.co.kr/News/Read?newsId=01669526645515176&mediaCodeNo=257": {
-    "title": "",
-    "summary": "구글·애플 등 미국 빅테크들이 삼성전자·SK하이닉스 등 공급사에 요구한 RE100(재생에너지 100%) 시한이 불과 3~4년 앞으로 다가왔기 때문 SK하이닉스 역시 2030년 RE100 달성률 33%를 목표로 하고 있지만 국내에선 재생에너지 발전량 자체가 부족한 탓에 구매할 청정전력 자체가 부족해 어려움을 겪는 확인",
-    "source": "rule_based",
-    "cached_at": 1784149657.749044
-  },
-  "https://www.edaily.co.kr/News/Read?newsId=01666246645515176&mediaCodeNo=257": {
-    "title": "",
-    "summary": "호남 반도체 클러스터 조성 계획이 선언에 머물지 않고 대만 TSMC 가오슝 클러스터가 보여준 단기 초고속 가동의 기적으로 이어지려면, 전력과 용수 측면에서 반드시 세 가지 과제를 해결",
-    "source": "rule_based",
-    "cached_at": 1784149666.899406
-  },
-  "https://www.edaily.co.kr/News/Read?newsId=01662966645515176&mediaCodeNo=257": {
-    "title": "",
-    "summary": "호남 반도체 공장(팹)을 중심으로 한 3대 메가 프로젝트 발표 이후 이 초대형 프로젝트에 필요한 대규모 전력·용수를 어떻게 공급할 것인지가 핵심 과제로 떠오르고 현재 진행 중인 용인 반도체 팹 10기에 필요한 전력 15GW까지 포함하면 주요 반도체·AI 전력수요는 40GW에 육박",
-    "source": "rule_based",
-    "cached_at": 1784149723.019658
   },
   "https://www.edaily.co.kr/News/Read?newsId=02902806645515176&mediaCodeNo=257": {
     "title": "",
@@ -1354,5 +1324,23 @@
     "summary": "글로벌이코노믹 [비즈차이나] AI 호황 올라탄 中 창신메모리… 역대급 몸값으로 ‘반도체 굴기’ 시험 - Chosunbiz ‘中 D램 공룡’ CXMT 상장 임박…‘최대 IPO’ 도전장 [투자360]",
     "source": "rule_based",
     "cached_at": 1784406987.559902
+  },
+  "https://n.news.naver.com/mnews/article/001/0016201481": {
+    "title": "",
+    "summary": "2나노 모바일 칩 '엑시노스 2600', 갤Z 플립8 일부 모델 탑재 DS부문 시스템LSI 실적개선 기대…삼성D·삼성전기도 부품 공급 = 삼성전자가 이번 주 공개 예정인 8세대 폴더블 스마트폰 '갤럭시 Z 시리즈'를 올해 하반기 실적 반등의 기회로 삼는다",
+    "source": "rule_based",
+    "cached_at": 1784410794.622304
+  },
+  "https://n.news.naver.com/mnews/article/138/0002234548": {
+    "title": "",
+    "summary": "< >가 모두의AI의 허와 실을 전문가 및 업계관계자 목소리를 통해 들어봤다.<편집자> [ ] 정부가 ‘모두의AI’ 사업에 투입하는 엔비디아 B200 그래픽처리장치(GPU) 512장을 두고 업계에서는 다양한 의견이 교차",
+    "source": "rule_based",
+    "cached_at": 1784410799.244897
+  },
+  "https://www.yna.co.kr/view/AKR20260716190800003?section=industry/technology-science": {
+    "title": "",
+    "summary": "구독 구독중 이전 다음 2나노 모바일 칩 '엑시노스 2600', 갤Z 플립8 일부 모델 탑재 DS부문 시스템LSI 실적개선 기대…삼성D·삼성전기도 부품 공급 = 삼성전자[005930]가 이번 주 공개 예정인 8세대 폴더블 스마트폰 '갤럭시 Z 시리즈'를 올해 하반기 실적 반등의 기회로 삼는다",
+    "source": "rule_based",
+    "cached_at": 1784410901.980029
   }
 }
