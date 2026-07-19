@@ -1,10 +1,4 @@
 {
-  "https://www.newsis.com/view/NISX20260714_0003709007": {
-    "title": "",
-    "summary": "최수진 바텐더가 9일 서울 강남구 그랜드 머큐어 임피리얼 팰리스 서울 강남 호텔의 '더 바'에서 와 인터뷰에 앞서 김승수 바텐더와 함께 포즈를 취",
-    "source": "rule_based",
-    "cached_at": 1784159640.337151
-  },
   "https://www.digitimes.com/news/a20260715VL218/ic-manufacturing-equipment-investment-sales-2026.html": {
     "title": "",
     "summary": "업계 협회 SEMI의 상반기 전망에 따르면, 2026년 전세계 반도체 제조 장비 매출은 전년 대비 23 AI가 칩 산업의 투자 환경을 재편함에 따라 이러한 성장은 앞으로도 계속될 것으로 예상됩니다",
@@ -221,23 +215,11 @@
     "source": "rule_based",
     "cached_at": 1784184824.325168
   },
-  "https://www.newsis.com/view/NISX20260715_0003709850": {
-    "title": "",
-    "summary": "가온전선은 최근 SK하이닉스 용인 반도체 클러스터에 수백억원 규모의 배전 케이블을 공급했 언급 가온전선은 국내 배전 케이블 시장에서 쌓은 공급 경험과 LS전선과의 협업을 바탕으로 국내외 반도체 전력 인프라 시장 공략을 강화한다는 방침",
-    "source": "rule_based",
-    "cached_at": 1784159636.642596
-  },
   "https://www.edaily.co.kr/News/Read?newsId=01653126645515176&mediaCodeNo=257": {
     "title": "",
     "summary": "세계 최대 파운드리(반도체 위탁생산) 업체인 TSMC가 16일 2분기 확정 실적을 발표 이미 월별 실적을 공개한 TSMC는 앞서 제시했던 2분기 매출 전망치 상단을 넘어선 전망",
     "source": "rule_based",
     "cached_at": 1784224506.028084
-  },
-  "https://www.edaily.co.kr/News/Read?newsId=02902806645515176&mediaCodeNo=257": {
-    "title": "",
-    "summary": "김영훈 고용노동부 장관이 최근 호황을 맞이한 반도체 대기업의 초과이익을 두고 공정한 분배를 해야 한다고 주장한 가운데, 작가 겸 방송인 허지웅 씨가 “하나부터 열까지 총체적인 엉터리”라며 비판하고",
-    "source": "rule_based",
-    "cached_at": 1784159655.681818
   },
   "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YZFA0Wjlxa2NLa1pDT2JqV0g2Z1NtWGt0STVhN0hRell6elU4aTNGNWtTSFN1UlhGa3BNTzdQdFNVc0haNWJWaW5zSkRJRkxRd3UxeWN0VkxTWmM5OGpjSGprdXlsUXU0MmMxRFJsa0dVdldvbGfSAWZBVV95cUxPdWkzc215M1hMSzdMbVBiS29MZENfZ1FFUmRGMTdia01CSk8xbHZpaklfN0Z4Z1Zma3FFNVcxdV92cjNOd2dQb2UxZ1k3Mm1fV040SDgzN3FTXzdyd2w3WW1mRDE5Y1E?oc=5&hl=ko&gl=KR&ceid=KR:ko": {
     "title": "",
@@ -1135,39 +1117,39 @@
   },
   "https://www.digitimes.com/news/a20260717PD229/samsung-sk-hynix-intel-digitimes-capacity.html": {
     "title": "",
-    "summary": "최근 팟캐스트에서 DIGITIMES의 분석가 Luke Lin은 칩 업계의 두 가지 주요 업데이트를 검토했 하나는 Intel의 아일랜드 팹 확장과 한국의 칩 제조업체들이 국내에서 메모리 용량을 확장함에 따라 삼성전자와 SK 하이닉스에 대한 미국의 조사가 증가하고 있다는 것",
+    "summary": "최근 팟캐스트에서 DIGITIMES 분석가 Luke Lin은 칩 업계의 두 가지 주요 업데이트를 검토했 하나는 Intel의 아일랜드 팹 확장과 한국의 두 칩 제조업체가 국내에서 메모리 용량을 확장함에 따라 삼성전자와 SK 하이닉스에 대한 미국의 조사가 증가하는 것",
     "source": "rule_based",
-    "cached_at": 1784414203.413677
+    "cached_at": 1784423990.357901
   },
   "https://www.digitimes.com/news/a20260715PD216/technology-government.html": {
     "title": "",
     "summary": "이전에 논의된 두 가지 반도체 전략과 최근 도입된 보다 광범위한 K-Moonshot 계획을 포함한 한국의 기술 정책은 산업통상자원부(MOTIE), 청와대, 과학기술정보통신부(MSIT) 등 다양한 정부 기관에서 입안되었",
     "source": "rule_based",
-    "cached_at": 1784414208.047352
+    "cached_at": 1784423994.977487
   },
   "https://www.digitimes.com/news/a20260714PD217/equipment-lg-samsung-packaging-competition.html": {
     "title": "",
     "summary": "나노기술은 반도체, 제조, 가전제품에 이르기까지 경쟁이 확대되면서 AI 시대의 핵심 원동력으로 점점 더 주목받고 있 대한민국 고양에서 열린 나노코리아 2026에서 삼성전자는 통합 반도체 솔루션을 다시 한 번 강조했고, LG그룹은 가전제품을 넘어 반도체 장비 및 소재 분야의 전개를 선보였",
     "source": "rule_based",
-    "cached_at": 1784414208.38264
+    "cached_at": 1784423995.393016
   },
   "https://www.digitimes.com/news/a20260714VL220/tcl-production-csot-monitor-panel-panel.html": {
     "title": "",
     "summary": "5 라인에서 27인치 잉크젯 인쇄 OLED 모니터 패널 생산을 시작하여 중국 디스플레이 제조업체가 더 큰 광저우 공장이 가동되기 전에 소비자 OLED 모니터에 대한 초기 발판을 마련했다고 합니다",
     "source": "rule_based",
-    "cached_at": 1784414208.715527
+    "cached_at": 1784423995.805242
   },
   "https://www.digitimes.com/news/a20260714VL219/packaging-glass-substrate-hbm-production-jntc.html": {
     "title": "",
     "summary": "AI 가속기와 HBM(고대역폭 메모리) 패키지가 더 크고 복잡해짐에 따라 기판 기술은 고급 패키징에서 새로운 제약이 되고 있 유기 기판은 여전히 ​​널리 사용되고 있지만, 고밀도 인터커넥트에 대한 수요 증가, 신호 손실 감소, 치수 안정성 향상으로 인해 유리 기판의 상업적 채택이 더욱 가까워지고 있",
     "source": "rule_based",
-    "cached_at": 1784414209.030139
+    "cached_at": 1784423996.212247
   },
   "https://www.digitimes.com/news/a20260717PD207/competition-semiconductors-worldwide-efficiency-policy.html": {
     "title": "",
-    "summary": "중국의 반도체 및 공작 기계 산업이 빠르게 성장함에 따라 글로벌 공급업체는 더욱 치열한 경쟁에 직면해 있으며 이는 전 세계 고객, 가격 및 기술 선택에 영향을 미칩니다 독일의 Trumpf는 칩의 혁신과 공작 기계의 효율성으로 대응하는 동시에 무역 및 정책 위험이 변화하는 가운데 유연성을 유지하려고 노력하고 있다고 밝혔",
+    "summary": "중국의 반도체 및 공작 기계 산업이 빠르게 확장되면서 전 세계 고객, 가격 및 기술 선택에 영향을 미치면서 글로벌 공급업체는 더욱 치열한 경쟁에 직면해 있 독일의 Trumpf는 칩의 혁신과 공작 기계의 효율성으로 대응하는 동시에 무역 및 정책 위험이 변화하는 가운데 유연성을 유지하려고 노력하고 있다고 밝혔",
     "source": "rule_based",
-    "cached_at": 1784414209.564882
+    "cached_at": 1784423996.898021
   },
   "https://www.dt.co.kr/article/12073345": {
     "title": "",
@@ -1234,5 +1216,83 @@
     "summary": "김 교수 역시 \"반도체 팹과 데이터센터처럼 24시간 가동되는 수요가 늘면 밤 시간대 전력을 공급할 수단이 필요하다\"며 \"해상풍력은 밤에도 발전할 수 있어 태양광을 보완하는 전원으로 가치가 있다\"고 덧붙임",
     "source": "rule_based",
     "cached_at": 1784418122.256358
+  },
+  "https://www.digitimes.com/news/a20260715PD228/data-development-gpu-chips-efficiency.html": {
+    "title": "",
+    "summary": "AI 개발은 더 큰 데이터 전송과 더 높은 GPU 효율성 요구를 주도하고 있으며, 메모리를 맞춤화하는 방향으로 나아가고 있으며 한국 업계 관찰자들이 '메모리 파운드리' 모델로의 전환을 촉구하고 있",
+    "source": "rule_based",
+    "cached_at": 1784423971.92591
+  },
+  "https://www.digitimes.com/news/a20260717PD224/asml-high-na-euv-equipment-demand-taiwan.html": {
+    "title": "",
+    "summary": "High-NA EUV 리소그래피는 인공 지능, 고성능 컴퓨팅 및 모바일 장치에 사용되는 고급 칩에 대한 수요가 증가함에 따라 반도체 장비 산업의 차세대 주요 전쟁터가 되고 있 ASML의 주요 공급업체인 Trumpf는 더 높은 레이저 출력, 더 빠른 도구 출력, 칩 설계자와의 긴밀한 협력이 기술이 얼마나 빨리 주류가 될지를 결정할 것이라고 말했",
+    "source": "rule_based",
+    "cached_at": 1784423980.871597
+  },
+  "https://n.news.naver.com/mnews/hotissue/article/001/0016201600?type=series&cid=2003568": {
+    "title": "",
+    "summary": "학습 넘어 추론 AI 경쟁 본격화…전력·비용 효율 강점 부각 국산 NPU·LLM 결합 확산…AI 공급망 자립 기대 = 인공지능(AI) 시장의 무게중심이 모델 학습에서 실제 서비스를 위한 추론으로 이동하면서 국산 신경망처리장치(NPU)에 대한 관심과 중요성이 커지고",
+    "source": "rule_based",
+    "cached_at": 1784424027.601159
+  },
+  "https://n.news.naver.com/mnews/article/001/0016201600": {
+    "title": "",
+    "summary": "학습 넘어 추론 AI 경쟁 본격화…전력·비용 효율 강점 부각 국산 NPU·LLM 결합 확산…AI 공급망 자립 기대 = 인공지능(AI) 시장의 무게중심이 모델 학습에서 실제 서비스를 위한 추론으로 이동하면서 국산 신경망처리장치(NPU)에 대한 관심과 중요성이 커지고",
+    "source": "rule_based",
+    "cached_at": 1784424029.089471
+  },
+  "https://n.news.naver.com/mnews/article/018/0006332454": {
+    "title": "",
+    "summary": "UNIST는 정창욱 반도체소재·부품대학원 교수팀이 산화물 반도체의 산소 빈자리 결함의 성질을 결정하는 것은 반도체 물질 전체에 원자들이 얼마나 촘촘하게 들어차 있는지가 아니라, 결함 주변의 금속 원자 사이 거리라는 사실을 이론 계산을 통해 증명했 언급",
+    "source": "rule_based",
+    "cached_at": 1784424030.533757
+  },
+  "https://n.news.naver.com/mnews/article/092/0002430967": {
+    "title": "",
+    "summary": "UNIST는 정창욱 반도체소재·부품대학원 교수 연구팀이 산화물 반도체의 산소 빈자리 결함의 성질을 결정하는 것이 반도체 물질 전체에 원자들이 얼마나 촘촘하게 들어차 있는지가 아니라, 결함 주변 금속 원자 사이 거리라는 사실을 이론 계산을 통해 증명했 언급",
+    "source": "rule_based",
+    "cached_at": 1784424031.833211
+  },
+  "https://www.mt.co.kr/industry/2026/07/19/2026071909424781821": {
+    "title": "",
+    "summary": "공보현 에코프로비엠 연구개발 담당 상무는 고체전해질 개발과 관련 \"현재 유수 고객사와 시양산을 검토 중으로 가장 빠른 양산 시점은 2027년이 될 것으로 예상하고 있다\"며 \"양산 라인 설계를 마치고 고객 수요에 맞춰 즉시 착공이 가능하도록 준비하고 있다\" 언급",
+    "source": "rule_based",
+    "cached_at": 1784424071.834576
+  },
+  "https://www.asiae.co.kr/article/IT/2026071909214045141": {
+    "title": "",
+    "summary": "고체전해질·전용 양극재 동시 개발 2027년 양산 목표·차세대 소재 확대 에코프로비엠이 전고체 배터리 핵심 소재 확보에 속도를 내고 공보현 에코프로비엠 연구개발 담당 상무는 \"현재 주요 고객사와 시양산을 검토 중이며 가장 빠른 양산 시점은 2027년으로 예상한다\"며 \"양산 설계를 마쳤고 고객 수요에 맞춰 즉시 착공할 수 있도록 준비하고 있다\" 언급",
+    "source": "rule_based",
+    "cached_at": 1784424101.3734
+  },
+  "https://www.yna.co.kr/view/AKR20260719016800053?section=industry/electronics": {
+    "title": "",
+    "summary": "도는 정부가 제시한 대경권 소재·부품·장비 혁신거점을 최고의 반도체 산업거점으로 발전시키기 위해 '기술개발(R&D)-실증-양산-팹(Fab) 유치'가 선순환하는 산업생태계 조성에 역량을 집중",
+    "source": "rule_based",
+    "cached_at": 1784424105.235541
+  },
+  "https://www.yna.co.kr/view/AKR20260717050300017?section=industry/technology-science": {
+    "title": "",
+    "summary": "구독 구독중 이전 다음 학습 넘어 추론 AI 경쟁 본격화…전력·비용 효율 강점 부각 국산 NPU·LLM 결합 확산…AI 공급망 자립 기대 이미지 확대 CES에 전시된 딥엑스 NPU [ 자료사진 이들 업체는 국산 NPU로도 엔비디아 GPU와 유사한 성능을 구현하고 LLM 토큰 처리 비용을 대폭 낮출 수 있다는 점을 강조",
+    "source": "rule_based",
+    "cached_at": 1784424147.476627
+  },
+  "https://zdnet.co.kr/view/?no=20260718165556": {
+    "title": "",
+    "summary": "UNIST는 정창욱 반도체소재·부품대학원 교수 연구팀이 산화물 반도체의 산소 빈자리 결함의 성질을 결정하는 것이 반도체 물질 전체에 원자들이 얼마나 촘촘하게 들어차 있는지가 아니라, 결함 주변 금속 원자 사이 거리라는 사실을 이론 계산을 통해 증명했 언급",
+    "source": "rule_based",
+    "cached_at": 1784424170.504013
+  },
+  "https://www.etnews.com/20260716000293": {
+    "title": "",
+    "summary": "도·충남 테크노파크(TP)는 '지역 주도형 AI 대전환(AX) 사업'에 참여하는 반도체·디스플레이·모빌리티 등 주력 산업의 중소기업을 이달 내 모집하고 8월 AX 수준 진단을 거친 후 기업 30여곳을 선정해 맞춤형 AI 제조 솔루션을 지원",
+    "source": "rule_based",
+    "cached_at": 1784424238.328523
+  },
+  "https://www.newsis.com/view/NISX20260719_0003713853": {
+    "title": "",
+    "summary": "도널드 트럼프 미국 대통령과 멜라니아 트럼프 여사가 3월 7일(현지시간) 델라웨어주 도버 공군기지에서 열린 시신 인도식(Dignified Transfer)에서 이란과의 군사 충돌로 쿠웨이트에서 전사한 미군의 유해가 이동하는 동안 경례",
+    "source": "rule_based",
+    "cached_at": 1784424253.708218
   }
 }
