@@ -1,10 +1,4 @@
 {
-  "https://www.edaily.co.kr/News/Read?newsId=01653126645515176&mediaCodeNo=257": {
-    "title": "",
-    "summary": "세계 최대 파운드리(반도체 위탁생산) 업체인 TSMC가 16일 2분기 확정 실적을 발표 이미 월별 실적을 공개한 TSMC는 앞서 제시했던 2분기 매출 전망치 상단을 넘어선 전망",
-    "source": "rule_based",
-    "cached_at": 1784224506.028084
-  },
   "https://www.digitimes.com/news/a20260715VL223/beijing-capacity-infrastructure-hardware.html": {
     "title": "",
     "summary": "p class=\"P1\" data-sourcepos=\"5:1-5:191;99-289\"Beijing Approach AI Technology Co.(또는 Approaching AI)는 자사가 소유하지 않은 컴퓨팅 인프라에서 주로 생성된 AI 토큰을 판매하여 6개월 만에 10억 위안 이상을 모금했",
@@ -425,12 +419,6 @@
     "source": "rule_based",
     "cached_at": 1784232292.256363
   },
-  "https://news.google.com/rss/articles/CBMicEFVX3lxTE1icGJKSU9oQVFYRlN1VTl0ZGRacnpYU1h2eGhlNkViXzdqZ1VvWEhtZzI0THgwQ05vVkhhd3hRTGYxYUlpU1ZOT29pZVZZaThlVGd4Ul9oNXNDd0JNVzdVU1RGSDFkTHRDd2VaNldoOUI?oc=5&hl=ko&gl=KR&ceid=KR:ko": {
-    "title": "",
-    "summary": "한국어 \"중국 CXMT 상장이 삼성전자 SK하이닉스 D램 점유율 위협\", 최대 98억 달러 조달 비즈니스포스트 [중국 D램 CXMT 해부] ⑦3대 투자노선, A주 테마주 탐색전 본격화 뉴스핌",
-    "source": "rule_based",
-    "cached_at": 1784223988.157459
-  },
   "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZnZENUdyUkp4dE8tYWtpQnBQWFVXSjlwdmtxZldxS1c4cVBzUDZZTExsV0JNVlNTYnBPdklnV25FS0xkcHdLVThzMHN1QTN5Q0w3eXhzRDFNQXhGWWxQbUh4OUdna0pfRXp5Nk5ORmNwLW5sbURNUzJaYmg1YlFXU1RoWQ?oc=5&hl=ko&gl=KR&ceid=KR:ko": {
     "title": "",
     "summary": "조선일보 식지않는 성과급 갈등 … 삼성전자 파운드리 80% \"2년내 이직 의향\" 뉴데일리 삼성 파운드리 직원 10명 중 8명 “2년 내 이직 고려”…성과급 격차에 커지는 불만 \"2년 내 떠나겠다\", 삼성전자 파운드리 10명 중 8명 이직 의향 밝혀 비즈니스포스트 삼성 초기업 노조 “파운드리 직원 10명 중 8명, 2년",
@@ -777,7 +765,7 @@
     "title": "",
     "summary": "구독 구독중 이전 다음 2나노 모바일 칩 '엑시노스 2600', 갤Z 플립8 일부 모델 탑재 DS부문 시스템LSI 실적개선 기대…삼성D·삼성전기도 부품 공급 = 삼성전자[005930]가 이번 주 공개 예정인 8세대 폴더블 스마트폰 '갤럭시 Z 시리즈'를 올해 하반기 실적 반등의 기회로 삼는다",
     "source": "rule_based",
-    "cached_at": 1784478617.28602
+    "cached_at": 1784485915.757485
   },
   "https://n.news.naver.com/mnews/article/003/0014073790": {
     "title": "",
@@ -801,13 +789,13 @@
     "title": "",
     "summary": "AI 개발은 더 큰 데이터 전송과 더 높은 GPU 효율성 요구를 주도하고 있으며, 메모리를 맞춤화하는 방향으로 나아가고 있으며 한국 업계 관찰자들이 '메모리 파운드리' 모델로의 전환을 촉구하고 있",
     "source": "rule_based",
-    "cached_at": 1784478493.069948
+    "cached_at": 1784485745.301395
   },
   "https://www.digitimes.com/news/a20260717PD224/asml-high-na-euv-equipment-demand-taiwan.html": {
     "title": "",
     "summary": "High-NA EUV 리소그래피는 인공 지능, 고성능 컴퓨팅 및 모바일 장치에 사용되는 고급 칩에 대한 수요가 증가함에 따라 반도체 장비 산업의 차세대 주요 전쟁터가 되고 있 ASML의 주요 공급업체인 Trumpf는 더 높은 레이저 출력, 더 빠른 도구 출력, 칩 설계자와의 긴밀한 협력이 기술이 얼마나 빨리 주류가 될지를 결정할 것이라고 말했",
     "source": "rule_based",
-    "cached_at": 1784478493.701724
+    "cached_at": 1784485754.636904
   },
   "https://n.news.naver.com/mnews/hotissue/article/001/0016201600?type=series&cid=2003568": {
     "title": "",
@@ -849,25 +837,25 @@
     "title": "",
     "summary": "도는 정부가 제시한 대경권 소재·부품·장비 혁신거점을 최고의 반도체 산업거점으로 발전시키기 위해 '기술개발(R&D)-실증-양산-팹(Fab) 유치'가 선순환하는 산업생태계 조성에 역량을 집중",
     "source": "rule_based",
-    "cached_at": 1784478589.395768
+    "cached_at": 1784485874.282359
   },
   "https://www.yna.co.kr/view/AKR20260717050300017?section=industry/technology-science": {
     "title": "",
     "summary": "구독 구독중 이전 다음 학습 넘어 추론 AI 경쟁 본격화…전력·비용 효율 강점 부각 국산 NPU·LLM 결합 확산…AI 공급망 자립 기대 이미지 확대 CES에 전시된 딥엑스 NPU [ 자료사진 이들 업체는 국산 NPU로도 엔비디아 GPU와 유사한 성능을 구현하고 LLM 토큰 처리 비용을 대폭 낮출 수 있다는 점을 강조",
     "source": "rule_based",
-    "cached_at": 1784478614.785424
+    "cached_at": 1784485911.862307
   },
   "https://zdnet.co.kr/view/?no=20260718165556": {
     "title": "",
     "summary": "UNIST는 정창욱 반도체소재·부품대학원 교수 연구팀이 산화물 반도체의 산소 빈자리 결함의 성질을 결정하는 것이 반도체 물질 전체에 원자들이 얼마나 촘촘하게 들어차 있는지가 아니라, 결함 주변 금속 원자 사이 거리라는 사실을 이론 계산을 통해 증명했 언급",
     "source": "rule_based",
-    "cached_at": 1784478652.476076
+    "cached_at": 1784485965.579261
   },
   "https://www.etnews.com/20260716000293": {
     "title": "",
     "summary": "도·충남 테크노파크(TP)는 '지역 주도형 AI 대전환(AX) 사업'에 참여하는 반도체·디스플레이·모빌리티 등 주력 산업의 중소기업을 이달 내 모집하고 8월 AX 수준 진단을 거친 후 기업 30여곳을 선정해 맞춤형 AI 제조 솔루션을 지원",
     "source": "rule_based",
-    "cached_at": 1784478700.018534
+    "cached_at": 1784486055.353006
   },
   "https://www.newsis.com/view/NISX20260719_0003713853": {
     "title": "",
@@ -903,25 +891,25 @@
     "title": "",
     "summary": "* /사진=김명년 최태원 SK그룹 회장이 미국은 물론 '지을 수 있는 모든 곳'에 반도체 생산 팹(공장) 건설 의지를 밝힌 배경에는 급증하는 메모리 반도체(메모리) 수요가 조달한 자금은 DDR5(더블데이터레이트5), LPDDR5X(저전력 더블데이터레이트5X), HBM3 등 메모리 개발과 생산능력 확대에 투입할 계획",
     "source": "rule_based",
-    "cached_at": 1784478546.834765
+    "cached_at": 1784485853.84268
   },
   "https://www.mt.co.kr/industry/2026/07/19/2026071907561769079": {
     "title": "",
     "summary": "최태원 대한상공회의소 회장이 18일 제주 신라호텔에서 열린 제49회 대한상의 제주포럼에서 폐회사를 하고 있다./사진= (대한상공회의소 제공) 최태원 대한상공회의소(대한상의) 회장(SK그룹 회장)이 AI(인공지능) 반도체 수요 급증과 관련해 \"올해보다",
     "source": "rule_based",
-    "cached_at": 1784478547.72411
+    "cached_at": 1784485855.271401
   },
   "https://www.yna.co.kr/view/AKR20260718029600003?section=industry/electronics": {
     "title": "",
     "summary": "구독 구독중 이전 다음 \"메모리 구하려 각국 '아비규환'…수요공급 격차 더 벌어져\" \"반도체 가격 더 올리면 얻어맞을 것…시장 키워야 산업 발전\" \"다음 병목은 소재·건설…AI데이터센터는 전기화 사회 첫걸음\" 이미지 확대 대한상의 제주 간담회 중인 최태원 상의 회장 [대한상의 제공",
     "source": "rule_based",
-    "cached_at": 1784478584.307397
+    "cached_at": 1784485866.410297
   },
   "https://www.yna.co.kr/view/AKR20260718029600003?section=industry/technology-science": {
     "title": "",
     "summary": "구독 구독중 이전 다음 \"메모리 구하려 각국 '아비규환'…수요공급 격차 더 벌어져\" \"반도체 가격 더 올리면 얻어맞을 것…시장 키워야 산업 발전\" \"다음 병목은 소재·건설…AI데이터센터는 전기화 사회 첫걸음\" 이미지 확대 대한상의 제주 간담회 중인 최태원 상의 회장 [대한상의 제공",
     "source": "rule_based",
-    "cached_at": 1784478612.387888
+    "cached_at": 1784485908.041446
   },
   "https://www.newsis.com/view/NISX20260719_0003713942": {
     "title": "",
@@ -933,7 +921,7 @@
     "title": "",
     "summary": "최태원 회장, 대한상의 제 간담회 \"(반도체 등) 제가 집중해야 하는 일 비중 더 커져\" \"내년 이후에는 제 목소리 많이 듣지 못할 것\" \"과거에 적용된 제도 여전, 성장 키우는 쪽으로 가야\" [서귀포= ] 최태원 대한상공회의소 회장이 15일 제주신라 간담회를 진행 중",
     "source": "rule_based",
-    "cached_at": 1784478711.554577
+    "cached_at": 1784486068.264739
   },
   "https://n.news.naver.com/mnews/article/014/0005549628": {
     "title": "",
@@ -951,31 +939,31 @@
     "title": "",
     "summary": "또 \"전남·광주통합특별시에 삼성전자 등이 대규모 투자를 예고한 상황에서, '호남 반도체'라는 이름 아래 산업용수를 전북의 물에 의존하게 될 가능성이 크다\"며, 이원택 전북도지사에게 전북의 수자원을 지키기 위한 대책을 촉구했",
     "source": "rule_based",
-    "cached_at": 1784478524.305588
+    "cached_at": 1784485816.325657
   },
   "https://www.mt.co.kr/industry/2026/07/19/2026071616231464908": {
     "title": "",
     "summary": "AI 서버용 실수요 자체가 2027년까지 전체 낸드 수요의 41%를 차지할 만큼 커지면서 공급이 이를 따라가지 못할 것으로 보고, 관련 기업(낸드)들의 투자의견과 목표주가를 상향 HBM과 D램, 낸드에 걸친 잇따른 전망치 상향은 AI 메모리 수요가 당초 예상을 웃돌고 있음을 보여준다",
     "source": "rule_based",
-    "cached_at": 1784478548.620623
+    "cached_at": 1784485857.483404
   },
   "https://www.mt.co.kr/industry/2026/07/19/2026071914161625223": {
     "title": "",
     "summary": "SK실트론이 생산한 반도체 실리콘 웨이퍼 최태원 SK그룹 회장이 지난 15일 제주에서 열린 '제49회 대한상의 하계포럼'을 계기로 'AI(인공지능) 반도체 아비규환'까지 거론한 가운데 SK실트론 매각 건의 진행 여부가 업계의 관심사가",
     "source": "rule_based",
-    "cached_at": 1784478550.113101
+    "cached_at": 1784485858.907835
   },
   "https://n.news.naver.com/mnews/article/031/0001043052": {
     "title": "",
     "summary": "삼성전자 시스템설계(LSI)사업부가 설계하고 파운드리(반도체 위탁생산)사업부가 2나노미터(㎚·10억분의 1m) 공정으로 생산한 모바일 애플리케이션프로세서(AP) '엑시노스 2600'이 갤럭시 Z플립8 일부 모델에 탑재될 것으로 전망되면서다",
     "source": "rule_based",
-    "cached_at": 1784478519.795866
+    "cached_at": 1784485807.88486
   },
   "https://n.news.naver.com/mnews/article/030/0003448838": {
     "title": "",
     "summary": "CXMT는 DDR5·LPDDR5X 등 고성능 D램 제품군을 확대하며 중국 내수 시장을 넘어 글로벌 메모리 시장에서 영향력을 키우고 삼성전자와 SK하이닉스, 마이크론 등 주요 메모리 기업은 차세대 범용 D램인 DDR6 개발을 진행 중",
     "source": "rule_based",
-    "cached_at": 1784478521.027482
+    "cached_at": 1784485809.181058
   },
   "https://n.news.naver.com/mnews/article/030/0003448823": {
     "title": "",
@@ -987,13 +975,13 @@
     "title": "",
     "summary": "실리콘 잉곳은 반도체 웨이퍼의 핵심 소재이자, 식각 공정에서 사용되는 소모성 부품의 소재다 글로벌 메모리 제조사·파운드리 등 전 세계 20여개 팹에 제품을 공급",
     "source": "rule_based",
-    "cached_at": 1784478694.292569
+    "cached_at": 1784486046.764619
   },
   "https://www.etnews.com/20260719000061": {
     "title": "",
     "summary": "CXMT는 DDR5·LPDDR5X 등 고성능 D램 제품군을 확대하며 중국 내수 시장을 넘어 글로벌 메모리 시장에서 영향력을 키우고 삼성전자와 SK하이닉스, 마이크론 등 주요 메모리 기업은 차세대 범용 D램인 DDR6 개발을 진행 중",
     "source": "rule_based",
-    "cached_at": 1784478696.551316
+    "cached_at": 1784486050.137632
   },
   "https://www.edaily.co.kr/News/Read?newsId=01872886645516160&mediaCodeNo=257": {
     "title": "",
@@ -1023,7 +1011,7 @@
     "title": "",
     "summary": "최태원 대한상공회의소 회장이 인공지능(AI) 확산으로 반드체 생산능력 확대를 서둘러야 한다고 강조 이어 \"공급을 늘려 가격을 떨어뜨려도 돈을 못 버는 게 아니다\"라며 \"시장을 보호하면서 키워야 한국 반도체 산업도 유지·발전할 수 있다\"고 강조",
     "source": "rule_based",
-    "cached_at": 1784478525.270764
+    "cached_at": 1784485814.803485
   },
   "https://www.edaily.co.kr/News/Read?newsId=01961446645516160&mediaCodeNo=257": {
     "title": "",
