@@ -1,64 +1,4 @@
 {
-  "https://www.yna.co.kr/view/AKR20260716103300003?section=industry/electronics": {
-    "title": "",
-    "summary": "이어 \"AI 데이터센터를 만들 때 과제는 전력을 확보하고 공급하는 것\"이라며 \"AI 반도체가 전력을 적게 쓴다는 것은 굉장히 가치 있는 기술 혁신\"이 언급 그는 \"2030년까지 AI 데이터센터가 100기가와트(GW) 규모로 늘어날 것으로 전망된다\"면서 \"칩 수요로 환산하면 수천조원 규모 시장\"이 언급",
-    "source": "rule_based",
-    "cached_at": 1784251647.493599
-  },
-  "https://www.yna.co.kr/view/AKR20260716096300054?section=industry/electronics": {
-    "title": "",
-    "summary": "이어 \"반도체와 데이터센터 등 대규모 사업 유치로 용수 수요가 크게 늘어날 것으로 예상된다\"며 \"내년 재공모에서는 반드시 지방비 매칭 예산을 확보해 사업의 실효성과 경쟁력을 높여야 한다\"고 주문",
-    "source": "rule_based",
-    "cached_at": 1784251650.499947
-  },
-  "https://www.yna.co.kr/view/AKR20260716055051003?section=industry/electronics": {
-    "title": "",
-    "summary": "구독 구독중 이전 다음 \"지방 일으키지 않으면 경제 미래 없어…지방 근로자 소득세 감면\" \"제조AI 우리나라가 가장 유리…청년세대도 보듬어야\" 이미지 확대 강연하는 김정관 산업통상부 장관 김정관 산업통상부 장관이 16일 제주 신라호텔에서 열린 제49회 대한상의 제주포럼에서 '산업정책 방향'이라는 주제로 강연",
-    "source": "rule_based",
-    "cached_at": 1784251653.635728
-  },
-  "https://www.yna.co.kr/view/AKR20260716084300003?section=industry/electronics": {
-    "title": "",
-    "summary": "한국토지주택공사가 용인 첨단시스템반도체 국가산업단지 반도체 팹 1호기 가동 시기를 앞당기고자 조성공사 발주에 착수하며 속도전에 돌입 용인 반도체 국가산단에는 경기 용인시 처인구 일대 약 778만㎡ 부지에 반도체 팹 6기와 소재·부품·장비 기업, 발전시설 3기, 산업용 가스 공급시설 등이 모일 예정",
-    "source": "rule_based",
-    "cached_at": 1784251656.615998
-  },
-  "https://www.yna.co.kr/view/AKR20260716084600001?section=industry/electronics": {
-    "title": "",
-    "summary": "삼성전자 사장 출신 국민의힘 고동진 의원은 16일 호남 반도체 클러스터 조성 사업에 대해 \"정치적인 구호나 단기적인 지역 균형 논리만으로 국가 산업의 미래를 설계하는 것은 매우 위험한 발상\"이라고 비판",
-    "source": "rule_based",
-    "cached_at": 1784251659.644439
-  },
-  "https://zdnet.co.kr/view/?no=20260716101002": {
-    "title": "",
-    "summary": "삼성전자가 반도체 제조 핵심인 '백엔드(BEOL:Back-End Of Line)' 공정을 전담할 소규모 조직을 신설한 파악 해당 조직은 고대역폭메모리(HBM) 등 고부가 메모리용 백엔드 공정 기술력 확보와 공급망 운영 강화 등을 논의 중인 확인",
-    "source": "rule_based",
-    "cached_at": 1784251735.424313
-  },
-  "https://zdnet.co.kr/view/?no=20260716113021": {
-    "title": "",
-    "summary": "4GW 대규모 AIDC 구축을 목표로 한다”며 “정부는 민간 투자가 신속하게 집행될 수 있도록 전력, 용수 등 인프라 문제를 적극지원하고, 이를 수출 산업화하기 위해 노력하겠다”고 발표",
-    "source": "rule_based",
-    "cached_at": 1784251777.708734
-  },
-  "https://www.etnews.com/20260716000175": {
-    "title": "",
-    "summary": "드림텍은 메모리 모듈 생산라인 증설에 따라 전력 사용량과 공조 등 유틸리티 수요가 늘어날 것으로 보고, 과부하 이슈를 사전에 해소하고 안정적인 생산·운영 체계를 확보하기 위해 추가 투자에 나섰다고 설명",
-    "source": "rule_based",
-    "cached_at": 1784251787.320677
-  },
-  "https://www.etnews.com/20260716000173": {
-    "title": "",
-    "summary": "반도체공학회와 한국팹리스산업협회는 15일 부산 아난티 앳 부산 코브에서 열린 반도체공학회 하계학술대회 현장에서 '국내 팹리스 산업 경쟁력 강화 및 생태계 조성을 위한 상호협력 업무협약(MOU)'을 체결",
-    "source": "rule_based",
-    "cached_at": 1784251790.061892
-  },
-  "https://www.newsis.com/view/NISX20260716_0003712023": {
-    "title": "",
-    "summary": "백준호 퓨리오사AI 대표가 16일 제주도 롯데호텔에서 열린 ‘2026 협 경영자 제주하계포럼’에 참석해 'AI 인프라 패권전쟁, 이미 시작된 데이터센터의 시대'를 주제로 강연",
-    "source": "rule_based",
-    "cached_at": 1784251808.582137
-  },
   "https://www.hankyung.com/article/202607169458i": {
     "title": "",
     "summary": "사진= 협 \"한국도 충분히 반도체 설계 경쟁력과 잠재력을 보유하고 있습니다.\"백준호 퓨리오사AI 대표는 16일 인협회 제주하계포럼 연사로 나서며 \"퓨리오사AI는 에너지를 덜 쓰는 인공지능(AI) 반도체에 집중해 삼성, LG 등 대기업뿐 아니라 글로벌 기업들에 칩을 공급하고 있다\"며 이같이 말",
@@ -83,12 +23,6 @@
     "source": "rule_based",
     "cached_at": 1784263026.324207
   },
-  "https://www.asiae.co.kr/article/enterprise-CEO/2026071612145657645": {
-    "title": "",
-    "summary": "협 제주하계포럼서 강연 \"에너지 효율, AI 반도체 경쟁력 핵심\" 국내 인공지능(AI) 반도체 기업 퓨리오사AI의 백준호 대표는 16일 \"앞으로 새롭게 구축될 AI 데이터센터의 중심축은 '훈련'에서 '추론' 영역으로 이동할 것이며, 추론형 데이터센터가 향후 반도체 산업 전체 섹터를 통틀어 가장 규모가 큰 카테고리가 될",
-    "source": "rule_based",
-    "cached_at": 1784251609.883853
-  },
   "https://www.yna.co.kr/view/AKR20260716145500062?section=industry/electronics": {
     "title": "",
     "summary": "구독 구독중 이전 다음 폴리텍대·디에스테크노 협력…지역 인재 역외 유출 방지 기대 이미지 확대 반도체기업 취업연계 맞춤과정 수료식 [원주시 제공 원주시 관계자는 \"취업 연계 맞춤 과정이 지역 청년의 역외 유출을 줄이고 외부 인재 유입을 촉진하는 계기가 되길 기대한다\"며 \"기업과 청년이 함께 성장할 수 있도록 맞춤형 인재 양성과 취업 지원을 지속하겠다\" 언급",
@@ -112,72 +46,6 @@
     "summary": "삼성전자 반도체(DS) 부문 반도체 위탁생산(파운드리) 사업부 구성원 10명 중 8명 이상이 이직을 고려하고 있는 확인 집행부 외 메모리사업부 6명, 파운드리사업부 6명, 시스템LSI사업부 5명, 공통조직 8명 등으로 구성",
     "source": "rule_based",
     "cached_at": 1784263282.851982
-  },
-  "https://www.digitimes.com/news/a20260716VL229/tsmc-c.-c.-wei-emib-wafer-packaging-earnings-business.html": {
-    "title": "",
-    "summary": "Wei는 회사의 2026년 2분기 실적 발표를 통해 분석가들 사이에서 관심을 끌고 있는 두 가지 이야기, 즉 경쟁 패키징 기술이 TSMC의 고급 패키징 사업을 위협하고 회사가 지배적인 시장 위치에서 횡재 마진을 추출해야 한다는 두 가지 이야기를 밀어냈",
-    "source": "rule_based",
-    "cached_at": 1784251503.225476
-  },
-  "https://www.digitimes.com/news/a20260716VL228/tsmc-3nm-2nm-production-design.html": {
-    "title": "",
-    "summary": "TSMC의 N2 공정에 대한 고객 테이프아웃은 동일한 단계에서 3nm 기술로 기록된 수치의 4배에 달했으며, 파운드리가 첫 2nm 공정의 생산을 늘리면서 더욱 빠른 설계 활동을 보여주었",
-    "source": "rule_based",
-    "cached_at": 1784251507.851405
-  },
-  "https://www.digitimes.com/news/a20260715PD227/packaging-taiwan-capacity-testing-ase.html": {
-    "title": "",
-    "summary": "글로벌 AI 붐으로 인해 반도체 패키징 및 테스트에 대한 수요가 증가함에 따라 대만의 OSAT 업체들은 자국 시장과 중국을 넘어 해외 생산 능력 확장을 가속화하고 있 ASE, SPIL, KYEC, Greatek 및 Tong Hsing은 모두 지정학적 위험 속에서 공급망 탄력성을 강화하기 위해 2026년에 추진하고 있",
-    "source": "rule_based",
-    "cached_at": 1784251508.317423
-  },
-  "https://www.digitimes.com/news/a20260716VL212/deepseek-apple-intelligence-market-fundraising-shanghai.html": {
-    "title": "",
-    "summary": "DeepSeek은 급증하는 컴퓨팅 비용으로 인해 중국에서 가장 유명한 인공 지능 스타트업 중 하나가 외부 자본에 대한 오랜 저항을 재고하게 되면서 새로운 자금 조달 라운드와 상하이 상장 가능성을 준비하고 있",
-    "source": "rule_based",
-    "cached_at": 1784251508.711553
-  },
-  "https://www.digitimes.com/news/a20260716PD234/tsmc-capacity-investment-growth-demand.html": {
-    "title": "",
-    "summary": "반도체 수요의 구조적 장기 성장을 해결하기 위해 TSMC 회장 C Wei는 회사가 고객 및 고객의 고객과 긴밀히 협력하여 미래 용량을 공동으로 계획한다고 말했",
-    "source": "rule_based",
-    "cached_at": 1784251510.691609
-  },
-  "https://www.digitimes.com/news/a20260716VL220/iphone-apple-intelligence-alibaba-qwen.html": {
-    "title": "",
-    "summary": "Apple Intelligence는 중국에서 주요 규제 이정표를 통과하여 iPhone 제조업체가 장기간 지연된 후 본토 사용자를 위한 생성 AI 기능 출시에 가까워졌",
-    "source": "rule_based",
-    "cached_at": 1784251513.350894
-  },
-  "https://www.digitimes.com/news/a20260716VL227/tsmc-revenue-2nm-guidance-demand.html": {
-    "title": "",
-    "summary": "TSMC는 최첨단 칩에 대한 수요 가속화와 2나노미터 공정 기술의 급격한 증가에 힘입어 2026년 3분기 매출을 446억~458억 달러로 이끌며 사상 최대 분기를 예상하고 있",
-    "source": "rule_based",
-    "cached_at": 1784251513.746923
-  },
-  "https://www.digitimes.com/news/a20260716PD233/tsmc-demand-growth-2026-revenue.html": {
-    "title": "",
-    "summary": "C 회장과 함께 첨단 공정 기술에 대한 수요가 여전히 견고하다는 강한 자신감을 표명했 Wei는 회사의 2nm 공정이 대량 생산에 들어갔고 생산 증가를 통해 원활하게 진행되고 있다고 말했",
-    "source": "rule_based",
-    "cached_at": 1784251515.11926
-  },
-  "https://www.digitimes.com/news/a20260716PD221/demand-market-capacity-supply-chain-cloud-ai.html": {
-    "title": "",
-    "summary": "최근 몇 달 동안 반도체 리드 타임이 길어진다는 보고가 점점 일반화되었으며, 이는 칩 공급과 수요 간의 불균형이 완화되지 않고 대신 더 광범위한 최종 시장으로 확산되고 있음을 강조합니다",
-    "source": "rule_based",
-    "cached_at": 1784251515.514971
-  },
-  "https://www.digitimes.com/news/a20260716VL222/samsung-itc-chips-nvidia-investigation.html": {
-    "title": "",
-    "summary": "미국 무역 기관이 AI 데이터 센터 붐을 불러일으키는 DDR5 서버 메모리와 고대역폭 메모리(HBM)의 수입을 차단할 수 있는 조사에 착수했으며, 이를 통해 소규모 캘리포니아 특허 보유자에게 칩 생산을 다시 미국 땅으로 되돌리려는 도널드 트럼프 대통령의 캠페인과 병행하는 국경 레버를 건네주었",
-    "source": "rule_based",
-    "cached_at": 1784251515.919246
-  },
-  "https://www.digitimes.com/news/a20260716VL223/tsmc-revenue-profit-demand-2nm.html": {
-    "title": "",
-    "summary": "TSMC는 7월 16일 매출, 이익, 주당 순이익이 모두 시장 기대치를 뛰어넘는 기록적인 2026년 2분기 실적을 보고해 AI 및 고성능 컴퓨팅(HPC) 칩에 대한 지속적인 수요를 강조했",
-    "source": "rule_based",
-    "cached_at": 1784251516.299646
   },
   "https://www.mk.co.kr/news/business/12100356": {
     "title": "",
@@ -245,18 +113,6 @@
     "source": "rule_based",
     "cached_at": 1784263274.584254
   },
-  "https://n.news.naver.com/mnews/article/030/0003448618": {
-    "title": "",
-    "summary": "이같은 전망은 AI 반도체를 위한 TSMC 3나노미터(㎚) 이하 첨단 공정 기술 수요가 강하고, TSMC 첨단 패키징 주도권도 견조하기 때문 앞서 TSMC는 지난해 3월 미국 전공정 공장과 패키징 공장, 연구개발(R&D)센터 등 건립을 위해 총 1650억달러(약 243조8000억원)를 투자하겠다고 밝힌 바",
-    "source": "rule_based",
-    "cached_at": 1784251554.915149
-  },
-  "https://n.news.naver.com/mnews/article/031/0001042913": {
-    "title": "",
-    "summary": "인공지능(AI) 확산으로 메모리 공급이 부족한 상황에서도 중국 업체에 의존하는 것은 국가안보에 위협이 된다는 이유에서다 AI 서버용 메모리 수요가 빠르게 늘어나는 상황에서 미국 기업들이 중국산 메모리를 사용할 수 없게 되면 한국과 미국 업체에 주문이 더 몰릴 가능성이 있기 때문",
-    "source": "rule_based",
-    "cached_at": 1784251556.269716
-  },
   "https://www.etnews.com/20260716000351": {
     "title": "",
     "summary": "이같은 전망은 AI 반도체를 위한 TSMC 3나노미터(㎚) 이하 첨단 공정 기술 수요가 강하고, TSMC 첨단 패키징 주도권도 견조하기 때문 앞서 TSMC는 지난해 3월 미국 전공정 공장과 패키징 공장, 연구개발(R&D)센터 등 건립을 위해 총 1650억달러(약 243조8000억원)를 투자하겠다고 밝힌 바",
@@ -292,12 +148,6 @@
     "summary": "AI 기반 비축과 사전 용량 예약으로 가전제품 및 자동차 고객에 대한 공급이 부족해지면서 메모리 공급업체는 가격 결정력을 다시 얻었 업계 소식통에 따르면 공급업체가 더 높은 가격을 요구하고 다른 곳에 생산 능력을 할당함에 따라 Apple이 이제 사실상 최후의 주요 방어선이 되었다고 합니다",
     "source": "rule_based",
     "cached_at": 1784331826.490552
-  },
-  "https://www.asiae.co.kr/article/2026071612145657645": {
-    "title": "",
-    "summary": "협 제주하계포럼서 강연 \"에너지 효율, AI 반도체 경쟁력 핵심\" 국내 인공지능(AI) 반도체 기업 퓨리오사AI의 백준호 대표는 16일 \"앞으로 새롭게 구축될 AI 데이터센터의 중심축은 '훈련'에서 '추론' 영역으로 이동할 것이며, 추론형 데이터센터가 향후 반도체 산업 전체 섹터를 통틀어 가장 규모가 큰 카테고리가 될",
-    "source": "rule_based",
-    "cached_at": 1784251615.61231
   },
   "https://www.digitimes.com/news/a20260717VL209/tata-group-28nm-90nm-wafer-fab-technology.html": {
     "title": "",
