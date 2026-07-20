@@ -230,6 +230,39 @@ def clean_space(text):
     return re.sub(r"\s+", " ", text or "").strip()
 
 
+# 뒤에 반드시 서술어가 와야 의미가 완성되는 의존명사 — 앞 단어와 띄어써서 별도 토큰
+_DANGLING_TRAILING_WORDS = {
+    "수", "것", "줄", "만큼", "듯", "리", "때", "바", "채", "터", "뿐", "김"
+}
+
+# 관형형 어미 — 앞 동사 어간에 바로 붙어서 한 토큰이 됨 ("사용할"처럼) → 접미사로 검사
+_DANGLING_TRAILING_SUFFIXES = (
+    "하는", "되는", "있는", "없는", "라는", "이라는", "할", "될", "된"
+)
+
+
+def trim_dangling_ending(text, max_backtrack=3):
+    for _ in range(max_backtrack):
+        text = text.rstrip()
+        if not text:
+            break
+
+        last_space = text.rfind(" ")
+        last_word = text[last_space + 1:] if last_space != -1 else text
+
+        is_dangling = (
+            last_word in _DANGLING_TRAILING_WORDS
+            or last_word.endswith(_DANGLING_TRAILING_SUFFIXES)
+        )
+
+        if not is_dangling:
+            break
+
+        text = text[:last_space] if last_space != -1 else ""
+
+    return text.rstrip()
+
+
 def strip_source_from_title(title):
     title = clean_html(title)
 
@@ -698,7 +731,7 @@ def split_sentences_for_summary(text):
             cut = max(window.rfind("다."), window.rfind(". "), window.rfind(" "))
             if cut < 90:  # 너무 앞쪽이면 의미가 없으니 그냥 180에서 자름
                 cut = 180
-            s = s[:cut + 1].rstrip()
+            s = trim_dangling_ending(s[:cut + 1].rstrip())
 
         cleaned.append(s)
 
@@ -825,7 +858,7 @@ def summarize_with_gemini(literal_title, body):
         "- 서술형 종결어미('~다', '~했다') 대신 명사(단어)로 끝맺을 것\n"
         "- 번역투가 아니라 한국 기자가 직접 쓴 것처럼 자연스럽게 작성\n\n"
         "['요약' 작성 규칙]\n"
-        "- 100~200자 내외, 본문 전체를 참고해서 작성\n"
+        "- 50~100자 내외, 본문 전체를 참고해서 작성\n"
         "- 개조식 문체로 작성. 문장을 '~다', '~했음', '~습니다' 같은 서술형 종결어미가 아니라 "
         "'~확대', '~발표', '~전망'처럼 명사(단어)로 끝맺을 것\n"
         "- 기사에 나온 핵심 사실(수치, 기업명, 제품명 등)을 최대한 구체적으로 포함\n"
@@ -835,7 +868,7 @@ def summarize_with_gemini(literal_title, body):
         "원문 제목(직역): 삼성전자, 3나노 파운드리에서 새로운 고객사를 확보하다\n"
         "제목: 삼성전자, 3나노 파운드리 신규 고객사 확보\n"
         "요약: 삼성전자가 3나노 공정 파운드리 사업에서 신규 고객사를 확보했다고 발표. "
-        "이번 계약으로 시스템반도체 부문 매출 확대 전망. TSMC와의 파운드리 경쟁 심화 예상.\n\n"
+        "시스템반도체 부문 매출 확대 전망.\n\n"
         "[출력 형식 — 아래 두 줄만 정확히 이 형식으로 출력, 다른 말이나 마크다운 기호 금지]\n"
         "제목: <헤드라인>\n"
         "요약: <요약문>\n\n"
@@ -913,13 +946,13 @@ def summarize_with_gemini(literal_title, body):
         summary = clean_space(summary_match.group(1)) if summary_match else ""
         summary = summary.strip("\"'“”‘’ \n")
 
-        # 100~200자를 요청했으므로, 훨씬 짧게 나온 건 응답이 잘렸거나 형식이 깨졌다는 신호로 보고 폐기
-        if not summary or len(summary) < 80:
+        # 50~100자를 요청했으므로, 훨씬 짧게 나온 건 응답이 잘렸거나 형식이 깨졌다는 신호로 보고 폐기
+        if not summary or len(summary) < 35:
             print(f"[Gemini] 요약이 비정상적으로 짧음({len(summary)}자) — 폴백 처리: {literal_title[:40]}")
             return None, None
 
-        if len(summary) > 220:
-            summary = summary[:220].rstrip()
+        if len(summary) > 130:
+            summary = summary[:130].rstrip()
 
         if new_title and len(new_title) > 60:
             new_title = new_title[:60].rstrip()
@@ -946,12 +979,12 @@ def summarize_article(link, title, body_text, translate_title=False):
     translate_title=True면 해외 기사 원제목 대신 Gemini가 새로 쓴 한국어 헤드라인을 사용한다."""
     cached = SUMMARY_CACHE.get(link)
 
-    # gemini로 정상 생성된(80자 이상) 캐시는 그대로 신뢰
+    # gemini로 정상 생성된(35자 이상) 캐시는 그대로 신뢰
     cached_is_valid = (
         cached
         and cached.get("summary")
         and cached.get("source") == "gemini"
-        and len(cached.get("summary", "")) >= 80
+        and len(cached.get("summary", "")) >= 35
     )
 
     if cached_is_valid:
@@ -990,7 +1023,7 @@ def summarize_article(link, title, body_text, translate_title=False):
     return final_title, summary
 
 
-def make_compact_summary(text, title="", min_len=100, max_len=200):
+def make_compact_summary(text, title="", min_len=50, max_len=100):
     # 제목은 요약 재료로 사용하지 않고, 제목과 비슷한 문장 제거용으로만 사용
     text = strip_reporter_and_source(text)
     text = remove_title_overlap(text, title)
@@ -1016,11 +1049,16 @@ def make_compact_summary(text, title="", min_len=100, max_len=200):
         cleaned_sentences.append(s)
 
     if not cleaned_sentences:
-        fallback = strip_reporter_and_source(text[:max_len])
+        window = text[:max_len + 40]
+        cut = window.rfind(" ")
+        if cut < max_len * 0.5:
+            cut = min(len(window), max_len)
+        fallback = strip_reporter_and_source(window[:cut])
         fallback = remove_title_overlap(fallback, title)
         fallback = compact_ending(fallback)
         fallback = remove_question_exclamation(fallback)
-        return fallback[:max_len].rstrip()
+        fallback = trim_dangling_ending(fallback)
+        return fallback.strip()
 
     keywords = extract_summary_keywords(text)
 
@@ -1092,6 +1130,8 @@ def make_compact_summary(text, title="", min_len=100, max_len=200):
             cut = max_len
 
         summary = summary[:cut + 1].rstrip()
+
+    summary = trim_dangling_ending(summary)
 
     return summary
 
