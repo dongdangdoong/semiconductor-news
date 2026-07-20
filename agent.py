@@ -588,6 +588,9 @@ def extract_numbers(text):
     return set(re.findall(r"\d+(?:\.\d+)?", text or ""))
 
 
+# =========================================================================
+# 수정된 Gemini 요약 함수 부분 
+# =========================================================================
 def summarize_with_gemini(literal_title, body):
     if not GEMINI_API_KEY:
         return None, None
@@ -597,25 +600,17 @@ def summarize_with_gemini(literal_title, body):
         "'제목'과 '요약' 두 가지를 작성해주세요.\n\n"
         "['제목' 작성 규칙 — 매우 중요]\n"
         "- 아래 '원문 제목(직역)'에 담긴 사실관계만 사용해서 자연스러운 한국어 헤드라인으로 다듬을 것\n"
-        "- 본문에 있더라도 원문 제목에 없는 새로운 사실·수치·기업명을 제목에 추가하지 말 것 "
-        "(제목은 번역/윤문만 하고, 본문 내용을 가져와 새로 작성하지 말 것)\n"
+        "- 본문에 있더라도 원문 제목에 없는 새로운 사실·수치·기업명을 제목에 추가하지 말 것\n"
         "- 원문 제목에 숫자가 있으면 반드시 그 숫자를 그대로 유지할 것\n"
         "- 실제 한국 경제 뉴스 헤드라인처럼 짧고 간결하게 작성 (예: 25~40자)\n"
         "- 조사(은/는/이/가/을/를)는 꼭 필요한 경우가 아니면 생략\n"
-        "- 서술형 종결어미('~다', '~했다') 대신 명사(단어)로 끝맺을 것\n"
-        "- 번역투가 아니라 한국 기자가 직접 쓴 것처럼 자연스럽게 작성\n\n"
-        "['요약' 작성 규칙]\n"
-        "- 50~100자 내외, 본문 전체를 참고해서 작성\n"
-        "- 개조식 문체로 작성. 문장을 '~다', '~했음', '~습니다' 같은 서술형 종결어미가 아니라 "
-        "'~확대', '~발표', '~전망'처럼 명사(단어)로 끝맺을 것\n"
-        "- 기사에 나온 핵심 사실(수치, 기업명, 제품명 등)을 최대한 구체적으로 포함\n"
-        "- 기사에 없는 내용을 추측하거나 과장하지 말 것\n"
-        "- 번역투가 아니라 한국 기자가 직접 쓴 기사처럼 자연스럽게 작성\n\n"
-        "[예시]\n"
-        "원문 제목(직역): 삼성전자, 3나노 파운드리에서 새로운 고객사를 확보하다\n"
-        "제목: 삼성전자, 3나노 파운드리 신규 고객사 확보\n"
-        "요약: 삼성전자가 3나노 공정 파운드리 사업에서 신규 고객사를 확보했다고 발표. "
-        "시스템반도체 부문 매출 확대 전망.\n\n"
+        "- 서술형 종결어미('~다', '~했다') 대신 명사(단어)로 끝맺을 것\n\n"
+        "['요약' 작성 규칙 — 매우 중요]\n"
+        "- **공백 포함 반드시 총 글자 수 50자 이상, 100자 이하**로 작성할 것\n"
+        "- 문장을 '~다', '~했음', '~습니다' 같은 서술형 종결어미가 아니라 "
+        "**'~확대', '~발표', '~전망', '~강조'처럼 명사(단어)나 명사형 문장으로 확실하게 끝맺을 것**\n"
+        "- **절대로 문장을 중간에 끊거나 불완전한 상태로 출력하지 말 것**\n"
+        "- 기사에 나온 핵심 사실(수치, 기업명, 제품명 등)을 구체적으로 포함하되 과장하지 말 것\n\n"
         "[출력 형식 — 아래 두 줄만 정확히 이 형식으로 출력, 다른 말이나 마크다운 기호 금지]\n"
         "제목: <헤드라인>\n"
         "요약: <요약문>\n\n"
@@ -638,7 +633,7 @@ def summarize_with_gemini(literal_title, body):
                 params={"key": GEMINI_API_KEY},
                 json={
                     "contents": [{"parts": [{"text": prompt}]}],
-                    "generationConfig": {"temperature": 0.3, "maxOutputTokens": 1000}
+                    "generationConfig": {"temperature": 0.2, "maxOutputTokens": 1000} # 변동성 감소를 위해 온도를 0.2로 소폭 하향
                 },
                 timeout=20
             )
@@ -648,19 +643,15 @@ def summarize_with_gemini(literal_title, body):
                 break
 
             if res.status_code == 429 and "quota" in res.text.lower():
-                # 분당 제한이 아니라 일일 쿼터 소진 — 재시도해도 소용없으므로
-                # 이번 실행 동안은 더 이상 Gemini를 호출하지 않고, 남은 기사는 이번 실행에서 건너뜀
-                print(f"[Gemini] 일일 쿼터 소진 감지 — 이번 실행은 남은 기사 전부 건너뜀(다음 실행에 재시도)")
+                print(f"[Gemini] 일일 쿼터 소진 감지")
                 GEMINI_QUOTA_EXHAUSTED[0] = True
                 return None, None
 
             if res.status_code in (429, 503) and attempt < max_attempts:
                 backoff = 8 * attempt
-                print(f"[Gemini] HTTP {res.status_code} (시도 {attempt}/{max_attempts}) — {backoff}초 대기 후 재시도")
                 time.sleep(backoff)
                 continue
 
-            print(f"[Gemini] HTTP {res.status_code}: {res.text[:200]}")
             return None, None
 
         if res.status_code != 200:
@@ -673,7 +664,6 @@ def summarize_with_gemini(literal_title, body):
 
         finish_reason = candidates[0].get("finishReason", "")
         if finish_reason == "MAX_TOKENS":
-            print(f"[Gemini] 응답이 토큰 한도로 잘림(MAX_TOKENS) — 폴백 처리: {literal_title[:40]}")
             return None, None
 
         parts = candidates[0].get("content", {}).get("parts", [])
@@ -693,24 +683,34 @@ def summarize_with_gemini(literal_title, body):
         summary = clean_space(summary_match.group(1)) if summary_match else ""
         summary = summary.strip("\"'“”‘’ \n")
 
-        # 50~100자를 요청했으므로, 훨씬 짧게 나온 건 응답이 잘렸거나 형식이 깨졌다는 신호로 보고 폐기
-        if not summary or len(summary) < 35:
-            print(f"[Gemini] 요약이 비정상적으로 짧음({len(summary)}자) — 폴백 처리: {literal_title[:40]}")
+        # [기존 버그 수정 및 후처리]
+        # 문장 끝에 남은 찌꺼기 문자(], =, 기자의 파편 등) 및 불완전하게 끝난 절 제거
+        summary = re.sub(r"^[\]\s=\-]+", "", summary) # 문장 맨 앞 특수문자 파편 제거
+        
+        # 글자 수 범위 검증 (50자 미만이거나 너무 길면 탈락 처리하여 재시도 유도)
+        if not summary or len(summary) < 45 or len(summary) > 115:
+            print(f"[Gemini] 요약 글자수 조건 미달 또는 초과 ({len(summary)}자) — 폴백 처리")
             return None, None
 
-        if len(summary) > 130:
-            summary = summary[:130].rstrip()
+        # 혹시 모를 100자 초과 시 단순 슬라이싱 대신 '온전한 문장' 단위로 절삭
+        if len(summary) > 100:
+            # 공백을 기준으로 단어 단위로 쪼갠 후 100자 이내까지만 안전하게 결합
+            words = summary.split(" ")
+            truncated_summary = ""
+            for word in words:
+                if len(truncated_summary + " " + word) <= 100:
+                    truncated_summary += (" " + word if truncated_summary else word)
+                else:
+                    break
+            summary = truncated_summary
 
         if new_title and len(new_title) > 60:
             new_title = new_title[:60].rstrip()
 
-        # 안전장치: 원문 제목에 있던 숫자(수치)가 새 제목에서 빠지거나 바뀌었으면
-        # 사실관계 왜곡 가능성이 있다고 보고 새 제목을 버리고 직역 제목을 그대로 사용
         if new_title:
             original_numbers = extract_numbers(literal_title)
             new_numbers = extract_numbers(new_title)
             if original_numbers and not original_numbers.issubset(new_numbers):
-                print(f"[Gemini] 제목 숫자 불일치로 직역 제목 유지: '{literal_title}' → '{new_title}' 거부")
                 new_title = None
 
         return (new_title or None), summary
@@ -718,6 +718,7 @@ def summarize_with_gemini(literal_title, body):
     except Exception as e:
         print(f"[Gemini ERROR] {e}")
         return None, None
+# =========================================================================
 
 
 def summarize_article(link, title, body_text, translate_title=False):
@@ -915,8 +916,6 @@ def get_article_body(url):
         return "", url, ""
 
 
-
-
 def get_article_published_datetime(url):
     try:
         res = requests.get(url, headers=HEADERS, timeout=10, allow_redirects=True)
@@ -985,6 +984,7 @@ def get_article_published_datetime(url):
 
     except Exception:
         return None
+
 
 def looks_like_article_url(url):
     if not url:
@@ -1157,7 +1157,7 @@ def fetch_news():
     # 1차 소스: Google News RSS
     for keyword in KEYWORDS:
         rss_url = (
-            "https://news.google.com/rss/search?"
+            "[https://news.google.com/rss/search](https://news.google.com/rss/search)?"
             f"q={quote(keyword)}"
             "&hl=ko&gl=KR&ceid=KR:ko"
         )
