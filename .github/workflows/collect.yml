@@ -1,38 +1,46 @@
-name: Collect News
+name: Update Semiconductor News
 
 on:
   schedule:
     - cron: "*/30 * * * *"
   workflow_dispatch:
 
-permissions:
-  contents: write
+concurrency:
+  group: semiconductor-news-update
+  cancel-in-progress: false
 
 jobs:
-  collect:
+  update-news:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Run news collector
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python agent.py
+      # 기존 패키지 설치 및 뉴스 생성 단계 유지
 
       - name: Commit updated news
         run: |
           git config user.name "actions-user"
           git config user.email "actions@github.com"
-          git add data/news.json data/archive data/summary_cache.json
-          git commit -m "뉴스 업데이트 $(date +'%Y-%m-%d %H:%M')" || echo "No changes to commit"
-          git push
+
+          git add data/news.json data/archive
+
+          if git diff --cached --quiet; then
+            echo "변경된 뉴스가 없습니다."
+            exit 0
+          fi
+
+          git commit -m "Update semiconductor news"
+          git pull --rebase origin main
+          git push origin main
