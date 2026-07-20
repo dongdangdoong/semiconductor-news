@@ -589,208 +589,302 @@ def extract_numbers(text):
 
 
 # =========================================================================
-# Gemini 요약 함수
+# Gemini 요약 설정 및 검증
 # =========================================================================
+SUMMARY_MIN_CHARS = 50
+SUMMARY_MAX_CHARS = 100
+SUMMARY_GENERATION_ATTEMPTS = 3
+SUMMARY_RULE_VERSION = 2
 
-# 요약이 설명체(서술형)로 끝났는지 판정하는 종결어미 패턴 — 헤드라인 어투가 아니면 재시도시킴
-SUMMARY_BAD_ENDING_PATTERN = re.compile(
-    r"(다|다\.|했다|한다|됐다|되다|였다|이다|습니다|함|임|음)[.]?$"
+# 요약이 이 단어들 중 하나로 끝나도록 제한하면 문장 중간 절단 여부를
+# 코드에서 명확히 판별할 수 있다. 필요하면 서비스 문체에 맞게 추가한다.
+SUMMARY_ALLOWED_ENDINGS = (
+    "확대", "축소", "증가", "감소", "상승", "하락", "개선", "악화",
+    "강화", "완화", "발표", "전망", "예상", "관측", "분석", "평가",
+    "강조", "확인", "계획", "방침", "목표", "추진", "검토", "협력",
+    "지원", "투자", "공급", "생산", "개발", "출시", "양산", "수주",
+    "확보", "진입", "전환", "회복", "지속", "가속", "본격화", "가능성",
+    "우려", "기대", "기대감", "주목", "유지", "집중", "부각", "시사"
 )
 
-# 헤드라인 어투에 어울리는 명사형 종결 예시 (프롬프트 예시 및 자체 점검용)
-SUMMARY_GOOD_ENDING_EXAMPLES = [
-    "확대", "발표", "전망", "강조", "계획", "돌입", "체결", "공개",
-    "출시", "합의", "지속", "부각", "추진", "검토", "가세", "예정"
-]
+SUMMARY_INCOMPLETE_LAST_WORDS = {
+    "및", "또는", "그리고", "하지만", "다만", "따라", "통해", "위해",
+    "대한", "관련", "있는", "없는", "하는", "되는", "된", "할", "될",
+    "것으로", "등의", "등을", "등이", "등은", "등과", "등에"
+}
 
 
-def build_summary_prompt(literal_title, body):
-    return (
-        "다음은 반도체 관련 뉴스 기사입니다. 한국 경제지 뉴스 헤드라인 및 기사 요약 스타일로 "
-        "'제목'과 '요약' 두 가지를 작성해주세요.\n\n"
-        "['제목' 작성 규칙 — 매우 중요]\n"
-        "- 아래 '원문 제목(직역)'에 담긴 사실관계만 사용해서 자연스러운 한국어 헤드라인으로 다듬을 것\n"
-        "- 본문에 있더라도 원문 제목에 없는 새로운 사실·수치·기업명을 제목에 추가하지 말 것\n"
-        "- 원문 제목에 숫자가 있으면 반드시 그 숫자를 그대로 유지할 것\n"
-        "- 실제 한국 경제 뉴스 헤드라인처럼 짧고 간결하게 작성 (예: 25~40자)\n"
-        "- 조사(은/는/이/가/을/를)는 꼭 필요한 경우가 아니면 생략\n"
-        "- 서술형 종결어미('~다', '~했다') 대신 명사(단어)로 끝맺을 것\n\n"
-        "['요약' 작성 규칙 — 매우 중요]\n"
-        "- **요약문 전체를 '제목'과 같은 헤드라인 어투로 작성할 것.** 즉, 신문 헤드라인 한 줄을 "
-        "조금 더 길게 풀어놓은 듯한 문장이어야 하며, 설명체 말투(~하는 것으로 알려졌다, ~라고 밝혔다, "
-        "~했다고 전했다)는 쓰지 말 것\n"
-        "- 문장 전체에서 조사(은/는/이/가/을/를/에/의)는 꼭 필요한 경우가 아니면 생략하고, "
-        "핵심 명사·수치를 압축적으로 나열하듯 이어 쓸 것\n"
-        f"- 문장은 서술형 종결어미('~다', '~했다', '~한다', '~됐다', '~습니다') 없이 반드시 "
-        f"명사(형)로 끝맺을 것 (예: {', '.join('~' + w for w in SUMMARY_GOOD_ENDING_EXAMPLES[:6])} 등)\n"
-        "- **공백 포함 반드시 총 글자 수 50자 이상, 100자 이하**로 작성할 것\n"
-        "- **절대로 문장을 중간에 끊거나 불완전한 상태로 출력하지 말 것**\n"
-        "- 기사에 나온 핵심 사실(수치, 기업명, 제품명 등)을 구체적으로 포함하되 과장하지 말 것\n\n"
-        "[예시]\n"
-        "제목: SK하이닉스, HBM4 12단 샘플 엔비디아 공급\n"
-        "요약: SK하이닉스가 차세대 HBM4 12단 제품 샘플을 엔비디아에 공급하며 내년 양산 물량 선점 경쟁 본격화\n\n"
-        "[출력 형식 — 아래 두 줄만 정확히 이 형식으로 출력, 다른 말이나 마크다운 기호 금지]\n"
-        "제목: <헤드라인>\n"
-        "요약: <요약문>\n\n"
-        f"원문 제목(직역): {literal_title}\n\n"
-        f"본문(요약 작성에만 참고):\n{body[:3500]}"
-    )
+def normalize_generated_text(value):
+    value = clean_space(str(value or ""))
+    value = re.sub(r"^(?:제목|요약)\s*[:：]\s*", "", value)
+    value = value.strip("\"'“”‘’`*[]{} ")
+    return clean_space(value)
 
 
-def parse_gemini_response(res):
-    """(new_title, summary) 또는 실패 시 (None, None)을 반환한다. 길이/어투 검증은 하지 않는다."""
-    data = res.json()
-    candidates = data.get("candidates", [])
-    if not candidates:
-        return None, None
+def validate_summary(summary):
+    """요약의 길이와 완결성을 검증해 (통과 여부, 실패 이유)를 반환한다."""
+    summary = normalize_generated_text(summary)
+    summary = summary.rstrip(".。!?！？ ")
+    length = len(summary)
 
-    if candidates[0].get("finishReason", "") == "MAX_TOKENS":
-        return None, None
+    if not summary:
+        return False, "요약이 비어 있음"
 
-    parts = candidates[0].get("content", {}).get("parts", [])
-    if not parts:
-        return None, None
+    if length < SUMMARY_MIN_CHARS:
+        return False, f"{length}자로 최소 {SUMMARY_MIN_CHARS}자 미달"
 
-    raw_text = parts[0].get("text", "")
-    raw_text = re.sub(r"```[a-zA-Z]*\n?", "", raw_text)
-    raw_text = raw_text.replace("**", "").replace("`", "")
+    if length > SUMMARY_MAX_CHARS:
+        return False, f"{length}자로 최대 {SUMMARY_MAX_CHARS}자 초과"
 
-    title_match = re.search(r"제목\s*[:：]\s*(.+)", raw_text)
-    summary_match = re.search(r"요약\s*[:：]\s*(.+(?:\n.+)*)", raw_text)
+    if summary.endswith(("…", "...", ",", "·", ":", ";", "-", "—", "(", "[")):
+        return False, "문장 끝이 절단 기호로 끝남"
 
-    new_title = clean_space(title_match.group(1)) if title_match else ""
-    new_title = new_title.strip("\"'“”‘’ \n")
+    last_word = summary.split()[-1].strip(".,!?;:()[]{}\"'“”‘’")
+    if last_word in SUMMARY_INCOMPLETE_LAST_WORDS:
+        return False, f"불완전한 마지막 단어: {last_word}"
 
-    summary = clean_space(summary_match.group(1)) if summary_match else ""
-    summary = summary.strip("\"'“”‘’ \n")
-
-    # 문장 맨 앞에 남은 찌꺼기 문자(], =, 기자 파편 등) 제거
-    summary = re.sub(r"^[\]\s=\-]+", "", summary)
-    # 헤드라인 어투는 문장 끝에 마침표를 붙이지 않음
-    summary = summary.rstrip(". ")
-
-    return (new_title or None), summary
-
-
-def validate_summary_style(summary):
-    """길이와 헤드라인 어투(명사형 종결)를 모두 만족하는지 검사한다."""
-    if not summary or len(summary) < 45 or len(summary) > 115:
-        return False, f"글자수 조건 미달/초과 ({len(summary)}자)"
-
-    if SUMMARY_BAD_ENDING_PATTERN.search(summary):
-        return False, "서술형 종결어미로 끝남(헤드라인 어투 아님)"
+    # 프롬프트와 코드가 같은 종료 규칙을 사용해야 잘린 문장이 통과하지 않는다.
+    if not any(summary.endswith(ending) for ending in SUMMARY_ALLOWED_ENDINGS):
+        return False, "허용된 명사형 종결어로 끝나지 않음"
 
     return True, ""
 
 
-def finalize_summary_length(summary):
-    """혹시 모를 100자 초과 시 단어 단위로 안전하게 절삭한다."""
-    if len(summary) <= 100:
-        return summary
+def validate_title(new_title, literal_title):
+    new_title = normalize_generated_text(new_title)
 
-    words = summary.split(" ")
-    truncated = ""
-    for word in words:
-        if len(truncated + " " + word) <= 100:
-            truncated += (" " + word if truncated else word)
-        else:
-            break
+    if not new_title or len(new_title) > 60:
+        return None
 
-    return truncated
+    original_numbers = extract_numbers(literal_title)
+    new_numbers = extract_numbers(new_title)
+    if original_numbers and not original_numbers.issubset(new_numbers):
+        return None
+
+    return new_title
 
 
-def summarize_with_gemini(literal_title, body):
-    if not GEMINI_API_KEY:
-        return None, None
+def build_summary_prompt(literal_title, body, previous_error="", previous_output=""):
+    allowed_endings = ", ".join(SUMMARY_ALLOWED_ENDINGS)
 
-    if GEMINI_QUOTA_EXHAUSTED[0]:
-        return None, None
+    retry_instruction = ""
+    if previous_error:
+        retry_instruction = (
+            "\n\n[이전 출력 수정 지시]\n"
+            f"- 이전 오류: {previous_error}\n"
+            f"- 이전 출력: {previous_output[:500]}\n"
+            "- 위 오류만 고쳐 처음부터 완결된 제목과 요약을 다시 작성할 것\n"
+        )
 
-    prompt = build_summary_prompt(literal_title, body)
-    max_attempts = 3
+    return (
+        "다음 반도체 뉴스 기사에서 한국어 헤드라인과 한 문장 요약을 작성하세요.\n\n"
+        "[제목 규칙]\n"
+        "- 원문 제목에 있는 사실만 사용\n"
+        "- 원문 제목의 숫자는 모두 그대로 유지\n"
+        "- 25~40자 권장, 최대 60자\n"
+        "- 한국 경제지 헤드라인 문체로 명사형 종결\n\n"
+        "[요약 규칙]\n"
+        f"- 공백 포함 {SUMMARY_MIN_CHARS}~{SUMMARY_MAX_CHARS}자, 반드시 한 문장\n"
+        "- 기사 핵심 사실과 주요 기업·제품·수치를 구체적으로 포함\n"
+        "- 100자를 넘긴 뒤 자르지 말고 처음부터 범위 안에서 완결되게 작성\n"
+        "- 마침표, 말줄임표, 콜론으로 끝내지 말 것\n"
+        f"- 마지막 단어는 반드시 다음 중 하나: {allowed_endings}\n"
+        "- 출력은 JSON 스키마의 title, summary 두 필드만 사용\n"
+        f"{retry_instruction}\n"
+        f"원문 제목: {literal_title}\n\n"
+        f"기사 본문:\n{body[:3500]}"
+    )
 
-    try:
-        for attempt in range(1, max_attempts + 1):
-            wait_for_gemini_rate_limit()
 
-            res = requests.post(
+def is_daily_quota_error(response):
+    error_text = (response.text or "").lower()
+    daily_markers = (
+        "perday", "per day", "daily", "requestsperday",
+        "generaterequestsperday", "requests_per_day"
+    )
+    return response.status_code == 429 and any(marker in error_text for marker in daily_markers)
+
+
+def request_gemini_json(prompt, max_http_attempts=3):
+    """일시적 HTTP 오류만 재시도하고, 성공하면 Gemini 응답 JSON을 반환한다."""
+    for http_attempt in range(1, max_http_attempts + 1):
+        wait_for_gemini_rate_limit()
+
+        try:
+            response = requests.post(
                 GEMINI_ENDPOINT,
                 params={"key": GEMINI_API_KEY},
+                headers={"Content-Type": "application/json"},
                 json={
                     "contents": [{"parts": [{"text": prompt}]}],
-                    "generationConfig": {"temperature": 0.2, "maxOutputTokens": 1000}
+                    "generationConfig": {
+                        "temperature": 0.1,
+                        "maxOutputTokens": 320,
+                        # 짧은 요약에는 추론 토큰이 필요하지 않다. Gemini 2.5 Flash의
+                        # 동적 thinking이 출력 토큰을 소모하거나 지연시키는 것을 방지한다.
+                        "thinkingConfig": {"thinkingBudget": 0},
+                        "responseMimeType": "application/json",
+                        "responseSchema": {
+                            "type": "OBJECT",
+                            "properties": {
+                                "title": {
+                                    "type": "STRING",
+                                    "description": "원문 제목 사실만 사용한 한국어 경제지 헤드라인"
+                                },
+                                "summary": {
+                                    "type": "STRING",
+                                    "description": "공백 포함 50~100자의 완결된 한국어 한 문장 요약"
+                                }
+                            },
+                            "required": ["title", "summary"],
+                            "propertyOrdering": ["title", "summary"]
+                        }
+                    }
                 },
-                timeout=20
+                timeout=30
             )
             _last_gemini_call_at[0] = time.time()
 
-            if res.status_code == 429 and "quota" in res.text.lower():
-                print(f"[Gemini] 일일 쿼터 소진 감지")
-                GEMINI_QUOTA_EXHAUSTED[0] = True
-                return None, None
+        except requests.RequestException as e:
+            print(f"[Gemini HTTP ERROR] {e}")
+            if http_attempt < max_http_attempts:
+                time.sleep(5 * http_attempt)
+                continue
+            return None
 
-            if res.status_code in (429, 503):
-                if attempt < max_attempts:
-                    time.sleep(8 * attempt)
-                    continue
-                return None, None
+        if response.status_code == 200:
+            try:
+                return response.json()
+            except ValueError:
+                print("[Gemini] HTTP 200이지만 응답 JSON 해석 실패")
+                return None
 
-            if res.status_code != 200:
-                return None, None
+        if is_daily_quota_error(response):
+            print("[Gemini] 일일 쿼터 소진 감지")
+            GEMINI_QUOTA_EXHAUSTED[0] = True
+            return None
 
-            new_title, summary = parse_gemini_response(res)
+        if response.status_code in (429, 500, 502, 503, 504) and http_attempt < max_http_attempts:
+            backoff = 6 * http_attempt
+            print(f"[Gemini] 일시 오류 {response.status_code}, {backoff}초 후 재시도")
+            time.sleep(backoff)
+            continue
 
-            if not summary:
-                if attempt < max_attempts:
-                    continue
-                return None, None
+        print(f"[Gemini] 요청 실패 {response.status_code}: {response.text[:300]}")
+        return None
 
-            ok, reason = validate_summary_style(summary)
-            if not ok:
-                print(f"[Gemini] 요약 검증 실패({reason}), attempt {attempt}/{max_attempts}: {summary[:60]}")
-                if attempt < max_attempts:
-                    continue
-                return None, None
+    return None
 
-            summary = finalize_summary_length(summary)
 
-            if new_title and len(new_title) > 60:
-                new_title = new_title[:60].rstrip()
+def parse_gemini_payload(data):
+    candidates = data.get("candidates", []) if isinstance(data, dict) else []
+    if not candidates:
+        return None, None, "응답 후보 없음"
 
-            if new_title:
-                original_numbers = extract_numbers(literal_title)
-                new_numbers = extract_numbers(new_title)
-                if original_numbers and not original_numbers.issubset(new_numbers):
-                    new_title = None
+    candidate = candidates[0]
+    finish_reason = candidate.get("finishReason", "")
 
-            return (new_title or None), summary
+    if finish_reason == "MAX_TOKENS":
+        return None, None, "MAX_TOKENS로 출력 중단"
 
+    if finish_reason and finish_reason != "STOP":
+        return None, None, f"finishReason={finish_reason}"
+
+    parts = candidate.get("content", {}).get("parts", [])
+    raw_text = "".join(part.get("text", "") for part in parts if isinstance(part, dict)).strip()
+    if not raw_text:
+        return None, None, "응답 본문 없음"
+
+    # 구조화 출력이어도 방어적으로 코드펜스를 제거한다.
+    raw_text = re.sub(r"^```(?:json)?\s*|\s*```$", "", raw_text, flags=re.IGNORECASE)
+
+    try:
+        payload = json.loads(raw_text)
+    except json.JSONDecodeError as e:
+        return None, None, f"JSON 파싱 실패: {e.msg}"
+
+    if not isinstance(payload, dict):
+        return None, None, "JSON 최상위 값이 객체가 아님"
+
+    title = normalize_generated_text(payload.get("title", ""))
+    summary = normalize_generated_text(payload.get("summary", ""))
+    summary = summary.rstrip(".。!?！？ ")
+
+    return title, summary, ""
+
+
+def summarize_with_gemini(literal_title, body):
+    if not GEMINI_API_KEY or GEMINI_QUOTA_EXHAUSTED[0]:
         return None, None
 
-    except Exception as e:
-        print(f"[Gemini ERROR] {e}")
-        return None, None
+    previous_error = ""
+    previous_output = ""
+
+    # HTTP 재시도와 별개로, 형식·길이·완결성 실패 시 모델 출력을 다시 생성한다.
+    for generation_attempt in range(1, SUMMARY_GENERATION_ATTEMPTS + 1):
+        prompt = build_summary_prompt(
+            literal_title,
+            body,
+            previous_error=previous_error,
+            previous_output=previous_output
+        )
+        data = request_gemini_json(prompt)
+        if not data:
+            return None, None
+
+        new_title, summary, parse_error = parse_gemini_payload(data)
+        if parse_error:
+            previous_error = parse_error
+            previous_output = ""
+            print(
+                f"[Gemini] 생성 {generation_attempt}/{SUMMARY_GENERATION_ATTEMPTS} 실패: "
+                f"{parse_error}"
+            )
+            continue
+
+        is_valid, validation_error = validate_summary(summary)
+        if not is_valid:
+            previous_error = validation_error
+            previous_output = json.dumps(
+                {"title": new_title, "summary": summary},
+                ensure_ascii=False
+            )
+            print(
+                f"[Gemini] 생성 {generation_attempt}/{SUMMARY_GENERATION_ATTEMPTS} 검증 실패: "
+                f"{validation_error} / 출력={summary}"
+            )
+            continue
+
+        valid_title = validate_title(new_title, literal_title)
+        print(f"[Gemini] 요약 검증 통과 ({len(summary)}자)")
+        return valid_title, summary
+
+    print("[Gemini] 3회 생성 후에도 요약 조건 미충족")
+    return None, None
 # =========================================================================
 
 
 def summarize_article(link, title, body_text, translate_title=False):
-    """캐시 → Gemini 순으로 (제목, 요약)을 생성한다. 규칙기반 대체 요약 로직은 없음 —
-    Gemini가 실패하면 (None, None)을 반환해서 이번 실행에서는 그 기사를 건너뛴다
-    (캐시에 아무것도 안 남기므로 다음 실행 때 다시 시도됨).
-    30분마다 도는 크론 특성상 같은 기사를 반복 요약하지 않도록 링크 기준 캐시를 우선 사용한다.
-    translate_title=True면 해외 기사 원제목 대신 Gemini가 새로 쓴 한국어 헤드라인을 사용한다."""
+    """유효한 캐시를 우선 사용하고, 없으면 Gemini로 제목·요약을 생성한다."""
     cached = SUMMARY_CACHE.get(link)
 
     if cached and cached.get("summary"):
-        final_title = cached.get("title") if (translate_title and cached.get("title")) else title
-        return final_title, cached["summary"]
+        cached_summary = normalize_generated_text(cached.get("summary", ""))
+        cached_valid, _ = validate_summary(cached_summary)
+        same_rule_version = cached.get("rule_version") == SUMMARY_RULE_VERSION
+
+        if cached_valid and same_rule_version:
+            final_title = cached.get("title") if (translate_title and cached.get("title")) else title
+            return final_title, cached_summary
+
+        # 예전 규칙으로 저장됐거나 잘린 요약이면 삭제하고 이번 실행에서 재생성한다.
+        SUMMARY_CACHE.pop(link, None)
+        print(f"[Gemini Cache] 무효 캐시 삭제 후 재생성: {link}")
 
     if GEMINI_QUOTA_EXHAUSTED[0]:
-        # 이번 실행에서 이미 일일 쿼터 소진이 확인됐으면 호출 자체를 시도하지 않음
         return None, None
 
     gemini_title, summary = summarize_with_gemini(title, body_text)
-
     if not summary:
         return None, None
 
@@ -800,11 +894,11 @@ def summarize_article(link, title, body_text, translate_title=False):
         "title": gemini_title or "",
         "summary": summary,
         "source": "gemini",
+        "rule_version": SUMMARY_RULE_VERSION,
         "cached_at": datetime.now(timezone.utc).timestamp()
     }
 
     return final_title, summary
-
 
 def clean_direct_title(source_name, anchor_tag):
     title_candidates = []
@@ -1209,7 +1303,7 @@ def fetch_news():
     # 1차 소스: Google News RSS
     for keyword in KEYWORDS:
         rss_url = (
-            "[https://news.google.com/rss/search](https://news.google.com/rss/search)?"
+            "https://news.google.com/rss/search?"
             f"q={quote(keyword)}"
             "&hl=ko&gl=KR&ceid=KR:ko"
         )
