@@ -65,20 +65,6 @@ HEADERS = {
     "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"
 }
 
-SUMMARY_PRIORITY_KEYWORDS = [
-    "삼성전자", "SK하이닉스", "TSMC", "마이크론", "엔비디아", "브로드컴",
-    "HBM", "DRAM", "D램", "NAND", "낸드", "DDR", "LPDDR",
-    "파운드리", "메모리", "AI", "ASIC", "GPU", "서버",
-    "수요", "공급", "가격", "투자", "증설", "양산", "공정",
-    "2나노", "3나노", "1나노", "EUV", "패키징", "실적"
-]
-
-SUMMARY_STOPWORDS = {
-    "그리고", "하지만", "그러나", "또한", "이번", "관련", "통해", "대해",
-    "위해", "있는", "없는", "지난", "최근", "이날", "올해", "내년",
-    "기자", "뉴스", "사진", "제공", "밝혔다", "전했다", "설명했다"
-}
-
 SEMICON_KEYWORDS = [
     "반도체", "삼성전자", "SK하이닉스", "HBM", "DRAM", "D램",
     "NAND", "낸드", "메모리", "파운드리", "TSMC", "마이크론",
@@ -228,39 +214,6 @@ def clean_html(text):
 
 def clean_space(text):
     return re.sub(r"\s+", " ", text or "").strip()
-
-
-# 뒤에 반드시 서술어가 와야 의미가 완성되는 의존명사 — 앞 단어와 띄어써서 별도 토큰
-_DANGLING_TRAILING_WORDS = {
-    "수", "것", "줄", "만큼", "듯", "리", "때", "바", "채", "터", "뿐", "김"
-}
-
-# 관형형 어미 — 앞 동사 어간에 바로 붙어서 한 토큰이 됨 ("사용할"처럼) → 접미사로 검사
-_DANGLING_TRAILING_SUFFIXES = (
-    "하는", "되는", "있는", "없는", "라는", "이라는", "할", "될", "된"
-)
-
-
-def trim_dangling_ending(text, max_backtrack=3):
-    for _ in range(max_backtrack):
-        text = text.rstrip()
-        if not text:
-            break
-
-        last_space = text.rfind(" ")
-        last_word = text[last_space + 1:] if last_space != -1 else text
-
-        is_dangling = (
-            last_word in _DANGLING_TRAILING_WORDS
-            or last_word.endswith(_DANGLING_TRAILING_SUFFIXES)
-        )
-
-        if not is_dangling:
-            break
-
-        text = text[:last_space] if last_space != -1 else ""
-
-    return text.rstrip()
 
 
 def strip_source_from_title(title):
@@ -517,19 +470,6 @@ def remove_title_overlap(text, title):
     return clean_space(text)
 
 
-def sentence_is_too_similar_to_title(sentence, title, threshold=0.52):
-    if not title:
-        return False
-
-    s = normalize_content_for_dedupe(sentence)
-    t = normalize_content_for_dedupe(title)
-
-    if not s or not t:
-        return False
-
-    return SequenceMatcher(None, s, t).ratio() >= threshold
-
-
 def content_similarity(a, b):
     a = normalize_content_for_dedupe(a)
     b = normalize_content_for_dedupe(b)
@@ -595,199 +535,6 @@ def dedupe_by_content_keep_two(items, threshold=0.20, max_per_group=2):
         selected.extend(group[:max_per_group])
 
     return selected
-
-
-def compact_ending(sentence):
-    sentence = strip_reporter_and_source(sentence)
-    sentence = sentence.strip().rstrip(".")
-
-    # "~라고 13일 밝혔다" 처럼 날짜가 중간에 낀 흔한 기사체 패턴 (날짜 숫자가 매번 달라서
-    # 아래 고정 문자열 치환표로는 못 잡음 — 정규식으로 먼저 처리)
-    sentence = re.sub(
-        r"(?:이?라고|다고)\s*\d{1,2}일\s*(밝혔다|말했다|전했다|설명했다|강조했다|덧붙였다)",
-        " 언급",
-        sentence
-    )
-
-    replacements = [
-        ("했다고 밝혔다", " 발표"),
-        ("라고 밝혔다", " 언급"),
-        ("이라고 밝혔다", " 언급"),
-        ("밝혔다", " 발표"),
-        ("라고 말했다", " 언급"),
-        ("고 말했다", " 언급"),
-        ("전했다", " 전언"),
-        ("라고 전했다", " 전언"),
-        ("설명했다", " 설명"),
-        ("라고 설명했다", " 설명"),
-        ("강조했다", " 강조"),
-        ("라고 강조했다", " 강조"),
-        ("덧붙였다", " 덧붙임"),
-        ("것으로 알려졌다", " 확인"),
-        ("알려졌다", " 확인"),
-        ("것으로 나타났다", " 확인"),
-        ("나타났다", " 확인"),
-        ("것으로 파악됐다", " 파악"),
-        ("파악됐다", " 파악"),
-        ("것으로 드러났다", " 확인"),
-        ("드러났다", " 확인"),
-        ("것으로 조사됐다", " 조사"),
-        ("조사됐다", " 조사"),
-        ("것으로 집계됐다", " 집계"),
-        ("집계됐다", " 집계"),
-        ("것으로 관측된다", " 관측"),
-        ("관측된다", " 관측"),
-        ("것으로 분석된다", " 분석"),
-        ("분석된다", " 분석"),
-        ("예정이다", " 예정"),
-        ("계획이다", " 계획"),
-        ("방침이다", " 방침"),
-        ("전망된다", " 전망"),
-        ("예상된다", " 예상"),
-        ("것으로 보인다", " 전망"),
-        ("것으로 예상된다", " 예상"),
-        ("것으로 전망된다", " 전망"),
-        ("진행하고 있다", " 진행 중"),
-        ("이어지고 있다", " 지속"),
-        ("이어갔다", " 지속"),
-        ("이어졌다", " 지속"),
-        ("나타나고 있다", " 확인"),
-        ("확대하고 있다", " 확대"),
-        ("늘리고 있다", " 확대"),
-        ("줄이고 있다", " 축소"),
-        ("감소하고 있다", " 감소"),
-        ("상승하고 있다", " 상승"),
-        ("하락하고 있다", " 하락"),
-        ("증가했다", " 증가"),
-        ("감소했다", " 감소"),
-        ("확대됐다", " 확대"),
-        ("축소됐다", " 축소"),
-        ("출시했다", " 출시"),
-        ("공개했다", " 공개"),
-        ("선보였다", " 공개"),
-        ("투자했다", " 투자"),
-        ("인수했다", " 인수"),
-        ("체결했다", " 체결"),
-        ("합의했다", " 합의"),
-        ("결정했다", " 결정"),
-        ("발표했다", " 발표"),
-        ("추진한다", " 추진"),
-        ("검토한다", " 검토"),
-        ("논의한다", " 논의"),
-        ("협력한다", " 협력"),
-        ("습니다", ""),
-        ("입니다", "")
-    ]
-
-    # 표 안의 패턴은 문장 '끝'에 있을 때만 치환한다 (blind replace를 쓰면 중첩 인용문
-    # — "A라고 밝혔다"면서 "B라고도 말했다" 같은 — 의 중간이 잘못 치환되는 문제가 있었음)
-    for old, new in replacements:
-        if sentence.endswith(old):
-            sentence = sentence[: -len(old)] + new
-
-    sentence = clean_space(sentence)
-
-    # 위 표에서 못 잡은 문장은 문장 끝 종결어미만 잘라내서
-    # 단어(명사)로 끝나는 개조식 문장으로 정리한다 (문장 중간은 건드리지 않음)
-    generic_endings = [
-        "하고 있다", "되고 있다", "해야 한다", "할 예정이다",
-        "했다", "한다", "됐다", "된다", "였다", "이었다", "이다",
-        "있다", "없다", "왔다", "낸다", "온다", "든다",
-        "갔다", "졌다", "쳤다", "겼다", "렸다", "혔다", "났다", "찼다",
-        "늘렸다", "줄였다", "커졌다", "작아졌다", "높였다", "낮췄다",
-        "나섰다", "밝혀졌다"
-    ]
-    for ending in sorted(generic_endings, key=len, reverse=True):
-        if sentence.endswith(ending):
-            sentence = sentence[: -len(ending)].rstrip()
-            break
-
-    sentence = sentence.rstrip(",.·- ")
-    return clean_space(sentence)
-
-
-def split_sentences_for_summary(text):
-    text = strip_reporter_and_source(text)
-    text = re.sub(r"\s+", " ", text).strip()
-
-    # 스크래핑 과정에서 "판단했다.13일에"처럼 마침표 뒤에 공백이 없는 경우
-    # 문장 분리가 실패해서 두 문장이 하나로 붙어버림 → 미리 공백을 넣어서 분리되게 함
-    # (마침표/느낌표/물음표 뒤에만 적용 — '다' 뒤에 적용하면 "한다고"처럼 정상 단어 중간이 쪼개짐)
-    text = re.sub(r"(?<=[.!?])(?=[가-힣0-9A-Za-z])", " ", text)
-
-    sentences = re.split(r"(?<=[.!?。！？다])\s+", text)
-
-    cleaned = []
-    for s in sentences:
-        s = strip_reporter_and_source(s)
-        s = remove_question_exclamation(s)
-
-        if len(s) < 25:
-            continue
-
-        if len(s) > 180:
-            # 단어 중간이 아니라 마지막 공백에서 자름 (마침표 등 문장부호가 있으면 그쪽을 우선)
-            window = s[:180]
-            cut = max(window.rfind("다."), window.rfind(". "), window.rfind(" "))
-            if cut < 90:  # 너무 앞쪽이면 의미가 없으니 그냥 180에서 자름
-                cut = 180
-            s = trim_dangling_ending(s[:cut + 1].rstrip())
-
-        cleaned.append(s)
-
-    return cleaned
-
-
-def extract_summary_keywords(text, top_n=12):
-    text = strip_reporter_and_source(text)
-
-    words = re.findall(r"[가-힣A-Za-z0-9]+", text)
-    counter = {}
-
-    for word in words:
-        word = word.strip()
-
-        if len(word) < 2:
-            continue
-
-        if word in SUMMARY_STOPWORDS:
-            continue
-
-        counter[word] = counter.get(word, 0) + 1
-
-    ranked = sorted(counter.items(), key=lambda x: x[1], reverse=True)
-
-    return [word for word, _ in ranked[:top_n]]
-
-
-def score_summary_sentence(sentence, keywords, index):
-    score = 0
-    lower_sentence = sentence.lower()
-
-    for keyword in keywords:
-        if keyword.lower() in lower_sentence:
-            score += 2
-
-    for keyword in SUMMARY_PRIORITY_KEYWORDS:
-        if keyword.lower() in lower_sentence:
-            score += 3
-
-    if re.search(r"\d", sentence):
-        score += 2
-
-    if any(unit in sentence for unit in ["조", "억", "%", "달러", "원", "년", "분기", "월", "나노"]):
-        score += 2
-
-    if 45 <= len(sentence) <= 150:
-        score += 2
-    elif len(sentence) < 35:
-        score -= 1
-    elif len(sentence) > 170:
-        score -= 1
-
-    score += max(0, 2 - index * 0.08)
-
-    return score
 
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
@@ -902,8 +649,8 @@ def summarize_with_gemini(literal_title, body):
 
             if res.status_code == 429 and "quota" in res.text.lower():
                 # 분당 제한이 아니라 일일 쿼터 소진 — 재시도해도 소용없으므로
-                # 이번 실행 동안은 더 이상 Gemini를 호출하지 않고 바로 폴백으로 전환
-                print(f"[Gemini] 일일 쿼터 소진 감지 — 이번 실행은 남은 기사 전부 규칙기반으로 폴백")
+                # 이번 실행 동안은 더 이상 Gemini를 호출하지 않고, 남은 기사는 이번 실행에서 건너뜀
+                print(f"[Gemini] 일일 쿼터 소진 감지 — 이번 실행은 남은 기사 전부 건너뜀(다음 실행에 재시도)")
                 GEMINI_QUOTA_EXHAUSTED[0] = True
                 return None, None
 
@@ -974,166 +721,36 @@ def summarize_with_gemini(literal_title, body):
 
 
 def summarize_article(link, title, body_text, translate_title=False):
-    """캐시 → Gemini → 규칙기반 순으로 (제목, 요약)을 생성한다.
+    """캐시 → Gemini 순으로 (제목, 요약)을 생성한다. 규칙기반 대체 요약 로직은 없음 —
+    Gemini가 실패하면 (None, None)을 반환해서 이번 실행에서는 그 기사를 건너뛴다
+    (캐시에 아무것도 안 남기므로 다음 실행 때 다시 시도됨).
     30분마다 도는 크론 특성상 같은 기사를 반복 요약하지 않도록 링크 기준 캐시를 우선 사용한다.
     translate_title=True면 해외 기사 원제목 대신 Gemini가 새로 쓴 한국어 헤드라인을 사용한다."""
     cached = SUMMARY_CACHE.get(link)
 
-    # gemini로 정상 생성된(35자 이상) 캐시는 그대로 신뢰
-    cached_is_valid = (
-        cached
-        and cached.get("summary")
-        and cached.get("source") == "gemini"
-        and len(cached.get("summary", "")) >= 35
-    )
-
-    if cached_is_valid:
+    if cached and cached.get("summary"):
         final_title = cached.get("title") if (translate_title and cached.get("title")) else title
         return final_title, cached["summary"]
 
-    # rule_based로 폴백됐던 캐시는 재시도 대상이지만, 30분마다 매번 재시도하면 쿼터를 낭비하므로
-    # 최소 2시간 냉각시간을 두고, 그 사이엔 캐시된 규칙기반 요약을 그대로 사용
-    if cached and cached.get("summary") and cached.get("source") == "rule_based":
-        cached_at = cached.get("cached_at", 0)
-        if time.time() - cached_at < 2 * 3600:
-            final_title = title
-            return final_title, cached["summary"]
-
     if GEMINI_QUOTA_EXHAUSTED[0]:
-        # 이번 실행에서 이미 일일 쿼터 소진이 확인됐으면 호출 자체를 시도하지 않고 바로 폴백
-        gemini_title, summary = None, None
-    else:
-        gemini_title, summary = summarize_with_gemini(title, body_text)
+        # 이번 실행에서 이미 일일 쿼터 소진이 확인됐으면 호출 자체를 시도하지 않음
+        return None, None
 
-    source = "gemini" if summary else None
+    gemini_title, summary = summarize_with_gemini(title, body_text)
 
     if not summary:
-        summary = make_compact_summary(body_text, title=title)
-        source = "rule_based"
+        return None, None
 
     final_title = gemini_title if (translate_title and gemini_title) else title
 
     SUMMARY_CACHE[link] = {
         "title": gemini_title or "",
         "summary": summary,
-        "source": source,
+        "source": "gemini",
         "cached_at": datetime.now(timezone.utc).timestamp()
     }
 
     return final_title, summary
-
-
-def make_compact_summary(text, title="", min_len=50, max_len=100):
-    # 제목은 요약 재료로 사용하지 않고, 제목과 비슷한 문장 제거용으로만 사용
-    text = strip_reporter_and_source(text)
-    text = remove_title_overlap(text, title)
-    text = translate_to_korean(text)
-
-    if not text:
-        return ""
-
-    sentences = split_sentences_for_summary(text)
-
-    cleaned_sentences = []
-    for s in sentences:
-        s = strip_reporter_and_source(s)
-        s = remove_title_overlap(s, title)
-        s = remove_question_exclamation(s)
-
-        if len(s) < 25:
-            continue
-
-        if sentence_is_too_similar_to_title(s, title):
-            continue
-
-        cleaned_sentences.append(s)
-
-    if not cleaned_sentences:
-        window = text[:max_len + 40]
-        cut = window.rfind(" ")
-        if cut < max_len * 0.5:
-            cut = min(len(window), max_len)
-        fallback = strip_reporter_and_source(window[:cut])
-        fallback = remove_title_overlap(fallback, title)
-        fallback = compact_ending(fallback)
-        fallback = remove_question_exclamation(fallback)
-        fallback = trim_dangling_ending(fallback)
-        return fallback.strip()
-
-    keywords = extract_summary_keywords(text)
-
-    ranked = []
-    for idx, sentence in enumerate(cleaned_sentences[:40]):
-        ranked.append((idx, sentence, score_summary_sentence(sentence, keywords, idx)))
-
-    ranked = sorted(ranked, key=lambda x: x[2], reverse=True)
-
-    picked = []
-    picked_len = 0
-
-    for idx, sentence, _ in ranked:
-        sentence = compact_ending(sentence)
-        sentence = strip_reporter_and_source(sentence)
-        sentence = remove_title_overlap(sentence, title)
-        sentence = remove_question_exclamation(sentence)
-
-        if not sentence:
-            continue
-
-        duplicate = False
-        for _, old_sentence in picked:
-            if SequenceMatcher(
-                None,
-                normalize_content_for_dedupe(sentence),
-                normalize_content_for_dedupe(old_sentence)
-            ).ratio() >= 0.72:
-                duplicate = True
-                break
-
-        if duplicate:
-            continue
-
-        # 이 문장을 더하면 max_len을 넘는 경우: 이미 min_len을 채웠으면 이 문장은 건너뛰고
-        # (다음으로 순위가 높은, 더 짧은 문장을 시도) 아직 하나도 못 채웠으면 어쩔 수 없이 포함
-        added_len = len(sentence) + (1 if picked else 0)  # 이어붙일 때 공백 1칸
-        if picked and picked_len + added_len > max_len:
-            continue
-
-        picked.append((idx, sentence))
-        picked_len += added_len
-
-        if picked_len >= min_len or len(picked) >= 2:
-            break
-
-    picked = sorted(picked, key=lambda x: x[0])
-    summary = " ".join([s for _, s in picked])
-
-    if not summary:
-        summary = compact_ending(text[:max_len])
-
-    summary = strip_reporter_and_source(summary)
-    summary = remove_title_overlap(summary, title)
-    summary = remove_question_exclamation(summary)
-    summary = re.sub(r"\s[-–]\s[가-힣A-Za-z0-9 .·&]+$", "", summary)
-    summary = clean_space(summary)
-
-    if len(summary) > max_len:
-        window = summary[:max_len]
-
-        # 문장부호(. ! ?) 기준으로 안전하게 자를 수 있는 지점을 우선 찾음
-        cut = max(window.rfind("다."), window.rfind("음."), window.rfind("함."), window.rfind(". "))
-        if cut == -1 or cut < max_len * 0.5:
-            # 문장부호가 없거나 너무 앞쪽이면 마지막 공백(단어 경계)에서 자름
-            cut = window.rfind(" ")
-
-        if cut == -1 or cut < max_len * 0.5:
-            cut = max_len
-
-        summary = summary[:cut + 1].rstrip()
-
-    summary = trim_dangling_ending(summary)
-
-    return summary
 
 
 def clean_direct_title(source_name, anchor_tag):
@@ -1533,7 +1150,8 @@ def fetch_news():
         "body_fallback": 0,
         "old": 0,
         "direct_candidates": 0,
-        "direct_added": 0
+        "direct_added": 0,
+        "summary_failed": 0
     }
 
     # 1차 소스: Google News RSS
@@ -1603,6 +1221,10 @@ def fetch_news():
                     continue
 
                 title, summary = summarize_article(final_link, title, summary_source, translate_title=title_was_foreign)
+
+                if not summary:
+                    stats["summary_failed"] = stats.get("summary_failed", 0) + 1
+                    continue
 
                 seen_links.add(final_link)
                 seen_titles.append(title)
@@ -1695,6 +1317,10 @@ def fetch_news():
 
                 title, summary = summarize_article(final_link, title, summary_source, translate_title=True)
 
+                if not summary:
+                    stats["summary_failed"] = stats.get("summary_failed", 0) + 1
+                    continue
+
                 seen_links.add(final_link)
                 seen_titles.append(title)
 
@@ -1784,6 +1410,10 @@ def fetch_news():
             direct_ago = published_ago_from_datetime(direct_dt)
 
             title, summary = summarize_article(final_link, title, body, translate_title=False)
+
+            if not summary:
+                stats["summary_failed"] = stats.get("summary_failed", 0) + 1
+                continue
 
             seen_links.add(final_link)
             seen_titles.append(title)
