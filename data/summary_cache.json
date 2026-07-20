@@ -994,5 +994,41 @@
     "summary": "삼성SDS는 퓨리오사AI의 2세대 신경망처리장치(NPU)인 '레니게이드(RGND)'를 기반으로 한 서비스형 NPU(NPUaaS)를 삼성 클라우드 플랫폼(SCP)에 탑재하여 출시했 언급",
     "source": "rule_based",
     "cached_at": 1784508359.920481
+  },
+  "https://n.news.naver.com/mnews/article/648/0000049017": {
+    "title": "",
+    "summary": "삼성SDS는 국내업체 퓨리오사AI의 2세대 신경망처리장치(NPU)인 '레니게이드(RGND)'를 기반으로 한 NPUaaS(NPU as a Service)를 삼성 클라우드",
+    "source": "rule_based",
+    "cached_at": 1784510449.119495
+  },
+  "https://n.news.naver.com/mnews/article/018/0006332819": {
+    "title": "",
+    "summary": "중국 인공지능(AI) 기업들의 오픈 모델 경쟁력이 빠르게 높아지면서 AI 인프라 투자 주체가 미국 빅테크에서 네오클라우드와 각국의 소버린 AI로 확대될 수 있다는 전망이 나",
+    "source": "rule_based",
+    "cached_at": 1784510453.761717
+  },
+  "https://www.yna.co.kr/view/AKR20260720045500003?section=industry/electronics": {
+    "title": "",
+    "summary": "] = 전 세계적인 인공지능(AI) 인프라 확충으로 국내 반도체 업계가 호황을 맞이한 가운데 올해 상반기 반도체 업종 신입 채용 공고 수가 크게 늘어난 확인",
+    "source": "rule_based",
+    "cached_at": 1784510515.982304
+  },
+  "https://www.dt.co.kr/article/12073564": {
+    "title": "",
+    "summary": "“국산 NPU 확산 및 소버린AI 구축 전환점 기대” 삼성SDS는 퓨리오사AI의 2세대 신경망처리장치(NPU) ‘레니게이드’(RGND)를 기반으로 한",
+    "source": "rule_based",
+    "cached_at": 1784510547.73722
+  },
+  "https://www.edaily.co.kr/News/Read?newsId=01954886645516488&mediaCodeNo=257": {
+    "title": "",
+    "summary": "압타바이오(293780)는 차세대 압타머-약물 복합체(Apta-DC) 기반 혈액암 치료제 Apta-16의 임상 1상 설계가 유럽종양학회(ESMO 2026)에서 포스터 발표로",
+    "source": "rule_based",
+    "cached_at": 1784510646.997636
+  },
+  "https://pharm.edaily.co.kr/News/Read?newsId=01958166645516488": {
+    "title": "",
+    "summary": "압타바이오(293780)는 차세대 압타머-약물 복합체(Apta-DC) 기반 혈액암 치료제 Apta-16의 임상 1상 설계가 유럽종양학회(ESMO 2026)에서 포스터 발표로",
+    "source": "rule_based",
+    "cached_at": 1784510660.798355
   }
 }
