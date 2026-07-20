@@ -1,5 +1,50 @@
 [
   {
+    "title": "Rapidus, Cadence AI 에이전트로 2nm 칩 설계 속도 향상",
+    "link": "https://www.digitimes.com/news/a20260720VL211/rapidus-cadence-2nm-design-technology.html",
+    "short_link": "digitimes.com/news/a20260720VL211/rapidus-cadence-2nm-desi...",
+    "summary": "일본 파운드리 Rapidus가 2nm 칩 개발 주기를 단축하고 고객 유치를 위해 Cadence의 AI 에이전트 기술을 설계 플랫폼에 통합하여 2nm 칩 설계 속도를 향상할 계획",
+    "published_ago": "59분 전",
+    "published_at": "2026-07-20T06:58:31+00:00",
+    "published_raw": "Mon, 20 Jul 2026 06:58:31 GMT"
+  },
+  {
+    "title": "Apple, OpenAI에 반독점 소송 제기",
+    "link": "https://www.digitimes.com/news/a20260716PD238/apple-openai-hardware-partnership-legal.html",
+    "short_link": "digitimes.com/news/a20260716PD238/apple-openai-hardware-pa...",
+    "summary": "Apple이 OpenAI에 대해 반독점 방식의 불만을 제기하며 AI 파트너십이 전략, 공급망 및 향후 하드웨어 제어에 대한 법적 충돌로 전환될 가능성",
+    "published_ago": "3시간 전",
+    "published_at": "2026-07-20T04:35:01+00:00",
+    "published_raw": "Mon, 20 Jul 2026 04:35:01 GMT"
+  },
+  {
+    "title": "삼성, AI 메모리 수요 가속화에 수십억 달러 P5 주문 준비",
+    "link": "https://www.digitimes.com/news/a20260716VL218/samsung-equipment-fab-investment-demand.html",
+    "short_link": "digitimes.com/news/a20260716VL218/samsung-equipment-fab-in...",
+    "summary": "삼성전자가 AI 메모리 용량 투자를 가속화하며 수십억 달러 규모의 P5 장비 조달을 준비하는 것은 업계에서 가장 공격적인 팹 확장 전략을 추진하는 것으로 분석",
+    "published_ago": "3시간 전",
+    "published_at": "2026-07-20T04:20:13+00:00",
+    "published_raw": "Mon, 20 Jul 2026 04:20:13 GMT"
+  },
+  {
+    "title": "TSMC, 美 투자 397조원까지 확대…\"AI 반도체 수요 수년간 이어질 것\"",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBiaWo3cS1NYzJTbTlpNTZjMV9mWXp2Uk1LT2U2VklVRkU2Z1c4LXItMXNiTGxaVWZKbGFQd3Q0VjFDc2tWWlFzWnpxcUNpekFUR2lsd0hLblYwWHg2b0VNNmtuSHRaQUIx?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMiaEFVX3lxTFBiaWo3cS1NYzJTb...",
+    "summary": "TSMC가 AI 반도체 수요가 수년간 이어질 것으로 예상하며 미국 투자를 397조원까지 확대한다고 발표",
+    "published_ago": "3시간 전",
+    "published_at": "2026-07-20T04:17:53+00:00",
+    "published_raw": "Mon, 20 Jul 2026 04:17:53 GMT"
+  },
+  {
+    "title": "인텔, 14A 초기 목표 및 EMIB-T AI 승리",
+    "link": "https://www.digitimes.com/news/a20260716PD235/intel-packaging-manufacturing-2026-production.html",
+    "short_link": "digitimes.com/news/a20260716PD235/intel-packaging-manufact...",
+    "summary": "인텔은 2026년 글로벌 풋프린트 재설정을 가속화하며 Intel 18A 대량 생산, 14A 및 높은 NA EUV 개발, EMIB-T 등 고급 패키징 프로그램을 추진할 계획",
+    "published_ago": "3시간 전",
+    "published_at": "2026-07-20T04:16:02+00:00",
+    "published_raw": "Mon, 20 Jul 2026 04:16:02 GMT"
+  },
+  {
     "title": "삼성SDS, 퓨리오사AI RGND 기반 NPUaaS 출시",
     "link": "https://www.dt.co.kr/article/12073564",
     "short_link": "dt.co.kr/article/12073564",
