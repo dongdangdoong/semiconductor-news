@@ -1,10 +1,136 @@
 [
   {
+    "title": "대구·경북 국회의원. 반도체산업 육성 토론회 공동 주최",
+    "link": "https://www.yna.co.kr/view/AKR20260720037400053?section=industry/electronics",
+    "short_link": "yna.co.kr/view/AKR20260720037400053",
+    "summary": "대구·경북 지역 반도체 산업 육성방안을 논의하는 토론회가 오는 22일 오후 2시 국회도서관 대강당에서 열린다 20일 국민의힘 구자근 의원실에 따르면 이번 토론회는 급변하는 반도체 산업 환경 속에 대구·경북 반도체 산업 생태계를 진단하고 비수도권 반도체 특화단지인 경북 구미를 중심으로 지역 반도체 산업 경쟁력 강화 방안을 논의하기 위해 마련",
+    "published_ago": "8분 전",
+    "published_at": "2026-07-20T00:35:29+00:00",
+    "published_raw": "2026-07-20T00:35:29+00:00"
+  },
+  {
+    "title": "삼성SDS, 퓨리오사AI 기반 NPUaaS 선보여",
+    "link": "https://www.yna.co.kr/view/AKR20260720037100017?section=industry/technology-science",
+    "short_link": "yna.co.kr/view/AKR20260720037100017",
+    "summary": "삼성SDS의 NPUaaS 고객은 NPU 서버를 직접 구매하거나 자체 데이터센터에 구축하지 않아도 SCP를 통해 구독형으로 사용할 수 또 기업의 수요 및 데이터 규모에 따라 NPU를 원하는 단위로 자유롭게 선택해 활용할 수 있어 AI 서비스 규모에 맞춰 NPU를 활용할 수",
+    "published_ago": "10분 전",
+    "published_at": "2026-07-20T00:33:39+00:00",
+    "published_raw": "2026-07-20T00:33:39+00:00"
+  },
+  {
+    "title": "\"자체 데이터센터 필요없다\"…삼성SDS, 국산 NPU 기반 클라우드 서비스 출시",
+    "link": "https://www.ddaily.co.kr/page/view/2026072009233093845",
+    "short_link": "ddaily.co.kr/page/view/2026072009233093845",
+    "summary": "기존 GPUaaS에 이어 NPU 기반 연산 자원까지 클라우드 영역을 넓혀 고객 AI 인프라 선택권을 확대하고, 국산 NPU 기반 AI 인프라 확산과 소버린 AI 구축을 본격화할 계획",
+    "published_ago": "15분 전",
+    "published_at": "2026-07-20T00:29:00+00:00",
+    "published_raw": "2026-07-20T00:29:00+00:00"
+  },
+  {
+    "title": "엔비디아 쿠다 독점 장벽 허문다… 알리바바 핀터우, AI 칩 소프트웨어 전격 개방",
+    "link": "https://www.ddaily.co.kr/page/view/2026072009174896012",
+    "short_link": "ddaily.co.kr/page/view/2026072009174896012",
+    "summary": "중국 알리바바 그룹 홀딩스의 반도체 설계 부문인 핀터우(T-Head)가 미국 반도체 기업 엔비디아의 쿠다(CUDA) 생태계 독점에 대응하기 위해 자사 독자 인공지능(AI) 소프트웨어 스택을 오픈소스로 전격 개방",
+    "published_ago": "26분 전",
+    "published_at": "2026-07-20T00:18:00+00:00",
+    "published_raw": "2026-07-20T00:18:00+00:00"
+  },
+  {
+    "title": "Taipower를 넘어서: AI, 반도체 및 해외 그리드가 대만의 전기 기계 공급망을 재편합니다.",
+    "link": "https://www.digitimes.com/news/a20260715PD221/taiwan-taiwan-power-company-revenue-growth-demand.html",
+    "short_link": "digitimes.com/news/a20260715PD221/taiwan-taiwan-power-comp...",
+    "summary": "대만의 중전기 및 전자 기계 산업은 대만 전력(Taipower)에 대한 오랜 의존을 넘어 수요가 확대됨에 따라 새로운 성장 단계에 진입하고 있 Taipower의 그리드 현대화는 여전히 해당 부문의 기반으로 남아 있지만, 반도체 투자, AI 데이터 센터 구축 및 해외 인프라 프로젝트는 다양한 성장 동력을 창출하고 있",
+    "published_ago": "37분 전",
+    "published_at": "2026-07-20T00:03:56+00:00",
+    "published_raw": "Mon, 20 Jul 2026 00:03:56 GMT"
+  },
+  {
+    "title": "Nvidia는 HBM 부족을 무시하고 폭발적인 성장을 유지하기 위해 AI 인프라에 투자합니다.",
+    "link": "https://www.digitimes.com/news/a20260715PD213/nvidia-growth-infrastructure-hbm-ceo.html",
+    "short_link": "digitimes.com/news/a20260715PD213/nvidia-growth-infrastruc...",
+    "summary": "Nvidia CEO Jensen Huang은 일본 방문을 앞두고 분명한 메시지를 전달했 분기별 매출이 1,000억 달러에 육박함에도 불구하고 칩 제조업체의 성장은 여전히 ​​​​가속화되고 있",
+    "published_ago": "38분 전",
+    "published_at": "2026-07-20T00:03:37+00:00",
+    "published_raw": "Mon, 20 Jul 2026 00:03:37 GMT"
+  },
+  {
+    "title": "Micron과 GlobalWafers의 10년 계약으로 12인치 공급이 더욱 부족해짐",
+    "link": "https://www.digitimes.com/news/a20260716PD237/demand-micron-globalwafers-12-inch-data.html",
+    "short_link": "digitimes.com/news/a20260716PD237/demand-micron-globalwafe...",
+    "summary": "AI 데이터 센터 및 고대역폭 메모리(HBM)에 대한 수요 증가로 인해 반도체 경쟁이 실리콘 웨이퍼 및 중요 재료 분야로 더욱 심화되고 있 Micron과 GlobalWafers는 최근 10년 계약을 발표했으며 Micron도 5억 달러의 지원을 제공하여 GlobalWafers 역사상 가장 길고 잠재적으로 최대 규모의 장기 공급 계약을 기록했",
+    "published_ago": "39분 전",
+    "published_at": "2026-07-20T00:02:30+00:00",
+    "published_raw": "Mon, 20 Jul 2026 00:02:30 GMT"
+  },
+  {
+    "title": "Huahsu, AI 및 고급 패키징 수요에 맞춰 생산 능력 확장",
+    "link": "https://www.digitimes.com/news/a20260716PD230/wahlee-capacity-demand-materials-packaging-supplier.html",
+    "short_link": "digitimes.com/news/a20260716PD230/wahlee-capacity-demand-m...",
+    "summary": "1997년 일본 아사히카세이(Asahi Kasei)와 이화(Wah Lee)가 공동 투자하여 설립한 반도체 소재 공급업체 Huahsu가 AI, HPC 및 첨단 반도체 패키징에 대한 수요가 가속화됨에 따라 새로운 생산능력 확장 계획을 시작했",
+    "published_ago": "39분 전",
+    "published_at": "2026-07-20T00:02:10+00:00",
+    "published_raw": "Mon, 20 Jul 2026 00:02:10 GMT"
+  },
+  {
+    "title": "'키미 K3 충격' 삼성·SK하이닉스엔 호재…\"HBM 수요 더 커진다\" [IT썰]",
+    "link": "https://n.news.naver.com/mnews/article/008/0005387817",
+    "short_link": "n.news.naver.com/mnews/article/008/0005387817",
+    "summary": "중국 AI 스타트업 문샷AI의 오픈형 AI 모델 '키미 K3'가 AI 인프라 투자 수요를 줄일 것이라는 전망이 나오는 가운데, 오히려 삼성전자와 SK하이닉스 등 국내 메모리 반도체 기업에는 수혜가 될 수 있다는 분석이 제기",
+    "published_ago": "40분 전",
+    "published_at": "2026-07-20T00:01:49+00:00",
+    "published_raw": "2026-07-20T00:01:49+00:00"
+  },
+  {
+    "title": "한미반도체, 장비 부족 ​​사태로 HBM 공구 생산량 가속화 및 성조기 꽂아",
+    "link": "https://www.digitimes.com/news/a20260717VL208/hanmi-hbm-usa-demand-equipment.html",
+    "short_link": "digitimes.com/news/a20260717VL208/hanmi-hbm-usa-demand-equ...",
+    "summary": "한국의 한미반도체는 글로벌 메모리 및 파운드리 제조업체들이 고대역폭 메모리(HBM)를 구축하기 위해 의존하는 본딩 장비의 생산량을 늘리기 위해 경쟁하고 있으며, 2027년부터 수요가 공급을 초과할 수 있다고 경고하고 있으며, 이는 현재 마이크론, SK하이닉스, TSMC 등이 자금을 지원하고 있는 AI 칩 구축에 파급될",
+    "published_ago": "40분 전",
+    "published_at": "2026-07-20T00:01:41+00:00",
+    "published_raw": "Mon, 20 Jul 2026 00:01:41 GMT"
+  },
+  {
+    "title": "삼성SDS, 퓨리오사AI '레니게이드' 기반 NPUaaS 선봬",
+    "link": "https://www.etnews.com/20260720000019",
+    "short_link": "etnews.com/20260720000019",
+    "summary": "삼성SDS는 퓨리오사AI의 2세대 신경망처리장치(NPU)인 '레니게이드(RGND)'를 기반으로 한 서비스형 NPU(NPUaaS)를 삼성 클라우드 플랫폼(SCP)에 탑재하여 출시했 언급",
+    "published_ago": "44분 전",
+    "published_at": "2026-07-20T00:01:31+00:00",
+    "published_raw": "2026-07-20T00:01:31+00:00"
+  },
+  {
+    "title": "인도 요약: 인도는 현지 생태계가 팹 및 조립을 넘어 확장됨에 따라 반도체 및 AI 야망을 심화시킵니다.",
+    "link": "https://www.digitimes.com/news/a20260717VL205/india-roundup-applied-materials-electronics-equipment-hp-subsidies.html",
+    "short_link": "digitimes.com/news/a20260717VL205/india-roundup-applied-ma...",
+    "summary": "인도는 글로벌 전자 분야에서 더 큰 역할을 추구하면서 칩 공장 유치에서 반도체 장비, 재료, AI 역량, 공급망 및 무역 파트너십 구축에 이르기까지 기술 전략을 확대하고 있",
+    "published_ago": "40분 전",
+    "published_at": "2026-07-20T00:01:23+00:00",
+    "published_raw": "Mon, 20 Jul 2026 00:01:23 GMT"
+  },
+  {
+    "title": "MiTAC은 96개의 AMD GPU를 52U 수냉식 랙에 담았습니다.",
+    "link": "https://www.digitimes.com/news/a20260717PD230/mitac-subsidiary-amd-gpu-liquid-cooling-2026.html",
+    "short_link": "digitimes.com/news/a20260717PD230/mitac-subsidiary-amd-gpu...",
+    "summary": "MiTAC Holdings의 자회사인 MiTAC Computing Technology는 상하이에서 열린 2026 세계인공지능회의(WAIC)에서 서버 라인업과 고밀도 수냉식 랙 솔루션을 선보였",
+    "published_ago": "40분 전",
+    "published_at": "2026-07-20T00:01:07+00:00",
+    "published_raw": "Mon, 20 Jul 2026 00:01:07 GMT"
+  },
+  {
+    "title": "제이앤티지, IFBF 2026 참가 ‘플로우배터리 전극 포트폴리오·양산’ 역량 소개",
+    "link": "https://www.dt.co.kr/article/12073256",
+    "short_link": "dt.co.kr/article/12073256",
+    "summary": "제이앤티지 사업운영본부 강민 본부장은 “이번 IFBF 2026 참가를 통해 글로벌 플로우배터리 시장에서 제이앤티지의 탄소 전극 기술력과 양산 역량을 소개하고, 다양한 고객 및 파트너사와의 교류를 확대할 수 있는 의미 있는 기회가 됐다”며 “앞으로도 고객 요구에 맞춘 제품 개발과 안정적인 양산 공급 역량을 기반으로 글로벌",
+    "published_ago": "44분 전",
+    "published_at": "2026-07-20T00:00:00+00:00",
+    "published_raw": "2026-07-20T00:00:00+00:00"
+  },
+  {
     "title": "삼성전자·SK하이닉스 \"사람 뽑는다\"…반도체 채용 '훈풍'",
     "link": "https://www.hankyung.com/article/2026072034247",
     "short_link": "hankyung.com/article/2026072034247",
     "summary": "반도체 신입 공고 전년 대비 47% 증가 전체 채용 증가율 14% 크게 웃돌아 삼성·SK하이닉스 채용에 회복세 확산 사진= 사진=잡코리아 올해 상반기 반도체 업종의 신입 채용 공고가 지난해보다",
-    "published_ago": "11분 전",
+    "published_ago": "1시간 전",
     "published_at": "2026-07-19T23:36:05+00:00",
     "published_raw": "2026-07-19T23:36:05+00:00"
   },
@@ -13,7 +139,7 @@
     "link": "https://n.news.naver.com/mnews/article/243/0000100607",
     "short_link": "n.news.naver.com/mnews/article/243/0000100607",
     "summary": "물리적 정확도 극대화한 ‘코스모스 3’ 등장 한국의 강력한 하드웨어를 수용하기 위해 엔비디아가 전면에 내세운 최첨단 로봇 두뇌가 바로 오픈 피지컬 AI 파운데이션 모델인 ‘엔비디아 코스모스 3’다",
-    "published_ago": "47분 전",
+    "published_ago": "1시간 전",
     "published_at": "2026-07-19T23:00:11+00:00",
     "published_raw": "2026-07-19T23:00:11+00:00"
   },
@@ -22,34 +148,25 @@
     "link": "https://www.mt.co.kr/industry/2026/07/20/2026071919394737688",
     "short_link": "mt.co.kr/industry/2026/07/20/2026071919394737688",
     "summary": "최태원 대한상공회의소 회장이 18일 제주 신라호텔에서 열린 제49회 대한상의 제주포럼에서 폐회사를 하고 있다./사진 제공=대한상공회의소 제공 최태원 대한상공회의소 회장(SK그룹 회장)이 AI(인공지능) 반도체 수요급증과 관련, \"올해보다",
-    "published_ago": "4시간 전",
+    "published_ago": "5시간 전",
     "published_at": "2026-07-19T19:41:00+00:00",
     "published_raw": "2026-07-19T19:41:00+00:00"
   },
   {
-    "title": "'반도체 올인' 최태원 회장, SK실트론 매각 딜레마",
-    "link": "https://www.mt.co.kr/industry/2026/07/20/2026071919391954710",
-    "short_link": "mt.co.kr/industry/2026/07/20/2026071919391954710",
-    "summary": "/사진 제공=대한상공회의소 최태원 SK그룹 회장이 지난 15일 제주에서 열린 '제49회 대한상의 하계포럼'에서 'AI(인공지능) 반도체 아비규환'까지 거론한 가운데 SK실트론 매각건의 진행 여부가 업계의 관심사가",
-    "published_ago": "4시간 전",
-    "published_at": "2026-07-19T19:04:00+00:00",
-    "published_raw": "2026-07-19T19:04:00+00:00"
-  },
-  {
-    "title": "글로벌 공급난 상상 이상… 최태원 \"지을 수 있는 모든 곳에 팹 건설\"",
-    "link": "https://www.mt.co.kr/industry/2026/07/20/2026071919420671580",
-    "short_link": "mt.co.kr/industry/2026/07/20/2026071919420671580",
-    "summary": "최태원 SK그룹 회장이 미국은 물론 '지을 수 있는 모든 곳'에 반도체 생산 팹(공장) 건설 의지를 밝힌 배경에는 급증하는 메모리반도체(이하 메모리) 수요가 조달한 자금은 DDR5(더블데이터레이트5), LPDDR5X(저전력 DDR5X), HBM3 등 메모리 개발과 생산능력 확대에 투입할 계획",
-    "published_ago": "4시간 전",
-    "published_at": "2026-07-19T19:00:00+00:00",
-    "published_raw": "2026-07-19T19:00:00+00:00"
+    "title": "22일 베일 벗는 8세대 갤Z…삼성 비메모리 반등 이끌까",
+    "link": "https://n.news.naver.com/mnews/article/011/0004642885",
+    "short_link": "n.news.naver.com/mnews/article/011/0004642885",
+    "summary": "삼성전자(005930) 가 오는 22일(현지 시간) 영국 런던에서 ‘갤럭시 언팩 2026’을 열고 8세대 폴더블 갤럭시 Z 플립8·폴드8·폴드8 울트라 등 3종을 공개 시스템LSI가 설계하고 파운드리가 2나노 공정으로 제조한 엑시노스 2600은 갤럭시 S26에 먼저 채용돼 성능을 인정받았다",
+    "published_ago": "15시간 전",
+    "published_at": "2026-07-19T09:26:18+00:00",
+    "published_raw": "2026-07-19T09:26:18+00:00"
   },
   {
     "title": "씨엠티엑스, 600mm 단결정 실리콘 잉곳·부품 양산 개시",
     "link": "https://www.etnews.com/20260719000056",
     "short_link": "etnews.com/20260719000056",
     "summary": "실리콘 잉곳은 반도체 웨이퍼의 핵심 소재이자, 식각 공정에서 사용되는 소모성 부품의 소재다 글로벌 메모리 제조사·파운드리 등 전 세계 20여개 팹에 제품을 공급",
-    "published_ago": "14시간 전",
+    "published_ago": "15시간 전",
     "published_at": "2026-07-19T09:00:00+00:00",
     "published_raw": "2026-07-19T09:00:00+00:00"
   },
@@ -58,7 +175,7 @@
     "link": "https://www.etnews.com/20260719000061",
     "short_link": "etnews.com/20260719000061",
     "summary": "CXMT는 DDR5·LPDDR5X 등 고성능 D램 제품군을 확대하며 중국 내수 시장을 넘어 글로벌 메모리 시장에서 영향력을 키우고 삼성전자와 SK하이닉스, 마이크론 등 주요 메모리 기업은 차세대 범용 D램인 DDR6 개발을 진행 중",
-    "published_ago": "15시간 전",
+    "published_ago": "16시간 전",
     "published_at": "2026-07-19T08:00:00+00:00",
     "published_raw": "2026-07-19T08:00:00+00:00"
   },
@@ -67,7 +184,7 @@
     "link": "https://n.news.naver.com/mnews/ranking/article/659/0000045274?ntype=RANKING",
     "short_link": "n.news.naver.com/mnews/ranking/article/659/0000045274",
     "summary": "또 \"전남·광주통합특별시에 삼성전자 등이 대규모 투자를 예고한 상황에서, '호남 반도체'라는 이름 아래 산업용수를 전북의 물에 의존하게 될 가능성이 크다\"며, 이원택 전북도지사에게 전북의 수자원을 지키기 위한 대책을 촉구했",
-    "published_ago": "17시간 전",
+    "published_ago": "18시간 전",
     "published_at": "2026-07-19T06:10:14+00:00",
     "published_raw": "2026-07-19T06:10:14+00:00"
   },
@@ -76,7 +193,7 @@
     "link": "https://www.newsis.com/view/NISX20260715_0003711191",
     "short_link": "newsis.com/view/NISX20260715_0003711191",
     "summary": "최태원 회장, 대한상의 제 간담회 \"(반도체 등) 제가 집중해야 하는 일 비중 더 커져\" \"내년 이후에는 제 목소리 많이 듣지 못할 것\" \"과거에 적용된 제도 여전, 성장 키우는 쪽으로 가야\" [서귀포= ] 최태원 대한상공회의소 회장이 15일 제주신라 간담회를 진행 중",
-    "published_ago": "20시간 전",
+    "published_ago": "21시간 전",
     "published_at": "2026-07-19T03:10:24+00:00",
     "published_raw": "2026-07-19T03:10:24+00:00"
   },
@@ -85,16 +202,7 @@
     "link": "https://www.yna.co.kr/view/AKR20260718029600003?section=industry/electronics",
     "short_link": "yna.co.kr/view/AKR20260718029600003",
     "summary": "구독 구독중 이전 다음 \"메모리 구하려 각국 '아비규환'…수요공급 격차 더 벌어져\" \"반도체 가격 더 올리면 얻어맞을 것…시장 키워야 산업 발전\" \"다음 병목은 소재·건설…AI데이터센터는 전기화 사회 첫걸음\" 이미지 확대 대한상의 제주 간담회 중인 최태원 상의 회장 [대한상의 제공",
-    "published_ago": "20시간 전",
-    "published_at": "2026-07-19T03:00:15+00:00",
-    "published_raw": "2026-07-19T03:00:15+00:00"
-  },
-  {
-    "title": "최태원 \"내년 반도체 수요 최소 50% 증가…빠른 증설이 생명줄\"",
-    "link": "https://www.yna.co.kr/view/AKR20260718029600003?section=industry/technology-science",
-    "short_link": "yna.co.kr/view/AKR20260718029600003",
-    "summary": "구독 구독중 이전 다음 \"메모리 구하려 각국 '아비규환'…수요공급 격차 더 벌어져\" \"반도체 가격 더 올리면 얻어맞을 것…시장 키워야 산업 발전\" \"다음 병목은 소재·건설…AI데이터센터는 전기화 사회 첫걸음\" 이미지 확대 대한상의 제주 간담회 중인 최태원 상의 회장 [대한상의 제공",
-    "published_ago": "20시간 전",
+    "published_ago": "21시간 전",
     "published_at": "2026-07-19T03:00:15+00:00",
     "published_raw": "2026-07-19T03:00:15+00:00"
   },
@@ -103,16 +211,25 @@
     "link": "https://www.mt.co.kr/industry/2026/07/19/2026071907561769079",
     "short_link": "mt.co.kr/industry/2026/07/19/2026071907561769079",
     "summary": "최태원 대한상공회의소 회장이 18일 제주 신라호텔에서 열린 제49회 대한상의 제주포럼에서 폐회사를 하고 있다./사진= (대한상공회의소 제공) 최태원 대한상공회의소(대한상의) 회장(SK그룹 회장)이 AI(인공지능) 반도체 수요 급증과 관련해 \"올해보다",
-    "published_ago": "20시간 전",
+    "published_ago": "21시간 전",
     "published_at": "2026-07-19T03:00:00+00:00",
     "published_raw": "2026-07-19T03:00:00+00:00"
+  },
+  {
+    "title": "TSMC, 또 역대급 실적…ASML도 연간 전망 상향에 힘 잃는 ‘반도체 정점론’",
+    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1tU1AwYXY4M2xOSUFOMkRpUUZjcXlaMUdGdWpZUzJRZlAxbmVKRlVFUTIyUmgtUUdfdEJadE5LTE5qSzlDUXc?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMiRkFVX3lxTE1tU1AwYXY4M2xOS...",
+    "summary": "반도체주 폭락에 피가 마르는데…'역대급 잭팟' 터진 회사 TSMC(TSM N) 2분기 실적과 3분기 가이던스 모두 예상치 상회",
+    "published_ago": "23시간 전",
+    "published_at": "2026-07-19T01:40:08+00:00",
+    "published_raw": "Sun, 19 Jul 2026 01:40:08 GMT"
   },
   {
     "title": "메모리는 AI 추론 병목 현상을 해결하기 위해 파운드리 모델을 채택해야 한다고 한국 학자는 말합니다.",
     "link": "https://www.digitimes.com/news/a20260715PD228/data-development-gpu-chips-efficiency.html",
     "short_link": "digitimes.com/news/a20260715PD228/data-development-gpu-chi...",
     "summary": "AI 개발은 더 큰 데이터 전송과 더 높은 GPU 효율성 요구를 주도하고 있으며, 메모리를 맞춤화하는 방향으로 나아가고 있으며 한국 업계 관찰자들이 '메모리 파운드리' 모델로의 전환을 촉구하고 있",
-    "published_ago": "22시간 전",
+    "published_ago": "23시간 전",
     "published_at": "2026-07-19T00:56:30+00:00",
     "published_raw": "Sun, 19 Jul 2026 00:56:30 GMT"
   },
@@ -121,44 +238,8 @@
     "link": "https://www.digitimes.com/news/a20260717PD224/asml-high-na-euv-equipment-demand-taiwan.html",
     "short_link": "digitimes.com/news/a20260717PD224/asml-high-na-euv-equipme...",
     "summary": "High-NA EUV 리소그래피는 인공 지능, 고성능 컴퓨팅 및 모바일 장치에 사용되는 고급 칩에 대한 수요가 증가함에 따라 반도체 장비 산업의 차세대 주요 전쟁터가 되고 있 ASML의 주요 공급업체인 Trumpf는 더 높은 레이저 출력, 더 빠른 도구 출력, 칩 설계자와의 긴밀한 협력이 기술이 얼마나 빨리 주류가 될지를 결정할 것이라고 말했",
-    "published_ago": "22시간 전",
+    "published_ago": "23시간 전",
     "published_at": "2026-07-19T00:55:41+00:00",
     "published_raw": "Sun, 19 Jul 2026 00:55:41 GMT"
-  },
-  {
-    "title": "에코프로비엠, 전고체 배터리 핵심 소재 로드맵 공개…\"2027년 양산 예상\"",
-    "link": "https://www.asiae.co.kr/article/IT/2026071909214045141",
-    "short_link": "asiae.co.kr/article/IT/2026071909214045141",
-    "summary": "고체전해질·전용 양극재 동시 개발 2027년 양산 목표·차세대 소재 확대 에코프로비엠이 전고체 배터리 핵심 소재 확보에 속도를 내고 공보현 에코프로비엠 연구개발 담당 상무는 \"현재 주요 고객사와 시양산을 검토 중이며 가장 빠른 양산 시점은 2027년으로 예상한다\"며 \"양산 설계를 마쳤고 고객 수요에 맞춰 즉시 착공할 수 있도록 준비하고 있다\" 언급",
-    "published_ago": "23시간 전",
-    "published_at": "2026-07-19T00:21:40+00:00",
-    "published_raw": "2026-07-19T00:21:40+00:00"
-  },
-  {
-    "title": "경북도, 구미 중심 반도체 소부장 혁신거점 구축",
-    "link": "https://www.yna.co.kr/view/AKR20260719016800053?section=industry/electronics",
-    "short_link": "yna.co.kr/view/AKR20260719016800053",
-    "summary": "도는 정부가 제시한 대경권 소재·부품·장비 혁신거점을 최고의 반도체 산업거점으로 발전시키기 위해 '기술개발(R&D)-실증-양산-팹(Fab) 유치'가 선순환하는 산업생태계 조성에 역량을 집중",
-    "published_ago": "23시간 전",
-    "published_at": "2026-07-19T00:17:59+00:00",
-    "published_raw": "2026-07-19T00:17:59+00:00"
-  },
-  {
-    "title": "산화물 반도체 소자 성능 결정하는 '산소결함 원리' 규명",
-    "link": "https://zdnet.co.kr/view/?no=20260718165556",
-    "short_link": "zdnet.co.kr/view",
-    "summary": "UNIST는 정창욱 반도체소재·부품대학원 교수 연구팀이 산화물 반도체의 산소 빈자리 결함의 성질을 결정하는 것이 반도체 물질 전체에 원자들이 얼마나 촘촘하게 들어차 있는지가 아니라, 결함 주변 금속 원자 사이 거리라는 사실을 이론 계산을 통해 증명했 언급",
-    "published_ago": "23시간 전",
-    "published_at": "2026-07-19T00:00:03+00:00",
-    "published_raw": "2026-07-19T00:00:03+00:00"
-  },
-  {
-    "title": "충남, 반도체·디스플레이 등 중소 제조 AX 지원 시동…공정 데이터 자산화·표준화 지원",
-    "link": "https://www.etnews.com/20260716000293",
-    "short_link": "etnews.com/20260716000293",
-    "summary": "도·충남 테크노파크(TP)는 '지역 주도형 AI 대전환(AX) 사업'에 참여하는 반도체·디스플레이·모빌리티 등 주력 산업의 중소기업을 이달 내 모집하고 8월 AX 수준 진단을 거친 후 기업 30여곳을 선정해 맞춤형 AI 제조 솔루션을 지원",
-    "published_ago": "23시간 전",
-    "published_at": "2026-07-19T00:00:00+00:00",
-    "published_raw": "2026-07-19T00:00:00+00:00"
   }
 ]

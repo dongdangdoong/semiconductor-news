@@ -627,13 +627,13 @@
     "title": "",
     "summary": "AI 개발은 더 큰 데이터 전송과 더 높은 GPU 효율성 요구를 주도하고 있으며, 메모리를 맞춤화하는 방향으로 나아가고 있으며 한국 업계 관찰자들이 '메모리 파운드리' 모델로의 전환을 촉구하고 있",
     "source": "rule_based",
-    "cached_at": 1784500882.997922
+    "cached_at": 1784508115.841112
   },
   "https://www.digitimes.com/news/a20260717PD224/asml-high-na-euv-equipment-demand-taiwan.html": {
     "title": "",
     "summary": "High-NA EUV 리소그래피는 인공 지능, 고성능 컴퓨팅 및 모바일 장치에 사용되는 고급 칩에 대한 수요가 증가함에 따라 반도체 장비 산업의 차세대 주요 전쟁터가 되고 있 ASML의 주요 공급업체인 Trumpf는 더 높은 레이저 출력, 더 빠른 도구 출력, 칩 설계자와의 긴밀한 협력이 기술이 얼마나 빨리 주류가 될지를 결정할 것이라고 말했",
     "source": "rule_based",
-    "cached_at": 1784500883.727345
+    "cached_at": 1784508116.495647
   },
   "https://n.news.naver.com/mnews/hotissue/article/001/0016201600?type=series&cid=2003568": {
     "title": "",
@@ -735,13 +735,13 @@
     "title": "",
     "summary": "최태원 대한상공회의소 회장이 18일 제주 신라호텔에서 열린 제49회 대한상의 제주포럼에서 폐회사를 하고 있다./사진= (대한상공회의소 제공) 최태원 대한상공회의소(대한상의) 회장(SK그룹 회장)이 AI(인공지능) 반도체 수요 급증과 관련해 \"올해보다",
     "source": "rule_based",
-    "cached_at": 1784500952.365697
+    "cached_at": 1784508186.365983
   },
   "https://www.yna.co.kr/view/AKR20260718029600003?section=industry/electronics": {
     "title": "",
     "summary": "구독 구독중 이전 다음 \"메모리 구하려 각국 '아비규환'…수요공급 격차 더 벌어져\" \"반도체 가격 더 올리면 얻어맞을 것…시장 키워야 산업 발전\" \"다음 병목은 소재·건설…AI데이터센터는 전기화 사회 첫걸음\" 이미지 확대 대한상의 제주 간담회 중인 최태원 상의 회장 [대한상의 제공",
     "source": "rule_based",
-    "cached_at": 1784500997.911716
+    "cached_at": 1784508217.909163
   },
   "https://www.yna.co.kr/view/AKR20260718029600003?section=industry/technology-science": {
     "title": "",
@@ -759,7 +759,7 @@
     "title": "",
     "summary": "최태원 회장, 대한상의 제 간담회 \"(반도체 등) 제가 집중해야 하는 일 비중 더 커져\" \"내년 이후에는 제 목소리 많이 듣지 못할 것\" \"과거에 적용된 제도 여전, 성장 키우는 쪽으로 가야\" [서귀포= ] 최태원 대한상공회의소 회장이 15일 제주신라 간담회를 진행 중",
     "source": "rule_based",
-    "cached_at": 1784501162.631449
+    "cached_at": 1784508375.731834
   },
   "https://n.news.naver.com/mnews/article/014/0005549628": {
     "title": "",
@@ -777,7 +777,7 @@
     "title": "",
     "summary": "또 \"전남·광주통합특별시에 삼성전자 등이 대규모 투자를 예고한 상황에서, '호남 반도체'라는 이름 아래 산업용수를 전북의 물에 의존하게 될 가능성이 크다\"며, 이원택 전북도지사에게 전북의 수자원을 지키기 위한 대책을 촉구했",
     "source": "rule_based",
-    "cached_at": 1784500921.923582
+    "cached_at": 1784508159.537319
   },
   "https://www.mt.co.kr/industry/2026/07/19/2026071616231464908": {
     "title": "",
@@ -813,13 +813,13 @@
     "title": "",
     "summary": "실리콘 잉곳은 반도체 웨이퍼의 핵심 소재이자, 식각 공정에서 사용되는 소모성 부품의 소재다 글로벌 메모리 제조사·파운드리 등 전 세계 20여개 팹에 제품을 공급",
     "source": "rule_based",
-    "cached_at": 1784501144.996701
+    "cached_at": 1784508349.761242
   },
   "https://www.etnews.com/20260719000061": {
     "title": "",
     "summary": "CXMT는 DDR5·LPDDR5X 등 고성능 D램 제품군을 확대하며 중국 내수 시장을 넘어 글로벌 메모리 시장에서 영향력을 키우고 삼성전자와 SK하이닉스, 마이크론 등 주요 메모리 기업은 차세대 범용 D램인 DDR6 개발을 진행 중",
     "source": "rule_based",
-    "cached_at": 1784501148.018919
+    "cached_at": 1784508352.726944
   },
   "https://www.edaily.co.kr/News/Read?newsId=01872886645516160&mediaCodeNo=257": {
     "title": "",
@@ -898,5 +898,101 @@
     "summary": "반도체 신입 공고 전년 대비 47% 증가 전체 채용 증가율 14% 크게 웃돌아 삼성·SK하이닉스 채용에 회복세 확산 사진= 사진=잡코리아 올해 상반기 반도체 업종의 신입 채용 공고가 지난해보다",
     "source": "rule_based",
     "cached_at": 1784504872.256878
+  },
+  "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1tU1AwYXY4M2xOSUFOMkRpUUZjcXlaMUdGdWpZUzJRZlAxbmVKRlVFUTIyUmgtUUdfdEJadE5LTE5qSzlDUXc?oc=5&hl=ko&gl=KR&ceid=KR:ko": {
+    "title": "",
+    "summary": "반도체주 폭락에 피가 마르는데…'역대급 잭팟' 터진 회사 TSMC(TSM N) 2분기 실적과 3분기 가이던스 모두 예상치 상회",
+    "source": "rule_based",
+    "cached_at": 1784508078.398094
+  },
+  "https://www.digitimes.com/news/a20260715PD221/taiwan-taiwan-power-company-revenue-growth-demand.html": {
+    "title": "",
+    "summary": "대만의 중전기 및 전자 기계 산업은 대만 전력(Taipower)에 대한 오랜 의존을 넘어 수요가 확대됨에 따라 새로운 성장 단계에 진입하고 있 Taipower의 그리드 현대화는 여전히 해당 부문의 기반으로 남아 있지만, 반도체 투자, AI 데이터 센터 구축 및 해외 인프라 프로젝트는 다양한 성장 동력을 창출하고 있",
+    "source": "rule_based",
+    "cached_at": 1784508095.11347
+  },
+  "https://www.digitimes.com/news/a20260715PD213/nvidia-growth-infrastructure-hbm-ceo.html": {
+    "title": "",
+    "summary": "Nvidia CEO Jensen Huang은 일본 방문을 앞두고 분명한 메시지를 전달했 분기별 매출이 1,000억 달러에 육박함에도 불구하고 칩 제조업체의 성장은 여전히 ​​​​가속화되고 있",
+    "source": "rule_based",
+    "cached_at": 1784508099.786625
+  },
+  "https://www.digitimes.com/news/a20260716PD237/demand-micron-globalwafers-12-inch-data.html": {
+    "title": "",
+    "summary": "AI 데이터 센터 및 고대역폭 메모리(HBM)에 대한 수요 증가로 인해 반도체 경쟁이 실리콘 웨이퍼 및 중요 재료 분야로 더욱 심화되고 있 Micron과 GlobalWafers는 최근 10년 계약을 발표했으며 Micron도 5억 달러의 지원을 제공하여 GlobalWafers 역사상 가장 길고 잠재적으로 최대 규모의 장기 공급 계약을 기록했",
+    "source": "rule_based",
+    "cached_at": 1784508106.442754
+  },
+  "https://www.digitimes.com/news/a20260716PD230/wahlee-capacity-demand-materials-packaging-supplier.html": {
+    "title": "",
+    "summary": "1997년 일본 아사히카세이(Asahi Kasei)와 이화(Wah Lee)가 공동 투자하여 설립한 반도체 소재 공급업체 Huahsu가 AI, HPC 및 첨단 반도체 패키징에 대한 수요가 가속화됨에 따라 새로운 생산능력 확장 계획을 시작했",
+    "source": "rule_based",
+    "cached_at": 1784508108.928129
+  },
+  "https://www.digitimes.com/news/a20260717VL208/hanmi-hbm-usa-demand-equipment.html": {
+    "title": "",
+    "summary": "한국의 한미반도체는 글로벌 메모리 및 파운드리 제조업체들이 고대역폭 메모리(HBM)를 구축하기 위해 의존하는 본딩 장비의 생산량을 늘리기 위해 경쟁하고 있으며, 2027년부터 수요가 공급을 초과할 수 있다고 경고하고 있으며, 이는 현재 마이크론, SK하이닉스, TSMC 등이 자금을 지원하고 있는 AI 칩 구축에 파급될",
+    "source": "rule_based",
+    "cached_at": 1784508110.631423
+  },
+  "https://www.digitimes.com/news/a20260717VL205/india-roundup-applied-materials-electronics-equipment-hp-subsidies.html": {
+    "title": "",
+    "summary": "인도는 글로벌 전자 분야에서 더 큰 역할을 추구하면서 칩 공장 유치에서 반도체 장비, 재료, AI 역량, 공급망 및 무역 파트너십 구축에 이르기까지 기술 전략을 확대하고 있",
+    "source": "rule_based",
+    "cached_at": 1784508113.420697
+  },
+  "https://www.digitimes.com/news/a20260717PD230/mitac-subsidiary-amd-gpu-liquid-cooling-2026.html": {
+    "title": "",
+    "summary": "MiTAC Holdings의 자회사인 MiTAC Computing Technology는 상하이에서 열린 2026 세계인공지능회의(WAIC)에서 서버 라인업과 고밀도 수냉식 랙 솔루션을 선보였",
+    "source": "rule_based",
+    "cached_at": 1784508115.213609
+  },
+  "https://n.news.naver.com/mnews/article/011/0004642885": {
+    "title": "",
+    "summary": "삼성전자(005930) 가 오는 22일(현지 시간) 영국 런던에서 ‘갤럭시 언팩 2026’을 열고 8세대 폴더블 갤럭시 Z 플립8·폴드8·폴드8 울트라 등 3종을 공개 시스템LSI가 설계하고 파운드리가 2나노 공정으로 제조한 엑시노스 2600은 갤럭시 S26에 먼저 채용돼 성능을 인정받았다",
+    "source": "rule_based",
+    "cached_at": 1784508148.584671
+  },
+  "https://n.news.naver.com/mnews/article/008/0005387817": {
+    "title": "",
+    "summary": "중국 AI 스타트업 문샷AI의 오픈형 AI 모델 '키미 K3'가 AI 인프라 투자 수요를 줄일 것이라는 전망이 나오는 가운데, 오히려 삼성전자와 SK하이닉스 등 국내 메모리 반도체 기업에는 수혜가 될 수 있다는 분석이 제기",
+    "source": "rule_based",
+    "cached_at": 1784508151.173288
+  },
+  "https://www.yna.co.kr/view/AKR20260720037400053?section=industry/electronics": {
+    "title": "",
+    "summary": "대구·경북 지역 반도체 산업 육성방안을 논의하는 토론회가 오는 22일 오후 2시 국회도서관 대강당에서 열린다 20일 국민의힘 구자근 의원실에 따르면 이번 토론회는 급변하는 반도체 산업 환경 속에 대구·경북 반도체 산업 생태계를 진단하고 비수도권 반도체 특화단지인 경북 구미를 중심으로 지역 반도체 산업 경쟁력 강화 방안을 논의하기 위해 마련",
+    "source": "rule_based",
+    "cached_at": 1784508209.181356
+  },
+  "https://www.yna.co.kr/view/AKR20260720037100017?section=industry/technology-science": {
+    "title": "",
+    "summary": "삼성SDS의 NPUaaS 고객은 NPU 서버를 직접 구매하거나 자체 데이터센터에 구축하지 않아도 SCP를 통해 구독형으로 사용할 수 또 기업의 수요 및 데이터 규모에 따라 NPU를 원하는 단위로 자유롭게 선택해 활용할 수 있어 AI 서비스 규모에 맞춰 NPU를 활용할 수",
+    "source": "rule_based",
+    "cached_at": 1784508236.825854
+  },
+  "https://www.dt.co.kr/article/12073256": {
+    "title": "",
+    "summary": "제이앤티지 사업운영본부 강민 본부장은 “이번 IFBF 2026 참가를 통해 글로벌 플로우배터리 시장에서 제이앤티지의 탄소 전극 기술력과 양산 역량을 소개하고, 다양한 고객 및 파트너사와의 교류를 확대할 수 있는 의미 있는 기회가 됐다”며 “앞으로도 고객 요구에 맞춘 제품 개발과 안정적인 양산 공급 역량을 기반으로 글로벌",
+    "source": "rule_based",
+    "cached_at": 1784508240.79336
+  },
+  "https://www.ddaily.co.kr/page/view/2026072009174896012": {
+    "title": "",
+    "summary": "중국 알리바바 그룹 홀딩스의 반도체 설계 부문인 핀터우(T-Head)가 미국 반도체 기업 엔비디아의 쿠다(CUDA) 생태계 독점에 대응하기 위해 자사 독자 인공지능(AI) 소프트웨어 스택을 오픈소스로 전격 개방",
+    "source": "rule_based",
+    "cached_at": 1784508247.962746
+  },
+  "https://www.ddaily.co.kr/page/view/2026072009233093845": {
+    "title": "",
+    "summary": "기존 GPUaaS에 이어 NPU 기반 연산 자원까지 클라우드 영역을 넓혀 고객 AI 인프라 선택권을 확대하고, 국산 NPU 기반 AI 인프라 확산과 소버린 AI 구축을 본격화할 계획",
+    "source": "rule_based",
+    "cached_at": 1784508272.906511
+  },
+  "https://www.etnews.com/20260720000019": {
+    "title": "",
+    "summary": "삼성SDS는 퓨리오사AI의 2세대 신경망처리장치(NPU)인 '레니게이드(RGND)'를 기반으로 한 서비스형 NPU(NPUaaS)를 삼성 클라우드 플랫폼(SCP)에 탑재하여 출시했 언급",
+    "source": "rule_based",
+    "cached_at": 1784508359.920481
   }
 }
