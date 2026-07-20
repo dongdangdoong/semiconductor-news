@@ -589,13 +589,23 @@ def extract_numbers(text):
 
 
 # =========================================================================
-# 수정된 Gemini 요약 함수 부분 
+# Gemini 요약 함수
 # =========================================================================
-def summarize_with_gemini(literal_title, body):
-    if not GEMINI_API_KEY:
-        return None, None
 
-    prompt = (
+# 요약이 설명체(서술형)로 끝났는지 판정하는 종결어미 패턴 — 헤드라인 어투가 아니면 재시도시킴
+SUMMARY_BAD_ENDING_PATTERN = re.compile(
+    r"(다|다\.|했다|한다|됐다|되다|였다|이다|습니다|함|임|음)[.]?$"
+)
+
+# 헤드라인 어투에 어울리는 명사형 종결 예시 (프롬프트 예시 및 자체 점검용)
+SUMMARY_GOOD_ENDING_EXAMPLES = [
+    "확대", "발표", "전망", "강조", "계획", "돌입", "체결", "공개",
+    "출시", "합의", "지속", "부각", "추진", "검토", "가세", "예정"
+]
+
+
+def build_summary_prompt(literal_title, body):
+    return (
         "다음은 반도체 관련 뉴스 기사입니다. 한국 경제지 뉴스 헤드라인 및 기사 요약 스타일로 "
         "'제목'과 '요약' 두 가지를 작성해주세요.\n\n"
         "['제목' 작성 규칙 — 매우 중요]\n"
@@ -606,11 +616,19 @@ def summarize_with_gemini(literal_title, body):
         "- 조사(은/는/이/가/을/를)는 꼭 필요한 경우가 아니면 생략\n"
         "- 서술형 종결어미('~다', '~했다') 대신 명사(단어)로 끝맺을 것\n\n"
         "['요약' 작성 규칙 — 매우 중요]\n"
+        "- **요약문 전체를 '제목'과 같은 헤드라인 어투로 작성할 것.** 즉, 신문 헤드라인 한 줄을 "
+        "조금 더 길게 풀어놓은 듯한 문장이어야 하며, 설명체 말투(~하는 것으로 알려졌다, ~라고 밝혔다, "
+        "~했다고 전했다)는 쓰지 말 것\n"
+        "- 문장 전체에서 조사(은/는/이/가/을/를/에/의)는 꼭 필요한 경우가 아니면 생략하고, "
+        "핵심 명사·수치를 압축적으로 나열하듯 이어 쓸 것\n"
+        f"- 문장은 서술형 종결어미('~다', '~했다', '~한다', '~됐다', '~습니다') 없이 반드시 "
+        f"명사(형)로 끝맺을 것 (예: {', '.join('~' + w for w in SUMMARY_GOOD_ENDING_EXAMPLES[:6])} 등)\n"
         "- **공백 포함 반드시 총 글자 수 50자 이상, 100자 이하**로 작성할 것\n"
-        "- 문장을 '~다', '~했음', '~습니다' 같은 서술형 종결어미가 아니라 "
-        "**'~확대', '~발표', '~전망', '~강조'처럼 명사(단어)나 명사형 문장으로 확실하게 끝맺을 것**\n"
         "- **절대로 문장을 중간에 끊거나 불완전한 상태로 출력하지 말 것**\n"
         "- 기사에 나온 핵심 사실(수치, 기업명, 제품명 등)을 구체적으로 포함하되 과장하지 말 것\n\n"
+        "[예시]\n"
+        "제목: SK하이닉스, HBM4 12단 샘플 엔비디아 공급\n"
+        "요약: SK하이닉스가 차세대 HBM4 12단 제품 샘플을 엔비디아에 공급하며 내년 양산 물량 선점 경쟁 본격화\n\n"
         "[출력 형식 — 아래 두 줄만 정확히 이 형식으로 출력, 다른 말이나 마크다운 기호 금지]\n"
         "제목: <헤드라인>\n"
         "요약: <요약문>\n\n"
@@ -618,13 +636,80 @@ def summarize_with_gemini(literal_title, body):
         f"본문(요약 작성에만 참고):\n{body[:3500]}"
     )
 
+
+def parse_gemini_response(res):
+    """(new_title, summary) 또는 실패 시 (None, None)을 반환한다. 길이/어투 검증은 하지 않는다."""
+    data = res.json()
+    candidates = data.get("candidates", [])
+    if not candidates:
+        return None, None
+
+    if candidates[0].get("finishReason", "") == "MAX_TOKENS":
+        return None, None
+
+    parts = candidates[0].get("content", {}).get("parts", [])
+    if not parts:
+        return None, None
+
+    raw_text = parts[0].get("text", "")
+    raw_text = re.sub(r"```[a-zA-Z]*\n?", "", raw_text)
+    raw_text = raw_text.replace("**", "").replace("`", "")
+
+    title_match = re.search(r"제목\s*[:：]\s*(.+)", raw_text)
+    summary_match = re.search(r"요약\s*[:：]\s*(.+(?:\n.+)*)", raw_text)
+
+    new_title = clean_space(title_match.group(1)) if title_match else ""
+    new_title = new_title.strip("\"'“”‘’ \n")
+
+    summary = clean_space(summary_match.group(1)) if summary_match else ""
+    summary = summary.strip("\"'“”‘’ \n")
+
+    # 문장 맨 앞에 남은 찌꺼기 문자(], =, 기자 파편 등) 제거
+    summary = re.sub(r"^[\]\s=\-]+", "", summary)
+    # 헤드라인 어투는 문장 끝에 마침표를 붙이지 않음
+    summary = summary.rstrip(". ")
+
+    return (new_title or None), summary
+
+
+def validate_summary_style(summary):
+    """길이와 헤드라인 어투(명사형 종결)를 모두 만족하는지 검사한다."""
+    if not summary or len(summary) < 45 or len(summary) > 115:
+        return False, f"글자수 조건 미달/초과 ({len(summary)}자)"
+
+    if SUMMARY_BAD_ENDING_PATTERN.search(summary):
+        return False, "서술형 종결어미로 끝남(헤드라인 어투 아님)"
+
+    return True, ""
+
+
+def finalize_summary_length(summary):
+    """혹시 모를 100자 초과 시 단어 단위로 안전하게 절삭한다."""
+    if len(summary) <= 100:
+        return summary
+
+    words = summary.split(" ")
+    truncated = ""
+    for word in words:
+        if len(truncated + " " + word) <= 100:
+            truncated += (" " + word if truncated else word)
+        else:
+            break
+
+    return truncated
+
+
+def summarize_with_gemini(literal_title, body):
+    if not GEMINI_API_KEY:
+        return None, None
+
+    if GEMINI_QUOTA_EXHAUSTED[0]:
+        return None, None
+
+    prompt = build_summary_prompt(literal_title, body)
+    max_attempts = 3
+
     try:
-        if GEMINI_QUOTA_EXHAUSTED[0]:
-            return None, None
-
-        res = None
-        max_attempts = 3
-
         for attempt in range(1, max_attempts + 1):
             wait_for_gemini_rate_limit()
 
@@ -633,87 +718,54 @@ def summarize_with_gemini(literal_title, body):
                 params={"key": GEMINI_API_KEY},
                 json={
                     "contents": [{"parts": [{"text": prompt}]}],
-                    "generationConfig": {"temperature": 0.2, "maxOutputTokens": 1000} # 변동성 감소를 위해 온도를 0.2로 소폭 하향
+                    "generationConfig": {"temperature": 0.2, "maxOutputTokens": 1000}
                 },
                 timeout=20
             )
             _last_gemini_call_at[0] = time.time()
-
-            if res.status_code == 200:
-                break
 
             if res.status_code == 429 and "quota" in res.text.lower():
                 print(f"[Gemini] 일일 쿼터 소진 감지")
                 GEMINI_QUOTA_EXHAUSTED[0] = True
                 return None, None
 
-            if res.status_code in (429, 503) and attempt < max_attempts:
-                backoff = 8 * attempt
-                time.sleep(backoff)
-                continue
+            if res.status_code in (429, 503):
+                if attempt < max_attempts:
+                    time.sleep(8 * attempt)
+                    continue
+                return None, None
 
-            return None, None
+            if res.status_code != 200:
+                return None, None
 
-        if res.status_code != 200:
-            return None, None
+            new_title, summary = parse_gemini_response(res)
 
-        data = res.json()
-        candidates = data.get("candidates", [])
-        if not candidates:
-            return None, None
+            if not summary:
+                if attempt < max_attempts:
+                    continue
+                return None, None
 
-        finish_reason = candidates[0].get("finishReason", "")
-        if finish_reason == "MAX_TOKENS":
-            return None, None
+            ok, reason = validate_summary_style(summary)
+            if not ok:
+                print(f"[Gemini] 요약 검증 실패({reason}), attempt {attempt}/{max_attempts}: {summary[:60]}")
+                if attempt < max_attempts:
+                    continue
+                return None, None
 
-        parts = candidates[0].get("content", {}).get("parts", [])
-        if not parts:
-            return None, None
+            summary = finalize_summary_length(summary)
 
-        raw_text = parts[0].get("text", "")
-        raw_text = re.sub(r"```[a-zA-Z]*\n?", "", raw_text)
-        raw_text = raw_text.replace("**", "").replace("`", "")
+            if new_title and len(new_title) > 60:
+                new_title = new_title[:60].rstrip()
 
-        title_match = re.search(r"제목\s*[:：]\s*(.+)", raw_text)
-        summary_match = re.search(r"요약\s*[:：]\s*(.+(?:\n.+)*)", raw_text)
+            if new_title:
+                original_numbers = extract_numbers(literal_title)
+                new_numbers = extract_numbers(new_title)
+                if original_numbers and not original_numbers.issubset(new_numbers):
+                    new_title = None
 
-        new_title = clean_space(title_match.group(1)) if title_match else ""
-        new_title = new_title.strip("\"'“”‘’ \n")
+            return (new_title or None), summary
 
-        summary = clean_space(summary_match.group(1)) if summary_match else ""
-        summary = summary.strip("\"'“”‘’ \n")
-
-        # [기존 버그 수정 및 후처리]
-        # 문장 끝에 남은 찌꺼기 문자(], =, 기자의 파편 등) 및 불완전하게 끝난 절 제거
-        summary = re.sub(r"^[\]\s=\-]+", "", summary) # 문장 맨 앞 특수문자 파편 제거
-        
-        # 글자 수 범위 검증 (50자 미만이거나 너무 길면 탈락 처리하여 재시도 유도)
-        if not summary or len(summary) < 45 or len(summary) > 115:
-            print(f"[Gemini] 요약 글자수 조건 미달 또는 초과 ({len(summary)}자) — 폴백 처리")
-            return None, None
-
-        # 혹시 모를 100자 초과 시 단순 슬라이싱 대신 '온전한 문장' 단위로 절삭
-        if len(summary) > 100:
-            # 공백을 기준으로 단어 단위로 쪼갠 후 100자 이내까지만 안전하게 결합
-            words = summary.split(" ")
-            truncated_summary = ""
-            for word in words:
-                if len(truncated_summary + " " + word) <= 100:
-                    truncated_summary += (" " + word if truncated_summary else word)
-                else:
-                    break
-            summary = truncated_summary
-
-        if new_title and len(new_title) > 60:
-            new_title = new_title[:60].rstrip()
-
-        if new_title:
-            original_numbers = extract_numbers(literal_title)
-            new_numbers = extract_numbers(new_title)
-            if original_numbers and not original_numbers.issubset(new_numbers):
-                new_title = None
-
-        return (new_title or None), summary
+        return None, None
 
     except Exception as e:
         print(f"[Gemini ERROR] {e}")
