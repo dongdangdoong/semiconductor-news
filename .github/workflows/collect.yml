@@ -43,6 +43,9 @@ jobs:
             echo "변경된 뉴스가 없습니다."
             exit 0
           fi
-          git commit -m "Update semiconductor news"
+          git stash
           git pull --rebase origin main
+          git stash pop
+          git add data/news.json data/archive
+          git commit -m "Update semiconductor news" || true
           git push origin main
