@@ -1,101 +1,11 @@
 [
   {
-    "title": "이재용·올트먼, 오픈AI 본사서 회동…HBM·파운드리 협력 모색",
-    "link": "https://n.news.naver.com/mnews/article/014/0005552764",
-    "short_link": "n.news.naver.com/mnews/article/014/0005552764",
-    "summary": "이재용 삼성전자 회장과 샘 올트먼 오픈AI CEO가 미국 오픈AI 본사에서 만나 HBM, D램, 첨단 파운드리 등 AI 인프라 분야 협력 방안을 집중적으로 논의할 전망",
-    "published_ago": "28분 전",
-    "published_at": "2026-07-25T06:44:14+00:00",
-    "published_raw": "2026-07-25T06:44:14+00:00"
-  },
-  {
-    "title": "삼성전자, 브로드컴과 292조원 규모 반도체 파운드리·메모리 협력",
-    "link": "https://n.news.naver.com/mnews/article/030/0003450804",
-    "short_link": "n.news.naver.com/mnews/article/030/0003450804",
-    "summary": "삼성전자가 브로드컴과 292조원 규모의 반도체 파운드리, 메모리, 첨단 패키징 협력을 통해 AI 반도체 분야 기술 협력을 확대",
-    "published_ago": "44분 전",
-    "published_at": "2026-07-25T06:28:16+00:00",
-    "published_raw": "2026-07-25T06:28:16+00:00"
-  },
-  {
-    "title": "이재용·올트먼, 오픈AI 본사서 만난다…HBM·파운드리 협의할듯",
-    "link": "https://n.news.naver.com/mnews/article/001/0016214471",
-    "short_link": "n.news.naver.com/mnews/article/001/0016214471",
-    "summary": "이재용 삼성전자 회장과 샘 올트먼 오픈AI CEO가 미국 샌프란시스코 오픈AI 본사에서 만나 HBM, D램, 첨단 파운드리 등 AI 인프라 협력 방안을 집중 논의할 전망",
-    "published_ago": "51분 전",
-    "published_at": "2026-07-25T06:21:22+00:00",
-    "published_raw": "2026-07-25T06:21:22+00:00"
-  },
-  {
-    "title": "정부 \"韓-美 빅테크, 9500억불 반도체·5GW AIDC 협력\"",
-    "link": "https://n.news.naver.com/mnews/article/421/0009078503",
-    "short_link": "n.news.naver.com/mnews/article/421/0009078503",
-    "summary": "정부가 샌프란시스코 AI 서밋을 통해 국내 기업과 글로벌 빅테크 간 9500억 달러 규모 반도체 공급·생산 협력과 5GW 규모 AI 데이터센터 구축 협력을 발표",
-    "published_ago": "1시간 전",
-    "published_at": "2026-07-25T05:47:01+00:00",
-    "published_raw": "2026-07-25T05:47:01+00:00"
-  },
-  {
-    "title": "삼성·브로드컴, 2000억달러 동맹…2나노·HBM·패키징 맞손",
-    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNLW1qYWt3MjBzSFZQbjl0MEFkVGtiU055czA5ZXBVMnZfblY3RFE3Sk41UWxBS3diV3ZPeUZwVUhqLWg3NnBOWmQtbDMwZHFYSUNpbFZrWXc0Zk0zdkdjWjFxbXFuVHFad2NSYVBFQkFiMER5MGRQaVRVWFlkLTRiendLT1QwV2kydmVwTVp1bFByQkxIRWJ6eWMyQ3A1eVI1cXBIbmEzSzhxN3JWNFFxa25XbnVmN2U4NVRfc3FVc2JYMXNULTFHY0ExWFlseXpLT3lERjl4XzhYY3BEMUItRTVkc2RqcUl4c0NiRmM4VVcwNUFLelhvbUpTQnRSeElCUVM4?oc=5&hl=ko&gl=KR&ceid=KR:ko",
-    "short_link": "news.google.com/rss/articles/CBMigwJBVV95cUxNLW1qYWt3MjBzS...",
-    "summary": "삼성전자와 브로드컴이 2000억 달러 규모의 AI 반도체 동맹을 맺고 HBM부터 2나노 공정, 패키징까지 전방위적 협력을 추진할 계획",
-    "published_ago": "1시간 전",
-    "published_at": "2026-07-25T05:30:00+00:00",
-    "published_raw": "Sat, 25 Jul 2026 05:30:00 GMT"
-  },
-  {
-    "title": "2030년까지 89개 팹, 2035년까지 50개 추가: 칩 업계 글로벌 협력으로 위험 분산",
-    "link": "https://www.digitimes.com/news/a20260723PD229/infrastructure-taiwan-investment-manufacturing-demand.html",
-    "short_link": "digitimes.com/news/a20260723PD229/infrastructure-taiwan-in...",
-    "summary": "AI 인프라 투자로 2026년 전 세계 반도체 생산량 1조 달러 돌파 예상되며, 2030년까지 89개, 2035년까지 50개 팹 추가 계획으로 시장 1조 5천억 달러로 확장 전망",
+    "title": "삼성전자, 브로드컴과 2천억달러 규모 협력…파운드리 '날개' 단다",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvTnZRVlVXd0M2TURhZFpldFlLZ29RT0JBaXVZOC1LZEp6T1k2X1NfdmVxWUlaZjhoc0l2WG8xSHhDOGRSYmVYd1RWZ1RCMkVyT1VFdVRNUFQzcXZ2d2dUU05Udzk?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMiZEFVX3lxTFBvTnZRVlVXd0M2T...",
+    "summary": "삼성전자가 브로드컴과 5년간 2천억달러 이상의 AI 반도체 협력을 통해 HBM 및 2nm 이하 첨단 파운드리 공정 적용을 포함한 메모리·파운드리 동맹을 강화할 전망",
     "published_ago": "3시간 전",
-    "published_at": "2026-07-25T03:48:27+00:00",
-    "published_raw": "Sat, 25 Jul 2026 03:48:27 GMT"
-  },
-  {
-    "title": "SuperAlloy, 재활용 알루미늄 및 반도체 사업 추진 확대",
-    "link": "https://www.digitimes.com/news/a20260724PD216/aluminum-business-superalloy-revenue-certification.html",
-    "short_link": "digitimes.com/news/a20260724PD216/aluminum-business-supera...",
-    "summary": "SuperAlloy Industrial이 단조 알루미늄 휠을 넘어 재활용 알루미늄과 반도체 부품을 새로운 성장 동력으로 삼아 사업 확장을 본격화",
-    "published_ago": "4시간 전",
-    "published_at": "2026-07-25T02:46:08+00:00",
-    "published_raw": "Sat, 25 Jul 2026 02:46:08 GMT"
-  },
-  {
-    "title": "OpenAI-Apple, AI 하드웨어 경쟁 가열…Anthropic 차별화",
-    "link": "https://www.digitimes.com/news/a20260724PD236/openai-anthropic-apple-hardware-claude.html",
-    "short_link": "digitimes.com/news/a20260724PD236/openai-anthropic-apple-h...",
-    "summary": "OpenAI와 Apple이 AI 하드웨어 경쟁을 가열하는 가운데, Anthropic은 컴퓨팅 제약이 큰 네이티브 AI 기능에 집중하며 차별화된 전략을 추진",
-    "published_ago": "4시간 전",
-    "published_at": "2026-07-25T02:40:48+00:00",
-    "published_raw": "Sat, 25 Jul 2026 02:40:48 GMT"
-  },
-  {
-    "title": "인텔, 중국 렌즈테크놀로지와 유리 기판 반도체 패키징 연구 협력",
-    "link": "https://www.digitimes.com/news/a20260725PR200/packaging-intel-glass-substrate-manufacturing-development.html",
-    "short_link": "digitimes.com/news/a20260725PR200/packaging-intel-glass-su...",
-    "summary": "인텔이 중국 렌즈테크놀로지와 협력하여 유리 기판을 활용한 첨단 반도체 패키징 기술 개발을 통해 미래 컴퓨팅 플랫폼의 성능, 상호 연결 밀도, 전력 효율성 개선을 추진할 계획",
-    "published_ago": "7시간 전",
-    "published_at": "2026-07-25T00:01:10+00:00",
-    "published_raw": "Sat, 25 Jul 2026 00:01:10 GMT"
-  },
-  {
-    "title": "SK하이닉스, 3D 스택 DRAM 개발 위해 미국 엔지니어 모집",
-    "link": "https://www.digitimes.com/news/a20260724VL220/sk-hynix-3d-dram-ip-design.html",
-    "short_link": "digitimes.com/news/a20260724VL220/sk-hynix-3d-dram-ip-desi...",
-    "summary": "SK하이닉스가 온디바이스 AI 애플리케이션을 위한 맞춤형 메모리 전략의 일환으로 3D 스택 DRAM-on-logic 공동 설계를 위해 미국 산호세에서 엔지니어를 모집하고 있어 주목",
-    "published_ago": "22시간 전",
-    "published_at": "2026-07-24T08:43:23+00:00",
-    "published_raw": "Fri, 24 Jul 2026 08:43:23 GMT"
-  },
-  {
-    "title": "독일 칩 공급업체, 삼성·SK하이닉스와 협력 강화",
-    "link": "https://www.digitimes.com/news/a20260723VL231/germany-merck-samsung-sk-hynix-equipment.html",
-    "short_link": "digitimes.com/news/a20260723VL231/germany-merck-samsung-sk...",
-    "summary": "독일의 Merck KGaA, TRUMPF, ZEISS가 첨단 칩 생산에 대규모 투자를 진행하며 삼성과 SK하이닉스 등 한국 반도체 산업과의 협력을 강화할 전망",
-    "published_ago": "23시간 전",
-    "published_at": "2026-07-24T07:19:06+00:00",
-    "published_raw": "Fri, 24 Jul 2026 07:19:06 GMT"
+    "published_at": "2026-07-25T05:35:13+00:00",
+    "published_raw": "Sat, 25 Jul 2026 05:35:13 GMT"
   }
 ]
