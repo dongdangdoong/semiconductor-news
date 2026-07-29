@@ -1,11 +1,92 @@
 [
   {
+    "title": "인텔 파운드리, 미국 마이크로일렉트로닉스 프로토타입 프로그램 완료",
+    "link": "https://www.digitimes.com/news/a20260729PR204/intel-foundry-intel-technology-supply-chain-manufacturing.html",
+    "short_link": "digitimes.com/news/a20260729PR204/intel-foundry-intel-tech...",
+    "summary": "인텔 파운드리가 미국 국방 지원 반도체 프로토타입 프로그램을 인텔 18A 기술로 완료하며 국내 제조 확대 및 동맹국 정부의 안전한 칩 생산 접근 방식에 영향을 미칠 것으로 전망",
+    "published_ago": "1시간 전",
+    "published_at": "2026-07-29T06:30:00+00:00",
+    "published_raw": "Wed, 29 Jul 2026 06:30:00 GMT"
+  },
+  {
+    "title": "NXP, GPU 넘어 AI 데이터센터 인프라 역할 확대",
+    "link": "https://www.digitimes.com/news/a20260729VL215/nxp-data-center-infrastructure-automotive-security.html",
+    "short_link": "digitimes.com/news/a20260729VL215/nxp-data-center-infrastr...",
+    "summary": "NXP Semiconductors는 차량, 공장, 로봇을 넘어 AI 데이터센터 인프라에서 네트워킹, 냉각, 보안 및 전력 관리 시스템을 목표로 역할 확대를 추진",
+    "published_ago": "2시간 전",
+    "published_at": "2026-07-29T04:44:16+00:00",
+    "published_raw": "Wed, 29 Jul 2026 04:44:16 GMT"
+  },
+  {
+    "title": "NXP, 물리적 AI 10년 채택 주기 진입 전망",
+    "link": "https://www.digitimes.com/news/a20260729VL214/nxp-adoption-earnings-automotive-industrial.html",
+    "short_link": "digitimes.com/news/a20260729VL214/nxp-adoption-earnings-au...",
+    "summary": "NXP는 최근 실적 발표에서 재무 수치 외에 물리적 AI, 소프트웨어 정의 차량, AI 데이터 센터 인프라에서 회사의 역할이 확대될 것으로 전망",
+    "published_ago": "3시간 전",
+    "published_at": "2026-07-29T04:06:21+00:00",
+    "published_raw": "Wed, 29 Jul 2026 04:06:21 GMT"
+  },
+  {
     "title": "중국 칩 대체 가속화, 냉각 효과 나타나",
     "link": "https://www.digitimes.com/news/a20260729PD217/chips-beijing-ic-design-automotive-nvidia.html",
     "short_link": "digitimes.com/news/a20260729PD217/chips-beijing-ic-design-...",
     "summary": "중국 AI 기업들이 국내 AI 칩 구매를 늘리고 현지 실리콘 사용 압박을 받으면서 중국의 반도체 자립 추진이 새로운 성과를 거두며 칩 대체 추세가 가속화될 가능성",
-    "published_ago": "1시간 전",
+    "published_ago": "4시간 전",
     "published_at": "2026-07-29T03:00:10+00:00",
     "published_raw": "Wed, 29 Jul 2026 03:00:10 GMT"
+  },
+  {
+    "title": "Macronix, 총 마진 80% 예상에도 LTA로 메모리 침체 심화 경고",
+    "link": "https://www.digitimes.com/news/a20260729PD218/macronix-international-nand-flash-emmc-gross-margin-earnings-revenue-2026.html",
+    "short_link": "digitimes.com/news/a20260729PD218/macronix-international-n...",
+    "summary": "Macronix는 2026년 2분기 매출총이익률 64.4% 기록 및 12인치 웨이퍼 생산 능력 확대를 위해 NT$158억 추가 설비 투자를 승인하며 메모리 침체 심화 가능성을 시사",
+    "published_ago": "5시간 전",
+    "published_at": "2026-07-29T02:12:31+00:00",
+    "published_raw": "Wed, 29 Jul 2026 02:12:31 GMT"
+  },
+  {
+    "title": "SK하이닉스, AI 인프라 확장으로 메모리 부족 장기화 대비",
+    "link": "https://www.digitimes.com/news/a20260729VL209/sk-hynix-demand-infrastructure-dram-revenue.html",
+    "short_link": "digitimes.com/news/a20260729VL209/sk-hynix-demand-infrastr...",
+    "summary": "SK하이닉스는 AI 관련 메모리 수요 강세에 힘입어 2분기 기록적인 매출을 달성했으며, HBM과 DRAM이 2026년 하반기까지 주요 성장 동력으로 남을 것으로 예상",
+    "published_ago": "5시간 전",
+    "published_at": "2026-07-29T02:05:30+00:00",
+    "published_raw": "Wed, 29 Jul 2026 02:05:30 GMT"
+  },
+  {
+    "title": "KLA, AI 인프라 수요 가속화에 따른 성장 전략 발표",
+    "link": "https://www.digitimes.com/news/a20260729VL206/kla-growth-demand-revenue-2026.html",
+    "short_link": "digitimes.com/news/a20260729VL206/kla-growth-demand-revenu...",
+    "summary": "KLA 경영진은 2026년 6월 실적 발표에서 기록적인 매출과 AI 인프라 수요 가속화에 따른 WFE 수요 증가에 대한 장기적인 영향을 강조하며 성장 전략을 발표",
+    "published_ago": "5시간 전",
+    "published_at": "2026-07-29T01:46:00+00:00",
+    "published_raw": "Wed, 29 Jul 2026 01:46:00 GMT"
+  },
+  {
+    "title": "KLA, AI 투자로 분기 매출 기록 달성 및 웨이퍼 장비 시장 전망 상향",
+    "link": "https://www.digitimes.com/news/a20260729VL205/kla-revenue-equipment-wafer-market.html",
+    "short_link": "digitimes.com/news/a20260729VL205/kla-revenue-equipment-wa...",
+    "summary": "KLA는 AI 인프라, 첨단 반도체 제조, 첨단 패키징 투자에 힘입어 4분기 실적을 뛰어넘고 글로벌 웨이퍼 장비 시장 전망을 상향하며 이번 분기 기록적인 매출을 예상",
+    "published_ago": "6시간 전",
+    "published_at": "2026-07-29T01:30:00+00:00",
+    "published_raw": "Wed, 29 Jul 2026 01:30:00 GMT"
+  },
+  {
+    "title": "화웨이, AI 칩 우위 위해 2027년 유리 기판 생산 목표",
+    "link": "https://www.digitimes.com/news/a20260729PD209/huawei-production-chips-2027-technology.html",
+    "short_link": "digitimes.com/news/a20260729PD209/huawei-production-chips-...",
+    "summary": "화웨이가 2027년부터 반도체 유리 기판 대량 생산을 시작해 자체 AI 칩에 적용하며, 이는 글로벌 반도체 유리기판 기술 주도권이 중국으로 전환될 가능성을 시사",
+    "published_ago": "6시간 전",
+    "published_at": "2026-07-29T01:15:00+00:00",
+    "published_raw": "Wed, 29 Jul 2026 01:15:00 GMT"
+  },
+  {
+    "title": "삼성·SK 수장, 구글 캠프서 한국 AI 공급망 홍보",
+    "link": "https://www.digitimes.com/news/a20260728VL208/samsung-google-technology-infrastructure-packaging.html",
+    "short_link": "digitimes.com/news/a20260728VL208/samsung-google-technolog...",
+    "summary": "삼성전자와 SK그룹의 두 리더가 시칠리아 고위급 기술 모임인 구글 캠프에 참석해 AI 인프라 스택 전반에서 한국의 역할 확대를 홍보할 계획",
+    "published_ago": "7시간 전",
+    "published_at": "2026-07-29T00:42:02+00:00",
+    "published_raw": "Wed, 29 Jul 2026 00:42:02 GMT"
   }
 ]
