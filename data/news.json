@@ -1,55 +1,10 @@
 [
   {
-    "title": "CXMT, 2028년 기술 로드맵 및 44억 달러 IPO로 DRAM 점유율 7.67% 목표",
-    "link": "https://www.digitimes.com/news/a20260731PD207/cxmt-dram-ipo-technology-2028.html",
-    "short_link": "digitimes.com/news/a20260731PD207/cxmt-dram-ipo-technology...",
-    "summary": "CXMT는 2028년까지 기술 로드맵을 통해 DRAM 시장 점유율 7.67% 달성을 목표로 하며, 44억 달러 규모의 IPO를 통해 글로벌 경쟁을 본격화할 전망",
-    "published_ago": "1시간 전",
-    "published_at": "2026-07-31T05:46:49+00:00",
-    "published_raw": "Fri, 31 Jul 2026 05:46:49 GMT"
-  },
-  {
-    "title": "파워텍, 2027년 AMD FOPLP 양산 본격화",
-    "link": "https://www.digitimes.com/news/a20260729PD228/foplp-powertech-production-amd-growth.html",
-    "short_link": "digitimes.com/news/a20260729PD228/foplp-powertech-producti...",
-    "summary": "파워텍은 AI 고급 패키징을 위한 AMD와의 FOPLP 프로젝트가 2027년 중반까지 대량 생산에 들어갈 것으로 예상하며, 브로드컴과 FOPLP RDL 개발 협력을 추진",
-    "published_ago": "4시간 전",
-    "published_at": "2026-07-31T03:23:03+00:00",
-    "published_raw": "Fri, 31 Jul 2026 03:23:03 GMT"
-  },
-  {
-    "title": "상하이, SMEE·화웨이 등 DUV 경쟁사 힘입어 中 리소그래피 허브 부상",
-    "link": "https://www.digitimes.com/news/a20260731PD213/equipment-duv-huawei-shanghai-smee.html",
-    "short_link": "digitimes.com/news/a20260731PD213/equipment-duv-huawei-sha...",
-    "summary": "중국에서 개발한 침지형 DUV 시스템이 양산에 돌입하며 상하이가 SMEE, 화웨이 등 경쟁사를 기반으로 중국 리소그래피 허브로 부상할 가능성이 시사",
-    "published_ago": "5시간 전",
-    "published_at": "2026-07-31T02:43:04+00:00",
-    "published_raw": "Fri, 31 Jul 2026 02:43:04 GMT"
-  },
-  {
-    "title": "KIOXIA, AI 장치용 1TB 3D 플래시 메모리 샘플링 개시",
-    "link": "https://www.digitimes.com/news/a20260731PR201/kioxia-technology-flash-3d-performance.html",
-    "short_link": "digitimes.com/news/a20260731PR201/kioxia-technology-flash-...",
-    "summary": "Kioxia가 9세대 BiCS FLASH 3D 플래시 메모리 기술 기반 1TB 트리플 레벨 셀 메모리 장치 샘플 배송을 시작하며 AI PC 및 스마트폰 스토리지 옵션 확대를 기대",
-    "published_ago": "5시간 전",
-    "published_at": "2026-07-31T02:38:57+00:00",
-    "published_raw": "Fri, 31 Jul 2026 02:38:57 GMT"
-  },
-  {
-    "title": "TSMC, 인텔 EMIB 유사 패키징 개발 추진",
-    "link": "https://www.digitimes.com/news/a20260731VL207/tsmc-packaging-intel-competition-ai-chip.html",
-    "short_link": "digitimes.com/news/a20260731VL207/tsmc-packaging-intel-com...",
-    "summary": "TSMC가 인텔의 EMIB를 모델로 한 새로운 고급 칩 패키징 기술을 Kinsus Interconnect Technology와 함께 개발하며 AI 반도체 패키징 경쟁에 본격 진입",
-    "published_ago": "5시간 전",
-    "published_at": "2026-07-31T02:31:56+00:00",
-    "published_raw": "Fri, 31 Jul 2026 02:31:56 GMT"
-  },
-  {
-    "title": "“삼성, 내년 SK하닉 제치고 HBM시장 1위”…UBS 전망",
+    "title": "삼성, SK 제치고 HBM 왕좌 오를까",
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9HMmZsYXJwWkpnaEZSRzNFbGdPSzF2MFpyNDJoOC1rT1RBSE92UlJza2JacW9QcENqRVBEWnk1RkVLajJIdDJMN0U5bklyTFYzalHSAVNBVV95cUxNVXFZVXFXVlF0NVZlZ3VOMERLb09CbjJVN09xSDRaTGx6blM3ekJiRUFjU0lJTmJKdFJxMWRjMzJaQmdNbFVIOVhDZTQ4c0huMHp6SQ?oc=5&hl=ko&gl=KR&ceid=KR:ko",
     "short_link": "news.google.com/rss/articles/CBMiUkFVX3lxTE9HMmZsYXJwWkpna...",
-    "summary": "UBS는 삼성전자가 내년 HBM 시장에서 SK하이닉스를 제치고 1위를 차지할 것으로 전망하며, HBM4 전환 속도가 앞설 것으로 분석",
-    "published_ago": "7시간 전",
+    "summary": "UBS는 삼성전자가 내년 HBM 시장에서 SK하이닉스를 추월하여 점유율 1위를 차지할 것으로 전망하며, HBM4 전환 속도에서 앞설 것으로 분석",
+    "published_ago": "10시간 전",
     "published_at": "2026-07-31T00:07:01+00:00",
     "published_raw": "Fri, 31 Jul 2026 00:07:01 GMT"
   },
@@ -57,8 +12,8 @@
     "title": "삼성 “내년 반도체 공급 부족 확대” 파운드리-메모리 선제적 증설",
     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5oaWFvOXN6cll0NWdXY1hHWUdmaC1SSGp1T2lXMk5yN1hMUlFEdmVmYlo3U0thclB3WjBCaUpYMFhDOGZIc19kTV91bEpJZzQ?oc=5&hl=ko&gl=KR&ceid=KR:ko",
     "short_link": "news.google.com/rss/articles/CBMiT0FVX3lxTE5oaWFvOXN6cll0N...",
-    "summary": "삼성전자는 내년 메모리 초과수요 확대와 파운드리 흑자 전환을 가까운 시일 내에 예상하며, 미국 테일러팹 2기 연내 착공 등 선제적 증설을 추진",
-    "published_ago": "12시간 전",
+    "summary": "삼성전자는 내년 메모리 초과수요 확대와 파운드리 흑자전환을 예상하며, 미국 테일러팹 2기 연내 착공 등 파운드리와 메모리 생산 능력을 선제적으로 강화할 계획",
+    "published_ago": "14시간 전",
     "published_at": "2026-07-30T19:35:16+00:00",
     "published_raw": "Thu, 30 Jul 2026 19:35:16 GMT"
   }
