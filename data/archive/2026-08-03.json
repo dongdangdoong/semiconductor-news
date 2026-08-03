@@ -1,19 +1,100 @@
 [
   {
+    "title": "MA-tek, 상하이 유닛 매각으로 일본·미국 AI 시장 진출 확대",
+    "link": "https://www.digitimes.com/news/a20260803PD223/ma-tek-shanghai-market-2026-revenue.html",
+    "short_link": "digitimes.com/news/a20260803PD223/ma-tek-shanghai-market-2...",
+    "summary": "MA-tek이 글로벌 반도체 공급망 재편과 AI, HPC 수요 급증에 따라 상하이 자회사 80%를 약 19억 위안에 매각하며 일본과 미국 AI 시장 진출을 확대할 계획",
+    "published_ago": "1시간 전",
+    "published_at": "2026-08-03T06:51:24+00:00",
+    "published_raw": "Mon, 3 Aug 2026 06:51:24 GMT"
+  },
+  {
+    "title": "xLight, EUV 광원 베팅…ASML 거래 주목",
+    "link": "https://www.digitimes.com/news/a20260803PD219/semiconductor-industry-euv-asml-demand-chips.html",
+    "short_link": "digitimes.com/news/a20260803PD219/semiconductor-industry-e...",
+    "summary": "xLight가 EUV 광원 기술에 대한 투자를 통해 AI 기반 첨단 노드 칩 수요 증가에 따른 반도체 공급-수요 불균형 문제를 해결하고 제조 비용 부담을 완화할 계획을 발표",
+    "published_ago": "3시간 전",
+    "published_at": "2026-08-03T04:55:00+00:00",
+    "published_raw": "Mon, 3 Aug 2026 04:55:00 GMT"
+  },
+  {
+    "title": "Apple 공급 부족, iPhone 18 가격 격차 확대 가능성",
+    "link": "https://www.digitimes.com/news/a20260803PD205/apple-iphone-earnings-price-demand.html",
+    "short_link": "digitimes.com/news/a20260803PD205/apple-iphone-earnings-pr...",
+    "summary": "Apple의 공급 부족으로 인해 비용이 증가하고 소싱이 재편되며, 이는 iPhone 18 가격 격차 확대로 이어질 수 있다는 전망",
+    "published_ago": "3시간 전",
+    "published_at": "2026-08-03T04:55:00+00:00",
+    "published_raw": "Mon, 3 Aug 2026 04:55:00 GMT"
+  },
+  {
     "title": "TSMC 구마모토 팹, 첫 대규모 지진 테스트 직면",
     "link": "https://www.digitimes.com/news/a20260803PD221/earthquake-kumamoto-fab-tsmc-taiwan.html",
     "short_link": "digitimes.com/news/a20260803PD221/earthquake-kumamoto-fab-...",
     "summary": "지난 7월 28일 일본 규슈 구마모토현에서 발생한 규모 7.1 지진으로 TSMC 구마모토 공장과 소니 등 국내 반도체 시설의 복구에 관심이 집중",
-    "published_ago": "1시간 전",
+    "published_ago": "4시간 전",
     "published_at": "2026-08-03T03:55:57+00:00",
     "published_raw": "Mon, 3 Aug 2026 03:55:57 GMT"
+  },
+  {
+    "title": "애플, 2nm 경쟁 심화로 첨단 노드 용량 축소",
+    "link": "https://www.digitimes.com/news/a20260803PD214/apple-capacity-2nm-2026-demand.html",
+    "short_link": "digitimes.com/news/a20260803PD214/apple-capacity-2nm-2026-...",
+    "summary": "애플은 2026회계연도 3분기 역대 최고 실적을 발표했으나, 팀 쿡 CEO는 모바일 SoC용 첨단 노드 용량 부족이 회사 확장의 가장 큰 한계라고 강조",
+    "published_ago": "4시간 전",
+    "published_at": "2026-08-03T03:36:05+00:00",
+    "published_raw": "Mon, 3 Aug 2026 03:36:05 GMT"
+  },
+  {
+    "title": "인도, 비사카파트남 OSAT 공장 착공으로 반도체 야망 본격화",
+    "link": "https://www.digitimes.com/news/a20260803VL207/packaging-osat-manufacturing-plant-investment.html",
+    "short_link": "digitimes.com/news/a20260803VL207/packaging-osat-manufactu...",
+    "summary": "인도가 2억5천만 달러 규모의 비사카파트남 OSAT 시설 건설을 시작하며 칩 설계에서 나아가 국내 반도체 생태계 구축을 위한 제조 역량 강화에 집중",
+    "published_ago": "5시간 전",
+    "published_at": "2026-08-03T02:49:27+00:00",
+    "published_raw": "Mon, 3 Aug 2026 02:49:27 GMT"
+  },
+  {
+    "title": "인도, 글로벌 칩 수요 급증에 칩 인재 파이프라인 확장",
+    "link": "https://www.digitimes.com/news/a20260803PR201/government-workforce-training-semicon-design.html",
+    "short_link": "digitimes.com/news/a20260803PR201/government-workforce-tra...",
+    "summary": "인도가 교육 및 산업 파트너십을 통해 반도체 인력 구축 노력을 강화하며 글로벌 칩 공급망의 숙련된 인재 부족 문제 해결에 기여할 것으로 기대감",
+    "published_ago": "5시간 전",
+    "published_at": "2026-08-03T02:32:04+00:00",
+    "published_raw": "Mon, 3 Aug 2026 02:32:04 GMT"
+  },
+  {
+    "title": "팻 겔싱어, TSMC 미국 리소그래피 프로젝트 xLight 참여",
+    "link": "https://www.digitimes.com/news/a20260803PD209/pat-gelsinger-euv-equipment-policy-intel-tsmc.html",
+    "short_link": "digitimes.com/news/a20260803PD209/pat-gelsinger-euv-equipm...",
+    "summary": "전 인텔 CEO 팻 겔싱어가 ASML의 EUV 리소그래피에 도전하는 스타트업 xLight를 지원하며 TSMC를 미국의 첨단 칩 제조 부흥 프로젝트에 참여시킬 계획을 추진",
+    "published_ago": "6시간 전",
+    "published_at": "2026-08-03T02:19:22+00:00",
+    "published_raw": "Mon, 3 Aug 2026 02:19:22 GMT"
+  },
+  {
+    "title": "삼성 GaN 파운드리, 신뢰성 문제로 2027년 양산 지연 전망",
+    "link": "https://www.digitimes.com/news/a20260803VL202/samsung-gan-launch-gallium-production.html",
+    "short_link": "digitimes.com/news/a20260803VL202/samsung-gan-launch-galli...",
+    "summary": "삼성전자의 질화갈륨(GaN) 파운드리 사업이 고온 신뢰성 문제로 인해 2027년까지 대량 생산이 늦어질 가능성이 제기되며 기술적, 전략적 과제에 직면할 것으로 예상",
+    "published_ago": "6시간 전",
+    "published_at": "2026-08-03T01:32:53+00:00",
+    "published_raw": "Mon, 3 Aug 2026 01:32:53 GMT"
+  },
+  {
+    "title": "두산, SK실트론 2조3000억원에 인수…반도체 공급망 재편",
+    "link": "https://www.digitimes.com/news/a20260803VL201/doosan-sk-siltron-acquisition-wafer-materials.html",
+    "short_link": "digitimes.com/news/a20260803VL201/doosan-sk-siltron-acquis...",
+    "summary": "두산그룹이 SK실트론의 지배지분을 2조3000억원에 인수하며 반도체 사업 영역을 웨이퍼 제조까지 확대하고 SK그룹의 AI 반도체 전략에 추가 자원을 확보할 것으로 예상",
+    "published_ago": "7시간 전",
+    "published_at": "2026-08-03T01:11:13+00:00",
+    "published_raw": "Mon, 3 Aug 2026 01:11:13 GMT"
   },
   {
     "title": "인도, R&D 허브·국내 툴링·OSAT 투자로 칩 추진 강화",
     "link": "https://www.digitimes.com/news/a20260731VL211/infrastructure-expansion-design-packaging-manufacturing.html",
     "short_link": "digitimes.com/news/a20260731VL211/infrastructure-expansion...",
     "summary": "인도가 새로운 R&D 센터, 고유 설계 도구, 패키징 시설 및 AI 인프라 투자를 통해 반도체 야망을 확장하며 국내 역량 강화와 글로벌 기술 공급망 재구성을 목표로 추진",
-    "published_ago": "53분 전",
+    "published_ago": "8시간 전",
     "published_at": "2026-08-03T00:09:46+00:00",
     "published_raw": "Mon, 3 Aug 2026 00:09:46 GMT"
   }
