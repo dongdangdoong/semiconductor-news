@@ -1,65 +1,29 @@
 [
   {
-    "title": "중국, 국내 반도체 혁신 강화 위해 칩 레이아웃 설계 보호 강화",
-    "link": "https://www.digitimes.com/news/a20260804VL206/beijing-ic-design-regulation.html",
-    "short_link": "digitimes.com/news/a20260804VL206/beijing-ic-design-regula...",
-    "summary": "중국이 미국의 기술 제한에 대응하여 국내 반도체 산업 강화를 위해 IC 레이아웃 설계 보호 규정을 개정하며 등록 요건 강화, 집행 조치 강화, 상용화 규칙 명확화 등을 추진할 전망",
-    "published_ago": "3시간 전",
-    "published_at": "2026-08-04T04:19:43+00:00",
-    "published_raw": "Tue, 4 Aug 2026 04:19:43 GMT"
+    "title": "SK하이닉스·샌디스크, 최대 512GB·3TB/s HBF 사양 최초 출시",
+    "link": "https://www.digitimes.com/news/a20260804VL212/sk-hynix-bandwidth-capacity-technology-hbm.html",
+    "short_link": "digitimes.com/news/a20260804VL212/sk-hynix-bandwidth-capac...",
+    "summary": "SK하이닉스와 샌디스크가 최대 512GB 용량과 3TB/s 대역폭을 갖춘 NAND 기반 메모리 기술인 고대역폭 플래시(HBF)의 첫 표준 사양을 발표",
+    "published_ago": "25분 전",
+    "published_at": "2026-08-04T09:49:06+00:00",
+    "published_raw": "Tue, 4 Aug 2026 09:49:06 GMT"
   },
   {
-    "title": "TSMC 일본 자회사 JASM, 구마모토 지진 후 생산 정상화",
-    "link": "https://www.digitimes.com/news/a20260804PD225/tsmc-kumamoto-jasm-production-earthquake.html",
-    "short_link": "digitimes.com/news/a20260804PD225/tsmc-kumamoto-jasm-produ...",
-    "summary": "TSMC의 일본 자회사 JASM이 구마모토 지진으로 인한 생산 중단 이후 구마모토현 기쿠요시 공장의 정상 운영을 재개했다고 발표",
-    "published_ago": "3시간 전",
-    "published_at": "2026-08-04T04:09:51+00:00",
-    "published_raw": "Tue, 4 Aug 2026 04:09:51 GMT"
+    "title": "중국 칩 생산량 10년 만에 350% 가까이 급증",
+    "link": "https://www.digitimes.com/news/a20260804VL208/industrial-capacity-equipment-production-cxmt.html",
+    "short_link": "digitimes.com/news/a20260804VL208/industrial-capacity-equi...",
+    "summary": "중국 산업 기업의 집적 회로 생산량이 2015년 1,087억 2천만 개에서 2025년 4,842억 8천만 개로 약 350% 증가하며 반도체 공급망 확대를 본격화",
+    "published_ago": "1시간 전",
+    "published_at": "2026-08-04T09:01:40+00:00",
+    "published_raw": "Tue, 4 Aug 2026 09:01:40 GMT"
   },
   {
-    "title": "CXMT, 베이징에 두 번째 DRAM 팹 건설 검토",
-    "link": "https://www.digitimes.com/news/a20260804VL207/cxmt-dram-beijing-fab-investment.html",
-    "short_link": "digitimes.com/news/a20260804VL207/cxmt-dram-beijing-fab-in...",
-    "summary": "중국 CXMT가 베이징 이좡 지구에 두 번째 12인치 메모리 칩 제조 공장 건설을 고려하며, AI 기반 수요에 따른 제조 공간 확대를 추진",
-    "published_ago": "3시간 전",
-    "published_at": "2026-08-04T03:52:39+00:00",
-    "published_raw": "Tue, 4 Aug 2026 03:52:39 GMT"
-  },
-  {
-    "title": "대만-일본 반도체, 공급망 넘어 기술 혁신 및 인재 개발 협력",
-    "link": "https://www.digitimes.com/news/a20260804PD218/taiwan-japan-semiconductors-manufacturing-development-supply-chain.html",
-    "short_link": "digitimes.com/news/a20260804PD218/taiwan-japan-semiconduct...",
-    "summary": "대만과 일본의 반도체 협력이 공급망 파트너십을 넘어 공동 기술 혁신과 인재 개발을 향하고 있다고 Jyh-huei Kuo 대만 전 경제부 장관이 발표",
+    "title": "HBM 이어 HBF 시대 오나…SK하이닉스, 첫 표준규격 공개",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE42LXZjQ2M5bFdDZFRPSzV2d2tiMTlfcWZ5U2VrR29TQ1YxUEdEZkIteG9JcHpVRm8yNnBOT0hjeXdNRGtrMkRiaEdnWVFrR1NtOXZvTEN0QXVMYUxuWXRPeE1rQ2FrMW5ITXlyUERWZll0aWM1T0HSAWZBVV95cUxOVVhzY3hvdng3bEM3MVdNdDFLTG9kQ3g4SGVFTVgwdDBOQ0FPa1ZITmdmd3hrRUJGaGR0Vk5wTlg0ZnZzcFBINzNkQ0xSdzRac194aUFBT0lTUDlZOGt3UGpWQnpRNFE?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMidkFVX3lxTE42LXZjQ2M5bFdDZ...",
+    "summary": "SK하이닉스가 HBM에 이어 HBF의 첫 표준규격을 공개하며 '포스트 HBM' 시대의 주도권 경쟁을 본격화할 것으로 예상",
     "published_ago": "4시간 전",
-    "published_at": "2026-08-04T02:57:02+00:00",
-    "published_raw": "Tue, 4 Aug 2026 02:57:02 GMT"
-  },
-  {
-    "title": "CXMT 상장, DRAM 가격 및 글로벌 메모리 경쟁 우려 증폭",
-    "link": "https://www.digitimes.com/news/a20260804PD205/cxmt-dram-market-competition-capacity-expansion.html",
-    "short_link": "digitimes.com/news/a20260804PD205/cxmt-dram-market-competi...",
-    "summary": "중국 CXMT의 모회사 상장으로 1,600억 달러에서 1조 1,000억 달러에 이르는 시장 가치 추정치가 나오며 글로벌 DRAM 시장 경쟁 심화에 대한 우려가 부각",
-    "published_ago": "6시간 전",
-    "published_at": "2026-08-04T01:04:39+00:00",
-    "published_raw": "Tue, 4 Aug 2026 01:04:39 GMT"
-  },
-  {
-    "title": "샌디스크·SK하이닉스, AI 메모리 HBF 사양 발표",
-    "link": "https://www.digitimes.com/news/a20260804PR201/sk-hynix-technology-flash-ai-inference-bandwidth.html",
-    "short_link": "digitimes.com/news/a20260804PR201/sk-hynix-technology-flas...",
-    "summary": "샌디스크와 SK하이닉스가 Open Compute Project를 통해 고대역폭 플래시(HBF) 기술 사양을 발표하며 미래 AI 인프라 발전을 위한 협력을 본격화",
-    "published_ago": "6시간 전",
-    "published_at": "2026-08-04T00:50:08+00:00",
-    "published_raw": "Tue, 4 Aug 2026 00:50:08 GMT"
-  },
-  {
-    "title": "YMTC, 마이크론과 3D 낸드 특허 충돌 19개 주장 기각 보도 부인",
-    "link": "https://www.digitimes.com/news/a20260803VL209/ymtc-micron-nand-3d-patent.html",
-    "short_link": "digitimes.com/news/a20260803VL209/ymtc-micron-nand-3d-pate...",
-    "summary": "YMTC가 미국 특허청의 핵심 3D 낸드 특허 19개 주장 무효화 보도를 부인하며 마이크론과의 특허 전쟁이 미국, 중국, 유럽 전역으로 확대될 가능성",
-    "published_ago": "7시간 전",
-    "published_at": "2026-08-03T23:55:04+00:00",
-    "published_raw": "Mon, 3 Aug 2026 23:55:04 GMT"
+    "published_at": "2026-08-04T05:36:00+00:00",
+    "published_raw": "Tue, 04 Aug 2026 05:36:00 GMT"
   }
 ]
