@@ -1,5 +1,50 @@
 [
   {
+    "title": "삼성·SK하이닉스, 美 규제 대비 2년 전부터 AMEC 식각 장비 테스트",
+    "link": "https://www.digitimes.com/news/a20260805VL218/amec-etching-equipment-samsung-sk-hynix.html",
+    "short_link": "digitimes.com/news/a20260805VL218/amec-etching-equipment-s...",
+    "summary": "삼성전자와 SK하이닉스가 미국의 엄격한 규제에 대비해 약 2년 전부터 중국 공장에서 사용할 중국 AMEC의 식각 장비 테스트를 시작한 것으로 알려져 주목",
+    "published_ago": "1시간 전",
+    "published_at": "2026-08-05T06:02:28+00:00",
+    "published_raw": "Wed, 5 Aug 2026 06:02:28 GMT"
+  },
+  {
+    "title": "화웨이의 18층 탑은 엔비디아의 칩 스케일링 플레이북에 도전합니다.",
+    "link": "https://www.digitimes.com/news/a20260805VL208/huawei-nvidia-performance-software-manufacturing.html",
+    "short_link": "digitimes.com/news/a20260805VL208/huawei-nvidia-performanc...",
+    "summary": "화웨이는 반도체 성능 향상이 트랜지스터 축소보다 시스템 아키텍처, 데이터 이동 속도, 칩·소프트웨어·AI 모델 간의 긴밀한 조정에 더 크게 좌우될 것이라고 강조",
+    "published_ago": "2시간 전",
+    "published_at": "2026-08-05T05:30:00+00:00",
+    "published_raw": "Wed, 5 Aug 2026 05:30:00 GMT"
+  },
+  {
+    "title": "CXMT, SK하이닉스 LPDDR6 경쟁 수율·고객·용량 전환",
+    "link": "https://www.digitimes.com/news/a20260805VL204/cxmt-capacity-production-2026-sk-hynix.html",
+    "short_link": "digitimes.com/news/a20260805VL204/cxmt-capacity-production...",
+    "summary": "중국 CXMT가 2026년 말 LPDDR6 스마트폰 메모리 한정 생산을 준비하며 삼성전자, SK하이닉스, 마이크론과의 기술 격차를 좁힐 것으로 전망",
+    "published_ago": "4시간 전",
+    "published_at": "2026-08-05T03:26:05+00:00",
+    "published_raw": "Wed, 5 Aug 2026 03:26:05 GMT"
+  },
+  {
+    "title": "Apple 인도 사업, 연간 매출 100억 달러 돌파",
+    "link": "https://www.digitimes.com/news/a20260805VL203/apple-market-growth-smartphone-business.html",
+    "short_link": "digitimes.com/news/a20260805VL203/apple-market-growth-smar...",
+    "summary": "Apple의 인도 사업이 처음으로 연간 매출 100억 달러를 돌파하며, 스마트폰 시장의 단위 수 감소에도 불구하고 프리미엄 시장에서의 성장 가능성을 강조",
+    "published_ago": "6시간 전",
+    "published_at": "2026-08-05T01:33:42+00:00",
+    "published_raw": "Wed, 5 Aug 2026 01:33:42 GMT"
+  },
+  {
+    "title": "삼성, FMS 2026서 zHBM 스택 온 로직·400층 본딩 NAND 공개",
+    "link": "https://www.digitimes.com/news/a20260805VL200/samsung-2026-nand-dram-3d.html",
+    "short_link": "digitimes.com/news/a20260805VL200/samsung-2026-nand-dram-3...",
+    "summary": "삼성전자가 FMS 2026에서 zHBM 스택 온 로직 개념과 400층 본딩 NAND를 선보이며 AI 메모리 로드맵을 제시해 주목",
+    "published_ago": "8시간 전",
+    "published_at": "2026-08-04T23:02:27+00:00",
+    "published_raw": "Tue, 4 Aug 2026 23:02:27 GMT"
+  },
+  {
     "title": "클라우드 AI 칩 제조사, 장기 계약으로 용량 확보 경쟁 심화",
     "link": "https://www.digitimes.com/news/a20260804PD229/cloud-ai-ai-chip-capacity-chipmakers-demand.html",
     "short_link": "digitimes.com/news/a20260804PD229/cloud-ai-ai-chip-capacit...",
