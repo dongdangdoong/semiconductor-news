@@ -1,91 +1,28 @@
 [
   {
+    "title": "애플, 10억 달러 아이폰 18 칩 패키징 앞두고 D램 확보 총력",
+    "link": "https://www.digitimes.com/news/a20260806VL223/apple-iphone-dram-packaging-manufacturing.html",
+    "short_link": "digitimes.com/news/a20260806VL223/apple-iphone-dram-packag...",
+    "summary": "애플과 제조 파트너들이 약 10억 달러 규모의 아이폰 18 프로세서 패키징을 위해 모바일 D램 확보에 안간힘을 쓰고 있는 것으로 관측",
+    "published_ago": "2시간 전",
+    "published_at": "2026-08-06T09:21:15+00:00",
+    "published_raw": "Thu, 6 Aug 2026 09:21:15 GMT"
+  },
+  {
     "title": "삼성, 넷리스트에 메모리 특허 분쟁 해결 위해 최대 8억 9700만 달러 지불",
     "link": "https://www.digitimes.com/news/a20260806VL224/samsung-patent-licensing-investigation-hbm.html",
     "short_link": "digitimes.com/news/a20260806VL224/samsung-patent-licensing...",
     "summary": "삼성전자가 넷리스트와의 수년간의 메모리 특허 분쟁을 마무리하고 서버 메모리, HBM 제품 공급 및 기술 협력을 포함하는 계약에 따라 5년간 최대 8억 9700만 달러를 지불할 계획",
-    "published_ago": "38분 전",
+    "published_ago": "2시간 전",
     "published_at": "2026-08-06T08:42:40+00:00",
     "published_raw": "Thu, 6 Aug 2026 08:42:40 GMT"
   },
   {
-    "title": "GlobalFoundries 2Q 분석 1/2: AI 광학 파워 실적 상회 및 마진 개선",
-    "link": "https://www.digitimes.com/news/a20260806VL207/globalfoundries-earnings-growth-revenue-forecast.html",
-    "short_link": "digitimes.com/news/a20260806VL207/globalfoundries-earnings...",
-    "summary": "GlobalFoundries는 2분기 AI 광학 파워 부문에서 시장 예상을 뛰어넘는 실적을 달성하며 전반적인 마진 개선을 이끌어냈다고 발표",
-    "published_ago": "1시간 전",
-    "published_at": "2026-08-06T07:23:42+00:00",
-    "published_raw": "Thu, 6 Aug 2026 07:23:42 GMT"
-  },
-  {
-    "title": "2위 파운드리, 마진 30% 회복 전망",
-    "link": "https://www.digitimes.com/news/a20260806PD213/semiconductor-foundry-mature-process-demand-gross-margin-recovery-2026.html",
-    "short_link": "digitimes.com/news/a20260806PD213/semiconductor-foundry-ma...",
-    "summary": "AI 수요 확산과 제품 믹스 개선으로 글로벌 성숙 공정 파운드리 시장이 2026년 회복하며 2위 파운드리의 마진이 30%까지 회복될 것으로 예상",
-    "published_ago": "2시간 전",
-    "published_at": "2026-08-06T07:17:52+00:00",
-    "published_raw": "Thu, 6 Aug 2026 07:17:52 GMT"
-  },
-  {
-    "title": "국산 AI반도체, 현장 투입된다…600억 들여 22개 실증 착수(종합)",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5RTGY3emJOXzlKcGpnMVpuZ1o1UjVWTTcyOGJVeWg1bU1YUE51cU9FRkhfSnItaWtVRUR2djdVWUZ5T0FwU3Y4TVdTRVI0bTBpNGJJMnV1R0VYUURrM2c?oc=5&hl=ko&gl=KR&ceid=KR:ko",
-    "short_link": "news.google.com/rss/articles/CBMiXkFVX3lxTE5RTGY3emJOXzlKc...",
-    "summary": "정부가 올해 600억원 이상을 투입해 생활·안전 등 피지컬 AI 실증 7건을 포함한 총 22개 국산 AI 반도체 신규 과제에 착수할 계획",
-    "published_ago": "3시간 전",
-    "published_at": "2026-08-06T06:18:42+00:00",
-    "published_raw": "Thu, 06 Aug 2026 06:18:42 GMT"
-  },
-  {
-    "title": "TSMC, CoW 아웃소싱 확대…AI 패키징 병목에 OSAT 용량 확대 추진",
-    "link": "https://www.digitimes.com/news/a20260806VL218/tsmc-cowos-outsourcing-osat-packaging-capacity-taiwan.html",
-    "short_link": "digitimes.com/news/a20260806VL218/tsmc-cowos-outsourcing-o...",
-    "summary": "TSMC가 CoWoS 고급 패키징의 칩온웨이퍼(CoW) 단계 아웃소싱을 OSAT 업체로 확대하며 AI 패키징 병목 현상 해소를 위한 용량 확대를 추진",
-    "published_ago": "5시간 전",
-    "published_at": "2026-08-06T04:18:57+00:00",
-    "published_raw": "Thu, 6 Aug 2026 04:18:57 GMT"
-  },
-  {
-    "title": "인도 ASIP, 2027년 4분기 FCBGA 양산 목표",
-    "link": "https://www.digitimes.com/news/a20260806VL217/asip-tech-osat-bga-packaging-production-plant.html",
-    "short_link": "digitimes.com/news/a20260806VL217/asip-tech-osat-bga-packa...",
-    "summary": "인도 ASIP Technologies는 2027년 4분기 대량 생산을 목표로 Visakhapatnam 반도체 시설을 플립칩 볼 그리드 어레이 패키징에 집중할 계획",
-    "published_ago": "5시간 전",
-    "published_at": "2026-08-06T03:35:24+00:00",
-    "published_raw": "Thu, 6 Aug 2026 03:35:24 GMT"
-  },
-  {
-    "title": "네오세미컨덕터, AI 메모리 플랫폼 NEO.AI 공개",
-    "link": "https://www.digitimes.com/news/a20260806PR200/neo-semiconductor-3d-hbm-efficiency-performance.html",
-    "short_link": "digitimes.com/news/a20260806PR200/neo-semiconductor-3d-hbm...",
-    "summary": "네오세미컨덕터가 전 세계 AI 시스템의 메모리 병목 현상 완화를 위해 AI 성능, 확장성 및 효율성을 향상시킬 수 있는 메모리 플랫폼 NEO.AI를 출시",
-    "published_ago": "6시간 전",
-    "published_at": "2026-08-06T03:18:46+00:00",
-    "published_raw": "Thu, 6 Aug 2026 03:18:46 GMT"
-  },
-  {
-    "title": "청화정밀테스트, AI칩 수요로 7월 사상 최대 매출 기록",
-    "link": "https://www.digitimes.com/news/a20260804PD203/revenue-demand-chpt-2026-testing.html",
-    "short_link": "digitimes.com/news/a20260804PD203/revenue-demand-chpt-2026...",
-    "summary": "청화정밀테스트가 AI 및 고성능 컴퓨팅 테스트 제품 수요 증가에 힘입어 2026년 7월 월별 매출 사상 최대치를 기록했으며, GPU 관련 칩 출하량이 증가한 것으로 확인",
-    "published_ago": "6시간 전",
-    "published_at": "2026-08-06T03:00:00+00:00",
-    "published_raw": "Thu, 6 Aug 2026 03:00:00 GMT"
-  },
-  {
-    "title": "난야 테크놀로지, Fab 5A 증설 가속화 위해 2026년 자본 지출 34% 인상",
-    "link": "https://www.digitimes.com/news/a20260805PD248/nanya-technology-capex-capacity-testing-2026.html",
-    "short_link": "digitimes.com/news/a20260805PD248/nanya-technology-capex-c...",
-    "summary": "난야 테크놀로지는 2026년 자본 지출을 NT$520억에서 34% 증가한 NT$697억으로 인상하여 새로운 Fab 5A의 용량 확장을 가속화할 계획",
-    "published_ago": "6시간 전",
-    "published_at": "2026-08-06T02:52:23+00:00",
-    "published_raw": "Thu, 6 Aug 2026 02:52:23 GMT"
-  },
-  {
-    "title": "삼성전자, GPU 위에 HBM 탑재…차세대 '복합복합반도체' 공개",
+    "title": "삼성전자, GPU 위에 HBM 탑재 차세대 복합반도체 공개",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0tTWxnRndSNDBoU2xxaFNaTlNVVDAyLVNVbUF5bzl0bnNaZWhjNUdFWnpDbVY3R1lsR0lPSU5LZUxUcTNMOUdxTDdtMHNQTnlZN1o1SjlmNkxwREJzSHc?oc=5&hl=ko&gl=KR&ceid=KR:ko",
     "short_link": "news.google.com/rss/articles/CBMiXkFVX3lxTE0tTWxnRndSNDBoU...",
-    "summary": "삼성전자가 GPU 위에 HBM을 탑재한 차세대 '복합복합반도체'를 공개하며 반도체 기술 혁신을 가속화할 것으로 기대",
-    "published_ago": "21시간 전",
+    "summary": "삼성전자가 GPU 위에 HBM을 탑재한 차세대 복합반도체를 공개하며 고성능 컴퓨팅 시장에서의 기술 리더십을 강화할 계획",
+    "published_ago": "23시간 전",
     "published_at": "2026-08-05T12:12:00+00:00",
     "published_raw": "Wed, 05 Aug 2026 12:12:00 GMT"
   }
