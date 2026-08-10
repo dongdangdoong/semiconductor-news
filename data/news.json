@@ -1,83 +1,11 @@
 [
   {
-    "title": "소니·TSMC, 日 구마모토 이미지 센서 공정에 9조원 투자",
-    "link": "https://n.news.naver.com/mnews/article/023/0003992207",
-    "short_link": "n.news.naver.com/mnews/article/023/0003992207",
-    "summary": "소니와 TSMC가 일본 구마모토현에 차세대 이미지 센서 양산을 위해 총 1조엔(약 8조9600억원)을 투자하여 합작법인을 설립하고 2029년 양산을 시작할 계획",
-    "published_ago": "44분 전",
-    "published_at": "2026-08-10T07:48:10+00:00",
-    "published_raw": "2026-08-10T07:48:10+00:00"
-  },
-  {
-    "title": "미국, 반도체 넘어 ‘피지컬 AI’ 봉쇄...기술 패권 전선 확대",
-    "link": "https://n.news.naver.com/mnews/article/092/0002433524",
-    "short_link": "n.news.naver.com/mnews/article/092/0002433524",
-    "summary": "미국이 첨단 로봇과 전력 인버터를 국가 안보 위험 장비 목록인 ‘커버드 리스트’에 포함하며 피지컬 AI 분야로 기술 패권 경쟁 전선을 확대",
+    "title": "소니·TSMC, 日 이미지센서 벤처에 63억 달러 투자",
+    "link": "https://www.digitimes.com/news/a20260810VL211/sony-tsmc-sensor-nikkei-production.html",
+    "short_link": "digitimes.com/news/a20260810VL211/sony-tsmc-sensor-nikkei-...",
+    "summary": "소니그룹과 TSMC가 일본 구마모토에 차세대 이미지 센서 대량 생산을 위한 합작 벤처에 약 63억 달러를 투자하며, 소니가 지분 약 60%, TSMC가 약 40%를 소유할 계획",
     "published_ago": "1시간 전",
-    "published_at": "2026-08-10T07:27:12+00:00",
-    "published_raw": "2026-08-10T07:27:12+00:00"
-  },
-  {
-    "title": "TSMC 7월 매출 44.7% 증가, 145억 달러 기록…2026년 성장 40% 상회 전망",
-    "link": "https://www.digitimes.com/news/a20260810VL209/tsmc-revenue-growth-2026-forecast.html",
-    "short_link": "digitimes.com/news/a20260810VL209/tsmc-revenue-growth-2026...",
-    "summary": "TSMC는 7월 월간 매출이 전년 대비 44.7% 증가한 145억 달러를 기록하며 역대 최고치를 달성했으며, 2026년까지 40% 이상의 성장을 지속할 것으로 예상",
-    "published_ago": "1시간 전",
-    "published_at": "2026-08-10T07:20:44+00:00",
-    "published_raw": "Mon, 10 Aug 2026 07:20:44 GMT"
-  },
-  {
-    "title": "삼성 HBM4 수율 80% 육박, SK하이닉스와 생산경쟁 가열",
-    "link": "https://www.digitimes.com/news/a20260810VL206/samsung-production-hbm4-sk-hynix-hbm.html",
-    "short_link": "digitimes.com/news/a20260810VL206/samsung-production-hbm4-...",
-    "summary": "삼성전자가 SK하이닉스와의 생산 경쟁이 심화되는 가운데 6세대 고대역폭 메모리(HBM4)의 생산 수율을 80%에 육박하는 수준으로 끌어올린 것으로 알려져 주목",
-    "published_ago": "4시간 전",
-    "published_at": "2026-08-10T04:21:38+00:00",
-    "published_raw": "Mon, 10 Aug 2026 04:21:38 GMT"
-  },
-  {
-    "title": "Cambricon AI 칩 매출 108.13% 두 배 증가, 공급 능력 핵심",
-    "link": "https://www.digitimes.com/news/a20260810VL203/cambricon-ai-chip-revenue-capacity-demand.html",
-    "short_link": "digitimes.com/news/a20260810VL203/cambricon-ai-chip-revenu...",
-    "summary": "Cambricon Technologies의 2026년 상반기 AI 칩 매출이 108.13% 증가한 60억 위안을 기록하며 7분기 연속 수익성이 확대",
-    "published_ago": "4시간 전",
-    "published_at": "2026-08-10T03:39:46+00:00",
-    "published_raw": "Mon, 10 Aug 2026 03:39:46 GMT"
-  },
-  {
-    "title": "SK하이닉스, HBM·3D 낸드 놓고 미국 특허 분쟁",
-    "link": "https://www.digitimes.com/news/a20260810VL205/sk-hynix-3d-patent-nand-hbm.html",
-    "short_link": "digitimes.com/news/a20260810VL205/sk-hynix-3d-patent-nand-...",
-    "summary": "SK하이닉스가 MonolithIC 3D와 고대역폭 메모리(HBM) 및 3D 낸드 제품 관련 미국 특허 분쟁이 확대",
-    "published_ago": "4시간 전",
-    "published_at": "2026-08-10T03:35:00+00:00",
-    "published_raw": "Mon, 10 Aug 2026 03:35:00 GMT"
-  },
-  {
-    "title": "AI 인프라 경쟁, HBM·DRAM·EMIB·광 트랜시버·차세대 리소그래피 포괄",
-    "link": "https://www.digitimes.com/news/a20260810VL200/weekly-news-roundup-asml-dram-hbm-infrastructure-packaging.html",
-    "short_link": "digitimes.com/news/a20260810VL200/weekly-news-roundup-asml...",
-    "summary": "AI 인프라 경쟁이 HBM, DRAM, EMIB, 광 트랜시버 및 차세대 리소그래피 기술 전반으로 확대될 전망",
-    "published_ago": "6시간 전",
-    "published_at": "2026-08-10T01:42:06+00:00",
-    "published_raw": "Mon, 10 Aug 2026 01:42:06 GMT"
-  },
-  {
-    "title": "인도, 칩 푸시 확대…현지화 및 용량 지속",
-    "link": "https://www.digitimes.com/news/a20260807VL207/capacity-localization-electronics-packaging-workforce.html",
-    "short_link": "digitimes.com/news/a20260807VL207/capacity-localization-el...",
-    "summary": "인도가 새로운 패키징 용량, 장기 세금 인센티브, 심층 현지화를 통해 반도체 및 전자 생태계 구축 노력을 가속화하며 칩 인력과 주권 AI 역량 확대를 추진",
-    "published_ago": "8시간 전",
-    "published_at": "2026-08-09T23:56:12+00:00",
-    "published_raw": "Sun, 9 Aug 2026 23:56:12 GMT"
-  },
-  {
-    "title": "Aurotek, AI 및 반도체 자동화 수요로 이익 급증",
-    "link": "https://www.digitimes.com/news/a20260807PD234/demand-profit-2026-revenue-earnings.html",
-    "short_link": "digitimes.com/news/a20260807PD234/demand-profit-2026-reven...",
-    "summary": "Aurotek은 AI 솔루션, 반도체 파운드리 및 고급 패키징 장비, AI 서버 제조 장비, 서비스 로봇 수요 증가에 힘입어 2026년 2분기 및 상반기 실적 개선을 전망",
-    "published_ago": "8시간 전",
-    "published_at": "2026-08-09T23:55:09+00:00",
-    "published_raw": "Sun, 9 Aug 2026 23:55:09 GMT"
+    "published_at": "2026-08-10T08:47:38+00:00",
+    "published_raw": "Mon, 10 Aug 2026 08:47:38 GMT"
   }
 ]
