@@ -1,10 +1,10 @@
 [
   {
-    "title": "TSMC, AI 패키징 수요 근접…CoWoS 용량 수년간 두 배 확대",
+    "title": "TSMC, 수년간 CoWoS 용량 2배 증설 후 AI 패키징 수요 근접",
     "link": "https://www.digitimes.com/news/a20260811VL213/tsmc-cowos-capacity-packaging-demand.html",
     "short_link": "digitimes.com/news/a20260811VL213/tsmc-cowos-capacity-pack...",
-    "summary": "TSMC는 수년간 CoWoS 및 SoIC 용량을 매년 두 배로 늘려왔으며, 98% 이상의 수율로 AI 고객 제품을 대량 생산하며 AI 패키징 수요에 근접하고 있어 주목",
-    "published_ago": "1시간 전",
+    "summary": "TSMC가 수년간 매년 CoWoS 및 SoIC 용량을 2배로 늘려왔으며, AI 고객 제품에서 98% 이상의 수율로 CoWoS를 대량 생산하며 AI 패키징 수요에 근접한 것으로 분석",
+    "published_ago": "4시간 전",
     "published_at": "2026-08-11T07:07:55+00:00",
     "published_raw": "Tue, 11 Aug 2026 07:07:55 GMT"
   },
@@ -13,9 +13,18 @@
     "link": "https://www.digitimes.com/news/a20260811PD245/kioxia-sk-hynix-toshiba-market-nand-flash.html",
     "short_link": "digitimes.com/news/a20260811PD245/kioxia-sk-hynix-toshiba-...",
     "summary": "도시바의 지속적인 지분 축소로 SK하이닉스가 키옥시아의 최대주주가 되면서 글로벌 낸드플래시 시장의 세력 균형 변화가 예상",
-    "published_ago": "2시간 전",
+    "published_ago": "4시간 전",
     "published_at": "2026-08-11T06:56:20+00:00",
     "published_raw": "Tue, 11 Aug 2026 06:56:20 GMT"
+  },
+  {
+    "title": "GMT, PMIC 수요 공급 초과로 웨이퍼 확보 우선",
+    "link": "https://www.digitimes.com/news/a20260810PD240/pmic-gmt-ic-management-demand.html",
+    "short_link": "digitimes.com/news/a20260810PD240/pmic-gmt-ic-management-d...",
+    "summary": "대만 PMIC 제조업체 GMT는 2026년 2분기 매출과 이익이 기대에 부합했으며, 3분기에도 웨이퍼 제조 및 백엔드 테스트 용량 부족으로 추가 공급 여력이 거의 없다고 발표",
+    "published_ago": "4시간 전",
+    "published_at": "2026-08-11T06:55:00+00:00",
+    "published_raw": "Tue, 11 Aug 2026 06:55:00 GMT"
   },
   {
     "title": "2nm 수요, 미국 생산 능력 전략 자산 전환… 삼성, Taylor 팹 자격 경쟁",
