@@ -1,10 +1,73 @@
 [
   {
-    "title": "SPIL, NT$1000억 더울리우 공장 착공, 2028년 가동 목표",
+    "title": "CXMT DDR5 수율 90% 돌파, 삼성과 격차 좁혀",
+    "link": "https://www.digitimes.com/news/a20260812PD226/cxmt-samsung-ddr5-dram-pc.html",
+    "short_link": "digitimes.com/news/a20260812PD226/cxmt-samsung-ddr5-dram-p...",
+    "summary": "중국 D램 제조사 CXMT가 DDR5 생산 수율을 90% 이상으로 끌어올리며 삼성전자와의 기술 격차를 좁히고 글로벌 PC 메모리 공급망 내 입지를 강화할 것으로 예상",
+    "published_ago": "1시간 전",
+    "published_at": "2026-08-12T06:45:00+00:00",
+    "published_raw": "Wed, 12 Aug 2026 06:45:00 GMT"
+  },
+  {
+    "title": "OCP APAC 2026, 클라우드 AI 성장 속 컴퓨팅 아닌 네트워킹 병목 현상 발생",
+    "link": "https://www.digitimes.com/news/a20260812PD232/2026-copper-transmission-apac-optics.html",
+    "short_link": "digitimes.com/news/a20260812PD232/2026-copper-transmission...",
+    "summary": "2026년 OCP APAC 서밋에서 클라우드 AI 데이터 센터의 네트워킹 아키텍처가 논쟁의 중심이 되며, 메모리를 넘어 네트워킹이 AI 인프라 확장의 주요 제약으로 부각",
+    "published_ago": "1시간 전",
+    "published_at": "2026-08-12T06:30:00+00:00",
+    "published_raw": "Wed, 12 Aug 2026 06:30:00 GMT"
+  },
+  {
+    "title": "SK하이닉스, AI 스토리지 수요 충족 위해 중국 낸드 확장 재개",
+    "link": "https://www.digitimes.com/news/a20260812VL205/sk-hynix-nand-expansion-dalian-ymtc.html",
+    "short_link": "digitimes.com/news/a20260812VL205/sk-hynix-nand-expansion-...",
+    "summary": "SK하이닉스가 AI 붐으로 인한 메모리 칩 공급 부족에 대응하여 중국 다롄 낸드플래시 공장 생산량을 약 50% 늘릴 계획을 추진",
+    "published_ago": "2시간 전",
+    "published_at": "2026-08-12T06:05:00+00:00",
+    "published_raw": "Wed, 12 Aug 2026 06:05:00 GMT"
+  },
+  {
+    "title": "인텔 이스라엘 팹 38 재가동, 14A 공정 적용은 미확인",
+    "link": "https://www.digitimes.com/news/a20260812VL209/intel-israel-fab-expansion-2026.html",
+    "short_link": "digitimes.com/news/a20260812VL209/intel-israel-fab-expansi...",
+    "summary": "인텔이 이스라엘 키르얏 갓의 유휴 시설인 팹 38 작업을 재개했으나, 최첨단 14A 공정 적용 여부는 아직 확인되지 않아 향후 계획에 대한 관심이 집중",
+    "published_ago": "2시간 전",
+    "published_at": "2026-08-12T05:52:24+00:00",
+    "published_raw": "Wed, 12 Aug 2026 05:52:24 GMT"
+  },
+  {
+    "title": "일본 4,300억 달러 규모 2040년 칩 계획, Rapidus 2nm에 달려",
+    "link": "https://www.digitimes.com/news/a20260812PD231/rapidus-2nm-government-investment-japan.html",
+    "short_link": "digitimes.com/news/a20260812PD231/rapidus-2nm-government-i...",
+    "summary": "일본의 2040년까지 4,300억 달러 규모의 반도체 계획은 Rapidus의 2nm 기술 개발 성공 여부에 크게 좌우될 것으로 전망",
+    "published_ago": "2시간 전",
+    "published_at": "2026-08-12T05:40:03+00:00",
+    "published_raw": "Wed, 12 Aug 2026 05:40:03 GMT"
+  },
+  {
+    "title": "Foxconn 실적 발표에서는 AI 랙, 거래 모델, Apple, EV 등 4가지 테마를 주목합니다.",
+    "link": "https://www.digitimes.com/news/a20260812PD224/foxconn-revenue-earnings-server-rack-apple-2026.html",
+    "short_link": "digitimes.com/news/a20260812PD224/foxconn-revenue-earnings...",
+    "summary": "Foxconn이 8월 12일 2분기 실적 발표를 앞두고 AI 랙 출하 지속과 7월 연결 매출이 처음으로 NT$9000억을 돌파하며 투자자들의 주목을 받을 전망",
+    "published_ago": "3시간 전",
+    "published_at": "2026-08-12T04:29:50+00:00",
+    "published_raw": "Wed, 12 Aug 2026 04:29:50 GMT"
+  },
+  {
+    "title": "TSMC, OCP APAC 2026서 AI 고급 패키징 시스템 수준 전투 돌입 발표",
+    "link": "https://www.digitimes.com/news/a20260811PD258/packaging-tsmc-demand-design-development.html",
+    "short_link": "digitimes.com/news/a20260811PD258/packaging-tsmc-demand-de...",
+    "summary": "TSMC는 2026 OCP APAC 서밋에서 AI 컴퓨팅 수요 증가로 고급 패키징 경쟁이 단일 장치 성능을 넘어 시스템 수준으로 확대되고 있다고 발표",
+    "published_ago": "5시간 전",
+    "published_at": "2026-08-12T03:05:00+00:00",
+    "published_raw": "Wed, 12 Aug 2026 03:05:00 GMT"
+  },
+  {
+    "title": "SPIL, NT$1000억 더우리우 공장 착공, 2028년 가동 목표",
     "link": "https://www.digitimes.com/news/a20260811PD262/spil-plant-2028-subsidiary-ase.html",
     "short_link": "digitimes.com/news/a20260811PD262/spil-plant-2028-subsidia...",
-    "summary": "SPIL이 AI 및 HPC 수요 급증에 대응해 대만 더울리우에 약 NT$1000억을 투자하여 CoWoS 첨단 패키징 공장을 착공했으며, 1단계는 2028년 가동을 목표로 추진",
-    "published_ago": "9분 전",
+    "summary": "SPIL이 AI 및 HPC 수요 급증에 대응해 대만 더우리우에 NT$1000억 규모의 CoWoS 첨단 패키징 공장을 착공했으며, 1단계는 2028년 가동을 목표로 추진",
+    "published_ago": "5시간 전",
     "published_at": "2026-08-12T02:55:00+00:00",
     "published_raw": "Wed, 12 Aug 2026 02:55:00 GMT"
   },
