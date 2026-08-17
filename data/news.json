@@ -3,8 +3,8 @@
     "title": "TSMC·마이크론 호황에 대만 팹파이브 26년 상반기 이익 견인",
     "link": "https://www.digitimes.com/news/a20260817PD213/tsmc-micron-fab-taiwan-ase.html",
     "short_link": "digitimes.com/news/a20260817PD213/tsmc-micron-fab-taiwan-a...",
-    "summary": "TSMC와 마이크론의 고급 노드 및 OSAT 투자 확대에 힘입어 대만 팹 엔지니어링 기업 5곳의 2026년 상반기 실적이 더욱 향상될 전망",
-    "published_ago": "2시간 전",
+    "summary": "TSMC, 마이크론 등 주요 칩 제조업체의 고급 노드 및 OSAT 투자 확대에 힘입어 대만 팹 엔지니어링 기업 5곳의 2026년 상반기 실적이 더욱 향상될 전망",
+    "published_ago": "3시간 전",
     "published_at": "2026-08-17T04:00:22+00:00",
     "published_raw": "Mon, 17 Aug 2026 04:00:22 GMT"
   },
@@ -13,8 +13,80 @@
     "link": "https://www.digitimes.com/news/a20260817VL210/samsung-hbm-capacity-2nm-dram.html",
     "short_link": "digitimes.com/news/a20260817VL210/samsung-hbm-capacity-2nm...",
     "summary": "삼성전자가 AI 메모리 수요 증가에 대응하여 2nm HBM 파운드리 생산능력 확보를 위해 기흥 차세대 반도체 R&D 단지의 2번째 라인을 파운드리 팹으로 용도 변경하는 방안을 검토",
-    "published_ago": "2시간 전",
+    "published_ago": "3시간 전",
     "published_at": "2026-08-17T03:59:38+00:00",
     "published_raw": "Mon, 17 Aug 2026 03:59:38 GMT"
+  },
+  {
+    "title": "AI 수요 증가에 삼성전기·LG이노텍 기판라인 풀가동",
+    "link": "https://www.digitimes.com/news/a20260817VL205/semco-substrate-lg-innotek-capacity-demand.html",
+    "short_link": "digitimes.com/news/a20260817VL205/semco-substrate-lg-innot...",
+    "summary": "AI 가속기, 서버 CPU, 메모리 등 고부가가치 기판 출하량 증가로 삼성전기와 LG이노텍이 2026년 상반기까지 반도체 패키지 기판 가동을 최대 용량에 가깝게 추진",
+    "published_ago": "4시간 전",
+    "published_at": "2026-08-17T03:33:24+00:00",
+    "published_raw": "Mon, 17 Aug 2026 03:33:24 GMT"
+  },
+  {
+    "title": "애플, 알리바바와 협력해 중국 전용 AI 모델 구축",
+    "link": "https://www.digitimes.com/news/a20260817VL206/apple-alibaba-qwen-llm.html",
+    "short_link": "digitimes.com/news/a20260817VL206/apple-alibaba-qwen-llm.h...",
+    "summary": "애플이 알리바바의 지원을 받아 중국 시장을 위한 LLM을 특별히 교육하며, 기존 타사 중국 모델 의존에서 벗어나 새로운 AI 전략을 추진할 것으로 예상",
+    "published_ago": "4시간 전",
+    "published_at": "2026-08-17T03:14:02+00:00",
+    "published_raw": "Mon, 17 Aug 2026 03:14:02 GMT"
+  },
+  {
+    "title": "애플, 중국 메모리 칩 조달 가능성에 미국 압력 직면",
+    "link": "https://www.digitimes.com/news/a20260817VL208/apple-cxmt-ymtc-manufacturing-market.html",
+    "short_link": "digitimes.com/news/a20260817VL208/apple-cxmt-ymtc-manufact...",
+    "summary": "트럼프 행정부가 글로벌 메모리 부족으로 부품 비용이 급증한 애플에 중국 메모리 공급업체 대안을 찾도록 압력을 가하는 상황이 부각",
+    "published_ago": "4시간 전",
+    "published_at": "2026-08-17T03:10:58+00:00",
+    "published_raw": "Mon, 17 Aug 2026 03:10:58 GMT"
+  },
+  {
+    "title": "OCP APAC 2026, AI 하드웨어 실행 본격화",
+    "link": "https://www.digitimes.com/news/a20260814VL233/apac-infrastructure-hardware.html",
+    "short_link": "digitimes.com/news/a20260814VL233/apac-infrastructure-hard...",
+    "summary": "OCP APAC 2026에서 AI 시대의 고성능 컴퓨팅 물리적 한계 극복을 위한 인프라 확장 및 열 아키텍처 개선 방안이 논의될 것으로 예상",
+    "published_ago": "4시간 전",
+    "published_at": "2026-08-17T02:53:49+00:00",
+    "published_raw": "Mon, 17 Aug 2026 02:53:49 GMT"
+  },
+  {
+    "title": "\"김 대리는 손 안 대고 주식으로 돈번다\"…증권사 API 경쟁 ‘후끈’ [이슈&트렌드]",
+    "link": "https://n.news.naver.com/mnews/article/029/0003042623",
+    "short_link": "n.news.naver.com/mnews/article/029/0003042623",
+    "summary": "NH투자증권, KB증권, 키움증권, 토스증권, 다올투자증권 등 증권사들이 생성형 AI와 오픈API를 결합해 개인 투자자의 자동·알고리즘 매매 접근성을 높이며 디지털 경쟁을 확대",
+    "published_ago": "5시간 전",
+    "published_at": "2026-08-17T02:19:09+00:00",
+    "published_raw": "2026-08-17T02:19:09+00:00"
+  },
+  {
+    "title": "OCI, 태양광 웨이퍼 얇게 만들어 베트남 생산량 39% 증대",
+    "link": "https://www.digitimes.com/news/a20260814VL227/solar-polysilicon-wafer-capacity-demand.html",
+    "short_link": "digitimes.com/news/a20260814VL227/solar-polysilicon-wafer-...",
+    "summary": "OCI홀딩스가 미국 고객 수요 증가에 맞춰 베트남 사업장에서 태양광 웨이퍼를 얇게 만들어 생산량을 39% 증대할 계획",
+    "published_ago": "7시간 전",
+    "published_at": "2026-08-16T23:54:32+00:00",
+    "published_raw": "Sun, 16 Aug 2026 23:54:32 GMT"
+  },
+  {
+    "title": "IC 기판 제조사 공급 부족, 2028년까지 T유리 수요 급증",
+    "link": "https://www.digitimes.com/news/a20260814PD224/demand-ic-substrate-2028-fiberglass-cloth-infrastructure.html",
+    "short_link": "digitimes.com/news/a20260814PD224/demand-ic-substrate-2028...",
+    "summary": "글로벌 AI 컴퓨팅 인프라 붐으로 GPU, CPU, ASIC 수요가 급증하며 ABF 기판 산업은 2026년 부족 현상에 직면하고 2027~2028년 수급 격차가 확대될 전망",
+    "published_ago": "7시간 전",
+    "published_at": "2026-08-16T23:51:39+00:00",
+    "published_raw": "Sun, 16 Aug 2026 23:51:39 GMT"
+  },
+  {
+    "title": "Sigurd 7월 매출 NT$20억 돌파, AI 테스트 수요 급증",
+    "link": "https://www.digitimes.com/news/a20260814PD201/sigurd-revenue-demand-2026-testing.html",
+    "short_link": "digitimes.com/news/a20260814PD201/sigurd-revenue-demand-20...",
+    "summary": "IC 테스트 및 패키징 기업 Sigurd Microelectronics는 AI 및 AI 연결 시장의 수요 증가에 힘입어 7월 매출이 NT$20억을 넘어섰다고 발표",
+    "published_ago": "7시간 전",
+    "published_at": "2026-08-16T23:49:51+00:00",
+    "published_raw": "Sun, 16 Aug 2026 23:49:51 GMT"
   }
 ]
