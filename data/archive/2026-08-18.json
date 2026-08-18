@@ -1,5 +1,14 @@
 [
   {
+    "title": "LG전자, OSAT 기업서 LDI 장비 첫 수주…반도체 사업 '가속도'",
+    "link": "https://n.news.naver.com/mnews/article/030/0003458297",
+    "short_link": "n.news.naver.com/mnews/article/030/0003458297",
+    "summary": "LG전자가 신성장 동력으로 낙점한 반도체 장비 사업에서 첫 결실을 맺으며, 반도체 패키징용 레이저 다이렉트 이미징(LDI) 노광 장비를 OSAT 기업에 처음으로 수주",
+    "published_ago": "16분 전",
+    "published_at": "2026-08-18T07:01:09+00:00",
+    "published_raw": "2026-08-18T07:01:09+00:00"
+  },
+  {
     "title": "광주 칩 허브, 물 위기 직면…지하 저장 및 AI 관리 추진",
     "link": "https://www.digitimes.com/news/a20260818PD214/fab-water-management-samsung-sk-hynix.html",
     "short_link": "digitimes.com/news/a20260818PD214/fab-water-management-sam...",
@@ -9,11 +18,38 @@
     "published_raw": "Tue, 18 Aug 2026 04:40:52 GMT"
   },
   {
-    "title": "Arm, CPU 수요 20억 달러 초과…용량 부족 직면",
+    "title": "엔비디아, 5000억 달러 AI 컴퓨팅 파이낸싱 계획 공개",
+    "link": "https://www.digitimes.com/news/a20260818PD211/nvidia-financing-broadcom-chips-funding.html",
+    "short_link": "digitimes.com/news/a20260818PD211/nvidia-financing-broadco...",
+    "summary": "엔비디아가 골드만 삭스 등 월스트리트 6개 기업과 5000억 달러 규모의 AI 컴퓨팅 파이낸싱 계획을 발표하며 새로운 스타트업 고객 확보와 복잡한 파이낸싱 구조를 강조",
+    "published_ago": "3시간 전",
+    "published_at": "2026-08-18T04:10:22+00:00",
+    "published_raw": "Tue, 18 Aug 2026 04:10:22 GMT"
+  },
+  {
+    "title": "AI 수요로 전력 반도체 최소 2년간 공급 부족 지속 전망",
+    "link": "https://www.digitimes.com/news/a20260818PD212/cloud-ai-power-semiconductors-demand-data-center-price.html",
+    "short_link": "digitimes.com/news/a20260818PD212/cloud-ai-power-semicondu...",
+    "summary": "클라우드 AI 데이터센터 붐으로 전력 반도체를 포함한 아날로그 IC의 공급 부족이 최소 2년간 지속될 것으로 예상되며, 가격 인상도 이어질 것으로 관측",
+    "published_ago": "4시간 전",
+    "published_at": "2026-08-18T03:13:52+00:00",
+    "published_raw": "Tue, 18 Aug 2026 03:13:52 GMT"
+  },
+  {
+    "title": "삼성, HBM4 컴백 후 더 엄격한 HBM4E 테스트 직면",
+    "link": "https://www.digitimes.com/news/a20260818VL207/samsung-hbm4-revenue-hbm-technology.html",
+    "short_link": "digitimes.com/news/a20260818VL207/samsung-hbm4-revenue-hbm...",
+    "summary": "삼성전자 반도체 총괄사장은 HBM4 컴백을 회복 완료 증거로 여기지 말고, 메모리 산업의 대규모 제조 난이도 증가에 주의를 기울일 것을 강조",
+    "published_ago": "4시간 전",
+    "published_at": "2026-08-18T03:03:25+00:00",
+    "published_raw": "Tue, 18 Aug 2026 03:03:25 GMT"
+  },
+  {
+    "title": "Arm, CPU 수요 20억 달러 초과로 용량 부족 직면",
     "link": "https://www.digitimes.com/news/a20260818VL206/arm-capacity-demand-cpu-expansion.html",
     "short_link": "digitimes.com/news/a20260818VL206/arm-capacity-demand-cpu-...",
-    "summary": "Arm Holdings는 새로운 AGI CPU에 대한 수요가 20억 달러를 넘어서면서 웨이퍼 및 메모리 용량 부족에 직면하며 직접적인 경쟁에 돌입할 것으로 예상",
-    "published_ago": "50분 전",
+    "summary": "Arm Holdings는 새로운 AGI CPU에 대한 20억 달러 이상의 수요로 인해 웨이퍼 및 메모리 용량 확보에 직접적인 경쟁에 직면할 것으로 예상",
+    "published_ago": "4시간 전",
     "published_at": "2026-08-18T02:46:59+00:00",
     "published_raw": "Tue, 18 Aug 2026 02:46:59 GMT"
   },
@@ -21,8 +57,8 @@
     "title": "한-인도 벤처 인디켐, '중국 없는' 반도체 소재 공급망 구축 추진",
     "link": "https://www.digitimes.com/news/a20260818VL202/india-south-asia-joint-venture-materials-supply-chain.html",
     "short_link": "digitimes.com/news/a20260818VL202/india-south-asia-joint-v...",
-    "summary": "한국과 인도의 합작 벤처 인디켐이 미중 갈등 속에서 반도체 소재 공급망에서 중국을 배제한 대체 경로를 구축하며 시장에 진입할 가능성",
-    "published_ago": "1시간 전",
+    "summary": "한-인도 합작 벤처 인디켐이 미중 갈등 속에서 반도체 제조업체들의 원자재 공급망 재편 요구에 맞춰 중국과 무관한 반도체 소재 공급 경로를 확보할 계획",
+    "published_ago": "5시간 전",
     "published_at": "2026-08-18T01:42:31+00:00",
     "published_raw": "Tue, 18 Aug 2026 01:42:31 GMT"
   },
@@ -30,8 +66,8 @@
     "title": "MediaTek, ASIC 서비스 확대…2027년 시장 점유율 15~20% 목표 상향",
     "link": "https://www.digitimes.com/news/a20260817PD224/mediatek-asic-market-share-google-design.html",
     "short_link": "digitimes.com/news/a20260817PD224/mediatek-asic-market-sha...",
-    "summary": "MediaTek은 Google TPU 제품 대규모 주문에 힘입어 2027년 ASIC 시장 점유율 목표를 15~20%로 상향하며 서비스 확대를 본격화",
-    "published_ago": "38분 전",
+    "summary": "MediaTek이 Google TPU 대규모 주문에 힘입어 2027년 ASIC 시장 점유율 목표를 15~20%로 상향하며 서비스 확대를 본격화",
+    "published_ago": "7시간 전",
     "published_at": "2026-08-17T23:53:32+00:00",
     "published_raw": "Mon, 17 Aug 2026 23:53:32 GMT"
   },
