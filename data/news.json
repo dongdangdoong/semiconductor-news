@@ -1,73 +1,10 @@
 [
   {
-    "title": "FOPLP, 비용 집중…CoPoS, AI 칩 주력하며 PLP 역할 분할",
-    "link": "https://www.digitimes.com/news/a20260819PD219/packaging-copos-foplp-chips-panel-cost.html",
-    "short_link": "digitimes.com/news/a20260819PD219/packaging-copos-foplp-ch...",
-    "summary": "AI 칩의 대형화 및 고집적화 추세에 따라 PLP 시장에서 FOPLP는 비용 효율성에, CoPoS는 AI 칩에 집중하며 각자의 역할을 분할할 전망",
-    "published_ago": "3시간 전",
-    "published_at": "2026-08-19T04:00:44+00:00",
-    "published_raw": "Wed, 19 Aug 2026 04:00:44 GMT"
-  },
-  {
-    "title": "NSTC 무인차 매출, 반도체 AOI·CPO 성장으로 40% 돌파",
-    "link": "https://www.digitimes.com/news/a20260819PD200/nstc-aoi-cpo-revenue-growth.html",
-    "short_link": "digitimes.com/news/a20260819PD200/nstc-aoi-cpo-revenue-gro...",
-    "summary": "광학 이미징 기술 기업 NSTC가 반도체 AOI 및 CPO 광전자 모듈과 무인 차량 비전 시스템으로 사업을 전환하며 무인차 매출이 40%를 돌파하는 등 수익 구조 변화가 주목",
-    "published_ago": "3시간 전",
-    "published_at": "2026-08-19T03:27:31+00:00",
-    "published_raw": "Wed, 19 Aug 2026 03:27:31 GMT"
-  },
-  {
-    "title": "Google v10 TPU, AMD와 협력 가능성…브로드컴·미디어텍 배제 안 해",
-    "link": "https://www.digitimes.com/news/a20260819PD202/amd-google-tpu-broadcom-mediatek.html",
-    "short_link": "digitimes.com/news/a20260819PD202/amd-google-tpu-broadcom-...",
-    "summary": "Google의 v10 TPU 기술 협력에 AMD가 참여할 가능성이 제기되었으나, 기존 ASIC 파트너인 Broadcom 및 MediaTek은 배제되지 않을 것으로 관측",
-    "published_ago": "6시간 전",
-    "published_at": "2026-08-19T01:12:29+00:00",
-    "published_raw": "Wed, 19 Aug 2026 01:12:29 GMT"
-  },
-  {
-    "title": "대만 재료 공급업체 분할: 웨이퍼 기업 실속, 기판 및 리드 프레임 운영",
-    "link": "https://www.digitimes.com/news/a20260818VL221/materials-silicon-wafer-wafer-substrate-sas.html",
-    "short_link": "digitimes.com/news/a20260818VL221/materials-silicon-wafer-...",
-    "summary": "대만 재료 공급업체 분할 차트 분석 결과, 두 개의 가장 큰 실리콘 웨이퍼 회사는 해당 부문에서 가장 느리게 성장하는 반면, 기판 및 리드 프레임 이름은 빠르게 운영될 가능성",
-    "published_ago": "6시간 전",
-    "published_at": "2026-08-19T00:55:35+00:00",
-    "published_raw": "Wed, 19 Aug 2026 00:55:35 GMT"
-  },
-  {
-    "title": "삼성전자, SK하이닉스보다 1D D램 개발 1분기 앞서",
-    "link": "https://www.digitimes.com/news/a20260818PD229/samsung-development-dram-sk-hynix-2026.html",
-    "short_link": "digitimes.com/news/a20260818PD229/samsung-development-dram...",
-    "summary": "삼성전자가 SK하이닉스보다 10나노급 7세대 D램(1d D램) 개발을 약 1분기 앞서 2026년 9월 준공을 목표로 추진",
-    "published_ago": "6시간 전",
-    "published_at": "2026-08-19T00:46:38+00:00",
-    "published_raw": "Wed, 19 Aug 2026 00:46:38 GMT"
-  },
-  {
-    "title": "한미반도체, AI 패키징 붐에 9140만달러 공장 구매로 본딩 용량 확대",
-    "link": "https://www.digitimes.com/news/a20260818PD222/hanmi-packaging-equipment-plant-capacity.html",
-    "short_link": "digitimes.com/news/a20260818PD222/hanmi-packaging-equipmen...",
-    "summary": "한미반도체가 AI 반도체 장비 부족 상황 속에서 9140만달러 규모의 인천 주안국가산업단지 공장을 인수하며 8번째이자 최대 생산 기지를 확보해 본딩 용량 확대를 추진",
-    "published_ago": "6시간 전",
-    "published_at": "2026-08-19T00:45:47+00:00",
-    "published_raw": "Wed, 19 Aug 2026 00:45:47 GMT"
-  },
-  {
-    "title": "7월 대만 칩 매출, 로직 아닌 메모리가 주도",
-    "link": "https://www.digitimes.com/news/a20260818VL219/growth-tsmc-revenue-demand-price.html",
-    "short_link": "digitimes.com/news/a20260818VL219/growth-tsmc-revenue-dema...",
-    "summary": "7월 대만 칩 매출에서 TSMC가 절반 이상을 공급했음에도 불구하고 DRAM, NOR 플래시 및 컨트롤러가 성장을 주도하며 메모리 반도체 부문이 시장을 이끌고 있는 것으로 분석",
-    "published_ago": "6시간 전",
-    "published_at": "2026-08-19T00:44:16+00:00",
-    "published_raw": "Wed, 19 Aug 2026 00:44:16 GMT"
-  },
-  {
-    "title": "CXMT, 창업 초기부터 삼성 기술로 DRAM 개발 시도 전 직원 증언",
+    "title": "CXMT, 창업 초기부터 삼성 기술 도용해 DRAM 개발 시도",
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1wVVh1WTZmNHhmVGRLS1BmaGt0Wk10NmJ2czZHREVidHZ5cnU3M1M0Um10MTgyalhhb1hRVlAwbnVESWc1cVFLQ25mWkM0YjRkNG1mMXRpdWdqaXA3aEtxODgzLTBUOG9JOVlrVDRn?oc=5&hl=ko&gl=KR&ceid=KR:ko",
     "short_link": "news.google.com/rss/articles/CBMibkFVX3lxTE1wVVh1WTZmNHhmV...",
     "summary": "CXMT가 창업 초기부터 삼성의 기술을 훔쳐 DRAM 개발을 시도했다는 전 직원의 증언이 나와 주목",
-    "published_ago": "10시간 전",
+    "published_ago": "11시간 전",
     "published_at": "2026-08-18T21:00:00+00:00",
     "published_raw": "Tue, 18 Aug 2026 21:00:00 GMT"
   }
