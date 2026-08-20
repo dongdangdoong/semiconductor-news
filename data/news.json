@@ -1,91 +1,10 @@
 [
   {
-    "title": "SK하이닉스, HBM 팀 신설로 엔비디아·AMD 공략…HBM4 공동 설계 수주",
-    "link": "https://www.digitimes.com/news/a20260820PD219/sk-hynix-hbm-hbm4-design-amd.html",
-    "short_link": "digitimes.com/news/a20260820PD219/sk-hynix-hbm-hbm4-design...",
-    "summary": "SK하이닉스가 실리콘밸리에 HBM 설계팀을 구축하며 엔비디아, AMD 등 주요 미국 칩 고객사와의 공동 설계를 통해 HBM4 주문을 확보할 것으로 전망",
-    "published_ago": "1시간 전",
-    "published_at": "2026-08-20T05:44:00+00:00",
-    "published_raw": "Thu, 20 Aug 2026 05:44:00 GMT"
-  },
-  {
-    "title": "퀄컴, 4개 브랜드 채택으로 NT$10,000 보급형 PC 시장 공략",
-    "link": "https://www.digitimes.com/news/a20260820PD213/qualcomm-pc-snapdragon-market-macbook.html",
-    "short_link": "digitimes.com/news/a20260820PD213/qualcomm-pc-snapdragon-m...",
-    "summary": "퀄컴은 스냅드래곤 C 플랫폼을 통해 NT$10,000 수준의 보급형 PC 시장에 진입하며, 4개 브랜드가 이를 채택하여 저렴한 대안을 제공할 계획",
-    "published_ago": "2시간 전",
-    "published_at": "2026-08-20T05:20:00+00:00",
-    "published_raw": "Thu, 20 Aug 2026 05:20:00 GMT"
-  },
-  {
-    "title": "델타, 로봇공학·반도체·기계 분야 AI 자동화 추진 확대",
-    "link": "https://www.digitimes.com/news/a20260820PD216/robotics-delta-electronics-semiconductors-automation-taipei-international-industrial-automation-exhibition.html",
-    "short_link": "digitimes.com/news/a20260820PD216/robotics-delta-electroni...",
-    "summary": "델타는 타이페이 국제 산업 자동화 전시회에서 기계, 전자 제품 및 반도체 전반에 걸쳐 배포 속도를 높이는 로봇 공학 및 스마트 제조 애플리케이션을 공개하며 AI 자동화 추진을 확대",
-    "published_ago": "3시간 전",
-    "published_at": "2026-08-20T04:11:09+00:00",
-    "published_raw": "Thu, 20 Aug 2026 04:11:09 GMT"
-  },
-  {
-    "title": "중국 SiC 기판 SICC, 2분기 사상 최대 실적…8인치 웨이퍼 매출 50% 차지",
-    "link": "https://www.digitimes.com/news/a20260820VL206/sicc-sic-substrate-revenue-2026.html",
-    "short_link": "digitimes.com/news/a20260820VL206/sicc-sic-substrate-reven...",
-    "summary": "중국 SiC 기판 제조사 SICC가 2분기 사상 최대 실적을 달성했으며, 8인치 웨이퍼가 핵심 매출의 상위 50%를 차지하며 SiC 경제 재편을 가속화할 전망",
-    "published_ago": "3시간 전",
-    "published_at": "2026-08-20T03:52:48+00:00",
-    "published_raw": "Thu, 20 Aug 2026 03:52:48 GMT"
-  },
-  {
-    "title": "\"대만 TSMC, 1.6나노칩 개발 성공…올해 4분기 양산\"",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KemlRVTl0WC05dGlOVjhXTVNnOG5Kb2RMamFGeUdpRklIZzdqZ1FMR3VDdkkwVkI1SHlpbW91WFVnc3dCNXYwaHgwdzBiSlE?oc=5&hl=ko&gl=KR&ceid=KR:ko",
-    "short_link": "news.google.com/rss/articles/CBMiT0FVX3lxTE9KemlRVTl0WC05d...",
-    "summary": "대만 TSMC가 1.6나노칩 개발에 성공하고 올해 4분기 양산을 계획하며, 속도 10% 증가와 전력 소비 20% 감소를 달성할 것으로 예상",
-    "published_ago": "3시간 전",
-    "published_at": "2026-08-20T03:20:49+00:00",
-    "published_raw": "Thu, 20 Aug 2026 03:20:49 GMT"
-  },
-  {
-    "title": "삼성전자, 6조원 규모 온양 HBM 패키징공장 착공",
-    "link": "https://www.digitimes.com/news/a20260820VL203/samsung-hbm-packaging-plant-production.html",
-    "short_link": "digitimes.com/news/a20260820VL203/samsung-hbm-packaging-pl...",
-    "summary": "삼성전자가 AI 메모리 수요 증가에 대응하기 위해 9월 한국 아산 온양 캠퍼스에 6조원 규모의 HBM 생산 및 첨단 패키징 시설 착공을 추진",
-    "published_ago": "4시간 전",
-    "published_at": "2026-08-20T03:08:45+00:00",
-    "published_raw": "Thu, 20 Aug 2026 03:08:45 GMT"
-  },
-  {
-    "title": "CXMT, 삼성 프로세스 데이터로 DRAM 개발 계획 전 엔지니어 진술",
-    "link": "https://www.digitimes.com/news/a20260819VL215/samsung-cxmt-dram-technology-data.html",
-    "short_link": "digitimes.com/news/a20260819VL215/samsung-cxmt-dram-techno...",
-    "summary": "전 삼성전자 연구원이 CXMT가 초창기부터 삼성 프로세스 데이터를 활용해 DRAM을 개발하려 했다고 밝혀, 최근 상하이 상장 설명서의 기술 개발 설명과 상반되는 진술이 부각",
-    "published_ago": "5시간 전",
-    "published_at": "2026-08-20T01:56:42+00:00",
-    "published_raw": "Thu, 20 Aug 2026 01:56:42 GMT"
-  },
-  {
-    "title": "인텔 말레이시아 패키징 확장, 대만서 HBM 유입",
-    "link": "https://www.digitimes.com/news/a20260820PD203/packaging-hbm-intel-taiwan-expansion.html",
-    "short_link": "digitimes.com/news/a20260820PD203/packaging-hbm-intel-taiw...",
-    "summary": "인텔의 말레이시아 패키징 확장으로 한국의 HBM 수출 데이터에서 말레이시아 및 대만 수출이 급증하며, 일부 HBM 배송이 대만에서 말레이시아로 전환될 가능성이 시사",
-    "published_ago": "5시간 전",
-    "published_at": "2026-08-20T01:55:42+00:00",
-    "published_raw": "Thu, 20 Aug 2026 01:55:42 GMT"
-  },
-  {
-    "title": "구자라트, 마이크론 12시간 교대 승인…인도 노동 규칙 재작성",
-    "link": "https://www.digitimes.com/news/a20260819VL213/micron-government-labor-plant-cleanroom.html",
-    "short_link": "digitimes.com/news/a20260819VL213/micron-government-labor-...",
-    "summary": "인도 구자라트 정부가 마이크론 테크놀로지의 Sanand 공장에 12시간 교대근무를 승인하며, 인도가 글로벌 칩 공급망 경쟁을 위해 수십 년 된 노동 규정을 재편하고 있음을 시사",
-    "published_ago": "5시간 전",
-    "published_at": "2026-08-20T01:55:24+00:00",
-    "published_raw": "Thu, 20 Aug 2026 01:55:24 GMT"
-  },
-  {
     "title": "로이터 “삼성전자, 수요 급증에 '파운드리 가격' 최대 15% 인상”",
     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE91ZFl0NzZNY1doQThQOHkxdXk1VFVqUzhtbl9jS2ZCOTUxRjFiVlhGb0VSVkJRUkxpVjhIRlFIVlAwLWxjTDRJODZaMUhUdw?oc=5&hl=ko&gl=KR&ceid=KR:ko",
     "short_link": "news.google.com/rss/articles/CBMiTkFVX3lxTE91ZFl0NzZNY1doQ...",
-    "summary": "로이터 통신에 따르면 삼성전자가 수요 급증에 따라 파운드리 가격을 최대 15% 인상하며, 특히 4나노 공정은 풀가동 중인 것으로 관측",
-    "published_ago": "20시간 전",
+    "summary": "로이터에 따르면 삼성전자가 수요 급증에 따라 파운드리 가격을 최대 15% 인상하며 수익성 개선을 가속화할 전망",
+    "published_ago": "21시간 전",
     "published_at": "2026-08-19T10:27:54+00:00",
     "published_raw": "Wed, 19 Aug 2026 10:27:54 GMT"
   }
