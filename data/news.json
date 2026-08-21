@@ -1,73 +1,10 @@
 [
   {
-    "title": "샤오미 Xring O3, TSMC N3P서 출시 예정…자체 칩 전략 시험대",
-    "link": "https://www.digitimes.com/news/a20260821VL206/xiaomi-xring-launch-silicon-testing-tsmc.html",
-    "short_link": "digitimes.com/news/a20260821VL206/xiaomi-xring-launch-sili...",
-    "summary": "샤오미가 차세대 Xring 칩을 TSMC N3P 공정으로 출시하며 자체 칩 전략을 본격적으로 추진할 계획",
-    "published_ago": "3시간 전",
-    "published_at": "2026-08-21T04:08:08+00:00",
-    "published_raw": "Fri, 21 Aug 2026 04:08:08 GMT"
-  },
-  {
-    "title": "한국 반도체 집중도, 대만보다 나은 이유 분석",
-    "link": "https://www.digitimes.com/news/a20260820PD232/taiwan-exports-market-switzerland-industrial.html?chid=10",
-    "short_link": "digitimes.com/news/a20260820PD232/taiwan-exports-market-sw...",
-    "summary": "최근 금융 분석에 따르면 한국의 반도체 수출이 경제 성장을 견인하며 기술 분야 집중 우려가 커지고 있지만, 단일 산업 의존으로 인한 부작용은 대만보다 적을 가능성이 있다는 분석",
-    "published_ago": "4시간 전",
-    "published_at": "2026-08-21T02:44:44+00:00",
-    "published_raw": "Fri, 21 Aug 2026 02:44:44 GMT"
-  },
-  {
-    "title": "AI 데이터 센터 800VDC 채택, 전력 칩 수요 재편 전망",
-    "link": "https://www.digitimes.com/news/a20260821PD204/data-gan-demand-adoption-sic.html",
-    "short_link": "digitimes.com/news/a20260821PD204/data-gan-demand-adoption...",
-    "summary": "차세대 AI 데이터 센터의 800VDC 전력 아키텍처 전환 가속화로 2026년까지 GaN, SiC 등 전력 반도체 수요가 재편될 것으로 예상",
-    "published_ago": "5시간 전",
-    "published_at": "2026-08-21T01:56:55+00:00",
-    "published_raw": "Fri, 21 Aug 2026 01:56:55 GMT"
-  },
-  {
-    "title": "마이크론, 메모리 및 AI 개발 위한 장거리 연구 허브 출범",
-    "link": "https://www.digitimes.com/news/a20260821PR200/micron-development-technology-packaging-investment.html",
-    "short_link": "digitimes.com/news/a20260821PR200/micron-development-techn...",
-    "summary": "마이크론이 100억 달러 규모의 미국 연구 허브를 출범하며 미래 AI 시스템 구축, 저장 및 확장에 영향을 미칠 메모리, 고급 패키징 및 새로운 컴퓨팅 아키텍처 혁신을 목표로 추진",
-    "published_ago": "6시간 전",
-    "published_at": "2026-08-21T01:15:50+00:00",
-    "published_raw": "Fri, 21 Aug 2026 01:15:50 GMT"
-  },
-  {
-    "title": "JCET, 1.5μm TSV 이정표 달성…HBM 및 2.5D/3D 패키징 강화",
-    "link": "https://www.digitimes.com/news/a20260820VL208/tsv-jcet-packaging-hbm-production.html",
-    "short_link": "digitimes.com/news/a20260820VL208/tsv-jcet-packaging-hbm-p...",
-    "summary": "JCET 그룹이 종횡비 11.3:1의 1.5μm 직경, 17μm 깊이 TSV 시험 생산을 완료하며 고밀도 HBM 및 2.5D/3D 패키징 역량을 확대",
-    "published_ago": "9시간 전",
-    "published_at": "2026-08-20T22:16:36+00:00",
-    "published_raw": "Thu, 20 Aug 2026 22:16:36 GMT"
-  },
-  {
-    "title": "NSIG, 300mm 웨이퍼 출하량 90% 급증…월 생산능력 120만개 육박",
-    "link": "https://www.digitimes.com/news/a20260820VL212/nsig-300mm-capacity-silicon-wafer-silicon.html",
-    "short_link": "digitimes.com/news/a20260820VL212/nsig-300mm-capacity-sili...",
-    "summary": "중국 실리콘 웨이퍼 제조사 NSIG의 300mm 반도체 실리콘 웨이퍼 출하량이 90% 이상 증가하며 월간 생산능력 120만개에 육박하고 매출이 36.51% 증가",
-    "published_ago": "9시간 전",
-    "published_at": "2026-08-20T22:14:21+00:00",
-    "published_raw": "Thu, 20 Aug 2026 22:14:21 GMT"
-  },
-  {
-    "title": "삼성, High-NA EUV 1nm 생산까지 도입 보류",
-    "link": "https://www.digitimes.com/news/a20260820VL217/samsung-high-na-euv-production-1nm-high-na.html",
-    "short_link": "digitimes.com/news/a20260820VL217/samsung-high-na-euv-prod...",
-    "summary": "삼성전자는 2nm 및 1.4nm 노드 도입 희망에도 불구하고 2030년경 1nm급 세대까지 High-NA EUV 리소그래피 대량 생산 전환을 예상하지 않는다고 발표",
-    "published_ago": "9시간 전",
-    "published_at": "2026-08-20T22:13:56+00:00",
-    "published_raw": "Thu, 20 Aug 2026 22:13:56 GMT"
-  },
-  {
     "title": "“대만 TSMC, 1.6나노칩 개발 성공…올해 4분기 양산”",
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85a0llOWpXT25lYkZVYXRaQno0V0FpSEpKaW1QdTFnUlRJN2hGbUlxWWtwbGlZVmFickdZNjE2b0NsWlEwUGJCNXR5STJzNWZ4M3c?oc=5&hl=ko&gl=KR&ceid=KR:ko",
     "short_link": "news.google.com/rss/articles/CBMiUkFVX3lxTE85a0llOWpXT25lY...",
-    "summary": "대만 TSMC가 1.6나노칩 개발을 성공적으로 완료하고 올해 4분기부터 양산에 돌입할 계획",
-    "published_ago": "10시간 전",
+    "summary": "대만 TSMC가 1.6나노칩 개발을 성공하고 올해 4분기부터 양산에 돌입할 계획을 발표하며 AI 반도체 미세공정 경쟁이 본격화",
+    "published_ago": "11시간 전",
     "published_at": "2026-08-20T21:00:00+00:00",
     "published_raw": "Thu, 20 Aug 2026 21:00:00 GMT"
   }
