@@ -1,10 +1,19 @@
 [
   {
+    "title": "메모리 전쟁, 새 전장 열린다…HBF 세글자가 중요한 이유 [이승우의 반도체 오디세이]",
+    "link": "https://www.mk.co.kr/news/business/12133483",
+    "short_link": "mk.co.kr/news/business/12133483",
+    "summary": "AI 발전에 따라 HBM의 한계를 보완할 새로운 메모리 계층으로 샌디스크의 HBF가 512GB 용량과 1.6TB/s 읽기 대역폭을 목표로 개발되며 주목",
+    "published_ago": "22시간 전",
+    "published_at": "2026-08-21T08:56:17+00:00",
+    "published_raw": "2026-08-21T08:56:17+00:00"
+  },
+  {
     "title": "중국 파이오텍, 이익 1324% 급증…첨단증착 규모 확대",
     "link": "https://www.digitimes.com/news/a20260821VL214/equipment-profit-revenue-production-2026.html",
     "short_link": "digitimes.com/news/a20260821VL214/equipment-profit-revenue...",
-    "summary": "중국 반도체 장비업체 파이오텍이 반도체 증착 장비 수요 증가와 신규 공정 도구 채택 확대로 2026년 상반기 이익이 1324% 급증했다고 발표",
-    "published_ago": "15시간 전",
+    "summary": "중국 칩장비업체 파이오텍이 반도체 증착 장비 수요 증가와 신규 공정 도구 채택 확대로 2026년 상반기 이익이 1324% 급증했다고 발표",
+    "published_ago": "22시간 전",
     "published_at": "2026-08-21T08:45:00+00:00",
     "published_raw": "Fri, 21 Aug 2026 08:45:00 GMT"
   },
@@ -12,10 +21,28 @@
     "title": "브로드컴, AI 칩 확장 위해 최대 1000억 달러 부채 자금 조달 검토",
     "link": "https://www.digitimes.com/news/a20260821VL213/broadcom-financing-infrastructure-capacity-anthropic.html",
     "short_link": "digitimes.com/news/a20260821VL213/broadcom-financing-infra...",
-    "summary": "블룸버그에 따르면 브로드컴은 AI 인프라 시장 역할 확대를 위해 자산 관리자들과 600억 달러 이상, 최대 1000억 달러의 부채 자금 조달을 논의 중인 것으로 알려져 주목",
-    "published_ago": "8시간 전",
+    "summary": "블룸버그에 따르면 브로드컴은 AI 인프라 시장 역할 확대를 위해 자산 관리자들과 600억 달러 이상, 최대 1000억 달러 규모의 부채 자금 조달을 논의 중인 것으로 알려져 주목",
+    "published_ago": "22시간 전",
     "published_at": "2026-08-21T08:20:00+00:00",
     "published_raw": "Fri, 21 Aug 2026 08:20:00 GMT"
+  },
+  {
+    "title": "네패스, 충북반도체고에 반도체 교육훈련 장비 16대 기증",
+    "link": "https://www.yna.co.kr/view/AKR20260821148300064?section=industry/electronics",
+    "short_link": "yna.co.kr/view/AKR20260821148300064",
+    "summary": "글로벌 반도체 후공정 전문기업 네패스가 5억5천400만원 상당의 반도체 교육훈련 장비 16대를 충북반도체고등학교에 기증하여 현장 맞춤형 실습교육에 활용될 계획",
+    "published_ago": "23시간 전",
+    "published_at": "2026-08-21T08:00:17+00:00",
+    "published_raw": "2026-08-21T08:00:17+00:00"
+  },
+  {
+    "title": "美 마이크론, AI 메모리 연구소 설립…10년간 100억 달러 투자",
+    "link": "https://zdnet.co.kr/view/?no=20260821162124",
+    "short_link": "zdnet.co.kr/view",
+    "summary": "미국 마이크론이 AI용 차세대 메모리 기술 개발을 위해 아이다호주 보이시 본사 인근에 '마이크론 리서치 랩스'를 설립하고 향후 10년간 100억 달러를 투자할 계획",
+    "published_ago": "23시간 전",
+    "published_at": "2026-08-21T07:51:31+00:00",
+    "published_raw": "2026-08-21T07:51:31+00:00"
   },
   {
     "title": "샤오미 Xring O3, TSMC N3P서 출시 예정…자체 칩 전략 시험대",
