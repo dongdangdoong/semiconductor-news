@@ -1,1 +1,65 @@
-[]
+[
+  {
+    "title": "SK하이닉스, HBF와 CPO로 HBM 넘어선다",
+    "link": "https://www.digitimes.com/news/a20260824PD216/sk-hynix-hbm-cpo-capacity-competition.html",
+    "short_link": "digitimes.com/news/a20260824PD216/sk-hynix-hbm-cpo-capacit...",
+    "summary": "SK하이닉스가 HBM을 넘어 HBF와 CPO 기술을 통해 차세대 AI 시스템의 메모리 구성 및 액세스 방식 경쟁을 본격화할 전망",
+    "published_ago": "3시간 전",
+    "published_at": "2026-08-24T04:08:26+00:00",
+    "published_raw": "Mon, 24 Aug 2026 04:08:26 GMT"
+  },
+  {
+    "title": "일본 1,500억 엔 투자, Rapidus 2nm 램프 순조롭게 진행",
+    "link": "https://www.digitimes.com/news/a20260824VL207/rapidus-2nm-investment-production-chips.html",
+    "short_link": "digitimes.com/news/a20260824VL207/rapidus-2nm-investment-p...",
+    "summary": "Rapidus는 일본의 1,500억 엔 투자와 함께 AI 칩 및 데이터 센터 수요 증가에 힘입어 2027 회계연도 하반기 2nm 칩 대량 생산 계획을 예정대로 추진",
+    "published_ago": "3시간 전",
+    "published_at": "2026-08-24T03:57:05+00:00",
+    "published_raw": "Mon, 24 Aug 2026 03:57:05 GMT"
+  },
+  {
+    "title": "후지필름, AI 칩 수요 대응 위해 오이타에 CMP 이후 세정 공장 신설",
+    "link": "https://www.digitimes.com/news/a20260824PD222/fujifilm-materials-capacity-demand-semiconductors.html",
+    "short_link": "digitimes.com/news/a20260824PD222/fujifilm-materials-capac...",
+    "summary": "후지필름이 AI 칩 수요 증가에 발맞춰 첨단 반도체 소재 생산 능력 확대를 위해 일본 오이타 공장에 포스트 CMP 클리너 생산 건물을 완공하며 칩 공급망 적응을 시사",
+    "published_ago": "4시간 전",
+    "published_at": "2026-08-24T03:33:42+00:00",
+    "published_raw": "Mon, 24 Aug 2026 03:33:42 GMT"
+  },
+  {
+    "title": "미디어텍·GUC·알칩, ASIC 경쟁 자금 조달 전쟁 확대",
+    "link": "https://www.digitimes.com/news/a20260824PD214/asic-mediatek-guc-alchip-war.html",
+    "short_link": "digitimes.com/news/a20260824PD214/asic-mediatek-guc-alchip...",
+    "summary": "하이퍼스케일러 지원 ASIC 칩의 2026년 말 대량 생산 붐을 앞두고 미디어텍, GUC, 알칩 등 칩 제조사들이 자본, 역량, 핵심 고객 확보를 위한 자금 조달 전쟁을 확대",
+    "published_ago": "4시간 전",
+    "published_at": "2026-08-24T02:55:00+00:00",
+    "published_raw": "Mon, 24 Aug 2026 02:55:00 GMT"
+  },
+  {
+    "title": "SEMI, 반도체 소재 동맹 체결",
+    "link": "https://www.digitimes.com/news/a20260824PD206/materials-semi-alliance-taiwan-supply-chain.html",
+    "short_link": "digitimes.com/news/a20260824PD206/materials-semi-alliance-...",
+    "summary": "SEMI가 8월 21일 반도체 재료 동맹을 출범하며 대만이 16년 연속 세계 최대 반도체 재료 소비국 지위를 유지하는 가운데 400개 이상 기업이 참여해 공급망 강화에 나설 계획",
+    "published_ago": "5시간 전",
+    "published_at": "2026-08-24T02:48:25+00:00",
+    "published_raw": "Mon, 24 Aug 2026 02:48:25 GMT"
+  },
+  {
+    "title": "Cadence, AI 칩 로드맵이 데이터 센터 설계 변화 가속화",
+    "link": "https://www.digitimes.com/news/a20260824VL205/cadence-design-cooling-accelerator-infrastructure.html",
+    "short_link": "digitimes.com/news/a20260824VL205/cadence-design-cooling-a...",
+    "summary": "Cadence Design Systems는 AI 가속기의 전력 및 열 요구사항 변화로 데이터 센터 설계자들이 칩 수준 정보를 조기 통합해야 한다고 강조",
+    "published_ago": "5시간 전",
+    "published_at": "2026-08-24T02:45:00+00:00",
+    "published_raw": "Mon, 24 Aug 2026 02:45:00 GMT"
+  },
+  {
+    "title": "YMTC, 상하이 STAR 마켓 상장 신청 접수",
+    "link": "https://www.digitimes.com/news/a20260824VL204/ymtc-shanghai-nand-flash-profit-ipo.html",
+    "short_link": "digitimes.com/news/a20260824VL204/ymtc-shanghai-nand-flash...",
+    "summary": "중국 최대 낸드플래시 제조업체 YMTC가 상하이 STAR 마켓 상장을 신청하며 칩 수요 증가와 미국 수출 규제 악화 속에서 메모리 시장 변동성에 대한 관심이 집중",
+    "published_ago": "5시간 전",
+    "published_at": "2026-08-24T02:24:27+00:00",
+    "published_raw": "Mon, 24 Aug 2026 02:24:27 GMT"
+  }
+]
