@@ -1,5 +1,14 @@
 [
   {
+    "title": "TSMC 공급업체, 핵심 칩 제조 튜브 대만 공장 계획",
+    "link": "https://www.digitimes.com/news/a20260825VL212/taiwan-semiconductor-supply-chain-taiwan-tsmc-plant-materials.html",
+    "short_link": "digitimes.com/news/a20260825VL212/taiwan-semiconductor-sup...",
+    "summary": "TSMC 공급업체인 Nichias와 Gold Stone Development가 칩 제조 공정에 필수적인 불소수지(PFA) 튜브를 대만 신주에서 생산하기 위한 공장 건설을 추진",
+    "published_ago": "3시간 전",
+    "published_at": "2026-08-25T03:45:00+00:00",
+    "published_raw": "Tue, 25 Aug 2026 03:45:00 GMT"
+  },
+  {
     "title": "엔비디아, 추론용 칩 ‘그록 3′ 양산 돌입...삼성 파운드리 생산",
     "link": "https://n.news.naver.com/mnews/article/023/0003994770",
     "short_link": "n.news.naver.com/mnews/article/023/0003994770",
@@ -7,6 +16,24 @@
     "published_ago": "3시간 전",
     "published_at": "2026-08-25T02:23:08+00:00",
     "published_raw": "2026-08-25T02:23:08+00:00"
+  },
+  {
+    "title": "삼성·SK하이닉스, 美 툴 리스크 증가에 中 낸드 업그레이드 강화",
+    "link": "https://www.digitimes.com/news/a20260825VL206/samsung-sk-hynix-nand-equipment-production.html",
+    "short_link": "digitimes.com/news/a20260825VL206/samsung-sk-hynix-nand-eq...",
+    "summary": "삼성전자와 SK하이닉스는 서구 칩 제조 도구 접근 불확실성 속에서도 2027년까지 중국 낸드 플래시 공장 장비 지출을 늘려 기존 생산 라인 업그레이드를 강화",
+    "published_ago": "5시간 전",
+    "published_at": "2026-08-25T02:21:49+00:00",
+    "published_raw": "Tue, 25 Aug 2026 02:21:49 GMT"
+  },
+  {
+    "title": "인피니언, AI 데이터센터 전력 시스템 강화 위해 C2i Semiconductors 인수",
+    "link": "https://www.digitimes.com/news/a20260825PR203/infineon-data-center-acquisition-india-management.html",
+    "short_link": "digitimes.com/news/a20260825PR203/infineon-data-center-acq...",
+    "summary": "인피니언 테크놀로지스가 AI 데이터센터 전력 공급 분야 입지 강화를 위해 인도 방갈로르 소재 C2i Semiconductors를 인수하며 칩 설계에서 인도의 역할 증가를 강조",
+    "published_ago": "5시간 전",
+    "published_at": "2026-08-25T01:35:07+00:00",
+    "published_raw": "Tue, 25 Aug 2026 01:35:07 GMT"
   },
   {
     "title": "엔비디아, '그록 3 LPX' 대량 양산 돌입…삼성전자·전기 수혜",
