@@ -4,9 +4,18 @@
     "link": "https://www.digitimes.com/news/a20260827VL230/uk-npu-infrastructure-partnership-software.html",
     "short_link": "digitimes.com/news/a20260827VL230/uk-npu-infrastructure-pa...",
     "summary": "Rebellions는 영국 AI 인프라 스타트업 Callosum과 협력하여 영국에 100개 이상의 NPU 기반 컴퓨팅 랙 배포를 추진하며 유럽 시장 진입을 모색할 전망",
-    "published_ago": "1시간 전",
+    "published_ago": "11시간 전",
     "published_at": "2026-08-27T08:55:00+00:00",
     "published_raw": "Thu, 27 Aug 2026 08:55:00 GMT"
+  },
+  {
+    "title": "삼성, HBM 넘어 zHBF 푸시 신호…메모리 경쟁 심화",
+    "link": "https://www.digitimes.com/news/a20260827VL229/samsung-hbm-bandwidth-capacity-2026.html",
+    "short_link": "digitimes.com/news/a20260827VL229/samsung-hbm-bandwidth-ca...",
+    "summary": "삼성전자가 AI 추론을 위한 새로운 낸드 기반 메모리 계층인 고대역폭 플래시(HBF)로의 진출을 예고하며 HBM을 넘어 차세대 메모리 시장 경쟁을 본격화할 전망",
+    "published_ago": "12시간 전",
+    "published_at": "2026-08-27T08:22:24+00:00",
+    "published_raw": "Thu, 27 Aug 2026 08:22:24 GMT"
   },
   {
     "title": "그랜드퍼시픽석유화학, 일본 AWI와 대만 반도체 특수 소재 시장 진출",
@@ -25,6 +34,15 @@
     "published_ago": "4시간 전",
     "published_at": "2026-08-27T06:30:00+00:00",
     "published_raw": "Thu, 27 Aug 2026 06:30:00 GMT"
+  },
+  {
+    "title": "삼성전자 '생각하는 메모리' vs SK하이닉스 '식히는 HBM'[핫칩스 2026]",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5xeVBkanhsdUVlcnFLTFFmbTRmazN6RDFiS1BDRlNsVERkdTBXV3hIMi15cHlqc293b2szcDlSNllvVlpvVng2dEk5VGtuSXc?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMiT0FVX3lxTE5xeVBkanhsdUVlc...",
+    "summary": "삼성전자가 '생각하는 메모리'를, SK하이닉스가 '식히는 HBM'을 핫칩스 2026에서 선보이며, 퀄컴은 양사의 HBC 개발에 적극적이라고 밝혀 HBM과 병행 개발될 가능성을 시사",
+    "published_ago": "15시간 전",
+    "published_at": "2026-08-27T05:01:00+00:00",
+    "published_raw": "Thu, 27 Aug 2026 05:01:00 GMT"
   },
   {
     "title": "두산, 메모리 패키지 CCL 절연체 13μm로 박형화 개발",
