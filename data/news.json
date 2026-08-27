@@ -1,29 +1,74 @@
 [
   {
-    "title": "엔비디아, AI 맞춤형 메모리 'NVHBM' 공개",
-    "link": "https://n.news.naver.com/mnews/article/092/0002435240",
-    "short_link": "n.news.naver.com/mnews/article/092/0002435240",
-    "summary": "엔비디아가 자체 설계한 고대역폭메모리(HBM) 기술 'NVHBM'을 공개하며 아마존과 협력해 공동 개발할 계획을 발표",
-    "published_ago": "32분 전",
-    "published_at": "2026-08-27T00:25:11+00:00",
-    "published_raw": "2026-08-27T00:25:11+00:00"
-  },
-  {
-    "title": "아마존, 엔비디아 AI칩 200만개 더 산다…생성형AI 수요 대응",
-    "link": "https://n.news.naver.com/mnews/article/092/0002435230",
-    "short_link": "n.news.naver.com/mnews/article/092/0002435230",
-    "summary": "아마존이 생성형 AI 수요에 대응하기 위해 2027년과 2028년에 엔비디아의 블랙웰 울트라, 루빈, 루빈 울트라 GPU 약 200만개를 추가 도입하며 AI 인프라 투자를 확대",
+    "title": "영국 칩 지출 확대 속 Rebellions, NPU 랙 100개 이상 목표",
+    "link": "https://www.digitimes.com/news/a20260827VL230/uk-npu-infrastructure-partnership-software.html",
+    "short_link": "digitimes.com/news/a20260827VL230/uk-npu-infrastructure-pa...",
+    "summary": "Rebellions는 영국 AI 인프라 스타트업 Callosum과 협력하여 영국에 100개 이상의 NPU 기반 컴퓨팅 랙 배포를 추진하며 유럽 시장 진입을 모색할 전망",
     "published_ago": "1시간 전",
-    "published_at": "2026-08-26T23:52:15+00:00",
-    "published_raw": "2026-08-26T23:52:15+00:00"
+    "published_at": "2026-08-27T08:55:00+00:00",
+    "published_raw": "Thu, 27 Aug 2026 08:55:00 GMT"
   },
   {
-    "title": "오픈AI, 자체 칩 ‘할라페뇨’ 연내 투입…삼성전자 HBM 탑재 추정 - 조선비즈",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNa3hibUcydk9lUXJyMjJZQjVRUUxyNlE4VlBrQUVFZlBYXzI2M2RVLXZTT09mUkF2ajZ4dWJ6cWJZR3ZJMG1LQVE4U3RhNnY5ejdYT2J1b28wZUNOaEtGVUhpSnVySndmWEdaSFVvY3dLU3FtRTliRGJxNWpxVnZNQV9n0gGWAUFVX3lxTE5rTDBhYlgyVnlwdEY4YWFXNkNNVl95WWlhUTNaZ1lQLWRpY3hCTmZQdFk4cVh3TlB4UFBDY3lxVk9vc0h4UzBqSW9rSU9FblRVUWtJcDEzbVFQRlBZbnFoODQtc2NnVmxteHVvSDFocHB5bm9lYktoU3hYckRMajY2dDdxUTVGRmtpdzdzNWtvVXZ6d1RqQQ?oc=5&hl=ko&gl=KR&ceid=KR:ko",
-    "short_link": "news.google.com/rss/articles/CBMiggFBVV95cUxNa3hibUcydk9lU...",
-    "summary": "오픈AI가 엔비디아보다 빠르고 효율적인 자체 AI 칩 '할라페뇨'를 연내 투입하며, 삼성전자가 이 칩에 HBM4를 공급해 빅3 고객사를 확보할 것으로 예상",
-    "published_ago": "18시간 전",
-    "published_at": "2026-08-26T06:33:00+00:00",
-    "published_raw": "Wed, 26 Aug 2026 06:33:00 GMT"
+    "title": "그랜드퍼시픽석유화학, 일본 AWI와 대만 반도체 특수 소재 시장 진출",
+    "link": "https://www.digitimes.com/news/a20260826PD249/materials-taiwan-market-industrial-partnership.html",
+    "short_link": "digitimes.com/news/a20260826PD249/materials-taiwan-market-...",
+    "summary": "대만 그랜드퍼시픽석유화학이 일본 에어워터와 훙광하이테크 유상증자에 참여하며 대만 반도체 특수 소재 시장에 본격 진입",
+    "published_ago": "4시간 전",
+    "published_at": "2026-08-27T06:38:00+00:00",
+    "published_raw": "Thu, 27 Aug 2026 06:38:00 GMT"
+  },
+  {
+    "title": "포드, 차세대 스마트 운전 위해 애플 지도 데이터 채택",
+    "link": "https://www.digitimes.com/news/a20260827PD229/apple-ford-software-adas-data-development.html",
+    "short_link": "digitimes.com/news/a20260827PD229/apple-ford-software-adas...",
+    "summary": "포드 자동차는 자체 EV 플랫폼과 차세대 BlueCruise ADAS 개발을 위해 애플의 MapKit과 지도 데이터를 채택하며, 자동차 산업의 스마트 변혁을 가속화할 계획",
+    "published_ago": "4시간 전",
+    "published_at": "2026-08-27T06:30:00+00:00",
+    "published_raw": "Thu, 27 Aug 2026 06:30:00 GMT"
+  },
+  {
+    "title": "두산, 메모리 패키지 CCL 절연체 13μm로 박형화 개발",
+    "link": "https://www.digitimes.com/news/a20260827VL221/doosan-ccl-development-substrate-materials.html",
+    "short_link": "digitimes.com/news/a20260827VL221/doosan-ccl-development-s...",
+    "summary": "두산 전자BG는 메모리 반도체 패키지 기판용 프리프레그 절연층을 18μm에서 13μm로 줄이는 동박적층판 기술을 개발하고 양산을 준비 중인 것으로 확인",
+    "published_ago": "6시간 전",
+    "published_at": "2026-08-27T04:29:15+00:00",
+    "published_raw": "Thu, 27 Aug 2026 04:29:15 GMT"
+  },
+  {
+    "title": "키옥시아, 낸드 수요 증가에 기타카미 3번째 팹 건설 검토",
+    "link": "https://www.digitimes.com/news/a20260827VL225/kioxia-demand-nand-fab-investment.html",
+    "short_link": "digitimes.com/news/a20260827VL225/kioxia-demand-nand-fab-i...",
+    "summary": "키옥시아는 낸드 수요 증가에 따라 2029년 이후 생산 능력 확장을 위해 일본 북부 기타카미 공장에 새로운 제조 건물 건설을 검토 중인 것으로 확인",
+    "published_ago": "6시간 전",
+    "published_at": "2026-08-27T04:21:01+00:00",
+    "published_raw": "Thu, 27 Aug 2026 04:21:01 GMT"
+  },
+  {
+    "title": "SK하이닉스, HBM 제약 요인으로 열·패키징 한계 지적하며 PIM에 의문 제기",
+    "link": "https://www.digitimes.com/news/a20260827PD217/sk-hynix-hbm-packaging-samsung-data.html",
+    "short_link": "digitimes.com/news/a20260827PD217/sk-hynix-hbm-packaging-s...",
+    "summary": "SK하이닉스가 HBM의 열 및 패키징 한계를 지적하며 삼성전자가 핵심 솔루션으로 제시하는 PIM에 의문을 제기하고, 데이터 이동 간소화를 위한 패키징 인터커넥트 혁신에 집중할 계획",
+    "published_ago": "6시간 전",
+    "published_at": "2026-08-27T03:48:13+00:00",
+    "published_raw": "Thu, 27 Aug 2026 03:48:13 GMT"
+  },
+  {
+    "title": "CXMT DDR5 8,000MT/s, SK하이닉스에 1% 미만 근접",
+    "link": "https://www.digitimes.com/news/a20260827VL209/cxmt-ddr5-sk-hynix-memory-chips-performance.html",
+    "short_link": "digitimes.com/news/a20260827VL209/cxmt-ddr5-sk-hynix-memor...",
+    "summary": "CXMT의 DDR5 칩이 8,000MT/s로 안정적으로 작동하며 SK하이닉스 M-다이와 생산성 및 게임 성능 격차를 1% 미만으로 좁히는 것으로 확인",
+    "published_ago": "7시간 전",
+    "published_at": "2026-08-27T03:15:49+00:00",
+    "published_raw": "Thu, 27 Aug 2026 03:15:49 GMT"
+  },
+  {
+    "title": "세 번 접는 롤러블 폴더블, 재료 공급망 경쟁 강화",
+    "link": "https://www.digitimes.com/news/a20260827PD216/samsung-materials-supply-chain-2025-galaxy.html",
+    "short_link": "digitimes.com/news/a20260827PD216/samsung-materials-supply...",
+    "summary": "삼성전자의 2025년 첫 3단 폴더블폰인 갤럭시Z 트라이폴드가 3만대 출하에 그쳤지만, 2027년 하반기에는 더 얇고 내구성 있는 2세대 모델 출시가 예상",
+    "published_ago": "7시간 전",
+    "published_at": "2026-08-27T02:53:37+00:00",
+    "published_raw": "Thu, 27 Aug 2026 02:53:37 GMT"
   }
 ]
