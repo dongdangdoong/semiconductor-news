@@ -1,5 +1,23 @@
 [
   {
+    "title": "HBM만으론 부족해...AI 메모리 신기술 뜬다",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NWXltRzdzYjF6TlVMY1lIOWRfUGhrTDMzS04weWNqRkZ3OXBXN19hT0hLZUlDUUwydkVuNUpyWjZBNG05enN3Nm0wN3R5WWJ1LUpaMm13?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMiVkFVX3lxTE5NWXltRzdzYjF6T...",
+    "summary": "삼성전자는 '생각하는 메모리'를, SK하이닉스는 '식히는 HBM'을 각각 AI 메모리 신기술로 개발하며 AI 병목 현상에 대한 대안을 모색하고 있어 주목",
+    "published_ago": "10시간 전",
+    "published_at": "2026-08-28T06:58:37+00:00",
+    "published_raw": "Fri, 28 Aug 2026 06:58:37 GMT"
+  },
+  {
+    "title": "대만 OSAT, AI 패키징 경쟁에 146억 달러 투자 계획",
+    "link": "https://www.digitimes.com/news/a20260828PD224/king-yuan-ase-powertech-capex-investment-packaging-testing-taiwan.html",
+    "short_link": "digitimes.com/news/a20260828PD224/king-yuan-ase-powertech-...",
+    "summary": "AI 투자 주기가 웨이퍼 제조에서 반도체 패키징 및 테스트로 확산됨에 따라 대만 최대 OSAT 공급업체가 새로운 생산 능력 확장을 위해 146억 달러 투자를 계획",
+    "published_ago": "10시간 전",
+    "published_at": "2026-08-28T06:47:40+00:00",
+    "published_raw": "Fri, 28 Aug 2026 06:47:40 GMT"
+  },
+  {
     "title": "삼성, 2029년 zHBM 제품 출시 목표…열 관리 난제",
     "link": "https://www.digitimes.com/news/a20260828VL208/samsung-bandwidth-packaging-3d-president.html",
     "short_link": "digitimes.com/news/a20260828VL208/samsung-bandwidth-packag...",
@@ -16,5 +34,32 @@
     "published_ago": "1시간 전",
     "published_at": "2026-08-28T03:08:37+00:00",
     "published_raw": "Fri, 28 Aug 2026 03:08:37 GMT"
+  },
+  {
+    "title": "AI 반도체 훈풍에 파운드리 시장 29% 성장…1위는 TSMC",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42dFpQOEZyYm1fUERTUDdGY2pzRENwUUVCQ0FQMm9HMjVxTnp0Vk5jYjM0WlRnSW9fMHB2S1FpdEx5XzAzWGZDNU00QWNJRThlS3FSTUIyYjQtTFnSAWBBVV95cUxNYUg4SFpIR2t3MGNJckNvdlJXZlZDaHdqRldUVmNlemRzVld1TFRIY0QybkR0VE5QaTVtd0Mxd0U4MjRsRFkwMUpubmdzR05YWkVyaWNyYWRqLWFOTE1RRy0?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMiW0FVX3lxTE42dFpQOEZyYm1fU...",
+    "summary": "올해 2분기 파운드리 시장이 29% 성장한 가운데 TSMC가 점유율 73%로 1위를 차지하며 7%에 머문 삼성전자와 66%P 격차를 보인 것으로 분석",
+    "published_ago": "14시간 전",
+    "published_at": "2026-08-28T02:14:37+00:00",
+    "published_raw": "Fri, 28 Aug 2026 02:14:37 GMT"
+  },
+  {
+    "title": "Error 500 (Server Error)1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "link": "https://www.digitimes.com/news/a20260828PR202/kioxia-investment-manufacturing-flash-partnership.html",
+    "short_link": "digitimes.com/news/a20260828PR202/kioxia-investment-manufa...",
+    "summary": "일본의 대규모 칩 제조 투자가 Kioxia와 Sandisk의 플래시 메모리 생산량 확대를 통해 글로벌 공급망 안정화와 미일 파트너십 강화를 추진",
+    "published_ago": "16시간 전",
+    "published_at": "2026-08-28T01:10:42+00:00",
+    "published_raw": "Fri, 28 Aug 2026 01:10:42 GMT"
+  },
+  {
+    "title": "SK하이닉스, 40억 달러 규모 인디애나 HBM 패키징 공장 착공",
+    "link": "https://www.digitimes.com/news/a20260828VL202/sk-hynix-hbm-packaging-plant-usa-production.html",
+    "short_link": "digitimes.com/news/a20260828VL202/sk-hynix-hbm-packaging-p...",
+    "summary": "SK하이닉스가 미국 최초의 고대역폭 메모리(HBM) 부지인 퍼듀 리서치 파크에 40억 달러 규모의 첨단 패키징 공장을 8월 27일 착공하며 미국 내 생산 기반을 강화할 계획",
+    "published_ago": "16시간 전",
+    "published_at": "2026-08-28T01:00:07+00:00",
+    "published_raw": "Fri, 28 Aug 2026 01:00:07 GMT"
   }
 ]
