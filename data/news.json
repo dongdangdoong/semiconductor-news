@@ -1,10 +1,55 @@
 [
   {
+    "title": "SK하이닉스, 맞춤형 HBM으로 추론 이득 최대 5.15배 제공",
+    "link": "https://www.digitimes.com/news/a20260901VL220/sk-hynix-hbm-capacity-performance-ai-agent-semicon-taiwan.html",
+    "short_link": "digitimes.com/news/a20260901VL220/sk-hynix-hbm-capacity-pe...",
+    "summary": "SK하이닉스가 계산 기능을 베이스 다이에 배치하는 맞춤형 HBM 아키텍처를 통해 대규모 언어 모델 추론 성능을 최대 5.15배까지 향상시킬 수 있다고 발표",
+    "published_ago": "1시간 전",
+    "published_at": "2026-09-01T08:53:42+00:00",
+    "published_raw": "Tue, 1 Sep 2026 08:53:42 GMT"
+  },
+  {
+    "title": "삼성, 2027년 초 LPDDR5X-PIM 생산 목표, 3.8배 성능 향상 주장",
+    "link": "https://www.digitimes.com/news/a20260901VL218/samsung-production-performance-2027-hbm.html",
+    "short_link": "digitimes.com/news/a20260901VL218/samsung-production-perfo...",
+    "summary": "삼성전자가 2026년 말 또는 2027년 초 LPDDR5X PIM 솔루션의 대량 생산을 목표로 하며, HBM을 넘어 포트폴리오를 확장해 기술 상용화를 본격화",
+    "published_ago": "2시간 전",
+    "published_at": "2026-09-01T08:18:56+00:00",
+    "published_raw": "Tue, 1 Sep 2026 08:18:56 GMT"
+  },
+  {
+    "title": "대만 스카이텍, TSMC 지원으로 첨단 공정 연구소 개설",
+    "link": "https://www.digitimes.com/news/a20260901PD241/skytech-tsmc-equipment-taiwan-development.html",
+    "short_link": "digitimes.com/news/a20260901PD241/skytech-tsmc-equipment-t...",
+    "summary": "대만 칩 장비 제조업체 스카이텍이 TSMC의 지원을 받아 차세대 반도체 제조에 초점을 맞춘 첨단 공정 연구소를 개설하며 국내 반도체 장비 공급망 강화에 기여할 것으로 전망",
+    "published_ago": "2시간 전",
+    "published_at": "2026-09-01T07:55:00+00:00",
+    "published_raw": "Tue, 1 Sep 2026 07:55:00 GMT"
+  },
+  {
+    "title": "ASML, High NA EUV 첫 대용량 로직 제품 도달 발표",
+    "link": "https://www.digitimes.com/news/a20260901VL216/asml-euv-taiwan-performance-wafer.html",
+    "short_link": "digitimes.com/news/a20260901VL216/asml-euv-taiwan-performa...",
+    "summary": "ASML이 SEMICON Taiwan에서 High NA EUV 플랫폼이 최초의 대0.55 NA 리소그래피 생산 서비스 전환 임계점에 도달했다고 발표",
+    "published_ago": "4시간 전",
+    "published_at": "2026-09-01T06:13:20+00:00",
+    "published_raw": "Tue, 1 Sep 2026 06:13:20 GMT"
+  },
+  {
+    "title": "Imec, 칩 확장 2040년 계획 및 AI 다음 이점은 풀 스택 통합 필요 강조",
+    "link": "https://www.digitimes.com/news/a20260901PD229/roadmap-design-cmos-hardware-ceo.html",
+    "short_link": "digitimes.com/news/a20260901PD229/roadmap-design-cmos-hard...",
+    "summary": "Imec은 AI 확장을 위해 로직, 메모리, 상호 연결 및 시스템 아키텍처 전반의 긴밀한 통합이 필수적이라며, 고급 반도체 로드맵을 2040년대 초반으로 확장할 계획",
+    "published_ago": "6시간 전",
+    "published_at": "2026-09-01T03:56:19+00:00",
+    "published_raw": "Tue, 1 Sep 2026 03:56:19 GMT"
+  },
+  {
     "title": "AI칩 팔고 투자도 한다… 엔비디아가 미디어텍에 35억달러 베팅하는 이유 - 조선비즈",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTXlYdkRfSDgtM3FvWlZNUGFBemJXNW5QaS1VMG1TMjdEMTZndDkzVTE4cUxhVjNIREd2UmttN3BYMEUxQ2VaT19NUnFUcFgtMkktaXI1Z3dlQV8wZm9NcVZkWHpMNUliRk5BeEFwWHdibWxzSklTVVVqRXhQSHZNbUhWTFdpcS1GejVhRW1DR05Qa2N4RUhtZjlCaklCZ9IBsgFBVV95cUxOUWdWSHN0dmZiQkMzYmlNQ0dzZnh1Rk9pLVVwT1ZpVUo5aGZQam1vNWhNS01kY1dNcjUtQlRIdEFfYnpjRExkYmF2N09MZjFiUVRRRkx5QkpVQXJWeTNBZGM5UUxKa3RPMjZ5SXRXd0phN2dBR2toUjlIajU5YXl4ZXVQTE9UQjBQQllaQVlvbE8wdXBQSFVIbFEweTVkVTk4Q0FwaVVZZmZLS0tJNTFWNXZB?oc=5&hl=ko&gl=KR&ceid=KR:ko",
     "short_link": "news.google.com/rss/articles/CBMingFBVV95cUxOTXlYdkRfSDgtM...",
-    "summary": "엔비디아가 대만 미디어텍에 35억달러(약 4.8조원)를 투자하며 맞춤형 AI칩까지 아우르는 AI 생태계 확장을 본격화",
-    "published_ago": "3시간 전",
+    "summary": "엔비디아가 대만 미디어텍에 35억달러(약 4.8조원)를 투자하여 맞춤형 AI칩까지 아우르는 AI 생태계를 확장할 계획",
+    "published_ago": "8시간 전",
     "published_at": "2026-09-01T02:36:00+00:00",
     "published_raw": "Tue, 01 Sep 2026 02:36:00 GMT"
   }
