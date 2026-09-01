@@ -3,27 +3,18 @@
     "title": "SK하이닉스, 맞춤형 HBM으로 추론 이득 최대 5.15배 제공",
     "link": "https://www.digitimes.com/news/a20260901VL220/sk-hynix-hbm-capacity-performance-ai-agent-semicon-taiwan.html",
     "short_link": "digitimes.com/news/a20260901VL220/sk-hynix-hbm-capacity-pe...",
-    "summary": "SK하이닉스는 계산 기능을 베이스 다이에 배치하는 맞춤형 HBM 아키텍처를 통해 대규모 언어 모델 추론 성능을 최대 5.15배까지 향상시킬 수 있다고 발표",
-    "published_ago": "9시간 전",
+    "summary": "SK하이닉스는 계산 기능을 베이스 다이에 배치하는 맞춤형 HBM 아키텍처를 통해 컴퓨팅 성능 제약이 커지는 상황에서 최대 5.15배의 추론 이득을 제공할 수 있다고 발표",
+    "published_ago": "12시간 전",
     "published_at": "2026-09-01T08:53:42+00:00",
     "published_raw": "Tue, 1 Sep 2026 08:53:42 GMT"
   },
   {
-    "title": "삼성, 2027년 초 LPDDR5X-PIM 생산 목표, 3.8배 성능 향상 주장",
+    "title": "삼성, 2027년 초 LPDDR5X-PIM 양산 목표…성능 3.8배 향상",
     "link": "https://www.digitimes.com/news/a20260901VL218/samsung-production-performance-2027-hbm.html",
     "short_link": "digitimes.com/news/a20260901VL218/samsung-production-perfo...",
-    "summary": "삼성전자는 2026년 말 또는 2027년 초 LPDDR5X PIM 솔루션의 대량 생산을 목표로 하며, HBM을 넘어 포트폴리오를 확장할 계획",
-    "published_ago": "10시간 전",
+    "summary": "삼성전자가 2026년 말 또는 2027년 초 LPDDR5X PIM 솔루션의 대량 생산을 목표로 하며, HBM을 넘어 포트폴리오를 확장해 상용화를 본격화",
+    "published_ago": "13시간 전",
     "published_at": "2026-09-01T08:18:56+00:00",
     "published_raw": "Tue, 1 Sep 2026 08:18:56 GMT"
-  },
-  {
-    "title": "AI칩 팔고 투자도 한다… 엔비디아가 미디어텍에 35억달러 베팅하는 이유 - 조선비즈",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTXlYdkRfSDgtM3FvWlZNUGFBemJXNW5QaS1VMG1TMjdEMTZndDkzVTE4cUxhVjNIREd2UmttN3BYMEUxQ2VaT19NUnFUcFgtMkktaXI1Z3dlQV8wZm9NcVZkWHpMNUliRk5BeEFwWHdibWxzSklTVVVqRXhQSHZNbUhWTFdpcS1GejVhRW1DR05Qa2N4RUhtZjlCaklCZ9IBsgFBVV95cUxOUWdWSHN0dmZiQkMzYmlNQ0dzZnh1Rk9pLVVwT1ZpVUo5aGZQam1vNWhNS01kY1dNcjUtQlRIdEFfYnpjRExkYmF2N09MZjFiUVRRRkx5QkpVQXJWeTNBZGM5UUxKa3RPMjZ5SXRXd0phN2dBR2toUjlIajU5YXl4ZXVQTE9UQjBQQllaQVlvbE8wdXBQSFVIbFEweTVkVTk4Q0FwaVVZZmZLS0tJNTFWNXZB?oc=5&hl=ko&gl=KR&ceid=KR:ko",
-    "short_link": "news.google.com/rss/articles/CBMingFBVV95cUxOTXlYdkRfSDgtM...",
-    "summary": "엔비디아가 미디어텍에 35억달러를 투자하며 맞춤형 AI칩까지 생태계로 품어 AI칩 시장의 판도를 다시 짜고 동맹을 확대할 것으로 전망",
-    "published_ago": "16시간 전",
-    "published_at": "2026-09-01T02:36:00+00:00",
-    "published_raw": "Tue, 01 Sep 2026 02:36:00 GMT"
   }
 ]
