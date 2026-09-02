@@ -1,29 +1,11 @@
 [
   {
-    "title": "SK하이닉스, 맞춤형 HBM으로 추론 이득 최대 5.15배 제공",
-    "link": "https://www.digitimes.com/news/a20260901VL220/sk-hynix-hbm-capacity-performance-ai-agent-semicon-taiwan.html",
-    "short_link": "digitimes.com/news/a20260901VL220/sk-hynix-hbm-capacity-pe...",
-    "summary": "SK하이닉스는 계산 기능을 베이스 다이에 배치하는 맞춤형 HBM 아키텍처를 통해 대규모 언어 모델 추론 성능을 최대 5.15배까지 향상시킬 수 있다고 발표",
-    "published_ago": "14시간 전",
-    "published_at": "2026-09-01T08:53:42+00:00",
-    "published_raw": "Tue, 1 Sep 2026 08:53:42 GMT"
-  },
-  {
-    "title": "삼성, 2027년 초 LPDDR5X-PIM 생산 목표, 3.8배 성능 향상 주장",
-    "link": "https://www.digitimes.com/news/a20260901VL218/samsung-production-performance-2027-hbm.html",
-    "short_link": "digitimes.com/news/a20260901VL218/samsung-production-perfo...",
-    "summary": "삼성전자가 2026년 말 또는 2027년 초 LPDDR5X PIM 솔루션의 대량 생산을 목표로 하며, HBM을 넘어 포트폴리오를 확장할 계획",
-    "published_ago": "15시간 전",
-    "published_at": "2026-09-01T08:18:56+00:00",
-    "published_raw": "Tue, 1 Sep 2026 08:18:56 GMT"
-  },
-  {
-    "title": "엔비디아, 대만 미디어텍에 4.8조원 투자...맞춤형AI칩도 품는다[글로벌AI브리핑]",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wY2hIVGRzdnI1RklTT0cwV1hrdXYwR3NzeVdmQlBUMG8yVzNuX0Q0dzRoMWtsRW8xclYyX0lpd0pFRTlBN1lMMkNwdUdPdDA?oc=5&hl=ko&gl=KR&ceid=KR:ko",
-    "short_link": "news.google.com/rss/articles/CBMiT0FVX3lxTE0wY2hIVGRzdnI1R...",
-    "summary": "엔비디아가 대만 미디어텍에 4.8조원을 투자하여 맞춤형 AI칩을 확보하며 AI 생태계를 확장할 계획",
-    "published_ago": "23시간 전",
-    "published_at": "2026-08-31T23:52:00+00:00",
-    "published_raw": "Mon, 31 Aug 2026 23:52:00 GMT"
+    "title": "대만 스카이텍, TSMC 지원으로 첨단 공정 연구소 개설",
+    "link": "https://www.digitimes.com/news/a20260901PD241/skytech-tsmc-equipment-taiwan-development.html",
+    "short_link": "digitimes.com/news/a20260901PD241/skytech-tsmc-equipment-t...",
+    "summary": "대만 칩 장비 제조업체 스카이텍이 TSMC의 지원을 받아 첨단 공정 연구소를 개설하며 기술 개발을 본격화",
+    "published_ago": "17시간 전",
+    "published_at": "2026-09-01T07:55:00+00:00",
+    "published_raw": "Tue, 1 Sep 2026 07:55:00 GMT"
   }
 ]
