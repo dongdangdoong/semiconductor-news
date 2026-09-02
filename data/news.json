@@ -1,56 +1,11 @@
 [
   {
-    "title": "샌디스크, HBF로 HBM 대역폭 일치 및 최대 16배 용량 확보",
+    "title": "샌디스크, HBF로 HBM 대역폭 일치 및 최대 16배 용량 제공",
     "link": "https://www.digitimes.com/news/a20260902VL225/hbm-bandwidth-capacity-technology-flash.html",
     "short_link": "digitimes.com/news/a20260902VL225/hbm-bandwidth-capacity-t...",
-    "summary": "샌디스크는 자사의 낸드 기반 고대역폭 플래시(HBF) 기술이 HBM 대역폭과 동일한 성능을 제공하면서도 8~16배 더 많은 용량을 유사한 비용으로 제공할 수 있다고 발표",
-    "published_ago": "42분 전",
+    "summary": "샌디스크는 자사의 NAND 기반 고대역폭 플래시(HBF) 기술이 HBM 대역폭과 일치하면서도 8~16배의 용량을 유사한 비용으로 제공할 수 있다고 발표",
+    "published_ago": "4시간 전",
     "published_at": "2026-09-02T09:54:45+00:00",
     "published_raw": "Wed, 2 Sep 2026 09:54:45 GMT"
-  },
-  {
-    "title": "마이크론, HBM 10배 이상 대역폭 긴밀 결합 DRAM 개발",
-    "link": "https://www.digitimes.com/news/a20260902VL223/micron-dram-hbm-bandwidth-nand.html",
-    "short_link": "digitimes.com/news/a20260902VL223/micron-dram-hbm-bandwidt...",
-    "summary": "마이크론이 프로세서 성능과 메모리 대역폭 격차 해소를 위해 HBM 대비 10배 이상 대역폭을 제공하는 긴밀하게 결합된 DRAM을 개발 중이라고 발표",
-    "published_ago": "55분 전",
-    "published_at": "2026-09-02T09:41:08+00:00",
-    "published_raw": "Wed, 2 Sep 2026 09:41:08 GMT"
-  },
-  {
-    "title": "Lam Research 임원, 자동화된 예방 유지보수 미래 팹 핵심 강조",
-    "link": "https://www.digitimes.com/news/a20260902VL222/lam-research-fab-manufacturing-data.html",
-    "short_link": "digitimes.com/news/a20260902VL222/lam-research-fab-manufac...",
-    "summary": "Lam Research 임원은 협업 로봇과 AI 기반 예측 유지보수를 통해 팹 운영의 격차를 줄이는 것이 반도체 제조의 다음 큰 도약이 될 것이라고 강조",
-    "published_ago": "1시간 전",
-    "published_at": "2026-09-02T09:03:25+00:00",
-    "published_raw": "Wed, 2 Sep 2026 09:03:25 GMT"
-  },
-  {
-    "title": "DRAM 3사, 메모리 벽·전력 병목 해소 위해 3D 적층 목표",
-    "link": "https://www.digitimes.com/news/a20260902PD241/dram-bandwidth-3d-data-demand-semicon-taiwan.html",
-    "short_link": "digitimes.com/news/a20260902PD241/dram-bandwidth-3d-data-d...",
-    "summary": "삼성전자, SK하이닉스, 마이크론 등 DRAM 3사는 2.5D HBM의 성능 한계에 직면하여 3D 수직 스태킹 아키텍처로 전환을 추진",
-    "published_ago": "1시간 전",
-    "published_at": "2026-09-02T08:45:00+00:00",
-    "published_raw": "Wed, 2 Sep 2026 08:45:00 GMT"
-  },
-  {
-    "title": "Error 500 (Server Error)1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-    "link": "https://www.digitimes.com/news/a20260902PD233/tsmc-packaging-equipment-kaohsiung-materials.html",
-    "short_link": "digitimes.com/news/a20260902PD233/tsmc-packaging-equipment...",
-    "summary": "TSMC가 가오슝 바이푸 산업단지에 사업장을 설립해 대만 최초의 첨단 패키징 및 장비 공급망 클러스터 구축을 지원하며, 이를 통해 효율성을 25~50% 향상시킬 것으로 예상",
-    "published_ago": "3시간 전",
-    "published_at": "2026-09-02T06:45:00+00:00",
-    "published_raw": "Wed, 2 Sep 2026 06:45:00 GMT"
-  },
-  {
-    "title": "TSMC, 5μm HBM 마이크로범프 개발 공급업체에 요청",
-    "link": "https://www.digitimes.com/news/a20260902VL218/tsmc-hbm-materials-equipment-technology.html",
-    "short_link": "digitimes.com/news/a20260902VL218/tsmc-hbm-materials-equip...",
-    "summary": "TSMC가 재료 및 장비 공급업체에 5마이크로미터급 HBM 마이크로범프 본딩 및 언더필 기술 개발을 요청하며 기존 마이크로범프 확장을 시사",
-    "published_ago": "4시간 전",
-    "published_at": "2026-09-02T06:40:00+00:00",
-    "published_raw": "Wed, 2 Sep 2026 06:40:00 GMT"
   }
 ]
