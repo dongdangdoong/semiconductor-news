@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "title": "욜그룹, 프랑스 펀드에 첫 소수 지분 매각",
+    "link": "https://www.digitimes.com/news/a20260914VL220/yole-electronics-photonics.html",
+    "short_link": "digitimes.com/news/a20260914VL220/yole-electronics-photoni...",
+    "summary": "반도체 시장조사기관 욜그룹이 프랑스 펀드인 세르뱅베스트 스케일에 회사 설립 이후 처음으로 소수 지분을 매각하며 자본을 확보",
+    "published_ago": "3시간 전",
+    "published_at": "2026-09-14T09:22:57+00:00",
+    "published_raw": "Mon, 14 Sep 2026 09:22:57 GMT"
+  },
+  {
+    "title": "후지쯔 모나카, TSMC 2nm 공정으로 2027년 양산 목표",
+    "link": "https://www.digitimes.com/news/a20260914PD237/fujitsu-production-2027-tsmc-2nm.html",
+    "short_link": "digitimes.com/news/a20260914PD237/fujitsu-production-2027-...",
+    "summary": "후지쯔는 AI 추론 수요 급증에 대응하기 위해 후가쿠 슈퍼컴퓨터 기술을 활용한 고효율 저전력 AI CPU 모나카를 TSMC 2nm 공정으로 2027년 양산할 계획",
+    "published_ago": "4시간 전",
+    "published_at": "2026-09-14T09:04:30+00:00",
+    "published_raw": "Mon, 14 Sep 2026 09:04:30 GMT"
+  },
+  {
+    "title": "Samsung, SK Hynix reject US$19 billion power prepayment as Korea speeds chip expansion",
+    "link": "https://www.digitimes.com/news/a20260914VL218/samsung-sk-hynix-expansion-electricity-infrastructure.html",
+    "short_link": "digitimes.com/news/a20260914VL218/samsung-sk-hynix-expansi...",
+    "summary": "삼성전자와 SK하이닉스가 한국의 반도체 확장 가속화에 필요한 전력 인프라 자금 조달 문제로 25조 원(약 187억 달러) 규모의 전기요금 선납 제안을 거부해 주목",
+    "published_ago": "4시간 전",
+    "published_at": "2026-09-14T08:24:52+00:00",
+    "published_raw": "Mon, 14 Sep 2026 08:24:52 GMT"
+  },
+  {
+    "title": "샌디스크, 한국서 낸드·HBM 등 메모리 엔지니어 인재 확보 추진",
+    "link": "https://www.digitimes.com/news/a20260914VL214/talent-nand-hbm-design-flash.html",
+    "short_link": "digitimes.com/news/a20260914VL214/talent-nand-hbm-design-f...",
+    "summary": "샌디스크가 한국에서 낸드 시스템 아키텍처, 낸드 코어 설계 등 인력을 채용하며 HBM, LPDDR, GDDR 경험자를 우대하는 등 메모리 인재 확보에 집중",
+    "published_ago": "8시간 전",
+    "published_at": "2026-09-14T04:20:26+00:00",
+    "published_raw": "Mon, 14 Sep 2026 04:20:26 GMT"
+  },
+  {
+    "title": "한국, 기술 유출 대응 위해 간첩죄 적용 범위 확대",
+    "link": "https://www.digitimes.com/news/a20260914VL210/technology-samsung-north-korea-cxmt.html",
+    "short_link": "digitimes.com/news/a20260914VL210/technology-samsung-north...",
+    "summary": "한국이 반도체 등 전략 기술 보호를 강화하기 위해 9월 13일 개정 형법을 시행하며 간첩죄 적용 대상을 북한뿐 아니라 모든 외국 또는 이에 준하는 단체로 확대",
+    "published_ago": "9시간 전",
+    "published_at": "2026-09-14T03:54:56+00:00",
+    "published_raw": "Mon, 14 Sep 2026 03:54:56 GMT"
+  }
+]
