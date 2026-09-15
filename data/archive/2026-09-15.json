@@ -1,5 +1,59 @@
 [
   {
+    "title": "팀그룹, 고용량 메모리 부족 심화 속 엣지 AI 전략 공개",
+    "link": "https://www.digitimes.com/news/a20260914PD242/team-group-price-market-industrial-industrial-control.html",
+    "short_link": "digitimes.com/news/a20260914PD242/team-group-price-market-...",
+    "summary": "팀그룹은 메모리 부족 심화와 가격 상승 압력 속에서 엣지 AI 시장 확대를 위해 산업 제어 시장 입지를 강화하고 유연한 사양 조정과 특수 하드웨어 보호 기술을 활용할 계획을 발표",
+    "published_ago": "1시간 전",
+    "published_at": "2026-09-15T09:20:43+00:00",
+    "published_raw": "Tue, 15 Sep 2026 09:20:43 GMT"
+  },
+  {
+    "title": "AI 서버, MLCC 생산 능력 잠식…중국 공급사 잔여 물량 확보",
+    "link": "https://www.digitimes.com/news/a20260914VL212/mlcc-capacity-market-semco-murata.html",
+    "short_link": "digitimes.com/news/a20260914VL212/mlcc-capacity-market-sem...",
+    "summary": "AI 서버 시장의 성장에 따라 무라타와 삼성전기가 고부가가치 서버 부품으로 MLCC 생산 능력을 집중하면서, PC용 MLCC 공급이 줄어들어 중국 공급사들의 시장 진입이 본격화",
+    "published_ago": "1시간 전",
+    "published_at": "2026-09-15T08:59:13+00:00",
+    "published_raw": "Tue, 15 Sep 2026 08:59:13 GMT"
+  },
+  {
+    "title": "궈신마이크로, 19억 위안에 WeEn 인수하며 전력 반도체 제조 진입",
+    "link": "https://www.digitimes.com/news/a20260914VL215/manufacturing-wafer-sic-capacity-price.html",
+    "short_link": "digitimes.com/news/a20260914VL215/manufacturing-wafer-sic-...",
+    "summary": "중국 궈신마이크로가 WeEn 세미컨덕터를 19억 위안(약 2억 8300만 달러)에 인수하며 자체 웨이퍼 제조 역량을 확보하고 전력 반도체 시장 진입을 가속화할 전망",
+    "published_ago": "1시간 전",
+    "published_at": "2026-09-15T08:58:52+00:00",
+    "published_raw": "Tue, 15 Sep 2026 08:58:52 GMT"
+  },
+  {
+    "title": "코닝, CPO 및 글래스 코어 신규 반도체 격전지로 부상",
+    "link": "https://www.digitimes.com/news/a20260915PD233/corning-cpo-packaging-demand-auo.html",
+    "short_link": "digitimes.com/news/a20260915PD233/corning-cpo-packaging-de...",
+    "summary": "코닝은 AI 애플리케이션 가속화에 따른 반도체 수요 증가에 맞춰 첨단 유리 및 광섬유 기술을 활용해 CPO와 글래스 코어 기판 시장 진입을 추진",
+    "published_ago": "2시간 전",
+    "published_at": "2026-09-15T08:27:50+00:00",
+    "published_raw": "Tue, 15 Sep 2026 08:27:50 GMT"
+  },
+  {
+    "title": "中 GPU 기업, H100 넘어 성능 아닌 규모 추구",
+    "link": "https://www.digitimes.com/news/a20260915VL206/gpu-h100-performance-metax-chips.html",
+    "short_link": "digitimes.com/news/a20260915VL206/gpu-h100-performance-met...",
+    "summary": "중국 GPU 산업은 고성능 가속기 경쟁을 넘어 상호 연결, 소프트웨어 스택, 클러스터를 결합하여 대규모 AI 모델 훈련 역량을 강화하는 방향으로 전환",
+    "published_ago": "2시간 전",
+    "published_at": "2026-09-15T07:43:49+00:00",
+    "published_raw": "Tue, 15 Sep 2026 07:43:49 GMT"
+  },
+  {
+    "title": "AI 반도체 시장 2026년 1.6조 달러 전망, 메모리 주도",
+    "link": "https://www.digitimes.com/news/a20260914PD228/market-digitimes-2026-growth-investment.html",
+    "short_link": "digitimes.com/news/a20260914PD228/market-digitimes-2026-gr...",
+    "summary": "DIGITIMES Intelligence는 AI 반도체 시장이 2025년 7917억 달러에서 2026년 1조 6천억 달러로 109.1% 성장할 것으로 전망",
+    "published_ago": "3시간 전",
+    "published_at": "2026-09-15T07:27:00+00:00",
+    "published_raw": "Tue, 15 Sep 2026 07:27:00 GMT"
+  },
+  {
     "title": "中, 2031년 전 세계 AR-HUD 84% 생산 전망",
     "link": "https://www.digitimes.com/news/a20260914PD222/display-vehicle-growth-automakers-production.html",
     "short_link": "digitimes.com/news/a20260914PD222/display-vehicle-growth-a...",
