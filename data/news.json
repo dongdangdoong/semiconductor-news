@@ -1,20 +1,110 @@
 [
   {
+    "title": "휴머노이드 로봇, 물리적 AI 발전으로 MEMS 수요 재편 전망",
+    "link": "https://www.digitimes.com/news/a20260917PD202/mems-demand-sensor-adoption-market.html",
+    "short_link": "digitimes.com/news/a20260917PD202/mems-demand-sensor-adopt...",
+    "summary": "휴머노이드 로봇의 물리적 AI 발전이 MEMS 칩, 엣지 컴퓨팅, 첨단 센싱 수요를 크게 증가시켜 로봇 제조사와 부품 공급업체에 새로운 기회를 제공할 것으로 예상",
+    "published_ago": "1시간 전",
+    "published_at": "2026-09-17T06:20:00+00:00",
+    "published_raw": "Thu, 17 Sep 2026 06:20:00 GMT"
+  },
+  {
+    "title": "Ardentec·Sigurd, 美 고객사 확보로 실리콘 포토닉스 TIA 테스트 시장 진입 가속",
+    "link": "https://www.digitimes.com/news/a20260917PD223/sigurd-ardentec-siph-testing-capacity.html",
+    "short_link": "digitimes.com/news/a20260917PD223/sigurd-ardentec-siph-tes...",
+    "summary": "글로벌 광통신 모듈 시장 성장에 따라 Ardentec과 Sigurd가 주요 미국 고객사의 용량 확보로 실리콘 포토닉스 TIA 테스트 시장에 본격 진입",
+    "published_ago": "1시간 전",
+    "published_at": "2026-09-17T06:15:00+00:00",
+    "published_raw": "Thu, 17 Sep 2026 06:15:00 GMT"
+  },
+  {
+    "title": "Tier IV, 엔비디아에 도전할 자율주행 AI 칩 설계 오픈소스 공개",
+    "link": "https://www.digitimes.com/news/a20260916PD205/nvidia-autonomous-driving-ai-chip-design-chips.html",
+    "short_link": "digitimes.com/news/a20260916PD205/nvidia-autonomous-drivin...",
+    "summary": "일본 자율주행 개발사 Tier IV가 엔비디아의 독점적 지위에 도전하기 위해 자율주행 AI 칩 설계와 관련 툴체인을 오픈소스로 공개할 계획을 발표",
+    "published_ago": "1시간 전",
+    "published_at": "2026-09-17T06:12:00+00:00",
+    "published_raw": "Thu, 17 Sep 2026 06:12:00 GMT"
+  },
+  {
+    "title": "삼성, 칩 개발 가속화 위해 SRAM 및 IP 확장",
+    "link": "https://www.digitimes.com/news/a20260917PD219/samsung-ip-development-sram-design.html",
+    "short_link": "digitimes.com/news/a20260917PD219/samsung-ip-development-s...",
+    "summary": "삼성전자는 AI 칩 개발 주기가 빨라짐에 따라 고객사의 요구에 맞춰 SRAM 및 IP를 확장하며 파운드리 경쟁력을 강화할 계획",
+    "published_ago": "3시간 전",
+    "published_at": "2026-09-17T04:30:03+00:00",
+    "published_raw": "Thu, 17 Sep 2026 04:30:03 GMT"
+  },
+  {
+    "title": "인텔, AI 메모리 수요 급증에 전자 산업 압박 경고",
+    "link": "https://www.digitimes.com/news/a20260917VL205/production-electronics-infrastructure-demand-manufacturing.html",
+    "short_link": "digitimes.com/news/a20260917VL205/production-electronics-i...",
+    "summary": "인텔은 AI의 메모리 수요 급증이 전자 산업 전반에 하방 압력을 가하고 있다고 경고하며, 이는 칩 생산 발전이 반도체 붐을 촉발하고 있음을 시사",
+    "published_ago": "3시간 전",
+    "published_at": "2026-09-17T04:29:33+00:00",
+    "published_raw": "Thu, 17 Sep 2026 04:29:33 GMT"
+  },
+  {
+    "title": "대만 기술, 글로벌 자본 유치 위한 스토리텔링 강화 필요",
+    "link": "https://www.digitimes.com/news/a20260916PD216/taiwan-ceo-itri.html",
+    "short_link": "digitimes.com/news/a20260916PD216/taiwan-ceo-itri.html",
+    "summary": "에디슨 어워드 CEO는 대만 기술이 혁신 역량은 충분하지만, 글로벌 시장 진출을 위한 자본 확보와 주요 투자은행 및 기업과의 협력 강화가 필요하다고 강조",
+    "published_ago": "3시간 전",
+    "published_at": "2026-09-17T04:26:00+00:00",
+    "published_raw": "Thu, 17 Sep 2026 04:26:00 GMT"
+  },
+  {
+    "title": "대만, 2026년 말까지 ETS 시범 운영 계획",
+    "link": "https://www.digitimes.com/news/a20260916PD234/taiwan-launch-market-net-zero-2026.html",
+    "short_link": "digitimes.com/news/a20260916PD234/taiwan-launch-market-net...",
+    "summary": "대만이 반도체 및 기술 제조업체의 국제 시스템 준수를 돕기 위해 2026년 말까지 배출권 거래제(ETS) 시범 운영을 시작할 계획을 발표",
+    "published_ago": "3시간 전",
+    "published_at": "2026-09-17T04:12:10+00:00",
+    "published_raw": "Thu, 17 Sep 2026 04:12:10 GMT"
+  },
+  {
+    "title": "中 OSAT 20곳, EUV 제재 속 첨단 패키징 진출 확대",
+    "link": "https://www.digitimes.com/news/a20260917VL207/packaging-euv-equipment-osat-development.html",
+    "short_link": "digitimes.com/news/a20260917VL207/packaging-euv-equipment-...",
+    "summary": "중국이 최첨단 반도체 장비 제약으로 공정 노드 스케일링이 어려워지자 20개 이상의 OSAT 기업들이 AI 및 고성능 컴퓨팅 분야를 목표로 첨단 패키징 역량 강화에 집중",
+    "published_ago": "3시간 전",
+    "published_at": "2026-09-17T04:07:04+00:00",
+    "published_raw": "Thu, 17 Sep 2026 04:07:04 GMT"
+  },
+  {
+    "title": "삼성, 테슬라 AI5 칩 테일러 팹서 시험 생산 돌입",
+    "link": "https://www.digitimes.com/news/a20260917VL212/samsung-production-tesla-fab-2nm.html",
+    "short_link": "digitimes.com/news/a20260917VL212/samsung-production-tesla...",
+    "summary": "삼성전자가 미국 테일러 팹에서 테슬라의 차세대 AI5 프로세서 시험 생산에 착수하며 2nm 웨이퍼 생산 및 수율 검증을 본격화할 전망",
+    "published_ago": "4시간 전",
+    "published_at": "2026-09-17T03:51:40+00:00",
+    "published_raw": "Thu, 17 Sep 2026 03:51:40 GMT"
+  },
+  {
+    "title": "TOK completes KRW101 billion facility in South Korea to bolster semiconductor supply chain",
+    "link": "https://www.digitimes.com/news/a20260917VL211/tokyo-ohka-kogyo-production-supply-chain-materials-plant.html",
+    "short_link": "digitimes.com/news/a20260917VL211/tokyo-ohka-kogyo-product...",
+    "summary": "일본 반도체 소재 기업 TOK가 경기도 평택 포승지구에 1010억원을 투자해 반도체 소재 생산 공장을 완공하며 한국 반도체 공급망 강화에 나설 계획",
+    "published_ago": "4시간 전",
+    "published_at": "2026-09-17T03:40:09+00:00",
+    "published_raw": "Thu, 17 Sep 2026 03:40:09 GMT"
+  },
+  {
+    "title": "애플, AI 야망 맥 넘어서… 엔비디아 NVLink 퓨전 기술 활용 가능성",
+    "link": "https://www.digitimes.com/news/a20260917VL209/apple-nvidia-enterprise-server-ai-inference-market.html",
+    "short_link": "digitimes.com/news/a20260917VL209/apple-nvidia-enterprise-...",
+    "summary": "애플이 미래 M8 울트라 칩 기반 AI 추론 시스템으로 기업 서버 시장 복귀를 검토하며, 엔비디아의 NVLink 퓨전 인터커넥트 기술 활용 가능성을 시사",
+    "published_ago": "4시간 전",
+    "published_at": "2026-09-17T03:06:34+00:00",
+    "published_raw": "Thu, 17 Sep 2026 03:06:34 GMT"
+  },
+  {
     "title": "대만 공작기계 업체, 항공우주·반도체 시장 공략",
     "link": "https://www.digitimes.com/news/a20260917PD200/manufacturing-taiwan-automation-equipment-europe.html",
     "short_link": "digitimes.com/news/a20260917PD200/manufacturing-taiwan-aut...",
     "summary": "대만 공작기계 제조업체들이 9월 유럽과 미국에서 열리는 주요 제조 무역 박람회에 참가해 항공우주 및 반도체 산업의 성장에 맞춰 통합 공정 및 스마트 제조 솔루션 공급을 확대",
-    "published_ago": "15분 전",
+    "published_ago": "5시간 전",
     "published_at": "2026-09-17T01:59:30+00:00",
     "published_raw": "Thu, 17 Sep 2026 01:59:30 GMT"
-  },
-  {
-    "title": "삼성도 TSMC와 손잡나…‘맞춤형 HBM’이 허문 반도체 경계",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9TREwtcTRfNUc5VlNjZjZZZkNaY0FfV0dsQ3dqZm5RMGxPY0xIR0xCa3pQUEJlMHBRUmJHR0l2YUlhRHFBa1lvV1hRWQ?oc=5&hl=ko&gl=KR&ceid=KR:ko",
-    "short_link": "news.google.com/rss/articles/CBMiS0FVX3lxTE9TREwtcTRfNUc5V...",
-    "summary": "삼성전자가 내년 HBM 시장 1위 등극을 목표로 하는 가운데, 맞춤형 HBM 개발을 통해 TSMC와의 협력 가능성이 제기되며 HBM4 성적에서 삼성의 우세가 전망",
-    "published_ago": "21시간 전",
-    "published_at": "2026-09-16T04:32:45+00:00",
-    "published_raw": "Wed, 16 Sep 2026 04:32:45 GMT"
   }
 ]
