@@ -1,5 +1,14 @@
 [
   {
+    "title": "SK하이닉스, HBM 넘어 추론 워크로드 다변화 대응",
+    "link": "https://www.digitimes.com/news/a20260917VL225/sk-hynix-hbm-data-capacity-cost.html",
+    "short_link": "digitimes.com/news/a20260917VL225/sk-hynix-hbm-data-capaci...",
+    "summary": "SK하이닉스가 지연 시간에 민감한 서비스와 용량 중심의 장문 컨텍스트 애플리케이션으로 추론 워크로드가 분산됨에 따라 기존 GPU-HBM 조합을 넘어 메모리 전략을 확대",
+    "published_ago": "3시간 전",
+    "published_at": "2026-09-17T09:27:29+00:00",
+    "published_raw": "Thu, 17 Sep 2026 09:27:29 GMT"
+  },
+  {
     "title": "휴머노이드 로봇, 물리적 AI 발전으로 MEMS 수요 재편 전망",
     "link": "https://www.digitimes.com/news/a20260917PD202/mems-demand-sensor-adoption-market.html",
     "short_link": "digitimes.com/news/a20260917PD202/mems-demand-sensor-adopt...",
@@ -16,6 +25,15 @@
     "published_ago": "1시간 전",
     "published_at": "2026-09-17T06:15:00+00:00",
     "published_raw": "Thu, 17 Sep 2026 06:15:00 GMT"
+  },
+  {
+    "title": "\"CXL이 HBM 대체 못한다\"...AI 시대에 HBM 독주",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdG1zejdCSFNjUjJ3b0VBWk1rOFdnRTBxX01TdXpKLVJ6QlF0Um56SEU3VWFVRFBQUkY1TTZQcFF2YmphbWY2T1RaWGNENTNPT2lWcnJPbU94YXo0Q291WDhyRnNCeXFGTm5tZGZjNzJ5UWw0VXFfbDBHYnRXTE14bS01NA?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMigwFBVV95cUxPdG1zejdCSFNjU...",
+    "summary": "빅테크 기업들이 HBM 대체 기술을 보완재로 평가하며, 삼성과 SK하이닉스의 HBM 독주가 AI 시대에 계속될 것으로 전망",
+    "published_ago": "6시간 전",
+    "published_at": "2026-09-17T06:12:25+00:00",
+    "published_raw": "Thu, 17 Sep 2026 06:12:25 GMT"
   },
   {
     "title": "Tier IV, 엔비디아에 도전할 자율주행 AI 칩 설계 오픈소스 공개",
