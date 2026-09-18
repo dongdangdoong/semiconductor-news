@@ -1,65 +1,11 @@
 [
   {
-    "title": "CXMT, 글로벌 부족 속 낸드 진출로 YMTC 정조준",
-    "link": "https://www.digitimes.com/news/a20260918VL218/cxmt-nand-dram-ymtc-nand-flash.html",
-    "short_link": "digitimes.com/news/a20260918VL218/cxmt-nand-dram-ymtc-nand...",
-    "summary": "중국 D램 공급업체 CXMT가 글로벌 낸드 부족 상황에서 낸드 플래시 시장 진출을 준비하며, 국내 경쟁사 YMTC의 핵심 시장에 더욱 근접할 것으로 예상",
-    "published_ago": "2시간 전",
-    "published_at": "2026-09-18T07:10:43+00:00",
-    "published_raw": "Fri, 18 Sep 2026 07:10:43 GMT"
-  },
-  {
-    "title": "Doosan commits KRW968 billion to CCL expansion as demand strains capacity",
-    "link": "https://www.digitimes.com/news/a20260918VL217/doosan-ccl-demand-capacity-expansion.html",
-    "short_link": "digitimes.com/news/a20260918VL217/doosan-ccl-demand-capaci...",
-    "summary": "두산이 AI 가속기, 네트워크 스위치, 광학 모듈 수요 증가로 생산 라인이 완전 가동률을 초과함에 따라 한국과 중국의 고성능 CCL 생산 확대를 위해 9684억 원을 투자할 계획",
-    "published_ago": "3시간 전",
-    "published_at": "2026-09-18T06:43:25+00:00",
-    "published_raw": "Fri, 18 Sep 2026 06:43:25 GMT"
-  },
-  {
-    "title": "中 AI 데이터센터 토큰 비용, 첨단 GPU 접근성에 좌우",
-    "link": "https://www.digitimes.com/news/a20260918PD219/cost-data-center-chips-data-high-end.html",
-    "short_link": "digitimes.com/news/a20260918PD219/cost-data-center-chips-d...",
-    "summary": "중국 AI 데이터센터의 토큰 생산 비용이 모델 설계보다 지정학적 요인에 의해 결정되며, 고성능 GPU 접근 제한이 가장 중요한 비용 부담으로 부각",
-    "published_ago": "3시간 전",
-    "published_at": "2026-09-18T06:31:00+00:00",
-    "published_raw": "Fri, 18 Sep 2026 06:31:00 GMT"
-  },
-  {
-    "title": "中 메모리, LPDDR6 및 첨단 낸드서 약진…HBM은 여전히 과제",
-    "link": "https://www.digitimes.com/news/a20260918VL210/hbm-nand-dram-cxmt-samsung.html",
-    "short_link": "digitimes.com/news/a20260918VL210/hbm-nand-dram-cxmt-samsu...",
-    "summary": "삼성전자, SK하이닉스, 마이크론이 HBM과 고성능 서버 메모리에 집중하는 사이 중국의 CXMT와 YMTC가 LPDDR6와 첨단 낸드플래시 분야에서 점유율을 확대",
-    "published_ago": "4시간 전",
-    "published_at": "2026-09-18T05:56:22+00:00",
-    "published_raw": "Fri, 18 Sep 2026 05:56:22 GMT"
-  },
-  {
-    "title": "고성능 GPU 부족, 중국 AI 컴퓨팅 확장 둔화 가능성",
-    "link": "https://www.digitimes.com/news/a20260918PD211/expansion-high-end-2025-data-center-2026.html",
-    "short_link": "digitimes.com/news/a20260918PD211/expansion-high-end-2025-...",
-    "summary": "중국 기업들이 엔비디아 고성능 GPU 확보에 어려움을 겪으면서 토큰당 비용 격차가 커져 AI 컴퓨팅 확장 속도가 둔화될 가능성이 시사",
-    "published_ago": "5시간 전",
-    "published_at": "2026-09-18T04:29:35+00:00",
-    "published_raw": "Fri, 18 Sep 2026 04:29:35 GMT"
-  },
-  {
-    "title": "반도체 장비업체, 핵심 부품 최대 40개월 대기 직면",
-    "link": "https://www.digitimes.com/news/a20260918VL212/equipment-capacity-demand-supply-chain-chipmakers.html",
-    "short_link": "digitimes.com/news/a20260918VL212/equipment-capacity-deman...",
-    "summary": "반도체 산업의 생산 능력 부족이 장비 공급망으로 심화되며, 특수 부품 부족으로 인해 칩 제조업체의 팹 투자 가속화에도 불구하고 납품 기간이 최대 40개월까지 늘어날 것으로 예상",
-    "published_ago": "6시간 전",
-    "published_at": "2026-09-18T03:56:42+00:00",
-    "published_raw": "Fri, 18 Sep 2026 03:56:42 GMT"
-  },
-  {
-    "title": "바이트댄스 2세대 AI 에이전트폰, 앱 접근 제한 여전",
-    "link": "https://www.digitimes.com/news/a20260918VL209/bytedance-apps-zte-smartphone.html",
-    "short_link": "digitimes.com/news/a20260918VL209/bytedance-apps-zte-smart...",
-    "summary": "바이트댄스의 2세대 AI 에이전트폰이 강제 자동화 대신 권한을 요구하지만, 앱 접근 제한은 여전히 해소되지 않아 AI 에이전트폰의 앱 구동 가능성에 대한 의문이 지속",
-    "published_ago": "7시간 전",
-    "published_at": "2026-09-18T02:50:40+00:00",
-    "published_raw": "Fri, 18 Sep 2026 02:50:40 GMT"
+    "title": "대만, TSMC '1.4나노 이하 첨단공정' 룽탄과학단지 확장3기 승인",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vSkEzSUs0RUVzdmdQbUlnc3N5RG9ndGlwV255aC1IcDhXdDc3TnRLZGRvaHlOYlE3U3dCUjZDWnJHQ3kzcFRSR3NidDAxNGZfbzZBYlZSTEoyRHPSAWBBVV95cUxQOExBOWZSaTFDM2NGeUFCdzNpMkhKOE9sZGhHWkViMVpvbVB2YlNpQzJEVHhZX0g1aG5SRHZqeDVZV3ZwaHNWOS04Z3BxRURrbXlhcERfUkpORE9YU2lDcE8?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMiW0FVX3lxTE1vSkEzSUs0RUVzd...",
+    "summary": "대만이 TSMC의 1.4나노 이하 첨단공정 개발을 위한 룽탄과학단지 확장 3기 계획을 승인하며 파운드리 시장에서의 TSMC의 기술 리더십이 더욱 강화될 것으로 예상",
+    "published_ago": "8시간 전",
+    "published_at": "2026-09-18T05:07:51+00:00",
+    "published_raw": "Fri, 18 Sep 2026 05:07:51 GMT"
   }
 ]
