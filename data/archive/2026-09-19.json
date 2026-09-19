@@ -1,11 +1,47 @@
 [
   {
+    "title": "삼성전자 초기업노조, '반도체 노조'로 전환…DX 조합원 제외",
+    "link": "https://www.mt.co.kr/industry/2026/09/19/2026091915554083228",
+    "short_link": "mt.co.kr/industry/2026/09/19/2026091915554083228",
+    "summary": "삼성전자 초기업노조가 96.3% 찬성률로 규약 개정안을 가결하며 DS부문 중심의 노조로 재편되고, 기존 DX부문 조합원은 자격을 잃게 될 전망",
+    "published_ago": "4시간 전",
+    "published_at": "2026-09-19T07:04:27+00:00",
+    "published_raw": "2026-09-19T07:04:27+00:00"
+  },
+  {
     "title": "Memory recovery, price hikes lift Niching IC substrate outlook, order visibility through 2H27",
     "link": "https://www.digitimes.com/news/a20260918PD217/materials-niching-packaging-revenue-testing.html",
     "short_link": "digitimes.com/news/a20260918PD217/materials-niching-packag...",
-    "summary": "Niching은 메모리 시장 회복과 가격 인상에 힘입어 IC 기판 사업의 2027년 하반기까지 수주 가시성을 확보했으며, 2026년 매출 20~30% 성장을 목표로 추진",
-    "published_ago": "7시간 전",
+    "summary": "Niching Industrial은 메모리 회복과 가격 인상으로 IC 기판 주문 가시성이 2027년 하반기까지 확보되었으며, 2026년 매출 20~30% 성장을 목표로 한다고 발표",
+    "published_ago": "12시간 전",
     "published_at": "2026-09-18T23:19:38+00:00",
     "published_raw": "Fri, 18 Sep 2026 23:19:38 GMT"
+  },
+  {
+    "title": "CXL, 메모리 용량 확대하지만 HBM 대역폭 우위 유지",
+    "link": "https://www.digitimes.com/news/a20260918VL224/cxl-hbm-capacity-bandwidth-data.html",
+    "short_link": "digitimes.com/news/a20260918VL224/cxl-hbm-capacity-bandwid...",
+    "summary": "CXL이 로컬 메모리 용량 확장에 대한 관심을 높이고 있지만, OpenAI와 Intel 엔지니어들은 대역폭이 중요한 HBM을 대체하기에는 한계가 있다고 분석",
+    "published_ago": "12시간 전",
+    "published_at": "2026-09-18T23:15:48+00:00",
+    "published_raw": "Fri, 18 Sep 2026 23:15:48 GMT"
+  },
+  {
+    "title": "승자는 몰라도 車는 판다…현대차그룹, 로보택시 '파운드리' 승부",
+    "link": "https://www.mt.co.kr/industry/2026/09/19/2026091814313890410",
+    "short_link": "mt.co.kr/industry/2026/09/19/2026091814313890410",
+    "summary": "현대차그룹이 자체 모셔널을 통한 기술·서비스 경쟁 참여와 함께 웨이모 등 외부 자율주행 업체에 아이오닉5 차량을 공급하는 '자율주행차 파운드리' 사업을 확대할 계획",
+    "published_ago": "13시간 전",
+    "published_at": "2026-09-18T22:00:00+00:00",
+    "published_raw": "2026-09-18T22:00:00+00:00"
+  },
+  {
+    "title": "D램은 중국에, HBM은 미국에…협공 당하는 K-메모리",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yNEZwZUNpYzRocTZNcUpUVGlNUjN1cEJ3ZkZHQ2xWaWV6OG5VelNQWGxNY3JGZUhYYlFNOUx2eXdDUTZ3R1I2SEF5bV84bnUxY25ialZUZ0VSbUnSAWBBVV95cUxQTUEySnY0S2ZtNWt2cG8xdThfQTBQc0NrZVRmS0hjejFWdWFwUnBpdjF0WVc1M3duZEpJTDlLTFkzUDBjZUdzYlp1dFhpel8zLUVkeEhscnlMZmVlcnVhc0w?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMiW0FVX3lxTE8yNEZwZUNpYzRoc...",
+    "summary": "중국 CXMT가 D램을 넘어 낸드 진출을 계획하며 삼성전자와 SK하이닉스의 D램 기술 추격을 가속화하고, 미국은 HBM 시장에서 K-메모리를 맹추격하며 한국 반도체 위협이 본격화",
+    "published_ago": "14시간 전",
+    "published_at": "2026-09-18T21:05:01+00:00",
+    "published_raw": "Fri, 18 Sep 2026 21:05:01 GMT"
   }
 ]
