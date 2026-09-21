@@ -1,5 +1,50 @@
 [
   {
+    "title": "TSMC, 첨단 패키징 테스트 가속화 위한 가오슝 허브 구축",
+    "link": "https://www.digitimes.com/news/a20260921VL215/tsmc-packaging-equipment-kaohsiung-taiwan.html",
+    "short_link": "digitimes.com/news/a20260921VL215/tsmc-packaging-equipment...",
+    "summary": "TSMC는 CoWoS 확장으로 인한 신기술 검증 압박에 대응하여 대만 남부에 첨단 패키징 검증 허브를 구축하고 있어 장비 및 재료 공급업체와의 협력을 강화할 전망",
+    "published_ago": "59분 전",
+    "published_at": "2026-09-21T06:24:56+00:00",
+    "published_raw": "Mon, 21 Sep 2026 06:24:56 GMT"
+  },
+  {
+    "title": "SK하이닉스, 차세대 3D D램 로직 설계 심화 추진",
+    "link": "https://www.digitimes.com/news/a20260921VL211/sk-hynix-dram-3d-design-ip.html",
+    "short_link": "digitimes.com/news/a20260921VL211/sk-hynix-dram-3d-design-...",
+    "summary": "SK하이닉스가 차세대 3D D램 아키텍처 개발을 위해 로직 설계를 심화하며, 메모리 셀과 주변 회로를 분리하여 각기 다른 제조 기술로 최적화할 계획을 추진",
+    "published_ago": "1시간 전",
+    "published_at": "2026-09-21T06:02:43+00:00",
+    "published_raw": "Mon, 21 Sep 2026 06:02:43 GMT"
+  },
+  {
+    "title": "삼성전자, 2027년 HBM4 생산량 2배 확대 계획",
+    "link": "https://www.digitimes.com/news/a20260921VL206/samsung-2027-hbm4-production-hbm.html",
+    "short_link": "digitimes.com/news/a20260921VL206/samsung-2027-hbm4-produc...",
+    "summary": "삼성전자가 메모리 공급 제약 지속에 따라 2027년 HBM4 메모리 생산량을 최소 2배 늘릴 계획으로, 고부가가치 제품 전환을 가속화할 전망",
+    "published_ago": "4시간 전",
+    "published_at": "2026-09-21T03:09:14+00:00",
+    "published_raw": "Mon, 21 Sep 2026 03:09:14 GMT"
+  },
+  {
+    "title": "위윈 회장, AI 하드웨어 전력·냉각·상호 연결 수요로 재편",
+    "link": "https://www.digitimes.com/news/a20260921PD201/cooling-hardware-wiwynn-taiwan-infrastructure.html",
+    "short_link": "digitimes.com/news/a20260921PD201/cooling-hardware-wiwynn-...",
+    "summary": "위윈 에밀리 홍 회장은 AI 인프라 수요 증가에 따라 전력, 냉각, 고속 상호 연결이 AI 하드웨어 재편의 핵심 과제로 부상하고 있다고 강조",
+    "published_ago": "4시간 전",
+    "published_at": "2026-09-21T03:04:23+00:00",
+    "published_raw": "Mon, 21 Sep 2026 03:04:23 GMT"
+  },
+  {
+    "title": "에이서, 대만·한국 의료 데이터 활용 주권 헬스케어 AI 구축",
+    "link": "https://www.digitimes.com/news/a20260921PD204/acer-medical-data-healthcare-medical-taiwan.html",
+    "short_link": "digitimes.com/news/a20260921PD204/acer-medical-data-health...",
+    "summary": "에이서 메디컬은 대만과 한국의 의료 데이터를 활용해 원격 진료, 동작 분석, 예방 의학 분야에서 주권 헬스케어 AI를 구축할 계획을 발표",
+    "published_ago": "4시간 전",
+    "published_at": "2026-09-21T02:35:42+00:00",
+    "published_raw": "Mon, 21 Sep 2026 02:35:42 GMT"
+  },
+  {
     "title": "ACES, AI 컴퓨팅 및 전력용 케이블 생산 확대",
     "link": "https://www.digitimes.com/news/a20260918PD221/transmission-cables-demand-2026-asic.html",
     "short_link": "digitimes.com/news/a20260918PD221/transmission-cables-dema...",
