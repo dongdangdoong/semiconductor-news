@@ -1,5 +1,32 @@
 [
   {
+    "title": "Changs Ascending, AI 데이터센터 백업 전력 및 스토리지 성장 주목",
+    "link": "https://www.digitimes.com/news/a20260922PD220/aidc-growth-ups-infrastructure-lithium.html",
+    "short_link": "digitimes.com/news/a20260922PD220/aidc-growth-ups-infrastr...",
+    "summary": "Changs Ascending은 AI 데이터센터의 안정적인 전력, 백업 전력 및 ESS 수요 증가에 따라 에너지 시스템 통합 사업을 AI 데이터센터 부문으로 확대할 계획을 발표",
+    "published_ago": "3시간 전",
+    "published_at": "2026-09-22T08:20:00+00:00",
+    "published_raw": "Tue, 22 Sep 2026 08:20:00 GMT"
+  },
+  {
+    "title": "메타 AI 에이전트 뮤즈 앱 차트 1위, AMD 시총 1조 달러 돌파",
+    "link": "https://www.digitimes.com/news/a20260922VL214/meta-amd-apps-launch-apple.html",
+    "short_link": "digitimes.com/news/a20260922VL214/meta-amd-apps-launch-app...",
+    "summary": "메타의 새로운 AI 에이전트 뮤즈가 출시 2주 만에 앱 차트 1위를 기록하며, 에이전트 AI용 CPU 중요성 부각에 따라 AMD 시가총액이 1조 달러를 넘어섰다는 분석",
+    "published_ago": "3시간 전",
+    "published_at": "2026-09-22T07:59:05+00:00",
+    "published_raw": "Tue, 22 Sep 2026 07:59:05 GMT"
+  },
+  {
+    "title": "한미반도체, 2.5D 패키징용 FC 본더 75 첫 출하",
+    "link": "https://www.digitimes.com/news/a20260922PD231/hanmi-packaging-equipment-hbm-osat.html",
+    "short_link": "digitimes.com/news/a20260922PD231/hanmi-packaging-equipmen...",
+    "summary": "한미반도체가 9월 22일 첫 FC 본더 75를 고객사에 출하하며 고대역폭 메모리(HBM)를 넘어 시스템 반도체 패키징 시장으로 사업 영역을 확대",
+    "published_ago": "5시간 전",
+    "published_at": "2026-09-22T06:56:26+00:00",
+    "published_raw": "Tue, 22 Sep 2026 06:56:26 GMT"
+  },
+  {
     "title": "삼성전자, HBM4 수요 급증에 4나노 파운드리 증설 검토",
     "link": "https://www.digitimes.com/news/a20260922VL209/samsung-4nm-hbm4-capacity-demand.html",
     "short_link": "digitimes.com/news/a20260922VL209/samsung-4nm-hbm4-capacit...",
@@ -7,5 +34,23 @@
     "published_ago": "1시간 전",
     "published_at": "2026-09-22T04:28:55+00:00",
     "published_raw": "Tue, 22 Sep 2026 04:28:55 GMT"
+  },
+  {
+    "title": "中 AMOLED 소재 기업, 8세대 팹 증설로 매출 증가 전망",
+    "link": "https://www.digitimes.com/news/a20260922PR200/amoled-revenue-localization-growth-forecast.html",
+    "short_link": "digitimes.com/news/a20260922PR200/amoled-revenue-localizat...",
+    "summary": "중국 AMOLED 소재 공급업체들이 8세대 OLED 팹의 생산 능력 확대로 시장 점유율을 확보하며 노트북, 프리미엄 패널, 미래 OLED 맥용 소재 수요를 가속화할 가능성이 시사",
+    "published_ago": "8시간 전",
+    "published_at": "2026-09-22T03:29:07+00:00",
+    "published_raw": "Tue, 22 Sep 2026 03:29:07 GMT"
+  },
+  {
+    "title": "인도 5번째 반도체 공장 가동, 수치 세미콘 3년 건설 완료",
+    "link": "https://www.digitimes.com/news/a20260922VL203/semicon-plant-production-commercial-chips.html",
+    "short_link": "digitimes.com/news/a20260922VL203/semicon-plant-production...",
+    "summary": "인도 총리가 수치 세미콘의 OSAT 공장과 CDIL 세미콘의 ATMP 공장 상업 생산을 개시하며, 인도의 반도체 프로젝트는 마이크론 등 3곳을 포함해 총 5곳으로 증가",
+    "published_ago": "8시간 전",
+    "published_at": "2026-09-22T03:15:06+00:00",
+    "published_raw": "Tue, 22 Sep 2026 03:15:06 GMT"
   }
 ]
