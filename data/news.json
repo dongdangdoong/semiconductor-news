@@ -1,19 +1,10 @@
 [
   {
-    "title": "삼성전기, 세종 FCBGA에 4.27조 투자…AI 서버 수요 대응 [반도체레이다]",
-    "link": "https://n.news.naver.com/mnews/article/138/0002242882",
-    "short_link": "n.news.naver.com/mnews/article/138/0002242882",
-    "summary": "삼성전기가 AI 서버용 고성능 반도체 기판 생산능력 확대를 위해 세종사업장에 4조2700억원을 투자하며, AI 가속기 및 GPU용 FC-BGA 시장 확대에 대응할 계획",
-    "published_ago": "2시간 전",
-    "published_at": "2026-09-28T09:16:06+00:00",
-    "published_raw": "2026-09-28T09:16:06+00:00"
-  },
-  {
     "title": "NXP, 싱가포르 팹에 프리스케일 인수 후 최대 투자",
     "link": "https://www.digitimes.com/news/a20260928PD200/fab-nxp-investment-ceo-freescale-semiconductor.html",
     "short_link": "digitimes.com/news/a20260928PD200/fab-nxp-investment-ceo-f...",
-    "summary": "NXP CEO는 뱅가드와 싱가포르에 건설한 12인치 팹이 2015년 프리스케일 인수 이후 NXP의 가장 큰 투자라고 발표",
-    "published_ago": "3시간 전",
+    "summary": "NXP CEO는 싱가포르에 VIS와 합작 설립한 12인치 팹이 2015년 프리스케일 인수 이후 NXP의 가장 큰 투자라고 발표",
+    "published_ago": "11시간 전",
     "published_at": "2026-09-28T08:36:20+00:00",
     "published_raw": "Mon, 28 Sep 2026 08:36:20 GMT"
   },
@@ -22,53 +13,8 @@
     "link": "https://www.digitimes.com/news/a20260924PD210/robot-language-3d.html",
     "short_link": "digitimes.com/news/a20260924PD210/robot-language-3d.html",
     "summary": "자율 로봇이 공장 지도를 넘어 물체 검색, 특정 위치 탐색, 시각 정보 기억 및 검색을 통해 복잡한 환경에서 모델 추론을 위한 새로운 애플리케이션과 과제가 부각",
-    "published_ago": "10시간 전",
+    "published_ago": "18시간 전",
     "published_at": "2026-09-28T01:12:17+00:00",
     "published_raw": "Mon, 28 Sep 2026 01:12:17 GMT"
-  },
-  {
-    "title": "애플, 아이폰 듀오 중국 생산 유지…인도 공급망 한계 노출",
-    "link": "https://www.digitimes.com/news/a20260924VL202/apple-iphone-supply-chain-foldable-manufacturing.html",
-    "short_link": "digitimes.com/news/a20260924VL202/apple-iphone-supply-chai...",
-    "summary": "애플이 첫 폴더블폰인 아이폰 듀오의 개발 및 조립을 중국에서 유지하며, 인도에서 아이폰 수출이 사상 최고치를 기록했음에도 불구하고 인도의 제조 역량 한계를 시사",
-    "published_ago": "11시간 전",
-    "published_at": "2026-09-28T00:51:15+00:00",
-    "published_raw": "Mon, 28 Sep 2026 00:51:15 GMT"
-  },
-  {
-    "title": "中, 반도체 추적에 '마이크로 한신 코드' 도입",
-    "link": "https://www.digitimes.com/news/a20260924VL213/manufacturing-production-chips-packaging-equipment.html",
-    "short_link": "digitimes.com/news/a20260924VL213/manufacturing-production...",
-    "summary": "중국이 반도체 공급망 표준에서 입지를 확보하기 위해 기존 바코드보다 작은 칩 및 부품용 자체 개발 바코드인 마이크로 한신 코드를 도입 추진",
-    "published_ago": "11시간 전",
-    "published_at": "2026-09-28T00:50:46+00:00",
-    "published_raw": "Mon, 28 Sep 2026 00:50:46 GMT"
-  },
-  {
-    "title": "中, ASML 넘어 EUV 광원 전략 재고",
-    "link": "https://www.digitimes.com/news/a20260924VL217/euv-asml-efficiency-metrology-laser.html",
-    "short_link": "digitimes.com/news/a20260924VL217/euv-asml-efficiency-metr...",
-    "summary": "중국이 ASML의 리소그래피 플랫폼을 넘어 에너지 효율 개선 및 반도체 계측 지원을 위한 대체 EUV 광원 개발에 집중하며 EUV 경쟁의 정의를 확대",
-    "published_ago": "11시간 전",
-    "published_at": "2026-09-28T00:50:32+00:00",
-    "published_raw": "Mon, 28 Sep 2026 00:50:32 GMT"
-  },
-  {
-    "title": "인도, 전자제품 제조 넘어 반도체·클라우드·인재로 기술 야망 확대",
-    "link": "https://www.digitimes.com/news/a20260924VL218/manufacturing-electronics-talent-technology-infrastructure.html",
-    "short_link": "digitimes.com/news/a20260924VL218/manufacturing-electronic...",
-    "summary": "인도의 기술 추진이 전자제품 제조, 반도체, 클라우드 인프라 및 인재 분야로 확대되며 국내 확장이 투자 심화, 면밀한 조사, 글로벌 기술 공급망과의 연계 강화를 이끌어낼 전망",
-    "published_ago": "11시간 전",
-    "published_at": "2026-09-28T00:50:19+00:00",
-    "published_raw": "Mon, 28 Sep 2026 00:50:19 GMT"
-  },
-  {
-    "title": "반도체 품은 광주, 대구 제치는 날 온다…`4대 도시 이탈` 예상 시점 계산해보니 [금주의 이슈]",
-    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5nbVlIMWs1eHJqeGhDTjhiWnZIUm9RVjExakhHTWk4V3lBTlJtNjROSFROQjRETEtoNDlqV2h0ak5jRV9DdHhqeU5uZzdoVFFDZzllM2FkV3g3MnhXdkNnaDhR?oc=5&hl=ko&gl=KR&ceid=KR:ko",
-    "short_link": "news.google.com/rss/articles/CBMiYkFVX3lxTE5nbVlIMWs1eHJqe...",
-    "summary": "광주가 반도체 산업을 통해 대구를 제치고 국내 4대 도시로 진입할 가능성이 제기되며, 호남 반도체 팹 추가 증설 구상 등 관련 논의가 활발히 진행될 것으로 예상",
-    "published_ago": "15시간 전",
-    "published_at": "2026-09-27T20:59:00+00:00",
-    "published_raw": "Sun, 27 Sep 2026 20:59:00 GMT"
   }
 ]
