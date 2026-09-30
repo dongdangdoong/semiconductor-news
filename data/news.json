@@ -1,11 +1,38 @@
 [
   {
-    "title": "AI 시대, 메모리-로직 융합 가속화",
-    "link": "https://www.digitimes.com/news/a20260930PD209/dram-hbm-cowos-cost-columns.html",
-    "short_link": "digitimes.com/news/a20260930PD209/dram-hbm-cowos-cost-colu...",
-    "summary": "HBM이 GPU-HBM CoWoS 패키지 비용의 절반에 육박하면서 AI 컴퓨팅에서 메모리의 중요성이 부각되며 메모리-로직 융합이 가속화될 전망",
-    "published_ago": "25분 전",
-    "published_at": "2026-09-30T05:42:24+00:00",
-    "published_raw": "Wed, 30 Sep 2026 05:42:24 GMT"
+    "title": "애플 A20 프로, PoP 메모리 패키징 대신 WMCM 채택",
+    "link": "https://www.digitimes.com/news/a20260930PD242/apple-packaging-processor-gaa-tsmc.html",
+    "short_link": "digitimes.com/news/a20260930PD242/apple-packaging-processo...",
+    "summary": "애플 A20 프로 칩이 기존 PoP 패키징 대신 WMCM을 채택하여 메모리와 프로세서 다이를 나란히 배치함으로써 패키징 수율과 열 성능 개선이 예상",
+    "published_ago": "3시간 전",
+    "published_at": "2026-09-30T09:13:40+00:00",
+    "published_raw": "Wed, 30 Sep 2026 09:13:40 GMT"
+  },
+  {
+    "title": "대만, TSMC의 미국 진출 지지…핵심 R&D는 대만 잔류 강조",
+    "link": "https://www.digitimes.com/news/a20260930PD240/taiwan-tsmc-manufacturing-development-government.html",
+    "short_link": "digitimes.com/news/a20260930PD240/taiwan-tsmc-manufacturin...",
+    "summary": "대만은 TSMC의 미국 진출을 지지하면서도 핵심 연구개발(R&D)은 대만에 남아있어야 한다고 강조하며, 대만 반도체 산업의 국제적 확장을 지속적으로 추진할 방침",
+    "published_ago": "3시간 전",
+    "published_at": "2026-09-30T09:04:47+00:00",
+    "published_raw": "Wed, 30 Sep 2026 09:04:47 GMT"
+  },
+  {
+    "title": "넷리스트, 마이크론·엔비디아·브로드컴·구글 HBM 특허 침해 소송 제기",
+    "link": "https://www.digitimes.com/news/a20260930VL219/micron-patent-nvidia-broadcom-hbm.html",
+    "short_link": "digitimes.com/news/a20260930VL219/micron-patent-nvidia-bro...",
+    "summary": "넷리스트가 마이크론과 엔비디아, 브로드컴, 구글을 상대로 고대역폭 메모리(HBM) 특허 무단 사용에 대한 법적 절차를 시작하며 AI 시대 차세대 메모리 시장의 특허 분쟁이 본격화",
+    "published_ago": "4시간 전",
+    "published_at": "2026-09-30T08:42:54+00:00",
+    "published_raw": "Wed, 30 Sep 2026 08:42:54 GMT"
+  },
+  {
+    "title": "마이크론 실적에 쏠린 눈…'메모리 호황' 지속성 시험대",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5JQ1FQWGZCUVd2VlpxLW5MbXB1LTJyM3JXSjJnSFo4ZTFjZkpwNmE1LVhXaFVQTElOclgzdmhtZXdtRkhqR3pRZWVOekJ4WkNkQjZlemhNVlV4U2VhQjFPN2pna2s5ZHRWODVqcHdlQ3A?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMicEFVX3lxTE5JQ1FQWGZCUVd2V...",
+    "summary": "마이크론의 실적 발표에 시장의 관심이 집중되며, AI 메모리 호황 지속 여부와 5%대 고금리 부담이 반도체 투심 회복에 영향을 미칠 것으로 전망",
+    "published_ago": "13시간 전",
+    "published_at": "2026-09-29T23:38:38+00:00",
+    "published_raw": "Tue, 29 Sep 2026 23:38:38 GMT"
   }
 ]
