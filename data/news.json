@@ -1,74 +1,11 @@
 [
   {
-    "title": "메타, 2026년 AI 안경에 네이버 지도 내비게이션 추가",
-    "link": "https://www.digitimes.com/news/a20261002PD246/meta-naver-2026-samsung-google.html",
-    "short_link": "digitimes.com/news/a20261002PD246/meta-naver-2026-samsung-...",
-    "summary": "메타가 2026년 레이밴 메타 및 오클리 메타 AI 안경에 네이버 지도 도보 내비게이션 기능을 연동하며, 구글과 삼성전자의 AI 안경 출시에 앞서 한국 시장 입지를 강화할 계획",
-    "published_ago": "13분 전",
-    "published_at": "2026-10-02T08:54:10+00:00",
-    "published_raw": "Fri, 2 Oct 2026 08:54:10 GMT"
-  },
-  {
-    "title": "아이폰 18 프로, 중국 시장 점유율 33% 달성",
-    "link": "https://www.digitimes.com/news/a20261002PD243/apple-iphone-sales-foldable-market.html",
-    "short_link": "digitimes.com/news/a20261002PD243/apple-iphone-sales-folda...",
-    "summary": "아이폰 18 프로 시리즈가 중국에서 첫 주 판매량을 전년 대비 12% 끌어올리며 애플의 주간 판매 점유율을 33%로 상승",
-    "published_ago": "19분 전",
-    "published_at": "2026-10-02T08:48:45+00:00",
-    "published_raw": "Fri, 2 Oct 2026 08:48:45 GMT"
-  },
-  {
-    "title": "애플 터너스, 경영진 감축 및 하드웨어 출시 가속 추진",
-    "link": "https://www.digitimes.com/news/a20261002PD242/apple-hardware-tim-cook-john-ternus-development.html",
-    "short_link": "digitimes.com/news/a20261002PD242/apple-hardware-tim-cook-...",
-    "summary": "애플의 차기 CEO로 거론되는 존 터너스가 엔지니어링 중심 R&D 시스템 강화를 위해 조직 개편과 함께 연중 유연하고 빈번한 기기 출시를 검토 중인 것으로 알려져 주목",
-    "published_ago": "21분 전",
-    "published_at": "2026-10-02T08:46:37+00:00",
-    "published_raw": "Fri, 2 Oct 2026 08:46:37 GMT"
-  },
-  {
-    "title": "일본 기업, 중국 내 사업체 22.4% 감소… 2026년 6월 기준 10,118개",
-    "link": "https://www.digitimes.com/news/a20261002PD240/2026-production-sales-manufacturing-market.html",
-    "short_link": "digitimes.com/news/a20261002PD240/2026-production-sales-ma...",
-    "summary": "일본 기업들이 무역 위험 증가에 따라 중국 내 사업체 수를 지난 2년간 22.4% 줄여 2026년 6월 말 기준 10,118개로 감소",
-    "published_ago": "28분 전",
-    "published_at": "2026-10-02T08:40:12+00:00",
-    "published_raw": "Fri, 2 Oct 2026 08:40:12 GMT"
-  },
-  {
-    "title": "히타치-화낙, 공장 자동화 위한 피지컬 AI 파트너십 발표",
-    "link": "https://www.digitimes.com/news/a20261002PD239/hitachi-fanuc-partnership-industrial-2026.html",
-    "short_link": "digitimes.com/news/a20261002PD239/hitachi-fanuc-partnershi...",
-    "summary": "히타치와 화낙이 2026년 9월 30일 공장 자동화를 위한 피지컬 AI 전략적 파트너십을 발표하며, 반도체, 제약 등 다양한 분야에 기술 적용을 추진할 계획",
-    "published_ago": "42분 전",
-    "published_at": "2026-10-02T08:26:14+00:00",
-    "published_raw": "Fri, 2 Oct 2026 08:26:14 GMT"
-  },
-  {
-    "title": "대만 정부, TSMC 국내 투자 확대 지원 약속",
-    "link": "https://www.digitimes.com/news/a20261002PD234/tsmc-investment-taiwan-government-moea.html",
-    "short_link": "digitimes.com/news/a20261002PD234/tsmc-investment-taiwan-g...",
-    "summary": "대만 경제부(MOEA)는 2026년 10월 2일 TSMC의 싱가포르 투자 루머 속에서 정부가 TSMC의 대만 내 투자를 확대하도록 지원할 것이라고 발표",
-    "published_ago": "43분 전",
-    "published_at": "2026-10-02T08:25:17+00:00",
-    "published_raw": "Fri, 2 Oct 2026 08:25:17 GMT"
-  },
-  {
-    "title": "中, AI 성능 한계 극복 위해 3D 패키징 전환",
-    "link": "https://www.digitimes.com/news/a20261002VL206/performance-3d-packaging-packaging-manufacturing-transistor.html",
-    "short_link": "digitimes.com/news/a20261002VL206/performance-3d-packaging...",
-    "summary": "중국이 반도체 제조 기술 접근 제한 속에서 AI 성능 향상을 위해 3D 패키징 기술 개발 및 전환을 본격화",
-    "published_ago": "1시간 전",
-    "published_at": "2026-10-02T07:24:21+00:00",
-    "published_raw": "Fri, 2 Oct 2026 07:24:21 GMT"
-  },
-  {
-    "title": "마이크론, 대만 4개 주요 생산기지 HBM 생산능력 확대",
-    "link": "https://www.digitimes.com/news/a20261002PD224/micron-taiwan-capacity-hbm-2026.html",
-    "short_link": "digitimes.com/news/a20261002PD224/micron-taiwan-capacity-h...",
-    "summary": "마이크론은 AI로 인한 강력한 메모리 수요에 대응하기 위해 대만 타오위안, 타이중, 퉁뤄, 타이난의 4개 주요 제조 기지에서 HBM 생산능력을 확대할 계획",
-    "published_ago": "2시간 전",
-    "published_at": "2026-10-02T06:45:00+00:00",
-    "published_raw": "Fri, 2 Oct 2026 06:45:00 GMT"
+    "title": "Samsung's Galaxy Tab S12 taps MediaTek Dimensity 9500 as 2nm successor arrives",
+    "link": "https://www.digitimes.com/news/a20261002VL215/mediatek-dimensity-galaxy-tab-samsung-2nm.html",
+    "short_link": "digitimes.com/news/a20261002VL215/mediatek-dimensity-galax...",
+    "summary": "미디어텍의 플래그십 디멘시티 9500 칩이 삼성의 새로운 갤럭시 탭 S12 울트라 및 갤럭시 탭 S12+ 태블릿에 탑재되며 양사 협력 관계가 지속될 전망",
+    "published_ago": "6시간 전",
+    "published_at": "2026-10-02T09:58:27+00:00",
+    "published_raw": "Fri, 2 Oct 2026 09:58:27 GMT"
   }
 ]
