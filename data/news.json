@@ -1,65 +1,11 @@
 [
   {
-    "title": "中 비렌, 엔비디아에 도전할 차세대 AI GPU 'BR20X' 양산 준비",
-    "link": "https://www.digitimes.com/news/a20261002VL212/gpu-biren-nvidia-production-roadmap.html",
-    "short_link": "digitimes.com/news/a20261002VL212/gpu-biren-nvidia-product...",
-    "summary": "비렌테크놀로지가 저정밀도 지원과 현지 제조를 기반으로 한 차세대 AI GPU 'BR20X'의 양산을 준비하며 엔비디아에 대한 중국의 AI GPU 경쟁이 심화될 전망",
-    "published_ago": "7시간 전",
-    "published_at": "2026-10-03T00:31:01+00:00",
-    "published_raw": "Sat, 3 Oct 2026 00:31:01 GMT"
-  },
-  {
-    "title": "Samsung's Galaxy Tab S12 taps MediaTek Dimensity 9500 as 2nm successor arrives",
-    "link": "https://www.digitimes.com/news/a20261002VL215/mediatek-dimensity-galaxy-tab-samsung-2nm.html",
-    "short_link": "digitimes.com/news/a20261002VL215/mediatek-dimensity-galax...",
-    "summary": "삼성전자의 새로운 갤럭시 탭 S12 울트라 및 갤럭시 탭 S12+ 태블릿에 미디어텍의 플래그십 디멘시티 9500 칩이 탑재되어 양사 간의 오랜 협력 관계가 지속될 전망",
-    "published_ago": "22시간 전",
-    "published_at": "2026-10-02T09:58:27+00:00",
-    "published_raw": "Fri, 2 Oct 2026 09:58:27 GMT"
-  },
-  {
-    "title": "LG엔솔-GM, LMR 배터리로 LFP 비용과 하이-니켈 성능 격차 해소 추진",
-    "link": "https://www.digitimes.com/news/a20261001VL219/automakers-lges-general-motors-cost-affordable.html",
-    "short_link": "digitimes.com/news/a20261001VL219/automakers-lges-general-...",
-    "summary": "LG에너지솔루션과 GM이 LMR 배터리를 통해 LFP의 비용 효율성과 하이-니켈의 고성능 밀도 사이의 격차를 해소할 계획을 추진",
-    "published_ago": "22시간 전",
-    "published_at": "2026-10-02T09:35:00+00:00",
-    "published_raw": "Fri, 2 Oct 2026 09:35:00 GMT"
-  },
-  {
-    "title": "메타, 2026년 AI 안경에 네이버 지도 내비게이션 추가",
-    "link": "https://www.digitimes.com/news/a20261002PD246/meta-naver-2026-samsung-google.html",
-    "short_link": "digitimes.com/news/a20261002PD246/meta-naver-2026-samsung-...",
-    "summary": "메타가 2026년 레이밴 메타 및 오클리 메타 AI 안경에 네이버 지도 도보 내비게이션 기능을 연동하여 구글과 삼성전자 경쟁 제품 출시 전 한국 시장 입지 강화를 추진",
-    "published_ago": "23시간 전",
-    "published_at": "2026-10-02T08:54:10+00:00",
-    "published_raw": "Fri, 2 Oct 2026 08:54:10 GMT"
-  },
-  {
-    "title": "아이폰 18 프로, 중국 시장 점유율 33% 달성",
-    "link": "https://www.digitimes.com/news/a20261002PD243/apple-iphone-sales-foldable-market.html",
-    "short_link": "digitimes.com/news/a20261002PD243/apple-iphone-sales-folda...",
-    "summary": "아이폰 18 프로 시리즈가 중국에서 첫 주 판매량을 전년 대비 12% 끌어올리며 애플의 주간 판매 점유율을 33%로 상승",
-    "published_ago": "23시간 전",
-    "published_at": "2026-10-02T08:48:45+00:00",
-    "published_raw": "Fri, 2 Oct 2026 08:48:45 GMT"
-  },
-  {
-    "title": "애플 터너스, 경영진 감축 및 하드웨어 출시 가속 추진",
-    "link": "https://www.digitimes.com/news/a20261002PD242/apple-hardware-tim-cook-john-ternus-development.html",
-    "short_link": "digitimes.com/news/a20261002PD242/apple-hardware-tim-cook-...",
-    "summary": "애플의 차기 CEO로 거론되는 존 터너스가 엔지니어링 중심 R&D 시스템 강화를 위해 조직 개편을 검토하며, 연중 유연하고 빈번한 기기 출시를 계획 중인 것으로 알려져 주목",
-    "published_ago": "23시간 전",
-    "published_at": "2026-10-02T08:46:37+00:00",
-    "published_raw": "Fri, 2 Oct 2026 08:46:37 GMT"
-  },
-  {
-    "title": "일본 기업, 중국 내 사업체 22.4% 감소… 2026년 6월 기준 10,118개",
-    "link": "https://www.digitimes.com/news/a20261002PD240/2026-production-sales-manufacturing-market.html",
-    "short_link": "digitimes.com/news/a20261002PD240/2026-production-sales-ma...",
-    "summary": "일본 기업들이 무역 위험 증가로 중국 내 사업체 수를 지난 2년간 22.4% 줄여 2026년 6월 말 기준 10,118개로 2010년 이후 최저치를 기록했다고 제국데이터뱅크가 발표",
-    "published_ago": "23시간 전",
-    "published_at": "2026-10-02T08:40:12+00:00",
-    "published_raw": "Fri, 2 Oct 2026 08:40:12 GMT"
+    "title": "마이크론, D램 2위 SK하이닉스 턱밑 추격…점유율 격차 1%포인트",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE01bGVtd0F5UjlrMXkyNjhIeURyUThHRVRobGoxNXI4dE9tX24zNEtuUDRZVXBzU20wNGV4SEhEbDEyWFBHWDRiNHI4czlUVkRDemhSSHpn?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMiVkFVX3lxTE01bGVtd0F5UjlrM...",
+    "summary": "마이크론이 D램 시장에서 SK하이닉스를 1%포인트 차이로 맹추격하며 점유율 격차를 좁히고 있어 한국 반도체 업계에 경고등이 켜질 가능성",
+    "published_ago": "14시간 전",
+    "published_at": "2026-10-02T23:00:02+00:00",
+    "published_raw": "Fri, 02 Oct 2026 23:00:02 GMT"
   }
 ]
