@@ -1,11 +1,56 @@
 [
   {
+    "title": "일본 규슈 반도체 엑스포 36% 확대, 반도체 설계 집중",
+    "link": "https://www.digitimes.com/news/a20261005PD244/design-2026-taiwan-nikkei-growth.html",
+    "short_link": "digitimes.com/news/a20261005PD244/design-2026-taiwan-nikke...",
+    "summary": "일본 규슈에서 열린 K-Semi 반도체 산업 전시회가 올해 36% 성장하며 반도체 설계 구역을 처음으로 추가해 반도체 기업들의 규슈 내 입지 확대를 시사",
+    "published_ago": "4시간 전",
+    "published_at": "2026-10-05T08:40:31+00:00",
+    "published_raw": "Mon, 5 Oct 2026 08:40:31 GMT"
+  },
+  {
+    "title": "AMD 리사 수 CEO, AI 생산 병목 현상 확산 속 대만 방문",
+    "link": "https://www.digitimes.com/news/a20261005PD238/amd-taiwan-ceo-capacity-packaging.html",
+    "short_link": "digitimes.com/news/a20261005PD238/amd-taiwan-ceo-capacity-...",
+    "summary": "AMD 리사 수 CEO가 AI 생산 능력 부족이 TSMC를 넘어 확산되는 가운데 대만을 방문해 주요 공급업체들과의 협력을 강화할 계획",
+    "published_ago": "4시간 전",
+    "published_at": "2026-10-05T08:15:18+00:00",
+    "published_raw": "Mon, 5 Oct 2026 08:15:18 GMT"
+  },
+  {
+    "title": "대만, 2D 반도체 전환 가속화…네이처에 연구 발표",
+    "link": "https://www.digitimes.com/news/a20261005PD229/semiconductors-academia-materials-taiwan-tsmc.html",
+    "short_link": "digitimes.com/news/a20261005PD229/semiconductors-academia-...",
+    "summary": "대만 연구진이 차세대 반도체 연구를 가속화하기 위해 2D 반도체 소재를 실용화하는 노력을 강화하며, 네이처 10월 1일자에 최신 연구를 발표",
+    "published_ago": "5시간 전",
+    "published_at": "2026-10-05T07:41:22+00:00",
+    "published_raw": "Mon, 5 Oct 2026 07:41:22 GMT"
+  },
+  {
     "title": "TSMC·인텔, 머스크 테라팹 현실화에 협력 논의",
     "link": "https://www.digitimes.com/news/a20261005PD219/elon-musk-fab-ic-manufacturing-intel-tsmc.html",
     "short_link": "digitimes.com/news/a20261005PD219/elon-musk-fab-ic-manufac...",
     "summary": "일론 머스크의 테라팹 야망이 현실화되면서 현대 실리콘 제조의 현실이 부각됨에 따라, 머스크는 인텔 및 TSMC와 협력 방안을 논의 중인 것으로 확인",
-    "published_ago": "1시간 전",
+    "published_ago": "9시간 전",
     "published_at": "2026-10-05T04:08:27+00:00",
     "published_raw": "Mon, 5 Oct 2026 04:08:27 GMT"
+  },
+  {
+    "title": "브로드컴, 앤스로픽에 420억 달러 전환사채 파이낸싱 제공",
+    "link": "https://www.digitimes.com/news/a20261005PD220/financing-anthropic-broadcom-ipo-supplier.html",
+    "short_link": "digitimes.com/news/a20261005PD220/financing-anthropic-broa...",
+    "summary": "브로드컴이 앤스로픽의 AI 인프라 지출 지원을 위해 최대 420억 달러의 전환사채 파이낸싱을 제공하며, 앤스로픽은 2027년 브로드컴의 최대 컴퓨팅 고객이 될 것으로 예상",
+    "published_ago": "9시간 전",
+    "published_at": "2026-10-05T03:53:46+00:00",
+    "published_raw": "Mon, 5 Oct 2026 03:53:46 GMT"
+  },
+  {
+    "title": "머스크, 테슬라 AI5 메모리 72GB에서 96GB로 상향",
+    "link": "https://www.digitimes.com/news/a20261005PD222/tesla-ceo-elon-musk-lpddr5-production.html",
+    "short_link": "digitimes.com/news/a20261005PD222/tesla-ceo-elon-musk-lpdd...",
+    "summary": "테슬라 CEO 일론 머스크가 AI5 칩 메모리 용량을 72GB로 줄이려다 LPDDR5 96GB로 변경하여 최소 메모리 구성 사용을 피하려는 계획",
+    "published_ago": "9시간 전",
+    "published_at": "2026-10-05T03:44:27+00:00",
+    "published_raw": "Mon, 5 Oct 2026 03:44:27 GMT"
   }
 ]
