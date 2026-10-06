@@ -1,11 +1,29 @@
 [
   {
-    "title": "LB세미콘, 퀄컴 생산량 증가에 전력 반도체 생산능력 확대",
-    "link": "https://www.digitimes.com/news/a20261005VL212/semicon-production-qualcomm-capacity-osat.html",
-    "short_link": "digitimes.com/news/a20261005VL212/semicon-production-qualc...",
-    "summary": "LB세미콘이 퀄컴과 르네사스로부터 신규 사업을 확보하고 300억 원 규모의 설비 투자를 계획하며 구미 공장의 전력 반도체 후공정 생산능력을 확대할 전망",
-    "published_ago": "1시간 전",
-    "published_at": "2026-10-06T00:13:50+00:00",
-    "published_raw": "Tue, 6 Oct 2026 00:13:50 GMT"
+    "title": "애플, 퀄컴과 특허 계약 2027년까지 연장",
+    "link": "https://www.digitimes.com/news/a20261006PD229/qualcomm-apple-modem-patent-iphone.html",
+    "short_link": "digitimes.com/news/a20261006PD229/qualcomm-apple-modem-pat...",
+    "summary": "애플이 퀄컴과의 글로벌 특허 라이선스 계약을 2027년 4월 1일부터 적용되는 새로운 조건으로 연장하며, 아이폰 모뎀 내재화 움직임이 심화될 것으로 예상",
+    "published_ago": "2시간 전",
+    "published_at": "2026-10-06T06:03:00+00:00",
+    "published_raw": "Tue, 6 Oct 2026 06:03:00 GMT"
+  },
+  {
+    "title": "닛토보, AI 칩 수요 급증에 T-Glass 글라스 천 생산 확대",
+    "link": "https://www.digitimes.com/news/a20261006PD221/nittobo-demand-ai-chip-production-market.html",
+    "short_link": "digitimes.com/news/a20261006PD221/nittobo-demand-ai-chip-p...",
+    "summary": "닛토보가 AI 칩 수요로 인한 글로벌 공급망 압박에 대응하여 반도체 절연 재료인 T-Glass 글라스 천 생산을 확대하며, 이는 첨단 칩 생산 지연 및 비용 상승 가능성을 시사",
+    "published_ago": "3시간 전",
+    "published_at": "2026-10-06T04:47:47+00:00",
+    "published_raw": "Tue, 6 Oct 2026 04:47:47 GMT"
+  },
+  {
+    "title": "AM 인텔리전스, 인도 AI 인프라 확장 위해 엔비디아 루빈 GPU 20,000개 추가",
+    "link": "https://www.digitimes.com/news/a20261006PR200/ai-infrastructure-capacity-asia-nvidia-rubin.html",
+    "short_link": "digitimes.com/news/a20261006PR200/ai-infrastructure-capaci...",
+    "summary": "AM 인텔리전스가 인도 AI 인프라 확장을 위해 엔비디아 루빈 GPU 20,000개를 추가하며 북미 외 새로운 허브로 글로벌 AI 역량 전환을 시사",
+    "published_ago": "4시간 전",
+    "published_at": "2026-10-06T03:36:14+00:00",
+    "published_raw": "Tue, 6 Oct 2026 03:36:14 GMT"
   }
 ]
