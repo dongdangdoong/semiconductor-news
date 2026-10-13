@@ -1,11 +1,74 @@
 [
   {
-    "title": "MS, 엔비디아 의존 줄인다…자체 AI칩 '마이아 300' 공개",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PZEh2c0RUcE1zamM1V092Ylp3RW1UNE0xeV9WV3MzZV95TnNuNmVmbkF3anlGaHJ4WWFhallXRXhmNHhwQ3U4bHN0RGNmUUJNVUJveTR4TWlZbzduc1JWWtIBeEFVX3lxTE8zSHZBMTVUN1c0dzlFbEpVTTF6eDBSQW83SlpZQnVmY3o0QVh0ZFpaVVI1T1M0MlVzMm5XQ2d1ekp5UDg2d1hsWld2UEs2Uk1rWi1mQkJSVHVjdkdzS28yelU1ZnRiTDdoRGxxeWhTVDhoeW5hTHo2dg?oc=5&hl=ko&gl=KR&ceid=KR:ko",
-    "short_link": "news.google.com/rss/articles/CBMiYEFVX3lxTE5PZEh2c0RUcE1za...",
-    "summary": "마이크로소프트가 엔비디아 의존도를 낮추기 위해 자체 AI칩 '마이아 300'을 공개하고 내년부터 100만 개 이상 투입할 계획",
-    "published_ago": "11시간 전",
-    "published_at": "2026-10-12T14:09:15+00:00",
-    "published_raw": "Mon, 12 Oct 2026 14:09:15 GMT"
+    "title": "SK하이닉스, SSD용 저전력 프로세서 설계 공개",
+    "link": "https://www.digitimes.com/news/a20261013VL221/sk-hynix-ssd-processor-design-2026.html",
+    "short_link": "digitimes.com/news/a20261013VL221/sk-hynix-ssd-processor-d...",
+    "summary": "SK하이닉스가 AI 데이터센터의 스토리지 병목 현상 해결을 위해 SSD 컨트롤러의 전력 소비와 칩 면적을 줄이는 새로운 프로세서 아키텍처를 공개하며 관련 노력을 확대",
+    "published_ago": "1시간 전",
+    "published_at": "2026-10-13T06:59:48+00:00",
+    "published_raw": "Tue, 13 Oct 2026 06:59:48 GMT"
+  },
+  {
+    "title": "ASML, 5nm 단일 노광 겨냥 차세대 Hyper NA EUV 공개",
+    "link": "https://www.digitimes.com/news/a20261013PD234/asml-euv-5nm-high-na-euv-commercial.html",
+    "short_link": "digitimes.com/news/a20261013PD234/asml-euv-5nm-high-na-euv...",
+    "summary": "ASML과 Zeiss가 공동 연구 논문을 통해 현재 High-NA EUV 리소그래피 시스템의 차세대 후속작인 Hyper NA EUV를 공식적으로 발표",
+    "published_ago": "1시간 전",
+    "published_at": "2026-10-13T06:26:55+00:00",
+    "published_raw": "Tue, 13 Oct 2026 06:26:55 GMT"
+  },
+  {
+    "title": "AMEC 회장, AI 버블 위험 경고 및 中 반도체 장비 산업 구조조정 전망",
+    "link": "https://www.digitimes.com/news/a20261013VL220/amec-equipment-chairman-demand-investment.html",
+    "short_link": "digitimes.com/news/a20261013VL220/amec-equipment-chairman-...",
+    "summary": "AMEC 회장은 AI 투자 버블 가능성을 경고하며, 칩 제조 장비 수요 급증에도 불구하고 반도체 산업이 자본 지출의 주기적 변동에서 벗어날 수 없다고 분석",
+    "published_ago": "2시간 전",
+    "published_at": "2026-10-13T05:59:37+00:00",
+    "published_raw": "Tue, 13 Oct 2026 05:59:37 GMT"
+  },
+  {
+    "title": "Foxconn's Vietnam unit Fukang Technology more than doubles registered capital to US$710.4 million",
+    "link": "https://www.digitimes.com/news/a20261013VL202/foxconn-taiwan-subsidiary-investment-2026.html",
+    "short_link": "digitimes.com/news/a20261013VL202/foxconn-taiwan-subsidiar...",
+    "summary": "폭스콘의 베트남 자회사 푸캉테크놀로지가 9월 말 등록자본금을 109% 이상 늘려 7억1040만달러(약 17조4700억동)로 확대",
+    "published_ago": "4시간 전",
+    "published_at": "2026-10-13T03:45:00+00:00",
+    "published_raw": "Tue, 13 Oct 2026 03:45:00 GMT"
+  },
+  {
+    "title": "AI 서버 BMC 성장, 공급 제약…애즈피드 2027년 수주, 올해 매출 초과",
+    "link": "https://www.digitimes.com/news/a20261013VL206/aspeed-ai-server-demand-growth.html",
+    "short_link": "digitimes.com/news/a20261013VL206/aspeed-ai-server-demand-...",
+    "summary": "AI 서버 BMC 시장 성장이 수요가 아닌 공급에 의해 제한되는 가운데, 애즈피드의 2027년 수주액이 올해 매출을 넘어설 것으로 전망",
+    "published_ago": "4시간 전",
+    "published_at": "2026-10-13T03:29:18+00:00",
+    "published_raw": "Tue, 13 Oct 2026 03:29:18 GMT"
+  },
+  {
+    "title": "YMT, 글라스 기판 도금 생산능력 5배 확대 목표",
+    "link": "https://www.digitimes.com/news/a20261013PD218/capacity-materials-supplier-equipment-tgv.html",
+    "short_link": "digitimes.com/news/a20261013PD218/capacity-materials-suppl...",
+    "summary": "한국 전자재료 공급업체 YMT는 TGV 개발 고객 수요 충족을 위해 2026년 말까지 글라스 기판 도금 관련 생산능력을 현재의 약 4배로 늘릴 계획을 추진",
+    "published_ago": "4시간 전",
+    "published_at": "2026-10-13T03:29:12+00:00",
+    "published_raw": "Tue, 13 Oct 2026 03:29:12 GMT"
+  },
+  {
+    "title": "인텔 CEO, AI 하드웨어 부족 3년 지속 경고",
+    "link": "https://www.digitimes.com/news/a20261013PD219/intel-ceo-hardware-demand-infrastructure.html",
+    "short_link": "digitimes.com/news/a20261013PD219/intel-ceo-hardware-deman...",
+    "summary": "인텔 CEO는 AI 인프라 수요가 공급을 초과하며 메모리, 웨이퍼, 첨단 패키징 전반의 생산 능력 제약으로 하드웨어 부족이 향후 2~3년간 완화되기 어려울 것이라고 전망",
+    "published_ago": "4시간 전",
+    "published_at": "2026-10-13T03:20:00+00:00",
+    "published_raw": "Tue, 13 Oct 2026 03:20:00 GMT"
+  },
+  {
+    "title": "HBM 다음은...삼성전자, 차세대 AI 메모리 제품군 확장",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE12b2FRWHAwLVAyV2RiNnV6d2ZpeDVkQ1h4Z0x0Q01DRnNsYWRheVBwUE5xcnhvOXJnRzl2SEZYNjR1ODhWNTJSNzBUaW5tRExNOGZ6NkRB?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMiVkFVX3lxTE12b2FRWHAwLVAyV...",
+    "summary": "삼성전자가 OCP에서 HBM 이후의 AI 메모리 및 스토리지 혁신 청사진을 공개하며 속도, 확장성, 영속성을 제시해 차세대 AI 메모리 제품군을 확장할 계획",
+    "published_ago": "6시간 전",
+    "published_at": "2026-10-13T01:12:57+00:00",
+    "published_raw": "Tue, 13 Oct 2026 01:12:57 GMT"
   }
 ]
