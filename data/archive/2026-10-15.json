@@ -1,5 +1,50 @@
 [
   {
+    "title": "TSMC, AI 칩 수요 급증에 생산 능력 재판매 금지",
+    "link": "https://www.digitimes.com/news/a20261015PD244/tsmc-capacity-demand-wafer-technology.html",
+    "short_link": "digitimes.com/news/a20261015PD244/tsmc-capacity-demand-waf...",
+    "summary": "TSMC는 AI 칩 수요가 공급을 훨씬 초과함에 따라 고객의 웨이퍼 생산 능력 재판매를 금지하며, 가능한 한 빨리 최대한 많이 생산할 계획을 발표",
+    "published_ago": "1시간 전",
+    "published_at": "2026-10-15T09:20:45+00:00",
+    "published_raw": "Thu, 15 Oct 2026 09:20:45 GMT"
+  },
+  {
+    "title": "TSMC, 2026년 매출 성장률 44% 상향 조정…2nm 확장 및 3nm 신규 팹",
+    "link": "https://www.digitimes.com/news/a20261015PD243/tsmc-growth-3nm-2026-fab.html",
+    "short_link": "digitimes.com/news/a20261015PD243/tsmc-growth-3nm-2026-fab...",
+    "summary": "TSMC는 AI 모멘텀과 첨단 공정 기술 수요에 힘입어 2026년 매출 성장률 전망치를 44%로 상향 조정하고 2nm 확장 및 3nm 신규 팹 건설을 추진할 계획",
+    "published_ago": "1시간 전",
+    "published_at": "2026-10-15T09:15:13+00:00",
+    "published_raw": "Thu, 15 Oct 2026 09:15:13 GMT"
+  },
+  {
+    "title": "FIC 그룹, 말레이시아 공장 개소…광 모듈 생산 18개 SMT 라인 목표",
+    "link": "https://www.digitimes.com/news/a20261015PD242/smt-plant-production-johor-manufacturing.html",
+    "short_link": "digitimes.com/news/a20261015PD242/smt-plant-production-joh...",
+    "summary": "FIC 그룹이 10월 15일 말레이시아 조호르에 PRO3C 제조 시설을 열고 800G, 1.6T, 3.2T, 6.4T 광 통신 모듈 생산을 위한 18개 SMT 라인 확보를 추진",
+    "published_ago": "1시간 전",
+    "published_at": "2026-10-15T08:39:50+00:00",
+    "published_raw": "Thu, 15 Oct 2026 08:39:50 GMT"
+  },
+  {
+    "title": "TSMC CEO, 수익성 한계 없어…2030년 High-NA EUV 도입 계획",
+    "link": "https://www.digitimes.com/news/a20261015PD240/tsmc-high-na-euv-adoption-2030.html",
+    "short_link": "digitimes.com/news/a20261015PD240/tsmc-high-na-euv-adoptio...",
+    "summary": "TSMC CEO는 AI 가속기 수요가 공급을 초과하며 수익성에 한계가 없다고 밝히고, 2030년 High-NA EUV 리소그래피 도입을 계획한다고 발표",
+    "published_ago": "2시간 전",
+    "published_at": "2026-10-15T08:14:39+00:00",
+    "published_raw": "Thu, 15 Oct 2026 08:14:39 GMT"
+  },
+  {
+    "title": "SK하이닉스, 美 낸드팹 계획에 中 장비 수출 승인 연계",
+    "link": "https://www.digitimes.com/news/a20261015VL222/sk-hynix-equipment-nand-exports-solidigm.html",
+    "short_link": "digitimes.com/news/a20261015VL222/sk-hynix-equipment-nand-...",
+    "summary": "SK하이닉스가 미국에 중국 다롄 낸드플래시 공장으로의 추가 장비 수출 승인을 요청하며, 이를 미국 내 신규 공장 투자와 연계하는 방안을 검토 중인 것으로 알려져 주목",
+    "published_ago": "2시간 전",
+    "published_at": "2026-10-15T08:11:12+00:00",
+    "published_raw": "Thu, 15 Oct 2026 08:11:12 GMT"
+  },
+  {
     "title": "마이크론, HBM 공급 부족 속 대만 2공장 가동",
     "link": "https://www.digitimes.com/news/a20261015VL216/micron-taiwan-hbm-packaging-plant.html",
     "short_link": "digitimes.com/news/a20261015VL216/micron-taiwan-hbm-packag...",
@@ -16,5 +61,14 @@
     "published_ago": "1시간 전",
     "published_at": "2026-10-15T04:41:24+00:00",
     "published_raw": "Thu, 15 Oct 2026 04:41:24 GMT"
+  },
+  {
+    "title": "삼성전자-SK하이닉스, 7세대 HBM 선보이며 “中보다 기술 우위”",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1nQkR4cWxqcFZWM2VuZUNScF9qYnFVckp4WTBTc3VnalpiNkw5ZzRmZGlxdnExWVM2bHZRdFpoN21PN2s5U0VwVGVpOVNRbnpzcGYySS1SQXJOem5Db1RSZGJZNTJuam83azh5YzFSdzl4UlF6Z3fSAWZBVV95cUxQS0RVZ0VaZzBkRnJBSGVSZ1hoV1JXcnVORmQ4aHVtc2oxLU9Pekk5MFpidmNVTDJnRm9zRlN6WFN1Sm1VM3BydjhkRDBHbng1QWo3RlhNcm8xeFRXR2d2SVRFbG8xM1E?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMidkFVX3lxTE1nQkR4cWxqcFZWM...",
+    "summary": "삼성전자와 SK하이닉스가 7세대 HBM을 선보이며 중국보다 기술 우위를 강조, AI 시장에서의 주도권 확보를 위한 3D 적층 D램 및 HBF 개발을 추진할 전망",
+    "published_ago": "18시간 전",
+    "published_at": "2026-10-14T15:30:00+00:00",
+    "published_raw": "Wed, 14 Oct 2026 15:30:00 GMT"
   }
 ]
