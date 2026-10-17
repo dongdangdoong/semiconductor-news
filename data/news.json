@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "title": "일본, TSMC 구마모토 제2공장 3나노 칩 생산 계획 승인",
+    "link": "https://www.digitimes.com/news/a20261017VL200/fab-tsmc-chips-kumamoto-production.html",
+    "short_link": "digitimes.com/news/a20261017VL200/fab-tsmc-chips-kumamoto-...",
+    "summary": "일본 경제산업성이 TSMC의 구마모토 제2공장에서 3나노 로직 칩을 생산하는 수정 계획을 승인하며, 기존 6나노 및 12나노 생산 계획을 대체할 것으로 예상",
+    "published_ago": "1시간 전",
+    "published_at": "2026-10-17T09:59:55+00:00",
+    "published_raw": "Sat, 17 Oct 2026 09:59:55 GMT"
+  },
+  {
+    "title": "GPU 확보 경쟁, 자금조달도 경쟁력",
+    "link": "https://n.news.naver.com/mnews/article/138/0002245063",
+    "short_link": "n.news.naver.com/mnews/article/138/0002245063",
+    "summary": "베슬AI는 AI 인프라 사업 확장을 위해 GPU 7000장을 2030년 20만장으로 늘릴 계획이며, 이를 위해 한국투자증권과 GPU 금융 협력 업무협약을 맺고 자금 조달을 추진",
+    "published_ago": "8시간 전",
+    "published_at": "2026-10-17T03:00:09+00:00",
+    "published_raw": "2026-10-17T03:00:09+00:00"
+  },
+  {
+    "title": "Taiwan Mask targets Japan's Kyushu chip expansion with US$4.75 million TCK acquisition",
+    "link": "https://www.digitimes.com/news/a20261016PD244/taiwan-mask-acquisition-equipment-photomask-revenue.html",
+    "short_link": "digitimes.com/news/a20261016PD244/taiwan-mask-acquisition-...",
+    "summary": "대만 마스크(TMC)가 475만 달러 규모의 TCK 인수를 통해 일본 규슈 반도체 시장에서 정밀 포토마스크 제조를 넘어 장비 조립 및 엔지니어링 지원 사업을 확대",
+    "published_ago": "10시간 전",
+    "published_at": "2026-10-17T00:08:50+00:00",
+    "published_raw": "Sat, 17 Oct 2026 00:08:50 GMT"
+  },
+  {
+    "title": "中 CXMT 차세대 D램 공포인가 위협인가 [한경 반도체포커스]",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA3M2Q0RUFZZTNZWTA2aTZDZ1o1ZFFyMGNTNXRuTW5LNEJXRXRXd1BGMVRicEIzSlIwcGJldXU4blU5aDk5SHJac01POVRERnpKZzlQNExBTU9UQQ?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMiWkFVX3lxTFA3M2Q0RUFZZTNZW...",
+    "summary": "중국 창신메모리(CXMT)가 3분기 매출 7배 급증을 예고하며 삼성과 SK를 맹추격하는 가운데, 차세대 D램 개발이 국내 반도체 업계에 위협으로 부각",
+    "published_ago": "11시간 전",
+    "published_at": "2026-10-16T23:00:07+00:00",
+    "published_raw": "Fri, 16 Oct 2026 23:00:07 GMT"
+  },
+  {
+    "title": "싱가포르 AI 전략, 모델 경쟁서 배포·회복탄력성·신뢰 채택으로 전환",
+    "link": "https://www.digitimes.com/news/a20261013VL211/singapore-ai-adoption-government-infrastructure.html",
+    "short_link": "digitimes.com/news/a20261013VL211/singapore-ai-adoption-go...",
+    "summary": "싱가포르가 AI 전략을 파일럿 중심 실험에서 기업 채택, 부문 전환, 컴퓨팅에 대한 회복탄력적 접근에 중점을 둔 배포 중심으로 전환하고 있어 주목",
+    "published_ago": "16시간 전",
+    "published_at": "2026-10-16T18:38:00+00:00",
+    "published_raw": "Fri, 16 Oct 2026 18:38:00 GMT"
+  },
+  {
+    "title": "SEMI CEO, 2035년 반도체 산업 3조 달러 전망",
+    "link": "https://www.digitimes.com/news/a20261015PD238/semi-supply-chain-2035-ceo-taiwan.html",
+    "short_link": "digitimes.com/news/a20261015PD238/semi-supply-chain-2035-c...",
+    "summary": "SEMI CEO는 AI와 퀀텀 컴퓨팅 성장에 힘입어 반도체 산업 매출이 2035년까지 3조 달러에 이를 것으로 예상",
+    "published_ago": "17시간 전",
+    "published_at": "2026-10-16T17:53:00+00:00",
+    "published_raw": "Fri, 16 Oct 2026 17:53:00 GMT"
+  }
+]
