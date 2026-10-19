@@ -1,47 +1,20 @@
 [
   {
-    "title": "Wooptix, 웨이퍼 계측 기술로 주요 칩 제조업체 공략…3~5년 내 생산 도입 목표",
-    "link": "https://www.digitimes.com/news/a20261019PD220/interview-wafer-metrology-startup-adoption-spain.html",
-    "short_link": "digitimes.com/news/a20261019PD220/interview-wafer-metrolog...",
-    "summary": "스페인 반도체 계측 스타트업 Wooptix가 천문 관측 기술을 활용한 웨이퍼 계측 기술로 주요 반도체 파운드리 공급망 진입을 가속화하며 3~5년 내 생산 도입을 목표로 추진",
-    "published_ago": "2시간 전",
-    "published_at": "2026-10-19T04:42:23+00:00",
-    "published_raw": "Mon, 19 Oct 2026 04:42:23 GMT"
+    "title": "MS 마이아 300, 2nm 경쟁 선두…TSMC 미국 전략 전환, 인텔 EMIB-T 수율 난관",
+    "link": "https://www.digitimes.com/news/a20261019PD235/microsoft-tsmc-2nm-intel-digitimes.html",
+    "short_link": "digitimes.com/news/a20261019PD235/microsoft-tsmc-2nm-intel...",
+    "summary": "마이크로소프트의 TSMC 2nm 공정 조기 채택과 TSMC-글로벌파운드리 20억 달러 제조 협력, 구글 차세대 TPU 지연은 AI 칩 개발 및 첨단 패키징 전략의 차이를 시사",
+    "published_ago": "5시간 전",
+    "published_at": "2026-10-19T08:55:00+00:00",
+    "published_raw": "Mon, 19 Oct 2026 08:55:00 GMT"
   },
   {
-    "title": "앤스로픽, 싱가포르 사무소 개설 및 AI 협력 협정 체결",
-    "link": "https://www.digitimes.com/news/a20261019PR200/anthropic-claude-security-adoption-development.html",
-    "short_link": "digitimes.com/news/a20261019PR200/anthropic-claude-securit...",
-    "summary": "앤스로픽이 싱가포르에 5번째 아시아 태평양 사무소를 열고 디지털부와 AI 안전, 보안, 평가 및 채택에 대한 협력 양해각서를 체결하며 클로드 사용률이 높은 시장에서의 입지를 확대",
-    "published_ago": "3시간 전",
-    "published_at": "2026-10-19T04:19:47+00:00",
-    "published_raw": "Mon, 19 Oct 2026 04:19:47 GMT"
-  },
-  {
-    "title": "테슬라, 삼성·TSMC와 반도체 파운드리 갈등 심화",
-    "link": "https://www.digitimes.com/news/a20261019PD222/tesla-samsung-tsmc-production-fab.html",
-    "short_link": "digitimes.com/news/a20261019PD222/tesla-samsung-tsmc-produ...",
-    "summary": "테슬라가 AI 프로세서 수요 증가 속 삼성 및 TSMC와의 반도체 파운드리 거래에서 가격 압박, 민감 정보 요구, 인력 채용 등 갈등이 부각",
-    "published_ago": "3시간 전",
-    "published_at": "2026-10-19T03:50:00+00:00",
-    "published_raw": "Mon, 19 Oct 2026 03:50:00 GMT"
-  },
-  {
-    "title": "대만, 10년간 전력 확보 위해 가스발전 25기 증설 계획",
-    "link": "https://www.digitimes.com/news/a20261019PD227/taiwan-electricity-nuclear-demand-government.html?chid=10",
-    "short_link": "digitimes.com/news/a20261019PD227/taiwan-electricity-nucle...",
-    "summary": "대만 경제부, 반도체 산업 및 AI 데이터센터 전력 수요 충족 위해 26GW 규모 가스발전 25기 추가 계획 발표",
-    "published_ago": "4시간 전",
-    "published_at": "2026-10-19T03:04:48+00:00",
-    "published_raw": "Mon, 19 Oct 2026 03:04:48 GMT"
-  },
-  {
-    "title": "CXMT eyes nearly US$20 billion profit as AI-driven DRAM shortages fuel earnings turnaround",
-    "link": "https://www.digitimes.com/news/a20261019VL206/dram-cxmt-earnings-profit-market.html",
-    "short_link": "digitimes.com/news/a20261019VL206/dram-cxmt-earnings-profi...",
-    "summary": "중국 D램 제조사 CXMT가 AI 컴퓨팅 수요 급증에 따른 메모리칩 부족과 가격 상승으로 2026년 1~9월 순이익이 195.8억~198억달러에 달할 것으로 예상",
-    "published_ago": "4시간 전",
-    "published_at": "2026-10-19T02:38:54+00:00",
-    "published_raw": "Mon, 19 Oct 2026 02:38:54 GMT"
+    "title": "TSMC 초대 CTO, 인텔 영입 제안 2차례 거절",
+    "link": "https://www.digitimes.com/news/a20261019PD218/intel-taiwan-academia-sinica-tsmc-electronics.html",
+    "short_link": "digitimes.com/news/a20261019PD218/intel-taiwan-academia-si...",
+    "summary": "TSMC의 초대 최고기술책임자(CTO)이자 FinFET 트랜지스터 공동 발명자인 천밍 후 박사가 과거 인텔 공동 창업자 앤디 그로브의 영입 제안을 두 차례 거절한 사실이 확인",
+    "published_ago": "6시간 전",
+    "published_at": "2026-10-19T08:20:00+00:00",
+    "published_raw": "Mon, 19 Oct 2026 08:20:00 GMT"
   }
 ]
