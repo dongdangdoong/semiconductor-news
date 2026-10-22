@@ -1,5 +1,23 @@
 [
   {
+    "title": "대만-프랑스 반도체 동맹, SiPearl-Egis 그룹 CPU 협약으로 강화",
+    "link": "https://www.digitimes.com/news/a20261022VL222/alliance-industrial-taiwan-europe-cpu.html",
+    "short_link": "digitimes.com/news/a20261022VL222/alliance-industrial-taiw...",
+    "summary": "SiPearl와 Egis 그룹은 Mobius 100 CPU 및 UCIe 칩렛 기반 시장 구축 협약을 체결하며 대만-프랑스 반도체 동맹을 강화",
+    "published_ago": "1시간 전",
+    "published_at": "2026-10-22T10:26:35+00:00",
+    "published_raw": "Thu, 22 Oct 2026 10:26:35 GMT"
+  },
+  {
+    "title": "테슬라 메가팩 사업 확장, AI 전력난 직면 속 마진 개선 의문",
+    "link": "https://www.digitimes.com/news/a20261022VL215/tesla-electricity-infrastructure-transportation-demand-capacity.html",
+    "short_link": "digitimes.com/news/a20261022VL215/tesla-electricity-infras...",
+    "summary": "테슬라의 2026년 3분기 실적 발표에서 에너지 저장 사업인 메가팩의 성장이 AI 전력난과 맞물려 마진 개선에 대한 의문을 제기하고 있어 주목",
+    "published_ago": "5시간 전",
+    "published_at": "2026-10-22T06:20:54+00:00",
+    "published_raw": "Thu, 22 Oct 2026 06:20:54 GMT"
+  },
+  {
     "title": "삼성전자, 차세대 D램·낸드 개발 가속화 위해 R&D 인센티브 개편",
     "link": "https://www.digitimes.com/news/a20261022VL214/samsung-dram-incentives-nand-talent.html",
     "short_link": "digitimes.com/news/a20261022VL214/samsung-dram-incentives-...",
@@ -7,6 +25,42 @@
     "published_ago": "23분 전",
     "published_at": "2026-10-22T05:55:00+00:00",
     "published_raw": "Thu, 22 Oct 2026 05:55:00 GMT"
+  },
+  {
+    "title": "테슬라·스페이스X, 한국 반도체 공급사 10곳과 테라팹 협상",
+    "link": "https://www.digitimes.com/news/a20261022PD229/elon-musk-equipment-tesla-materials-spacex.html",
+    "short_link": "digitimes.com/news/a20261022PD229/elon-musk-equipment-tesl...",
+    "summary": "일론 머스크의 테슬라와 스페이스X가 테라팹 프로젝트를 위해 한국 반도체 소재, 부품, 장비 공급사 약 10곳과 공정 재료, 배관 및 밸브 등에 대한 협상을 진행 중인 것으로 관측",
+    "published_ago": "8시간 전",
+    "published_at": "2026-10-22T04:06:20+00:00",
+    "published_raw": "Thu, 22 Oct 2026 04:06:20 GMT"
+  },
+  {
+    "title": "일본, 17개 성장 전략 실행 계획 확정",
+    "link": "https://www.digitimes.com/news/a20261022PD233/investment-government-growth-2026-semiconductors.html",
+    "short_link": "digitimes.com/news/a20261022PD233/investment-government-gr...",
+    "summary": "일본 다카이치 사나에 총리가 2026년 말까지 17개 전략 분야에 대한 5개년 투자 청사진을 확정할 예정이며, 반도체와 게임이 단기 투자 우선순위로 부각",
+    "published_ago": "8시간 전",
+    "published_at": "2026-10-22T03:51:18+00:00",
+    "published_raw": "Thu, 22 Oct 2026 03:51:18 GMT"
+  },
+  {
+    "title": "BOS·LG·하나마이크론, 한국 차량용 칩렛 개발 협력",
+    "link": "https://www.digitimes.com/news/a20261022VL211/micron-automotive-bos-lg-electronics-lg.html",
+    "short_link": "digitimes.com/news/a20261022VL211/micron-automotive-bos-lg...",
+    "summary": "BOS 반도체는 LG전자, 하나마이크론과 협력하여 국내 AI 반도체 설계와 패키징, 차량 테스트를 연결하는 칩렛 기반 차량용 반도체 개발 및 상용화를 추진할 계획",
+    "published_ago": "8시간 전",
+    "published_at": "2026-10-22T03:50:00+00:00",
+    "published_raw": "Thu, 22 Oct 2026 03:50:00 GMT"
+  },
+  {
+    "title": "인텔, 애리조나 Fab 62 장비 설치 시작…AI CPU 수요 급증에 오하이오 프로젝트 진전",
+    "link": "https://www.digitimes.com/news/a20261022VL216/intel-manufacturing-demand-equipment-arizona.html",
+    "short_link": "digitimes.com/news/a20261022VL216/intel-manufacturing-dema...",
+    "summary": "인텔은 AI 데이터센터 프로세서 수요 급증에 따라 애리조나 Fab 62 장비 설치를 시작하고 오하이오 공장 건설을 진행하며 미국 내 반도체 제조 프로젝트를 가속화할 계획",
+    "published_ago": "8시간 전",
+    "published_at": "2026-10-22T03:22:13+00:00",
+    "published_raw": "Thu, 22 Oct 2026 03:22:13 GMT"
   },
   {
     "title": "유니마이크론·스태츠칩팩·위스트론, AI 시스템 통합 첨단 패키징 병목현상 논의",
