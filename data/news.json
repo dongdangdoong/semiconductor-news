@@ -1,74 +1,11 @@
 [
   {
-    "title": "삼성, 美 테일러 1공장 2나노 생산량 2만장 확대 장비 발주",
-    "link": "https://www.digitimes.com/news/a20261023VL219/samsung-texas-2nm-fab.html",
-    "short_link": "digitimes.com/news/a20261023VL219/samsung-texas-2nm-fab.ht...",
-    "summary": "삼성전자가 미국 테일러 첫 파운드리 공장의 2나노 생산 능력을 2027년 하반기 월 2만장으로 늘리기 위해 추가 장비 발주를 진행한 것으로 알려져 주목",
-    "published_ago": "52분 전",
-    "published_at": "2026-10-23T06:55:14+00:00",
-    "published_raw": "Fri, 23 Oct 2026 06:55:14 GMT"
-  },
-  {
-    "title": "애플, BOE에 LCD 아이맥 개발 요청…OLED 전환 시점 불확실성 증폭",
-    "link": "https://www.digitimes.com/news/a20261023VL208/apple-boe-lcd-imac-development.html",
-    "short_link": "digitimes.com/news/a20261023VL208/apple-boe-lcd-imac-devel...",
-    "summary": "애플이 BOE 등 패널 업체에 LCD 아이맥 개발을 위한 기술 정보를 요청하며, 2029년경 LCD 모델 출시 가능성이 제기되어 OLED 아이맥 출시 시점에 대한 불확실성이 확대",
-    "published_ago": "1시간 전",
-    "published_at": "2026-10-23T06:46:50+00:00",
-    "published_raw": "Fri, 23 Oct 2026 06:46:50 GMT"
-  },
-  {
-    "title": "테슬라·엔비디아, 삼성전기 ABF 생산능력 확보에 3.7조원 투자",
-    "link": "https://www.digitimes.com/news/a20261023PD226/tesla-nvidia-semco-production-abf-substrate.html",
-    "short_link": "digitimes.com/news/a20261023PD226/tesla-nvidia-semco-produ...",
-    "summary": "테슬라와 엔비디아가 AI 반도체 기판 수요 증가에 대응하기 위해 삼성전기의 ABF 기판 생산 시설 확장을 위해 총 3.7조원을 투자하는 것으로 알려져 주목",
-    "published_ago": "4시간 전",
-    "published_at": "2026-10-23T03:44:29+00:00",
-    "published_raw": "Fri, 23 Oct 2026 03:44:29 GMT"
-  },
-  {
-    "title": "TSMC, 중국 수출 통제 앞두고 희토류 없는 모터 공급사 조사",
-    "link": "https://www.digitimes.com/news/a20261023VL216/legal-tsmc-equipment.html",
-    "short_link": "digitimes.com/news/a20261023VL216/legal-tsmc-equipment.htm...",
-    "summary": "세계 최대 파운드리 TSMC가 중국의 희토류 수출 통제 유예 기간 만료를 앞두고 공장 자동화 장비 내 희토류 자석 없는 모터 사용 가능성을 공급사에 문의하며 공급망 다변화를 검토",
-    "published_ago": "4시간 전",
-    "published_at": "2026-10-23T03:24:14+00:00",
-    "published_raw": "Fri, 23 Oct 2026 03:24:14 GMT"
-  },
-  {
-    "title": "엔비디아 DSX POD, AI 팩토리 공급망 재편",
-    "link": "https://www.digitimes.com/news/a20261023PD217/nvidia-ai-server-equipment-cooling.html",
-    "short_link": "digitimes.com/news/a20261023PD217/nvidia-ai-server-equipme...",
-    "summary": "엔비디아가 GTC 베를린에서 베라 루빈 플랫폼 기반 DSX POD 레퍼런스 디자인을 공개하며 AI 데이터센터 공급망 경쟁이 컴퓨팅 모듈 및 현장 엔지니어링 통합으로 확대될 전망",
-    "published_ago": "4시간 전",
-    "published_at": "2026-10-23T03:02:26+00:00",
-    "published_raw": "Fri, 23 Oct 2026 03:02:26 GMT"
-  },
-  {
-    "title": "애플 폴더블 아이폰 듀오, 중국 출시…2027년까지 배송",
-    "link": "https://www.digitimes.com/news/a20261023PD223/iphone-foldable-apple-2027-launch.html",
-    "short_link": "digitimes.com/news/a20261023PD223/iphone-foldable-apple-20...",
-    "summary": "애플의 첫 폴더블 아이폰 듀오가 중국에서 10월 23일 출시되었으며, 초기 공급 부족으로 일부 사전 주문 배송일이 2027년 1월 말까지 연장될 전망",
-    "published_ago": "5시간 전",
-    "published_at": "2026-10-23T02:41:12+00:00",
-    "published_raw": "Fri, 23 Oct 2026 02:41:12 GMT"
-  },
-  {
-    "title": "애플 아이폰 듀오 및 터치스크린 맥북, OLED TDDI 채택 가속화 전망",
-    "link": "https://www.digitimes.com/news/a20261023PD215/apple-iphone-macbook-tddi-adoption.html",
-    "short_link": "digitimes.com/news/a20261023PD215/apple-iphone-macbook-tdd...",
-    "summary": "애플의 아이폰 듀오 판매 호조와 터치스크린 맥북 출시 가능성이 OLED TDDI 기술의 채택을 가속화할 것으로 전망",
-    "published_ago": "5시간 전",
-    "published_at": "2026-10-23T02:26:45+00:00",
-    "published_raw": "Fri, 23 Oct 2026 02:26:45 GMT"
-  },
-  {
-    "title": "웨스턴디지털, 신규 생산능력 대신 가격 및 HAMR에 집중",
-    "link": "https://www.digitimes.com/news/a20261023VL207/western-digital-data-storage-capacity-growth-price-toshiba.html",
-    "short_link": "digitimes.com/news/a20261023VL207/western-digital-data-sto...",
-    "summary": "웨스턴디지털은 도시바의 생산량 2배 증대 계획에도 불구하고 신규 생산능력 확충 대신 테라바이트당 가격 인상과 HAMR 기술 도입을 통해 급증하는 하드 드라이브 수요에 대응할 계획",
-    "published_ago": "5시간 전",
-    "published_at": "2026-10-23T02:10:18+00:00",
-    "published_raw": "Fri, 23 Oct 2026 02:10:18 GMT"
+    "title": "두산로보틱스, 중국 경쟁사 가격 인하 속 완성차·반도체 기업 공략",
+    "link": "https://www.digitimes.com/news/a20261023VL222/doosan-sales-robot-2026-automotive.html",
+    "short_link": "digitimes.com/news/a20261023VL222/doosan-sales-robot-2026-...",
+    "summary": "두산로보틱스는 AI 기반 시스템 개발로 복잡한 공장 작업을 처리하며 완성차 및 반도체 제조업체에 대한 영업 노력을 집중하고 있어 주목",
+    "published_ago": "3시간 전",
+    "published_at": "2026-10-23T08:59:00+00:00",
+    "published_raw": "Fri, 23 Oct 2026 08:59:00 GMT"
   }
 ]
