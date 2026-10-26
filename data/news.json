@@ -1,11 +1,20 @@
 [
   {
-    "title": "AI 하드웨어 핵심으로 부상한 회로 기판, 병목 현상 심화",
+    "title": "AI 시대, 회로 기판이 AI 하드웨어 핵심으로 부상",
     "link": "https://www.digitimes.com/news/a20261023PD234/taiwan-packaging-pcb-manufacturing.html",
     "short_link": "digitimes.com/news/a20261023PD234/taiwan-packaging-pcb-man...",
-    "summary": "AI 서버 마더보드가 역대 가장 크고 두꺼우며 복잡한 PCB로 제조되면서, 기판 및 PCB 제조업체들이 AI 하드웨어 개발의 중심으로 이동하며 중요성이 부각",
-    "published_ago": "3시간 전",
+    "summary": "AI 서버 마더보드가 역대 가장 크고 두꺼우며 복잡한 PCB로 제조되면서, 기판 및 PCB 제조업체들이 AI 하드웨어 개발의 중심으로 진입",
+    "published_ago": "10시간 전",
     "published_at": "2026-10-26T02:59:13+00:00",
     "published_raw": "Mon, 26 Oct 2026 02:59:13 GMT"
+  },
+  {
+    "title": "Taiwan wafer-testing supplier Hermes Testing Solutions commits more than US$215 million to advanced chip testing expansion",
+    "link": "https://www.digitimes.com/news/a20261023PD241/taiwan-testing-equipment-budget-investment.html",
+    "short_link": "digitimes.com/news/a20261023PD241/taiwan-testing-equipment...",
+    "summary": "대만 반도체 웨이퍼 테스트 솔루션 기업 허메스 테스팅 솔루션즈가 신주 R&D 센터와 대만 중남부 제조 센터에 총 2.15억 달러 이상을 투자하여 첨단 칩 테스트 역량을 확대",
+    "published_ago": "10시간 전",
+    "published_at": "2026-10-26T02:58:19+00:00",
+    "published_raw": "Mon, 26 Oct 2026 02:58:19 GMT"
   }
 ]
