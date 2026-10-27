@@ -1,5 +1,50 @@
 [
   {
+    "title": "Broadcom, financial firms agree on US$63 billion funding for Anthropic chip purchases",
+    "link": "https://www.digitimes.com/news/a20261027VL222/broadcom-anthropic-funding-financing-finance.html",
+    "short_link": "digitimes.com/news/a20261027VL222/broadcom-anthropic-fundi...",
+    "summary": "브로드컴이 여러 금융사와 앤스로픽의 630억 달러 규모 칩 구매 자금 조달에 합의하며 AI 인프라 지출 확대 속 월스트리트의 자금 조달 참여가 증가",
+    "published_ago": "2시간 전",
+    "published_at": "2026-10-27T05:56:04+00:00",
+    "published_raw": "Tue, 27 Oct 2026 05:56:04 GMT"
+  },
+  {
+    "title": "The Anthropic IPO filing: 14-fold 1H26 revenue growth behind a US$80.75 billion paper loss",
+    "link": "https://www.digitimes.com/news/a20261027VL210/anthropic-revenue-loss-growth-ipo.html",
+    "short_link": "digitimes.com/news/a20261027VL210/anthropic-revenue-loss-g...",
+    "summary": "앤트로픽의 첫 IPO 서류에서 1H26 매출이 14배 성장하며 세계에서 가장 빠르게 성장하는 AI 기업 중 하나임을 확인",
+    "published_ago": "3시간 전",
+    "published_at": "2026-10-27T04:15:17+00:00",
+    "published_raw": "Tue, 27 Oct 2026 04:15:17 GMT"
+  },
+  {
+    "title": "미국, 중동 공급 충격 속 헬륨 핵심 물질 지정",
+    "link": "https://www.digitimes.com/news/a20261027VL219/military-infrastructure-manufacturing-supply-chain-semiconductors.html",
+    "short_link": "digitimes.com/news/a20261027VL219/military-infrastructure-...",
+    "summary": "미국 에너지부가 중동 분쟁으로 인한 공급 위기 속에서 반도체 및 첨단 전자제품 생산에 필수적인 헬륨을 에너지법 2020에 따라 핵심 물질로 공식 지정 발표",
+    "published_ago": "4시간 전",
+    "published_at": "2026-10-27T04:08:24+00:00",
+    "published_raw": "Tue, 27 Oct 2026 04:08:24 GMT"
+  },
+  {
+    "title": "AMD·Nvidia, AI 수요 4배 증가에 기판 공급망 투자 확대",
+    "link": "https://www.digitimes.com/news/a20261027PD218/amd-nvidia-capacity-substrate-expansion.html",
+    "short_link": "digitimes.com/news/a20261027PD218/amd-nvidia-capacity-subs...",
+    "summary": "AMD와 Nvidia가 AI 수요 급증에 따라 기판, 패키징, 테스트 등 공급망 역량 확장에 개별적으로 투자하며 핵심 제조 자원 통제력 확보에 집중",
+    "published_ago": "4시간 전",
+    "published_at": "2026-10-27T03:58:38+00:00",
+    "published_raw": "Tue, 27 Oct 2026 03:58:38 GMT"
+  },
+  {
+    "title": "후지필름, 한국 EUV 포토레지스트 및 CMP 슬러리 생산능력 확대",
+    "link": "https://www.digitimes.com/news/a20261027PD205/fujifilm-capacity-demand-materials-production.html",
+    "short_link": "digitimes.com/news/a20261027PD205/fujifilm-capacity-demand...",
+    "summary": "후지필름이 AI 칩 수요 증가에 맞춰 평택 EUV 포토레지스트와 천안 CMP 슬러리 생산능력을 확대하며 삼성전자 등 고객사 지원을 강화할 계획",
+    "published_ago": "4시간 전",
+    "published_at": "2026-10-27T03:56:00+00:00",
+    "published_raw": "Tue, 27 Oct 2026 03:56:00 GMT"
+  },
+  {
     "title": "인텔, 양자 컴퓨팅 소프트웨어 기업 클래식 인수",
     "link": "https://www.digitimes.com/news/a20261027VL212/intel-quantum-computing-software-hardware-manufacturing.html",
     "short_link": "digitimes.com/news/a20261027VL212/intel-quantum-computing-...",
