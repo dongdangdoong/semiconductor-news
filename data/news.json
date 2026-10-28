@@ -1,11 +1,29 @@
 [
   {
+    "title": "SK하이닉스, 고객사 HBM 공급 요청량 생산량의 2배 초과",
+    "link": "https://www.digitimes.com/news/a20261028VL222/sk-hynix-hbm-dram-hbm4-manufacturing.html",
+    "short_link": "digitimes.com/news/a20261028VL222/sk-hynix-hbm-dram-hbm4-m...",
+    "summary": "SK하이닉스는 고대역폭 메모리(HBM)에 대한 고객사들의 수요가 현재 공급 가능한 물량의 2배를 넘어서는 것으로 나타나, HBM 공급 부족이 심화될 가능성이 부각",
+    "published_ago": "5시간 전",
+    "published_at": "2026-10-28T15:18:23+00:00",
+    "published_raw": "Wed, 28 Oct 2026 15:18:23 GMT"
+  },
+  {
     "title": "前 TSMC CTO, 대만 연구기관 과도한 자금 지원 지적",
     "link": "https://www.digitimes.com/news/a20261028PD226/taiwan-tsmc-funding-academia-sinica-technology.html",
     "short_link": "digitimes.com/news/a20261028PD226/taiwan-tsmc-funding-acad...",
-    "summary": "TSMC 전 CTO 천밍후는 대만 연구기관에 공공 R&D 자금이 과도하게 지원되지만 인재 양성은 부족하다고 지적하며 대학 투자 대비 승수 효과가 낮다고 분석",
-    "published_ago": "7시간 전",
+    "summary": "TSMC 전 최고기술책임자 천밍후는 대만 연구기관들이 과도한 공공 R&D 자금을 지원받지만 인재 양성 효과는 미미하다고 지적하며, 대학 투자 대비 승수 효과가 낮다고 분석",
+    "published_ago": "11시간 전",
     "published_at": "2026-10-28T08:51:46+00:00",
     "published_raw": "Wed, 28 Oct 2026 08:51:46 GMT"
+  },
+  {
+    "title": "오라클, AI 칩 다각화 가속…세레브라스·구글·삼바노바와 협력",
+    "link": "https://www.digitimes.com/news/a20261028VL226/oracle-cerebras-chips-nvidia-infrastructure.html",
+    "short_link": "digitimes.com/news/a20261028VL226/oracle-cerebras-chips-nv...",
+    "summary": "오라클이 클라우드 인프라에 세레브라스 등 AI 칩을 호스팅하는 파트너십을 체결하며 엔비디아 칩 의존도를 낮추고 AI 칩 다각화를 본격화",
+    "published_ago": "12시간 전",
+    "published_at": "2026-10-28T08:36:39+00:00",
+    "published_raw": "Wed, 28 Oct 2026 08:36:39 GMT"
   }
 ]
