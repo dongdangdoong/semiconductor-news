@@ -1,11 +1,56 @@
 [
   {
+    "title": "최태원, 샘 올트먼과 오찬…HBM·AI 데이터센터 협력 주목 By EBN",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5fTFpPYWlRMURSY29OZXhxNWVmTmFKaWZRNnNFelpQckY4ekZTamZSMHNsRU82OG9tME5kT29ldm1FdnJqNmt2N2FlOHpuUHdCa0R2aVZYdkxneGlBY19ZdWU4R0N4Ym5kdHRoaFFDbWc?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMicEFVX3lxTE5fTFpPYWlRMURSY...",
+    "summary": "최태원 SK그룹 회장과 샘 올트먼 오픈AI CEO가 오찬을 통해 HBM 및 AI 데이터센터 분야에서의 협력 방안을 논의하며 AI 동맹 가속화에 대한 기대감이 부각",
+    "published_ago": "5시간 전",
+    "published_at": "2026-10-31T06:39:00+00:00",
+    "published_raw": "Sat, 31 Oct 2026 06:39:00 GMT"
+  },
+  {
+    "title": "S. Korea, US, Japan reaffirm NK denuclearization goal, bolster economic ties",
+    "link": "https://n.news.naver.com/mnews/ranking/article/044/0000291551?ntype=RANKING",
+    "short_link": "n.news.naver.com/mnews/ranking/article/044/0000291551",
+    "summary": "한미일 3국 외교장관은 북한의 완전한 비핵화 목표를 재확인하고, 글로벌 공급망 취약성 해소 및 핵심 광물 공급망 다변화 등 경제 협력을 강화하기로 합의 발표",
+    "published_ago": "9시간 전",
+    "published_at": "2026-10-31T01:51:11+00:00",
+    "published_raw": "2026-10-31T01:51:11+00:00"
+  },
+  {
     "title": "엔비디아, GPU 넘어 AI 인프라 심화",
     "link": "https://www.digitimes.com/news/a20261028VL216/meta-infrastructure-nvidia-launch-security.html",
     "short_link": "digitimes.com/news/a20261028VL216/meta-infrastructure-nvid...",
-    "summary": "메타의 뮤즈 에이전트 스택 출시로 엔비디아가 GPU를 넘어 AI 인프라 영역으로 더욱 깊이 진입하며 AI 에이전트의 복잡한 운영 요구사항과 다양화된 역할이 부각",
-    "published_ago": "6시간 전",
+    "summary": "메타의 뮤즈 에이전트 스택 출시로 엔비디아가 GPU를 넘어 AI 인프라 시장에 더욱 깊이 진입하며 AI 에이전트의 복잡한 운영 요구사항에 대응하고 있는 것으로 분석",
+    "published_ago": "12시간 전",
     "published_at": "2026-10-30T23:35:09+00:00",
     "published_raw": "Fri, 30 Oct 2026 23:35:09 GMT"
+  },
+  {
+    "title": "TSIA 30: 대만 반도체 인력 문제 직면",
+    "link": "https://www.digitimes.com/news/a20261030VL224/taiwan-tsia-manufacturing-talent-technology.html",
+    "short_link": "digitimes.com/news/a20261030VL224/taiwan-tsia-manufacturin...",
+    "summary": "대만 반도체 산업은 수십 년간 기술 투자로 칩 지배력을 확보했으나, TSIA 30 보고서에 따르면 인력 문제가 산업의 회복력에 영향을 미칠 가능성이 부각",
+    "published_ago": "12시간 전",
+    "published_at": "2026-10-30T23:34:24+00:00",
+    "published_raw": "Fri, 30 Oct 2026 23:34:24 GMT"
+  },
+  {
+    "title": "TSIA 30: 대만, AI 인프라 구축 집중",
+    "link": "https://www.digitimes.com/news/a20261030VL222/taiwan-infrastructure-packaging-manufacturing-technology.html",
+    "short_link": "digitimes.com/news/a20261030VL222/taiwan-infrastructure-pa...",
+    "summary": "대만은 AI 붐에 필수적인 첨단 로직, 패키징, 기판, 테스트, 전력 공급, 냉각 및 서버 조립 등 물리적 인프라를 제조하며 AI 경제의 핵심 역할을 강화",
+    "published_ago": "12시간 전",
+    "published_at": "2026-10-30T23:34:04+00:00",
+    "published_raw": "Fri, 30 Oct 2026 23:34:04 GMT"
+  },
+  {
+    "title": "르네사스, AI 데이터센터 역량 확대…2026년 마진 33.2% 목표",
+    "link": "https://www.digitimes.com/news/a20261030PD222/renesas-2026-revenue-capacity-demand.html",
+    "short_link": "digitimes.com/news/a20261030PD222/renesas-2026-revenue-cap...",
+    "summary": "일본 르네사스 일렉트로닉스는 AI 데이터센터, 산업용 애플리케이션, 차량용 반도체 수요에 힘입어 2026년 매출 1조 6668억 엔, 영업이익률 33.2% 달성을 전망",
+    "published_ago": "12시간 전",
+    "published_at": "2026-10-30T23:28:59+00:00",
+    "published_raw": "Fri, 30 Oct 2026 23:28:59 GMT"
   }
 ]
