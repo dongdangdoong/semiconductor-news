@@ -1,11 +1,83 @@
 [
   {
-    "title": "라이트온, 2027년 CAPEX 확대…AI 경쟁 속 CSP 투자 증가",
+    "title": "진파오, 태국 로봇 대회 개최로 AI 인재 개발 및 현지 협력 강화",
+    "link": "https://www.digitimes.com/news/a20261102PD233/talent-competition-automation-education-smart-manufacturing.html",
+    "short_link": "digitimes.com/news/a20261102PD233/talent-competition-autom...",
+    "summary": "진파오 정밀 산업은 태국 사뭇쁘라깐 주에서 자동화 및 로봇 혁신 대회를 개최하여 AI 및 스마트 제조 인재 개발과 현지 사회와의 장기적 협력을 추진할 계획",
+    "published_ago": "4시간 전",
+    "published_at": "2026-11-02T08:12:43+00:00",
+    "published_raw": "Mon, 2 Nov 2026 08:12:43 GMT"
+  },
+  {
+    "title": "무라타, MLCC 생산능력 확장에 1조 엔 투자 계획",
+    "link": "https://www.digitimes.com/news/a20261102VL214/murata-mlcc-capacity-asia-demand.html",
+    "short_link": "digitimes.com/news/a20261102VL214/murata-mlcc-capacity-asi...",
+    "summary": "무라타는 데이터센터 및 AI 애플리케이션 수요 증가에 대응하기 위해 2030년까지 MLCC 생산능력 확장에 약 1조 엔을 투자할 계획",
+    "published_ago": "4시간 전",
+    "published_at": "2026-11-02T07:55:00+00:00",
+    "published_raw": "Mon, 2 Nov 2026 07:55:00 GMT"
+  },
+  {
+    "title": "BenQ Materials, 프리미엄 디스플레이·의료 성장 목표, 반도체 소재 돌파구 모색",
+    "link": "https://www.digitimes.com/news/a20261102PD211/benq-materials-medical-oled-panel-materials-growth.html",
+    "short_link": "digitimes.com/news/a20261102PD211/benq-materials-medical-o...",
+    "summary": "BenQ Materials는 고부가가치 디스플레이, 의료 및 반도체 소재 사업 성장을 목표로 하며, 의료 제품은 꾸준히 확장되고 반도체 소재는 4분기 고객 인증 진전을 예상",
+    "published_ago": "5시간 전",
+    "published_at": "2026-11-02T07:00:00+00:00",
+    "published_raw": "Mon, 2 Nov 2026 07:00:00 GMT"
+  },
+  {
+    "title": "미디어텍, 2028년 두 번째 ASIC 프로젝트 및 고객 확보",
+    "link": "https://www.digitimes.com/news/a20261102PD217/mediatek-asic-2028-market-earnings.html",
+    "short_link": "digitimes.com/news/a20261102PD217/mediatek-asic-2028-marke...",
+    "summary": "미디어텍은 주요 고객의 2세대 AI 가속기 ASIC 프로젝트가 2028년 1분기 양산 목표를 유지하며, 두 번째 고객사도 2028년부터 매출에 기여할 것으로 전망",
+    "published_ago": "8시간 전",
+    "published_at": "2026-11-02T04:23:12+00:00",
+    "published_raw": "Mon, 2 Nov 2026 04:23:12 GMT"
+  },
+  {
+    "title": "삼성 이재용 회장, AI 칩 패키징 경쟁력 위해 일본 방문",
+    "link": "https://www.digitimes.com/news/a20261102VL212/samsung-chairman-japan-ai-chip-packaging-materials.html",
+    "short_link": "digitimes.com/news/a20261102VL212/samsung-chairman-japan-a...",
+    "summary": "삼성전자 이재용 회장이 11월 1일 일본 요코하마 APL을 방문하여 AI 프로세서용 첨단 패키징 역량 강화를 위해 일본 반도체 소재 및 장비 산업과의 협력을 모색할 것으로 예상",
+    "published_ago": "8시간 전",
+    "published_at": "2026-11-02T04:09:11+00:00",
+    "published_raw": "Mon, 2 Nov 2026 04:09:11 GMT"
+  },
+  {
+    "title": "DIGITIMES 회장 \"AI 경쟁, 대만-한국 협력이 경쟁보다 우위",
+    "link": "https://www.digitimes.com/news/a20261102PD218/taiwan-competition-chairman-digitimes-industrial.html",
+    "short_link": "digitimes.com/news/a20261102PD218/taiwan-competition-chair...",
+    "summary": "DIGITIMES 회장은 AI 반도체 공급망 복잡성 증가에 따라 대만과 한국이 단순 경쟁을 넘어 협력하는 것이 AI 경쟁에서 더 유리하다고 강조",
+    "published_ago": "8시간 전",
+    "published_at": "2026-11-02T04:06:24+00:00",
+    "published_raw": "Mon, 2 Nov 2026 04:06:24 GMT"
+  },
+  {
+    "title": "독일, AI PC 경쟁 재편…킬러 앱 대기 속 시장 확대",
+    "link": "https://www.digitimes.com/news/a20261102VL206/ai-pc-germany-market-hardware.html",
+    "short_link": "digitimes.com/news/a20261102VL206/ai-pc-germany-market-har...",
+    "summary": "AI PC 구성이 기술적 정점에 도달하며 고사양 기기 수요가 증가하는 가운데, 독일이 AI PC 경쟁에서 빠른 추격자 전략으로 시장 재편을 가속화할 가능성이 부각",
+    "published_ago": "8시간 전",
+    "published_at": "2026-11-02T04:06:01+00:00",
+    "published_raw": "Mon, 2 Nov 2026 04:06:01 GMT"
+  },
+  {
+    "title": "라이트온, AI 경쟁 심화에 2027년 설비투자 확대",
     "link": "https://www.digitimes.com/news/a20261102PD216/lite-on-2027-capex-revenue-high-end.html",
     "short_link": "digitimes.com/news/a20261102PD216/lite-on-2027-capex-reven...",
-    "summary": "라이트온 테크놀로지는 클라우드 서비스 제공업체(CSP)의 AI 인프라 투자 경쟁 심화에 따라 2027년까지 자본 지출을 지속적으로 늘릴 계획을 발표",
-    "published_ago": "31분 전",
+    "summary": "라이트온 테크놀로지는 클라우드 서비스 제공업체들의 AI 인프라 투자 경쟁 심화로 2027년까지 설비투자를 지속적으로 늘릴 계획을 발표",
+    "published_ago": "8시간 전",
     "published_at": "2026-11-02T03:55:22+00:00",
     "published_raw": "Mon, 2 Nov 2026 03:55:22 GMT"
+  },
+  {
+    "title": "CXMT, 3Q26 실적 발표…DDR5 모멘텀 및 2027년 성장 전략 주목",
+    "link": "https://www.digitimes.com/news/a20261102VL210/dram-cxmt-ddr5-2027-growth.html",
+    "short_link": "digitimes.com/news/a20261102VL210/dram-cxmt-ddr5-2027-grow...",
+    "summary": "중국 주요 D램 제조사 CXMT는 타이트한 메모리 공급과 AI 서버 수요, DDR5 및 LPDDR6 제품 포트폴리오 확대로 2027년까지 매출 성장을 지속할 것으로 전망",
+    "published_ago": "9시간 전",
+    "published_at": "2026-11-02T03:42:02+00:00",
+    "published_raw": "Mon, 2 Nov 2026 03:42:02 GMT"
   }
 ]
