@@ -1,11 +1,47 @@
 [
   {
-    "title": "中 태양광 4대 기업, 가격 전쟁에도 3분기 적자 지속",
-    "link": "https://www.digitimes.com/news/a20261103PD207/china-solar-overcapacity-loss-2026.html",
-    "short_link": "digitimes.com/news/a20261103PD207/china-solar-overcapacity...",
-    "summary": "중국 주요 태양광 제조사들이 2026년 3분기 실적 발표에서 수익성 개선 조짐에도 불구하고 과잉 생산 능력 지속으로 인한 막대한 손실을 이어가고 있음이 확인",
-    "published_ago": "22분 전",
-    "published_at": "2026-11-03T02:56:40+00:00",
-    "published_raw": "Tue, 3 Nov 2026 02:56:40 GMT"
+    "title": "엔비디아, 8,192개 GPU로 양자 시뮬레이션 기록 경신",
+    "link": "https://www.digitimes.com/news/a20261103PD212/quantum-computing-ceo-jensen-huang-development-hardware.html",
+    "short_link": "digitimes.com/news/a20261103PD212/quantum-computing-ceo-je...",
+    "summary": "엔비디아가 8,192개의 GPU를 활용하여 내결함성 양자 시뮬레이션 기록을 세우며 오류 수정 비용 절감을 목표로 양자 컴퓨팅 생태계 진입을 본격화",
+    "published_ago": "1시간 전",
+    "published_at": "2026-11-03T09:12:21+00:00",
+    "published_raw": "Tue, 3 Nov 2026 09:12:21 GMT"
+  },
+  {
+    "title": "온세미, 3Q26 매출 성장률 상회하며 AI 데이터센터 매출 175% 급증",
+    "link": "https://www.digitimes.com/news/a20261103VL219/onsemi-data-center-demand-growth-revenue-sales.html",
+    "short_link": "digitimes.com/news/a20261103VL219/onsemi-data-center-deman...",
+    "summary": "온세미는 2026년 3분기 AI 데이터센터 및 산업용 전력 관리 솔루션 수요 증가에 힘입어 예상을 뛰어넘는 실적을 기록하며 수익성 개선을 지속할 전망",
+    "published_ago": "2시간 전",
+    "published_at": "2026-11-03T08:41:20+00:00",
+    "published_raw": "Tue, 3 Nov 2026 08:41:20 GMT"
+  },
+  {
+    "title": "모토로라, 타불라와 AI 협력…스마트폰에 신뢰할 수 있는 미디어 AI 도입",
+    "link": "https://www.digitimes.com/news/a20261103PD228/motorola-advertising-smartphone-2026-gemini.html",
+    "short_link": "digitimes.com/news/a20261103PD228/motorola-advertising-sma...",
+    "summary": "모토로라가 타불라와 제휴하여 Moto G 시리즈 스마트폰에 DeeperDive AI 질의응답 엔진을 탑재, 사용자에게 새로운 AI 상호작용 방식을 제공할 계획",
+    "published_ago": "3시간 전",
+    "published_at": "2026-11-03T08:11:05+00:00",
+    "published_raw": "Tue, 3 Nov 2026 08:11:05 GMT"
+  },
+  {
+    "title": "日 유통사, DDR5 가격 2배 급등에 신규 고객 거부",
+    "link": "https://www.digitimes.com/news/a20261103VL218/electronics-ddr5-dram-demand-hbm.html",
+    "short_link": "digitimes.com/news/a20261103VL218/electronics-ddr5-dram-de...",
+    "summary": "일본 전자제품 유통사가 AI 데이터센터 수요로 인한 PC용 DRAM 공급 부족과 DDR5 가격 2배 상승으로 기존 고객사 물량도 감당하기 어려워 신규 고객을 받지 않는다고 발표",
+    "published_ago": "3시간 전",
+    "published_at": "2026-11-03T07:17:17+00:00",
+    "published_raw": "Tue, 3 Nov 2026 07:17:17 GMT"
+  },
+  {
+    "title": "거품 대신 주문이 터졌다…'삼전닉스' 메모리 없어서 못 판다",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5zOTdYLVFuVE1aelpXWENDRWl5cXNNSEo1Vm9Wa2M2WHpJSGgtSy1jcWdBWE9ob3dUR2kwRk9MazdUUXplblJ5OVp6WGp5UG5pVDRz?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMiU0FVX3lxTE5zOTdYLVFuVE1ae...",
+    "summary": "AI 시대 핵심 메모리인 HBM 생산 거점인 한국에서 삼성전자와 SK하이닉스가 애플을 상대로 메모리 반도체 협상력을 강화하며 주문이 폭증하고 있어 공급 부족이 심화될 전망",
+    "published_ago": "14시간 전",
+    "published_at": "2026-11-02T20:30:00+00:00",
+    "published_raw": "Mon, 02 Nov 2026 20:30:00 GMT"
   }
 ]
