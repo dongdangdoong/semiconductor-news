@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "title": "Amazon's US$2 billion Ohio data center plan faces new hurdle as voters approve ban",
+    "link": "https://www.digitimes.com/news/a20261104VL223/data-center-ban-amazon-data-development.html",
+    "short_link": "digitimes.com/news/a20261104VL223/data-center-ban-amazon-d...",
+    "summary": "오하이오 선버리 주민들이 대규모 데이터센터 금지안을 승인하면서 아마존의 20억 달러 규모 데이터센터 프로젝트가 새로운 장애물에 직면할 가능성",
+    "published_ago": "2시간 전",
+    "published_at": "2026-11-04T09:27:12+00:00",
+    "published_raw": "Wed, 4 Nov 2026 09:27:12 GMT"
+  },
+  {
+    "title": "이노디스크, AI 데이터센터용 eSSD 및 DDR5 제품 공급 확대",
+    "link": "https://www.digitimes.com/news/a20261104PD249/innodisk-data-center-ddr5-ssd-memory-module.html",
+    "short_link": "digitimes.com/news/a20261104PD249/innodisk-data-center-ddr...",
+    "summary": "이노디스크가 AI 데이터센터 전략을 강화하며 eSSD 고객 샘플링을 진행하고 DDR5 및 RDIMM 제품을 단계적으로 출시하여 AI 인프라 핵심 부품 공급을 확대",
+    "published_ago": "2시간 전",
+    "published_at": "2026-11-04T08:56:00+00:00",
+    "published_raw": "Wed, 4 Nov 2026 08:56:00 GMT"
+  },
+  {
+    "title": "인텔, 랩터레이크로 DDR4 업그레이드 시장 공략 본격화",
+    "link": "https://www.digitimes.com/news/a20261104PD210/intel-ddr4-raptor-lake-pc.html",
+    "short_link": "digitimes.com/news/a20261104PD210/intel-ddr4-raptor-lake-p...",
+    "summary": "DDR5 가격 상승과 DRAM 공급 부족으로 DDR4 메모리가 다시 주목받는 가운데, 인텔이 랩터레이크 아키텍처를 통해 DDR4 PC 업그레이드 시장을 목표로 확장할 계획을 추진",
+    "published_ago": "4시간 전",
+    "published_at": "2026-11-04T07:22:47+00:00",
+    "published_raw": "Wed, 4 Nov 2026 07:22:47 GMT"
+  },
+  {
+    "title": "AI 플래시, HBM4 대비 GB당 제조 비용 90% 절감 가능성",
+    "link": "https://www.digitimes.com/news/a20261104VL218/nand-flash-manufacturing-capacity-wafer-sandisk.html",
+    "short_link": "digitimes.com/news/a20261104VL218/nand-flash-manufacturing...",
+    "summary": "고대역폭 플래시(HBF)는 AI 가속기에 HBM4보다 기가바이트당 제조 비용이 약 10분의 1 수준으로 더 많은 메모리를 제공할 수 있어 주목",
+    "published_ago": "5시간 전",
+    "published_at": "2026-11-04T06:32:16+00:00",
+    "published_raw": "Wed, 4 Nov 2026 06:32:16 GMT"
+  },
+  {
+    "title": "고속 광통신, 대만 PCB 업계 mSAP 경쟁 심화",
+    "link": "https://www.digitimes.com/news/a20261104PD217/communications-pcb-demand-hdi-data.html",
+    "short_link": "digitimes.com/news/a20261104PD217/communications-pcb-deman...",
+    "summary": "AI 컴퓨팅 클러스터 확대로 데이터센터의 고속 전송 및 대역폭 수요가 증가하며, mSAP가 광통신 모듈 및 하이엔드 서버 PCB 시장의 새로운 주류로 부상할 전망",
+    "published_ago": "5시간 전",
+    "published_at": "2026-11-04T05:55:00+00:00",
+    "published_raw": "Wed, 4 Nov 2026 05:55:00 GMT"
+  },
+  {
+    "title": "애플, 차세대 OLED에 스퍼터링 HMO 공정 검토",
+    "link": "https://www.digitimes.com/news/a20261104PD207/apple-technology-lg-display-sdc-performance.html",
+    "short_link": "digitimes.com/news/a20261104PD207/apple-technology-lg-disp...",
+    "summary": "애플이 차세대 OLED 디스플레이를 위해 고이동성 산화물(HMO) 기술을 개발 중이며, 삼성디스플레이와 LG디스플레이 모두 기존 스퍼터링 공정을 선호하는 것으로 관측",
+    "published_ago": "5시간 전",
+    "published_at": "2026-11-04T05:49:16+00:00",
+    "published_raw": "Wed, 4 Nov 2026 05:49:16 GMT"
+  }
+]
