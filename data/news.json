@@ -1,74 +1,11 @@
 [
   {
-    "title": "미국 중간선거 후 AI 데이터센터 확장 전략 재편",
-    "link": "https://www.digitimes.com/news/a20261106VL213/data-center-infrastructure-nvidia-openai-data.html",
-    "short_link": "digitimes.com/news/a20261106VL213/data-center-infrastructu...",
-    "summary": "미국 중간선거 이후 데이터센터 건설에 대한 반발이 확산되면서, OpenAI는 지역사회 영향 방지를 약속하고 Nvidia는 기존 소규모 시설 개조로 전략을 전환하는 모습이 부각",
-    "published_ago": "55분 전",
-    "published_at": "2026-11-06T07:45:00+00:00",
-    "published_raw": "Fri, 6 Nov 2026 07:45:00 GMT"
-  },
-  {
-    "title": "삼성전자, P5 팹 2 건설 가속화…메모리 반도체 부족 2028년까지 지속 전망",
-    "link": "https://www.digitimes.com/news/a20261105VL231/samsung-2028-2027-equipment-production.html",
-    "short_link": "digitimes.com/news/a20261105VL231/samsung-2028-2027-equipm...",
-    "summary": "삼성전자가 2027년 1월 평택 P5 팹 2 시설의 구조 공사를 시작하며 메모리 반도체 생산 능력 확대를 가속화하는 가운데, 반도체 부족 현상은 2028년까지 지속될 것으로 전망",
-    "published_ago": "5시간 전",
-    "published_at": "2026-11-06T03:35:03+00:00",
-    "published_raw": "Fri, 6 Nov 2026 03:35:03 GMT"
-  },
-  {
-    "title": "대만-영국 기술 협력, 유럽 반도체 자율성 강화 지원",
-    "link": "https://www.digitimes.com/news/a20261106PD220/technology-uk-taiwan-industrial-development.html",
-    "short_link": "digitimes.com/news/a20261106PD220/technology-uk-taiwan-ind...",
-    "summary": "대만과 영국이 반도체 전략 재편에 따라 기술 협력을 심화하며, 영국의 연구 역량과 대만의 제조 및 테스트 역량을 연결하여 유럽의 칩 자율성 확보를 지원할 가능성",
-    "published_ago": "5시간 전",
-    "published_at": "2026-11-06T03:35:00+00:00",
-    "published_raw": "Fri, 6 Nov 2026 03:35:00 GMT"
-  },
-  {
-    "title": "홍콩에 엔비디아 H200 60만대 재고 적체, 중국 수입 제한",
-    "link": "https://www.digitimes.com/news/a20261106VL209/beijing-nvidia-silicon-market-shipments.html",
-    "short_link": "digitimes.com/news/a20261106VL209/beijing-nvidia-silicon-m...",
-    "summary": "미국 수출 통제와 중국의 반도체 자급 노력 심화로 홍콩에 엔비디아 H200 AI 프로세서 약 60만 대가 중국 본토 진입을 기다리며 재고로 쌓여있는 상황이 부각",
-    "published_ago": "5시간 전",
-    "published_at": "2026-11-06T03:08:42+00:00",
-    "published_raw": "Fri, 6 Nov 2026 03:08:42 GMT"
-  },
-  {
-    "title": "삼성·SK하이닉스, AI 추론 시장 주목…SSD 수출 584% 급증",
-    "link": "https://www.digitimes.com/news/a20261106PD219/sk-hynix-samsung-ssd-exports-demand.html",
-    "short_link": "digitimes.com/news/a20261106PD219/sk-hynix-samsung-ssd-exp...",
-    "summary": "삼성전자와 SK하이닉스는 AI 에이전트 및 장문 컨텍스트 서비스 확산에 따른 고성능·고용량 eSSD 수요 증가에 맞춰 고부가가치 낸드플래시 포트폴리오를 확대",
-    "published_ago": "6시간 전",
-    "published_at": "2026-11-06T02:30:52+00:00",
-    "published_raw": "Fri, 6 Nov 2026 02:30:52 GMT"
-  },
-  {
-    "title": "DDR, LPDDR revenue growth outpaces HBM as DRAM market nears US$200 billion",
-    "link": "https://www.digitimes.com/news/a20261106VL206/revenue-dram-ddr-hbm-market.html",
-    "short_link": "digitimes.com/news/a20261106VL206/revenue-dram-ddr-hbm-mar...",
-    "summary": "2026년 3분기 DDR 및 LPDDR 매출이 HBM보다 빠르게 성장하며, 전 세계 DRAM 매출이 전년 대비 369% 급증해 2000억 달러에 육박했다고 카운터포인트리서치가 발표",
-    "published_ago": "6시간 전",
-    "published_at": "2026-11-06T02:30:00+00:00",
-    "published_raw": "Fri, 6 Nov 2026 02:30:00 GMT"
-  },
-  {
-    "title": "화홍그레이스, AI 칩 부족 속 실리콘 포토닉스 확장 추진",
-    "link": "https://www.digitimes.com/news/a20261106VL204/photonics-silicon-expansion-revenue-demand.html",
-    "short_link": "digitimes.com/news/a20261106VL204/photonics-silicon-expans...",
-    "summary": "중국 2위 파운드리 화홍그레이스가 2026년 3분기 역대 최고 매출과 147.1% 이익 급증에 힘입어 AI 인프라 수요를 겨냥해 실리콘 포토닉스 및 전력 관리 칩 사업 확대를 추진",
-    "published_ago": "6시간 전",
-    "published_at": "2026-11-06T01:57:16+00:00",
-    "published_raw": "Fri, 6 Nov 2026 01:57:16 GMT"
-  },
-  {
-    "title": "Macronix chairman pledges US$2 million to link NCKU with Stanford for top tech talent",
-    "link": "https://www.digitimes.com/news/a20261105PD237/macronix-international-industrial-talent-demand-taiwan.html",
-    "short_link": "digitimes.com/news/a20261105PD237/macronix-international-i...",
-    "summary": "마크로닉스 우민 회장이 대만 반도체 인력난 해소를 위해 모교인 국립성공대학교(NCKU)에 최소 200만 달러를 기부하여 스탠퍼드 대학교와 연계한 최고 기술 인재 양성 계획을 발표",
-    "published_ago": "9시간 전",
-    "published_at": "2026-11-05T23:24:12+00:00",
-    "published_raw": "Thu, 5 Nov 2026 23:24:12 GMT"
+    "title": "성과급 노사갈등 마이크론, 대만공장 건설 멈췄다",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zOEFOSk50d3FCSVlZUVBBMlZ2Wmx5OHB3T1QyWlJrZmJmN1hyakp4QjREYXVqSDBGLU1OX29DUkR6WGhmQzc0c0Z2anFMT2RYNnRYaXk1RVJpb2RaWDB0ZzhKaUduQTNQWnMtQmtKNXlNYU9jYlHSAWZBVV95cUxPOHExUmxjVTREaWtrNV91X0pudkhSdGN0ZWZRWl9ranlJa2pHSFZtc3ZtQmtuNkQ2aUdCWWJmZlRjbzhweFFOQy1seFc4aFJ4QzRSdEhKZHJ0cXotdl8zcGNBZVJWWXc?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMidkFVX3lxTE1zOEFOSk50d3FCS...",
+    "summary": "마이크론이 성과급 노사갈등으로 45억 달러 규모의 대만 신공장 증설을 전면 중단하며, 이는 삼성전자의 HBM 점유율 확대 기회로 작용할 가능성",
+    "published_ago": "13시간 전",
+    "published_at": "2026-11-06T02:42:00+00:00",
+    "published_raw": "Fri, 06 Nov 2026 02:42:00 GMT"
   }
 ]
