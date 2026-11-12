@@ -1,101 +1,11 @@
 [
   {
-    "title": "中 AI 숏폼 드라마 붐, 바이트댄스 시댄스·볼케이노 엔진에 새 토큰 수익 기회",
-    "link": "https://www.digitimes.com/news/a20261112PD213/bytedance-ai-video-production-revenue-china.html",
-    "short_link": "digitimes.com/news/a20261112PD213/bytedance-ai-video-produ...",
-    "summary": "중국의 AI 생성 숏폼 드라마 시장이 급성장하며 콘텐츠 생산과 시청률이 급증, 바이트댄스의 시댄스와 볼케이노 엔진에 새로운 토큰 수익 기회를 제공할 것으로 전망",
-    "published_ago": "1시간 전",
-    "published_at": "2026-11-12T07:01:06+00:00",
-    "published_raw": "Thu, 12 Nov 2026 07:01:06 GMT"
-  },
-  {
-    "title": "Sharp sells LCD color filter plant to Nitto Denko for JPY22.2B",
-    "link": "https://www.digitimes.com/news/a20261112PD232/sharp-plant-nitto-denko-lcd-business.html",
-    "short_link": "digitimes.com/news/a20261112PD232/sharp-plant-nitto-denko-...",
-    "summary": "샤프가 손실 사업 정리 일환으로 일본 미에현 쓰시 LCD 컬러 필터 공장을 닛토덴코에 222억엔에 매각한다고 공식 발표",
-    "published_ago": "1시간 전",
-    "published_at": "2026-11-12T06:55:00+00:00",
-    "published_raw": "Thu, 12 Nov 2026 06:55:00 GMT"
-  },
-  {
-    "title": "삼성·현대, AI 동맹 강화",
-    "link": "https://www.digitimes.com/news/a20261112PD216/samsung-hyundai-samsung-sdi-chairman-automotive.html",
-    "short_link": "digitimes.com/news/a20261112PD216/samsung-hyundai-samsung-...",
-    "summary": "삼성과 현대는 100명 이상의 고위 임원들이 모여 로봇, 에너지, 물리적 AI 분야에서 협력을 모색하며 전략적 파트너십을 심화할 계획",
-    "published_ago": "1시간 전",
-    "published_at": "2026-11-12T06:35:00+00:00",
-    "published_raw": "Thu, 12 Nov 2026 06:35:00 GMT"
-  },
-  {
-    "title": "美 기업 오픈소스 AI 지출 89% 중국 모델이 장악",
-    "link": "https://www.digitimes.com/news/a20261112PD230/china-ai-open-source-data-demand-2026.html",
-    "short_link": "digitimes.com/news/a20261112PD230/china-ai-open-source-dat...",
-    "summary": "미국 벤처캐피털 Menlo Ventures 보고서에 따르면, 미국 기업의 오픈소스 AI 모델 지출 중 89%를 중국 모델이 차지하며 시장 지배력을 확대",
-    "published_ago": "1시간 전",
-    "published_at": "2026-11-12T06:33:12+00:00",
-    "published_raw": "Thu, 12 Nov 2026 06:33:12 GMT"
-  },
-  {
-    "title": "도요타, 2H27부터 일본 경트럭 미국서 조립·판매",
-    "link": "https://www.digitimes.com/news/a20261111PD271/toyota-vehicle-usa-sales-2027.html",
-    "short_link": "digitimes.com/news/a20261111PD271/toyota-vehicle-usa-sales...",
-    "summary": "도요타는 2027년 하반기부터 단종된 사이언 브랜드의 첫 모델인 KEI-01 경트럭을 인디애나에서 조립해 미국 시장에 판매할 계획",
-    "published_ago": "2시간 전",
-    "published_at": "2026-11-12T06:15:08+00:00",
-    "published_raw": "Thu, 12 Nov 2026 06:15:08 GMT"
-  },
-  {
-    "title": "Intel China wants to turn untapped renewable energy into AI tokens with computing pods slated for 1H27",
-    "link": "https://www.digitimes.com/news/a20261112PD211/intel-china-renewable-energy-chipmakers-ai-inference-demand.html",
-    "short_link": "digitimes.com/news/a20261112PD211/intel-china-renewable-en...",
-    "summary": "인텔 차이나는 2027년 상반기까지 미활용 재생에너지를 AI 토큰으로 전환하는 컴퓨팅 포드를 출시하여 AI 컴퓨팅 수요 확장에 대응할 계획을 발표",
-    "published_ago": "2시간 전",
-    "published_at": "2026-11-12T05:58:38+00:00",
-    "published_raw": "Thu, 12 Nov 2026 05:58:38 GMT"
-  },
-  {
-    "title": "삼성전자, HBM 패키징 공장 가동 2028년 6월로 1년 앞당겨",
-    "link": "https://www.digitimes.com/news/a20261112VL209/samsung-hbm-packaging-2028-plant.html",
-    "short_link": "digitimes.com/news/a20261112VL209/samsung-hbm-packaging-20...",
-    "summary": "삼성전자가 AI 서버용 고대역폭 메모리 수요 증가에 대응하기 위해 HBM 패키징 공장 가동 시점을 2028년 6월로 1년 앞당겨 추진",
-    "published_ago": "2시간 전",
-    "published_at": "2026-11-12T05:57:08+00:00",
-    "published_raw": "Thu, 12 Nov 2026 05:57:08 GMT"
-  },
-  {
-    "title": "DFI, 산업용 엣지 AI 집중…자동화 기회 42% 주도",
-    "link": "https://www.digitimes.com/news/a20261112PD228/dfi-industrial-automation-ipc-2025.html",
-    "short_link": "digitimes.com/news/a20261112PD228/dfi-industrial-automatio...",
-    "summary": "산업용 컴퓨터 제조사 DFI는 2026년 3분기 EPS가 전년 동기 0.66달러에서 1.29달러로 급증하며 산업용 엣지 AI 배포를 확대할 계획",
-    "published_ago": "4시간 전",
-    "published_at": "2026-11-12T04:27:04+00:00",
-    "published_raw": "Thu, 12 Nov 2026 04:27:04 GMT"
-  },
-  {
-    "title": "한국 HBM 수요, 대만 유리섬유 수출 54% 급증 견인",
-    "link": "https://www.digitimes.com/news/a20261112PD207/taiwan-demand-exports-hbm-2026.html",
-    "short_link": "digitimes.com/news/a20261112PD207/taiwan-demand-exports-hb...",
-    "summary": "2026년 1~9월 대만의 한국향 유리섬유 수출이 HBM 및 첨단 패키징 수요에 힘입어 전년 대비 54.0% 증가했으며, 한국은 대만의 최대 무역 적자국으로 부상할 전망",
-    "published_ago": "4시간 전",
-    "published_at": "2026-11-12T04:24:49+00:00",
-    "published_raw": "Thu, 12 Nov 2026 04:24:49 GMT"
-  },
-  {
-    "title": "AI 병목현상, 컴퓨팅에서 전력으로 전환; 전력 반도체 다음 부족 전망",
-    "link": "https://www.digitimes.com/news/a20261112PD214/2026-panel-supply-chain-power-semiconductors-data.html",
-    "short_link": "digitimes.com/news/a20261112PD214/2026-panel-supply-chain-...",
-    "summary": "electronica 2026 개막 패널에서 업계 리더들은 AI의 주요 병목 현상이 컴퓨팅에서 전력 공급으로 이동하며, 전력 반도체가 다음 공급망 부족 사태를 야기할 것으로 예상",
-    "published_ago": "4시간 전",
-    "published_at": "2026-11-12T04:24:37+00:00",
-    "published_raw": "Thu, 12 Nov 2026 04:24:37 GMT"
-  },
-  {
-    "title": "“앨리스 황, 미국산 AI반도체 10조원어치 중국 우회 반입 의혹”",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2TUZteE9VTDFyM3B2b0lOODg1QnM1Ni01OEdfRTdQVkR4eWpzYU1rQTFfVmoyMm85V2ZWRHdCcUpwMEZST1FCbGo1U1dhdnlITW9hY3BuNTdZZ9IBX0FVX3lxTE9uWndkREw4Nm9XS3ZlcDZuTERaa1FWVlNVTFJsRTFNbjl0OFA1S2V1b1BySU1ianFCN2M1Z2daLXhmTkFoX3BIRWJjTkQ5RUFfdnlUQUJKUXBvSmRkbi1n?oc=5&hl=ko&gl=KR&ceid=KR:ko",
-    "short_link": "news.google.com/rss/articles/CBMiWkFVX3lxTFB2TUZteE9VTDFyM...",
-    "summary": "앨리스 황이 미국산 AI 반도체 10조원어치를 중국으로 우회 반입했다는 의혹이 제기되며 AI-반도체 빅테크 기업들의 스파이 경계령이 확산될 가능성",
-    "published_ago": "20시간 전",
-    "published_at": "2026-11-11T12:09:00+00:00",
-    "published_raw": "Wed, 11 Nov 2026 12:09:00 GMT"
+    "title": "콴타, 2027년 설비투자 AI 서버 전력 분야로 전환",
+    "link": "https://www.digitimes.com/news/a20261112PD243/quanta-2027-capex-ai-server-revenue.html",
+    "short_link": "digitimes.com/news/a20261112PD243/quanta-2027-capex-ai-ser...",
+    "summary": "콴타는 2026년 3분기 견조한 실적을 기록하고 2027년에도 성장을 예상하며, NT$400억~NT$450억 규모의 설비투자를 AI 서버 전력 분야에 집중할 계획",
+    "published_ago": "8시간 전",
+    "published_at": "2026-11-12T08:56:09+00:00",
+    "published_raw": "Thu, 12 Nov 2026 08:56:09 GMT"
   }
 ]
