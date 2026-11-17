@@ -1,101 +1,11 @@
 [
   {
-    "title": "美, 엔비디아 싱가포르 고객사 2024년 조사 시작 발표",
-    "link": "https://www.digitimes.com/news/a20261117VL215/nvidia-2024-2025-investigation-2026.html",
-    "short_link": "digitimes.com/news/a20261117VL215/nvidia-2024-2025-investi...",
-    "summary": "미국 상무부와 법무부가 11월 16일 공동 성명을 통해 싱가포르 기업 메가스피드에 대한 조사를 2024년에 시작했다고 발표",
+    "title": "머스크, 젠슨 황 지지에도 테슬라 서명 수 빅테크에 뒤처져",
+    "link": "https://www.digitimes.com/news/a20261117VL220/tesla-nvidia-tsmc-jensen-huang-bytedance.html",
+    "short_link": "digitimes.com/news/a20261117VL220/tesla-nvidia-tsmc-jensen...",
+    "summary": "일론 머스크가 젠슨 황을 지지했으나, 테슬라의 서명 수는 엔비디아와 TSMC 등 빅테크 기업들에 비해 뒤처지는 것으로 나타나 주목",
     "published_ago": "1시간 전",
-    "published_at": "2026-11-17T07:42:14+00:00",
-    "published_raw": "Tue, 17 Nov 2026 07:42:14 GMT"
-  },
-  {
-    "title": "SK하이닉스, 협력사 상용화 가속화 위해 파트너 파크·트리니티 팹 연계",
-    "link": "https://www.digitimes.com/news/a20261117PD232/sk-hynix-trinity-supplier-equipment-technology.html",
-    "short_link": "digitimes.com/news/a20261117PD232/sk-hynix-trinity-supplie...",
-    "summary": "SK하이닉스는 용인 반도체 클러스터 내 협력사 파트너 파크와 트리니티 팹 검증 시설을 연계하여 TEMC의 네온 가스 재활용 기술 도입 및 TES의 신공정 개발 가속화를 지원할 계획",
-    "published_ago": "1시간 전",
-    "published_at": "2026-11-17T06:55:00+00:00",
-    "published_raw": "Tue, 17 Nov 2026 06:55:00 GMT"
-  },
-  {
-    "title": "엔비디아 젠슨 황 퇴진 시 삼성전자, HBM 시장 최대 수혜 전망",
-    "link": "https://www.digitimes.com/news/a20261117PD239/nvidia-samsung-hbm-market-amd.html",
-    "short_link": "digitimes.com/news/a20261117PD239/nvidia-samsung-hbm-marke...",
-    "summary": "엔비디아 젠슨 황 CEO 퇴진으로 AI 칩 시장이 엔비디아 독점에서 벗어나 구글, AMD 등 비엔비디아 구매자로 HBM 수요가 전환될 경우 삼성전자가 최대 수혜를 입을 것으로 분석",
-    "published_ago": "1시간 전",
-    "published_at": "2026-11-17T06:46:13+00:00",
-    "published_raw": "Tue, 17 Nov 2026 06:46:13 GMT"
-  },
-  {
-    "title": "SK하이닉스, AI 메모리 수요 급증에 용인 Y1 클린룸 개방 가속",
-    "link": "https://www.digitimes.com/news/a20261117PD231/sk-hynix-cleanroom-memory-equipment-demand.html",
-    "short_link": "digitimes.com/news/a20261117PD231/sk-hynix-cleanroom-memor...",
-    "summary": "SK하이닉스는 인공지능(AI) 메모리 수요 급증에 대응하기 위해 용인 반도체 팹 Y1 클린룸 개방을 가속화할 계획",
-    "published_ago": "2시간 전",
-    "published_at": "2026-11-17T05:53:11+00:00",
-    "published_raw": "Tue, 17 Nov 2026 05:53:11 GMT"
-  },
-  {
-    "title": "APEC 선전 서밋, 中 기술 기업 글로벌 협력 주목",
-    "link": "https://www.digitimes.com/news/a20261117PD233/apec-shenzhen-business-digital-economy-2026.html",
-    "short_link": "digitimes.com/news/a20261117PD233/apec-shenzhen-business-d...",
-    "summary": "2026년 APEC 비즈니스 리더 서밋이 선전에서 개막하며 AI, 디지털 경제, 녹색 전환을 의제로 중국 기술 및 제조 기업들의 국제 협력 확대 노력이 부각",
-    "published_ago": "3시간 전",
-    "published_at": "2026-11-17T05:43:29+00:00",
-    "published_raw": "Tue, 17 Nov 2026 05:43:29 GMT"
-  },
-  {
-    "title": "Daxin, 2030년까지 반도체 재료 매출 절반 초과 목표",
-    "link": "https://www.digitimes.com/news/a20261117PD213/materials-revenue-daxin-demand-2026.html",
-    "short_link": "digitimes.com/news/a20261117PD213/materials-revenue-daxin-...",
-    "summary": "Daxin Materials는 AI 수요에 힘입어 디스플레이 재료에서 반도체 재료로 사업을 전환하며, 2030년까지 반도체 재료가 전체 매출의 절반 이상을 차지할 것으로 전망",
-    "published_ago": "4시간 전",
-    "published_at": "2026-11-17T04:28:47+00:00",
-    "published_raw": "Tue, 17 Nov 2026 04:28:47 GMT"
-  },
-  {
-    "title": "삼성 파운드리, 한국 AI 반도체 이니셔티브로 국방·로봇 시장 공략",
-    "link": "https://www.digitimes.com/news/a20261117PD220/samsung-foundry-ai-chip-samsung-chips-manufacturing.html",
-    "short_link": "digitimes.com/news/a20261117PD220/samsung-foundry-ai-chip-...",
-    "summary": "한국의 AI 반도체 개발 추진이 삼성전자 파운드리 사업에 새로운 기회를 제공하며, 국방 및 로봇 시장으로의 확장을 모색하고 있어 주목",
-    "published_ago": "4시간 전",
-    "published_at": "2026-11-17T04:21:33+00:00",
-    "published_raw": "Tue, 17 Nov 2026 04:21:33 GMT"
-  },
-  {
-    "title": "삼성, 메타 맞춤형 HBM 개발…2나노 공정 채택",
-    "link": "https://www.digitimes.com/news/a20261117PD225/samsung-hbm-meta-2nm-nvidia.html",
-    "short_link": "digitimes.com/news/a20261117PD225/samsung-hbm-meta-2nm-nvi...",
-    "summary": "삼성전자가 메타의 AI 칩용 맞춤형 고대역폭 메모리(HBM)를 개발하며 삼성 파운드리의 2나노 공정을 베이스 다이에 활용할 계획",
-    "published_ago": "5시간 전",
-    "published_at": "2026-11-17T03:45:00+00:00",
-    "published_raw": "Tue, 17 Nov 2026 03:45:00 GMT"
-  },
-  {
-    "title": "Xintec, TSMC 7년 장기 계약, 온-기판 생산 라인 구축 협력",
-    "link": "https://www.digitimes.com/news/a20261116PD237/xintec-substrate-production-capacity-outsourcing-tsmc.html",
-    "short_link": "digitimes.com/news/a20261116PD237/xintec-substrate-product...",
-    "summary": "Xintec이 고성능 컴퓨팅(HPC) 칩 수요에 대응하기 위해 모회사 TSMC와 7년 장기 계약을 체결하고 후공정 첨단 패키징 협력을 강화할 계획",
-    "published_ago": "5시간 전",
-    "published_at": "2026-11-17T03:44:38+00:00",
-    "published_raw": "Tue, 17 Nov 2026 03:44:38 GMT"
-  },
-  {
-    "title": "TSMC, 젠슨 황 복귀 청원서에 485회 언급되며 기업 중 최다",
-    "link": "https://www.digitimes.com/news/a20261117VL210/tsmc-jensen-huang-nvidia-technology-taiwan.html",
-    "short_link": "digitimes.com/news/a20261117VL210/tsmc-jensen-huang-nvidia...",
-    "summary": "엔비디아 젠슨 황 CEO의 복귀를 지지하는 청원서에서 TSMC가 485회 언급되어 다른 대만 기술 기업보다 4배 이상 많은 수치로 가장 많이 이름을 올린 것으로 분석돼 주목",
-    "published_ago": "5시간 전",
-    "published_at": "2026-11-17T03:35:01+00:00",
-    "published_raw": "Tue, 17 Nov 2026 03:35:01 GMT"
-  },
-  {
-    "title": "신코전기, JDI 모바라 공장 일부 에바라에 12년 임대",
-    "link": "https://www.digitimes.com/news/a20261117PD227/shinko-electric-jdi-plant-equipment-capacity.html",
-    "short_link": "digitimes.com/news/a20261117PD227/shinko-electric-jdi-plan...",
-    "summary": "신코전기가 인수 예정인 JDI 모바라 공장 일부를 반도체 장비업체 에바라에 2027년 4월부터 12년간 임대하여 에바라의 생산 능력 확대를 가속화할 전망",
-    "published_ago": "5시간 전",
-    "published_at": "2026-11-17T03:23:45+00:00",
-    "published_raw": "Tue, 17 Nov 2026 03:23:45 GMT"
+    "published_at": "2026-11-17T16:05:00+00:00",
+    "published_raw": "Tue, 17 Nov 2026 16:05:00 GMT"
   }
 ]
