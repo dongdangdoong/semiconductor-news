@@ -1,10 +1,64 @@
 [
   {
+    "title": "Nvidia's fiscal 2028 supply commitments more than double to US$203 billion",
+    "link": "https://www.digitimes.com/news/a20261118VL226/nvidia-hbm-memory-2028.html",
+    "short_link": "digitimes.com/news/a20261118VL226/nvidia-hbm-memory-2028.h...",
+    "summary": "엔비디아의 2028 회계연도 공급 및 생산 능력 약정이 지난 분기 동안 2030억 달러로 두 배 이상 증가하며, AI 칩 제조업체의 미래 구매 의무 급증을 시사",
+    "published_ago": "6시간 전",
+    "published_at": "2026-11-18T10:10:42+00:00",
+    "published_raw": "Wed, 18 Nov 2026 10:10:42 GMT"
+  },
+  {
+    "title": "글로벌파운드리, 미일 팹 AI 투자 소외 칩 집중",
+    "link": "https://www.digitimes.com/news/a20261118VL221/globalfoundries-usa-japan-fab-investment-chips-manufacturing.html",
+    "short_link": "digitimes.com/news/a20261118VL221/globalfoundries-usa-japa...",
+    "summary": "글로벌파운드리가 미국과 일본의 팹을 통해 AI 투자로 인해 소외될 수 있는 칩 생산에 집중하며, AI 인프라 투자로 인한 반도체 시장 재편에 대응할 계획을 발표",
+    "published_ago": "7시간 전",
+    "published_at": "2026-11-18T09:16:27+00:00",
+    "published_raw": "Wed, 18 Nov 2026 09:16:27 GMT"
+  },
+  {
+    "title": "대만, 아시아 최대 1GW 해상풍력 프로젝트 완료…2027년 TSMC에 공급",
+    "link": "https://www.digitimes.com/news/a20261118PD227/taiwan-offshore-wind-capacity-tsmc-2027.html",
+    "short_link": "digitimes.com/news/a20261118PD227/taiwan-offshore-wind-cap...",
+    "summary": "대만이 1GW 규모의 하이롱 해상풍력 프로젝트를 완료하고 73개 터빈을 전력망에 연결했으며, 2027년부터 TSMC에 모든 전력을 공급할 계획을 발표",
+    "published_ago": "7시간 전",
+    "published_at": "2026-11-18T09:07:26+00:00",
+    "published_raw": "Wed, 18 Nov 2026 09:07:26 GMT"
+  },
+  {
+    "title": "엔비디아 리더십 변화, 경쟁사 AI 칩 시장 진입 가능성",
+    "link": "https://www.digitimes.com/news/a20261118VL225/nvidia-amd-chips-ceo-google.html",
+    "short_link": "digitimes.com/news/a20261118VL225/nvidia-amd-chips-ceo-goo...",
+    "summary": "엔비디아의 리더십 변화가 AMD와 구글 등 경쟁사들의 AI 칩 시장 점유율 확대를 위한 기회가 될 수 있다는 분석이 제기되고 있어 주목",
+    "published_ago": "7시간 전",
+    "published_at": "2026-11-18T08:58:00+00:00",
+    "published_raw": "Wed, 18 Nov 2026 08:58:00 GMT"
+  },
+  {
+    "title": "AI 서버, TLVR 및 VPD 채택으로 커패시터 수요 증가",
+    "link": "https://www.digitimes.com/news/a20261118PD225/ai-server-tlvr-gpu-capacitor.html",
+    "short_link": "digitimes.com/news/a20261118PD225/ai-server-tlvr-gpu-capac...",
+    "summary": "AI 서버의 전력 공급 아키텍처가 TLVR 및 VPD를 채택하며 커패시터 요구사항과 제품 구조 변화를 가속화할 전망",
+    "published_ago": "8시간 전",
+    "published_at": "2026-11-18T08:49:24+00:00",
+    "published_raw": "Wed, 18 Nov 2026 08:49:24 GMT"
+  },
+  {
+    "title": "삼성전자 반도체 부문, 2026년 9개월간 설비투자 93% 차지",
+    "link": "https://www.digitimes.com/news/a20261118VL223/samsung-capex-2026-2025-revenue.html",
+    "short_link": "digitimes.com/news/a20261118VL223/samsung-capex-2026-2025-...",
+    "summary": "삼성전자 반도체 사업부가 2026년 첫 9개월 동안 회사 전체 설비투자의 약 93%를 차지하며, 설비투자와 연구개발 지출 모두 2025년 연간 총액을 넘어선 것으로 확인",
+    "published_ago": "8시간 전",
+    "published_at": "2026-11-18T08:24:17+00:00",
+    "published_raw": "Wed, 18 Nov 2026 08:24:17 GMT"
+  },
+  {
     "title": "삼성전자, HBM5에 웨이퍼 본딩 등 3가지 D램 로드맵 추진",
     "link": "https://www.digitimes.com/news/a20261118VL214/samsung-dram-roadmap-wafer.html",
     "short_link": "digitimes.com/news/a20261118VL214/samsung-dram-roadmap-waf...",
     "summary": "삼성전자가 차세대 D램 기술 로드맵으로 HBM5에 웨이퍼 본딩을 적용하고 모바일 메모리에는 기존 설계를 유지하며 고성능 제품을 위한 소형 메모리 셀 개발을 지속할 계획을 발표",
-    "published_ago": "58분 전",
+    "published_ago": "10시간 전",
     "published_at": "2026-11-18T06:50:46+00:00",
     "published_raw": "Wed, 18 Nov 2026 06:50:46 GMT"
   },
