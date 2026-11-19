@@ -1,20 +1,11 @@
 [
   {
-    "title": "글로벌파운드리, 미일 팹 AI 투자 소외 칩 집중",
-    "link": "https://www.digitimes.com/news/a20261118VL221/globalfoundries-usa-japan-fab-investment-chips-manufacturing.html",
-    "short_link": "digitimes.com/news/a20261118VL221/globalfoundries-usa-japa...",
-    "summary": "글로벌파운드리가 미국과 일본 팹을 통해 AI 투자로 소외될 수 있는 칩 생산에 집중하며 반도체 시장 변화에 대응할 계획",
-    "published_ago": "13시간 전",
-    "published_at": "2026-11-18T09:16:27+00:00",
-    "published_raw": "Wed, 18 Nov 2026 09:16:27 GMT"
-  },
-  {
-    "title": "대만, 아시아 최대 1GW 해상풍력 프로젝트 완료…2027년 TSMC에 공급",
-    "link": "https://www.digitimes.com/news/a20261118PD227/taiwan-offshore-wind-capacity-tsmc-2027.html",
-    "short_link": "digitimes.com/news/a20261118PD227/taiwan-offshore-wind-cap...",
-    "summary": "대만이 1GW 규모의 하이롱 해상풍력 프로젝트를 완료하고 73개 터빈을 전력망에 연결했으며, 2027년부터 TSMC에 모든 전력을 공급할 계획을 발표",
-    "published_ago": "14시간 전",
-    "published_at": "2026-11-18T09:07:26+00:00",
-    "published_raw": "Wed, 18 Nov 2026 09:07:26 GMT"
+    "title": "세미파이브, PFN과 HBM 대안으로 로직 다이 위에 D램 직접 적층",
+    "link": "https://www.digitimes.com/news/a20261119VL212/pfn-dram-design-hbm-processor.html",
+    "short_link": "digitimes.com/news/a20261119VL212/pfn-dram-design-hbm-proc...",
+    "summary": "한국 세미파이브와 일본 PFN이 기존 2.5D 패키지의 HBM 대안으로 로직 다이 위에 D램을 직접 적층하는 AI 추론 칩을 개발 중인 것으로 확인",
+    "published_ago": "20분 전",
+    "published_at": "2026-11-19T03:59:36+00:00",
+    "published_raw": "Thu, 19 Nov 2026 03:59:36 GMT"
   }
 ]
