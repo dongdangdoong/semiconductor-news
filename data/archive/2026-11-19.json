@@ -1,10 +1,73 @@
 [
   {
-    "title": "세미파이브, PFN과 HBM 대안으로 로직 다이 위에 D램 직접 적층",
+    "title": "엔비디아, AI 반도체 공급망 강화 위해 대만 협력 확대",
+    "link": "https://www.digitimes.com/news/a20261119PD229/nvidia-capacity-substrate-osat-taiwan.html",
+    "short_link": "digitimes.com/news/a20261119PD229/nvidia-capacity-substrat...",
+    "summary": "엔비디아가 AI 반도체 수요 급증에 대응하여 대만 IC 기판, 첨단 패키징, 테스트 분야에 대한 선결제를 통해 향후 3~5년간 생산 능력을 확보하며 공급망 협력을 강화할 계획",
+    "published_ago": "4시간 전",
+    "published_at": "2026-11-19T08:45:00+00:00",
+    "published_raw": "Thu, 19 Nov 2026 08:45:00 GMT"
+  },
+  {
+    "title": "엔비디아, AI 칩 공급망 영향 제한적에도 제품 로드맵 유지",
+    "link": "https://www.digitimes.com/news/a20261119PD224/nvidia-ai-chip-roadmap-earnings-development.html",
+    "short_link": "digitimes.com/news/a20261119PD224/nvidia-ai-chip-roadmap-e...",
+    "summary": "엔비디아는 전 CEO 젠슨 황의 이탈에도 불구하고 AI 칩 수요가 강세를 보이며 제품 개발 일정을 차질 없이 유지하고 있으나, 향후 자금 조달 정책은 더욱 엄격해질 것으로 예상",
+    "published_ago": "5시간 전",
+    "published_at": "2026-11-19T08:29:44+00:00",
+    "published_raw": "Thu, 19 Nov 2026 08:29:44 GMT"
+  },
+  {
+    "title": "ASE invests NT$248.9B in Renwu K52 plant for AI testing",
+    "link": "https://www.digitimes.com/news/a20261119PD228/testing-taiwan-ase-plant-subsidiary.html",
+    "short_link": "digitimes.com/news/a20261119PD228/testing-taiwan-ase-plant...",
+    "summary": "ASE 자회사 타이완 포어 일렉트로닉스가 가오슝 런우 산업단지 K52 공장에 2489억 대만달러를 투자하여 2028년과 2029년 완공을 목표로 AI 테스트 역량을 확대",
+    "published_ago": "5시간 전",
+    "published_at": "2026-11-19T08:20:00+00:00",
+    "published_raw": "Thu, 19 Nov 2026 08:20:00 GMT"
+  },
+  {
+    "title": "인텔, 18A-P 파운드리 공정 첫 고객 확보",
+    "link": "https://www.digitimes.com/news/a20261119VL222/intel-manufacturing-business-technology-design.html",
+    "short_link": "digitimes.com/news/a20261119VL222/intel-manufacturing-busi...",
+    "summary": "인텔이 TSMC와의 경쟁을 위해 18A-P 칩 제조 공정의 첫 외부 고객을 확보하며 파운드리 사업 확장을 본격화",
+    "published_ago": "5시간 전",
+    "published_at": "2026-11-19T07:45:00+00:00",
+    "published_raw": "Thu, 19 Nov 2026 07:45:00 GMT"
+  },
+  {
+    "title": "UBright, 반도체·수동 부품·스마트 음향 성장 목표",
+    "link": "https://www.digitimes.com/news/a20261119PD212/competition-passive-optical-film-market-technology.html",
+    "short_link": "digitimes.com/news/a20261119PD212/competition-passive-opti...",
+    "summary": "UBright Optronics는 광학 필름 시장 경쟁 심화 속 2027년 신사업 매출 기여를 목표로 반도체 패키징, 광학 도파관, 수동 부품 및 스마트 음향 분야로 사업을 확대",
+    "published_ago": "9시간 전",
+    "published_at": "2026-11-19T04:29:32+00:00",
+    "published_raw": "Thu, 19 Nov 2026 04:29:32 GMT"
+  },
+  {
+    "title": "삼성전자, 2027년 8인치 MPW 계획 미발표에 韓 팹리스 우려",
+    "link": "https://www.digitimes.com/news/a20261119PD200/samsung-ic-design-2027-12-inch-wafer.html",
+    "short_link": "digitimes.com/news/a20261119PD200/samsung-ic-design-2027-1...",
+    "summary": "삼성전자 파운드리 사업부가 8인치 공정 운영을 점진적으로 축소하며 2027년 8인치 MPW 계획을 발표하지 않아 국내 IC 설계 기업들의 시제품 생산 접근성 상실 우려가 부각",
+    "published_ago": "9시간 전",
+    "published_at": "2026-11-19T04:18:20+00:00",
+    "published_raw": "Thu, 19 Nov 2026 04:18:20 GMT"
+  },
+  {
+    "title": "엔비디아, 미 반도체 규제 전 알리바바-앨리스 황 연결…메가스피드 조사 심화",
+    "link": "https://www.digitimes.com/news/a20261119VL218/nvidia-alibaba-sales-technology-2022.html",
+    "short_link": "digitimes.com/news/a20261119VL218/nvidia-alibaba-sales-tec...",
+    "summary": "엔비디아 영업 조직이 2022년 미국 AI 칩 수출 통제 전 중국 알리바바 그룹을 미국-싱가포르 반도체 우회 조사 핵심 인물 앨리스 황에게 소개하며 메가스피드 조사가 심화될 전망",
+    "published_ago": "9시간 전",
+    "published_at": "2026-11-19T04:12:46+00:00",
+    "published_raw": "Thu, 19 Nov 2026 04:12:46 GMT"
+  },
+  {
+    "title": "세미파이브, PFN과 HBM 대안으로 로직 위에 D램 직접 적층",
     "link": "https://www.digitimes.com/news/a20261119VL212/pfn-dram-design-hbm-processor.html",
     "short_link": "digitimes.com/news/a20261119VL212/pfn-dram-design-hbm-proc...",
     "summary": "한국 세미파이브와 일본 PFN이 기존 2.5D 패키지의 HBM 대안으로 로직 다이 위에 D램을 직접 적층하는 AI 추론 칩을 개발 중인 것으로 확인",
-    "published_ago": "20분 전",
+    "published_ago": "9시간 전",
     "published_at": "2026-11-19T03:59:36+00:00",
     "published_raw": "Thu, 19 Nov 2026 03:59:36 GMT"
   }
