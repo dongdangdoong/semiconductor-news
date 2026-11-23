@@ -1,29 +1,65 @@
 [
   {
-    "title": "인도 반도체 야심, 실행 난관 직면",
-    "link": "https://www.digitimes.com/news/a20261119VL210/india-roundup-cost-equipment-investment-manufacturing-xiaomi.html",
-    "short_link": "digitimes.com/news/a20261119VL210/india-roundup-cost-equip...",
-    "summary": "인도가 반도체 투자 가속화에도 불구하고 고객 회의론, 제조 난제, 주요 관세 분쟁으로 기술 야심의 위험이 부각",
-    "published_ago": "2시간 전",
-    "published_at": "2026-11-22T23:51:12+00:00",
-    "published_raw": "Sun, 22 Nov 2026 23:51:12 GMT"
+    "title": "엔비디아, 기판 공급 확보…韓 AI 반도체 스타트업 공급난 직면",
+    "link": "https://www.digitimes.com/news/a20261123VL210/nvidia-capacity-substrate-ai-chip-data-center.html",
+    "short_link": "digitimes.com/news/a20261123VL210/nvidia-capacity-substrat...",
+    "summary": "엔비디아가 장기 공급 계약으로 첨단 칩 기판 생산 능력을 확보하는 가운데, 한국 AI 반도체 스타트업들은 핵심 부품 확보에 어려움을 겪으며 공급난이 심화될 가능성",
+    "published_ago": "1시간 전",
+    "published_at": "2026-11-23T08:22:52+00:00",
+    "published_raw": "Mon, 23 Nov 2026 08:22:52 GMT"
   },
   {
-    "title": "中 3대 반도체 허브, 싱가포르 장비 수입 2배 증가",
-    "link": "https://www.digitimes.com/news/a20261120VL216/equipment-manufacturing-sk-hynix-beijing-cxmt.html",
-    "short_link": "digitimes.com/news/a20261120VL216/equipment-manufacturing-...",
-    "summary": "중국 3대 반도체 생산 거점이 2026년 첫 7개월간 싱가포르산 반도체 제조 장비 수입을 34억 6천만 달러로 2배 늘리며 증착 장비 구매가 급증한 것으로 분석",
+    "title": "AMD, 82억 달러 규모 월드랩스 인수 완료",
+    "link": "https://www.digitimes.com/news/a20261123PD211/amd-acquisition-ai-chip-nvidia-hardware.html",
+    "short_link": "digitimes.com/news/a20261123PD211/amd-acquisition-ai-chip-...",
+    "summary": "AMD가 11월 16일 약 82억 달러 규모의 월드랩스 인수를 완료하며 AI 칩 경쟁에서 시스템 수준 역량 강화에 집중하는 모습이 부각",
     "published_ago": "2시간 전",
-    "published_at": "2026-11-22T23:50:56+00:00",
-    "published_raw": "Sun, 22 Nov 2026 23:50:56 GMT"
+    "published_at": "2026-11-23T07:27:43+00:00",
+    "published_raw": "Mon, 23 Nov 2026 07:27:43 GMT"
   },
   {
-    "title": "“반도체-가속기 등 한국의 AI 산업 영향력 과소평가”",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE40dGlqWjdIcktoc2VaNDdEX00wazRjdkE1bmRjYkNGUTV3MWhfSmx4THpiRTB5ZmQ5aDAtN2VnMklyOE9pNklIRFJLdzVXdThMcjQ3QW9ucGVxazlmM2pzSGNQNFg2ZTdtbDBlRFJmWE4ydVpoS1HSAWZBVV95cUxPSUpWbnBkUUJhRGxtUGwwMmRuRUsxTjZsZEhHNUdySFhvRUFSUHFIQXRrUUUtSE9YVnoxNTFnNk5CVUdoZVozUTM5VnVPaXViR3NPMFZySXRGcGRUVVBrbXZvMG9UTFE?oc=5&hl=ko&gl=KR&ceid=KR:ko",
-    "short_link": "news.google.com/rss/articles/CBMidkFVX3lxTE40dGlqWjdIcktoc...",
-    "summary": "리벨리온이 SKT에 국산 NPU '리벨' 칩 서버 40대를 공급하며 한국의 AI 반도체 산업 영향력 확대 가능성이 주목",
-    "published_ago": "10시간 전",
-    "published_at": "2026-11-22T15:30:00+00:00",
-    "published_raw": "Sun, 22 Nov 2026 15:30:00 GMT"
+    "title": "반도체 수출이 경상흑자 키웠지만…대외연 “투자부진도 흑자 한몫”",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5YdU9XWU1ZZEJsUzBCUC1Ic2dmbDVkMGlwalhQLXlfM2xnbzZxM2dZeGFHLW4yV1h4TzlBR3hWazIwQngwRkZLTzJSa1ZfU1JfOXc?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMiUkFVX3lxTE5YdU9XWU1ZZEJsU...",
+    "summary": "반도체 수출이 경상흑자를 견인했으나 대외경제정책연구원은 투자 부진도 흑자에 기여했다고 분석하며 내년 IT 수출 26.6% 증가와 소재산업 5.8% 감소 등 K자 양극화를 우려",
+    "published_ago": "2시간 전",
+    "published_at": "2026-11-23T07:18:53+00:00",
+    "published_raw": "Mon, 23 Nov 2026 07:18:53 GMT"
+  },
+  {
+    "title": "SmartSens bets US$225M on China's 40nm CIS foundry capacity despite mounting losses",
+    "link": "https://www.digitimes.com/news/a20261123VL211/cis-capacity-40nm-investment-manufacturing.html",
+    "short_link": "digitimes.com/news/a20261123VL211/cis-capacity-40nm-invest...",
+    "summary": "중국 팹리스 SmartSens가 2.25억 달러를 투자하여 우한 추싱 기술의 5.588% 지분을 확보하며 중국 내 40nm CIS 파운드리 생산 능력 강화를 추진",
+    "published_ago": "2시간 전",
+    "published_at": "2026-11-23T07:15:00+00:00",
+    "published_raw": "Mon, 23 Nov 2026 07:15:00 GMT"
+  },
+  {
+    "title": "애플, 맞춤형 칩 광학 패키징 인력 채용으로 실리콘 포토닉스 경쟁 진입",
+    "link": "https://www.digitimes.com/news/a20261123PD222/apple-photonics-silicon-packaging-chips.html",
+    "short_link": "digitimes.com/news/a20261123PD222/apple-photonics-silicon-...",
+    "summary": "애플이 차세대 데이터센터 칩에 실리콘 포토닉스 기술 통합을 가속화하기 위해 광학 패키징 전문가 채용을 확대하며 관련 시장 진입을 본격화",
+    "published_ago": "5시간 전",
+    "published_at": "2026-11-23T04:29:40+00:00",
+    "published_raw": "Mon, 23 Nov 2026 04:29:40 GMT"
+  },
+  {
+    "title": "SK하이닉스, 키옥시아 의결권 15% 확보",
+    "link": "https://www.digitimes.com/news/a20261123VL207/sk-hynix-kioxia-investment-nand-flash.html",
+    "short_link": "digitimes.com/news/a20261123VL207/sk-hynix-kioxia-investme...",
+    "summary": "SK하이닉스가 채권 전환을 통해 일본 키옥시아 홀딩스의 간접 최대 주주가 되며, 낸드플래시 경쟁사 키옥시아의 의결권을 15% 한도 내에서 확보할 전망",
+    "published_ago": "5시간 전",
+    "published_at": "2026-11-23T04:08:29+00:00",
+    "published_raw": "Mon, 23 Nov 2026 04:08:29 GMT"
+  },
+  {
+    "title": "트리니티팹, SK하이닉스 EUV 장비 사용 논의",
+    "link": "https://www.digitimes.com/news/a20261123PD214/trinity-equipment-sk-hynix-euv-production.html",
+    "short_link": "digitimes.com/news/a20261123PD214/trinity-equipment-sk-hyn...",
+    "summary": "한국의 트리니티팹이 SK하이닉스의 극자외선(EUV) 리소그래피 장비를 활용하여 EUV 포토레지스트 등 반도체 재료 테스트를 진행하는 방안을 협의 중인 것으로 확인",
+    "published_ago": "6시간 전",
+    "published_at": "2026-11-23T03:55:00+00:00",
+    "published_raw": "Mon, 23 Nov 2026 03:55:00 GMT"
   }
 ]
