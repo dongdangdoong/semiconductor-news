@@ -1,10 +1,28 @@
 [
   {
+    "title": "Texas comptroller backs US$354 million tax break for TSMC",
+    "link": "https://www.digitimes.com/news/a20261125VL228/tsmc-texas-investment-tax-incentive-arizona.html",
+    "short_link": "digitimes.com/news/a20261125VL228/tsmc-texas-investment-ta...",
+    "summary": "텍사스 감사관이 TSMC의 226억 달러 규모 브라조스 카운티 반도체 제조 단지에 3억 5400만 달러의 재산세 감면을 권고하며, 텍사스와 애리조나 간의 경쟁이 심화될 가능성",
+    "published_ago": "10시간 전",
+    "published_at": "2026-11-25T09:02:13+00:00",
+    "published_raw": "Wed, 25 Nov 2026 09:02:13 GMT"
+  },
+  {
+    "title": "화웨이·CXMT, 2027년 신규 메모리 설계로 韓 경쟁사 정조준",
+    "link": "https://www.digitimes.com/news/a20261125VL226/huawei-cxmt-dram-hbm-design.html",
+    "short_link": "digitimes.com/news/a20261125VL226/huawei-cxmt-dram-hbm-des...",
+    "summary": "화웨이와 CXMT가 2027년 2월 새로운 메모리 칩 설계를 발표하며 맞춤형 HBM 및 첨단 D램 제조 분야에서 한국 경쟁사들과의 경쟁을 본격화할 전망",
+    "published_ago": "11시간 전",
+    "published_at": "2026-11-25T08:32:31+00:00",
+    "published_raw": "Wed, 25 Nov 2026 08:32:31 GMT"
+  },
+  {
     "title": "日 자동차 부품 3사, 2027년 공동 조달 추진",
     "link": "https://www.digitimes.com/news/a20261125PD222/2027-materials-business-semiconductors-automotive.html",
     "short_link": "digitimes.com/news/a20261125PD222/2027-materials-business-...",
-    "summary": "알프스 알프스, 도카이 리카, 니폰 세이키 3사가 2027년 초부터 반도체, 기판, 수지 등 공통 재료의 공동 구매를 시작하여 협상력 강화 및 공급망 위험 감소를 목표로 협력 방침",
-    "published_ago": "2시간 전",
+    "summary": "알프스 알프스, 도카이 리카, 니폰 세이키 3사가 2027년 초부터 반도체, 기판, 수지 등 공통 재료의 공동 조달을 시작하여 협상력 강화 및 공급망 위험 감소를 목표로 추진",
+    "published_ago": "11시간 전",
     "published_at": "2026-11-25T08:00:00+00:00",
     "published_raw": "Wed, 25 Nov 2026 08:00:00 GMT"
   },
@@ -12,8 +30,8 @@
     "title": "캐논, 24년 만에 첫 ArF 건식 스캐너 공개",
     "link": "https://www.digitimes.com/news/a20261125VL218/canon-arf-scanner-equipment-manufacturing.html",
     "short_link": "digitimes.com/news/a20261125VL218/canon-arf-scanner-equipm...",
-    "summary": "캐논이 반도체 제조 장비 수요 증가에 맞춰 24년 만에 새로운 ArF 건식 리소그래피 스캐너를 공개하며 12월 초부터 주문을 받을 계획",
-    "published_ago": "3시간 전",
+    "summary": "캐논이 반도체 제조 장비 수요 증가에 맞춰 24년 만에 새로운 ArF 건식 리소그래피 스캐너를 공개하며 12월 초부터 주문을 받을 계획을 발표",
+    "published_ago": "12시간 전",
     "published_at": "2026-11-25T06:52:31+00:00",
     "published_raw": "Wed, 25 Nov 2026 06:52:31 GMT"
   },
@@ -22,7 +40,7 @@
     "link": "https://www.digitimes.com/news/a20261125PD217/taiwan-power-company-taiwan-expansion-infrastructure-transmission.html",
     "short_link": "digitimes.com/news/a20261125PD217/taiwan-power-company-tai...",
     "summary": "대만전력이 TSMC 등 남부 대만 반도체 기업들의 전력 수요 급증에 대응하기 위해 1096억 대만달러를 전력 전송 및 변환 인프라에 투자할 계획을 발표",
-    "published_ago": "3시간 전",
+    "published_ago": "12시간 전",
     "published_at": "2026-11-25T06:45:00+00:00",
     "published_raw": "Wed, 25 Nov 2026 06:45:00 GMT"
   },
