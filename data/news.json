@@ -1,20 +1,110 @@
 [
   {
-    "title": "라이텔 KY, LEO 위성·우주 AI 수요로 2027년 성장 전망",
-    "link": "https://www.digitimes.com/news/a20261125PD205/leo-2027-growth-laser-data.html",
-    "short_link": "digitimes.com/news/a20261125PD205/leo-2027-growth-laser-da...",
-    "summary": "글로벌 LEO 위성 발사 가속화와 우주 기반 AI 데이터센터 관심 증가는 레이저 통신 단말기 및 관련 광학 부품 수요를 견인하며 라이텔 KY의 2027년 성장을 가속화할 전망",
-    "published_ago": "36분 전",
-    "published_at": "2026-11-26T01:57:31+00:00",
-    "published_raw": "Thu, 26 Nov 2026 01:57:31 GMT"
+    "title": "DRAM 계약 가격, 공급 부족 지속에 고공행진",
+    "link": "https://www.digitimes.com/news/a20261126PD230/taiwan-dram-demand-capacity-business.html",
+    "short_link": "digitimes.com/news/a20261126PD230/taiwan-dram-demand-capac...",
+    "summary": "대만경제연구원은 AI 칩 수요로 첨단 공정 가동률이 높고 글로벌 DRAM 수급 불균형이 지속되어 계약 가격이 높게 유지되며 제조사 매출이 상승할 것으로 전망",
+    "published_ago": "1시간 전",
+    "published_at": "2026-11-26T10:35:08+00:00",
+    "published_raw": "Thu, 26 Nov 2026 10:35:08 GMT"
   },
   {
-    "title": "ISSCC 2027, 대만 논문 10편 선정",
-    "link": "https://www.digitimes.com/news/a20261125PD209/isscc-ieee-taiwan-2027-chairman.html",
-    "short_link": "digitimes.com/news/a20261125PD209/isscc-ieee-taiwan-2027-c...",
-    "summary": "반도체 설계 올림픽으로 불리는 ISSCC 2027에서 대만이 제출한 58편 중 10편의 논문이 선정되었으며, 중국은 460편 중 124편이 선정되어 1위를 기록한 것으로 확인",
-    "published_ago": "36분 전",
-    "published_at": "2026-11-26T01:57:22+00:00",
-    "published_raw": "Thu, 26 Nov 2026 01:57:22 GMT"
+    "title": "SK하이닉스, TSMC 3nm 공정 전문가 확보 추진",
+    "link": "https://www.digitimes.com/news/a20261126VL224/sk-hynix-tsmc-micron-3nm-hbm.html",
+    "short_link": "digitimes.com/news/a20261126VL224/sk-hynix-tsmc-micron-3nm...",
+    "summary": "SK하이닉스가 맞춤형 고대역폭 메모리(HBM) 개발을 위해 TSMC 3nm 공정 경험 엔지니어 확보를 추진하는 가운데, 마이크론은 아시아 확장을 위해 한국 인력 채용을 강화할 전망",
+    "published_ago": "1시간 전",
+    "published_at": "2026-11-26T09:58:19+00:00",
+    "published_raw": "Thu, 26 Nov 2026 09:58:19 GMT"
+  },
+  {
+    "title": "삼성·DB하이텍, AI 수요 급증에 8인치 파운드리 가격 인상 추진",
+    "link": "https://www.digitimes.com/news/a20261126VL227/demand-price-samsung-production-capacity.html",
+    "short_link": "digitimes.com/news/a20261126VL227/demand-price-samsung-pro...",
+    "summary": "삼성전자와 DB하이텍이 AI 데이터센터용 전력 반도체 수요 증가와 주요 칩메이커의 구형 생산 라인 축소로 8인치 파운드리 가동률이 최대치에 달하며 가격 인상을 추진할 전망",
+    "published_ago": "1시간 전",
+    "published_at": "2026-11-26T09:40:14+00:00",
+    "published_raw": "Thu, 26 Nov 2026 09:40:14 GMT"
+  },
+  {
+    "title": "마이크론·삼성·SK하이닉스, 수년간 메모리 공급 계약 체결",
+    "link": "https://www.digitimes.com/news/a20261126VL222/sk-hynix-micron-chipmakers-demand-chips.html",
+    "short_link": "digitimes.com/news/a20261126VL222/sk-hynix-micron-chipmake...",
+    "summary": "세계 3대 메모리 반도체 기업인 마이크론, 삼성, SK하이닉스가 AI 수요로 인한 공급 부족 심화에 따라 고객사들과 수년간의 공급 계약을 확보하며 시장 지배력을 강화",
+    "published_ago": "3시간 전",
+    "published_at": "2026-11-26T07:57:31+00:00",
+    "published_raw": "Thu, 26 Nov 2026 07:57:31 GMT"
+  },
+  {
+    "title": "CBTech, TGV 파운드리 생산라인 가동 및 5개 고객사 샘플 수주",
+    "link": "https://www.digitimes.com/news/a20261125PD232/tgv-equipment-packaging-production-taiwan.html",
+    "short_link": "digitimes.com/news/a20261125PD232/tgv-equipment-packaging-...",
+    "summary": "정밀 노광 장비업체 CBTech가 대만 최초의 TGV 및 GCS 전공정 파운드리 생산라인을 완공하고 가동을 시작하며 5개 주요 고객사로부터 샘플 주문을 확보",
+    "published_ago": "4시간 전",
+    "published_at": "2026-11-26T07:32:51+00:00",
+    "published_raw": "Thu, 26 Nov 2026 07:32:51 GMT"
+  },
+  {
+    "title": "아마존, 위성 인터넷 '카이퍼' 36개 위성 추가 발사",
+    "link": "https://www.digitimes.com/news/a20261126PD206/amazon-launch-starlink-commercial-capacity.html",
+    "short_link": "digitimes.com/news/a20261126PD206/amazon-launch-starlink-c...",
+    "summary": "아마존의 위성 인터넷 프로젝트 '카이퍼'가 유럽 아리안 6 로켓에 36개의 저궤도 위성을 추가로 성공적으로 발사하며 상업 서비스 출시를 위한 노력을 지속적으로 추진",
+    "published_ago": "6시간 전",
+    "published_at": "2026-11-26T05:35:14+00:00",
+    "published_raw": "Thu, 26 Nov 2026 05:35:14 GMT"
+  },
+  {
+    "title": "스페이스X, 100만 위성 승인으로 AI 인프라 공급망 확장",
+    "link": "https://www.digitimes.com/news/a20261126VL209/infrastructure-spacex-management-financing-fcc.html",
+    "short_link": "digitimes.com/news/a20261126VL209/infrastructure-spacex-ma...",
+    "summary": "스페이스X의 100만 위성 승인은 AI 인프라 구축의 한계를 넘어 전력, 토지, 열 관리 문제를 해결하며 AI 컴퓨팅 경쟁 영역을 지구 밖으로 확장할 가능성을 시사",
+    "published_ago": "7시간 전",
+    "published_at": "2026-11-26T04:22:25+00:00",
+    "published_raw": "Thu, 26 Nov 2026 04:22:25 GMT"
+  },
+  {
+    "title": "SK하이닉스, 2031년 100단 3D D램 생산 목표",
+    "link": "https://www.digitimes.com/news/a20261126VL216/dram-sk-hynix-3d-production-manufacturing.html",
+    "short_link": "digitimes.com/news/a20261126VL216/dram-sk-hynix-3d-product...",
+    "summary": "SK하이닉스는 기존 메모리 스케일링 한계를 극복하기 위해 4~5년 내 100단 3D D램 양산을 목표로 추진",
+    "published_ago": "7시간 전",
+    "published_at": "2026-11-26T04:15:07+00:00",
+    "published_raw": "Thu, 26 Nov 2026 04:15:07 GMT"
+  },
+  {
+    "title": "트럼프, 14개국 반도체·EV·태양광에 과잉생산 관세 부과 계획",
+    "link": "https://www.digitimes.com/news/a20261126PD218/us-china-trade-war-overcapacity-tariffs-industrial-manufacturing-solar.html",
+    "short_link": "digitimes.com/news/a20261126PD218/us-china-trade-war-overc...",
+    "summary": "트럼프 행정부가 14개 주요 교역국에 과잉생산을 이유로 반도체, 전기차, 태양광 제품에 새로운 관세를 부과할 계획을 발표",
+    "published_ago": "7시간 전",
+    "published_at": "2026-11-26T04:03:50+00:00",
+    "published_raw": "Thu, 26 Nov 2026 04:03:50 GMT"
+  },
+  {
+    "title": "일본, 핵심 품목 공급망 다변화 의무화 검토",
+    "link": "https://www.digitimes.com/news/a20261126VL208/supply-chain-government-security-semiconductors-materials.html",
+    "short_link": "digitimes.com/news/a20261126VL208/supply-chain-government-...",
+    "summary": "일본 정부가 경제 안보 강화를 위해 반도체 등 전략적 중요 품목 기업에 공급망 다변화 의무화를 검토하며 특정 국가 및 공급업체 의존도를 줄일 방침",
+    "published_ago": "8시간 전",
+    "published_at": "2026-11-26T02:58:00+00:00",
+    "published_raw": "Thu, 26 Nov 2026 02:58:00 GMT"
+  },
+  {
+    "title": "YMTC now licenses NAND tech to Samsung, SK Hynix: Inside the Xtacking patent wall reshaping 400-layer memory",
+    "link": "https://www.digitimes.com/news/a20261126VL210/samsung-sk-hynix-ymtc-nand-patent.html",
+    "short_link": "digitimes.com/news/a20261126VL210/samsung-sk-hynix-ymtc-na...",
+    "summary": "중국 YMTC가 개발한 3D 낸드 스태킹 기술인 Xtacking의 일부를 삼성전자와 SK하이닉스가 크로스 라이선싱 계약을 통해 채택하며, 400단 메모리 시장 재편 가능성이 부각",
+    "published_ago": "9시간 전",
+    "published_at": "2026-11-26T02:26:05+00:00",
+    "published_raw": "Thu, 26 Nov 2026 02:26:05 GMT"
+  },
+  {
+    "title": "Resonac, 2027년 패널 패키징용 감광성 필름 생산 목표",
+    "link": "https://www.digitimes.com/news/a20261126PR202/resonac-packaging-production-2027-demand.html",
+    "short_link": "digitimes.com/news/a20261126PR202/resonac-packaging-produc...",
+    "summary": "Resonac은 고성능 장치용 대형 패키지 형식에 맞춰 패널 레벨 반도체 패키징용 감광성 절연 필름을 개발하고 2027년 양산을 목표로 추진",
+    "published_ago": "9시간 전",
+    "published_at": "2026-11-26T02:08:45+00:00",
+    "published_raw": "Thu, 26 Nov 2026 02:08:45 GMT"
   }
 ]
