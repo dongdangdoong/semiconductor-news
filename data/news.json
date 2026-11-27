@@ -1,1 +1,101 @@
-[]
+[
+  {
+    "title": "中 반도체 확장, 장비 2년 대기 및 부품 부족으로 지연",
+    "link": "https://www.digitimes.com/news/a20261127PD213/china-semiconductors-capacity-expansion-component-equipment-smic.html",
+    "short_link": "digitimes.com/news/a20261127PD213/china-semiconductors-cap...",
+    "summary": "중국 파운드리들의 생산 능력 증설이 지속되지만, SMIC에 따르면 일부 반도체 장비의 리드 타임이 16~24개월, 심지어 24개월 이상으로 늘어나면서 확장 속도가 둔화될 가능성",
+    "published_ago": "3시간 전",
+    "published_at": "2026-11-27T09:20:19+00:00",
+    "published_raw": "Fri, 27 Nov 2026 09:20:19 GMT"
+  },
+  {
+    "title": "네덜란드 Trymax, 일본 Kanematsu PWS와 협력 강화",
+    "link": "https://www.digitimes.com/news/a20261127VL216/dutch-automotive-equipment-investment-japan-production.html",
+    "short_link": "digitimes.com/news/a20261127VL216/dutch-automotive-equipme...",
+    "summary": "네덜란드 플라즈마 장비 제조업체 Trymax Semiconductor Equipment가 Kanematsu PWS를 일본 독점 판매 대리점으로 지정하며 일본 시장 진출을 강화",
+    "published_ago": "3시간 전",
+    "published_at": "2026-11-27T09:11:21+00:00",
+    "published_raw": "Fri, 27 Nov 2026 09:11:21 GMT"
+  },
+  {
+    "title": "대만 공급망, 실리콘 포토닉스 및 CPO 대량 생산 핵심 역할",
+    "link": "https://www.digitimes.com/news/a20261127PD225/siph-cpo-equipment-2027.html",
+    "short_link": "digitimes.com/news/a20261127PD225/siph-cpo-equipment-2027....",
+    "summary": "AI 가속화로 실리콘 포토닉스(SiPh) 및 CPO 개발이 빨라지는 가운데, 대만 공급망의 역할이 주목받을 가능성",
+    "published_ago": "5시간 전",
+    "published_at": "2026-11-27T07:53:57+00:00",
+    "published_raw": "Fri, 27 Nov 2026 07:53:57 GMT"
+  },
+  {
+    "title": "TSMC, 차세대 A14 공정 칩 설계 준비 완료",
+    "link": "https://www.digitimes.com/news/a20261127VL211/tsmc-ic-design-production-capacity.html",
+    "short_link": "digitimes.com/news/a20261127VL211/tsmc-ic-design-productio...",
+    "summary": "세계 최대 파운드리 TSMC가 2028년 1.4nm급 기술의 양산 준비를 위해 차세대 A14 공정의 칩 설계를 완료하고 본격화",
+    "published_ago": "5시간 전",
+    "published_at": "2026-11-27T07:23:26+00:00",
+    "published_raw": "Fri, 27 Nov 2026 07:23:26 GMT"
+  },
+  {
+    "title": "日 JERA, Anthropic·Meta와 AI 데이터센터 협상",
+    "link": "https://www.digitimes.com/news/a20261127VL212/anthropic-meta-data-infrastructure-electricity.html",
+    "short_link": "digitimes.com/news/a20261127VL212/anthropic-meta-data-infr...",
+    "summary": "일본 최대 발전사 JERA가 Anthropic, Meta 등과 도쿄 인근 발전소 부지에 AI 데이터센터 개발을 위한 협상을 진행 중이라고 JERA 글로벌 CEO가 밝혀 주목",
+    "published_ago": "6시간 전",
+    "published_at": "2026-11-27T06:41:41+00:00",
+    "published_raw": "Fri, 27 Nov 2026 06:41:41 GMT"
+  },
+  {
+    "title": "이 트론 회장, AI로 반도체 경제 재편, 실리콘 4.0 시대 도래",
+    "link": "https://www.digitimes.com/news/a20261127PD217/etron-ai-server-semiconductors-taiwan-2026.html",
+    "short_link": "digitimes.com/news/a20261127PD217/etron-ai-server-semicond...",
+    "summary": "이 트론 회장은 AI가 대만 GDP에 두 자릿수 기여하며 2026년 말까지 글로벌 반도체 시장이 1.6조 달러로 두 배 성장해 실리콘 4.0 시대가 도래할 것으로 전망",
+    "published_ago": "6시간 전",
+    "published_at": "2026-11-27T06:09:26+00:00",
+    "published_raw": "Fri, 27 Nov 2026 06:09:26 GMT"
+  },
+  {
+    "title": "KV 캐시 성장, CXL 메모리 수요로 1대1 전환은 아냐",
+    "link": "https://www.digitimes.com/news/a20261126PD215/cxl-memory-dram-data-demand-growth.html",
+    "short_link": "digitimes.com/news/a20261126PD215/cxl-memory-dram-data-dem...",
+    "summary": "DIGITIMES는 AI 추론의 KV 캐시 급증이 CXL 메모리 수요로 비례하여 이어지지 않을 것이며, 호스트 DRAM이 HBM에서 이동된 데이터를 먼저 처리하기 때문이라고 분석",
+    "published_ago": "8시간 전",
+    "published_at": "2026-11-27T04:12:57+00:00",
+    "published_raw": "Fri, 27 Nov 2026 04:12:57 GMT"
+  },
+  {
+    "title": "Samsung chip fabs could deploy over 10,000 robots by 2030",
+    "link": "https://www.digitimes.com/news/a20261127VL209/samsung-2030-equipment-2026-manufacturing.html",
+    "short_link": "digitimes.com/news/a20261127VL209/samsung-2030-equipment-2...",
+    "summary": "삼성전자 반도체 시설에 도입되는 로봇 수가 2026년 약 100대에서 2030년 1만대 이상으로 대폭 증가할 전망",
+    "published_ago": "9시간 전",
+    "published_at": "2026-11-27T03:30:56+00:00",
+    "published_raw": "Fri, 27 Nov 2026 03:30:56 GMT"
+  },
+  {
+    "title": "TSMC, 3분기 파운드리 점유율 75% 기록…시장 36% 성장",
+    "link": "https://www.digitimes.com/news/a20261127PR203/tsmc-pure-play-foundry-market-revenue-2026.html",
+    "short_link": "digitimes.com/news/a20261127PR203/tsmc-pure-play-foundry-m...",
+    "summary": "TSMC가 2026년 3분기 순수 파운드리 시장에서 점유율 75%를 달성하며 전년 대비 36% 성장한 시장을 상회하는 16%의 매출 상승을 기록하며 시장 지배력을 강화",
+    "published_ago": "9시간 전",
+    "published_at": "2026-11-27T03:30:38+00:00",
+    "published_raw": "Fri, 27 Nov 2026 03:30:38 GMT"
+  },
+  {
+    "title": "84 million GDDR7 chips at stake: Nvidia's RTX Pro 5500 China cancellations test Samsung, SK Hynix",
+    "link": "https://www.digitimes.com/news/a20261126PD213/nvidia-rtx-sk-hynix-samsung-chips.html",
+    "short_link": "digitimes.com/news/a20261126PD213/nvidia-rtx-sk-hynix-sams...",
+    "summary": "엔비디아의 중국 AI 시장 진출 지연으로 삼성전자와 SK하이닉스가 기대했던 GDDR7 8400만개 칩 수요 증가에 불확실성이 확대",
+    "published_ago": "9시간 전",
+    "published_at": "2026-11-27T02:57:33+00:00",
+    "published_raw": "Fri, 27 Nov 2026 02:57:33 GMT"
+  },
+  {
+    "title": "트럼프, 내달 4일 TSMC 美 신규 공장 착공식 참석…반도체 투자 부각",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rbHF2WjhEYUJkYm85VXp2ZkxkdVBhTEMyYzNRSVpEMlZUWEdRaklKbTdZUnRIaTdiOXRxUUd0T3FwTU9WbzRvc0VhejY4WnhoSFRNa2lqT0Y4Qlp2blhmeNIBeEFVX3lxTFBRbGdlWHNWOGJ2U3NwYW9yQUQ0cFA5U0c4TWpEbVRWN1EyNnotMHJDT0VtVTRscF8wMUFWdFZDdjZkVC1CNmJCaGlGdlhMWUNFazAtdmEzQUpfY1pMNnpaUzRFbTN0YzZ5U0lJSjVmV0lrYUxFYUZNZA?oc=5&hl=ko&gl=KR&ceid=KR:ko",
+    "short_link": "news.google.com/rss/articles/CBMiYEFVX3lxTE9rbHF2WjhEYUJkY...",
+    "summary": "트럼프 전 대통령이 다음 달 4일 TSMC의 미국 애리조나 신규 공장 착공식에 참석하여 반도체 투자 성과를 부각할 것으로 예상",
+    "published_ago": "15시간 전",
+    "published_at": "2026-11-26T21:00:37+00:00",
+    "published_raw": "Thu, 26 Nov 2026 21:00:37 GMT"
+  }
+]
